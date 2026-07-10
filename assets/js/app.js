@@ -212,6 +212,7 @@
     const regionsWithData = (co.capacityByRegion || []).filter(r => r.mmbf != null);
     const isBF = /MMbf/.test(co.production.unit);
     const revLive = !!(co.live && co.live.revenue);
+    const prodLive = !!(co.live && co.live.production);
     const ind = DATA.industry.production.series;
 
     view.innerHTML = `
@@ -240,7 +241,7 @@
       </div>
 
       <div class="grid" style="margin-top:20px">
-        ${card('Production by quarter', co.production.unit + ' · quarterly', '', 'coProd', { tall: false, badge: false })}
+        ${card('Production by quarter', co.production.unit + ' · quarterly', prodLive ? 'Live from SEC filings — lumber volume parsed from the 10-Q/10-K MD&A tables.' : '', 'coProd', { tall: false, badge: prodLive })}
         ${card('Revenue by quarter', 'M USD · quarterly', revLive ? 'Live from SEC EDGAR (us-gaap Revenues, XBRL).' : '', 'coRev', { badge: revLive })}
         ${card('Inventory index', '2015 avg = 100 · quarterly', 'Lower can signal tight supply / strong shipments.', 'coInv', { badge: false })}
         ${regionsWithData.length
@@ -342,7 +343,7 @@
   (function initChrome() {
     const m = DATA.meta || {};
     const live = m.live || {};
-    const NAMES = { production: 'N.A. production', price: 'lumber price', housing: 'US housing', exports: 'Canadian exports', companies: 'company revenue (US filers)' };
+    const NAMES = { production: 'N.A. industry production', price: 'lumber price', housing: 'US housing', exports: 'Canadian exports', companies: 'company revenue + production (US filers)' };
     const keys = Object.keys(NAMES);
     const liveNames = keys.filter(k => live[k]).map(k => NAMES[k]);
     const sampleNames = keys.filter(k => !live[k]).map(k => NAMES[k]);

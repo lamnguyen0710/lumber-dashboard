@@ -9,7 +9,7 @@ supply/demand picture and lets you drill into individual public companies.
 > where Canadian wood is shipping under US duties/tariffs) and demand (US housing
 > starts & permits) — and to keep it current automatically.
 
-![status](https://img.shields.io/badge/status-3%20of%205%20sections%20LIVE%20(keyless)-2a78d6)
+![status](https://img.shields.io/badge/status-housing%20%C2%B7%20price%20%C2%B7%20exports%20%C2%B7%20company%20rev%20%2B%20prod%20LIVE-2a78d6)
 
 ---
 
@@ -46,26 +46,28 @@ app with a <kbd>LIVE</kbd> or <kbd>SAMPLE</kbd> badge so there's never any doubt
 | **US housing** (starts & permits) | ✅ **LIVE** | FRED public CSV (keyless), sourced from Census/HUD |
 | **Lumber price** ($/mbf) | ✅ **LIVE** | CME Lumber futures `LBR=F` (keyless; history from 2022) |
 | **Company revenue** (quarterly) | ✅ **LIVE** | SEC EDGAR XBRL (keyless) — US filers WY, LPX, PCH |
-| Company production / inventory | ⏳ sample | board-foot volumes live in MD&A text, not XBRL — not machine-readable |
-| Canadian exports by destination | ⏳ sample | no keyless-complete source (see note) |
-| N.A. lumber production | ⏳ sample | WWPA / APA / FEA are paid; no free API |
+| **Company production** (quarterly) | ✅ **LIVE** | parsed from EDGAR 10-Q/10-K MD&A tables — WY, PCH (lumber MMbf) |
+| **Canadian exports by destination** | ✅ **LIVE** | UN Comtrade full API (free key `COMTRADE_KEY`) |
+| Company inventory | ⏳ sample | not consistently disclosed as a machine-readable figure |
+| LP production | ⏳ sample | LP makes OSB/siding (MMsf) by product line, not dimensional lumber |
+| N.A. industry production | ⏳ sample | WWPA / APA / FEA are paid; no free API |
 
-Everything live is **fully keyless** — no accounts, no API keys, no secrets. Two
-sections can't be made keyless-live and are documented as such:
+Everything live is free — all keyless except exports, which uses a **free** UN
+Comtrade key (`COMTRADE_KEY`). What remains sample, and why:
 
-> **Exports:** the fully-keyless options don't return complete data — UN Comtrade's
-> public "preview" endpoint is truncated *and inconsistent* (returns a random capped
-> subset per call), and StatCan's softwood-by-country series is an interactive
-> "special extraction," not an API. Real paths: a **free UN Comtrade API key**
-> (`COMTRADE_KEY` secret) or a one-time CIMT CSV extract — both documented in
-> `pipeline/fetch/exports.mjs`.
+> **Company production** is parsed from the operating-statistics tables in each
+> company's EDGAR 10-Q/10-K (SEC XBRL doesn't carry board-foot volumes). This is
+> HTML-table scraping — more fragile than the structured feeds — so if an issuer
+> changes its table format, `pipeline/fetch/companies.mjs` falls back to sample for
+> that company. WY reports "Structural lumber – board feet: Production"; PCH reports
+> "Lumber shipments (MBF)". **LP** is excluded because it makes OSB/siding (MMsf by
+> product line), not dimensional lumber. History runs ~3 years (as far back as the
+> recent filings parse cleanly); WY has a Q4 gap because its 10-K reports capacity,
+> not annual production, in that table.
 >
-> **Company production volumes:** reported in board feet in MD&A/earnings tables, not
-> in XBRL, so EDGAR gives us *revenue* cleanly but not production. Company production
-> and inventory therefore stay sample and are badged as such per-chart.
->
-> **N.A. industry production:** the street sources (WWPA/APA/FEA) are subscription
-> data with no free API.
+> **N.A. industry-total production** and **company inventory** have no free
+> machine-readable source — the industry aggregates (WWPA/APA/FEA) are paid. These
+> stay sample, badged per-chart.
 
 "Sample" numbers are **synthetic**, scaled to realistic magnitudes so the whole
 dashboard is explorable today. The front-end never changes as sources go live — the
@@ -133,9 +135,9 @@ pipeline/
     index.mjs             merges live sources over placeholder (section by section)
     price.mjs             lumber price $/mbf         (CME LBR=F futures, keyless)   ✅ LIVE
     housing.mjs           US starts & permits        (FRED public CSV, keyless)     ✅ LIVE
-    companies.mjs         per-company revenue        (SEC EDGAR XBRL, keyless)      ✅ LIVE (US filers)
-    exports.mjs           Canadian exports by dest.  (UN Comtrade key / CIMT)       ⏳
-    production.mjs        N.A. softwood production   (WWPA / APA / FEA — paid)      ⏳
+    companies.mjs         per-company revenue + prod (SEC EDGAR XBRL + filings)     ✅ LIVE (US filers)
+    exports.mjs           Canadian exports by dest.  (UN Comtrade, free key)        ✅ LIVE
+    production.mjs        N.A. industry production   (WWPA / APA / FEA — paid)      ⏳
 ```
 
 **How it's designed to come online gradually:** each fetcher returns `null` today,

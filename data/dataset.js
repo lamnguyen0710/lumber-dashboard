@@ -2462,172 +2462,32 @@ window.LUMBER_DATA = {
         "freq": "quarterly",
         "series": [
           {
-            "period": "2015Q1",
-            "value": 1083
-          },
-          {
-            "period": "2015Q2",
-            "value": 1240
-          },
-          {
-            "period": "2015Q3",
-            "value": 1182
-          },
-          {
-            "period": "2015Q4",
-            "value": 1130
-          },
-          {
-            "period": "2016Q1",
-            "value": 1108
-          },
-          {
-            "period": "2016Q2",
-            "value": 1235
-          },
-          {
-            "period": "2016Q3",
-            "value": 1213
-          },
-          {
-            "period": "2016Q4",
-            "value": 1143
-          },
-          {
-            "period": "2017Q1",
-            "value": 1156
-          },
-          {
-            "period": "2017Q2",
-            "value": 1245
-          },
-          {
-            "period": "2017Q3",
-            "value": 1243
-          },
-          {
-            "period": "2017Q4",
-            "value": 1152
-          },
-          {
-            "period": "2018Q1",
-            "value": 1156
-          },
-          {
-            "period": "2018Q2",
-            "value": 1291
-          },
-          {
-            "period": "2018Q3",
-            "value": 1214
-          },
-          {
-            "period": "2018Q4",
-            "value": 1092
-          },
-          {
-            "period": "2019Q1",
-            "value": 1118
-          },
-          {
-            "period": "2019Q2",
-            "value": 1261
-          },
-          {
-            "period": "2019Q3",
-            "value": 1245
-          },
-          {
-            "period": "2019Q4",
-            "value": 1136
-          },
-          {
-            "period": "2020Q1",
-            "value": 1178
-          },
-          {
-            "period": "2020Q2",
-            "value": 1392
-          },
-          {
-            "period": "2020Q3",
-            "value": 1384
-          },
-          {
-            "period": "2020Q4",
-            "value": 1222
-          },
-          {
-            "period": "2021Q1",
-            "value": 1179
-          },
-          {
-            "period": "2021Q2",
-            "value": 1217
-          },
-          {
-            "period": "2021Q3",
-            "value": 1185
-          },
-          {
-            "period": "2021Q4",
-            "value": 1032
-          },
-          {
-            "period": "2022Q1",
-            "value": 985
-          },
-          {
-            "period": "2022Q2",
-            "value": 1057
-          },
-          {
-            "period": "2022Q3",
-            "value": 1060
-          },
-          {
-            "period": "2022Q4",
-            "value": 970
-          },
-          {
-            "period": "2023Q1",
-            "value": 962
-          },
-          {
-            "period": "2023Q2",
-            "value": 1156
-          },
-          {
-            "period": "2023Q3",
-            "value": 1173
-          },
-          {
-            "period": "2023Q4",
-            "value": 1066
-          },
-          {
             "period": "2024Q1",
-            "value": 1107
+            "value": 1085
           },
           {
             "period": "2024Q2",
-            "value": 1189
+            "value": 1163
           },
           {
             "period": "2024Q3",
-            "value": 1174
-          },
-          {
-            "period": "2024Q4",
-            "value": 1118
+            "value": 1046
           },
           {
             "period": "2025Q1",
-            "value": 1129
+            "value": 1163
           },
           {
             "period": "2025Q2",
-            "value": 1237
+            "value": 1208
+          },
+          {
+            "period": "2025Q3",
+            "value": 1167
+          },
+          {
+            "period": "2026Q1",
+            "value": 1100
           }
         ]
       },
@@ -2974,7 +2834,8 @@ window.LUMBER_DATA = {
         }
       ],
       "live": {
-        "revenue": true
+        "revenue": true,
+        "production": true
       }
     },
     "west-fraser": {
@@ -5268,172 +5129,52 @@ window.LUMBER_DATA = {
         "freq": "quarterly",
         "series": [
           {
-            "period": "2015Q1",
-            "value": 267
-          },
-          {
-            "period": "2015Q2",
-            "value": 306
-          },
-          {
-            "period": "2015Q3",
-            "value": 298
-          },
-          {
-            "period": "2015Q4",
-            "value": 277
-          },
-          {
-            "period": "2016Q1",
-            "value": 284
-          },
-          {
-            "period": "2016Q2",
-            "value": 304
-          },
-          {
-            "period": "2016Q3",
-            "value": 310
-          },
-          {
-            "period": "2016Q4",
-            "value": 281
-          },
-          {
-            "period": "2017Q1",
-            "value": 275
-          },
-          {
-            "period": "2017Q2",
-            "value": 304
-          },
-          {
-            "period": "2017Q3",
-            "value": 308
-          },
-          {
-            "period": "2017Q4",
-            "value": 288
-          },
-          {
-            "period": "2018Q1",
-            "value": 285
-          },
-          {
-            "period": "2018Q2",
-            "value": 320
-          },
-          {
-            "period": "2018Q3",
-            "value": 305
-          },
-          {
-            "period": "2018Q4",
-            "value": 279
-          },
-          {
-            "period": "2019Q1",
-            "value": 275
-          },
-          {
-            "period": "2019Q2",
-            "value": 302
-          },
-          {
-            "period": "2019Q3",
-            "value": 296
-          },
-          {
-            "period": "2019Q4",
-            "value": 280
-          },
-          {
-            "period": "2020Q1",
-            "value": 296
-          },
-          {
-            "period": "2020Q2",
-            "value": 340
-          },
-          {
-            "period": "2020Q3",
-            "value": 345
-          },
-          {
-            "period": "2020Q4",
-            "value": 305
-          },
-          {
-            "period": "2021Q1",
-            "value": 288
-          },
-          {
-            "period": "2021Q2",
-            "value": 306
-          },
-          {
-            "period": "2021Q3",
-            "value": 280
-          },
-          {
-            "period": "2021Q4",
-            "value": 249
-          },
-          {
-            "period": "2022Q1",
-            "value": 248
-          },
-          {
-            "period": "2022Q2",
-            "value": 256
-          },
-          {
             "period": "2022Q3",
-            "value": 260
-          },
-          {
-            "period": "2022Q4",
-            "value": 231
+            "value": 265
           },
           {
             "period": "2023Q1",
-            "value": 240
+            "value": 262
           },
           {
             "period": "2023Q2",
-            "value": 288
+            "value": 280
           },
           {
             "period": "2023Q3",
-            "value": 281
+            "value": 276
           },
           {
             "period": "2023Q4",
-            "value": 259
+            "value": 285
           },
           {
             "period": "2024Q1",
-            "value": 261
-          },
-          {
-            "period": "2024Q2",
-            "value": 299
-          },
-          {
-            "period": "2024Q3",
-            "value": 302
-          },
-          {
-            "period": "2024Q4",
             "value": 271
           },
           {
+            "period": "2024Q2",
+            "value": 286
+          },
+          {
+            "period": "2024Q3",
+            "value": 267
+          },
+          {
+            "period": "2024Q4",
+            "value": 283
+          },
+          {
             "period": "2025Q1",
-            "value": 278
+            "value": 290
           },
           {
             "period": "2025Q2",
-            "value": 302
+            "value": 303
+          },
+          {
+            "period": "2025Q3",
+            "value": 333
           }
         ]
       },
@@ -5800,7 +5541,8 @@ window.LUMBER_DATA = {
         }
       ],
       "live": {
-        "revenue": true
+        "revenue": true,
+        "production": true
       }
     },
     "greenfirst": {

@@ -78,22 +78,88 @@ function toQuarterly(rows, startYear) {
     .map(([period, val]) => ({ period, value: Math.round(val / 1e6) }));   // -> $M
 }
 
+// --- Production volumes (board feet) from filing MD&A tables --------------------
+// SEC XBRL doesn't carry board-foot volumes, so we parse the operating-statistics
+// table out of the 10-Q/10-K document HTML. Per-company because each issuer labels
+// its table differently. Value normalized to MMbf. (LP is excluded: it makes OSB /
+// siding, reported in MMsf by product line — not dimensional lumber.)
+const PRODUCTION = {
+  'weyerhaeuser':   { re: /Structural lumber\s*-\s*board feet:\s*Production\s+([\d,]+)/i, scale: 1 },   // already MMbf
+  'potlatchdeltic': { re: /Lumber shipments \(MBF\)\s*\d*\s+([\d,]+)/i, scale: 1 / 1000 },              // MBF -> MMbf
+};
+
+const stripTags = (h) => h
+  .replace(/<[^>]+>/g, ' ').replace(/&#8203;/g, '')
+  .replace(/&#160;|&nbsp;/g, ' ').replace(/&#8211;|&#8212;|&mdash;|&ndash;/g, '-')
+  .replace(/\s+/g, ' ');
+const reportToQuarter = (rep) => { const [y, m] = rep.split('-').map(Number); return `${y}Q${Math.ceil(m / 3)}`; };
+
+async function recentFilings(cikPadded, limit) {
+  const res = await fetch(`https://data.sec.gov/submissions/CIK${cikPadded}.json`, { headers: UA });
+  if (!res.ok) throw new Error(`submissions ${cikPadded}: HTTP ${res.status}`);
+  const r = (await res.json()).filings.recent;
+  const cikNum = String(parseInt(cikPadded, 10));
+  const out = [];
+  for (let i = 0; i < r.form.length && out.length < limit; i++) {
+    if (r.form[i] === '10-Q' || r.form[i] === '10-K') {
+      const acc = r.accessionNumber[i].replace(/-/g, '');
+      out.push({ form: r.form[i], rep: r.reportDate[i], url: `https://www.sec.gov/Archives/edgar/data/${cikNum}/${acc}/${r.primaryDocument[i]}` });
+    }
+  }
+  return out;
+}
+
+// 10-Q → the current quarter's volume; 10-K → the full-year figure (used only to
+// derive Q4 = annual − Q1..Q3, when the issuer's 10-K table matches).
+async function fetchProduction(cikPadded, cfg, startYear) {
+  const filings = await recentFilings(cikPadded, 13);
+  const quarter = new Map(), annual = new Map();
+  for (const f of filings) {
+    let txt;
+    try { const res = await fetch(f.url, { headers: UA }); if (!res.ok) continue; txt = stripTags(await res.text()); }
+    catch { continue; }
+    cfg.re.lastIndex = 0;
+    const m = cfg.re.exec(txt);
+    if (!m) continue;
+    const val = Math.round(parseInt(m[1].replace(/,/g, ''), 10) * cfg.scale);
+    if (f.form === '10-Q') quarter.set(reportToQuarter(f.rep), val);
+    else annual.set(f.rep.slice(0, 4), val);
+  }
+  for (const [yr, tot] of annual) {
+    const q = (n) => quarter.get(`${yr}Q${n}`);
+    if (!quarter.has(`${yr}Q4`) && q(1) != null && q(2) != null && q(3) != null && tot > q(1) + q(2) + q(3)) {
+      quarter.set(`${yr}Q4`, tot - q(1) - q(2) - q(3));
+    }
+  }
+  return [...quarter.entries()]
+    .filter(([p]) => Number(p.slice(0, 4)) >= startYear)
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([period, value]) => ({ period, value }));
+}
+
 export async function fetchCompanies({ startYear = 2015 } = {}) {
   const out = {};
   for (const [id, def] of Object.entries(SEC_FILERS)) {
+    const patch = {}, live = {};
+    // Revenue (XBRL) — merge both tags for full pre/post-2018 history.
     try {
-      // Merge ALL tags — US filers switched from us-gaap:Revenues to the ASC-606
-      // RevenueFromContractWithCustomer tag around 2018, so both are needed for
-      // full history. toQuarterly dedupes by calendar quarter.
       let rows = [];
       for (const tag of def.tags) { const r = await fetchConcept(def.cik, tag); if (r) rows = rows.concat(r); }
-      if (!rows.length) { console.warn(`[companies] ${id}: no revenue concept`); continue; }
-      const series = toQuarterly(rows, startYear);
-      if (series.length < 4) { console.warn(`[companies] ${id}: too few quarters`); continue; }
-      out[id] = { revenue: { unit: 'M USD', freq: 'quarterly', series }, live: { revenue: true } };
-    } catch (e) {
-      console.warn(`[companies] ${id}: ${e.message}`);
+      const series = rows.length ? toQuarterly(rows, startYear) : [];
+      if (series.length >= 4) { patch.revenue = { unit: 'M USD', freq: 'quarterly', series }; live.revenue = true; }
+      else console.warn(`[companies] ${id}: too few revenue quarters`);
+    } catch (e) { console.warn(`[companies] ${id} revenue: ${e.message}`); }
+
+    // Production (filing MD&A) — only for issuers with a known table format.
+    if (PRODUCTION[id]) {
+      try {
+        const series = await fetchProduction(def.cik, PRODUCTION[id], startYear);
+        if (series.length >= 4) { patch.production = { unit: 'MMbf', freq: 'quarterly', series }; live.production = true; }
+        else console.warn(`[companies] ${id}: too few production quarters (${series.length})`);
+      } catch (e) { console.warn(`[companies] ${id} production: ${e.message}`); }
     }
+
+    if (Object.keys(live).length) { patch.live = live; out[id] = patch; }
   }
   return Object.keys(out).length ? out : null;
 }
@@ -103,6 +169,8 @@ import { pathToFileURL } from 'node:url';
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const c = await fetchCompanies();
   for (const [id, v] of Object.entries(c || {})) {
-    console.log(id, v.revenue.series.length, 'quarters, last =', JSON.stringify(v.revenue.series.at(-1)));
+    const rev = v.revenue ? `rev ${v.revenue.series.length}q (last ${JSON.stringify(v.revenue.series.at(-1))})` : 'rev —';
+    const prod = v.production ? `prod ${v.production.series.length}q (last ${JSON.stringify(v.production.series.at(-1))})` : 'prod —';
+    console.log(id, '|', rev, '|', prod);
   }
 }
