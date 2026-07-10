@@ -90,7 +90,7 @@
 
     const tiles = [
       tile('N.A. lumber production', F.compact(lastProd.na_total), 'MMbf', deltaBadge(F.yoy(prod, 'na_total')), `${F.period(lastProd.period)} · US ${Math.round(lastProd.us_total / lastProd.na_total * 100)}% / CA ${Math.round(lastProd.canada_total / lastProd.na_total * 100)}%`),
-      tile('Framing lumber price', F.money(lastPrice.framing_composite), '/mbf', deltaBadge(F.yoy(price, 'framing_composite')), `${F.period(lastPrice.period)} composite`),
+      tile('Lumber price (CME)', F.money(lastPrice.framing_composite), '/mbf', deltaBadge(F.yoy(price, 'framing_composite')), `${F.period(lastPrice.period)} · front-month futures`),
       tile('US housing starts', F.int(lastStarts.total), 'K SAAR', deltaBadge(F.yoy(starts, 'total')), `${F.period(lastStarts.period)} · ${Math.round(lastStarts.single_family / lastStarts.total * 100)}% single-family`),
       tile('Canada→US export share', usShareNow.toFixed(0) + '%', '', deltaBadge(usShareNow - usShareYr, { suffix: ' pp' }), `of Canadian softwood exports · ${F.period(lastExp.period)}`),
     ];
@@ -104,7 +104,7 @@
 
       <div class="grid" style="margin-top:20px">
         ${card('North American lumber production', 'MMbf / quarter · stacked by origin', 'US vs. Canadian mills. Total ≈ ' + F.compact(lastProd.na_total * 4) + ' MMbf annualized.', 'chProd', { span: true, tall: true, section: 'production' })}
-        ${card('Framing lumber composite price', '$/mbf · monthly', 'Note the 2021 shortage spike toward $1,500+/mbf and the 2022 rate-shock reversal.', 'chPrice', { section: 'price' })}
+        ${card('Lumber price — CME futures', '$/mbf · monthly', 'CME front-month lumber futures (LBR). The current contract launched in 2022, so this live series starts then.', 'chPrice', { section: 'price' })}
         ${card('US housing — starts vs. permits', 'thousands (SAAR) · monthly', 'The demand side. Permits lead starts; both cooled through the 2022–23 rate cycle.', 'chHousing', { section: 'housing' })}
         ${card('Canadian softwood exports by destination', 'MMbf / quarter · stacked', 'Where the wood goes. Watch US share give way to China / Japan / Europe as duties + tariffs bite.', 'chExports', { span: true, tall: true, section: 'exports' })}
         ${card('US share of Canadian exports', '% of total · quarterly', 'The trade-diversion story in one line — declining reliance on the US market.', 'chUsShare', { section: 'exports' })}
@@ -331,7 +331,7 @@
   (function initChrome() {
     const m = DATA.meta || {};
     const live = m.live || {};
-    const NAMES = { production: 'N.A. production', price: 'framing price', housing: 'US housing', exports: 'Canadian exports', companies: 'company data' };
+    const NAMES = { production: 'N.A. production', price: 'lumber price', housing: 'US housing', exports: 'Canadian exports', companies: 'company data' };
     const keys = Object.keys(NAMES);
     const liveNames = keys.filter(k => live[k]).map(k => NAMES[k]);
     const sampleNames = keys.filter(k => !live[k]).map(k => NAMES[k]);

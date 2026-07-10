@@ -6,7 +6,7 @@ window.LUMBER_DATA = {
     "isPlaceholder": true,
     "live": {
       "production": false,
-      "price": false,
+      "price": true,
       "housing": true,
       "exports": false,
       "companies": false
@@ -473,508 +473,196 @@ window.LUMBER_DATA = {
       "freq": "monthly",
       "series": [
         {
-          "period": "2015-01",
-          "framing_composite": 396
-        },
-        {
-          "period": "2015-02",
-          "framing_composite": 402
-        },
-        {
-          "period": "2015-03",
-          "framing_composite": 393
-        },
-        {
-          "period": "2015-04",
-          "framing_composite": 392
-        },
-        {
-          "period": "2015-05",
-          "framing_composite": 396
-        },
-        {
-          "period": "2015-06",
-          "framing_composite": 389
-        },
-        {
-          "period": "2015-07",
-          "framing_composite": 414
-        },
-        {
-          "period": "2015-08",
-          "framing_composite": 424
-        },
-        {
-          "period": "2015-09",
-          "framing_composite": 397
-        },
-        {
-          "period": "2015-10",
-          "framing_composite": 414
-        },
-        {
-          "period": "2015-11",
-          "framing_composite": 413
-        },
-        {
-          "period": "2015-12",
-          "framing_composite": 413
-        },
-        {
-          "period": "2016-01",
-          "framing_composite": 388
-        },
-        {
-          "period": "2016-02",
-          "framing_composite": 423
-        },
-        {
-          "period": "2016-03",
-          "framing_composite": 421
-        },
-        {
-          "period": "2016-04",
-          "framing_composite": 417
-        },
-        {
-          "period": "2016-05",
-          "framing_composite": 402
-        },
-        {
-          "period": "2016-06",
-          "framing_composite": 418
-        },
-        {
-          "period": "2016-07",
-          "framing_composite": 413
-        },
-        {
-          "period": "2016-08",
-          "framing_composite": 398
-        },
-        {
-          "period": "2016-09",
-          "framing_composite": 426
-        },
-        {
-          "period": "2016-10",
-          "framing_composite": 429
-        },
-        {
-          "period": "2016-11",
-          "framing_composite": 400
-        },
-        {
-          "period": "2016-12",
-          "framing_composite": 400
-        },
-        {
-          "period": "2017-01",
-          "framing_composite": 408
-        },
-        {
-          "period": "2017-02",
-          "framing_composite": 424
-        },
-        {
-          "period": "2017-03",
-          "framing_composite": 413
-        },
-        {
-          "period": "2017-04",
-          "framing_composite": 424
-        },
-        {
-          "period": "2017-05",
-          "framing_composite": 431
-        },
-        {
-          "period": "2017-06",
-          "framing_composite": 406
-        },
-        {
-          "period": "2017-07",
-          "framing_composite": 402
-        },
-        {
-          "period": "2017-08",
-          "framing_composite": 404
-        },
-        {
-          "period": "2017-09",
-          "framing_composite": 425
-        },
-        {
-          "period": "2017-10",
-          "framing_composite": 419
-        },
-        {
-          "period": "2017-11",
-          "framing_composite": 408
-        },
-        {
-          "period": "2017-12",
-          "framing_composite": 411
-        },
-        {
-          "period": "2018-01",
-          "framing_composite": 409
-        },
-        {
-          "period": "2018-02",
-          "framing_composite": 430
-        },
-        {
-          "period": "2018-03",
-          "framing_composite": 414
-        },
-        {
-          "period": "2018-04",
-          "framing_composite": 428
-        },
-        {
-          "period": "2018-05",
-          "framing_composite": 415
-        },
-        {
-          "period": "2018-06",
-          "framing_composite": 417
-        },
-        {
-          "period": "2018-07",
-          "framing_composite": 414
-        },
-        {
-          "period": "2018-08",
-          "framing_composite": 413
-        },
-        {
-          "period": "2018-09",
-          "framing_composite": 444
-        },
-        {
-          "period": "2018-10",
-          "framing_composite": 430
-        },
-        {
-          "period": "2018-11",
-          "framing_composite": 449
-        },
-        {
-          "period": "2018-12",
-          "framing_composite": 441
-        },
-        {
-          "period": "2019-01",
-          "framing_composite": 429
-        },
-        {
-          "period": "2019-02",
-          "framing_composite": 419
-        },
-        {
-          "period": "2019-03",
-          "framing_composite": 440
-        },
-        {
-          "period": "2019-04",
-          "framing_composite": 428
-        },
-        {
-          "period": "2019-05",
-          "framing_composite": 419
-        },
-        {
-          "period": "2019-06",
-          "framing_composite": 421
-        },
-        {
-          "period": "2019-07",
-          "framing_composite": 435
-        },
-        {
-          "period": "2019-08",
-          "framing_composite": 445
-        },
-        {
-          "period": "2019-09",
-          "framing_composite": 430
-        },
-        {
-          "period": "2019-10",
-          "framing_composite": 435
-        },
-        {
-          "period": "2019-11",
-          "framing_composite": 443
-        },
-        {
-          "period": "2019-12",
-          "framing_composite": 430
-        },
-        {
-          "period": "2020-01",
-          "framing_composite": 441
-        },
-        {
-          "period": "2020-02",
-          "framing_composite": 443
-        },
-        {
-          "period": "2020-03",
-          "framing_composite": 434
-        },
-        {
-          "period": "2020-04",
-          "framing_composite": 451
-        },
-        {
-          "period": "2020-05",
-          "framing_composite": 454
-        },
-        {
-          "period": "2020-06",
-          "framing_composite": 437
-        },
-        {
-          "period": "2020-07",
-          "framing_composite": 498
-        },
-        {
-          "period": "2020-08",
-          "framing_composite": 516
-        },
-        {
-          "period": "2020-09",
-          "framing_composite": 495
-        },
-        {
-          "period": "2020-10",
-          "framing_composite": 741
-        },
-        {
-          "period": "2020-11",
-          "framing_composite": 739
-        },
-        {
-          "period": "2020-12",
-          "framing_composite": 767
-        },
-        {
-          "period": "2021-01",
-          "framing_composite": 1262
-        },
-        {
-          "period": "2021-02",
-          "framing_composite": 1291
-        },
-        {
-          "period": "2021-03",
-          "framing_composite": 1262
-        },
-        {
-          "period": "2021-04",
-          "framing_composite": 1616
-        },
-        {
-          "period": "2021-05",
-          "framing_composite": 1603
-        },
-        {
-          "period": "2021-06",
-          "framing_composite": 1611
-        },
-        {
-          "period": "2021-07",
-          "framing_composite": 1287
-        },
-        {
-          "period": "2021-08",
-          "framing_composite": 1310
-        },
-        {
-          "period": "2021-09",
-          "framing_composite": 1277
-        },
-        {
-          "period": "2021-10",
-          "framing_composite": 902
-        },
-        {
-          "period": "2021-11",
-          "framing_composite": 880
-        },
-        {
-          "period": "2021-12",
-          "framing_composite": 908
-        },
-        {
-          "period": "2022-01",
-          "framing_composite": 991
-        },
-        {
-          "period": "2022-02",
-          "framing_composite": 998
-        },
-        {
-          "period": "2022-03",
-          "framing_composite": 994
-        },
-        {
-          "period": "2022-04",
-          "framing_composite": 1171
-        },
-        {
-          "period": "2022-05",
-          "framing_composite": 1179
-        },
-        {
-          "period": "2022-06",
-          "framing_composite": 1156
-        },
-        {
-          "period": "2022-07",
-          "framing_composite": 934
-        },
-        {
           "period": "2022-08",
-          "framing_composite": 927
+          "framing_composite": 586
         },
         {
           "period": "2022-09",
-          "framing_composite": 922
+          "framing_composite": 525
         },
         {
           "period": "2022-10",
-          "framing_composite": 619
+          "framing_composite": 539
         },
         {
           "period": "2022-11",
-          "framing_composite": 619
+          "framing_composite": 510
         },
         {
           "period": "2022-12",
-          "framing_composite": 614
+          "framing_composite": 497
         },
         {
           "period": "2023-01",
-          "framing_composite": 475
+          "framing_composite": 590
         },
         {
           "period": "2023-02",
-          "framing_composite": 491
+          "framing_composite": 450
         },
         {
           "period": "2023-03",
-          "framing_composite": 469
+          "framing_composite": 483
         },
         {
           "period": "2023-04",
-          "framing_composite": 485
+          "framing_composite": 461
         },
         {
           "period": "2023-05",
-          "framing_composite": 478
+          "framing_composite": 482
         },
         {
           "period": "2023-06",
-          "framing_composite": 473
+          "framing_composite": 531
         },
         {
           "period": "2023-07",
-          "framing_composite": 466
+          "framing_composite": 496
         },
         {
           "period": "2023-08",
-          "framing_composite": 483
+          "framing_composite": 504
         },
         {
           "period": "2023-09",
-          "framing_composite": 473
+          "framing_composite": 502
         },
         {
           "period": "2023-10",
-          "framing_composite": 457
+          "framing_composite": 509
         },
         {
           "period": "2023-11",
-          "framing_composite": 454
+          "framing_composite": 526
         },
         {
           "period": "2023-12",
-          "framing_composite": 479
+          "framing_composite": 544
         },
         {
           "period": "2024-01",
-          "framing_composite": 483
+          "framing_composite": 557
         },
         {
           "period": "2024-02",
-          "framing_composite": 453
+          "framing_composite": 570
         },
         {
           "period": "2024-03",
-          "framing_composite": 480
+          "framing_composite": 585
         },
         {
           "period": "2024-04",
-          "framing_composite": 476
+          "framing_composite": 501
         },
         {
           "period": "2024-05",
-          "framing_composite": 455
+          "framing_composite": 508
         },
         {
           "period": "2024-06",
-          "framing_composite": 469
+          "framing_composite": 451
         },
         {
           "period": "2024-07",
-          "framing_composite": 494
+          "framing_composite": 505
         },
         {
           "period": "2024-08",
-          "framing_composite": 488
+          "framing_composite": 493
         },
         {
           "period": "2024-09",
-          "framing_composite": 480
+          "framing_composite": 525
         },
         {
           "period": "2024-10",
-          "framing_composite": 495
+          "framing_composite": 558
         },
         {
           "period": "2024-11",
-          "framing_composite": 474
+          "framing_composite": 589
         },
         {
           "period": "2024-12",
-          "framing_composite": 465
+          "framing_composite": 543
         },
         {
           "period": "2025-01",
-          "framing_composite": 479
+          "framing_composite": 592
         },
         {
           "period": "2025-02",
-          "framing_composite": 483
+          "framing_composite": 635
         },
         {
           "period": "2025-03",
-          "framing_composite": 473
+          "framing_composite": 592
         },
         {
           "period": "2025-04",
-          "framing_composite": 500
+          "framing_composite": 550
         },
         {
           "period": "2025-05",
-          "framing_composite": 483
+          "framing_composite": 592
         },
         {
           "period": "2025-06",
-          "framing_composite": 471
+          "framing_composite": 611
+        },
+        {
+          "period": "2025-07",
+          "framing_composite": 696
+        },
+        {
+          "period": "2025-08",
+          "framing_composite": 549
+        },
+        {
+          "period": "2025-09",
+          "framing_composite": 616
+        },
+        {
+          "period": "2025-10",
+          "framing_composite": 539
+        },
+        {
+          "period": "2025-11",
+          "framing_composite": 544
+        },
+        {
+          "period": "2025-12",
+          "framing_composite": 533
+        },
+        {
+          "period": "2026-01",
+          "framing_composite": 594
+        },
+        {
+          "period": "2026-02",
+          "framing_composite": 558
+        },
+        {
+          "period": "2026-03",
+          "framing_composite": 597
+        },
+        {
+          "period": "2026-04",
+          "framing_composite": 573
+        },
+        {
+          "period": "2026-05",
+          "framing_composite": 588
+        },
+        {
+          "period": "2026-06",
+          "framing_composite": 624
+        },
+        {
+          "period": "2026-07",
+          "framing_composite": 637
         }
       ]
     },
