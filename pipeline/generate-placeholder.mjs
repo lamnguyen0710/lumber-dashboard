@@ -283,6 +283,7 @@ export function generateDataset() {
       housingPermits: { unit: 'thousands (SAAR)', freq: 'monthly', series: housing('permits') },
       canadaExports: { unit: 'MMbf', freq: 'quarterly', destinations: exp.destinations, series: exp.series },
       tradeActions,
+      news: { fetchedAt: null, items: [] },   // populated at build time by fetch/news.mjs (keyless)
     },
     companies: buildCompanies(),
   };

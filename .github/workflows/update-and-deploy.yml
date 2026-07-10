@@ -4,9 +4,9 @@ name: Update data & deploy
 # the dashboard to GitHub Pages. Also runs on every push to main and on demand.
 on:
   schedule:
-    # Daily at 10:00 UTC. Most series update monthly at the source; a daily run
-    # simply picks up new releases (and any live intraday sources) the day they land.
-    - cron: "0 10 * * *"
+    # Every 6 hours — keeps the news board fresh (the data series update at most
+    # daily/monthly at the source; the news feed is the intraday-moving piece).
+    - cron: "0 */6 * * *"
   push:
     branches: [main]
   workflow_dispatch:

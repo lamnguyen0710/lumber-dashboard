@@ -72,6 +72,34 @@
     </div>`;
   }
 
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  function relTime(iso) {
+    const s = Math.max(0, (Date.now() - new Date(iso).getTime()) / 1000);
+    if (s < 3600) return `${Math.max(1, Math.round(s / 60))}m ago`;
+    if (s < 86400) return `${Math.round(s / 3600)}h ago`;
+    if (s < 7 * 86400) return `${Math.round(s / 86400)}d ago`;
+    return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  }
+  function newsSection(news) {
+    const items = (news && news.items) || [];
+    if (!items.length) {
+      return `<section class="section-head"><h2>Lumber industry news</h2>
+        <p>Live headlines populate when the data pipeline runs.</p></section>
+        <div class="card span-2"><div class="card__note">No headlines yet — run <code>node pipeline/build-data.mjs</code> to fetch the feed.</div></div>`;
+    }
+    const updated = news.fetchedAt ? ` · updated ${relTime(news.fetchedAt)}` : '';
+    const rows = items.map((n) => `<li class="news-item">
+        <a class="news-title" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
+        <div class="news-meta">${n.source ? `<span class="news-source">${esc(n.source)}</span>` : ''}<span class="news-time" data-date="${esc(n.date)}"></span></div>
+      </li>`).join('');
+    return `<section class="section-head"><h2>Lumber industry news <span class="news-live" title="Refreshes with the data pipeline">● LIVE</span></h2>
+        <p>Latest across the softwood complex — prices, tariffs, mills and the public producers${updated}.</p></section>
+      <div class="card span-2"><ul class="newsfeed">${rows}</ul></div>`;
+  }
+  function hydrateNewsTimes() {
+    document.querySelectorAll('.news-time[data-date]').forEach((el) => { el.textContent = relTime(el.dataset.date); });
+  }
+
   // =========================================================================
   // INDUSTRY OVERVIEW
   // =========================================================================
@@ -118,13 +146,7 @@
         ${card('Industry inventory', 'index, 2015 avg = 100 · quarterly', 'Distributor/mill stock levels. Sharp 2021 drawdown, then rebuild.', 'chInv', { section: 'production' })}
       </div>
 
-      <section class="section-head"><h2>US trade actions on Canadian lumber</h2>
-        <p>Duty and tariff milestones that reshape where Canadian producers ship.</p></section>
-      <div class="card span-2">
-        <ul class="timeline">
-          ${ind.tradeActions.map(a => `<li><span class="date">${F.period(a.date)}</span><div><div class="label">${a.label}</div><div class="detail">${a.detail}</div></div></li>`).join('')}
-        </ul>
-      </div>
+      ${newsSection(ind.news)}
 
       <section class="section-head"><h2>Company comparison</h2>
         <p>Publicly traded lumber producers we track. Click a row for the full company view.</p></section>
@@ -163,6 +185,7 @@
     ], { unit: '', legend: false, xTicks: 8, beginAtZero: false });
 
     wireTableRows();
+    hydrateNewsTimes();
   }
 
   function companyTable() {

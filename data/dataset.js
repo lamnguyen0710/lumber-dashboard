@@ -2425,7 +2425,192 @@ window.LUMBER_DATA = {
         "label": "35% duty + 10% tariff",
         "detail": "New 35% duty layered with a 10% tariff on Canadian lumber into the US."
       }
-    ]
+    ],
+    "news": {
+      "fetchedAt": "2026-07-10T22:12:27.503Z",
+      "items": [
+        {
+          "title": "Weyerhaeuser Rallies as Analyst Upgrade and Better Lumber Sentiment Lift Shares",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRURGVjdCVU5RUGNBcmRBYWREYkQxM3gwMVlKaXBsM3hOY2tPenJiQ3Zhb1ZBN3pPd2Q4bTZ2SF9iS3lmVzJlaFdRakxXeHNQT0NOaGVHS3dudXJyRlp2dkpzSm1LbllBWjFBQVRDaE5rakRoRHdQOFNDVDBjY04ySGNXN3lObmFPNUxaN2tKMkdMcHAxTnBDSVFZVnhjNDFiYWltUTRpMV9qYzRXdmJtOWt3?oc=5",
+          "source": "Quiver Quantitative",
+          "date": "2026-07-10T21:20:00.000Z"
+        },
+        {
+          "title": "U.S. Softwood Lumber Self-Sufficiency Hits 75% as Domestic Mills Expand Under Trade Policies - News and Statistics",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdkdJS09fRGdaQmRVTXlfMXh1WDJqcDNxb2ZqMGkxRW1SOXJkVlVMZnRyR1k1VENScTlmQ1Rsc0VDOHYzMFZOUlkydXpfX3B4WmpxbHlQYU9wRUh1WjFXMnhvUTRrRGJOeUxRS2Z0a0pZcXJEa3cxY2NsUTFqS2lzanp1aUZCUXZzc3EtSG5GTWtXZmZ4RWVlNGV5aVhrSURxdUNaWEFjQzRBeGhYT1BUcXZyVGtEZTQ0cVA2bDVRY08zOU5PUFRSTHpuSHFEQQ?oc=5",
+          "source": "IndexBox",
+          "date": "2026-07-09T06:32:00.000Z"
+        },
+        {
+          "title": "British Columbia softwood lumber production falls 9% in April",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWXF0RWM4ZzFZV1RxNnFUaWJaLU9kZFlwbGJzZTdtYmRGakZmS1E0dURZbzVxRDlBSm1kNHdEX0Z4dy03aGlyamdYeFJtN2FGNktwVVJfaHRpU3pEWXdOTHVlTy0xbWFUUnVkTnJKaWlOZGFHckpIc1RXTUtETXRSNF81V2hLbFRqNmZ6N2MzRUU2Q2U4WDR3dTBkeTFERnV2VWc?oc=5",
+          "source": "lesprom.com",
+          "date": "2026-07-08T20:22:04.000Z"
+        },
+        {
+          "title": "Customers hunt for value as lumber prices increase somewhat",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPckpSM1JscDY0QWRJU0dudkQzcldCZmRwc2JoNUthMURCckgtTmlWZmpTUnBkSjZpUXpXSnNVdFE2R1dfajY4RmJFM0hDakdNdkw4NEdxXzJaRFhFcC1ra285YjJLNWhIVGxnMlM2b0dTSDFtcnlKajA3UURXc19TTEJvSkl3Y2NmUTFBNGxpSXI2bW0zWjVIOHdlUQ?oc=5",
+          "source": "Pulp and Paper Canada",
+          "date": "2026-07-08T19:21:34.000Z"
+        },
+        {
+          "title": "Correction to Green Douglas Fir lumber prices for July 7",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU2N0anVzY1otbVlWTnF1R2EycGxfRElMNXBhWXdxN3ZHX1YwdUVfQnQtenNSWFdMTGF5UjZ5SG1rOUU5WE9WVkVfbjNKcWFlYmNzdVBkUm9wXzJxc20yNXdvSG1uZXJubUZtVWpvTWxqTllKaG9FTVB2WE5qaG5QWTJkclBCSUx1WHBlam9mbTRnSGZ1cXJ2d0hnMklZN0YwWnY2N2ZrTkxMX2wzVGc?oc=5",
+          "source": "Fastmarkets",
+          "date": "2026-07-08T07:41:55.000Z"
+        },
+        {
+          "title": "Madison’s Reporter: Customers Hunt for Value as Lumber Prices Increase Somewhat",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTGNweDJnd0hvMEdmUXl4S2EyM1IyOFVCOXV4bDJQQVJxQ2V0S1BJZThRM3Q5N2VMdXhvLUhUb09aTldaWnlzVkEzVXMwemZqOW5nYW5pQm96QkhJTnNUc1g2Y24tY2VQalBZRkxhS0p6SFdvTjZYX1pGRU1kS2FRczRUMWVadzI4T2pNU3JxUkszNEpSa2R1VHFabnRRX2tfWnN1bkNwYWdRWTM3cXdsa1dNWFU5SXZKc3dIejRQeC0?oc=5",
+          "source": "Red Book Lumber Data",
+          "date": "2026-07-08T06:54:35.000Z"
+        },
+        {
+          "title": "Madison\"s Lumber Prices Index reaches $545 mfbm, up 1% weekly",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbXpRdHdOckVTZU9lVm5DQ2Z5RDhIdjBWcFNPOXdzMVR1U01JUHpBUEhyUlJucUJvN205c3dfTDRZUnM3LUIzck9YUmJYeHpzZl9nWlZNNUFXc1ZKSnZ0SWhtSUlMOFlXY0VkZTdxSVR6YjlGaU8zeDVaM3Y1SUFCMmNVQ2JIOFEzQk9TODNzaU5ma3pPMzlqdFNnZ2prQQ?oc=5",
+          "source": "lesprom.com",
+          "date": "2026-07-07T21:56:00.000Z"
+        },
+        {
+          "title": "U.S. sawmill output continues to shrink",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSEdoUFpENTJtZHgwZzJacmtjdnNmN19IZnFCSl9DOTI5ZzhPV2NFTzZHeWNUOGVaaWVyYzJxZzVJc3BUdjdhZk5mZ0ZIUmczREVlZlNMY0R5THEtMnpTS3RLR3lLWWRsbkRTRExudnRmS2s1ODROLXpFckcxaWhVNnY2YXBnNldnVHZlblR2UzFIYnpqODRTTE0zZHpyU0s3UlRsRW5TYnFrOGc4SG5nQTlhc0drQVlBVUZZSlIxUlc0UkQyQU1VSlN3S1lBVU5fS0ttd3NFeWsyNkIw?oc=5",
+          "source": "LBM Journal",
+          "date": "2026-07-07T14:15:48.000Z"
+        },
+        {
+          "title": "Canada Presses US on Softwood Lumber Tariffs as CUSMA Enters Limbo",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ONHU1Tm5qVFpWYWVfdGRSUmNIOHl0c1dBVG13Qnc5eFpvNjdzX1FZcjV6bmNpTEJtWmhsWXdjR1BMWDNqOUtTaTdiR1Q3LUdZNklSSksxcGFpXzU0Z2FfSFFaUFZNVjlIX2NVNGowaTMzTW5lbllvT3lfWQ?oc=5",
+          "source": "Wood Central",
+          "date": "2026-07-07T11:23:25.000Z"
+        },
+        {
+          "title": "Interfor to Announce Second Quarter Results on August 6, 2026",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObzN3cHR2NjhfZXJBSG5qNk9RRk9HUGNDZVFrYlRNLVkxRUQySW81WTgyYlQwVDlUaVZydlpQLWJtdndlbTdIVGhpOUszNHAtd1lTVkJGMVYwTUlUdnM3alBDb050ajRFYjNPalBQVFlDM21wUGZDUldYUTNlQWxscGxJYzRqbWZBdldxOWdTbC0xZlNXaU9kX3dWcFg4WnlTck03UkxSSm13bmtMU25jQVJUZFUweVFXdy1oUjV6TzJjdHU2d0hnMVA4REsyaXJCc1N1ck1nOEk0TE1Zai13?oc=5",
+          "source": "The Globe and Mail",
+          "date": "2026-07-07T01:41:01.000Z"
+        },
+        {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JTXlySFlpM09kMFZKSC1nYlplOW1qd2VzclM2OEF4cjdvQXVUTnBtS0JkV2pvWHZVZDJwcnB2ajZCODltVEdGNEktTnB1TnhVZExLcF8xRnNNTVFySW0tYTdNLUhSTC1HdHFILV93?oc=5",
+          "source": "AOL.com",
+          "date": "2026-07-06T20:05:12.000Z"
+        },
+        {
+          "title": "Canfor Completes Acquisition Of Calgary-Based PinkWood Ltd.",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRG9BU1FWLU9yV3FlUk55ZS1HaVVGVDNRVllxcmhhY1owcU5VVks2VkJKUmdMaEhXQzh3ekQ0LVNsRGNIWlNzazNfZnFCNGNab3FBLV9JTFlic0FrRTNoZnhRMGZ2MHhpZmlUZWs2d0JFM2VNWnFETlZIZHVOMFMydnRaNV9KXzRSWlE2VXgtNTdhc0lmVUxVdG1RdzhIZFZUTmhyQkI1cw?oc=5",
+          "source": "Red Book Lumber Data",
+          "date": "2026-07-06T14:58:53.000Z"
+        },
+        {
+          "title": "Canfor acquires PinkWood",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XRksyandSdUdaV0tCSG05QUNMN1NHNUJ2bHNCR3dMdGpFczdtdGptRmI2TUJyMmVmWlNidVE5WlVad1kybWljX3hOZ3RpRTI0QmxtSXNTMGMwNklhZXNlaUpHaHgxZXZXbjNjaQ?oc=5",
+          "source": "Pulp and Paper Canada",
+          "date": "2026-07-06T13:45:08.000Z"
+        },
+        {
+          "title": "Lumber Market Watch: Could Housing Demand Put Timber Back in Focus?",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc2hZN0EybDl6Y0VnMkRGb0dmUmVKRVZYMk9yYU1USVhZcG5fMzZpUGZ1Q29pMUhXZDYydzdMSnBmUUJRVHhmU3FRT2llMzk4YktCTGdoZlg4Q2FtRC15bklVSVg2ZjJONHRqREJ3cENKX0I3eWVvZjdvY1hYNlRHbktzRUZ0R2xTa3Z4NVJMdi1SR2ZqdERLQ2o1VDdfUTFob3Jtd3dINGZXUQ?oc=5",
+          "source": "Kalkine",
+          "date": "2026-07-06T10:39:00.000Z"
+        },
+        {
+          "title": "Lumber Rebounds Above $620",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR1NGZzA5cW9yX29fZENRQXZUOHphLW1PUzVsbmd1LTB4ZTBXVnpUQWJVN190WGVGSjhrTmt3X0UxbVFJZnZpMk5jVzdMcDR5S0dIOEctRUtLcmVPZzdFUURWaXViQWVOczdtUm5lRkxsM0ZoenVrM1B3TjhNeXZscl9n?oc=5",
+          "source": "TradingView",
+          "date": "2026-07-03T10:11:26.000Z"
+        },
+        {
+          "title": "Price to earnings forward of Canfor Corporation – TSX:CFP",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX3FLMUVWOFlfZjBFUVU4WXdFeWU5TE1BNEl3M0l2UENHNkl2U0hCNnJtXzF1ZFhlSzF0WmQ2V3M0MU5tRnhnN2swUVlvZl8zVlJHRE1rYVJSbERjeG5OM2NrX0VCN3psOGdRdXFTQ3JDMzllbWdKOGdhOVJMQ1liTjk1eVBMRE1TTWJFZm5vUHR1OTl0WHBQaVAwSHM?oc=5",
+          "source": "TradingView",
+          "date": "2026-07-03T07:54:31.000Z"
+        },
+        {
+          "title": "Weyerhaeuser Earnings Preview: What to Expect",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUGE4LW43WFRDTThJUkxXTUZxU016SEVrUzlCTDJhWEdDX1FmSjBRSEtfanBJaVIxNGhhQm50ZTFocDU2elBRMHlxVHk5VUpJVFNkQkpFVnB5aHdQM19HQ1NIOVlubEViLUM2SEpGZ01wR19wLXZPOVB2dUowRVVxbWw1Mk5ZaWVMOExOUFRnaG40NGRNSjFMaW5ZUkt6Tjk3ZDhZ?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-07-02T12:51:50.000Z"
+        },
+        {
+          "title": "North American Lumber Market Outlook: What’s Shaping the Industry Right Now",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcDVBOE5SLXFDX1RrQXg2Vk4zb3AwU2pPeE1ObFNtS1FkSGM1U0ZJQnVZd0xiWGRkS1hXNlA0VUJDaUZVR3M3eUFxX3N1TzFfSGhNbGxHYW1jZ1NpZGx4cnpFNEp4NVJpbDRMaGJwTW4wbnhUdTF5WlpoTGtEdkdLVEdZT0Z2blhxbjlYeW90WUJXWk1jejNfQzlJWFg1dzVDVW9XTkU1SDBHakXSAbsBQVVfeXFMT1VuQmhqOS1lSlRaZHF2YlkxcXp6X0tmeUY1VFB6TGtQZGxoVU1IVUd0Rko4Mk1xbi1KOE1KTnNwRXl2NlNJeEhxSmFNUUpBTEdqV20yNWg3YVFmMmVlWUI3TV91dk8wR1dKYW1UMWhHNmhsRk5FdVBIOW8yalV4Ui01N2RzM09Cci1FN1FaQlVrX2ZobzNKV016SU5ncmY2ZDV0dzVEVEUwX3FsMlp2V1p6VWJ4QllrY3ZyRQ?oc=5",
+          "source": "ResourceWise",
+          "date": "2026-07-01T21:16:15.000Z"
+        },
+        {
+          "title": "North American Softwood Lumber Market in June 2026: Cautious Sentiment and Flat Prices",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYW1OY0s2RkR4ZVR1bDNJN1BpOVk5SFdYSXB3dkRJTFhpZHF0eTFiS0g0ZVNKcWIwUlU1LUVSQnJCcmQ4TnBTU2VQbGFrWTQyQV9XRWpaV1Ewb2FVemw2bEw2Wi1tblZmN0VfM3BMUVpXdjVjMnZGZEozUk4xUGkyVFQ5a3E1UC1sU1RVWlpERFRmOUFJdEhGQS1nLVYxN3RseWV1QnF1c0N1c09sM29nVGZaRzVJZw?oc=5",
+          "source": "IndexBox",
+          "date": "2026-07-01T06:20:00.000Z"
+        },
+        {
+          "title": "North America Softwood Lumber Market Update: Q2 2026",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVkh3UVhxMGNVb29vMlhWTHB5Zm9lNXRQQzN2Y2MxS24zbF9Qa1UzUXpPa19zaFRFU003ZUJNb2ZGWmxZQVJYX3lyYVZTeE50MlNfOS1EdTZGT0tYNlAweGFPS2JXZmg1bTRra0hGMndfeDBGcmNRMy1RaTFvbFRiSjREOGd0ZEE?oc=5",
+          "source": "Wood Business",
+          "date": "2026-06-30T16:24:45.000Z"
+        },
+        {
+          "title": "Madison’s Lumber Prices Index June 26, 2026: US$538 mfbm",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04S0R5MC1XNHZZNFB5UVRPSHRkZDJLN3BKR2lqQTk5YkJ5M1pkdG14VG10WEppdWU5VmRMbzU1WTJJYk52QWhNVzFNdDNlTU5oVWxuVmNn?oc=5",
+          "source": "Red Book Lumber Data",
+          "date": "2026-06-26T23:22:28.000Z"
+        },
+        {
+          "title": "Here is What to Know Beyond Why Louisiana-Pacific Corporation (LPX) is a Trending Stock",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVJFeUVTTDFleVlCNExuRHAwbk5xdE15aHJ5QWNJeGJuUk1LS2cwSUZqQVJpNDNZTVVpVFdwRVo3NlhHOUo4RXI5SDlfQTJHcEtrYkFJTWE3WGlsNWt3MHRrU2JrQzZEMGJQMk8wQm1DSWVnLUticlk0REcxQk5aX190M0ZhTWs1ZFhjc290N1ctTEIxVFlLdVZJY3M5cms?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-06-26T07:00:00.000Z"
+        },
+        {
+          "title": "Interfor positioned to surge as lumber prices climb, says BMO",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZTNWTVJmY2lzY1pzMzdobGI5dW1ZNEdFSkFBSWlOLWJQWVlmVDRlZDY1YjlWV1ZQVTBndXVtaFVoa2E1OHVIY2pGSmY0aVVIUUdWQVBnWEdVNDlzQ05QZ1ZkekY1Q0g0X2JqeEtnbXJuX05NUGNUTDBfMnNuTUdJOTBwNHpNRVNUTUFRd1k1ckhaSFU1dk1Vd0xOQ1RXeUVwWWdNRmNpTFJobXM3VW9ZSFlvNElraHZxUVY2Tmtn?oc=5",
+          "source": "BNN Bloomberg",
+          "date": "2026-06-25T07:00:00.000Z"
+        },
+        {
+          "title": "Weyerhaeuser Cuts 2Q Wood Production Guidance by $20M",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUkJVeXA3aGxzY0NPdEFlVWxmR2Nyc0tCQnNzaWJmbGxqYmxTcllpZUhMZFZLOUVqUVEwZ3lpUTkyOUZxbXg3em5HOEoybThQdFBXb0p2bkpKSC12ZUJ2WTB2OGJHX1lRRmRRSWpuVUxXemdXR2ljRmN2MWd5blhpT0R0TTZRSUg4cmNjb2pET1ROWkN5TW92SnBB?oc=5",
+          "source": "Moomoo",
+          "date": "2026-06-25T07:00:00.000Z"
+        },
+        {
+          "title": "Weyerhaeuser sets July 31 call after second-quarter results",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc1BTU01vdWhQN3dvTHVnY3dSdGszMHRHRlFYMVpfeTdmZFZENWYwZElURHA5ZzhROXdCdVdzc2szRXl6LXdWZ2JmeW1XVzAxbHU5c29ZSFJocHA4TUp0NHVjbnByWTJrMVpiUW5GVWhUYWNQaGxmWVhYVkhlU05VRjRyWDZINXJBLXpocURCUE03aXl1ckNvRXNGWWpMRGcxSlJWdjFCT0VvYk0?oc=5",
+          "source": "Stock Titan",
+          "date": "2026-06-25T07:00:00.000Z"
+        },
+        {
+          "title": "Lumber prices waffle in mid-June",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5USV9wWW5ONmNHWDlOOVlLNFZkLUItR041dEtKX3hsQ2NMU3lud2hNbWZfNHZTaTN2blFaNVdXandJc09pamlNVFFIdm1qTmtueTR6c0hLUzMwbDg4SDRCdUZSd0F5QUhrRHg1RUJYelVtclhGR3JN?oc=5",
+          "source": "Pulp and Paper Canada",
+          "date": "2026-06-25T02:45:57.000Z"
+        },
+        {
+          "title": "Sawmill Output Slips as Capacity Continues to Decline",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmpyWW85VzVyMHBNLS1UenRSWURNNENlZTJadFhGdUtvV0Q4c0ZYNXhxMUNNVTBGd3F4aGRaNXRJSUdLVGN5NS10c1dfZXpFT3Y4VmpVVTlhUXZxOXlCQUs0RE9qRnZGVnFlcG1qQUpNRW0zMU9uUTFzWWdJTzBVU1JCLVB2cGlBWHMya2ptT2Q?oc=5",
+          "source": "Eye On Housing",
+          "date": "2026-06-24T07:00:00.000Z"
+        },
+        {
+          "title": "Lumber futures hit 8-month high, amid rising costs and tighter supply",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUmg0Q2FaY0ZyZE8yNnhIVFdSeVRFZ3Foejh6ZjB6amlrLTExc21wM3VDMGtWV3gxZEtTVTRsd1dnTFRkTGNYRHBkVTd0aEs4SC1qUkxPT0NrQVJHX01oWWtKTGQ2NE1vMzJfUmhvdnI3Y3FaS2pKcnhybHBCakZMd3pSMzV2ejd2bmI4dGVBRERhRUVfSDZBNGQxaDFaUQ?oc=5",
+          "source": "Tree Frog creative",
+          "date": "2026-06-19T20:09:23.000Z"
+        },
+        {
+          "title": "Early-June lumber market lacked clear direction",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSk12MUEyV1Zha1U5dzE3VXVHSGF1YW9YYVEtOGVIbEloMjZpUWJIeHhjaDBkQkVvR1ZEWVVSTzNpcXhhQW8tY1pSYTRJdjNYTktQNTkzQ0hEMmNWX1lzMkRXS0g3b2I3aGkzNVVpejlXN1d0Y0NCWnQ5WkZNbndzbTl4ak8xMlNzZklr?oc=5",
+          "source": "Pulp and Paper Canada",
+          "date": "2026-06-17T19:36:39.000Z"
+        },
+        {
+          "title": "Weyerhaeuser launches $4 Million road project",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeGJfYkwyTWZuTVBLeF9DOTJTTUVjc1hFeFFZeGhKdkE4OWpyUXdpRTVyTnR0WlFQRHZPcUo1QU1PZXBvbko4RW9wUlA1dms3ZFRIdXpWeF9mNFB4Zmk2NkIzWGY1SkdYUExCcTNXbG9hdll0RnY1cE9QVnE4NWpnQjc5V0V3VHdYM0xkc096RXdMUXZs?oc=5",
+          "source": "Neshoba Democrat",
+          "date": "2026-06-17T07:00:00.000Z"
+        }
+      ]
+    }
   },
   "companies": {
     "weyerhaeuser": {

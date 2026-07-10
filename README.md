@@ -22,7 +22,7 @@ supply/demand picture and lets you drill into individual public companies.
 - **Canadian softwood exports by destination** (US / China / Japan / Europe / Other) — the trade-diversion story
 - US share of Canadian exports (one line: are they shipping elsewhere?)
 - Industry inventory index
-- US trade-action timeline (duties + the 35% duty / 10% tariff)
+- Live lumber-industry **news board** (Google News RSS, keyless) — headlines, source, relative timestamps
 - A sortable company comparison table
 
 **Company view** (search any producer in the top bar)
@@ -96,13 +96,13 @@ server like `npm start` is the closest match to how GitHub Pages serves it.)
 1. Create a GitHub repo and push this folder to it (see *Push it up* below).
 2. In the repo: **Settings → Pages → Build and deployment → Source = GitHub Actions**.
 3. That's it. The workflow in [`.github/workflows/update-and-deploy.yml`](.github/workflows/update-and-deploy.yml):
-   - runs **daily** (10:00 UTC), plus on every push and on demand,
+   - runs **every 6 hours**, plus on every push and on demand,
    - rebuilds the dataset from live sources (`node pipeline/build-data.mjs --live`),
    - commits the refreshed data back to the repo, and
    - publishes the site to your Pages URL.
 
-   (Most series only update monthly at the source, so a daily run just picks up new
-   releases the day they post — no wasted effort, and ready for any faster sources.)
+   (The data series update at most daily/monthly at the source; the 6-hour cadence
+   keeps the news board fresh. Adjust the `cron` in the workflow to taste.)
 
 Your shareable Chrome link will be `https://<your-user>.github.io/<repo>/`.
 
@@ -137,6 +137,7 @@ pipeline/
     housing.mjs           US starts & permits        (FRED public CSV, keyless)     ✅ LIVE
     companies.mjs         per-company revenue + prod (SEC EDGAR XBRL + filings)     ✅ LIVE (US filers)
     exports.mjs           Canadian exports by dest.  (UN Comtrade, free key)        ✅ LIVE
+    news.mjs              lumber industry news board (Google News RSS, keyless)     ✅ LIVE
     production.mjs        N.A. industry production   (WWPA / APA / FEA — paid)      ⏳
 ```
 

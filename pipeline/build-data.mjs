@@ -20,6 +20,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { generateDataset } from './generate-placeholder.mjs';
 import { fetchLiveDataset } from './fetch/index.mjs';
+import { fetchNews } from './fetch/news.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = resolve(__dirname, '..', 'data');
@@ -35,6 +36,12 @@ async function main() {
     console.log('[build-data] PLACEHOLDER mode — generating synthetic dataset…');
     dataset = generateDataset();
   }
+
+  // News board is keyless, so refresh it on every build (placeholder or live).
+  try {
+    const news = await fetchNews();
+    if (news) { dataset.industry.news = news; console.log(`[build-data] news: ${news.items.length} headlines`); }
+  } catch (e) { console.warn('[build-data] news fetch failed:', e.message); }
 
   // Stamp the actual build date so the dashboard's "updated" reflects each run.
   dataset.meta = dataset.meta || {};

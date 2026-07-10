@@ -229,6 +229,22 @@ table.cmp tbody tr:hover td { background: color-mix(in srgb, var(--series-1) 7%,
 .timeline .label { font-weight: 650; font-size: 13.5px; }
 .timeline .detail { color: var(--text-secondary); font-size: 12.5px; }
 
+/* ---- news board ----------------------------------------------------------- */
+.news-live { font-size: 10px; font-weight: 700; letter-spacing: 0.05em; color: var(--good); vertical-align: middle; margin-left: 6px; animation: newspulse 2.4s ease-in-out infinite; }
+@keyframes newspulse { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }
+.newsfeed { list-style: none; margin: 0; padding: 0; max-height: 460px; overflow-y: auto; }
+.news-item { padding: 11px 4px; border-bottom: 1px solid var(--grid); }
+.news-item:last-child { border-bottom: none; }
+.news-title { display: block; font-size: 14px; font-weight: 600; color: var(--text-primary); line-height: 1.4; text-decoration: none; }
+.news-title:hover { color: var(--series-1); text-decoration: none; }
+.news-meta { display: flex; align-items: center; gap: 8px; margin-top: 4px; font-size: 12px; color: var(--text-muted); }
+.news-source { color: var(--text-secondary); font-weight: 550; }
+.news-source::after { content: ""; }
+.news-time { font-variant-numeric: tabular-nums; }
+.news-time::before { content: "·"; margin-right: 8px; color: var(--axis); }
+.newsfeed::-webkit-scrollbar { width: 8px; }
+.newsfeed::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 4px; }
+
 /* ---- footer --------------------------------------------------------------- */
 .footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 12.5px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 .footer__sep { color: var(--axis); }
