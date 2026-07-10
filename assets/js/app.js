@@ -87,9 +87,13 @@
     const lastPrice = price.at(-1);
     const lastStarts = starts.at(-1);
     const lastExp = exp.series.at(-1);
-    const usShareNow = (lastExp.US / exp.destinations.reduce((s, d) => s + lastExp[d], 0)) * 100;
-    const expYrAgo = exp.series.at(-5) || exp.series[0];
-    const usShareYr = (expYrAgo.US / exp.destinations.reduce((s, d) => s + expYrAgo[d], 0)) * 100;
+    const expFreq = exp.freq || 'quarterly';
+    const expUnit = exp.unit || 'MMbf';
+    const expPer = expFreq === 'annual' ? 'year' : 'quarter';
+    const expShare = (row) => (row.US / exp.destinations.reduce((s, d) => s + row[d], 0)) * 100;
+    const usShareNow = expShare(lastExp);
+    const expYrAgo = exp.series.at(expFreq === 'annual' ? -2 : -5) || exp.series[0];
+    const usShareYr = expShare(expYrAgo);
 
     const tiles = [
       tile('N.A. lumber production', F.compact(lastProd.na_total), 'MMbf', deltaBadge(F.yoy(prod, 'na_total')), `${F.period(lastProd.period)} · US ${Math.round(lastProd.us_total / lastProd.na_total * 100)}% / CA ${Math.round(lastProd.canada_total / lastProd.na_total * 100)}%`),
@@ -109,8 +113,8 @@
         ${card('North American lumber production', 'MMbf / quarter · stacked by origin', 'US vs. Canadian mills. Total ≈ ' + F.compact(lastProd.na_total * 4) + ' MMbf annualized.', 'chProd', { span: true, tall: true, section: 'production' })}
         ${card('Lumber price — CME futures', '$/mbf · monthly', 'CME front-month lumber futures (LBR). The current contract launched in 2022, so this live series starts then.', 'chPrice', { section: 'price' })}
         ${card('US housing — starts vs. permits', 'thousands (SAAR) · monthly', 'The demand side. Permits lead starts; both cooled through the 2022–23 rate cycle.', 'chHousing', { section: 'housing' })}
-        ${card('Canadian softwood exports by destination', 'MMbf / quarter · stacked', 'Where the wood goes. Watch US share give way to China / Japan / Europe as duties + tariffs bite.', 'chExports', { span: true, tall: true, section: 'exports' })}
-        ${card('US share of Canadian exports', '% of total · quarterly', 'The trade-diversion story in one line — declining reliance on the US market.', 'chUsShare', { section: 'exports' })}
+        ${card('Canadian softwood exports by destination', `${expUnit} / ${expPer} · stacked`, 'Where Canadian softwood lumber ships. Even through the US duties + tariff, the US stays the dominant market (~85% of value); Japan is the largest non-US buyer.', 'chExports', { span: true, tall: true, section: 'exports' })}
+        ${card('US share of Canadian exports', `% of total · ${expFreq}`, 'How reliant Canadian softwood is on the US market, by export value. The duties have squeezed volumes and prices more than they have redirected the wood elsewhere.', 'chUsShare', { section: 'exports' })}
         ${card('Industry inventory', 'index, 2015 avg = 100 · quarterly', 'Distributor/mill stock levels. Sharp 2021 drawdown, then rebuild.', 'chInv', { section: 'production' })}
       </div>
 
@@ -143,13 +147,16 @@
       { label: 'Permits (total)', data: permits.map(p => p.total), slot: 2 },
     ], { unit: 'K SAAR', xTicks: 7 });
 
-    C.stackedArea('chExports', exp.series.map(p => p.period),
-      exp.destinations.map((d, i) => ({ label: d, data: exp.series.map(r => r[d]), slot: i })),
-      { unit: 'MMbf', xTicks: 8 });
+    const expLabels = exp.series.map(p => p.period);
+    const expDatasets = exp.destinations.map((d, i) => ({ label: d, data: exp.series.map(r => r[d]), slot: i }));
+    const expTicks = expFreq === 'annual' ? exp.series.length : 8;
+    // Annual (few points) reads better as stacked bars; quarterly sample as an area.
+    if (expFreq === 'annual') C.stackedBar('chExports', expLabels, expDatasets, { unit: expUnit, xTicks: expTicks });
+    else C.stackedArea('chExports', expLabels, expDatasets, { unit: expUnit, xTicks: expTicks });
 
-    C.line('chUsShare', exp.series.map(p => p.period), [
-      { label: 'US share', data: exp.series.map(r => +(r.US / exp.destinations.reduce((s, d) => s + r[d], 0) * 100).toFixed(1)), slot: 0 },
-    ], { unit: '%', legend: false, xTicks: 8, beginAtZero: false });
+    C.line('chUsShare', expLabels, [
+      { label: 'US share', data: exp.series.map(r => +expShare(r).toFixed(1)), slot: 0 },
+    ], { unit: '%', legend: false, xTicks: expTicks, beginAtZero: false });
 
     C.line('chInv', ind.inventory.series.map(p => p.period), [
       { label: 'Inventory index', data: ind.inventory.series.map(p => p.index), slot: 1 },
