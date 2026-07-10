@@ -38,17 +38,23 @@ jobs:
       - name: Build dataset
         run: node pipeline/build-data.mjs --live
 
-      - name: Commit refreshed data
+      # Optional: keep a git history of the data. This must NOT block the deploy —
+      # the site publishes the freshly-built files regardless of whether this
+      # commit-back succeeds, so any git hiccup here is downgraded to a warning.
+      - name: Commit refreshed data (optional)
+        continue-on-error: true
         run: |
           git config user.name "lumber-dashboard-bot"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/dataset.js data/dataset.json
           if git diff --staged --quiet; then
             echo "No data changes to commit."
-          else
-            git commit -m "chore: automated monthly data refresh"
-            git push
+            exit 0
           fi
+          git commit -m "chore: automated data refresh [skip ci]"
+          git pull --rebase origin main || true
+          git push origin HEAD:main \
+            || echo "::warning::data commit-back skipped (push failed); the site still deploys from this build"
 
       - uses: actions/configure-pages@v5
 
