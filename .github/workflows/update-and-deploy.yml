@@ -4,8 +4,9 @@ name: Update data & deploy
 # the dashboard to GitHub Pages. Also runs on every push to main and on demand.
 on:
   schedule:
-    # 3rd of each month, 06:00 UTC — after month-end housing & trade releases land.
-    - cron: "0 6 3 * *"
+    # Daily at 10:00 UTC. Most series update monthly at the source; a daily run
+    # simply picks up new releases (and any live intraday sources) the day they land.
+    - cron: "0 10 * * *"
   push:
     branches: [main]
   workflow_dispatch:
@@ -32,12 +33,10 @@ jobs:
         with:
           node-version: "20"
 
-      # Build the data files. Switch to `--live` once pipeline/fetch/* is wired up.
-      # (Add any API keys as repo secrets and expose them via `env:` below.)
+      # Build the data files from live sources (falls back to sample data for any
+      # source not yet wired up). US housing is live (FRED, keyless); others follow.
       - name: Build dataset
-        run: node pipeline/build-data.mjs
-        # env:
-        #   CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+        run: node pipeline/build-data.mjs --live
 
       - name: Commit refreshed data
         run: |

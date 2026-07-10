@@ -9,7 +9,7 @@ supply/demand picture and lets you drill into individual public companies.
 > where Canadian wood is shipping under US duties/tariffs) and demand (US housing
 > starts & permits) — and to keep it current automatically.
 
-![status: v1 with placeholder data](https://img.shields.io/badge/status-v1%20(placeholder%20data)-e0a000)
+![status](https://img.shields.io/badge/status-US%20housing%20LIVE%20%C2%B7%20rest%20sample-2a78d6)
 
 ---
 
@@ -36,14 +36,23 @@ Louisiana-Pacific, PotlatchDeltic, GreenFirst**. Add more in one place — see b
 
 ---
 
-## ⚠️ The data is currently placeholder
+## Data provenance — partly live, partly sample
 
-Every number you see right now is **synthetic**, scaled to realistic magnitudes so
-the whole dashboard is explorable. The yellow banner in the app says the same.
-The real data pipeline (`pipeline/fetch/*`) is scaffolded but not yet wired to
-live sources — **that's the part we agreed to build together next.** The front-end
-never changes when live data replaces the placeholder: the fetchers emit the exact
-same schema.
+The pipeline comes online **one source at a time**, and each chart is tagged in the
+app with a <kbd>LIVE</kbd> or <kbd>SAMPLE</kbd> badge so there's never any doubt:
+
+| Section | Status | Source |
+|---|---|---|
+| **US housing** (starts & permits) | ✅ **LIVE** | FRED public CSV (keyless), sourced from Census/HUD |
+| N.A. lumber production | ⏳ sample | WWPA / APA / StatCan / FEA — *to wire up* |
+| Framing lumber price | ⏳ sample | Random Lengths / CME / FRED — *to wire up* |
+| Canadian exports by destination | ⏳ sample | StatCan CIMT (public) — *to wire up* |
+| Company production / revenue | ⏳ sample | SEC EDGAR / SEDAR+ — *to wire up* |
+
+"Sample" numbers are **synthetic**, scaled to realistic magnitudes so the whole
+dashboard is explorable today. The front-end never changes as sources go live — the
+fetchers emit the exact same schema, and `meta.live` drives the badges. When all
+sources are live, `meta.isPlaceholder` flips to `false` and the banner disappears.
 
 ---
 
@@ -67,10 +76,13 @@ server like `npm start` is the closest match to how GitHub Pages serves it.)
 1. Create a GitHub repo and push this folder to it (see *Push it up* below).
 2. In the repo: **Settings → Pages → Build and deployment → Source = GitHub Actions**.
 3. That's it. The workflow in [`.github/workflows/update-and-deploy.yml`](.github/workflows/update-and-deploy.yml):
-   - runs **monthly** (3rd of the month, 06:00 UTC), plus on every push and on demand,
-   - rebuilds the dataset (`node pipeline/build-data.mjs`),
+   - runs **daily** (10:00 UTC), plus on every push and on demand,
+   - rebuilds the dataset from live sources (`node pipeline/build-data.mjs --live`),
    - commits the refreshed data back to the repo, and
    - publishes the site to your Pages URL.
+
+   (Most series only update monthly at the source, so a daily run just picks up new
+   releases the day they post — no wasted effort, and ready for any faster sources.)
 
 Your shareable Chrome link will be `https://<your-user>.github.io/<repo>/`.
 
@@ -101,11 +113,11 @@ pipeline/
   serve.mjs               tiny local static server
   fetch/
     index.mjs             merges live sources over placeholder (section by section)
-    production.mjs        N.A. softwood production   (WWPA / APA / StatCan / FEA)
-    price.mjs             framing lumber price       (Random Lengths / CME / FRED)
-    housing.mjs           US starts & permits        (US Census RESCONST)
-    exports.mjs           Canadian exports by dest.  (StatCan CIMT / ICTLF pivot)
-    companies.mjs         per-company production/rev (SEC EDGAR / SEDAR+)
+    production.mjs        N.A. softwood production   (WWPA / APA / StatCan / FEA)   ⏳
+    price.mjs             framing lumber price       (Random Lengths / CME / FRED)  ⏳
+    housing.mjs           US starts & permits        (FRED public CSV, keyless)     ✅ LIVE
+    exports.mjs           Canadian exports by dest.  (StatCan CIMT public API)      ⏳
+    companies.mjs         per-company production/rev (SEC EDGAR / SEDAR+)           ⏳
 ```
 
 **How it's designed to come online gradually:** each fetcher returns `null` today,
@@ -115,9 +127,10 @@ replaces *only that section*, and `meta.isPlaceholder` flips to `false` (hiding 
 banner) once all of them are live.
 
 Each file's header documents the exact source, endpoint, and the return shape it
-must produce. The **`softwood_exports_pivot`** file from the ICTLF folder is the
-fastest first win — it likely already has the US + other-country columns we need
-for `exports.mjs` (`loadInternalPivot()` is stubbed for it).
+must produce. **US housing is already live** (`housing.mjs`, FRED keyless CSV) — use
+it as the template: fetch → parse → map to the schema. Next up is `exports.mjs`
+against the public **StatCan CIMT** trade API (softwood HS codes 4407.11/12/19 by
+partner country), which carries the trade-diversion story.
 
 ### Data schema (one object, `window.LUMBER_DATA`)
 

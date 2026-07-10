@@ -35,23 +35,30 @@ export async function fetchLiveDataset({ fallback }) {
     fetchIndustryProduction().catch((e) => (console.warn('[fetch] production error', e.message), null)),
   ]);
 
+  // Track which sections are backed by live sources (for per-chart provenance).
+  const live = { production: false, price: false, housing: false, exports: false, companies: false };
+
   const industry = { ...base.industry };
-  if (production) industry.production = useOrFallback(production, base.industry.production, 'industry.production');
-  if (price) industry.price = useOrFallback(price, base.industry.price, 'industry.price');
+  if (production) { industry.production = useOrFallback(production, base.industry.production, 'industry.production'); live.production = !!production; }
+  if (price) { industry.price = useOrFallback(price, base.industry.price, 'industry.price'); live.price = !!price; }
   if (housing) {
     industry.housingStarts = useOrFallback(housing.starts, base.industry.housingStarts, 'housingStarts');
     industry.housingPermits = useOrFallback(housing.permits, base.industry.housingPermits, 'housingPermits');
+    live.housing = !!housing;
   }
-  if (exports) industry.canadaExports = useOrFallback(exports, base.industry.canadaExports, 'canadaExports');
+  if (exports) { industry.canadaExports = useOrFallback(exports, base.industry.canadaExports, 'canadaExports'); live.exports = !!exports; }
+  live.companies = !!(companies && Object.keys(companies).length);
+
+  const allLive = live.production && live.price && live.housing && live.exports && live.companies;
 
   const merged = {
     meta: {
       ...base.meta,
-      // Flip this off once every section above is genuinely live.
-      isPlaceholder: !(housing && exports && companies && price && production),
+      isPlaceholder: !allLive,
+      live,   // section-level provenance, consumed by the front-end badges
     },
     industry,
-    companies: companies && Object.keys(companies).length ? companies : base.companies,
+    companies: live.companies ? companies : base.companies,
   };
   return merged;
 }

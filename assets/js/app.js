@@ -51,11 +51,17 @@
     </div>`;
   }
 
+  const LIVE = (DATA.meta && DATA.meta.live) || {};
+  function provBadge(section) {
+    const isLive = !!LIVE[section];
+    return `<span class="prov ${isLive ? 'prov--live' : 'prov--sample'}" title="${isLive ? 'Live data from source' : 'Placeholder / sample data'}">${isLive ? 'LIVE' : 'SAMPLE'}</span>`;
+  }
+
   function card(title, unit, note, canvasId, opts) {
     opts = opts || {};
     return `<div class="card ${opts.span ? 'span-2' : ''}">
       <div class="card__head">
-        <h3 class="card__title">${title}</h3>
+        <h3 class="card__title">${title} ${opts.section ? provBadge(opts.section) : ''}</h3>
         <span class="card__unit">${unit || ''}</span>
       </div>
       ${note ? `<div class="card__note">${note}</div>` : ''}
@@ -97,12 +103,12 @@
       <div class="tiles">${tiles.join('')}</div>
 
       <div class="grid" style="margin-top:20px">
-        ${card('North American lumber production', 'MMbf / quarter · stacked by origin', 'US vs. Canadian mills. Total ≈ ' + F.compact(lastProd.na_total * 4) + ' MMbf annualized.', 'chProd', { span: true, tall: true })}
-        ${card('Framing lumber composite price', '$/mbf · monthly', 'Note the 2021 shortage spike toward $1,500+/mbf and the 2022 rate-shock reversal.', 'chPrice')}
-        ${card('US housing — starts vs. permits', 'thousands (SAAR) · monthly', 'The demand side. Permits lead starts; both cooled through the 2022–23 rate cycle.', 'chHousing')}
-        ${card('Canadian softwood exports by destination', 'MMbf / quarter · stacked', 'Where the wood goes. Watch US share give way to China / Japan / Europe as duties + tariffs bite.', 'chExports', { span: true, tall: true })}
-        ${card('US share of Canadian exports', '% of total · quarterly', 'The trade-diversion story in one line — declining reliance on the US market.', 'chUsShare')}
-        ${card('Industry inventory', 'index, 2015 avg = 100 · quarterly', 'Distributor/mill stock levels. Sharp 2021 drawdown, then rebuild.', 'chInv')}
+        ${card('North American lumber production', 'MMbf / quarter · stacked by origin', 'US vs. Canadian mills. Total ≈ ' + F.compact(lastProd.na_total * 4) + ' MMbf annualized.', 'chProd', { span: true, tall: true, section: 'production' })}
+        ${card('Framing lumber composite price', '$/mbf · monthly', 'Note the 2021 shortage spike toward $1,500+/mbf and the 2022 rate-shock reversal.', 'chPrice', { section: 'price' })}
+        ${card('US housing — starts vs. permits', 'thousands (SAAR) · monthly', 'The demand side. Permits lead starts; both cooled through the 2022–23 rate cycle.', 'chHousing', { section: 'housing' })}
+        ${card('Canadian softwood exports by destination', 'MMbf / quarter · stacked', 'Where the wood goes. Watch US share give way to China / Japan / Europe as duties + tariffs bite.', 'chExports', { span: true, tall: true, section: 'exports' })}
+        ${card('US share of Canadian exports', '% of total · quarterly', 'The trade-diversion story in one line — declining reliance on the US market.', 'chUsShare', { section: 'exports' })}
+        ${card('Industry inventory', 'index, 2015 avg = 100 · quarterly', 'Distributor/mill stock levels. Sharp 2021 drawdown, then rebuild.', 'chInv', { section: 'production' })}
       </div>
 
       <section class="section-head"><h2>US trade actions on Canadian lumber</h2>
@@ -223,14 +229,14 @@
       </div>
 
       <div class="grid" style="margin-top:20px">
-        ${card('Production by quarter', co.production.unit + ' · quarterly', '', 'coProd', { tall: false })}
-        ${card('Revenue by quarter', 'M USD · quarterly', '', 'coRev')}
-        ${card('Inventory index', '2015 avg = 100 · quarterly', 'Lower can signal tight supply / strong shipments.', 'coInv')}
+        ${card('Production by quarter', co.production.unit + ' · quarterly', '', 'coProd', { tall: false, section: 'companies' })}
+        ${card('Revenue by quarter', 'M USD · quarterly', '', 'coRev', { section: 'companies' })}
+        ${card('Inventory index', '2015 avg = 100 · quarterly', 'Lower can signal tight supply / strong shipments.', 'coInv', { section: 'companies' })}
         ${regionsWithData.length
-          ? card('Lumber capacity by region', 'MMbf/yr', 'Geographic mix — US capacity is not exposed to Canadian duties.', 'coRegions')
-          : `<div class="card"><div class="card__head"><h3 class="card__title">Capacity by region</h3></div>
+          ? card('Lumber capacity by region', 'MMbf/yr', 'Geographic mix — US capacity is not exposed to Canadian duties.', 'coRegions', { section: 'companies' })
+          : `<div class="card"><div class="card__head"><h3 class="card__title">Capacity by region ${provBadge('companies')}</h3></div>
              <div class="card__note">${co.name} reports OSB/siding volumes rather than board-foot lumber capacity, so a regional MMbf breakdown isn't applicable. Operating regions: ${(co.regions || []).map(r => r.region).join(', ')}.</div></div>`}
-        ${isBF ? card('Share of North American production', '% of N.A. total · quarterly', 'This producer as a fraction of total N.A. softwood output.', 'coShare', { span: true }) : ''}
+        ${isBF ? card('Share of North American production', '% of N.A. total · quarterly', 'This producer as a fraction of total N.A. softwood output.', 'coShare', { span: true, section: 'companies' }) : ''}
       </div>
     `;
 
@@ -324,10 +330,21 @@
   // =========================================================================
   (function initChrome() {
     const m = DATA.meta || {};
-    if (m.isPlaceholder) {
-      document.getElementById('placeholderBanner').hidden = false;
-      document.getElementById('placeholderText').textContent =
-        ' Charts use synthetic values so the dashboard is fully explorable. The monthly pipeline will replace them with live data on the same schema.';
+    const live = m.live || {};
+    const NAMES = { production: 'N.A. production', price: 'framing price', housing: 'US housing', exports: 'Canadian exports', companies: 'company data' };
+    const keys = Object.keys(NAMES);
+    const liveNames = keys.filter(k => live[k]).map(k => NAMES[k]);
+    const sampleNames = keys.filter(k => !live[k]).map(k => NAMES[k]);
+    const banner = document.getElementById('placeholderBanner');
+    if (!m.isPlaceholder) {
+      banner.hidden = true;
+    } else if (liveNames.length) {
+      banner.hidden = false;
+      banner.innerHTML = `<strong>Partially live.</strong> Live now: <strong>${liveNames.join(', ')}</strong>. ` +
+        `Still sample data: ${sampleNames.join(', ')} — synthetic until each pipeline source is wired up. Charts are tagged <span class="prov prov--live">LIVE</span> / <span class="prov prov--sample">SAMPLE</span>.`;
+    } else {
+      banner.hidden = false;
+      banner.innerHTML = `<strong>Sample data.</strong> All charts use synthetic values so the dashboard is fully explorable. The daily pipeline will replace them with live data on the same schema.`;
     }
     document.getElementById('footerMeta').textContent =
       `Data through ${m.dataThrough || '—'} · updated ${m.lastUpdated || '—'}`;

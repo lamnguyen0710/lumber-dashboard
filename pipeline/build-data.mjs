@@ -36,6 +36,10 @@ async function main() {
     dataset = generateDataset();
   }
 
+  // Stamp the actual build date so the dashboard's "updated" reflects each run.
+  dataset.meta = dataset.meta || {};
+  dataset.meta.lastUpdated = new Date().toISOString().slice(0, 10);
+
   mkdirSync(OUT_DIR, { recursive: true });
 
   const json = JSON.stringify(dataset, null, 2);

@@ -263,6 +263,7 @@ export function generateDataset() {
       lastUpdated: '2026-07-10',
       dataThrough: '2025Q2',
       isPlaceholder: true,
+      live: { production: false, price: false, housing: false, exports: false, companies: false },
       disclaimer:
         'PLACEHOLDER DATA — synthetic values scaled to realistic magnitudes so every chart renders. ' +
         'Replace with the live pipeline output (pipeline/fetch/*) before using for analysis.',
@@ -288,7 +289,8 @@ export function generateDataset() {
 }
 
 // Allow running directly for a quick sanity check.
-if (import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}`) {
+import { pathToFileURL } from 'node:url';
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const d = generateDataset();
   console.log('companies:', Object.keys(d.companies).length);
   console.log('industry quarters:', d.industry.production.series.length);

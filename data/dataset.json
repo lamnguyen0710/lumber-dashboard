@@ -3,6 +3,13 @@
     "lastUpdated": "2026-07-10",
     "dataThrough": "2025Q2",
     "isPlaceholder": true,
+    "live": {
+      "production": false,
+      "price": false,
+      "housing": true,
+      "exports": false,
+      "companies": false
+    },
     "disclaimer": "PLACEHOLDER DATA — synthetic values scaled to realistic magnitudes so every chart renders. Replace with the live pipeline output (pipeline/fetch/*) before using for analysis.",
     "sources": [
       {
@@ -976,759 +983,825 @@
       "series": [
         {
           "period": "2015-01",
-          "total": 856,
-          "single_family": 576,
-          "multi_family": 280
-        },
-        {
-          "period": "2015-02",
-          "total": 922,
-          "single_family": 609,
-          "multi_family": 312
-        },
-        {
-          "period": "2015-03",
-          "total": 1030,
-          "single_family": 673,
-          "multi_family": 357
-        },
-        {
-          "period": "2015-04",
-          "total": 1068,
-          "single_family": 705,
-          "multi_family": 363
-        },
-        {
-          "period": "2015-05",
-          "total": 1100,
-          "single_family": 722,
-          "multi_family": 378
-        },
-        {
-          "period": "2015-06",
-          "total": 1131,
-          "single_family": 748,
-          "multi_family": 383
-        },
-        {
-          "period": "2015-07",
-          "total": 1096,
-          "single_family": 711,
-          "multi_family": 385
-        },
-        {
-          "period": "2015-08",
-          "total": 1079,
-          "single_family": 711,
-          "multi_family": 368
-        },
-        {
-          "period": "2015-09",
-          "total": 1009,
-          "single_family": 659,
-          "multi_family": 350
-        },
-        {
-          "period": "2015-10",
-          "total": 1003,
-          "single_family": 677,
-          "multi_family": 326
-        },
-        {
-          "period": "2015-11",
-          "total": 892,
-          "single_family": 581,
-          "multi_family": 310
-        },
-        {
-          "period": "2015-12",
-          "total": 873,
-          "single_family": 573,
-          "multi_family": 299
-        },
-        {
-          "period": "2016-01",
-          "total": 892,
-          "single_family": 592,
-          "multi_family": 300
-        },
-        {
-          "period": "2016-02",
-          "total": 926,
-          "single_family": 624,
-          "multi_family": 303
-        },
-        {
-          "period": "2016-03",
-          "total": 1074,
+          "total": 1085,
           "single_family": 703,
-          "multi_family": 371
-        },
-        {
-          "period": "2016-04",
-          "total": 1175,
-          "single_family": 768,
-          "multi_family": 406
-        },
-        {
-          "period": "2016-05",
-          "total": 1199,
-          "single_family": 778,
-          "multi_family": 421
-        },
-        {
-          "period": "2016-06",
-          "total": 1142,
-          "single_family": 749,
-          "multi_family": 393
-        },
-        {
-          "period": "2016-07",
-          "total": 1162,
-          "single_family": 777,
-          "multi_family": 385
-        },
-        {
-          "period": "2016-08",
-          "total": 1096,
-          "single_family": 732,
-          "multi_family": 364
-        },
-        {
-          "period": "2016-09",
-          "total": 1068,
-          "single_family": 715,
-          "multi_family": 352
-        },
-        {
-          "period": "2016-10",
-          "total": 1046,
-          "single_family": 685,
-          "multi_family": 362
-        },
-        {
-          "period": "2016-11",
-          "total": 938,
-          "single_family": 606,
-          "multi_family": 332
-        },
-        {
-          "period": "2016-12",
-          "total": 914,
-          "single_family": 613,
-          "multi_family": 301
-        },
-        {
-          "period": "2017-01",
-          "total": 941,
-          "single_family": 615,
-          "multi_family": 325
-        },
-        {
-          "period": "2017-02",
-          "total": 989,
-          "single_family": 662,
-          "multi_family": 328
-        },
-        {
-          "period": "2017-03",
-          "total": 1123,
-          "single_family": 747,
-          "multi_family": 376
-        },
-        {
-          "period": "2017-04",
-          "total": 1196,
-          "single_family": 794,
-          "multi_family": 402
-        },
-        {
-          "period": "2017-05",
-          "total": 1253,
-          "single_family": 841,
-          "multi_family": 412
-        },
-        {
-          "period": "2017-06",
-          "total": 1243,
-          "single_family": 825,
-          "multi_family": 419
-        },
-        {
-          "period": "2017-07",
-          "total": 1210,
-          "single_family": 799,
-          "multi_family": 411
-        },
-        {
-          "period": "2017-08",
-          "total": 1199,
-          "single_family": 793,
-          "multi_family": 407
-        },
-        {
-          "period": "2017-09",
-          "total": 1108,
-          "single_family": 725,
           "multi_family": 382
         },
         {
-          "period": "2017-10",
-          "total": 1083,
-          "single_family": 724,
-          "multi_family": 358
+          "period": "2015-02",
+          "total": 886,
+          "single_family": 584,
+          "multi_family": 302
         },
         {
-          "period": "2017-11",
-          "total": 1018,
-          "single_family": 671,
-          "multi_family": 347
+          "period": "2015-03",
+          "total": 960,
+          "single_family": 627,
+          "multi_family": 333
         },
         {
-          "period": "2017-12",
-          "total": 956,
-          "single_family": 636,
-          "multi_family": 320
-        },
-        {
-          "period": "2018-01",
-          "total": 1010,
-          "single_family": 680,
-          "multi_family": 330
-        },
-        {
-          "period": "2018-02",
-          "total": 1037,
-          "single_family": 672,
-          "multi_family": 365
-        },
-        {
-          "period": "2018-03",
-          "total": 1179,
-          "single_family": 762,
-          "multi_family": 417
-        },
-        {
-          "period": "2018-04",
-          "total": 1267,
-          "single_family": 847,
-          "multi_family": 420
-        },
-        {
-          "period": "2018-05",
-          "total": 1326,
-          "single_family": 884,
-          "multi_family": 442
-        },
-        {
-          "period": "2018-06",
-          "total": 1273,
-          "single_family": 824,
+          "period": "2015-04",
+          "total": 1190,
+          "single_family": 742,
           "multi_family": 448
         },
         {
-          "period": "2018-07",
-          "total": 1268,
-          "single_family": 854,
-          "multi_family": 414
-        },
-        {
-          "period": "2018-08",
-          "total": 1209,
-          "single_family": 785,
-          "multi_family": 425
-        },
-        {
-          "period": "2018-09",
-          "total": 1162,
-          "single_family": 783,
-          "multi_family": 379
-        },
-        {
-          "period": "2018-10",
-          "total": 1164,
-          "single_family": 756,
-          "multi_family": 407
-        },
-        {
-          "period": "2018-11",
-          "total": 1050,
-          "single_family": 683,
-          "multi_family": 367
-        },
-        {
-          "period": "2018-12",
-          "total": 988,
-          "single_family": 639,
-          "multi_family": 349
-        },
-        {
-          "period": "2019-01",
-          "total": 1043,
-          "single_family": 681,
-          "multi_family": 361
-        },
-        {
-          "period": "2019-02",
-          "total": 1123,
-          "single_family": 737,
-          "multi_family": 386
-        },
-        {
-          "period": "2019-03",
-          "total": 1229,
-          "single_family": 806,
-          "multi_family": 422
-        },
-        {
-          "period": "2019-04",
-          "total": 1310,
-          "single_family": 866,
-          "multi_family": 443
-        },
-        {
-          "period": "2019-05",
-          "total": 1355,
-          "single_family": 904,
-          "multi_family": 451
-        },
-        {
-          "period": "2019-06",
-          "total": 1373,
-          "single_family": 888,
-          "multi_family": 486
-        },
-        {
-          "period": "2019-07",
-          "total": 1335,
-          "single_family": 872,
-          "multi_family": 463
-        },
-        {
-          "period": "2019-08",
-          "total": 1270,
-          "single_family": 837,
-          "multi_family": 433
-        },
-        {
-          "period": "2019-09",
-          "total": 1252,
-          "single_family": 824,
-          "multi_family": 427
-        },
-        {
-          "period": "2019-10",
-          "total": 1198,
-          "single_family": 779,
-          "multi_family": 419
-        },
-        {
-          "period": "2019-11",
-          "total": 1086,
-          "single_family": 728,
-          "multi_family": 357
-        },
-        {
-          "period": "2019-12",
-          "total": 1037,
-          "single_family": 688,
-          "multi_family": 349
-        },
-        {
-          "period": "2020-01",
-          "total": 1080,
-          "single_family": 709,
+          "period": "2015-05",
+          "total": 1079,
+          "single_family": 708,
           "multi_family": 371
         },
         {
-          "period": "2020-02",
-          "total": 1136,
-          "single_family": 757,
-          "multi_family": 379
+          "period": "2015-06",
+          "total": 1205,
+          "single_family": 700,
+          "multi_family": 505
         },
         {
-          "period": "2020-03",
-          "total": 1294,
-          "single_family": 855,
-          "multi_family": 439
+          "period": "2015-07",
+          "total": 1146,
+          "single_family": 759,
+          "multi_family": 387
         },
         {
-          "period": "2020-04",
-          "total": 1376,
-          "single_family": 917,
-          "multi_family": 459
+          "period": "2015-08",
+          "total": 1130,
+          "single_family": 734,
+          "multi_family": 396
         },
         {
-          "period": "2020-05",
-          "total": 1394,
-          "single_family": 923,
-          "multi_family": 471
-        },
-        {
-          "period": "2020-06",
-          "total": 1397,
-          "single_family": 927,
-          "multi_family": 471
-        },
-        {
-          "period": "2020-07",
-          "total": 1407,
-          "single_family": 935,
-          "multi_family": 473
-        },
-        {
-          "period": "2020-08",
-          "total": 1377,
-          "single_family": 929,
-          "multi_family": 448
-        },
-        {
-          "period": "2020-09",
-          "total": 1285,
-          "single_family": 851,
-          "multi_family": 434
-        },
-        {
-          "period": "2020-10",
-          "total": 1270,
-          "single_family": 844,
-          "multi_family": 425
-        },
-        {
-          "period": "2020-11",
-          "total": 1127,
-          "single_family": 743,
-          "multi_family": 384
-        },
-        {
-          "period": "2020-12",
-          "total": 1072,
-          "single_family": 718,
-          "multi_family": 354
-        },
-        {
-          "period": "2021-01",
-          "total": 1127,
-          "single_family": 735,
-          "multi_family": 391
-        },
-        {
-          "period": "2021-02",
-          "total": 1170,
-          "single_family": 764,
-          "multi_family": 406
-        },
-        {
-          "period": "2021-03",
-          "total": 1363,
-          "single_family": 895,
-          "multi_family": 469
-        },
-        {
-          "period": "2021-04",
-          "total": 1477,
-          "single_family": 954,
-          "multi_family": 523
-        },
-        {
-          "period": "2021-05",
-          "total": 1493,
-          "single_family": 1003,
-          "multi_family": 490
-        },
-        {
-          "period": "2021-06",
-          "total": 1505,
-          "single_family": 1005,
-          "multi_family": 500
-        },
-        {
-          "period": "2021-07",
-          "total": 1446,
-          "single_family": 944,
-          "multi_family": 502
-        },
-        {
-          "period": "2021-08",
-          "total": 1445,
-          "single_family": 933,
-          "multi_family": 512
-        },
-        {
-          "period": "2021-09",
-          "total": 1353,
-          "single_family": 898,
-          "multi_family": 455
-        },
-        {
-          "period": "2021-10",
-          "total": 1309,
-          "single_family": 881,
-          "multi_family": 428
-        },
-        {
-          "period": "2021-11",
-          "total": 1186,
-          "single_family": 782,
-          "multi_family": 403
-        },
-        {
-          "period": "2021-12",
-          "total": 1138,
-          "single_family": 760,
-          "multi_family": 378
-        },
-        {
-          "period": "2022-01",
-          "total": 1162,
-          "single_family": 754,
-          "multi_family": 408
-        },
-        {
-          "period": "2022-02",
-          "total": 1229,
-          "single_family": 829,
-          "multi_family": 400
-        },
-        {
-          "period": "2022-03",
-          "total": 1447,
-          "single_family": 975,
-          "multi_family": 473
-        },
-        {
-          "period": "2022-04",
-          "total": 1479,
-          "single_family": 976,
-          "multi_family": 502
-        },
-        {
-          "period": "2022-05",
-          "total": 1538,
-          "single_family": 1025,
-          "multi_family": 514
-        },
-        {
-          "period": "2022-06",
-          "total": 1515,
-          "single_family": 1001,
-          "multi_family": 514
-        },
-        {
-          "period": "2022-07",
-          "total": 1490,
-          "single_family": 983,
-          "multi_family": 507
-        },
-        {
-          "period": "2022-08",
-          "total": 1503,
-          "single_family": 992,
-          "multi_family": 511
-        },
-        {
-          "period": "2022-09",
-          "total": 1391,
-          "single_family": 922,
-          "multi_family": 469
-        },
-        {
-          "period": "2022-10",
-          "total": 1381,
-          "single_family": 903,
+          "period": "2015-09",
+          "total": 1224,
+          "single_family": 746,
           "multi_family": 478
         },
         {
-          "period": "2022-11",
-          "total": 1241,
-          "single_family": 829,
-          "multi_family": 412
+          "period": "2015-10",
+          "total": 1058,
+          "single_family": 705,
+          "multi_family": 353
         },
         {
-          "period": "2022-12",
-          "total": 1203,
-          "single_family": 785,
-          "multi_family": 418
+          "period": "2015-11",
+          "total": 1172,
+          "single_family": 774,
+          "multi_family": 398
         },
         {
-          "period": "2023-01",
-          "total": 1120,
-          "single_family": 745,
-          "multi_family": 375
+          "period": "2015-12",
+          "total": 1146,
+          "single_family": 765,
+          "multi_family": 381
         },
         {
-          "period": "2023-02",
+          "period": "2016-01",
+          "total": 1092,
+          "single_family": 752,
+          "multi_family": 340
+        },
+        {
+          "period": "2016-02",
+          "total": 1225,
+          "single_family": 859,
+          "multi_family": 366
+        },
+        {
+          "period": "2016-03",
+          "total": 1111,
+          "single_family": 753,
+          "multi_family": 358
+        },
+        {
+          "period": "2016-04",
           "total": 1163,
           "single_family": 777,
           "multi_family": 386
         },
         {
-          "period": "2023-03",
-          "total": 1320,
-          "single_family": 861,
-          "multi_family": 459
-        },
-        {
-          "period": "2023-04",
-          "total": 1445,
-          "single_family": 968,
-          "multi_family": 477
-        },
-        {
-          "period": "2023-05",
-          "total": 1496,
-          "single_family": 984,
-          "multi_family": 512
-        },
-        {
-          "period": "2023-06",
-          "total": 1435,
-          "single_family": 945,
-          "multi_family": 490
-        },
-        {
-          "period": "2023-07",
-          "total": 1440,
-          "single_family": 953,
-          "multi_family": 487
-        },
-        {
-          "period": "2023-08",
-          "total": 1409,
-          "single_family": 946,
-          "multi_family": 464
-        },
-        {
-          "period": "2023-09",
-          "total": 1375,
-          "single_family": 896,
-          "multi_family": 479
-        },
-        {
-          "period": "2023-10",
-          "total": 1275,
-          "single_family": 827,
-          "multi_family": 448
-        },
-        {
-          "period": "2023-11",
-          "total": 1213,
-          "single_family": 794,
-          "multi_family": 420
-        },
-        {
-          "period": "2023-12",
-          "total": 1145,
-          "single_family": 750,
+          "period": "2016-05",
+          "total": 1148,
+          "single_family": 753,
           "multi_family": 395
         },
         {
-          "period": "2024-01",
-          "total": 1102,
-          "single_family": 741,
-          "multi_family": 361
+          "period": "2016-06",
+          "total": 1203,
+          "single_family": 769,
+          "multi_family": 434
         },
         {
-          "period": "2024-02",
-          "total": 1139,
-          "single_family": 761,
-          "multi_family": 378
+          "period": "2016-07",
+          "total": 1239,
+          "single_family": 769,
+          "multi_family": 470
         },
         {
-          "period": "2024-03",
-          "total": 1303,
-          "single_family": 878,
-          "multi_family": 425
+          "period": "2016-08",
+          "total": 1171,
+          "single_family": 734,
+          "multi_family": 437
         },
         {
-          "period": "2024-04",
-          "total": 1355,
-          "single_family": 887,
-          "multi_family": 467
+          "period": "2016-09",
+          "total": 1068,
+          "single_family": 777,
+          "multi_family": 291
         },
         {
-          "period": "2024-05",
-          "total": 1378,
-          "single_family": 922,
-          "multi_family": 457
+          "period": "2016-10",
+          "total": 1313,
+          "single_family": 859,
+          "multi_family": 454
         },
         {
-          "period": "2024-06",
-          "total": 1398,
-          "single_family": 922,
-          "multi_family": 476
+          "period": "2016-11",
+          "total": 1140,
+          "single_family": 817,
+          "multi_family": 323
         },
         {
-          "period": "2024-07",
-          "total": 1351,
-          "single_family": 882,
-          "multi_family": 469
+          "period": "2016-12",
+          "total": 1252,
+          "single_family": 801,
+          "multi_family": 451
         },
         {
-          "period": "2024-08",
-          "total": 1315,
-          "single_family": 865,
-          "multi_family": 450
+          "period": "2017-01",
+          "total": 1190,
+          "single_family": 785,
+          "multi_family": 405
         },
         {
-          "period": "2024-09",
-          "total": 1265,
-          "single_family": 846,
-          "multi_family": 419
+          "period": "2017-02",
+          "total": 1271,
+          "single_family": 864,
+          "multi_family": 407
         },
         {
-          "period": "2024-10",
-          "total": 1247,
-          "single_family": 842,
-          "multi_family": 406
-        },
-        {
-          "period": "2024-11",
-          "total": 1134,
-          "single_family": 758,
-          "multi_family": 376
-        },
-        {
-          "period": "2024-12",
-          "total": 1086,
-          "single_family": 731,
-          "multi_family": 355
-        },
-        {
-          "period": "2025-01",
-          "total": 999,
-          "single_family": 644,
+          "period": "2017-03",
+          "total": 1190,
+          "single_family": 836,
           "multi_family": 354
         },
         {
-          "period": "2025-02",
-          "total": 1048,
-          "single_family": 680,
+          "period": "2017-04",
+          "total": 1146,
+          "single_family": 825,
+          "multi_family": 321
+        },
+        {
+          "period": "2017-05",
+          "total": 1157,
+          "single_family": 832,
+          "multi_family": 325
+        },
+        {
+          "period": "2017-06",
+          "total": 1249,
+          "single_family": 867,
+          "multi_family": 382
+        },
+        {
+          "period": "2017-07",
+          "total": 1206,
+          "single_family": 841,
+          "multi_family": 365
+        },
+        {
+          "period": "2017-08",
+          "total": 1159,
+          "single_family": 867,
+          "multi_family": 292
+        },
+        {
+          "period": "2017-09",
+          "total": 1181,
+          "single_family": 839,
+          "multi_family": 342
+        },
+        {
+          "period": "2017-10",
+          "total": 1257,
+          "single_family": 878,
+          "multi_family": 379
+        },
+        {
+          "period": "2017-11",
+          "total": 1273,
+          "single_family": 924,
+          "multi_family": 349
+        },
+        {
+          "period": "2017-12",
+          "total": 1177,
+          "single_family": 824,
+          "multi_family": 353
+        },
+        {
+          "period": "2018-01",
+          "total": 1299,
+          "single_family": 872,
+          "multi_family": 427
+        },
+        {
+          "period": "2018-02",
+          "total": 1277,
+          "single_family": 894,
+          "multi_family": 383
+        },
+        {
+          "period": "2018-03",
+          "total": 1318,
+          "single_family": 875,
+          "multi_family": 443
+        },
+        {
+          "period": "2018-04",
+          "total": 1276,
+          "single_family": 908,
           "multi_family": 368
         },
         {
-          "period": "2025-03",
-          "total": 1226,
-          "single_family": 827,
-          "multi_family": 399
+          "period": "2018-05",
+          "total": 1357,
+          "single_family": 970,
+          "multi_family": 387
         },
         {
-          "period": "2025-04",
-          "total": 1268,
-          "single_family": 822,
+          "period": "2018-06",
+          "total": 1192,
+          "single_family": 866,
+          "multi_family": 326
+        },
+        {
+          "period": "2018-07",
+          "total": 1208,
+          "single_family": 869,
+          "multi_family": 339
+        },
+        {
+          "period": "2018-08",
+          "total": 1288,
+          "single_family": 900,
+          "multi_family": 388
+        },
+        {
+          "period": "2018-09",
+          "total": 1250,
+          "single_family": 875,
+          "multi_family": 375
+        },
+        {
+          "period": "2018-10",
+          "total": 1221,
+          "single_family": 872,
+          "multi_family": 349
+        },
+        {
+          "period": "2018-11",
+          "total": 1181,
+          "single_family": 781,
+          "multi_family": 400
+        },
+        {
+          "period": "2018-12",
+          "total": 1095,
+          "single_family": 775,
+          "multi_family": 320
+        },
+        {
+          "period": "2019-01",
+          "total": 1226,
+          "single_family": 917,
+          "multi_family": 309
+        },
+        {
+          "period": "2019-02",
+          "total": 1121,
+          "single_family": 778,
+          "multi_family": 343
+        },
+        {
+          "period": "2019-03",
+          "total": 1191,
+          "single_family": 837,
+          "multi_family": 354
+        },
+        {
+          "period": "2019-04",
+          "total": 1272,
+          "single_family": 874,
+          "multi_family": 398
+        },
+        {
+          "period": "2019-05",
+          "total": 1293,
+          "single_family": 844,
+          "multi_family": 449
+        },
+        {
+          "period": "2019-06",
+          "total": 1243,
+          "single_family": 879,
+          "multi_family": 364
+        },
+        {
+          "period": "2019-07",
+          "total": 1240,
+          "single_family": 888,
+          "multi_family": 352
+        },
+        {
+          "period": "2019-08",
+          "total": 1375,
+          "single_family": 909,
+          "multi_family": 466
+        },
+        {
+          "period": "2019-09",
+          "total": 1311,
+          "single_family": 928,
+          "multi_family": 383
+        },
+        {
+          "period": "2019-10",
+          "total": 1325,
+          "single_family": 891,
+          "multi_family": 434
+        },
+        {
+          "period": "2019-11",
+          "total": 1353,
+          "single_family": 915,
+          "multi_family": 438
+        },
+        {
+          "period": "2019-12",
+          "total": 1548,
+          "single_family": 1004,
+          "multi_family": 544
+        },
+        {
+          "period": "2020-01",
+          "total": 1581,
+          "single_family": 970,
+          "multi_family": 611
+        },
+        {
+          "period": "2020-02",
+          "total": 1549,
+          "single_family": 1034,
+          "multi_family": 515
+        },
+        {
+          "period": "2020-03",
+          "total": 1266,
+          "single_family": 878,
+          "multi_family": 388
+        },
+        {
+          "period": "2020-04",
+          "total": 936,
+          "single_family": 688,
+          "multi_family": 248
+        },
+        {
+          "period": "2020-05",
+          "total": 1039,
+          "single_family": 740,
+          "multi_family": 299
+        },
+        {
+          "period": "2020-06",
+          "total": 1266,
+          "single_family": 904,
+          "multi_family": 362
+        },
+        {
+          "period": "2020-07",
+          "total": 1526,
+          "single_family": 1007,
+          "multi_family": 519
+        },
+        {
+          "period": "2020-08",
+          "total": 1396,
+          "single_family": 1041,
+          "multi_family": 355
+        },
+        {
+          "period": "2020-09",
+          "total": 1473,
+          "single_family": 1114,
+          "multi_family": 359
+        },
+        {
+          "period": "2020-10",
+          "total": 1543,
+          "single_family": 1189,
+          "multi_family": 354
+        },
+        {
+          "period": "2020-11",
+          "total": 1543,
+          "single_family": 1168,
+          "multi_family": 375
+        },
+        {
+          "period": "2020-12",
+          "total": 1614,
+          "single_family": 1273,
+          "multi_family": 341
+        },
+        {
+          "period": "2021-01",
+          "total": 1624,
+          "single_family": 1130,
+          "multi_family": 494
+        },
+        {
+          "period": "2021-02",
+          "total": 1398,
+          "single_family": 1041,
+          "multi_family": 357
+        },
+        {
+          "period": "2021-03",
+          "total": 1688,
+          "single_family": 1213,
+          "multi_family": 475
+        },
+        {
+          "period": "2021-04",
+          "total": 1489,
+          "single_family": 1060,
+          "multi_family": 429
+        },
+        {
+          "period": "2021-05",
+          "total": 1600,
+          "single_family": 1094,
+          "multi_family": 506
+        },
+        {
+          "period": "2021-06",
+          "total": 1664,
+          "single_family": 1173,
+          "multi_family": 491
+        },
+        {
+          "period": "2021-07",
+          "total": 1600,
+          "single_family": 1145,
+          "multi_family": 455
+        },
+        {
+          "period": "2021-08",
+          "total": 1596,
+          "single_family": 1107,
+          "multi_family": 489
+        },
+        {
+          "period": "2021-09",
+          "total": 1576,
+          "single_family": 1098,
+          "multi_family": 478
+        },
+        {
+          "period": "2021-10",
+          "total": 1587,
+          "single_family": 1108,
+          "multi_family": 479
+        },
+        {
+          "period": "2021-11",
+          "total": 1707,
+          "single_family": 1214,
+          "multi_family": 493
+        },
+        {
+          "period": "2021-12",
+          "total": 1711,
+          "single_family": 1169,
+          "multi_family": 542
+        },
+        {
+          "period": "2022-01",
+          "total": 1693,
+          "single_family": 1172,
+          "multi_family": 521
+        },
+        {
+          "period": "2022-02",
+          "total": 1730,
+          "single_family": 1193,
+          "multi_family": 537
+        },
+        {
+          "period": "2022-03",
+          "total": 1700,
+          "single_family": 1166,
+          "multi_family": 534
+        },
+        {
+          "period": "2022-04",
+          "total": 1807,
+          "single_family": 1202,
+          "multi_family": 605
+        },
+        {
+          "period": "2022-05",
+          "total": 1546,
+          "single_family": 1052,
+          "multi_family": 494
+        },
+        {
+          "period": "2022-06",
+          "total": 1556,
+          "single_family": 1013,
+          "multi_family": 543
+        },
+        {
+          "period": "2022-07",
+          "total": 1382,
+          "single_family": 911,
+          "multi_family": 471
+        },
+        {
+          "period": "2022-08",
+          "total": 1532,
+          "single_family": 927,
+          "multi_family": 605
+        },
+        {
+          "period": "2022-09",
+          "total": 1481,
+          "single_family": 892,
+          "multi_family": 589
+        },
+        {
+          "period": "2022-10",
+          "total": 1446,
+          "single_family": 876,
+          "multi_family": 570
+        },
+        {
+          "period": "2022-11",
+          "total": 1434,
+          "single_family": 791,
+          "multi_family": 643
+        },
+        {
+          "period": "2022-12",
+          "total": 1296,
+          "single_family": 850,
           "multi_family": 446
         },
         {
+          "period": "2023-01",
+          "total": 1358,
+          "single_family": 832,
+          "multi_family": 526
+        },
+        {
+          "period": "2023-02",
+          "total": 1395,
+          "single_family": 817,
+          "multi_family": 578
+        },
+        {
+          "period": "2023-03",
+          "total": 1366,
+          "single_family": 829,
+          "multi_family": 537
+        },
+        {
+          "period": "2023-04",
+          "total": 1343,
+          "single_family": 869,
+          "multi_family": 474
+        },
+        {
+          "period": "2023-05",
+          "total": 1609,
+          "single_family": 1003,
+          "multi_family": 606
+        },
+        {
+          "period": "2023-06",
+          "total": 1420,
+          "single_family": 940,
+          "multi_family": 480
+        },
+        {
+          "period": "2023-07",
+          "total": 1464,
+          "single_family": 1007,
+          "multi_family": 457
+        },
+        {
+          "period": "2023-08",
+          "total": 1321,
+          "single_family": 959,
+          "multi_family": 362
+        },
+        {
+          "period": "2023-09",
+          "total": 1369,
+          "single_family": 978,
+          "multi_family": 391
+        },
+        {
+          "period": "2023-10",
+          "total": 1380,
+          "single_family": 987,
+          "multi_family": 393
+        },
+        {
+          "period": "2023-11",
+          "total": 1522,
+          "single_family": 1124,
+          "multi_family": 398
+        },
+        {
+          "period": "2023-12",
+          "total": 1504,
+          "single_family": 1024,
+          "multi_family": 480
+        },
+        {
+          "period": "2024-01",
+          "total": 1378,
+          "single_family": 1016,
+          "multi_family": 362
+        },
+        {
+          "period": "2024-02",
+          "total": 1555,
+          "single_family": 1140,
+          "multi_family": 415
+        },
+        {
+          "period": "2024-03",
+          "total": 1297,
+          "single_family": 1031,
+          "multi_family": 266
+        },
+        {
+          "period": "2024-04",
+          "total": 1379,
+          "single_family": 1051,
+          "multi_family": 328
+        },
+        {
+          "period": "2024-05",
+          "total": 1329,
+          "single_family": 995,
+          "multi_family": 334
+        },
+        {
+          "period": "2024-06",
+          "total": 1318,
+          "single_family": 979,
+          "multi_family": 339
+        },
+        {
+          "period": "2024-07",
+          "total": 1269,
+          "single_family": 879,
+          "multi_family": 390
+        },
+        {
+          "period": "2024-08",
+          "total": 1394,
+          "single_family": 1016,
+          "multi_family": 378
+        },
+        {
+          "period": "2024-09",
+          "total": 1357,
+          "single_family": 1052,
+          "multi_family": 305
+        },
+        {
+          "period": "2024-10",
+          "total": 1370,
+          "single_family": 958,
+          "multi_family": 412
+        },
+        {
+          "period": "2024-11",
+          "total": 1300,
+          "single_family": 1010,
+          "multi_family": 290
+        },
+        {
+          "period": "2024-12",
+          "total": 1494,
+          "single_family": 1056,
+          "multi_family": 438
+        },
+        {
+          "period": "2025-01",
+          "total": 1353,
+          "single_family": 1002,
+          "multi_family": 351
+        },
+        {
+          "period": "2025-02",
+          "total": 1491,
+          "single_family": 1094,
+          "multi_family": 397
+        },
+        {
+          "period": "2025-03",
+          "total": 1346,
+          "single_family": 939,
+          "multi_family": 407
+        },
+        {
+          "period": "2025-04",
+          "total": 1400,
+          "single_family": 953,
+          "multi_family": 447
+        },
+        {
           "period": "2025-05",
-          "total": 1305,
-          "single_family": 865,
-          "multi_family": 440
+          "total": 1289,
+          "single_family": 945,
+          "multi_family": 344
         },
         {
           "period": "2025-06",
-          "total": 1295,
-          "single_family": 838,
-          "multi_family": 458
+          "total": 1379,
+          "single_family": 925,
+          "multi_family": 454
+        },
+        {
+          "period": "2025-07",
+          "total": 1432,
+          "single_family": 959,
+          "multi_family": 473
+        },
+        {
+          "period": "2025-08",
+          "total": 1291,
+          "single_family": 873,
+          "multi_family": 418
+        },
+        {
+          "period": "2025-09",
+          "total": 1319,
+          "single_family": 837,
+          "multi_family": 482
+        },
+        {
+          "period": "2025-10",
+          "total": 1273,
+          "single_family": 893,
+          "multi_family": 380
+        },
+        {
+          "period": "2025-11",
+          "total": 1319,
+          "single_family": 929,
+          "multi_family": 390
+        },
+        {
+          "period": "2025-12",
+          "total": 1378,
+          "single_family": 946,
+          "multi_family": 432
+        },
+        {
+          "period": "2026-01",
+          "total": 1385,
+          "single_family": 894,
+          "multi_family": 491
+        },
+        {
+          "period": "2026-02",
+          "total": 1346,
+          "single_family": 923,
+          "multi_family": 423
+        },
+        {
+          "period": "2026-03",
+          "total": 1522,
+          "single_family": 1017,
+          "multi_family": 505
+        },
+        {
+          "period": "2026-04",
+          "total": 1392,
+          "single_family": 899,
+          "multi_family": 493
+        },
+        {
+          "period": "2026-05",
+          "total": 1177,
+          "single_family": 882,
+          "multi_family": 295
         }
       ]
     },
@@ -1738,759 +1811,825 @@
       "series": [
         {
           "period": "2015-01",
-          "total": 922,
-          "single_family": 604,
-          "multi_family": 318
+          "total": 1049,
+          "single_family": 662,
+          "multi_family": 387
         },
         {
           "period": "2015-02",
-          "total": 933,
-          "single_family": 627,
-          "multi_family": 305
+          "total": 1127,
+          "single_family": 628,
+          "multi_family": 499
         },
         {
           "period": "2015-03",
-          "total": 1094,
-          "single_family": 734,
-          "multi_family": 360
+          "total": 1072,
+          "single_family": 658,
+          "multi_family": 414
         },
         {
           "period": "2015-04",
-          "total": 1156,
-          "single_family": 759,
-          "multi_family": 397
+          "total": 1166,
+          "single_family": 679,
+          "multi_family": 487
         },
         {
           "period": "2015-05",
-          "total": 1196,
-          "single_family": 807,
-          "multi_family": 389
+          "total": 1272,
+          "single_family": 701,
+          "multi_family": 571
         },
         {
           "period": "2015-06",
-          "total": 1156,
-          "single_family": 776,
-          "multi_family": 380
+          "total": 1379,
+          "single_family": 706,
+          "multi_family": 673
         },
         {
           "period": "2015-07",
-          "total": 1108,
-          "single_family": 745,
-          "multi_family": 363
+          "total": 1140,
+          "single_family": 700,
+          "multi_family": 440
         },
         {
           "period": "2015-08",
-          "total": 1137,
-          "single_family": 766,
-          "multi_family": 371
+          "total": 1165,
+          "single_family": 718,
+          "multi_family": 447
         },
         {
           "period": "2015-09",
-          "total": 1087,
-          "single_family": 722,
-          "multi_family": 364
+          "total": 1144,
+          "single_family": 711,
+          "multi_family": 433
         },
         {
           "period": "2015-10",
-          "total": 1027,
-          "single_family": 677,
-          "multi_family": 350
+          "total": 1160,
+          "single_family": 721,
+          "multi_family": 439
         },
         {
           "period": "2015-11",
-          "total": 958,
-          "single_family": 623,
-          "multi_family": 336
+          "total": 1244,
+          "single_family": 730,
+          "multi_family": 514
         },
         {
           "period": "2015-12",
-          "total": 905,
-          "single_family": 599,
-          "multi_family": 306
+          "total": 1211,
+          "single_family": 719,
+          "multi_family": 492
         },
         {
           "period": "2016-01",
-          "total": 962,
-          "single_family": 642,
-          "multi_family": 320
+          "total": 1171,
+          "single_family": 720,
+          "multi_family": 451
         },
         {
           "period": "2016-02",
-          "total": 984,
-          "single_family": 650,
-          "multi_family": 334
+          "total": 1172,
+          "single_family": 723,
+          "multi_family": 449
         },
         {
           "period": "2016-03",
-          "total": 1143,
-          "single_family": 762,
+          "total": 1118,
+          "single_family": 737,
           "multi_family": 381
         },
         {
           "period": "2016-04",
-          "total": 1187,
-          "single_family": 784,
-          "multi_family": 404
+          "total": 1160,
+          "single_family": 753,
+          "multi_family": 407
         },
         {
           "period": "2016-05",
-          "total": 1241,
-          "single_family": 836,
-          "multi_family": 405
+          "total": 1205,
+          "single_family": 748,
+          "multi_family": 457
         },
         {
           "period": "2016-06",
-          "total": 1226,
-          "single_family": 804,
-          "multi_family": 422
+          "total": 1208,
+          "single_family": 752,
+          "multi_family": 456
         },
         {
           "period": "2016-07",
-          "total": 1208,
-          "single_family": 803,
-          "multi_family": 405
+          "total": 1198,
+          "single_family": 720,
+          "multi_family": 478
         },
         {
           "period": "2016-08",
-          "total": 1195,
-          "single_family": 797,
-          "multi_family": 398
+          "total": 1201,
+          "single_family": 751,
+          "multi_family": 450
         },
         {
           "period": "2016-09",
-          "total": 1115,
+          "total": 1303,
           "single_family": 752,
-          "multi_family": 363
+          "multi_family": 551
         },
         {
           "period": "2016-10",
-          "total": 1094,
-          "single_family": 733,
-          "multi_family": 362
-        },
-        {
-          "period": "2016-11",
-          "total": 982,
-          "single_family": 655,
-          "multi_family": 326
-        },
-        {
-          "period": "2016-12",
-          "total": 950,
-          "single_family": 617,
-          "multi_family": 333
-        },
-        {
-          "period": "2017-01",
-          "total": 998,
-          "single_family": 667,
-          "multi_family": 331
-        },
-        {
-          "period": "2017-02",
-          "total": 1028,
-          "single_family": 691,
-          "multi_family": 337
-        },
-        {
-          "period": "2017-03",
-          "total": 1192,
-          "single_family": 788,
-          "multi_family": 403
-        },
-        {
-          "period": "2017-04",
-          "total": 1247,
-          "single_family": 822,
-          "multi_family": 425
-        },
-        {
-          "period": "2017-05",
-          "total": 1290,
-          "single_family": 869,
-          "multi_family": 421
-        },
-        {
-          "period": "2017-06",
-          "total": 1286,
-          "single_family": 849,
-          "multi_family": 436
-        },
-        {
-          "period": "2017-07",
-          "total": 1261,
-          "single_family": 840,
-          "multi_family": 421
-        },
-        {
-          "period": "2017-08",
-          "total": 1212,
-          "single_family": 814,
-          "multi_family": 398
-        },
-        {
-          "period": "2017-09",
-          "total": 1181,
-          "single_family": 779,
-          "multi_family": 402
-        },
-        {
-          "period": "2017-10",
-          "total": 1133,
-          "single_family": 755,
-          "multi_family": 378
-        },
-        {
-          "period": "2017-11",
-          "total": 1052,
-          "single_family": 700,
-          "multi_family": 352
-        },
-        {
-          "period": "2017-12",
-          "total": 986,
-          "single_family": 659,
-          "multi_family": 328
-        },
-        {
-          "period": "2018-01",
-          "total": 1073,
-          "single_family": 719,
-          "multi_family": 354
-        },
-        {
-          "period": "2018-02",
-          "total": 1080,
-          "single_family": 697,
-          "multi_family": 383
-        },
-        {
-          "period": "2018-03",
-          "total": 1244,
-          "single_family": 827,
-          "multi_family": 417
-        },
-        {
-          "period": "2018-04",
-          "total": 1330,
-          "single_family": 893,
-          "multi_family": 437
-        },
-        {
-          "period": "2018-05",
-          "total": 1363,
-          "single_family": 895,
-          "multi_family": 469
-        },
-        {
-          "period": "2018-06",
-          "total": 1392,
-          "single_family": 916,
-          "multi_family": 476
-        },
-        {
-          "period": "2018-07",
-          "total": 1340,
-          "single_family": 901,
-          "multi_family": 439
-        },
-        {
-          "period": "2018-08",
-          "total": 1274,
-          "single_family": 851,
-          "multi_family": 424
-        },
-        {
-          "period": "2018-09",
-          "total": 1227,
-          "single_family": 828,
-          "multi_family": 399
-        },
-        {
-          "period": "2018-10",
-          "total": 1205,
-          "single_family": 786,
-          "multi_family": 418
-        },
-        {
-          "period": "2018-11",
-          "total": 1117,
-          "single_family": 731,
-          "multi_family": 386
-        },
-        {
-          "period": "2018-12",
-          "total": 1053,
-          "single_family": 694,
-          "multi_family": 359
-        },
-        {
-          "period": "2019-01",
-          "total": 1084,
-          "single_family": 704,
-          "multi_family": 380
-        },
-        {
-          "period": "2019-02",
-          "total": 1178,
-          "single_family": 785,
-          "multi_family": 393
-        },
-        {
-          "period": "2019-03",
-          "total": 1325,
-          "single_family": 869,
-          "multi_family": 457
-        },
-        {
-          "period": "2019-04",
-          "total": 1405,
-          "single_family": 932,
-          "multi_family": 472
-        },
-        {
-          "period": "2019-05",
-          "total": 1438,
-          "single_family": 939,
-          "multi_family": 499
-        },
-        {
-          "period": "2019-06",
-          "total": 1431,
-          "single_family": 943,
-          "multi_family": 487
-        },
-        {
-          "period": "2019-07",
-          "total": 1361,
-          "single_family": 890,
-          "multi_family": 471
-        },
-        {
-          "period": "2019-08",
-          "total": 1351,
-          "single_family": 906,
-          "multi_family": 445
-        },
-        {
-          "period": "2019-09",
-          "total": 1315,
-          "single_family": 855,
-          "multi_family": 459
-        },
-        {
-          "period": "2019-10",
-          "total": 1232,
-          "single_family": 828,
-          "multi_family": 404
-        },
-        {
-          "period": "2019-11",
-          "total": 1130,
-          "single_family": 755,
-          "multi_family": 375
-        },
-        {
-          "period": "2019-12",
-          "total": 1110,
-          "single_family": 727,
-          "multi_family": 383
-        },
-        {
-          "period": "2020-01",
-          "total": 1154,
-          "single_family": 756,
-          "multi_family": 398
-        },
-        {
-          "period": "2020-02",
-          "total": 1180,
-          "single_family": 764,
-          "multi_family": 416
-        },
-        {
-          "period": "2020-03",
-          "total": 1364,
-          "single_family": 903,
-          "multi_family": 461
-        },
-        {
-          "period": "2020-04",
-          "total": 1434,
-          "single_family": 966,
-          "multi_family": 468
-        },
-        {
-          "period": "2020-05",
-          "total": 1497,
-          "single_family": 1001,
-          "multi_family": 496
-        },
-        {
-          "period": "2020-06",
-          "total": 1500,
-          "single_family": 1006,
-          "multi_family": 494
-        },
-        {
-          "period": "2020-07",
-          "total": 1469,
-          "single_family": 985,
-          "multi_family": 484
-        },
-        {
-          "period": "2020-08",
-          "total": 1443,
-          "single_family": 951,
-          "multi_family": 492
-        },
-        {
-          "period": "2020-09",
-          "total": 1349,
-          "single_family": 870,
-          "multi_family": 479
-        },
-        {
-          "period": "2020-10",
-          "total": 1286,
-          "single_family": 845,
-          "multi_family": 441
-        },
-        {
-          "period": "2020-11",
-          "total": 1200,
-          "single_family": 797,
-          "multi_family": 403
-        },
-        {
-          "period": "2020-12",
-          "total": 1178,
-          "single_family": 769,
-          "multi_family": 410
-        },
-        {
-          "period": "2021-01",
-          "total": 1219,
-          "single_family": 808,
-          "multi_family": 412
-        },
-        {
-          "period": "2021-02",
-          "total": 1287,
-          "single_family": 863,
-          "multi_family": 424
-        },
-        {
-          "period": "2021-03",
-          "total": 1404,
-          "single_family": 928,
-          "multi_family": 476
-        },
-        {
-          "period": "2021-04",
-          "total": 1517,
-          "single_family": 981,
-          "multi_family": 536
-        },
-        {
-          "period": "2021-05",
-          "total": 1596,
-          "single_family": 1055,
-          "multi_family": 541
-        },
-        {
-          "period": "2021-06",
-          "total": 1513,
-          "single_family": 1001,
-          "multi_family": 512
-        },
-        {
-          "period": "2021-07",
-          "total": 1483,
-          "single_family": 997,
-          "multi_family": 487
-        },
-        {
-          "period": "2021-08",
-          "total": 1453,
-          "single_family": 959,
-          "multi_family": 494
-        },
-        {
-          "period": "2021-09",
-          "total": 1437,
-          "single_family": 960,
-          "multi_family": 477
-        },
-        {
-          "period": "2021-10",
-          "total": 1376,
-          "single_family": 899,
-          "multi_family": 477
-        },
-        {
-          "period": "2021-11",
-          "total": 1240,
-          "single_family": 809,
-          "multi_family": 431
-        },
-        {
-          "period": "2021-12",
-          "total": 1190,
-          "single_family": 780,
-          "multi_family": 410
-        },
-        {
-          "period": "2022-01",
-          "total": 1250,
-          "single_family": 841,
-          "multi_family": 409
-        },
-        {
-          "period": "2022-02",
-          "total": 1309,
-          "single_family": 852,
-          "multi_family": 457
-        },
-        {
-          "period": "2022-03",
-          "total": 1509,
-          "single_family": 1017,
-          "multi_family": 491
-        },
-        {
-          "period": "2022-04",
-          "total": 1556,
-          "single_family": 1035,
-          "multi_family": 521
-        },
-        {
-          "period": "2022-05",
-          "total": 1636,
-          "single_family": 1079,
-          "multi_family": 557
-        },
-        {
-          "period": "2022-06",
-          "total": 1619,
-          "single_family": 1072,
-          "multi_family": 548
-        },
-        {
-          "period": "2022-07",
-          "total": 1535,
-          "single_family": 1007,
-          "multi_family": 528
-        },
-        {
-          "period": "2022-08",
-          "total": 1511,
-          "single_family": 1007,
-          "multi_family": 504
-        },
-        {
-          "period": "2022-09",
-          "total": 1461,
-          "single_family": 953,
-          "multi_family": 508
-        },
-        {
-          "period": "2022-10",
-          "total": 1432,
-          "single_family": 941,
-          "multi_family": 491
-        },
-        {
-          "period": "2022-11",
-          "total": 1283,
-          "single_family": 828,
-          "multi_family": 455
-        },
-        {
-          "period": "2022-12",
-          "total": 1267,
-          "single_family": 843,
-          "multi_family": 423
-        },
-        {
-          "period": "2023-01",
-          "total": 1170,
-          "single_family": 757,
-          "multi_family": 414
-        },
-        {
-          "period": "2023-02",
-          "total": 1229,
-          "single_family": 825,
-          "multi_family": 404
-        },
-        {
-          "period": "2023-03",
-          "total": 1428,
-          "single_family": 938,
-          "multi_family": 490
-        },
-        {
-          "period": "2023-04",
-          "total": 1491,
-          "single_family": 977,
-          "multi_family": 514
-        },
-        {
-          "period": "2023-05",
-          "total": 1522,
-          "single_family": 1025,
-          "multi_family": 498
-        },
-        {
-          "period": "2023-06",
-          "total": 1559,
-          "single_family": 1026,
-          "multi_family": 533
-        },
-        {
-          "period": "2023-07",
-          "total": 1514,
-          "single_family": 1020,
-          "multi_family": 494
-        },
-        {
-          "period": "2023-08",
-          "total": 1440,
-          "single_family": 939,
-          "multi_family": 500
-        },
-        {
-          "period": "2023-09",
-          "total": 1414,
-          "single_family": 928,
-          "multi_family": 486
-        },
-        {
-          "period": "2023-10",
-          "total": 1351,
-          "single_family": 912,
-          "multi_family": 439
-        },
-        {
-          "period": "2023-11",
           "total": 1254,
-          "single_family": 821,
-          "multi_family": 433
-        },
-        {
-          "period": "2023-12",
-          "total": 1163,
-          "single_family": 753,
-          "multi_family": 409
-        },
-        {
-          "period": "2024-01",
-          "total": 1145,
-          "single_family": 744,
-          "multi_family": 401
-        },
-        {
-          "period": "2024-02",
-          "total": 1157,
-          "single_family": 767,
-          "multi_family": 390
-        },
-        {
-          "period": "2024-03",
-          "total": 1321,
-          "single_family": 890,
-          "multi_family": 431
-        },
-        {
-          "period": "2024-04",
-          "total": 1447,
-          "single_family": 960,
-          "multi_family": 487
-        },
-        {
-          "period": "2024-05",
-          "total": 1444,
-          "single_family": 940,
-          "multi_family": 504
-        },
-        {
-          "period": "2024-06",
-          "total": 1463,
-          "single_family": 951,
-          "multi_family": 512
-        },
-        {
-          "period": "2024-07",
-          "total": 1394,
-          "single_family": 941,
-          "multi_family": 454
-        },
-        {
-          "period": "2024-08",
-          "total": 1405,
-          "single_family": 923,
-          "multi_family": 483
-        },
-        {
-          "period": "2024-09",
-          "total": 1337,
-          "single_family": 864,
-          "multi_family": 473
-        },
-        {
-          "period": "2024-10",
-          "total": 1316,
-          "single_family": 887,
-          "multi_family": 429
-        },
-        {
-          "period": "2024-11",
-          "total": 1159,
-          "single_family": 767,
-          "multi_family": 392
-        },
-        {
-          "period": "2024-12",
-          "total": 1126,
-          "single_family": 742,
-          "multi_family": 383
-        },
-        {
-          "period": "2025-01",
-          "total": 1099,
-          "single_family": 722,
-          "multi_family": 377
-        },
-        {
-          "period": "2025-02",
-          "total": 1126,
-          "single_family": 754,
-          "multi_family": 371
-        },
-        {
-          "period": "2025-03",
-          "total": 1246,
-          "single_family": 814,
-          "multi_family": 432
-        },
-        {
-          "period": "2025-04",
-          "total": 1346,
-          "single_family": 904,
-          "multi_family": 442
-        },
-        {
-          "period": "2025-05",
-          "total": 1374,
-          "single_family": 889,
+          "single_family": 769,
           "multi_family": 485
         },
         {
+          "period": "2016-11",
+          "total": 1230,
+          "single_family": 770,
+          "multi_family": 460
+        },
+        {
+          "period": "2016-12",
+          "total": 1248,
+          "single_family": 809,
+          "multi_family": 439
+        },
+        {
+          "period": "2017-01",
+          "total": 1303,
+          "single_family": 790,
+          "multi_family": 513
+        },
+        {
+          "period": "2017-02",
+          "total": 1234,
+          "single_family": 811,
+          "multi_family": 423
+        },
+        {
+          "period": "2017-03",
+          "total": 1272,
+          "single_family": 826,
+          "multi_family": 446
+        },
+        {
+          "period": "2017-04",
+          "total": 1251,
+          "single_family": 793,
+          "multi_family": 458
+        },
+        {
+          "period": "2017-05",
+          "total": 1208,
+          "single_family": 795,
+          "multi_family": 413
+        },
+        {
+          "period": "2017-06",
+          "total": 1353,
+          "single_family": 822,
+          "multi_family": 531
+        },
+        {
+          "period": "2017-07",
+          "total": 1256,
+          "single_family": 818,
+          "multi_family": 438
+        },
+        {
+          "period": "2017-08",
+          "total": 1319,
+          "single_family": 816,
+          "multi_family": 503
+        },
+        {
+          "period": "2017-09",
+          "total": 1273,
+          "single_family": 830,
+          "multi_family": 443
+        },
+        {
+          "period": "2017-10",
+          "total": 1356,
+          "single_family": 852,
+          "multi_family": 504
+        },
+        {
+          "period": "2017-11",
+          "total": 1299,
+          "single_family": 859,
+          "multi_family": 440
+        },
+        {
+          "period": "2017-12",
+          "total": 1311,
+          "single_family": 862,
+          "multi_family": 449
+        },
+        {
+          "period": "2018-01",
+          "total": 1317,
+          "single_family": 856,
+          "multi_family": 461
+        },
+        {
+          "period": "2018-02",
+          "total": 1321,
+          "single_family": 865,
+          "multi_family": 456
+        },
+        {
+          "period": "2018-03",
+          "total": 1385,
+          "single_family": 847,
+          "multi_family": 538
+        },
+        {
+          "period": "2018-04",
+          "total": 1378,
+          "single_family": 865,
+          "multi_family": 513
+        },
+        {
+          "period": "2018-05",
+          "total": 1338,
+          "single_family": 859,
+          "multi_family": 479
+        },
+        {
+          "period": "2018-06",
+          "total": 1345,
+          "single_family": 864,
+          "multi_family": 481
+        },
+        {
+          "period": "2018-07",
+          "total": 1334,
+          "single_family": 884,
+          "multi_family": 450
+        },
+        {
+          "period": "2018-08",
+          "total": 1273,
+          "single_family": 840,
+          "multi_family": 433
+        },
+        {
+          "period": "2018-09",
+          "total": 1314,
+          "single_family": 858,
+          "multi_family": 456
+        },
+        {
+          "period": "2018-10",
+          "total": 1272,
+          "single_family": 849,
+          "multi_family": 423
+        },
+        {
+          "period": "2018-11",
+          "total": 1340,
+          "single_family": 845,
+          "multi_family": 495
+        },
+        {
+          "period": "2018-12",
+          "total": 1317,
+          "single_family": 812,
+          "multi_family": 505
+        },
+        {
+          "period": "2019-01",
+          "total": 1254,
+          "single_family": 797,
+          "multi_family": 457
+        },
+        {
+          "period": "2019-02",
+          "total": 1286,
+          "single_family": 796,
+          "multi_family": 490
+        },
+        {
+          "period": "2019-03",
+          "total": 1295,
+          "single_family": 809,
+          "multi_family": 486
+        },
+        {
+          "period": "2019-04",
+          "total": 1322,
+          "single_family": 796,
+          "multi_family": 526
+        },
+        {
+          "period": "2019-05",
+          "total": 1347,
+          "single_family": 833,
+          "multi_family": 514
+        },
+        {
+          "period": "2019-06",
+          "total": 1299,
+          "single_family": 848,
+          "multi_family": 451
+        },
+        {
+          "period": "2019-07",
+          "total": 1379,
+          "single_family": 865,
+          "multi_family": 514
+        },
+        {
+          "period": "2019-08",
+          "total": 1482,
+          "single_family": 906,
+          "multi_family": 576
+        },
+        {
+          "period": "2019-09",
+          "total": 1469,
+          "single_family": 904,
+          "multi_family": 565
+        },
+        {
+          "period": "2019-10",
+          "total": 1523,
+          "single_family": 934,
+          "multi_family": 589
+        },
+        {
+          "period": "2019-11",
+          "total": 1535,
+          "single_family": 944,
+          "multi_family": 591
+        },
+        {
+          "period": "2019-12",
+          "total": 1443,
+          "single_family": 934,
+          "multi_family": 509
+        },
+        {
+          "period": "2020-01",
+          "total": 1490,
+          "single_family": 971,
+          "multi_family": 519
+        },
+        {
+          "period": "2020-02",
+          "total": 1461,
+          "single_family": 979,
+          "multi_family": 482
+        },
+        {
+          "period": "2020-03",
+          "total": 1351,
+          "single_family": 873,
+          "multi_family": 478
+        },
+        {
+          "period": "2020-04",
+          "total": 1079,
+          "single_family": 664,
+          "multi_family": 415
+        },
+        {
+          "period": "2020-05",
+          "total": 1251,
+          "single_family": 751,
+          "multi_family": 500
+        },
+        {
+          "period": "2020-06",
+          "total": 1333,
+          "single_family": 866,
+          "multi_family": 467
+        },
+        {
+          "period": "2020-07",
+          "total": 1539,
+          "single_family": 1012,
+          "multi_family": 527
+        },
+        {
+          "period": "2020-08",
+          "total": 1534,
+          "single_family": 1073,
+          "multi_family": 461
+        },
+        {
+          "period": "2020-09",
+          "total": 1650,
+          "single_family": 1145,
+          "multi_family": 505
+        },
+        {
+          "period": "2020-10",
+          "total": 1612,
+          "single_family": 1147,
+          "multi_family": 465
+        },
+        {
+          "period": "2020-11",
+          "total": 1692,
+          "single_family": 1158,
+          "multi_family": 534
+        },
+        {
+          "period": "2020-12",
+          "total": 1755,
+          "single_family": 1228,
+          "multi_family": 527
+        },
+        {
+          "period": "2021-01",
+          "total": 1856,
+          "single_family": 1247,
+          "multi_family": 609
+        },
+        {
+          "period": "2021-02",
+          "total": 1703,
+          "single_family": 1104,
+          "multi_family": 599
+        },
+        {
+          "period": "2021-03",
+          "total": 1756,
+          "single_family": 1167,
+          "multi_family": 589
+        },
+        {
+          "period": "2021-04",
+          "total": 1710,
+          "single_family": 1125,
+          "multi_family": 585
+        },
+        {
+          "period": "2021-05",
+          "total": 1705,
+          "single_family": 1125,
+          "multi_family": 580
+        },
+        {
+          "period": "2021-06",
+          "total": 1662,
+          "single_family": 1091,
+          "multi_family": 571
+        },
+        {
+          "period": "2021-07",
+          "total": 1666,
+          "single_family": 1069,
+          "multi_family": 597
+        },
+        {
+          "period": "2021-08",
+          "total": 1740,
+          "single_family": 1069,
+          "multi_family": 671
+        },
+        {
+          "period": "2021-09",
+          "total": 1649,
+          "single_family": 1064,
+          "multi_family": 585
+        },
+        {
+          "period": "2021-10",
+          "total": 1699,
+          "single_family": 1090,
+          "multi_family": 609
+        },
+        {
+          "period": "2021-11",
+          "total": 1770,
+          "single_family": 1131,
+          "multi_family": 639
+        },
+        {
+          "period": "2021-12",
+          "total": 1886,
+          "single_family": 1139,
+          "multi_family": 747
+        },
+        {
+          "period": "2022-01",
+          "total": 1923,
+          "single_family": 1245,
+          "multi_family": 678
+        },
+        {
+          "period": "2022-02",
+          "total": 1846,
+          "single_family": 1181,
+          "multi_family": 665
+        },
+        {
+          "period": "2022-03",
+          "total": 1899,
+          "single_family": 1129,
+          "multi_family": 770
+        },
+        {
+          "period": "2022-04",
+          "total": 1849,
+          "single_family": 1084,
+          "multi_family": 765
+        },
+        {
+          "period": "2022-05",
+          "total": 1711,
+          "single_family": 1036,
+          "multi_family": 675
+        },
+        {
+          "period": "2022-06",
+          "total": 1726,
+          "single_family": 957,
+          "multi_family": 769
+        },
+        {
+          "period": "2022-07",
+          "total": 1707,
+          "single_family": 931,
+          "multi_family": 776
+        },
+        {
+          "period": "2022-08",
+          "total": 1565,
+          "single_family": 890,
+          "multi_family": 675
+        },
+        {
+          "period": "2022-09",
+          "total": 1586,
+          "single_family": 862,
+          "multi_family": 724
+        },
+        {
+          "period": "2022-10",
+          "total": 1583,
+          "single_family": 841,
+          "multi_family": 742
+        },
+        {
+          "period": "2022-11",
+          "total": 1424,
+          "single_family": 789,
+          "multi_family": 635
+        },
+        {
+          "period": "2022-12",
+          "total": 1398,
+          "single_family": 738,
+          "multi_family": 660
+        },
+        {
+          "period": "2023-01",
+          "total": 1418,
+          "single_family": 755,
+          "multi_family": 663
+        },
+        {
+          "period": "2023-02",
+          "total": 1605,
+          "single_family": 794,
+          "multi_family": 811
+        },
+        {
+          "period": "2023-03",
+          "total": 1472,
+          "single_family": 838,
+          "multi_family": 634
+        },
+        {
+          "period": "2023-04",
+          "total": 1482,
+          "single_family": 874,
+          "multi_family": 608
+        },
+        {
+          "period": "2023-05",
+          "total": 1579,
+          "single_family": 925,
+          "multi_family": 654
+        },
+        {
+          "period": "2023-06",
+          "total": 1447,
+          "single_family": 959,
+          "multi_family": 488
+        },
+        {
+          "period": "2023-07",
+          "total": 1530,
+          "single_family": 967,
+          "multi_family": 563
+        },
+        {
+          "period": "2023-08",
+          "total": 1596,
+          "single_family": 977,
+          "multi_family": 619
+        },
+        {
+          "period": "2023-09",
+          "total": 1530,
+          "single_family": 985,
+          "multi_family": 545
+        },
+        {
+          "period": "2023-10",
+          "total": 1524,
+          "single_family": 982,
+          "multi_family": 542
+        },
+        {
+          "period": "2023-11",
+          "total": 1513,
+          "single_family": 994,
+          "multi_family": 519
+        },
+        {
+          "period": "2023-12",
+          "total": 1501,
+          "single_family": 1008,
+          "multi_family": 493
+        },
+        {
+          "period": "2024-01",
+          "total": 1548,
+          "single_family": 1036,
+          "multi_family": 512
+        },
+        {
+          "period": "2024-02",
+          "total": 1570,
+          "single_family": 1022,
+          "multi_family": 548
+        },
+        {
+          "period": "2024-03",
+          "total": 1477,
+          "single_family": 980,
+          "multi_family": 497
+        },
+        {
+          "period": "2024-04",
+          "total": 1456,
+          "single_family": 981,
+          "multi_family": 475
+        },
+        {
+          "period": "2024-05",
+          "total": 1405,
+          "single_family": 962,
+          "multi_family": 443
+        },
+        {
+          "period": "2024-06",
+          "total": 1459,
+          "single_family": 955,
+          "multi_family": 504
+        },
+        {
+          "period": "2024-07",
+          "total": 1448,
+          "single_family": 953,
+          "multi_family": 495
+        },
+        {
+          "period": "2024-08",
+          "total": 1492,
+          "single_family": 973,
+          "multi_family": 519
+        },
+        {
+          "period": "2024-09",
+          "total": 1421,
+          "single_family": 963,
+          "multi_family": 458
+        },
+        {
+          "period": "2024-10",
+          "total": 1435,
+          "single_family": 964,
+          "multi_family": 471
+        },
+        {
+          "period": "2024-11",
+          "total": 1512,
+          "single_family": 971,
+          "multi_family": 541
+        },
+        {
+          "period": "2024-12",
+          "total": 1467,
+          "single_family": 985,
+          "multi_family": 482
+        },
+        {
+          "period": "2025-01",
+          "total": 1463,
+          "single_family": 982,
+          "multi_family": 481
+        },
+        {
+          "period": "2025-02",
+          "total": 1446,
+          "single_family": 979,
+          "multi_family": 467
+        },
+        {
+          "period": "2025-03",
+          "total": 1492,
+          "single_family": 964,
+          "multi_family": 528
+        },
+        {
+          "period": "2025-04",
+          "total": 1445,
+          "single_family": 923,
+          "multi_family": 522
+        },
+        {
+          "period": "2025-05",
+          "total": 1416,
+          "single_family": 902,
+          "multi_family": 514
+        },
+        {
           "period": "2025-06",
-          "total": 1389,
-          "single_family": 908,
+          "total": 1399,
+          "single_family": 873,
+          "multi_family": 526
+        },
+        {
+          "period": "2025-07",
+          "total": 1400,
+          "single_family": 884,
+          "multi_family": 516
+        },
+        {
+          "period": "2025-08",
+          "total": 1347,
+          "single_family": 867,
           "multi_family": 480
+        },
+        {
+          "period": "2025-09",
+          "total": 1444,
+          "single_family": 888,
+          "multi_family": 556
+        },
+        {
+          "period": "2025-10",
+          "total": 1418,
+          "single_family": 886,
+          "multi_family": 532
+        },
+        {
+          "period": "2025-11",
+          "total": 1414,
+          "single_family": 908,
+          "multi_family": 506
+        },
+        {
+          "period": "2025-12",
+          "total": 1482,
+          "single_family": 892,
+          "multi_family": 590
+        },
+        {
+          "period": "2026-01",
+          "total": 1393,
+          "single_family": 879,
+          "multi_family": 514
+        },
+        {
+          "period": "2026-02",
+          "total": 1540,
+          "single_family": 929,
+          "multi_family": 611
+        },
+        {
+          "period": "2026-03",
+          "total": 1363,
+          "single_family": 895,
+          "multi_family": 468
+        },
+        {
+          "period": "2026-04",
+          "total": 1423,
+          "single_family": 881,
+          "multi_family": 542
+        },
+        {
+          "period": "2026-05",
+          "total": 1410,
+          "single_family": 892,
+          "multi_family": 518
         }
       ]
     },
