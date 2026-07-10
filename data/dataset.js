@@ -8,7 +8,7 @@ window.LUMBER_DATA = {
       "production": false,
       "price": true,
       "housing": true,
-      "exports": true,
+      "exports": false,
       "companies": true
     },
     "disclaimer": "PLACEHOLDER DATA — synthetic values scaled to realistic magnitudes so every chart renders. Replace with the live pipeline output (pipeline/fetch/*) before using for analysis.",
@@ -2323,8 +2323,8 @@ window.LUMBER_DATA = {
       ]
     },
     "canadaExports": {
-      "unit": "US$ millions",
-      "freq": "annual",
+      "unit": "MMbf",
+      "freq": "quarterly",
       "destinations": [
         "US",
         "China",
@@ -2334,68 +2334,340 @@ window.LUMBER_DATA = {
       ],
       "series": [
         {
-          "period": "2018",
-          "US": 5745,
-          "China": 829,
-          "Japan": 728,
-          "Europe": 99,
-          "Other": 492
-        },
-        {
-          "period": "2019",
-          "US": 4453,
-          "China": 612,
-          "Japan": 518,
-          "Europe": 95,
-          "Other": 324
-        },
-        {
-          "period": "2020",
-          "US": 6278,
-          "China": 449,
-          "Japan": 393,
-          "Europe": 84,
-          "Other": 285
-        },
-        {
-          "period": "2021",
-          "US": 11121,
-          "China": 382,
-          "Japan": 885,
-          "Europe": 131,
-          "Other": 588
-        },
-        {
-          "period": "2022",
-          "US": 9059,
-          "China": 233,
-          "Japan": 631,
+          "period": "2015Q1",
+          "US": 2525,
+          "China": 255,
+          "Japan": 191,
           "Europe": 97,
-          "Other": 480
+          "Other": 160
         },
         {
-          "period": "2023",
-          "US": 5395,
-          "China": 206,
-          "Japan": 309,
-          "Europe": 89,
-          "Other": 282
+          "period": "2015Q2",
+          "US": 2815,
+          "China": 296,
+          "Japan": 225,
+          "Europe": 114,
+          "Other": 186
         },
         {
-          "period": "2024",
-          "US": 5491,
-          "China": 195,
-          "Japan": 316,
-          "Europe": 113,
-          "Other": 284
+          "period": "2015Q3",
+          "US": 2854,
+          "China": 303,
+          "Japan": 223,
+          "Europe": 118,
+          "Other": 186
         },
         {
-          "period": "2025",
-          "US": 4881,
-          "China": 209,
-          "Japan": 317,
-          "Europe": 106,
-          "Other": 323
+          "period": "2015Q4",
+          "US": 2545,
+          "China": 273,
+          "Japan": 197,
+          "Europe": 108,
+          "Other": 171
+        },
+        {
+          "period": "2016Q1",
+          "US": 2500,
+          "China": 275,
+          "Japan": 197,
+          "Europe": 112,
+          "Other": 169
+        },
+        {
+          "period": "2016Q2",
+          "US": 2853,
+          "China": 331,
+          "Japan": 227,
+          "Europe": 134,
+          "Other": 198
+        },
+        {
+          "period": "2016Q3",
+          "US": 2828,
+          "China": 330,
+          "Japan": 228,
+          "Europe": 134,
+          "Other": 195
+        },
+        {
+          "period": "2016Q4",
+          "US": 2590,
+          "China": 294,
+          "Japan": 208,
+          "Europe": 125,
+          "Other": 176
+        },
+        {
+          "period": "2017Q1",
+          "US": 2560,
+          "China": 303,
+          "Japan": 206,
+          "Europe": 126,
+          "Other": 180
+        },
+        {
+          "period": "2017Q2",
+          "US": 2821,
+          "China": 347,
+          "Japan": 236,
+          "Europe": 149,
+          "Other": 208
+        },
+        {
+          "period": "2017Q3",
+          "US": 2769,
+          "China": 343,
+          "Japan": 233,
+          "Europe": 149,
+          "Other": 207
+        },
+        {
+          "period": "2017Q4",
+          "US": 2465,
+          "China": 312,
+          "Japan": 206,
+          "Europe": 135,
+          "Other": 179
+        },
+        {
+          "period": "2018Q1",
+          "US": 2476,
+          "China": 304,
+          "Japan": 202,
+          "Europe": 138,
+          "Other": 182
+        },
+        {
+          "period": "2018Q2",
+          "US": 2824,
+          "China": 354,
+          "Japan": 243,
+          "Europe": 164,
+          "Other": 214
+        },
+        {
+          "period": "2018Q3",
+          "US": 2695,
+          "China": 364,
+          "Japan": 234,
+          "Europe": 164,
+          "Other": 214
+        },
+        {
+          "period": "2018Q4",
+          "US": 2402,
+          "China": 321,
+          "Japan": 212,
+          "Europe": 150,
+          "Other": 189
+        },
+        {
+          "period": "2019Q1",
+          "US": 2386,
+          "China": 328,
+          "Japan": 208,
+          "Europe": 148,
+          "Other": 191
+        },
+        {
+          "period": "2019Q2",
+          "US": 2669,
+          "China": 381,
+          "Japan": 238,
+          "Europe": 174,
+          "Other": 221
+        },
+        {
+          "period": "2019Q3",
+          "US": 2653,
+          "China": 366,
+          "Japan": 233,
+          "Europe": 177,
+          "Other": 216
+        },
+        {
+          "period": "2019Q4",
+          "US": 2446,
+          "China": 337,
+          "Japan": 216,
+          "Europe": 159,
+          "Other": 197
+        },
+        {
+          "period": "2020Q1",
+          "US": 2491,
+          "China": 358,
+          "Japan": 225,
+          "Europe": 174,
+          "Other": 208
+        },
+        {
+          "period": "2020Q2",
+          "US": 2901,
+          "China": 428,
+          "Japan": 267,
+          "Europe": 206,
+          "Other": 247
+        },
+        {
+          "period": "2020Q3",
+          "US": 2982,
+          "China": 444,
+          "Japan": 265,
+          "Europe": 212,
+          "Other": 250
+        },
+        {
+          "period": "2020Q4",
+          "US": 2515,
+          "China": 375,
+          "Japan": 232,
+          "Europe": 188,
+          "Other": 213
+        },
+        {
+          "period": "2021Q1",
+          "US": 2389,
+          "China": 368,
+          "Japan": 223,
+          "Europe": 181,
+          "Other": 210
+        },
+        {
+          "period": "2021Q2",
+          "US": 2511,
+          "China": 399,
+          "Japan": 238,
+          "Europe": 196,
+          "Other": 221
+        },
+        {
+          "period": "2021Q3",
+          "US": 2447,
+          "China": 386,
+          "Japan": 224,
+          "Europe": 187,
+          "Other": 219
+        },
+        {
+          "period": "2021Q4",
+          "US": 2068,
+          "China": 331,
+          "Japan": 197,
+          "Europe": 167,
+          "Other": 187
+        },
+        {
+          "period": "2022Q1",
+          "US": 1973,
+          "China": 328,
+          "Japan": 193,
+          "Europe": 163,
+          "Other": 181
+        },
+        {
+          "period": "2022Q2",
+          "US": 2242,
+          "China": 368,
+          "Japan": 212,
+          "Europe": 185,
+          "Other": 204
+        },
+        {
+          "period": "2022Q3",
+          "US": 2091,
+          "China": 357,
+          "Japan": 209,
+          "Europe": 180,
+          "Other": 200
+        },
+        {
+          "period": "2022Q4",
+          "US": 1980,
+          "China": 334,
+          "Japan": 191,
+          "Europe": 167,
+          "Other": 188
+        },
+        {
+          "period": "2023Q1",
+          "US": 1965,
+          "China": 345,
+          "Japan": 193,
+          "Europe": 178,
+          "Other": 194
+        },
+        {
+          "period": "2023Q2",
+          "US": 2314,
+          "China": 395,
+          "Japan": 223,
+          "Europe": 208,
+          "Other": 222
+        },
+        {
+          "period": "2023Q3",
+          "US": 2283,
+          "China": 408,
+          "Japan": 232,
+          "Europe": 213,
+          "Other": 231
+        },
+        {
+          "period": "2023Q4",
+          "US": 2080,
+          "China": 383,
+          "Japan": 210,
+          "Europe": 198,
+          "Other": 203
+        },
+        {
+          "period": "2024Q1",
+          "US": 2159,
+          "China": 398,
+          "Japan": 216,
+          "Europe": 211,
+          "Other": 218
+        },
+        {
+          "period": "2024Q2",
+          "US": 2449,
+          "China": 441,
+          "Japan": 248,
+          "Europe": 241,
+          "Other": 242
+        },
+        {
+          "period": "2024Q3",
+          "US": 2464,
+          "China": 465,
+          "Japan": 249,
+          "Europe": 244,
+          "Other": 250
+        },
+        {
+          "period": "2024Q4",
+          "US": 2149,
+          "China": 403,
+          "Japan": 219,
+          "Europe": 213,
+          "Other": 224
+        },
+        {
+          "period": "2025Q1",
+          "US": 2135,
+          "China": 417,
+          "Japan": 224,
+          "Europe": 219,
+          "Other": 227
+        },
+        {
+          "period": "2025Q2",
+          "US": 2484,
+          "China": 483,
+          "Japan": 261,
+          "Europe": 268,
+          "Other": 258
         }
       ]
     },
