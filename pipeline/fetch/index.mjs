@@ -47,7 +47,19 @@ export async function fetchLiveDataset({ fallback }) {
     live.housing = !!housing;
   }
   if (exports) { industry.canadaExports = useOrFallback(exports, base.industry.canadaExports, 'canadaExports'); live.exports = !!exports; }
-  live.companies = !!(companies && Object.keys(companies).length);
+
+  // Merge live company data (e.g. revenue from EDGAR) onto the sample profiles —
+  // keep sample production/inventory + the static profile; only override what's live.
+  const mergedCompanies = { ...base.companies };
+  if (companies) {
+    for (const [id, patch] of Object.entries(companies)) {
+      if (mergedCompanies[id]) {
+        mergedCompanies[id] = { ...mergedCompanies[id], ...patch };
+        console.log(`[fetch] company ${id}: LIVE (${Object.keys(patch.live || {}).join(', ')})`);
+        live.companies = true;
+      }
+    }
+  }
 
   const allLive = live.production && live.price && live.housing && live.exports && live.companies;
 
@@ -58,7 +70,7 @@ export async function fetchLiveDataset({ fallback }) {
       live,   // section-level provenance, consumed by the front-end badges
     },
     industry,
-    companies: live.companies ? companies : base.companies,
+    companies: mergedCompanies,
   };
   return merged;
 }

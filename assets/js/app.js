@@ -52,16 +52,19 @@
   }
 
   const LIVE = (DATA.meta && DATA.meta.live) || {};
-  function provBadge(section) {
-    const isLive = !!LIVE[section];
+  function provBadgeBool(isLive) {
     return `<span class="prov ${isLive ? 'prov--live' : 'prov--sample'}" title="${isLive ? 'Live data from source' : 'Placeholder / sample data'}">${isLive ? 'LIVE' : 'SAMPLE'}</span>`;
   }
+  const provBadge = (section) => provBadgeBool(!!LIVE[section]);
 
   function card(title, unit, note, canvasId, opts) {
     opts = opts || {};
+    // opts.badge (boolean) wins; else opts.section looks up global provenance.
+    const badge = opts.badge !== undefined ? provBadgeBool(opts.badge)
+      : opts.section ? provBadge(opts.section) : '';
     return `<div class="card ${opts.span ? 'span-2' : ''}">
       <div class="card__head">
-        <h3 class="card__title">${title} ${opts.section ? provBadge(opts.section) : ''}</h3>
+        <h3 class="card__title">${title} ${badge}</h3>
         <span class="card__unit">${unit || ''}</span>
       </div>
       ${note ? `<div class="card__note">${note}</div>` : ''}
@@ -201,6 +204,7 @@
     const lastProd = prod.at(-1), lastRev = rev.at(-1);
     const regionsWithData = (co.capacityByRegion || []).filter(r => r.mmbf != null);
     const isBF = /MMbf/.test(co.production.unit);
+    const revLive = !!(co.live && co.live.revenue);
     const ind = DATA.industry.production.series;
 
     view.innerHTML = `
@@ -229,14 +233,14 @@
       </div>
 
       <div class="grid" style="margin-top:20px">
-        ${card('Production by quarter', co.production.unit + ' · quarterly', '', 'coProd', { tall: false, section: 'companies' })}
-        ${card('Revenue by quarter', 'M USD · quarterly', '', 'coRev', { section: 'companies' })}
-        ${card('Inventory index', '2015 avg = 100 · quarterly', 'Lower can signal tight supply / strong shipments.', 'coInv', { section: 'companies' })}
+        ${card('Production by quarter', co.production.unit + ' · quarterly', '', 'coProd', { tall: false, badge: false })}
+        ${card('Revenue by quarter', 'M USD · quarterly', revLive ? 'Live from SEC EDGAR (us-gaap Revenues, XBRL).' : '', 'coRev', { badge: revLive })}
+        ${card('Inventory index', '2015 avg = 100 · quarterly', 'Lower can signal tight supply / strong shipments.', 'coInv', { badge: false })}
         ${regionsWithData.length
-          ? card('Lumber capacity by region', 'MMbf/yr', 'Geographic mix — US capacity is not exposed to Canadian duties.', 'coRegions', { section: 'companies' })
-          : `<div class="card"><div class="card__head"><h3 class="card__title">Capacity by region ${provBadge('companies')}</h3></div>
+          ? card('Lumber capacity by region', 'MMbf/yr', 'Geographic mix — US capacity is not exposed to Canadian duties.', 'coRegions', { badge: false })
+          : `<div class="card"><div class="card__head"><h3 class="card__title">Capacity by region ${provBadgeBool(false)}</h3></div>
              <div class="card__note">${co.name} reports OSB/siding volumes rather than board-foot lumber capacity, so a regional MMbf breakdown isn't applicable. Operating regions: ${(co.regions || []).map(r => r.region).join(', ')}.</div></div>`}
-        ${isBF ? card('Share of North American production', '% of N.A. total · quarterly', 'This producer as a fraction of total N.A. softwood output.', 'coShare', { span: true, section: 'companies' }) : ''}
+        ${isBF ? card('Share of North American production', '% of N.A. total · quarterly', 'This producer as a fraction of total N.A. softwood output.', 'coShare', { span: true, badge: false }) : ''}
       </div>
     `;
 
@@ -331,7 +335,7 @@
   (function initChrome() {
     const m = DATA.meta || {};
     const live = m.live || {};
-    const NAMES = { production: 'N.A. production', price: 'lumber price', housing: 'US housing', exports: 'Canadian exports', companies: 'company data' };
+    const NAMES = { production: 'N.A. production', price: 'lumber price', housing: 'US housing', exports: 'Canadian exports', companies: 'company revenue (US filers)' };
     const keys = Object.keys(NAMES);
     const liveNames = keys.filter(k => live[k]).map(k => NAMES[k]);
     const sampleNames = keys.filter(k => !live[k]).map(k => NAMES[k]);

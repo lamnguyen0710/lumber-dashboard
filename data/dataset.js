@@ -9,7 +9,7 @@ window.LUMBER_DATA = {
       "price": true,
       "housing": true,
       "exports": false,
-      "companies": false
+      "companies": true
     },
     "disclaimer": "PLACEHOLDER DATA — synthetic values scaled to realistic magnitudes so every chart renders. Replace with the live pipeline output (pipeline/fetch/*) before using for analysis.",
     "sources": [
@@ -662,7 +662,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 637
+          "framing_composite": 635
         }
       ]
     },
@@ -3082,172 +3082,152 @@ window.LUMBER_DATA = {
         "freq": "quarterly",
         "series": [
           {
-            "period": "2015Q1",
-            "value": 1976
-          },
-          {
-            "period": "2015Q2",
-            "value": 1987
-          },
-          {
-            "period": "2015Q3",
-            "value": 2023
-          },
-          {
-            "period": "2015Q4",
-            "value": 2021
-          },
-          {
-            "period": "2016Q1",
-            "value": 2050
-          },
-          {
-            "period": "2016Q2",
-            "value": 2086
-          },
-          {
-            "period": "2016Q3",
-            "value": 2030
-          },
-          {
-            "period": "2016Q4",
-            "value": 2097
-          },
-          {
             "period": "2017Q1",
-            "value": 2111
+            "value": 1693
           },
           {
             "period": "2017Q2",
-            "value": 2091
+            "value": 1808
           },
           {
             "period": "2017Q3",
-            "value": 2032
+            "value": 1872
           },
           {
             "period": "2017Q4",
-            "value": 2112
+            "value": 1823
           },
           {
             "period": "2018Q1",
-            "value": 2066
+            "value": 1865
           },
           {
             "period": "2018Q2",
-            "value": 2081
+            "value": 2065
           },
           {
             "period": "2018Q3",
-            "value": 2008
+            "value": 1910
           },
           {
             "period": "2018Q4",
-            "value": 2025
+            "value": 1636
           },
           {
             "period": "2019Q1",
-            "value": 2084
+            "value": 1643
           },
           {
             "period": "2019Q2",
-            "value": 2072
+            "value": 1692
           },
           {
             "period": "2019Q3",
-            "value": 2007
+            "value": 1671
           },
           {
             "period": "2019Q4",
-            "value": 2086
+            "value": 1548
           },
           {
             "period": "2020Q1",
-            "value": 2136
+            "value": 1728
           },
           {
             "period": "2020Q2",
-            "value": 2289
+            "value": 1631
           },
           {
             "period": "2020Q3",
-            "value": 2451
+            "value": 2110
           },
           {
             "period": "2020Q4",
-            "value": 3011
+            "value": 2063
           },
           {
             "period": "2021Q1",
-            "value": 3541
+            "value": 2506
           },
           {
             "period": "2021Q2",
-            "value": 3849
+            "value": 3144
           },
           {
             "period": "2021Q3",
-            "value": 3338
+            "value": 2345
           },
           {
             "period": "2021Q4",
-            "value": 2805
+            "value": 2206
           },
           {
             "period": "2022Q1",
-            "value": 2535
+            "value": 3112
           },
           {
             "period": "2022Q2",
-            "value": 2499
+            "value": 2973
           },
           {
             "period": "2022Q3",
-            "value": 2218
+            "value": 2276
           },
           {
             "period": "2022Q4",
-            "value": 2014
+            "value": 1823
           },
           {
             "period": "2023Q1",
-            "value": 1894
+            "value": 1881
           },
           {
             "period": "2023Q2",
-            "value": 1871
+            "value": 1997
           },
           {
             "period": "2023Q3",
-            "value": 1932
+            "value": 2022
           },
           {
             "period": "2023Q4",
-            "value": 1906
+            "value": 1774
           },
           {
             "period": "2024Q1",
-            "value": 2006
+            "value": 1796
           },
           {
             "period": "2024Q2",
-            "value": 1994
+            "value": 1939
           },
           {
             "period": "2024Q3",
-            "value": 1954
+            "value": 1681
           },
           {
             "period": "2024Q4",
-            "value": 2033
+            "value": 1708
           },
           {
             "period": "2025Q1",
-            "value": 2048
+            "value": 1763
           },
           {
             "period": "2025Q2",
-            "value": 2014
+            "value": 1884
+          },
+          {
+            "period": "2025Q3",
+            "value": 1717
+          },
+          {
+            "period": "2025Q4",
+            "value": 1541
+          },
+          {
+            "period": "2026Q1",
+            "value": 1727
           }
         ]
       },
@@ -3264,7 +3244,10 @@ window.LUMBER_DATA = {
           "region": "Canada (West)",
           "mmbf": 600
         }
-      ]
+      ],
+      "live": {
+        "revenue": true
+      }
     },
     "west-fraser": {
       "id": "west-fraser",
@@ -5356,172 +5339,152 @@ window.LUMBER_DATA = {
         "freq": "quarterly",
         "series": [
           {
-            "period": "2015Q1",
-            "value": 705
-          },
-          {
-            "period": "2015Q2",
-            "value": 692
-          },
-          {
-            "period": "2015Q3",
-            "value": 706
-          },
-          {
-            "period": "2015Q4",
-            "value": 721
-          },
-          {
-            "period": "2016Q1",
-            "value": 735
-          },
-          {
-            "period": "2016Q2",
-            "value": 735
-          },
-          {
-            "period": "2016Q3",
-            "value": 732
-          },
-          {
-            "period": "2016Q4",
-            "value": 736
-          },
-          {
             "period": "2017Q1",
-            "value": 719
+            "value": 611
           },
           {
             "period": "2017Q2",
-            "value": 732
+            "value": 694
           },
           {
             "period": "2017Q3",
-            "value": 728
+            "value": 718
           },
           {
             "period": "2017Q4",
-            "value": 725
+            "value": 711
           },
           {
             "period": "2018Q1",
-            "value": 739
+            "value": 691
           },
           {
             "period": "2018Q2",
-            "value": 731
+            "value": 811
           },
           {
             "period": "2018Q3",
-            "value": 704
+            "value": 737
           },
           {
             "period": "2018Q4",
-            "value": 714
+            "value": 589
           },
           {
             "period": "2019Q1",
-            "value": 709
+            "value": 582
           },
           {
             "period": "2019Q2",
-            "value": 705
+            "value": 588
           },
           {
             "period": "2019Q3",
-            "value": 717
+            "value": 603
           },
           {
             "period": "2019Q4",
-            "value": 753
+            "value": 537
           },
           {
             "period": "2020Q1",
-            "value": 762
+            "value": 585
           },
           {
             "period": "2020Q2",
-            "value": 818
+            "value": 548
           },
           {
             "period": "2020Q3",
-            "value": 852
+            "value": 795
           },
           {
             "period": "2020Q4",
-            "value": 1043
+            "value": 471
           },
           {
             "period": "2021Q1",
-            "value": 1254
+            "value": 1017
           },
           {
             "period": "2021Q2",
-            "value": 1330
+            "value": 1168
           },
           {
             "period": "2021Q3",
-            "value": 1178
+            "value": 1018
           },
           {
             "period": "2021Q4",
-            "value": 938
+            "value": 712
           },
           {
             "period": "2022Q1",
-            "value": 860
+            "value": 1167
           },
           {
             "period": "2022Q2",
-            "value": 865
+            "value": 1130
           },
           {
             "period": "2022Q3",
-            "value": 781
+            "value": 852
           },
           {
             "period": "2022Q4",
-            "value": 689
+            "value": 705
           },
           {
             "period": "2023Q1",
-            "value": 666
+            "value": 584
           },
           {
             "period": "2023Q2",
-            "value": 668
+            "value": 611
           },
           {
             "period": "2023Q3",
-            "value": 670
+            "value": 728
           },
           {
             "period": "2023Q4",
-            "value": 667
+            "value": 658
           },
           {
             "period": "2024Q1",
-            "value": 684
+            "value": 724
           },
           {
             "period": "2024Q2",
-            "value": 695
+            "value": 814
           },
           {
             "period": "2024Q3",
-            "value": 684
+            "value": 722
           },
           {
             "period": "2024Q4",
-            "value": 721
+            "value": 681
           },
           {
             "period": "2025Q1",
-            "value": 693
+            "value": 724
           },
           {
             "period": "2025Q2",
-            "value": 732
+            "value": 755
+          },
+          {
+            "period": "2025Q3",
+            "value": 663
+          },
+          {
+            "period": "2025Q4",
+            "value": 566
+          },
+          {
+            "period": "2026Q1",
+            "value": 574
           }
         ]
       },
@@ -5542,7 +5505,10 @@ window.LUMBER_DATA = {
           "region": "South America",
           "mmbf": null
         }
-      ]
+      ],
+      "live": {
+        "revenue": true
+      }
     },
     "potlatchdeltic": {
       "id": "potlatchdeltic",
@@ -5923,171 +5889,175 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2015Q1",
-            "value": 293
+            "value": 134
           },
           {
             "period": "2015Q2",
-            "value": 297
+            "value": 129
           },
           {
             "period": "2015Q3",
-            "value": 300
+            "value": 174
           },
           {
             "period": "2015Q4",
-            "value": 304
+            "value": 138
           },
           {
             "period": "2016Q1",
-            "value": 303
+            "value": 128
           },
           {
             "period": "2016Q2",
-            "value": 314
+            "value": 141
           },
           {
             "period": "2016Q3",
-            "value": 302
+            "value": 174
           },
           {
             "period": "2016Q4",
-            "value": 308
+            "value": 156
           },
           {
             "period": "2017Q1",
-            "value": 307
+            "value": 150
           },
           {
             "period": "2017Q2",
-            "value": 314
+            "value": 163
           },
           {
             "period": "2017Q3",
-            "value": 314
+            "value": 190
           },
           {
             "period": "2017Q4",
-            "value": 307
+            "value": 175
           },
           {
             "period": "2018Q1",
-            "value": 315
+            "value": 200
           },
           {
             "period": "2018Q2",
-            "value": 316
+            "value": 268
           },
           {
             "period": "2018Q3",
-            "value": 316
+            "value": 289
           },
           {
             "period": "2018Q4",
-            "value": 301
+            "value": 217
           },
           {
             "period": "2019Q1",
-            "value": 311
+            "value": 182
           },
           {
             "period": "2019Q2",
-            "value": 312
+            "value": 216
           },
           {
             "period": "2019Q3",
-            "value": 304
+            "value": 226
           },
           {
             "period": "2019Q4",
-            "value": 318
+            "value": 203
           },
           {
             "period": "2020Q1",
-            "value": 331
+            "value": 209
           },
           {
             "period": "2020Q2",
-            "value": 337
+            "value": 182
           },
           {
             "period": "2020Q3",
-            "value": 380
+            "value": 313
           },
           {
             "period": "2020Q4",
-            "value": 454
+            "value": 337
           },
           {
             "period": "2021Q1",
-            "value": 540
+            "value": 354
           },
           {
             "period": "2021Q2",
-            "value": 577
+            "value": 448
           },
           {
             "period": "2021Q3",
-            "value": 495
+            "value": 287
           },
           {
             "period": "2021Q4",
-            "value": 403
+            "value": 248
           },
           {
             "period": "2022Q1",
-            "value": 375
+            "value": 411
           },
           {
             "period": "2022Q2",
-            "value": 377
+            "value": 360
           },
           {
             "period": "2022Q3",
-            "value": 333
-          },
-          {
-            "period": "2022Q4",
-            "value": 304
-          },
-          {
-            "period": "2023Q1",
-            "value": 286
-          },
-          {
-            "period": "2023Q2",
-            "value": 288
-          },
-          {
-            "period": "2023Q3",
-            "value": 292
-          },
-          {
-            "period": "2023Q4",
-            "value": 291
-          },
-          {
-            "period": "2024Q1",
-            "value": 298
-          },
-          {
-            "period": "2024Q2",
-            "value": 297
-          },
-          {
-            "period": "2024Q3",
-            "value": 306
-          },
-          {
-            "period": "2024Q4",
             "value": 307
           },
           {
+            "period": "2022Q4",
+            "value": 253
+          },
+          {
+            "period": "2023Q1",
+            "value": 258
+          },
+          {
+            "period": "2023Q2",
+            "value": 246
+          },
+          {
+            "period": "2023Q3",
+            "value": 266
+          },
+          {
+            "period": "2023Q4",
+            "value": 255
+          },
+          {
+            "period": "2024Q1",
+            "value": 228
+          },
+          {
+            "period": "2024Q2",
+            "value": 321
+          },
+          {
+            "period": "2024Q3",
+            "value": 255
+          },
+          {
+            "period": "2024Q4",
+            "value": 258
+          },
+          {
             "period": "2025Q1",
-            "value": 301
+            "value": 268
           },
           {
             "period": "2025Q2",
-            "value": 310
+            "value": 275
+          },
+          {
+            "period": "2025Q3",
+            "value": 314
           }
         ]
       },
@@ -6100,7 +6070,10 @@ window.LUMBER_DATA = {
           "region": "US West",
           "mmbf": 400
         }
-      ]
+      ],
+      "live": {
+        "revenue": true
+      }
     },
     "greenfirst": {
       "id": "greenfirst",

@@ -9,7 +9,7 @@ supply/demand picture and lets you drill into individual public companies.
 > where Canadian wood is shipping under US duties/tariffs) and demand (US housing
 > starts & permits) — and to keep it current automatically.
 
-![status](https://img.shields.io/badge/status-housing%20%2B%20price%20LIVE%20%C2%B7%20rest%20sample-2a78d6)
+![status](https://img.shields.io/badge/status-3%20of%205%20sections%20LIVE%20(keyless)-2a78d6)
 
 ---
 
@@ -45,16 +45,27 @@ app with a <kbd>LIVE</kbd> or <kbd>SAMPLE</kbd> badge so there's never any doubt
 |---|---|---|
 | **US housing** (starts & permits) | ✅ **LIVE** | FRED public CSV (keyless), sourced from Census/HUD |
 | **Lumber price** ($/mbf) | ✅ **LIVE** | CME Lumber futures `LBR=F` (keyless; history from 2022) |
-| N.A. lumber production | ⏳ sample | WWPA / APA / StatCan / FEA — *to wire up* |
-| Canadian exports by destination | ⏳ sample | needs a free UN Comtrade key **or** StatCan CIMT extract (see note) |
-| Company production / revenue | ⏳ sample | SEC EDGAR / SEDAR+ — *to wire up* |
+| **Company revenue** (quarterly) | ✅ **LIVE** | SEC EDGAR XBRL (keyless) — US filers WY, LPX, PCH |
+| Company production / inventory | ⏳ sample | board-foot volumes live in MD&A text, not XBRL — not machine-readable |
+| Canadian exports by destination | ⏳ sample | no keyless-complete source (see note) |
+| N.A. lumber production | ⏳ sample | WWPA / APA / FEA are paid; no free API |
 
-> **Why exports isn't live yet:** the fully-keyless options don't return complete
-> data — UN Comtrade's public "preview" endpoint is truncated, and StatCan's
-> softwood-by-country series is an interactive "special extraction," not an API.
-> The real path is a **free UN Comtrade API key** (a quick sign-up — I can't create
-> accounts) set as the `COMTRADE_KEY` secret, or a one-time CIMT CSV extract.
-> `pipeline/fetch/exports.mjs` documents both and is ready to switch on.
+Everything live is **fully keyless** — no accounts, no API keys, no secrets. Two
+sections can't be made keyless-live and are documented as such:
+
+> **Exports:** the fully-keyless options don't return complete data — UN Comtrade's
+> public "preview" endpoint is truncated *and inconsistent* (returns a random capped
+> subset per call), and StatCan's softwood-by-country series is an interactive
+> "special extraction," not an API. Real paths: a **free UN Comtrade API key**
+> (`COMTRADE_KEY` secret) or a one-time CIMT CSV extract — both documented in
+> `pipeline/fetch/exports.mjs`.
+>
+> **Company production volumes:** reported in board feet in MD&A/earnings tables, not
+> in XBRL, so EDGAR gives us *revenue* cleanly but not production. Company production
+> and inventory therefore stay sample and are badged as such per-chart.
+>
+> **N.A. industry production:** the street sources (WWPA/APA/FEA) are subscription
+> data with no free API.
 
 "Sample" numbers are **synthetic**, scaled to realistic magnitudes so the whole
 dashboard is explorable today. The front-end never changes as sources go live — the
@@ -120,11 +131,11 @@ pipeline/
   serve.mjs               tiny local static server
   fetch/
     index.mjs             merges live sources over placeholder (section by section)
-    production.mjs        N.A. softwood production   (WWPA / APA / StatCan / FEA)   ⏳
     price.mjs             lumber price $/mbf         (CME LBR=F futures, keyless)   ✅ LIVE
     housing.mjs           US starts & permits        (FRED public CSV, keyless)     ✅ LIVE
+    companies.mjs         per-company revenue        (SEC EDGAR XBRL, keyless)      ✅ LIVE (US filers)
     exports.mjs           Canadian exports by dest.  (UN Comtrade key / CIMT)       ⏳
-    companies.mjs         per-company production/rev (SEC EDGAR / SEDAR+)           ⏳
+    production.mjs        N.A. softwood production   (WWPA / APA / FEA — paid)      ⏳
 ```
 
 **How it's designed to come online gradually:** each fetcher returns `null` today,
@@ -134,11 +145,11 @@ replaces *only that section*, and `meta.isPlaceholder` flips to `false` (hiding 
 banner) once all of them are live.
 
 Each file's header documents the exact source, endpoint, and the return shape it
-must produce. **US housing and lumber price are already live** (`housing.mjs` via
-FRED keyless CSV; `price.mjs` via CME `LBR=F` futures) — use them as templates:
-fetch → parse → map to the schema. The remaining sources are `exports.mjs` (needs a
-free Comtrade key or a CIMT extract — carries the trade-diversion story),
-`companies.mjs` (SEC EDGAR / SEDAR+), and `production.mjs` (WWPA / APA / StatCan).
+must produce. **Three sources are already live and keyless** — `housing.mjs` (FRED
+CSV), `price.mjs` (CME `LBR=F` futures), and `companies.mjs` (SEC EDGAR XBRL
+revenue) — use them as templates: fetch → parse → map to the schema. The two that
+remain sample (`exports.mjs`, `production.mjs`) have no keyless-complete source; see
+the provenance note above for what each would take.
 
 ### Data schema (one object, `window.LUMBER_DATA`)
 
