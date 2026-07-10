@@ -662,7 +662,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 635
+          "framing_composite": 638
         }
       ]
     },
