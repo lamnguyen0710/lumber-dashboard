@@ -1,0 +1,61 @@
+name: Update data & deploy
+
+# Runs the data pipeline monthly, commits the refreshed dataset, and publishes
+# the dashboard to GitHub Pages. Also runs on every push to main and on demand.
+on:
+  schedule:
+    # 3rd of each month, 06:00 UTC — after month-end housing & trade releases land.
+    - cron: "0 6 3 * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # to commit the refreshed data back to the repo
+  pages: write      # to deploy to GitHub Pages
+  id-token: write   # required by deploy-pages
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Build the data files. Switch to `--live` once pipeline/fetch/* is wired up.
+      # (Add any API keys as repo secrets and expose them via `env:` below.)
+      - name: Build dataset
+        run: node pipeline/build-data.mjs
+        # env:
+        #   CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "lumber-dashboard-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/dataset.js data/dataset.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: automated monthly data refresh"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

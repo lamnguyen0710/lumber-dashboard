@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lumber Industry Dashboard</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- ------------------------------------------------------------------ -->
+    <header class="topbar">
+      <div class="topbar__brand">
+        <div class="logo" aria-hidden="true">🌲</div>
+        <div>
+          <h1 class="topbar__title">Lumber Industry Dashboard</h1>
+          <p class="topbar__subtitle">Softwood lumber — supply, demand &amp; trade flows</p>
+        </div>
+      </div>
+
+      <div class="topbar__tools">
+        <div class="search" id="search">
+          <svg class="search__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input id="searchInput" type="text" autocomplete="off" spellcheck="false"
+                 placeholder="Search a company (e.g. Weyerhaeuser, West Fraser…)" aria-label="Search companies" />
+          <ul class="search__results" id="searchResults" role="listbox" hidden></ul>
+        </div>
+        <button class="btn btn--ghost" id="themeToggle" title="Toggle light / dark" aria-label="Toggle theme">
+          <span class="themeToggle__icon">◐</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- placeholder-data warning; hidden automatically once data is live -->
+    <div class="banner" id="placeholderBanner" hidden>
+      <strong>Placeholder data.</strong>
+      <span id="placeholderText"></span>
+    </div>
+
+    <!-- ------------------------------------------------------------------ -->
+    <main id="view"><!-- rendered by app.js --></main>
+
+    <footer class="footer">
+      <span id="footerMeta"></span>
+      <span class="footer__sep">·</span>
+      <a href="#/" data-nav>Industry overview</a>
+      <span class="footer__sep">·</span>
+      <span class="footer__sources" id="footerSources"></span>
+    </footer>
+  </div>
+
+  <!-- Data: assigns window.LUMBER_DATA. Regenerated monthly by the pipeline.
+       Loaded as a plain script (not fetched) so the dashboard also works when
+       you just double-click index.html locally. -->
+  <script src="data/dataset.js"></script>
+  <!-- Charting -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="assets/js/format.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "lumber-industry-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive dashboard for the softwood lumber industry — production, inventory, housing demand, and Canadian export/trade flows, with per-company drill-downs.",
+  "type": "module",
+  "scripts": {
+    "build": "node pipeline/build-data.mjs",
+    "build:live": "node pipeline/build-data.mjs --live",
+    "start": "node pipeline/serve.mjs 8080",
+    "dev": "node pipeline/build-data.mjs && node pipeline/serve.mjs 8080"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
