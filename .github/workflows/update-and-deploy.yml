@@ -34,9 +34,12 @@ jobs:
           node-version: "20"
 
       # Build the data files from live sources (falls back to sample data for any
-      # source not yet wired up). US housing is live (FRED, keyless); others follow.
+      # source not yet wired up). Housing/price/company revenue are keyless; the
+      # Canadian exports source needs the free UN Comtrade key exposed here.
       - name: Build dataset
         run: node pipeline/build-data.mjs --live
+        env:
+          COMTRADE_KEY: ${{ secrets.COMTRADE_KEY }}
 
       # Optional: keep a git history of the data. This must NOT block the deploy —
       # the site publishes the freshly-built files regardless of whether this
