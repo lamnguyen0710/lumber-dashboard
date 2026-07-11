@@ -123,8 +123,18 @@
     const expYrAgo = exp.series.at(expFreq === 'annual' ? -2 : -5) || exp.series[0];
     const usShareYr = expShare(expYrAgo);
 
+    // Latest Canada→US export volume from the live GAC region data (MBF → MMbf).
+    const reg = ind.exportsByRegion;
+    const regSum = (row) => (reg ? reg.regions.reduce((s, r) => s + (row[r] || 0), 0) : 0);
+    const lastReg = reg && reg.series.at(-1);
+    const lastRegTotal = lastReg ? regSum(lastReg) : 0;
+    const regYrAgo = reg && reg.series.at(-13);
+    const regYoY = regYrAgo ? (lastRegTotal - regSum(regYrAgo)) / regSum(regYrAgo) * 100 : null;
+
     const tiles = [
-      tile('N.A. lumber production', F.compact(lastProd.na_total), 'MMbf', deltaBadge(F.yoy(prod, 'na_total')), `${F.period(lastProd.period)} · US ${Math.round(lastProd.us_total / lastProd.na_total * 100)}% / CA ${Math.round(lastProd.canada_total / lastProd.na_total * 100)}%`),
+      reg
+        ? tile('Canada→US lumber exports', F.int(Math.round(lastRegTotal / 1000)), 'MMbf', deltaBadge(regYoY), `${F.period(lastReg.period)} · to the US, all regions (GAC)`)
+        : tile('N.A. lumber production', F.compact(lastProd.na_total), 'MMbf', deltaBadge(F.yoy(prod, 'na_total')), `${F.period(lastProd.period)} · US ${Math.round(lastProd.us_total / lastProd.na_total * 100)}% / CA ${Math.round(lastProd.canada_total / lastProd.na_total * 100)}%`),
       tile('Lumber price (CME)', F.money(lastPrice.framing_composite), '/mbf', deltaBadge(F.yoy(price, 'framing_composite')), `${F.period(lastPrice.period)} · front-month futures`),
       tile('US housing starts', F.int(lastStarts.total), 'K SAAR', deltaBadge(F.yoy(starts, 'total')), `${F.period(lastStarts.period)} · ${Math.round(lastStarts.single_family / lastStarts.total * 100)}% single-family`),
       tile('Canada→US export share', usShareNow.toFixed(0) + '%', '', deltaBadge(usShareNow - usShareYr, { suffix: ' pp' }), `of Canadian softwood exports · ${F.period(lastExp.period)}`),
