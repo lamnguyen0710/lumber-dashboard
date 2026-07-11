@@ -2427,13 +2427,25 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-11T13:07:03.171Z",
+      "fetchedAt": "2026-07-11T18:54:18.141Z",
       "items": [
+        {
+          "title": "Interfor (TSX:IFP) Stock Sees Fair Value Cut After Analysts Weigh Fresh Production Results",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYW9Nc1BhUkNBVGg3ajJPUGpZTGx0dWZQSnNad18tX2k5WmJYRWNfTkdjRFl6ZnBIckY2T3FPdE5MZGRjdEsxMkhKTzRMUW9rTHBlQi1WNXhnS3EwQ2xaZGhaanBtSERJUmxsV2kwM1NmSG9ELXc0VWVyZzM4X0JERVlsTDZWa0tzTU5YSk1BX0thTUdQcXZR?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-07-11T16:07:40.000Z"
+        },
+        {
+          "title": "Weyerhaeuser stock reflects the timber REIT’s long-term housing and wood demand story",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNU9oYWljTjdReVdzWDc5THdhaGN5QXJ5WFZLdGI0bFNCQzRqMlBHam1NaUUzRE9qYmM2NDl1RHNRdDZYSng2UUNuQU03cmowbi1FY3RTd3RoUl9GSkhVV1VVZmFhU1JscHhhOFpvSEhUVktSSExMVWFYZ2k1R0lNbVFHSHNicVE0NWJJNWRkdEQzRkFVdDZsaEJfX3pmd0ZuWWNJdmtFcG9FYWNRMW1sT1FET0pXRlhNZ0Q0aVF3OEJVU3hWLVlWS19iQQ?oc=5",
+          "source": "ad-hoc-news.de",
+          "date": "2026-07-11T14:15:36.000Z"
+        },
         {
           "title": "Weyerhaeuser (WY) Could Be 25% Undervalued Following Its Recent Rebound",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1hMTGFmZVFGT05PWFd2UHh3ZWZ3V1JOWDhLMmVabWJmTERtLXhUM3RRbGVKV0h6SWE4Vk5BZXJWbVlfTlZUOVFmVzZqRWtOV1NMakVCbWxTRU5FVFRHaDd0M0h6SVJTemJkUEVwQzJHb1RTV3M4WWNSWWVHXzJ5UW1mY29Ua3AxMy1WWTlFY2tPdXF5aEFvN1Zla2FUd0tiTXl1bDVBbk1fS2ZyLWZ6bXdldzRKemM1SkxRSlRBUlJqVXJLSmZCb3J30gHPAUFVX3lxTFBwSXFpRThZRlM0dldHWnVCYW10MmR5RGs1cWhfd2Y1X09ka3lDSjdYbHJ0V0hVdjhvb29Ka3dwNjc5OWlZTG1YZmdzVk9yLWwta2l2X2hxTWhFblFadTF6TGc0YkV1OHBLNXFlS3haa01wbjBqQ25mZ3IwTVFaZG5YWDdSZk9KX2pKQm5TM0hZeC1POWptc1dycDNsSTM3eVR6QlpoMHFmaU5QQVZEMnVSd3VKZWgtN2MxdVUwcjZzWjF0Ti1OaFRjbXVIR2RtMA?oc=5",
           "source": "simplywall.st",
-          "date": "2026-07-11T12:42:36.000Z"
+          "date": "2026-07-11T13:03:06.000Z"
         },
         {
           "title": "Weyerhaeuser stock reflects a steady timber REIT with long-term housing exposure",
@@ -2592,22 +2604,10 @@ window.LUMBER_DATA = {
           "date": "2026-06-25T07:00:00.000Z"
         },
         {
-          "title": "Weyerhaeuser Cuts 2Q Wood Production Guidance by $20M",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUkJVeXA3aGxzY0NPdEFlVWxmR2Nyc0tCQnNzaWJmbGxqYmxTcllpZUhMZFZLOUVqUVEwZ3lpUTkyOUZxbXg3em5HOEoybThQdFBXb0p2bkpKSC12ZUJ2WTB2OGJHX1lRRmRRSWpuVUxXemdXR2ljRmN2MWd5blhpT0R0TTZRSUg4cmNjb2pET1ROWkN5TW92SnBB?oc=5",
-          "source": "Moomoo",
+          "title": "Weyerhaeuser to Release Second Quarter Results on July 30 - Jun 25, 2026",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOFVSRG9VSFc1YlRHSS12ZEY5VjZheGdEaE9PSkZ0QkpHT0lpZEpnWHhZU2NOcFYxTm9zX3dUcWJ0T1hrenY2VXJFeU03ZkdjN2kxMnNZZ0RBNlBiWUo1Z3VESEdoYklTd3R0QlJVTnVTRnp6RVpBYk03bkVacmdVTldkeHJlZTRKd3NpWDJ6TmR2Z2l2N05QTGw0anp2YjlzNGRMXw?oc=5",
+          "source": "Weyerhaeuser Investor Relations",
           "date": "2026-06-25T07:00:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser sets July 31 call after second-quarter results",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc1BTU01vdWhQN3dvTHVnY3dSdGszMHRHRlFYMVpfeTdmZFZENWYwZElURHA5ZzhROXdCdVdzc2szRXl6LXdWZ2JmeW1XVzAxbHU5c29ZSFJocHA4TUp0NHVjbnByWTJrMVpiUW5GVWhUYWNQaGxmWVhYVkhlU05VRjRyWDZINXJBLXpocURCUE03aXl1ckNvRXNGWWpMRGcxSlJWdjFCT0VvYk0?oc=5",
-          "source": "Stock Titan",
-          "date": "2026-06-25T07:00:00.000Z"
-        },
-        {
-          "title": "Lumber prices waffle in mid-June",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5USV9wWW5ONmNHWDlOOVlLNFZkLUItR041dEtKX3hsQ2NMU3lud2hNbWZfNHZTaTN2blFaNVdXandJc09pamlNVFFIdm1qTmtueTR6c0hLUzMwbDg4SDRCdUZSd0F5QUhrRHg1RUJYelVtclhGR3JN?oc=5",
-          "source": "Pulp and Paper Canada",
-          "date": "2026-06-25T02:45:57.000Z"
         }
       ]
     }
