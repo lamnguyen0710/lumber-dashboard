@@ -2428,7 +2428,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-11T19:48:30.707Z",
+      "fetchedAt": "2026-07-11T19:57:11.025Z",
       "items": [
         {
           "title": "Interfor (TSX:IFP) Stock Sees Fair Value Cut After Analysts Weigh Fresh Production Results",
