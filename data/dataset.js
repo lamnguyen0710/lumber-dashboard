@@ -2428,7 +2428,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-11T20:09:51.738Z",
+      "fetchedAt": "2026-07-11T20:34:19.636Z",
       "items": [
         {
           "title": "Interfor (TSX:IFP) Stock Sees Fair Value Cut After Analysts Weigh Fresh Production Results",
@@ -2471,12 +2471,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRURGVjdCVU5RUGNBcmRBYWREYkQxM3gwMVlKaXBsM3hOY2tPenJiQ3Zhb1ZBN3pPd2Q4bTZ2SF9iS3lmVzJlaFdRakxXeHNQT0NOaGVHS3dudXJyRlp2dkpzSm1LbllBWjFBQVRDaE5rakRoRHdQOFNDVDBjY04ySGNXN3lObmFPNUxaN2tKMkdMcHAxTnBDSVFZVnhjNDFiYWltUTRpMV9qYzRXdmJtOWt3?oc=5",
           "source": "Quiver Quantitative",
           "date": "2026-07-10T21:20:00.000Z"
-        },
-        {
-          "title": "Investors Heavily Search Louisiana-Pacific Corporation (LPX): Here is What You Need to Know",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT2FKX3dRM09RcTdIZFJVSzZPOUVpdzRRamt4T0FOZmxHeDBHbmk3NGlyV2s5UmNSUHN2LWRDMUFCV1NTMzh3YndtS1JzTGJnejR3V0g3WkNyX1NxT3FSSTVBVGpIdEJxTk5QcW83RTNFQWZQNm5mLWY4Q3BlSnJvTVdWc0hVWHZPLWR2b1p0ZVNxNzJmTFlhMm1BV3NFcTVWNk04UFZoX0VKRlU?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-07-10T13:00:04.000Z"
         },
         {
           "title": "U.S. Softwood Lumber Self-Sufficiency Hits 75% as Domestic Mills Expand Under Trade Policies - News and Statistics",
@@ -2587,12 +2581,6 @@ window.LUMBER_DATA = {
           "date": "2026-07-01T21:16:15.000Z"
         },
         {
-          "title": "First Nations purchase shuttered Canfor sawmill in Vanderhoof to create industrial park",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNGtUZHZMZllqc1ZYTG5kc0VvaHBMRENoS0hxT3hvTEVSa3ZLdEJSSThGUHJ1T09QMXpUNENhQ2h3eEgxODBTbm91blJFZGVOWldtREYwYVBaQ2FxbnZ0dnFYWXE5aXNkQ3VudkhQMGRFSkNWbXNHaDFuWlQ2dnJrNzlHRG9BZVZSSU1jY0h0TDQybE0?oc=5",
-          "source": "CBC",
-          "date": "2026-07-01T07:00:00.000Z"
-        },
-        {
           "title": "North American Softwood Lumber Market in June 2026: Cautious Sentiment and Flat Prices",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYW1OY0s2RkR4ZVR1bDNJN1BpOVk5SFdYSXB3dkRJTFhpZHF0eTFiS0g0ZVNKcWIwUlU1LUVSQnJCcmQ4TnBTU2VQbGFrWTQyQV9XRWpaV1Ewb2FVemw2bEw2Wi1tblZmN0VfM3BMUVpXdjVjMnZGZEozUk4xUGkyVFQ5a3E1UC1sU1RVWlpERFRmOUFJdEhGQS1nLVYxN3RseWV1QnF1c0N1c09sM29nVGZaRzVJZw?oc=5",
           "source": "IndexBox",
@@ -2609,6 +2597,18 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVJFeUVTTDFleVlCNExuRHAwbk5xdE15aHJ5QWNJeGJuUk1LS2cwSUZqQVJpNDNZTVVpVFdwRVo3NlhHOUo4RXI5SDlfQTJHcEtrYkFJTWE3WGlsNWt3MHRrU2JrQzZEMGJQMk8wQm1DSWVnLUticlk0REcxQk5aX190M0ZhTWs1ZFhjc290N1ctTEIxVFlLdVZJY3M5cms?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-06-26T07:00:00.000Z"
+        },
+        {
+          "title": "Interfor positioned to surge as lumber prices climb, says BMO",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZTNWTVJmY2lzY1pzMzdobGI5dW1ZNEdFSkFBSWlOLWJQWVlmVDRlZDY1YjlWV1ZQVTBndXVtaFVoa2E1OHVIY2pGSmY0aVVIUUdWQVBnWEdVNDlzQ05QZ1ZkekY1Q0g0X2JqeEtnbXJuX05NUGNUTDBfMnNuTUdJOTBwNHpNRVNUTUFRd1k1ckhaSFU1dk1Vd0xOQ1RXeUVwWWdNRmNpTFJobXM3VW9ZSFlvNElraHZxUVY2Tmtn?oc=5",
+          "source": "BNN Bloomberg",
+          "date": "2026-06-25T07:00:00.000Z"
+        },
+        {
+          "title": "Weyerhaeuser Cuts 2Q Wood Production Guidance by $20M",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUkJVeXA3aGxzY0NPdEFlVWxmR2Nyc0tCQnNzaWJmbGxqYmxTcllpZUhMZFZLOUVqUVEwZ3lpUTkyOUZxbXg3em5HOEoybThQdFBXb0p2bkpKSC12ZUJ2WTB2OGJHX1lRRmRRSWpuVUxXemdXR2ljRmN2MWd5blhpT0R0TTZRSUg4cmNjb2pET1ROWkN5TW92SnBB?oc=5",
+          "source": "Moomoo",
+          "date": "2026-06-25T07:00:00.000Z"
         }
       ]
     },
