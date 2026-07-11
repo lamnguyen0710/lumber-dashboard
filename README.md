@@ -16,12 +16,11 @@ supply/demand picture and lets you drill into individual public companies.
 ## What's in it
 
 **Industry overview** (landing page)
-- North American lumber production, quarterly, split US vs. Canada
-- Framing lumber composite price ($/mbf), monthly
+- Lumber price — CME front-month futures ($/mbf), monthly
 - US housing **starts vs. permits** (the demand side), monthly
 - **Canadian softwood exports by destination** (US / China / Japan / Europe / Other) — the trade-diversion story
 - US share of Canadian exports (one line: are they shipping elsewhere?)
-- Industry inventory index
+- Months' supply of new homes (housing supply/demand balance, FRED)
 - Live lumber-industry **news board** (Google News RSS, keyless) — headlines, source, relative timestamps
 - A sortable company comparison table
 

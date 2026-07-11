@@ -138,13 +138,14 @@
       <div class="tiles">${tiles.join('')}</div>
 
       <div class="grid" style="margin-top:20px">
-        ${card('North American lumber production', 'MMbf / quarter · stacked by origin', 'US vs. Canadian mills. Total ≈ ' + F.compact(lastProd.na_total * 4) + ' MMbf annualized.', 'chProd', { span: true, tall: true, section: 'production' })}
         ${card('Lumber price — CME futures', '$/mbf · monthly', 'CME front-month lumber futures (LBR). The current contract launched in 2022, so this live series starts then.', 'chPrice', { section: 'price' })}
         ${card('US housing — starts vs. permits', 'thousands (SAAR) · monthly', 'The demand side. Permits lead starts; both cooled through the 2022–23 rate cycle.', 'chHousing', { section: 'housing' })}
         ${card('Canadian softwood exports by destination', `${expUnit} / ${expPer} · stacked`, 'Where Canadian softwood lumber ships. Even through the US duties + tariff, the US stays the dominant market (~85% of value); Japan is the largest non-US buyer.', 'chExports', { span: true, tall: true, section: 'exports' })}
         ${ind.exportsByRegion ? card('Canada → US exports by region of origin', `${ind.exportsByRegion.unit} (thousand bd ft) / month · stacked`, 'Which Canadian regions mill the lumber going to the US (Global Affairs Canada export-permit data). The BC Interior\'s volumes have fallen sharply — mill curtailments and beetle-kill timber decline.', 'chRegionExports', { span: true, tall: true, section: 'regionExports' }) : ''}
         ${card('US share of Canadian exports', `% of total · ${expFreq}`, 'How reliant Canadian softwood is on the US market, by export value. The duties have squeezed volumes and prices more than they have redirected the wood elsewhere.', 'chUsShare', { section: 'exports' })}
-        ${card('Industry inventory', 'index, 2015 avg = 100 · quarterly', 'Distributor/mill stock levels. Sharp 2021 drawdown, then rebuild.', 'chInv', { section: 'production' })}
+        ${ind.newHomeSupply
+          ? card("Months' supply of new homes", 'months · monthly', 'Unsold new-home inventory relative to the sales pace — a housing supply/demand balance gauge. Above ~6 months signals soft demand and less lumber buying.', 'chSupply', { section: 'housing' })
+          : card('Industry inventory', 'index, 2015 avg = 100 · quarterly', 'Distributor/mill stock levels.', 'chInv', { section: 'production' })}
       </div>
 
       ${newsSection(ind.news)}
@@ -155,12 +156,6 @@
     `;
 
     // charts
-    const qLabels = prod.map(p => p.period);
-    C.stackedArea('chProd', qLabels, [
-      { label: 'United States', data: prod.map(p => p.us_total), slot: 0 },
-      { label: 'Canada', data: prod.map(p => p.canada_total), slot: 1 },
-    ], { unit: 'MMbf', xTicks: 8 });
-
     C.line('chPrice', price.map(p => p.period), [
       { label: 'Framing composite', data: price.map(p => p.framing_composite), slot: 5 },
     ], { unit: '$/mbf', legend: false, xTicks: 7, fill: true });
@@ -188,9 +183,15 @@
       { label: 'US share', data: exp.series.map(r => +expShare(r).toFixed(1)), slot: 0 },
     ], { unit: '%', legend: false, xTicks: expTicks, beginAtZero: false });
 
-    C.line('chInv', ind.inventory.series.map(p => p.period), [
-      { label: 'Inventory index', data: ind.inventory.series.map(p => p.index), slot: 1 },
-    ], { unit: '', legend: false, xTicks: 8, beginAtZero: false });
+    if (ind.newHomeSupply) {
+      C.line('chSupply', ind.newHomeSupply.series.map(p => p.period), [
+        { label: "Months' supply", data: ind.newHomeSupply.series.map(p => p.value), slot: 1 },
+      ], { unit: 'months', legend: false, xTicks: 7, beginAtZero: false });
+    } else {
+      C.line('chInv', ind.inventory.series.map(p => p.period), [
+        { label: 'Inventory index', data: ind.inventory.series.map(p => p.index), slot: 1 },
+      ], { unit: '', legend: false, xTicks: 8, beginAtZero: false });
+    }
 
     wireTableRows();
     hydrateNewsTimes();

@@ -53,13 +53,24 @@ function assemble(totalMap, singleMap, startYear) {
   };
 }
 
+// Single-value monthly FRED series -> { unit, freq, series:[{period, value}] }
+function assembleSingle(map, unit, startYear) {
+  const series = [...map.entries()]
+    .filter(([p]) => Number(p.slice(0, 4)) >= startYear)
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([period, value]) => ({ period, value }));
+  return { unit, freq: 'monthly', series };
+}
+
 export async function fetchHousing({ startYear = 2015 } = {}) {
-  const [houst, houst1f, permit, permit1] = await Promise.all([
+  const [houst, houst1f, permit, permit1, supply] = await Promise.all([
     fredSeries('HOUST'), fredSeries('HOUST1F'), fredSeries('PERMIT'), fredSeries('PERMIT1'),
+    fredSeries('MSACSR'),   // Monthly Supply of New Houses (months) — housing supply/demand balance
   ]);
   return {
     starts: assemble(houst, houst1f, startYear),
     permits: assemble(permit, permit1, startYear),
+    supply: assembleSingle(supply, 'months', startYear),
   };
 }
 
