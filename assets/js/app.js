@@ -142,6 +142,7 @@
         ${card('Lumber price — CME futures', '$/mbf · monthly', 'CME front-month lumber futures (LBR). The current contract launched in 2022, so this live series starts then.', 'chPrice', { section: 'price' })}
         ${card('US housing — starts vs. permits', 'thousands (SAAR) · monthly', 'The demand side. Permits lead starts; both cooled through the 2022–23 rate cycle.', 'chHousing', { section: 'housing' })}
         ${card('Canadian softwood exports by destination', `${expUnit} / ${expPer} · stacked`, 'Where Canadian softwood lumber ships. Even through the US duties + tariff, the US stays the dominant market (~85% of value); Japan is the largest non-US buyer.', 'chExports', { span: true, tall: true, section: 'exports' })}
+        ${ind.exportsByRegion ? card('Canada → US exports by region of origin', `${ind.exportsByRegion.unit} (thousand bd ft) / month · stacked`, 'Which Canadian regions mill the lumber going to the US (Global Affairs Canada export-permit data). The BC Interior\'s volumes have fallen sharply — mill curtailments and beetle-kill timber decline.', 'chRegionExports', { span: true, tall: true, section: 'regionExports' }) : ''}
         ${card('US share of Canadian exports', `% of total · ${expFreq}`, 'How reliant Canadian softwood is on the US market, by export value. The duties have squeezed volumes and prices more than they have redirected the wood elsewhere.', 'chUsShare', { section: 'exports' })}
         ${card('Industry inventory', 'index, 2015 avg = 100 · quarterly', 'Distributor/mill stock levels. Sharp 2021 drawdown, then rebuild.', 'chInv', { section: 'production' })}
       </div>
@@ -175,6 +176,13 @@
     // Annual (few points) reads better as stacked bars; quarterly sample as an area.
     if (expFreq === 'annual') C.stackedBar('chExports', expLabels, expDatasets, { unit: expUnit, xTicks: expTicks });
     else C.stackedArea('chExports', expLabels, expDatasets, { unit: expUnit, xTicks: expTicks });
+
+    if (ind.exportsByRegion) {
+      const reg = ind.exportsByRegion;
+      C.stackedArea('chRegionExports', reg.series.map(p => p.period),
+        reg.regions.map((r, i) => ({ label: r, data: reg.series.map(row => row[r]), slot: i })),
+        { unit: reg.unit, xTicks: 9 });
+    }
 
     C.line('chUsShare', expLabels, [
       { label: 'US share', data: exp.series.map(r => +expShare(r).toFixed(1)), slot: 0 },
@@ -366,7 +374,7 @@
   (function initChrome() {
     const m = DATA.meta || {};
     const live = m.live || {};
-    const NAMES = { production: 'N.A. industry production', price: 'lumber price', housing: 'US housing', exports: 'Canadian exports', companies: 'company revenue + production (US filers)' };
+    const NAMES = { production: 'N.A. industry production', price: 'lumber price', housing: 'US housing', exports: 'Canadian exports', regionExports: 'exports by region of origin', companies: 'company revenue + production (US filers)' };
     const keys = Object.keys(NAMES);
     const liveNames = keys.filter(k => live[k]).map(k => NAMES[k]);
     const sampleNames = keys.filter(k => !live[k]).map(k => NAMES[k]);

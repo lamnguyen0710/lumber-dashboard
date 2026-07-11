@@ -48,6 +48,7 @@ app with a <kbd>LIVE</kbd> or <kbd>SAMPLE</kbd> badge so there's never any doubt
 | **Company revenue** (quarterly) | ✅ **LIVE** | SEC EDGAR XBRL (keyless) — US filers WY, LPX, PCH |
 | **Company production** (quarterly) | ✅ **LIVE** | parsed from EDGAR 10-Q/10-K MD&A tables — WY, PCH (lumber MMbf) |
 | **Canadian exports by destination** | ✅ **LIVE** | UN Comtrade full API (free key `COMTRADE_KEY`) |
+| **Canada→US exports by region of origin** | ✅ **LIVE** | Global Affairs Canada monthly export-permit reports (keyless) |
 | Company inventory | ⏳ sample | not consistently disclosed as a machine-readable figure |
 | LP production | ⏳ sample | LP makes OSB/siding (MMsf) by product line, not dimensional lumber |
 | N.A. industry production | ⏳ sample | WWPA / APA / FEA are paid; no free API |
@@ -137,6 +138,7 @@ pipeline/
     housing.mjs           US starts & permits        (FRED public CSV, keyless)     ✅ LIVE
     companies.mjs         per-company revenue + prod (SEC EDGAR XBRL + filings)     ✅ LIVE (US filers)
     exports.mjs           Canadian exports by dest.  (UN Comtrade, free key)        ✅ LIVE
+    regionexports.mjs     Canada→US exports by region (Global Affairs Canada, keyless) ✅ LIVE
     news.mjs              lumber industry news board (Google News RSS, keyless)     ✅ LIVE
     production.mjs        N.A. industry production   (WWPA / APA / FEA — paid)      ⏳
 ```

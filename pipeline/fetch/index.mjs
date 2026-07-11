@@ -13,6 +13,7 @@ import { fetchCanadaExports } from './exports.mjs';
 import { fetchCompanies } from './companies.mjs';
 import { fetchLumberPrice } from './price.mjs';
 import { fetchIndustryProduction } from './production.mjs';
+import { fetchRegionExports } from './regionexports.mjs';
 
 // Merge a real section over the placeholder section when the real one exists.
 function useOrFallback(real, placeholder, label) {
@@ -27,16 +28,17 @@ function useOrFallback(real, placeholder, label) {
 export async function fetchLiveDataset({ fallback }) {
   const base = fallback();               // full placeholder dataset as a safety net
 
-  const [housing, exports, companies, price, production] = await Promise.all([
+  const [housing, exports, companies, price, production, regionExports] = await Promise.all([
     fetchHousing().catch((e) => (console.warn('[fetch] housing error', e.message), null)),
     fetchCanadaExports().catch((e) => (console.warn('[fetch] exports error', e.message), null)),
     fetchCompanies().catch((e) => (console.warn('[fetch] companies error', e.message), null)),
     fetchLumberPrice().catch((e) => (console.warn('[fetch] price error', e.message), null)),
     fetchIndustryProduction().catch((e) => (console.warn('[fetch] production error', e.message), null)),
+    fetchRegionExports().catch((e) => (console.warn('[fetch] region-exports error', e.message), null)),
   ]);
 
   // Track which sections are backed by live sources (for per-chart provenance).
-  const live = { production: false, price: false, housing: false, exports: false, companies: false };
+  const live = { production: false, price: false, housing: false, exports: false, companies: false, regionExports: false };
 
   const industry = { ...base.industry };
   if (production) { industry.production = useOrFallback(production, base.industry.production, 'industry.production'); live.production = !!production; }
@@ -47,6 +49,7 @@ export async function fetchLiveDataset({ fallback }) {
     live.housing = !!housing;
   }
   if (exports) { industry.canadaExports = useOrFallback(exports, base.industry.canadaExports, 'canadaExports'); live.exports = !!exports; }
+  if (regionExports) { industry.exportsByRegion = regionExports; live.regionExports = true; console.log('[fetch] exportsByRegion: LIVE'); }
 
   // Merge live company data (e.g. revenue from EDGAR) onto the sample profiles —
   // keep sample production/inventory + the static profile; only override what's live.
