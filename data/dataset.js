@@ -2428,8 +2428,14 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-12T02:12:15.111Z",
+      "fetchedAt": "2026-07-12T08:08:33.114Z",
       "items": [
+        {
+          "title": "Weyerhaeuser stock reflects timber REIT exposure and housing demand",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSi16LVFxOW41T3JkZk11Y0dwSkhJcjMyU3NSeHNtaEFCMlBncmZ2TW5EUFh0akJRT2lDM1h3ajc1LWdMLVkwTTFJM2VmWDdyUVRMcERpMDNCbWVjeU44ZHE2d0tnLWNfYXBPZWpOcG1SdzcxbDZTU3RGcC14bWcxTi1fWDVXeEJKRE5ha285LVd5aUtsVk1lY0NCWUQ0VU5RbkJWeTJKLUtlOUZiRERaR0tScm03aU1zem1PQkFlRzUxMzZy?oc=5",
+          "source": "ad-hoc-news.de",
+          "date": "2026-07-12T05:35:04.000Z"
+        },
         {
           "title": "Interfor (TSX:IFP) Stock Sees Fair Value Cut After Analysts Weigh Fresh Production Results",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYW9Nc1BhUkNBVGg3ajJPUGpZTGx0dWZQSnNad18tX2k5WmJYRWNfTkdjRFl6ZnBIckY2T3FPdE5MZGRjdEsxMkhKTzRMUW9rTHBlQi1WNXhnS3EwQ2xaZGhaanBtSERJUmxsV2kwM1NmSG9ELXc0VWVyZzM4X0JERVlsTDZWa0tzTU5YSk1BX0thTUdQcXZR?oc=5",
@@ -2603,12 +2609,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSzJCMHJfOUxhNzlQNVJvTVpXRV9DQTJjY2hKTVpHQmNQZDlLSkd5Y0phalFKT2tnMFhIX2pQZHRsRkoxd0h3RDFma3JfY0o1U0JGckN1cXlwR1FzWk9tVzU5WFZtNjFFNTQ0eDVzV1JOVU00VW5aaWQxVkhHbjBOcHVDNDdacFg0SG81bnZWaUp4RDllT2swTVA2eXpPOWpvWlhidnNEeFJXVFNHUnpSdjNCN2lTTWpR?oc=5",
           "source": "ad-hoc-news.de",
           "date": "2026-06-28T09:25:38.000Z"
-        },
-        {
-          "title": "Weyerhaeuser sets Q2 earnings date, shares in focus ahead of July release",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTTNzMmNIWElnZnVvRFFZVS1zTWJEVkZwdFc0UTgtTW5zaWh2VnJuWm1iZmJKVHNtQ3Y0R05yRzdqV0o0eGJSdXpFbUN3TGRCb0pZWjNSSlpNR2ozM3NjOENJalZZS1hYMGdRRC02cmtBSEFhb2MtWWpBVHhKME5MRDRfbmdPOEhsVDF4UWFFR3NZZTA1Y2lqXzVXV2ZsNHJfMTl3RHJMd2FSWmhZZHFfcHJJN3RzRmFfN3BxYWNDQmliRllLMjA2OW45QQ?oc=5",
-          "source": "ad-hoc-news.de",
-          "date": "2026-06-27T12:23:34.000Z"
         }
       ]
     },
