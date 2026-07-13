@@ -663,7 +663,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 640
+          "framing_composite": 641
         }
       ]
     },
@@ -2497,7 +2497,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-13T14:48:46.975Z",
+      "fetchedAt": "2026-07-13T14:56:54.288Z",
       "items": [
         {
           "title": "Why Interfor Stock Is Back In Focus After Updated Market Expectations?",
