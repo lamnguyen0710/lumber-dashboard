@@ -55,6 +55,8 @@ function parseReport(html) {
   };
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 // concurrency-limited map so we don't hammer the GAC server
 async function mapLimit(items, limit, fn) {
   const out = new Array(items.length);
@@ -62,6 +64,22 @@ async function mapLimit(items, limit, fn) {
   async function worker() { while (i < items.length) { const idx = i++; out[idx] = await fn(items[idx]).catch(() => null); } }
   await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
   return out;
+}
+
+// Fetch one month's report, distinguishing "not published yet" (404 → null, normal
+// for the latest month) from a transient error (retried with backoff). CI runners
+// occasionally get throttled by the GAC server, so retries matter a lot here.
+async function fetchMonth(mo, attempt = 0) {
+  try {
+    const res = await fetch(BASE + mo.ym + '.htm', { headers: { 'User-Agent': 'Mozilla/5.0 (lumber-dashboard)' } });
+    if (res.status === 404) return { missing: true };          // report doesn't exist yet
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const parsed = parseReport(await res.text());
+    return parsed ? { period: mo.period, ...parsed } : { missing: true };
+  } catch (e) {
+    if (attempt < 2) { await sleep(400 * (attempt + 1)); return fetchMonth(mo, attempt + 1); }
+    return null;                                                // transient failure, gave up
+  }
 }
 
 export async function fetchRegionExports() {
@@ -73,15 +91,14 @@ export async function fetchRegionExports() {
     months.push({ y, m, ym: `${y}${String(m).padStart(2, '0')}`, period: `${y}-${String(m).padStart(2, '0')}` });
   }
 
-  const rows = await mapLimit(months, 6, async (mo) => {
-    const res = await fetch(BASE + mo.ym + '.htm', { headers: { 'User-Agent': 'Mozilla/5.0 (lumber-dashboard)' } });
-    if (!res.ok) return null;
-    const parsed = parseReport(await res.text());
-    return parsed ? { period: mo.period, ...parsed } : null;
-  });
+  const results = await mapLimit(months, 4, fetchMonth);
+  const failures = results.filter((r) => r === null).length;   // transient (not 404s)
+  const series = results.filter((r) => r && !r.missing);
 
-  const series = rows.filter(Boolean);
-  if (series.length < 6) throw new Error(`GAC region exports: only ${series.length} months parsed`);
+  // If too many months failed transiently, treat the whole scrape as failed so the
+  // build carries forward the last good data instead of publishing a gap-riddled set.
+  if (failures > 4) throw new Error(`GAC region exports: ${failures} months failed to fetch`);
+  if (series.length < 24) throw new Error(`GAC region exports: only ${series.length} months parsed`);
   return { unit: 'MBF', freq: 'monthly', regions: REGIONS, series };
 }
 

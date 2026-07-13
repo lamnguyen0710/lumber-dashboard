@@ -15,7 +15,7 @@
 // what makes the published dashboard "automatically update".
 // -----------------------------------------------------------------------------
 
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, mkdirSync, readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { generateDataset } from './generate-placeholder.mjs';
@@ -43,6 +43,12 @@ async function main() {
     if (news) { dataset.industry.news = news; console.log(`[build-data] news: ${news.items.length} headlines`); }
   } catch (e) { console.warn('[build-data] news fetch failed:', e.message); }
 
+  // Resilience: the scrape-based live sources (GAC region exports, EDGAR company
+  // production/revenue) occasionally fail transiently in CI. Rather than let a
+  // chart vanish, carry forward the last good value from the previously-committed
+  // data (which persists in the repo via the commit-back).
+  if (live) carryForwardLive(dataset);
+
   // Stamp the actual build date so the dashboard's "updated" reflects each run.
   dataset.meta = dataset.meta || {};
   dataset.meta.lastUpdated = new Date().toISOString().slice(0, 10);
@@ -60,6 +66,36 @@ async function main() {
   const nCompanies = Object.keys(dataset.companies).length;
   console.log(`[build-data] wrote data/dataset.js and data/dataset.json`);
   console.log(`[build-data] companies=${nCompanies} dataThrough=${dataset.meta.dataThrough} placeholder=${dataset.meta.isPlaceholder}`);
+}
+
+// Restore expensive/flaky live sections from the previous build if they went
+// missing this run (a transient scrape failure), so charts don't disappear.
+function carryForwardLive(ds) {
+  let prev;
+  try { prev = JSON.parse(readFileSync(resolve(OUT_DIR, 'dataset.json'), 'utf8')); }
+  catch { return; }   // no previous build to fall back to
+
+  ds.meta.live = ds.meta.live || {};
+
+  // Industry: Canada→US exports by region (GAC scrape — ~78 pages, flakiest source).
+  if (!ds.industry.exportsByRegion && prev.industry && prev.industry.exportsByRegion) {
+    ds.industry.exportsByRegion = prev.industry.exportsByRegion;
+    ds.meta.live.regionExports = true;
+    console.log('[build-data] ⚠ region-exports scrape failed — carried forward last good data');
+  }
+
+  // Per-company: production & revenue parsed from EDGAR filings.
+  for (const [id, co] of Object.entries(ds.companies || {})) {
+    const pco = prev.companies && prev.companies[id];
+    if (!pco || !pco.live) continue;
+    for (const field of ['production', 'revenue']) {
+      if (pco.live[field] && !(co.live && co.live[field])) {
+        co[field] = pco[field];
+        co.live = { ...(co.live || {}), [field]: true };
+        console.log(`[build-data] ⚠ ${id} ${field} missing — carried forward last good data`);
+      }
+    }
+  }
 }
 
 main().catch((err) => {

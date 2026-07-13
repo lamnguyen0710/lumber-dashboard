@@ -10,7 +10,7 @@ window.LUMBER_DATA = {
       "housing": true,
       "exports": true,
       "companies": true,
-      "regionExports": false
+      "regionExports": true
     },
     "disclaimer": "PLACEHOLDER DATA — synthetic values scaled to realistic magnitudes so every chart renders. Replace with the live pipeline output (pipeline/fetch/*) before using for analysis.",
     "sources": [
@@ -2428,7 +2428,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-13T09:01:27.082Z",
+      "fetchedAt": "2026-07-13T13:03:10.748Z",
       "items": [
         {
           "title": "Weyerhaeuser stock reflects timber REIT exposure and housing demand",
@@ -2441,12 +2441,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYW9Nc1BhUkNBVGg3ajJPUGpZTGx0dWZQSnNad18tX2k5WmJYRWNfTkdjRFl6ZnBIckY2T3FPdE5MZGRjdEsxMkhKTzRMUW9rTHBlQi1WNXhnS3EwQ2xaZGhaanBtSERJUmxsV2kwM1NmSG9ELXc0VWVyZzM4X0JERVlsTDZWa0tzTU5YSk1BX0thTUdQcXZR?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-07-11T16:07:40.000Z"
-        },
-        {
-          "title": "Weyerhaeuser earnings preview: What to expect",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVEhMT2p1aC01UmozNmtQM2RORkVIR1EzYnA5ZzBWOGM3NUE3NnJrSlZjTXdualpmSTRyLXFZcXFhTGtUeVlmZi1RU3JLTHJrbnlnOUV6eHdhSUV3clYxVmtJbnpBYW9udkxRYW9obmpSM0Rxd0p3WDZqWE4xU2ZnNm12alRnVi1FT3k4RzRYOEo4V0hyc0Y3WGtmdFUtWnc?oc=5",
-          "source": "MSN",
-          "date": "2026-07-11T14:06:14.000Z"
         },
         {
           "title": "Weyerhaeuser (WY) Could Be 25% Undervalued Following Its Recent Rebound",
@@ -2545,6 +2539,12 @@ window.LUMBER_DATA = {
           "date": "2026-07-06T14:58:53.000Z"
         },
         {
+          "title": "Canfor acquires PinkWood",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XRksyandSdUdaV0tCSG05QUNMN1NHNUJ2bHNCR3dMdGpFczdtdGptRmI2TUJyMmVmWlNidVE5WlVad1kybWljX3hOZ3RpRTI0QmxtSXNTMGMwNklhZXNlaUpHaHgxZXZXbjNjaQ?oc=5",
+          "source": "Pulp and Paper Canada",
+          "date": "2026-07-06T13:45:08.000Z"
+        },
+        {
           "title": "Lumber Market Watch: Could Housing Demand Put Timber Back in Focus?",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc2hZN0EybDl6Y0VnMkRGb0dmUmVKRVZYMk9yYU1USVhZcG5fMzZpUGZ1Q29pMUhXZDYydzdMSnBmUUJRVHhmU3FRT2llMzk4YktCTGdoZlg4Q2FtRC15bklVSVg2ZjJONHRqREJ3cENKX0I3eWVvZjdvY1hYNlRHbktzRUZ0R2xTa3Z4NVJMdi1SR2ZqdERLQ2o1VDdfUTFob3Jtd3dINGZXUQ?oc=5",
           "source": "Kalkine",
@@ -2555,6 +2555,12 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbERXX0t1eFdyTkhhUzlsb2tLbHVjN1BlbW5TODlPVlJLeWswd0xCallZZ2drR2hYVFNLZmNGY2IwNXVpYkRFakt2MFBQQ3FYcmVod2VsTUxfSkNsUzlwZ1h1N0c3dnY0a3ZhOXFBRVhqaFNoZW94cTJZeUFSdVJTaUloby1SVkJVNklBTVV2Yw?oc=5",
           "source": "IndexBox",
           "date": "2026-07-06T06:20:00.000Z"
+        },
+        {
+          "title": "Weyerhaeuser Earnings Preview: What to Expect",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUGE4LW43WFRDTThJUkxXTUZxU016SEVrUzlCTDJhWEdDX1FmSjBRSEtfanBJaVIxNGhhQm50ZTFocDU2elBRMHlxVHk5VUpJVFNkQkpFVnB5aHdQM19HQ1NIOVlubEViLUM2SEpGZ01wR19wLXZPOVB2dUowRVVxbWw1Mk5ZaWVMOExOUFRnaG40NGRNSjFMaW5ZUkt6Tjk3ZDhZ?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-07-02T07:00:00.000Z"
         },
         {
           "title": "North American Lumber Market Outlook: What’s Shaping the Industry Right Now",
@@ -2581,34 +2587,28 @@ window.LUMBER_DATA = {
           "date": "2026-06-30T16:27:10.000Z"
         },
         {
+          "title": "TimberStrand LSL from Weyerhaeuser Co. - engineered lumber for straighter walls",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWVB4Nm1ZRnBNT0w2WHkyeUhuRVN5Y19SVWFZMTRFN0RrZjhmREdER2NjaTRNVTVqTlMyRldjNmpmelpNcFBQYVJEbHJ2M0JfZlFHUzJ1aGRoVGFObEtWLXZsMkJFdHlsamc2eWV3NndXYWNBY01yc1g1QURTS25LRXc2WjZfWXZhQmFicFZXanVDamJZekx4TWhNWDUtS09pNVVTX2x3TGdxR3R0eWwtcl9YMEFjYm5yTDRtRmlhVHpWbW9iVVlvYQ?oc=5",
+          "source": "ad-hoc-news.de",
+          "date": "2026-06-28T17:59:02.000Z"
+        },
+        {
+          "title": "Weyerhaeuser sets Q2 earnings date, shares in focus on NYSE",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSzJCMHJfOUxhNzlQNVJvTVpXRV9DQTJjY2hKTVpHQmNQZDlLSkd5Y0phalFKT2tnMFhIX2pQZHRsRkoxd0h3RDFma3JfY0o1U0JGckN1cXlwR1FzWk9tVzU5WFZtNjFFNTQ0eDVzV1JOVU00VW5aaWQxVkhHbjBOcHVDNDdacFg0SG81bnZWaUp4RDllT2swTVA2eXpPOWpvWlhidnNEeFJXVFNHUnpSdjNCN2lTTWpR?oc=5",
+          "source": "ad-hoc-news.de",
+          "date": "2026-06-28T09:25:38.000Z"
+        },
+        {
           "title": "Here is What to Know Beyond Why Louisiana-Pacific Corporation (LPX) is a Trending Stock",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVJFeUVTTDFleVlCNExuRHAwbk5xdE15aHJ5QWNJeGJuUk1LS2cwSUZqQVJpNDNZTVVpVFdwRVo3NlhHOUo4RXI5SDlfQTJHcEtrYkFJTWE3WGlsNWt3MHRrU2JrQzZEMGJQMk8wQm1DSWVnLUticlk0REcxQk5aX190M0ZhTWs1ZFhjc290N1ctTEIxVFlLdVZJY3M5cms?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-06-26T07:00:00.000Z"
         },
         {
-          "title": "Interfor positioned to surge as lumber prices climb, says BMO",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZTNWTVJmY2lzY1pzMzdobGI5dW1ZNEdFSkFBSWlOLWJQWVlmVDRlZDY1YjlWV1ZQVTBndXVtaFVoa2E1OHVIY2pGSmY0aVVIUUdWQVBnWEdVNDlzQ05QZ1ZkekY1Q0g0X2JqeEtnbXJuX05NUGNUTDBfMnNuTUdJOTBwNHpNRVNUTUFRd1k1ckhaSFU1dk1Vd0xOQ1RXeUVwWWdNRmNpTFJobXM3VW9ZSFlvNElraHZxUVY2Tmtn?oc=5",
-          "source": "BNN Bloomberg",
-          "date": "2026-06-25T07:00:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser Cuts 2Q Wood Production Guidance by $20M",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUkJVeXA3aGxzY0NPdEFlVWxmR2Nyc0tCQnNzaWJmbGxqYmxTcllpZUhMZFZLOUVqUVEwZ3lpUTkyOUZxbXg3em5HOEoybThQdFBXb0p2bkpKSC12ZUJ2WTB2OGJHX1lRRmRRSWpuVUxXemdXR2ljRmN2MWd5blhpT0R0TTZRSUg4cmNjb2pET1ROWkN5TW92SnBB?oc=5",
-          "source": "Moomoo",
-          "date": "2026-06-25T07:00:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser sets July 31 call after second-quarter results",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc1BTU01vdWhQN3dvTHVnY3dSdGszMHRHRlFYMVpfeTdmZFZENWYwZElURHA5ZzhROXdCdVdzc2szRXl6LXdWZ2JmeW1XVzAxbHU5c29ZSFJocHA4TUp0NHVjbnByWTJrMVpiUW5GVWhUYWNQaGxmWVhYVkhlU05VRjRyWDZINXJBLXpocURCUE03aXl1ckNvRXNGWWpMRGcxSlJWdjFCT0VvYk0?oc=5",
-          "source": "Stock Titan",
-          "date": "2026-06-25T07:00:00.000Z"
-        },
-        {
-          "title": "Lumber prices waffle in mid-June",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5USV9wWW5ONmNHWDlOOVlLNFZkLUItR041dEtKX3hsQ2NMU3lud2hNbWZfNHZTaTN2blFaNVdXandJc09pamlNVFFIdm1qTmtueTR6c0hLUzMwbDg4SDRCdUZSd0F5QUhrRHg1RUJYelVtclhGR3JN?oc=5",
-          "source": "Pulp and Paper Canada",
-          "date": "2026-06-25T02:45:57.000Z"
+          "title": "Louisiana-Pacific earnings outlook and housing cycle, shares watch on NYSE",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTmdQNmkxc3FRTlVfeWJCQWUyU2V6QVlvdXgxVTZIRzFJdld0aE1nd0xJbGJTNzFDYlhPcWFhQnhIRDN3U0xNMEprLWhiTzQxVWRab0NHenNMNHk3X3JVNkEtNFhCUXJHV1FoUnVhMFdsWkVUOERsdmlnaVBuLWtoLVBlekl4MUlVUGpybEoxZ3pUekpDU2JWNW0wQ05FcUdoUnlqWTJfQ0lJOXFxWDlWdmU1WDRxZnZKUTVvZWgzNEdVWW83dGVXODlhakg?oc=5",
+          "source": "ad-hoc-news.de",
+          "date": "2026-06-25T20:54:05.000Z"
         }
       ]
     },
@@ -3163,6 +3163,801 @@ window.LUMBER_DATA = {
         {
           "period": "2026-05",
           "value": 10.3
+        }
+      ]
+    },
+    "exportsByRegion": {
+      "unit": "MBF",
+      "freq": "monthly",
+      "regions": [
+        "BC Interior",
+        "BC Coast",
+        "Alberta",
+        "Ontario",
+        "Quebec",
+        "Maritimes",
+        "Other"
+      ],
+      "series": [
+        {
+          "period": "2020-01",
+          "BC Interior": 353580,
+          "BC Coast": 30998,
+          "Alberta": 162513,
+          "Ontario": 124674,
+          "Quebec": 196427,
+          "Maritimes": 106362,
+          "Other": 62761
+        },
+        {
+          "period": "2020-02",
+          "BC Interior": 349025,
+          "BC Coast": 37826,
+          "Alberta": 136549,
+          "Ontario": 110851,
+          "Quebec": 152832,
+          "Maritimes": 94234,
+          "Other": 55823
+        },
+        {
+          "period": "2020-03",
+          "BC Interior": 437805,
+          "BC Coast": 43927,
+          "Alberta": 183523,
+          "Ontario": 112737,
+          "Quebec": 218031,
+          "Maritimes": 115423,
+          "Other": 57572
+        },
+        {
+          "period": "2020-04",
+          "BC Interior": 337093,
+          "BC Coast": 31280,
+          "Alberta": 156142,
+          "Ontario": 104299,
+          "Quebec": 187827,
+          "Maritimes": 111122,
+          "Other": 58055
+        },
+        {
+          "period": "2020-05",
+          "BC Interior": 276267,
+          "BC Coast": 48371,
+          "Alberta": 142868,
+          "Ontario": 107267,
+          "Quebec": 191924,
+          "Maritimes": 105670,
+          "Other": 58298
+        },
+        {
+          "period": "2020-06",
+          "BC Interior": 381005,
+          "BC Coast": 53579,
+          "Alberta": 169356,
+          "Ontario": 117965,
+          "Quebec": 177836,
+          "Maritimes": 122101,
+          "Other": 57575
+        },
+        {
+          "period": "2020-07",
+          "BC Interior": 440612,
+          "BC Coast": 50299,
+          "Alberta": 177624,
+          "Ontario": 105583,
+          "Quebec": 167827,
+          "Maritimes": 125722,
+          "Other": 51292
+        },
+        {
+          "period": "2020-08",
+          "BC Interior": 471792,
+          "BC Coast": 50972,
+          "Alberta": 162776,
+          "Ontario": 110449,
+          "Quebec": 174267,
+          "Maritimes": 106392,
+          "Other": 58330
+        },
+        {
+          "period": "2020-09",
+          "BC Interior": 506137,
+          "BC Coast": 64315,
+          "Alberta": 191616,
+          "Ontario": 115835,
+          "Quebec": 217418,
+          "Maritimes": 120115,
+          "Other": 65512
+        },
+        {
+          "period": "2020-10",
+          "BC Interior": 520868,
+          "BC Coast": 68248,
+          "Alberta": 186647,
+          "Ontario": 104414,
+          "Quebec": 195741,
+          "Maritimes": 117858,
+          "Other": 62347
+        },
+        {
+          "period": "2020-11",
+          "BC Interior": 442858,
+          "BC Coast": 53643,
+          "Alberta": 187514,
+          "Ontario": 107072,
+          "Quebec": 202471,
+          "Maritimes": 107888,
+          "Other": 61335
+        },
+        {
+          "period": "2020-12",
+          "BC Interior": 451190,
+          "BC Coast": 58261,
+          "Alberta": 167711,
+          "Ontario": 110202,
+          "Quebec": 180121,
+          "Maritimes": 102094,
+          "Other": 54586
+        },
+        {
+          "period": "2021-01",
+          "BC Interior": 467861,
+          "BC Coast": 54979,
+          "Alberta": 165231,
+          "Ontario": 100346,
+          "Quebec": 176082,
+          "Maritimes": 98503,
+          "Other": 61468
+        },
+        {
+          "period": "2021-02",
+          "BC Interior": 401073,
+          "BC Coast": 58355,
+          "Alberta": 149596,
+          "Ontario": 90677,
+          "Quebec": 183335,
+          "Maritimes": 99531,
+          "Other": 59849
+        },
+        {
+          "period": "2021-03",
+          "BC Interior": 497291,
+          "BC Coast": 65609,
+          "Alberta": 194324,
+          "Ontario": 105153,
+          "Quebec": 199651,
+          "Maritimes": 109778,
+          "Other": 70362
+        },
+        {
+          "period": "2021-04",
+          "BC Interior": 533082,
+          "BC Coast": 63925,
+          "Alberta": 189282,
+          "Ontario": 126973,
+          "Quebec": 200597,
+          "Maritimes": 104924,
+          "Other": 64932
+        },
+        {
+          "period": "2021-05",
+          "BC Interior": 530995,
+          "BC Coast": 71080,
+          "Alberta": 175676,
+          "Ontario": 114163,
+          "Quebec": 190462,
+          "Maritimes": 102502,
+          "Other": 66289
+        },
+        {
+          "period": "2021-06",
+          "BC Interior": 531397,
+          "BC Coast": 70799,
+          "Alberta": 179059,
+          "Ontario": 110993,
+          "Quebec": 181929,
+          "Maritimes": 108537,
+          "Other": 65707
+        },
+        {
+          "period": "2021-07",
+          "BC Interior": 423092,
+          "BC Coast": 53059,
+          "Alberta": 162043,
+          "Ontario": 103267,
+          "Quebec": 157771,
+          "Maritimes": 110348,
+          "Other": 50577
+        },
+        {
+          "period": "2021-08",
+          "BC Interior": 370930,
+          "BC Coast": 42741,
+          "Alberta": 162014,
+          "Ontario": 107148,
+          "Quebec": 187052,
+          "Maritimes": 103697,
+          "Other": 65186
+        },
+        {
+          "period": "2021-09",
+          "BC Interior": 371479,
+          "BC Coast": 42327,
+          "Alberta": 169523,
+          "Ontario": 125413,
+          "Quebec": 230300,
+          "Maritimes": 113435,
+          "Other": 74375
+        },
+        {
+          "period": "2021-10",
+          "BC Interior": 422184,
+          "BC Coast": 40882,
+          "Alberta": 173983,
+          "Ontario": 122692,
+          "Quebec": 202182,
+          "Maritimes": 113527,
+          "Other": 75030
+        },
+        {
+          "period": "2021-11",
+          "BC Interior": 404723,
+          "BC Coast": 49558,
+          "Alberta": 181529,
+          "Ontario": 135021,
+          "Quebec": 220408,
+          "Maritimes": 108952,
+          "Other": 70660
+        },
+        {
+          "period": "2021-12",
+          "BC Interior": 345564,
+          "BC Coast": 29722,
+          "Alberta": 173562,
+          "Ontario": 98656,
+          "Quebec": 158666,
+          "Maritimes": 99190,
+          "Other": 53179
+        },
+        {
+          "period": "2022-01",
+          "BC Interior": 423032,
+          "BC Coast": 40687,
+          "Alberta": 166728,
+          "Ontario": 93753,
+          "Quebec": 168629,
+          "Maritimes": 95601,
+          "Other": 57010
+        },
+        {
+          "period": "2022-02",
+          "BC Interior": 331726,
+          "BC Coast": 41948,
+          "Alberta": 141899,
+          "Ontario": 81681,
+          "Quebec": 137857,
+          "Maritimes": 90456,
+          "Other": 54600
+        },
+        {
+          "period": "2022-03",
+          "BC Interior": 469809,
+          "BC Coast": 52198,
+          "Alberta": 164334,
+          "Ontario": 112902,
+          "Quebec": 169566,
+          "Maritimes": 112704,
+          "Other": 70441
+        },
+        {
+          "period": "2022-04",
+          "BC Interior": 445521,
+          "BC Coast": 50722,
+          "Alberta": 160501,
+          "Ontario": 103090,
+          "Quebec": 145849,
+          "Maritimes": 115973,
+          "Other": 67112
+        },
+        {
+          "period": "2022-05",
+          "BC Interior": 473364,
+          "BC Coast": 58732,
+          "Alberta": 183614,
+          "Ontario": 104955,
+          "Quebec": 180937,
+          "Maritimes": 114984,
+          "Other": 71513
+        },
+        {
+          "period": "2022-06",
+          "BC Interior": 443035,
+          "BC Coast": 50367,
+          "Alberta": 180823,
+          "Ontario": 114137,
+          "Quebec": 191199,
+          "Maritimes": 113917,
+          "Other": 70364
+        },
+        {
+          "period": "2022-07",
+          "BC Interior": 432300,
+          "BC Coast": 45734,
+          "Alberta": 179122,
+          "Ontario": 112376,
+          "Quebec": 160433,
+          "Maritimes": 109272,
+          "Other": 60622
+        },
+        {
+          "period": "2022-08",
+          "BC Interior": 458985,
+          "BC Coast": 49307,
+          "Alberta": 182526,
+          "Ontario": 116496,
+          "Quebec": 158036,
+          "Maritimes": 116329,
+          "Other": 66176
+        },
+        {
+          "period": "2022-09",
+          "BC Interior": 398230,
+          "BC Coast": 48218,
+          "Alberta": 168718,
+          "Ontario": 121511,
+          "Quebec": 187860,
+          "Maritimes": 106068,
+          "Other": 68199
+        },
+        {
+          "period": "2022-10",
+          "BC Interior": 358678,
+          "BC Coast": 45309,
+          "Alberta": 155556,
+          "Ontario": 114225,
+          "Quebec": 192448,
+          "Maritimes": 110710,
+          "Other": 61883
+        },
+        {
+          "period": "2022-11",
+          "BC Interior": 341236,
+          "BC Coast": 44335,
+          "Alberta": 135415,
+          "Ontario": 116367,
+          "Quebec": 195789,
+          "Maritimes": 102277,
+          "Other": 60672
+        },
+        {
+          "period": "2022-12",
+          "BC Interior": 239995,
+          "BC Coast": 36447,
+          "Alberta": 106970,
+          "Ontario": 88516,
+          "Quebec": 153738,
+          "Maritimes": 89854,
+          "Other": 45888
+        },
+        {
+          "period": "2023-01",
+          "BC Interior": 296867,
+          "BC Coast": 42675,
+          "Alberta": 155083,
+          "Ontario": 105214,
+          "Quebec": 172162,
+          "Maritimes": 100171,
+          "Other": 59126
+        },
+        {
+          "period": "2023-02",
+          "BC Interior": 268617,
+          "BC Coast": 43575,
+          "Alberta": 122569,
+          "Ontario": 107188,
+          "Quebec": 165971,
+          "Maritimes": 95499,
+          "Other": 61476
+        },
+        {
+          "period": "2023-03",
+          "BC Interior": 379081,
+          "BC Coast": 52441,
+          "Alberta": 162060,
+          "Ontario": 119067,
+          "Quebec": 181774,
+          "Maritimes": 112104,
+          "Other": 73259
+        },
+        {
+          "period": "2023-04",
+          "BC Interior": 363165,
+          "BC Coast": 40663,
+          "Alberta": 147959,
+          "Ontario": 110927,
+          "Quebec": 176374,
+          "Maritimes": 103171,
+          "Other": 57325
+        },
+        {
+          "period": "2023-05",
+          "BC Interior": 359316,
+          "BC Coast": 53795,
+          "Alberta": 180376,
+          "Ontario": 130864,
+          "Quebec": 174002,
+          "Maritimes": 116477,
+          "Other": 75388
+        },
+        {
+          "period": "2023-06",
+          "BC Interior": 340626,
+          "BC Coast": 61121,
+          "Alberta": 171405,
+          "Ontario": 121529,
+          "Quebec": 145460,
+          "Maritimes": 113567,
+          "Other": 63955
+        },
+        {
+          "period": "2023-07",
+          "BC Interior": 359330,
+          "BC Coast": 54268,
+          "Alberta": 156476,
+          "Ontario": 114501,
+          "Quebec": 120688,
+          "Maritimes": 98829,
+          "Other": 46844
+        },
+        {
+          "period": "2023-08",
+          "BC Interior": 366074,
+          "BC Coast": 57066,
+          "Alberta": 171920,
+          "Ontario": 116554,
+          "Quebec": 142652,
+          "Maritimes": 112905,
+          "Other": 52369
+        },
+        {
+          "period": "2023-09",
+          "BC Interior": 329880,
+          "BC Coast": 47778,
+          "Alberta": 158406,
+          "Ontario": 114369,
+          "Quebec": 175615,
+          "Maritimes": 104616,
+          "Other": 61427
+        },
+        {
+          "period": "2023-10",
+          "BC Interior": 352222,
+          "BC Coast": 45477,
+          "Alberta": 146014,
+          "Ontario": 113295,
+          "Quebec": 188980,
+          "Maritimes": 108944,
+          "Other": 61087
+        },
+        {
+          "period": "2023-11",
+          "BC Interior": 337558,
+          "BC Coast": 42275,
+          "Alberta": 152244,
+          "Ontario": 114290,
+          "Quebec": 175797,
+          "Maritimes": 113495,
+          "Other": 63849
+        },
+        {
+          "period": "2023-12",
+          "BC Interior": 271922,
+          "BC Coast": 32705,
+          "Alberta": 127402,
+          "Ontario": 112294,
+          "Quebec": 144979,
+          "Maritimes": 96296,
+          "Other": 49776
+        },
+        {
+          "period": "2024-01",
+          "BC Interior": 345300,
+          "BC Coast": 34748,
+          "Alberta": 148417,
+          "Ontario": 130521,
+          "Quebec": 180835,
+          "Maritimes": 112423,
+          "Other": 66708
+        },
+        {
+          "period": "2024-02",
+          "BC Interior": 352542,
+          "BC Coast": 47101,
+          "Alberta": 148983,
+          "Ontario": 115062,
+          "Quebec": 193068,
+          "Maritimes": 106492,
+          "Other": 66714
+        },
+        {
+          "period": "2024-03",
+          "BC Interior": 340459,
+          "BC Coast": 43107,
+          "Alberta": 160036,
+          "Ontario": 126957,
+          "Quebec": 209545,
+          "Maritimes": 109688,
+          "Other": 66500
+        },
+        {
+          "period": "2024-04",
+          "BC Interior": 349653,
+          "BC Coast": 38484,
+          "Alberta": 189284,
+          "Ontario": 109957,
+          "Quebec": 197436,
+          "Maritimes": 115478,
+          "Other": 58775
+        },
+        {
+          "period": "2024-05",
+          "BC Interior": 355128,
+          "BC Coast": 42687,
+          "Alberta": 173929,
+          "Ontario": 121641,
+          "Quebec": 218633,
+          "Maritimes": 115014,
+          "Other": 72560
+        },
+        {
+          "period": "2024-06",
+          "BC Interior": 300923,
+          "BC Coast": 44935,
+          "Alberta": 151961,
+          "Ontario": 101630,
+          "Quebec": 178771,
+          "Maritimes": 106979,
+          "Other": 63189
+        },
+        {
+          "period": "2024-07",
+          "BC Interior": 305265,
+          "BC Coast": 50028,
+          "Alberta": 167263,
+          "Ontario": 116771,
+          "Quebec": 188239,
+          "Maritimes": 114490,
+          "Other": 50101
+        },
+        {
+          "period": "2024-08",
+          "BC Interior": 289686,
+          "BC Coast": 47497,
+          "Alberta": 155849,
+          "Ontario": 103793,
+          "Quebec": 170069,
+          "Maritimes": 112123,
+          "Other": 61322
+        },
+        {
+          "period": "2024-09",
+          "BC Interior": 292018,
+          "BC Coast": 38472,
+          "Alberta": 152769,
+          "Ontario": 95289,
+          "Quebec": 173618,
+          "Maritimes": 111455,
+          "Other": 62501
+        },
+        {
+          "period": "2024-10",
+          "BC Interior": 333798,
+          "BC Coast": 41585,
+          "Alberta": 182410,
+          "Ontario": 124699,
+          "Quebec": 202593,
+          "Maritimes": 116431,
+          "Other": 73339
+        },
+        {
+          "period": "2024-11",
+          "BC Interior": 286967,
+          "BC Coast": 37678,
+          "Alberta": 146404,
+          "Ontario": 110257,
+          "Quebec": 178183,
+          "Maritimes": 102511,
+          "Other": 67050
+        },
+        {
+          "period": "2024-12",
+          "BC Interior": 238305,
+          "BC Coast": 36793,
+          "Alberta": 126593,
+          "Ontario": 89643,
+          "Quebec": 129258,
+          "Maritimes": 90404,
+          "Other": 49121
+        },
+        {
+          "period": "2025-01",
+          "BC Interior": 309957,
+          "BC Coast": 47975,
+          "Alberta": 174824,
+          "Ontario": 109328,
+          "Quebec": 164411,
+          "Maritimes": 109938,
+          "Other": 77555
+        },
+        {
+          "period": "2025-02",
+          "BC Interior": 270419,
+          "BC Coast": 40750,
+          "Alberta": 132595,
+          "Ontario": 107599,
+          "Quebec": 137294,
+          "Maritimes": 96062,
+          "Other": 63422
+        },
+        {
+          "period": "2025-03",
+          "BC Interior": 294302,
+          "BC Coast": 46231,
+          "Alberta": 185757,
+          "Ontario": 112379,
+          "Quebec": 168668,
+          "Maritimes": 121761,
+          "Other": 78569
+        },
+        {
+          "period": "2025-04",
+          "BC Interior": 262399,
+          "BC Coast": 33411,
+          "Alberta": 161985,
+          "Ontario": 123634,
+          "Quebec": 153735,
+          "Maritimes": 111963,
+          "Other": 64765
+        },
+        {
+          "period": "2025-05",
+          "BC Interior": 267359,
+          "BC Coast": 37194,
+          "Alberta": 164699,
+          "Ontario": 121222,
+          "Quebec": 183337,
+          "Maritimes": 112529,
+          "Other": 67932
+        },
+        {
+          "period": "2025-06",
+          "BC Interior": 257885,
+          "BC Coast": 38751,
+          "Alberta": 154722,
+          "Ontario": 110838,
+          "Quebec": 156669,
+          "Maritimes": 113995,
+          "Other": 70354
+        },
+        {
+          "period": "2025-07",
+          "BC Interior": 315936,
+          "BC Coast": 58983,
+          "Alberta": 166809,
+          "Ontario": 121134,
+          "Quebec": 179244,
+          "Maritimes": 132544,
+          "Other": 67511
+        },
+        {
+          "period": "2025-08",
+          "BC Interior": 220893,
+          "BC Coast": 19890,
+          "Alberta": 134364,
+          "Ontario": 76915,
+          "Quebec": 81525,
+          "Maritimes": 102810,
+          "Other": 38724
+        },
+        {
+          "period": "2025-09",
+          "BC Interior": 240213,
+          "BC Coast": 23249,
+          "Alberta": 141853,
+          "Ontario": 90307,
+          "Quebec": 111936,
+          "Maritimes": 111320,
+          "Other": 58918
+        },
+        {
+          "period": "2025-10",
+          "BC Interior": 244963,
+          "BC Coast": 24501,
+          "Alberta": 136948,
+          "Ontario": 106127,
+          "Quebec": 126612,
+          "Maritimes": 117329,
+          "Other": 57063
+        },
+        {
+          "period": "2025-11",
+          "BC Interior": 205762,
+          "BC Coast": 22570,
+          "Alberta": 128635,
+          "Ontario": 84142,
+          "Quebec": 115369,
+          "Maritimes": 93896,
+          "Other": 40373
+        },
+        {
+          "period": "2025-12",
+          "BC Interior": 186557,
+          "BC Coast": 18086,
+          "Alberta": 114012,
+          "Ontario": 78920,
+          "Quebec": 114170,
+          "Maritimes": 93688,
+          "Other": 38788
+        },
+        {
+          "period": "2026-01",
+          "BC Interior": 243376,
+          "BC Coast": 18881,
+          "Alberta": 104711,
+          "Ontario": 81763,
+          "Quebec": 116063,
+          "Maritimes": 97516,
+          "Other": 50935
+        },
+        {
+          "period": "2026-02",
+          "BC Interior": 232984,
+          "BC Coast": 25807,
+          "Alberta": 100596,
+          "Ontario": 79354,
+          "Quebec": 115270,
+          "Maritimes": 97247,
+          "Other": 43543
+        },
+        {
+          "period": "2026-03",
+          "BC Interior": 281692,
+          "BC Coast": 32842,
+          "Alberta": 114033,
+          "Ontario": 95999,
+          "Quebec": 150583,
+          "Maritimes": 118640,
+          "Other": 55988
+        },
+        {
+          "period": "2026-04",
+          "BC Interior": 277876,
+          "BC Coast": 32922,
+          "Alberta": 143200,
+          "Ontario": 108322,
+          "Quebec": 171329,
+          "Maritimes": 115928,
+          "Other": 64654
+        },
+        {
+          "period": "2026-05",
+          "BC Interior": 290326,
+          "BC Coast": 28285,
+          "Alberta": 130740,
+          "Ontario": 113790,
+          "Quebec": 158813,
+          "Maritimes": 104002,
+          "Other": 65529
+        },
+        {
+          "period": "2026-06",
+          "BC Interior": 314620,
+          "BC Coast": 31318,
+          "Alberta": 152284,
+          "Ontario": 106109,
+          "Quebec": 150657,
+          "Maritimes": 116554,
+          "Other": 69963
         }
       ]
     }
