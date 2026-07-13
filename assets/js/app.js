@@ -189,6 +189,8 @@
       <section class="section-head"><h2>Company comparison</h2>
         <p>Publicly traded lumber producers we track. Click a row for the full company view.</p></section>
       ${companyTable()}
+
+      ${homebuildersSection()}
     `;
 
     // charts
@@ -281,6 +283,37 @@
 
     wireTableRows();
     hydrateNewsTimes();
+  }
+
+  function homebuildersSection() {
+    const hb = DATA.homebuilders;
+    if (!hb || !hb.builders || !hb.builders.length) return '';
+    const total = hb.builders.reduce((s, b) => s + (b.fy2025 || 0), 0);
+    const rows = hb.builders.map((b) => `<tr>
+        <td class="name">${esc(b.name)}</td>
+        <td>${esc(b.ticker)}</td>
+        <td>${esc(b.fye)}</td>
+        <td>${F.int(b.fy2025)}</td>
+        <td>${b.guidance
+          ? `${esc(b.guidance)}${b.guidanceAsOf ? ` <span style="color:var(--text-muted);font-size:11.5px">${esc(b.guidanceAsOf)}</span>` : ''}`
+          : `<span style="color:var(--text-muted)">— <span style="font-size:11.5px">${esc(b.guidanceNote || 'no guidance')}</span></span>`}</td>
+      </tr>`).join('');
+    return `
+      <section class="section-head"><h2>Top US homebuilders — deliveries &amp; FY2026 guidance</h2>
+        <p>The demand side: homes delivered (latest completed fiscal year) and management's full-year 2026 delivery guidance. Deliveries ≈ lumber consumed. Snapshot as of ${esc(hb.asOf)} — guidance is forward-looking and refreshed manually.</p></section>
+      <div class="table-wrap"><table class="cmp cmp--static">
+        <thead><tr>
+          <th class="name">Builder</th><th>Ticker</th><th>FY end</th><th>Homes delivered (latest FY)</th><th>FY2026 delivery guidance</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+        <tfoot><tr>
+          <td class="name" style="font-weight:700">Top 10 total</td><td></td><td></td>
+          <td style="font-weight:700">${F.int(total)}</td>
+          <td style="color:var(--text-muted)">3 of 10 give no delivery guidance</td>
+        </tr></tfoot>
+      </table></div>
+      <p style="font-size:11.5px;color:var(--text-muted);margin-top:8px">Source: company earnings releases / SEC 8-K filings. Fiscal-year ends differ by company; "latest FY" is each company's most recently completed fiscal year (mostly FY2025).</p>
+    `;
   }
 
   function companyTable() {

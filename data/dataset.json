@@ -662,7 +662,7 @@
         },
         {
           "period": "2026-07",
-          "framing_composite": 637
+          "framing_composite": 638
         }
       ]
     },
@@ -2496,8 +2496,14 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-13T15:09:34.002Z",
+      "fetchedAt": "2026-07-13T18:53:09.721Z",
       "items": [
+        {
+          "title": "How New Interest-Rate Spotlight and Kopernik Stake At Weyerhaeuser (WY) Has Changed Its Investment Story",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeklHS1NnQlR0eHFSNHl2R0NtTmdMbncwNXgtMzZPOWZKeEppMEgyUjBRVk5HWFRidUVkWEFlZFF2c05OMzV1VU9RUjUwV0dxaU5MVDlseXFVb0hUOFZqSG9wQzlXM1ZpMFNMaXJjRFpOZmlybkNPOFlxNUY3a1lXMjJxWlVkMWFldHdKblk3dkxaeXJYRng0SS16aVdHbUNfS0NHR3ZuNVVzNTVPcWpZbEdsYTBlQ0EzM0VxUFlTMzVlelFjR2YwandB0gHPAUFVX3lxTE9rUjZtdFk5YzlqUTZmZ19MamgwbHNKTDEyMGVzRHVGSGFDeG5hdzcwVFVBcHRRWk9ZQXIxd1BFUzc4dUJmY29RQlJndnprN291OGxCa3FzYldMU2Q2aXhTNmxFTmxlUDNSVTdxMGVrbE5MZHExam83ZmFsMnFfdWl3TG01ZkVxSkE1eUlxcW1zS2NrSGlDN1B2Ml9VWHlMb0hlbldjOUdJYk9jRVB3VW1lQjlySWc2WlRSQVQzU0RORU44UFNpUGNNR0hDQkZFcw?oc=5",
+          "source": "simplywall.st",
+          "date": "2026-07-13T16:37:49.000Z"
+        },
         {
           "title": "Why Interfor Stock Is Back In Focus After Updated Market Expectations?",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbF9YVXg2Yjk5b1lJWEppYUtsdHd1aFpwNG5fMlNaS1FSNlRTbnZwNFRQMnRFcXVqZFpsT3RySzgxQTBBRE12NldrSUZMX19jZ2pxd1V5WE1TTnJBM2JnMENrLXZKWmpDWW9vMnhsQ09GenRobVZFd25qYXl6WTl1bXpWNEp4ZkE2eU1RWFVqYWJkcWp5eHRvWVNVRE5GblFDbzNXRU5MUGJlMjlKdENibzdZSXo?oc=5",
@@ -2607,76 +2613,10 @@
           "date": "2026-06-28T17:59:02.000Z"
         },
         {
-          "title": "Here is What to Know Beyond Why Louisiana-Pacific Corporation (LPX) is a Trending Stock",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVJFeUVTTDFleVlCNExuRHAwbk5xdE15aHJ5QWNJeGJuUk1LS2cwSUZqQVJpNDNZTVVpVFdwRVo3NlhHOUo4RXI5SDlfQTJHcEtrYkFJTWE3WGlsNWt3MHRrU2JrQzZEMGJQMk8wQm1DSWVnLUticlk0REcxQk5aX190M0ZhTWs1ZFhjc290N1ctTEIxVFlLdVZJY3M5cms?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-06-26T07:00:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser to Release Second Quarter Results on July 30 - Jun 25, 2026",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOFVSRG9VSFc1YlRHSS12ZEY5VjZheGdEaE9PSkZ0QkpHT0lpZEpnWHhZU2NOcFYxTm9zX3dUcWJ0T1hrenY2VXJFeU03ZkdjN2kxMnNZZ0RBNlBiWUo1Z3VESEdoYklTd3R0QlJVTnVTRnp6RVpBYk03bkVacmdVTldkeHJlZTRKd3NpWDJ6TmR2Z2l2N05QTGw0anp2YjlzNGRMXw?oc=5",
-          "source": "Weyerhaeuser Investor Relations",
-          "date": "2026-06-25T07:00:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser Cuts 2Q Wood Production Guidance by $20M",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUkJVeXA3aGxzY0NPdEFlVWxmR2Nyc0tCQnNzaWJmbGxqYmxTcllpZUhMZFZLOUVqUVEwZ3lpUTkyOUZxbXg3em5HOEoybThQdFBXb0p2bkpKSC12ZUJ2WTB2OGJHX1lRRmRRSWpuVUxXemdXR2ljRmN2MWd5blhpT0R0TTZRSUg4cmNjb2pET1ROWkN5TW92SnBB?oc=5",
-          "source": "Moomoo",
-          "date": "2026-06-25T07:00:00.000Z"
-        },
-        {
-          "title": "Interfor positioned to surge as lumber prices climb, says BMO",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZTNWTVJmY2lzY1pzMzdobGI5dW1ZNEdFSkFBSWlOLWJQWVlmVDRlZDY1YjlWV1ZQVTBndXVtaFVoa2E1OHVIY2pGSmY0aVVIUUdWQVBnWEdVNDlzQ05QZ1ZkekY1Q0g0X2JqeEtnbXJuX05NUGNUTDBfMnNuTUdJOTBwNHpNRVNUTUFRd1k1ckhaSFU1dk1Vd0xOQ1RXeUVwWWdNRmNpTFJobXM3VW9ZSFlvNElraHZxUVY2Tmtn?oc=5",
-          "source": "BNN Bloomberg",
-          "date": "2026-06-25T07:00:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser sets July 31 call after second-quarter results",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc1BTU01vdWhQN3dvTHVnY3dSdGszMHRHRlFYMVpfeTdmZFZENWYwZElURHA5ZzhROXdCdVdzc2szRXl6LXdWZ2JmeW1XVzAxbHU5c29ZSFJocHA4TUp0NHVjbnByWTJrMVpiUW5GVWhUYWNQaGxmWVhYVkhlU05VRjRyWDZINXJBLXpocURCUE03aXl1ckNvRXNGWWpMRGcxSlJWdjFCT0VvYk0?oc=5",
-          "source": "Stock Titan",
-          "date": "2026-06-25T07:00:00.000Z"
-        },
-        {
-          "title": "Lumber prices waffle in mid-June",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5USV9wWW5ONmNHWDlOOVlLNFZkLUItR041dEtKX3hsQ2NMU3lud2hNbWZfNHZTaTN2blFaNVdXandJc09pamlNVFFIdm1qTmtueTR6c0hLUzMwbDg4SDRCdUZSd0F5QUhrRHg1RUJYelVtclhGR3JN?oc=5",
-          "source": "Pulp and Paper Canada",
-          "date": "2026-06-25T02:45:57.000Z"
-        },
-        {
-          "title": "Sawmill Output Slips as Capacity Continues to Decline",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmpyWW85VzVyMHBNLS1UenRSWURNNENlZTJadFhGdUtvV0Q4c0ZYNXhxMUNNVTBGd3F4aGRaNXRJSUdLVGN5NS10c1dfZXpFT3Y4VmpVVTlhUXZxOXlCQUs0RE9qRnZGVnFlcG1qQUpNRW0zMU9uUTFzWWdJTzBVU1JCLVB2cGlBWHMya2ptT2Q?oc=5",
-          "source": "Eye On Housing",
-          "date": "2026-06-24T07:00:00.000Z"
-        },
-        {
-          "title": "Town of Nairn Centre job fair scheduled for June 24 following mill closure",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTDZKaWp2ZndqVjJ4RlA0YVp5YjhHRlJ6VjVIV0NuWkl2Tkp4Y2dGTHNDRjNKU0ZIVlFpbWlnQnNKS1p6US1oMnVCWG5fczFtZW1CZ090dVY1U3ctdUJRSjBGU0NuRmlhRlBvSlFxT0o0blNnQzI2VVVRSUhTaTdwSDlJNFRKRHl0UkVfYkMxT0cwcDVzN0ZZM01fRVE5YldSa3p6Zw?oc=5",
-          "source": "The Manitoulin Expositor",
-          "date": "2026-06-24T07:00:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser Stock - weekly outlook with earnings ahead",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWXpHX1ItZzFaNTFha3p6YWVndlFVd1FiV1NlWWx0Sk1XZWNYdF80d3YtR0p6ZzhfX3lpeUxnVmNKUnRFQkg3a29kOXFCdjItZGZseWtmVGFuRjVTbW9RQ0VOa1F3RlhBdERBQVNLNDlsWEdPTmpzaDQ5T2dWZG5WaVlaZE9vSDdwM1UyVTk2N0hGZVIxUEZmeE9VZE53bjI1ck1xbFRoQzlxRnVYMUNnQ29R?oc=5",
+          "title": "Weyerhaeuser sets Q2 earnings date, shares in focus on NYSE",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSzJCMHJfOUxhNzlQNVJvTVpXRV9DQTJjY2hKTVpHQmNQZDlLSkd5Y0phalFKT2tnMFhIX2pQZHRsRkoxd0h3RDFma3JfY0o1U0JGckN1cXlwR1FzWk9tVzU5WFZtNjFFNTQ0eDVzV1JOVU00VW5aaWQxVkhHbjBOcHVDNDdacFg0SG81bnZWaUp4RDllT2swTVA2eXpPOWpvWlhidnNEeFJXVFNHUnpSdjNCN2lTTWpR?oc=5",
           "source": "ad-hoc-news.de",
-          "date": "2026-06-22T07:00:00.000Z"
-        },
-        {
-          "title": "Early-June lumber market lacked clear direction",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSk12MUEyV1Zha1U5dzE3VXVHSGF1YW9YYVEtOGVIbEloMjZpUWJIeHhjaDBkQkVvR1ZEWVVSTzNpcXhhQW8tY1pSYTRJdjNYTktQNTkzQ0hEMmNWX1lzMkRXS0g3b2I3aGkzNVVpejlXN1d0Y0NCWnQ5WkZNbndzbTl4ak8xMlNzZklr?oc=5",
-          "source": "Pulp and Paper Canada",
-          "date": "2026-06-17T19:36:39.000Z"
-        },
-        {
-          "title": "Weyerhaeuser launches $4 Million road project",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeGJfYkwyTWZuTVBLeF9DOTJTTUVjc1hFeFFZeGhKdkE4OWpyUXdpRTVyTnR0WlFQRHZPcUo1QU1PZXBvbko4RW9wUlA1dms3ZFRIdXpWeF9mNFB4Zmk2NkIzWGY1SkdYUExCcTNXbG9hdll0RnY1cE9QVnE4NWpnQjc5V0V3VHdYM0xkc096RXdMUXZs?oc=5",
-          "source": "Neshoba Democrat",
-          "date": "2026-06-17T07:00:00.000Z"
-        },
-        {
-          "title": "West Fraser fined $111K after trapped worker dies at B.C. mill",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaGZpRGhIbXBGU0o4ZWdiSjNFMG4tTnFpaGd4YUhWdnVVZGI1dDhObW54ZDRsSWdGbE8xT2tDS1MycTNyRC0yQVhOcEFVTnBkenVQOTRFeFBfRjVST29lZy01Z1J5c0hROUJZOGlvMVRCNmRsYzJ1Q2E0WGx2T0tOLThmYmVjNUlNZ3hEOExFNnA5V2YwdHViRw?oc=5",
-          "source": "Business in Vancouver",
-          "date": "2026-06-16T07:00:00.000Z"
+          "date": "2026-06-28T09:25:38.000Z"
         }
       ]
     },
@@ -8251,5 +8191,102 @@
         }
       ]
     }
+  },
+  "homebuilders": {
+    "asOf": "2026-07",
+    "unit": "homes delivered",
+    "note": "Latest completed fiscal-year deliveries (actual) and management's full-year FY2026 delivery guidance, from company earnings releases. Fiscal years differ by company. Guidance is forward-looking and refreshed manually each quarter.",
+    "builders": [
+      {
+        "name": "D.R. Horton",
+        "ticker": "DHI",
+        "fye": "Sep 30",
+        "fy2025": 84863,
+        "guidance": "86,000–87,500",
+        "guidanceAsOf": "Q2 FY26 · Apr 2026",
+        "src": "https://investor.drhorton.com"
+      },
+      {
+        "name": "Lennar",
+        "ticker": "LEN",
+        "fye": "Nov 30",
+        "fy2025": 82583,
+        "guidance": "≈ 85,000",
+        "guidanceAsOf": "FY25 report · Dec 2025",
+        "src": "https://newsroom.lennar.com/2025-12-16-Lennar-Reports-Fourth-Quarter-and-Fiscal-2025-Results"
+      },
+      {
+        "name": "PulteGroup",
+        "ticker": "PHM",
+        "fye": "Dec 31",
+        "fy2025": 29572,
+        "guidance": "28,500–29,000",
+        "guidanceAsOf": "Q4 FY25 call · Jan 2026",
+        "src": "https://newsroom.pultegroup.com"
+      },
+      {
+        "name": "NVR",
+        "ticker": "NVR",
+        "fye": "Dec 31",
+        "fy2025": 21915,
+        "guidance": null,
+        "guidanceNote": "No guidance (company policy)",
+        "src": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000906163&type=8-K"
+      },
+      {
+        "name": "Meritage Homes",
+        "ticker": "MTH",
+        "fye": "Dec 31",
+        "fy2025": 15026,
+        "guidance": "within ~5% of 2025",
+        "guidanceAsOf": "Q1 FY26 · Apr 2026",
+        "src": "https://investors.meritagehomes.com"
+      },
+      {
+        "name": "Taylor Morrison",
+        "ticker": "TMHC",
+        "fye": "Dec 31",
+        "fy2025": 12997,
+        "guidance": "≈ 11,000",
+        "guidanceAsOf": "Q1 FY26 · Apr 2026",
+        "src": "https://newsroom.taylormorrison.com"
+      },
+      {
+        "name": "KB Home",
+        "ticker": "KBH",
+        "fye": "Nov 30",
+        "fy2025": 12902,
+        "guidance": "10,500–11,000",
+        "guidanceAsOf": "Q2 FY26 · Jun 2026",
+        "src": "https://www.prnewswire.com/news-releases/kb-home-reports-2026-second-quarter-results-302807061.html"
+      },
+      {
+        "name": "Toll Brothers",
+        "ticker": "TOL",
+        "fye": "Oct 31",
+        "fy2025": 11292,
+        "guidance": "10,400–10,700",
+        "guidanceAsOf": "Q2 FY26 · May 2026",
+        "src": "https://www.sec.gov/Archives/edgar/data/794170/000079417026000083/tol-4302026x8kexh991.htm"
+      },
+      {
+        "name": "M/I Homes",
+        "ticker": "MHO",
+        "fye": "Dec 31",
+        "fy2025": 8921,
+        "guidance": null,
+        "guidanceNote": "No numeric guidance",
+        "src": "https://www.prnewswire.com/news-releases/mi-homes-reports-fourth-quarter-and-year-end-results-302671742.html"
+      },
+      {
+        "name": "Tri Pointe Homes",
+        "ticker": "TPH",
+        "fye": "Dec 31",
+        "fy2025": 4947,
+        "guidance": null,
+        "guidanceNote": "No guidance (acquisition pending)",
+        "src": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000004/tphex991q42025.htm"
+      }
+    ]
   }
 }

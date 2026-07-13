@@ -21,6 +21,7 @@ import { fileURLToPath } from 'node:url';
 import { generateDataset } from './generate-placeholder.mjs';
 import { fetchLiveDataset } from './fetch/index.mjs';
 import { fetchNews } from './fetch/news.mjs';
+import { homebuilders } from './homebuilders.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = resolve(__dirname, '..', 'data');
@@ -48,6 +49,9 @@ async function main() {
   // chart vanish, carry forward the last good value from the previously-committed
   // data (which persists in the repo via the commit-back).
   if (live) carryForwardLive(dataset);
+
+  // Top-10 homebuilders snapshot (manually-compiled reference, not a live feed).
+  dataset.homebuilders = homebuilders();
 
   // Stamp the actual build date so the dashboard's "updated" reflects each run.
   dataset.meta = dataset.meta || {};

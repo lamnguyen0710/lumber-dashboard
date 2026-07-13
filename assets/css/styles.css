@@ -222,6 +222,8 @@ table.cmp tr:last-child td { border-bottom: none; }
 table.cmp td.name, table.cmp th.name { text-align: left; }
 table.cmp tbody tr { cursor: pointer; }
 table.cmp tbody tr:hover td { background: color-mix(in srgb, var(--series-1) 7%, transparent); }
+table.cmp--static tbody tr { cursor: default; }
+table.cmp tfoot td { border-top: 1px solid var(--border-strong); border-bottom: none; }
 .co-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; vertical-align: middle; }
 .pill { font-size: 11.5px; padding: 2px 8px; border-radius: 999px; font-weight: 600; }
 .pill--high { background: color-mix(in srgb, var(--bad) 18%, transparent); color: var(--bad); }
