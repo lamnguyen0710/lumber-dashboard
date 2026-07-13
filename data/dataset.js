@@ -2497,7 +2497,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-13T19:44:33.508Z",
+      "fetchedAt": "2026-07-13T19:47:03.162Z",
       "items": [
         {
           "title": "How New Interest-Rate Spotlight and Kopernik Stake At Weyerhaeuser (WY) Has Changed Its Investment Story",
