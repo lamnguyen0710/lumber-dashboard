@@ -55,27 +55,43 @@ export async function fetchCanadaExports() {
   const rows = (json.data || []).filter((r) => r.partner2Code === 0);
   if (!rows.length) throw new Error('Comtrade: no rows');
 
-  // sum primaryValue (USD) per year+partner across the 5 HS codes
-  const sum = new Map(); // 'year|partnerCode' -> USD
+  // Each record carries BOTH value (primaryValue, USD) and volume (qty, m³, unit
+  // code 12). Sum both per year+partner across the 5 HS codes so we can show either.
+  const sumVal = new Map();  // 'year|partnerCode' -> USD
+  const sumQty = new Map();  // 'year|partnerCode' -> m³
   for (const r of rows) {
     const k = `${r.refYear}|${r.partnerCode}`;
-    sum.set(k, (sum.get(k) || 0) + (r.primaryValue || 0));
+    sumVal.set(k, (sumVal.get(k) || 0) + (r.primaryValue || 0));
+    sumQty.set(k, (sumQty.get(k) || 0) + (r.qty || 0));
   }
-  const g = (y, pc) => sum.get(`${y}|${pc}`) || 0;
-  const M = (usd) => Math.round(usd / 1e6);
+  const M = (usd) => Math.round(usd / 1e6);                 // USD -> US$ millions
+  const MMBF = (m3) => Math.round((m3 * 423.776) / 1e6);    // m³ -> million board feet
 
-  const series = [];
-  for (const y of years) {
+  // Build one row of destination buckets from a per-partner accessor.
+  const buildRow = (y, g, conv) => {
     const world = g(y, PARTNER.World);
-    if (!world) continue;                              // skip years with no data
     const us = g(y, PARTNER.US), china = g(y, PARTNER.China), japan = g(y, PARTNER.Japan);
     const europe = EU.reduce((s, pc) => s + g(y, pc), 0);
     const other = Math.max(0, world - us - china - japan - europe);
-    series.push({ period: String(y), US: M(us), China: M(china), Japan: M(japan), Europe: M(europe), Other: M(other) });
-  }
-  if (series.length < 3) throw new Error('Comtrade: too few years');
+    return { period: String(y), US: conv(us), China: conv(china), Japan: conv(japan), Europe: conv(europe), Other: conv(other) };
+  };
+  const gv = (y, pc) => sumVal.get(`${y}|${pc}`) || 0;
+  const gq = (y, pc) => sumQty.get(`${y}|${pc}`) || 0;
 
-  return { unit: 'US$ millions', freq: 'annual', destinations: ['US', 'China', 'Japan', 'Europe', 'Other'], series };
+  const valueSeries = [], volumeSeries = [];
+  for (const y of years) {
+    if (!gv(y, PARTNER.World)) continue;                    // skip years with no data
+    valueSeries.push(buildRow(y, gv, M));
+    volumeSeries.push(buildRow(y, gq, MMBF));
+  }
+  if (valueSeries.length < 3) throw new Error('Comtrade: too few years');
+
+  return {
+    unit: 'US$ millions', freq: 'annual',
+    destinations: ['US', 'China', 'Japan', 'Europe', 'Other'],
+    series: valueSeries,                                    // default = value (back-compat)
+    volume: { unit: 'MMbf', series: volumeSeries },         // toggle target
+  };
 }
 
 // Manual check:  COMTRADE_KEY=... node pipeline/fetch/exports.mjs

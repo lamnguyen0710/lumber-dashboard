@@ -180,6 +180,13 @@ a:hover { text-decoration: underline; }
 .prov--sample { background: color-mix(in srgb, var(--text-muted) 22%, transparent); color: var(--text-secondary); }
 .card__unit { font-size: 12px; color: var(--text-muted); white-space: nowrap; }
 .card__note { font-size: 12px; color: var(--text-secondary); margin: 2px 0 10px; }
+
+/* segmented toggle (e.g. $ value ⇄ volume) */
+.seg { display: inline-flex; border: 1px solid var(--border-strong); border-radius: 8px; overflow: hidden; flex: none; }
+.seg__btn { border: none; background: var(--surface); color: var(--text-secondary); font: inherit; font-size: 12px; font-weight: 600; padding: 5px 12px; cursor: pointer; }
+.seg__btn + .seg__btn { border-left: 1px solid var(--border-strong); }
+.seg__btn.is-active { background: var(--series-1); color: #fff; }
+.seg__btn:hover:not(.is-active) { background: var(--surface-2); color: var(--text-primary); }
 .chart-wrap { position: relative; height: 300px; }
 .chart-wrap.tall { height: 340px; }
 

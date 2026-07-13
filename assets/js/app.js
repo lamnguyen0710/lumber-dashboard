@@ -150,7 +150,19 @@
       <div class="grid" style="margin-top:20px">
         ${card('Lumber price — CME futures', '$/mbf · monthly', 'CME front-month lumber futures (LBR). The current contract launched in 2022, so this live series starts then.', 'chPrice', { section: 'price' })}
         ${card('US housing — starts vs. permits', 'thousands (SAAR) · monthly', 'The demand side. Permits lead starts; both cooled through the 2022–23 rate cycle.', 'chHousing', { section: 'housing' })}
-        ${card('Canadian softwood exports by destination', `${expUnit} / ${expPer} · stacked`, 'Where Canadian softwood lumber ships. Even through the US duties + tariff, the US stays the dominant market (~85% of value); Japan is the largest non-US buyer.', 'chExports', { span: true, tall: true, section: 'exports' })}
+        ${exp.volume
+          ? `<div class="card span-2">
+              <div class="card__head">
+                <h3 class="card__title">Canadian softwood exports by destination ${provBadge('exports')}</h3>
+                <div class="seg" id="expToggle">
+                  <button type="button" data-metric="value" class="seg__btn is-active">$ Value</button>
+                  <button type="button" data-metric="volume" class="seg__btn">Volume</button>
+                </div>
+              </div>
+              <div class="card__note" id="expNote"></div>
+              <div class="chart-wrap tall"><canvas id="chExports"></canvas></div>
+            </div>`
+          : card('Canadian softwood exports by destination', `${expUnit} / ${expPer} · stacked`, 'Where Canadian softwood lumber ships.', 'chExports', { span: true, tall: true, section: 'exports' })}
         ${ind.exportsByRegion ? card('Canada → US exports by region of origin', `${ind.exportsByRegion.unit} (thousand bd ft) / month · stacked`, 'Which Canadian regions mill the lumber going to the US (Global Affairs Canada export-permit data). The BC Interior\'s volumes have fallen sharply — mill curtailments and beetle-kill timber decline.', 'chRegionExports', { span: true, tall: true, section: 'regionExports' }) : ''}
         ${card('US share of Canadian exports', `% of total · ${expFreq}`, 'How reliant Canadian softwood is on the US market, by export value. The duties have squeezed volumes and prices more than they have redirected the wood elsewhere.', 'chUsShare', { section: 'exports' })}
         ${ind.newHomeSupply
@@ -176,11 +188,34 @@
     ], { unit: 'K SAAR', xTicks: 7 });
 
     const expLabels = exp.series.map(p => p.period);
-    const expDatasets = exp.destinations.map((d, i) => ({ label: d, data: exp.series.map(r => r[d]), slot: i }));
     const expTicks = expFreq === 'annual' ? exp.series.length : 8;
-    // Annual (few points) reads better as stacked bars; quarterly sample as an area.
-    if (expFreq === 'annual') C.stackedBar('chExports', expLabels, expDatasets, { unit: expUnit, xTicks: expTicks });
-    else C.stackedArea('chExports', expLabels, expDatasets, { unit: expUnit, xTicks: expTicks });
+
+    // Draw the destination chart in the chosen metric ($ value or volume), and
+    // wire the toggle. Annual (few points) reads better as stacked bars.
+    const expNoteFor = (metric) => {
+      const unit = metric === 'volume' ? 'MMbf (million bd ft) / year · stacked' : 'US$ millions / year · stacked';
+      const tail = metric === 'volume'
+        ? 'Physical volume shipped. The US stays the dominant destination; Japan is the largest non-US buyer.'
+        : 'Export value. Even through the US duties + tariff, the US stays ~85% of value; Japan is the largest non-US buyer.';
+      return `${unit} — ${tail}`;
+    };
+    function drawExports(metric) {
+      const src = (metric === 'volume' && exp.volume) ? exp.volume : exp;
+      const datasets = exp.destinations.map((d, i) => ({ label: d, data: src.series.map(r => r[d]), slot: i }));
+      const labels = src.series.map(p => p.period);
+      if (expFreq === 'annual') C.stackedBar('chExports', labels, datasets, { unit: src.unit, xTicks: expTicks });
+      else C.stackedArea('chExports', labels, datasets, { unit: src.unit, xTicks: expTicks });
+      const noteEl = document.getElementById('expNote');
+      if (noteEl) noteEl.textContent = expNoteFor(metric);
+    }
+    drawExports('value');
+    const expTog = document.getElementById('expToggle');
+    if (expTog) expTog.addEventListener('click', (e) => {
+      const btn = e.target.closest('[data-metric]');
+      if (!btn) return;
+      expTog.querySelectorAll('.seg__btn').forEach((b) => b.classList.toggle('is-active', b === btn));
+      drawExports(btn.dataset.metric);
+    });
 
     if (ind.exportsByRegion) {
       const reg = ind.exportsByRegion;

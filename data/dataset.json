@@ -2397,7 +2397,76 @@
           "Europe": 106,
           "Other": 323
         }
-      ]
+      ],
+      "volume": {
+        "unit": "MMbf",
+        "series": [
+          {
+            "period": "2018",
+            "US": 13459,
+            "China": 2181,
+            "Japan": 925,
+            "Europe": 49,
+            "Other": 716
+          },
+          {
+            "period": "2019",
+            "US": 12855,
+            "China": 1941,
+            "Japan": 770,
+            "Europe": 50,
+            "Other": 528
+          },
+          {
+            "period": "2020",
+            "US": 13041,
+            "China": 1313,
+            "Japan": 587,
+            "Europe": 44,
+            "Other": 460
+          },
+          {
+            "period": "2021",
+            "US": 13650,
+            "China": 783,
+            "Japan": 644,
+            "Europe": 57,
+            "Other": 590
+          },
+          {
+            "period": "2022",
+            "US": 12744,
+            "China": 533,
+            "Japan": 467,
+            "Europe": 35,
+            "Other": 444
+          },
+          {
+            "period": "2023",
+            "US": 11883,
+            "China": 643,
+            "Japan": 388,
+            "Europe": 41,
+            "Other": 406
+          },
+          {
+            "period": "2024",
+            "US": 11890,
+            "China": 554,
+            "Japan": 419,
+            "Europe": 71,
+            "Other": 394
+          },
+          {
+            "period": "2025",
+            "US": 10430,
+            "China": 514,
+            "Japan": 377,
+            "Europe": 61,
+            "Other": 422
+          }
+        ]
+      }
     },
     "tradeActions": [
       {
@@ -2427,7 +2496,7 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-13T13:09:40.731Z",
+      "fetchedAt": "2026-07-13T13:25:58.968Z",
       "items": [
         {
           "title": "Weyerhaeuser stock reflects timber REIT exposure and housing demand",
