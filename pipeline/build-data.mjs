@@ -22,6 +22,7 @@ import { generateDataset } from './generate-placeholder.mjs';
 import { fetchLiveDataset } from './fetch/index.mjs';
 import { fetchNews } from './fetch/news.mjs';
 import { homebuilders } from './homebuilders.mjs';
+import { stumpage } from './stumpage.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = resolve(__dirname, '..', 'data');
@@ -52,6 +53,9 @@ async function main() {
 
   // Top-10 homebuilders snapshot (manually-compiled reference, not a live feed).
   dataset.homebuilders = homebuilders();
+
+  // Canadian stumpage-by-region snapshot (manually-compiled, not a live feed).
+  dataset.stumpage = stumpage();
 
   // Stamp the actual build date so the dashboard's "updated" reflects each run.
   dataset.meta = dataset.meta || {};

@@ -210,6 +210,11 @@
             </div>`
           : ''}
         ${ind.activeListings ? card('US homes for sale — active listings', 'homes on the market · monthly', 'Existing unsold-home inventory (Realtor.com active listings). Crashed to ~350–500K in the 2021–22 shortage; back above 1.1M as supply normalizes — more inventory competes with new construction.', 'chListings', { span: true, section: 'housing' }) : ''}
+        ${DATA.stumpage ? `<div class="card span-2">
+            <div class="card__head"><h3 class="card__title">Canadian stumpage by region</h3><span class="card__unit">C$/m³ · softwood sawlogs · ${esc(DATA.stumpage.asOf)}</span></div>
+            <div class="card__note">${esc(DATA.stumpage.note)}</div>
+            <div class="chart-wrap"><canvas id="chStumpage"></canvas></div>
+          </div>` : ''}
       </div>
 
       ${newsSection(ind.news)}
@@ -311,6 +316,10 @@
       C.line('chListings', ind.activeListings.series.map(p => p.period), [
         { label: 'Active listings', data: ind.activeListings.series.map(p => p.value), slot: 5 },
       ], { unit: 'homes', legend: false, xTicks: 8, beginAtZero: false, fill: true });
+    }
+
+    if (DATA.stumpage && DATA.stumpage.regions) {
+      C.hbar('chStumpage', DATA.stumpage.regions.map((r) => ({ label: r.region, value: r.rate, slot: 0 })), { unit: 'C$/m³' });
     }
 
     // Homebuilder deliveries — stacked bar by fiscal year (top 7 builders + Other),

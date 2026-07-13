@@ -663,7 +663,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 639
+          "framing_composite": 638
         }
       ]
     },
@@ -2497,7 +2497,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-13T19:47:03.162Z",
+      "fetchedAt": "2026-07-13T22:02:29.396Z",
       "items": [
         {
           "title": "How New Interest-Rate Spotlight and Kopernik Stake At Weyerhaeuser (WY) Has Changed Its Investment Story",
@@ -2638,16 +2638,16 @@ window.LUMBER_DATA = {
           "date": "2026-07-06T06:20:00.000Z"
         },
         {
+          "title": "Quebec leaders mull next steps in softwood lumber dispute",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSndyeC03Z05XRWc3NEYybTYyVkZJQXI4U0piZ2FZMU1CRHN5UlptVmxDTngzMXB4YUZWOGVEQW9abXRKUExhdTR6dllpWjZnWmZLbHZWYkItcVhBc0xmTDFILXRrTHhwOURyTnJ5OWVqVVJpMEhKUVZrdU5YOUdTLUE2M1B6TlZseGRBWEUtOU1YN2c1TG5DTzIzRXRDZDQ?oc=5",
+          "source": "CTV News",
+          "date": "2026-07-02T13:51:37.000Z"
+        },
+        {
           "title": "Weyerhaeuser Earnings Preview: What to Expect",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUGE4LW43WFRDTThJUkxXTUZxU016SEVrUzlCTDJhWEdDX1FmSjBRSEtfanBJaVIxNGhhQm50ZTFocDU2elBRMHlxVHk5VUpJVFNkQkpFVnB5aHdQM19HQ1NIOVlubEViLUM2SEpGZ01wR19wLXZPOVB2dUowRVVxbWw1Mk5ZaWVMOExOUFRnaG40NGRNSjFMaW5ZUkt6Tjk3ZDhZ?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-07-02T07:00:00.000Z"
-        },
-        {
-          "title": "First Nations purchase shuttered Canfor sawmill in Vanderhoof to create industrial park",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNGtUZHZMZllqc1ZYTG5kc0VvaHBMRENoS0hxT3hvTEVSa3ZLdEJSSThGUHJ1T09QMXpUNENhQ2h3eEgxODBTbm91blJFZGVOWldtREYwYVBaQ2FxbnZ0dnFYWXE5aXNkQ3VudkhQMGRFSkNWbXNHaDFuWlQ2dnJrNzlHRG9BZVZSSU1jY0h0TDQybE0?oc=5",
-          "source": "CBC",
-          "date": "2026-07-01T07:00:00.000Z"
         },
         {
           "title": "North American Softwood Lumber Market in June 2026: Cautious Sentiment and Flat Prices",
@@ -8933,6 +8933,38 @@ window.LUMBER_DATA = {
         "expected2026": 4947,
         "guidance": null,
         "guidanceNote": "No guidance (acquisition pending)"
+      }
+    ]
+  },
+  "stumpage": {
+    "asOf": "2026-07",
+    "unit": "C$/m³",
+    "note": "Current softwood-sawlog stumpage/dues, one figure per region as each province publishes it. Systems differ (BC appraisal · AB formula dues · ON residual value · QC auction), so this is indicative rather than like-for-like.",
+    "regions": [
+      {
+        "region": "Alberta",
+        "rate": 10.36,
+        "detail": "timber dues, general operator (Jul 2026)"
+      },
+      {
+        "region": "Québec",
+        "rate": 7.4,
+        "detail": "illustrative recent auction — no published avg"
+      },
+      {
+        "region": "BC Interior",
+        "rate": 6.11,
+        "detail": "average of 7 published forest-zone rates (Apr 2026)"
+      },
+      {
+        "region": "BC Coast",
+        "rate": 5.72,
+        "detail": "Coast Area average (Jul 2026)"
+      },
+      {
+        "region": "Ontario",
+        "rate": 3.56,
+        "detail": "stumpage (min price; residual value at $0) (Apr 2026)"
       }
     ]
   }
