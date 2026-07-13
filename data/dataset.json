@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-12",
+    "lastUpdated": "2026-07-13",
     "dataThrough": "2025Q2",
     "isPlaceholder": true,
     "live": {
@@ -2427,7 +2427,7 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-12T18:58:43.695Z",
+      "fetchedAt": "2026-07-13T02:13:35.117Z",
       "items": [
         {
           "title": "Weyerhaeuser stock reflects timber REIT exposure and housing demand",
@@ -2442,12 +2442,6 @@
           "date": "2026-07-11T16:07:40.000Z"
         },
         {
-          "title": "Weyerhaeuser stock reflects the timber REIT’s long-term housing and wood demand story",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNU9oYWljTjdReVdzWDc5THdhaGN5QXJ5WFZLdGI0bFNCQzRqMlBHam1NaUUzRE9qYmM2NDl1RHNRdDZYSng2UUNuQU03cmowbi1FY3RTd3RoUl9GSkhVV1VVZmFhU1JscHhhOFpvSEhUVktSSExMVWFYZ2k1R0lNbVFHSHNicVE0NWJJNWRkdEQzRkFVdDZsaEJfX3pmd0ZuWWNJdmtFcG9FYWNRMW1sT1FET0pXRlhNZ0Q0aVF3OEJVU3hWLVlWS19iQQ?oc=5",
-          "source": "ad-hoc-news.de",
-          "date": "2026-07-11T14:15:36.000Z"
-        },
-        {
           "title": "Weyerhaeuser earnings preview: What to expect",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVEhMT2p1aC01UmozNmtQM2RORkVIR1EzYnA5ZzBWOGM3NUE3NnJrSlZjTXdualpmSTRyLXFZcXFhTGtUeVlmZi1RU3JLTHJrbnlnOUV6eHdhSUV3clYxVmtJbnpBYW9udkxRYW9obmpSM0Rxd0p3WDZqWE4xU2ZnNm12alRnVi1FT3k4RzRYOEo4V0hyc0Y3WGtmdFUtWnc?oc=5",
           "source": "MSN",
@@ -2460,22 +2454,10 @@
           "date": "2026-07-11T13:03:06.000Z"
         },
         {
-          "title": "Weyerhaeuser TimberStrand LSL by Weyerhaeuser Co. - engineered lumber targets consistent strength",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVjdsV2Z1RkN2MERLcHBwd1ZkN3AtbFhKUUlITXFmeEJ2MDQya2MyM1NQbkFROHV2SVBsUmM5ZGpQZDROZHdHaVFxa09WcDViTW5GcjVHTkJiMl81OHJta01BNTctVW56RE1vWDI2YS1sU2gtaTVqSjVKb2lHbmFSN0JFS3BwSzM4ellNenp1SmZWNlQ0Ujc0WEExNWFyaVlUdExNQURiWl9XdEtzNU5aN1k1UjNKbzhUNG1tNnA3RXJ5YWs?oc=5",
-          "source": "ad-hoc-news.de",
-          "date": "2026-07-11T05:45:26.000Z"
-        },
-        {
           "title": "Madison’s Lumber Prices Index July 10, 2026: US$547 mfbm",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQV9JV3hHVEhpMGxNUFBJWURuUzNwWTR2akhuVHNHWm9XeGxNbGoyc2VzZFNuZUp4TE5QUU9JLVpfM3NZN0xiV2kxVmtGSXdOdnViZDY3MmxCVHVtdkZmMjZlclU4OWQ2VExBNTNaX1gxeUt2ZUtvT3NRcWZfbWExMHpJdWVneEJOTTFUa0RBZDhJMDAteXlxNWFFemF4aXc?oc=5",
           "source": "Red Book Lumber Data",
           "date": "2026-07-10T22:47:29.000Z"
-        },
-        {
-          "title": "4 First Nations celebrate opening of new industrial park near Vanderhoof, B.C.",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMG5wQnhMVmlQYkJ4ODZubV9kZVVaQVpuNmgzcmlQMVJlMklvRS1xajg1ZWlWb2daeGtRWWZCR0FQWDJ0c0tTMEtBeGRxenk3VGJGVVM2NGZRb1BaZnkyWlFZSXZzLXVXaHB0ZVhSRE5sVDFJRkRlVDBTc2dfcWVaaU5HaWlrSWdoZUhyRlRRSlA?oc=5",
-          "source": "CBC",
-          "date": "2026-07-10T22:43:26.000Z"
         },
         {
           "title": "Weyerhaeuser Rallies as Analyst Upgrade and Better Lumber Sentiment Lift Shares",
@@ -2496,10 +2478,10 @@
           "date": "2026-07-08T20:22:04.000Z"
         },
         {
-          "title": "Customers hunt for value as lumber prices increase somewhat",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPckpSM1JscDY0QWRJU0dudkQzcldCZmRwc2JoNUthMURCckgtTmlWZmpTUnBkSjZpUXpXSnNVdFE2R1dfajY4RmJFM0hDakdNdkw4NEdxXzJaRFhFcC1ra285YjJLNWhIVGxnMlM2b0dTSDFtcnlKajA3UURXc19TTEJvSkl3Y2NmUTFBNGxpSXI2bW0zWjVIOHdlUQ?oc=5",
-          "source": "Pulp and Paper Canada",
-          "date": "2026-07-08T19:21:34.000Z"
+          "title": "Customers Hunt For Value As Lumber Prices Increase Somewhat",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLU5BX3QyZWNENzF6QS13ZHo2b1lqVW9TVGRWNllvaDBLQzlVeVVCeEVHSm01U0dybGtBMDBZWnd1aWxTNkV3NjAyWTZ0YXBrUlVrbl9QSlczb1NWNHQwWjE3c1RkVE1QbTAyR0hLdzAzdFpYY0JIX0ZaeF85NUx6YU82YzN3ZTk3bVdhb0s4UXA3dw?oc=5",
+          "source": "Wood Business",
+          "date": "2026-07-08T15:21:20.000Z"
         },
         {
           "title": "Correction to Green Douglas Fir lumber prices for July 7",
@@ -2512,6 +2494,12 @@
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTGNweDJnd0hvMEdmUXl4S2EyM1IyOFVCOXV4bDJQQVJxQ2V0S1BJZThRM3Q5N2VMdXhvLUhUb09aTldaWnlzVkEzVXMwemZqOW5nYW5pQm96QkhJTnNUc1g2Y24tY2VQalBZRkxhS0p6SFdvTjZYX1pGRU1kS2FRczRUMWVadzI4T2pNU3JxUkszNEpSa2R1VHFabnRRX2tfWnN1bkNwYWdRWTM3cXdsa1dNWFU5SXZKc3dIejRQeC0?oc=5",
           "source": "Red Book Lumber Data",
           "date": "2026-07-08T06:54:35.000Z"
+        },
+        {
+          "title": "The Weyerhaeuser Timberlands Services - Quiet backbone of US lumber supply",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOS1zUEJqcVFHckcxNlVXRXNSVThKT0RTQ09xcjFqT3BJRmN4LXJtWWRTOG9oVVN0TlVYQklfNndkWFhnVUVtZ3Rhd1VEUFlYdnFCUlhQWU4wWHFNRkZCSEE4X1ltYTJlZXFXQlVhSjY2QlhYNlRtd28wekV1a0tLM3hPYkZJQ3NIZWc1Rml0NmlZSjJMbjVidTYtUFY1bnBoVi0zVnkwUE5Ea1ZKT09YTVczcnpoR1FIMVY0eHBKTnczMlpDckJVdzQwZw?oc=5",
+          "source": "ad-hoc-news.de",
+          "date": "2026-07-08T04:32:07.000Z"
         },
         {
           "title": "Madison\"s Lumber Prices Index reaches $545 mfbm, up 1% weekly",
@@ -2538,40 +2526,10 @@
           "date": "2026-07-06T16:46:19.000Z"
         },
         {
-          "title": "Canfor Completes Acquisition Of Calgary-Based PinkWood Ltd.",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRG9BU1FWLU9yV3FlUk55ZS1HaVVGVDNRVllxcmhhY1owcU5VVks2VkJKUmdMaEhXQzh3ekQ0LVNsRGNIWlNzazNfZnFCNGNab3FBLV9JTFlic0FrRTNoZnhRMGZ2MHhpZmlUZWs2d0JFM2VNWnFETlZIZHVOMFMydnRaNV9KXzRSWlE2VXgtNTdhc0lmVUxVdG1RdzhIZFZUTmhyQkI1cw?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-07-06T14:58:53.000Z"
-        },
-        {
-          "title": "Canfor acquires PinkWood",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XRksyandSdUdaV0tCSG05QUNMN1NHNUJ2bHNCR3dMdGpFczdtdGptRmI2TUJyMmVmWlNidVE5WlVad1kybWljX3hOZ3RpRTI0QmxtSXNTMGMwNklhZXNlaUpHaHgxZXZXbjNjaQ?oc=5",
-          "source": "Pulp and Paper Canada",
-          "date": "2026-07-06T13:45:08.000Z"
-        },
-        {
           "title": "Lumber Market Watch: Could Housing Demand Put Timber Back in Focus?",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc2hZN0EybDl6Y0VnMkRGb0dmUmVKRVZYMk9yYU1USVhZcG5fMzZpUGZ1Q29pMUhXZDYydzdMSnBmUUJRVHhmU3FRT2llMzk4YktCTGdoZlg4Q2FtRC15bklVSVg2ZjJONHRqREJ3cENKX0I3eWVvZjdvY1hYNlRHbktzRUZ0R2xTa3Z4NVJMdi1SR2ZqdERLQ2o1VDdfUTFob3Jtd3dINGZXUQ?oc=5",
           "source": "Kalkine",
           "date": "2026-07-06T10:39:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser Co. Overview: Timberlands, Wood Products, and REIT Operations - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbERXX0t1eFdyTkhhUzlsb2tLbHVjN1BlbW5TODlPVlJLeWswd0xCallZZ2drR2hYVFNLZmNGY2IwNXVpYkRFakt2MFBQQ3FYcmVod2VsTUxfSkNsUzlwZ1h1N0c3dnY0a3ZhOXFBRVhqaFNoZW94cTJZeUFSdVJTaUloby1SVkJVNklBTVV2Yw?oc=5",
-          "source": "IndexBox",
-          "date": "2026-07-06T06:20:00.000Z"
-        },
-        {
-          "title": "Lumber Rebounds Above $620",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR1NGZzA5cW9yX29fZENRQXZUOHphLW1PUzVsbmd1LTB4ZTBXVnpUQWJVN190WGVGSjhrTmt3X0UxbVFJZnZpMk5jVzdMcDR5S0dIOEctRUtLcmVPZzdFUURWaXViQWVOczdtUm5lRkxsM0ZoenVrM1B3TjhNeXZscl9n?oc=5",
-          "source": "TradingView",
-          "date": "2026-07-03T10:11:26.000Z"
-        },
-        {
-          "title": "Price to earnings forward of Canfor Corporation – TSX:CFP",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX3FLMUVWOFlfZjBFUVU4WXdFeWU5TE1BNEl3M0l2UENHNkl2U0hCNnJtXzF1ZFhlSzF0WmQ2V3M0MU5tRnhnN2swUVlvZl8zVlJHRE1rYVJSbERjeG5OM2NrX0VCN3psOGdRdXFTQ3JDMzllbWdKOGdhOVJMQ1liTjk1eVBMRE1TTWJFZm5vUHR1OTl0WHBQaVAwSHM?oc=5",
-          "source": "TradingView",
-          "date": "2026-07-03T07:54:31.000Z"
         },
         {
           "title": "North American Lumber Market Outlook: What’s Shaping the Industry Right Now",
@@ -2592,12 +2550,6 @@
           "date": "2026-06-30T16:27:10.000Z"
         },
         {
-          "title": "Here is What to Know Beyond Why Louisiana-Pacific Corporation (LPX) is a Trending Stock",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVJFeUVTTDFleVlCNExuRHAwbk5xdE15aHJ5QWNJeGJuUk1LS2cwSUZqQVJpNDNZTVVpVFdwRVo3NlhHOUo4RXI5SDlfQTJHcEtrYkFJTWE3WGlsNWt3MHRrU2JrQzZEMGJQMk8wQm1DSWVnLUticlk0REcxQk5aX190M0ZhTWs1ZFhjc290N1ctTEIxVFlLdVZJY3M5cms?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-06-26T07:00:00.000Z"
-        },
-        {
           "title": "Interfor positioned to surge as lumber prices climb, says BMO",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZTNWTVJmY2lzY1pzMzdobGI5dW1ZNEdFSkFBSWlOLWJQWVlmVDRlZDY1YjlWV1ZQVTBndXVtaFVoa2E1OHVIY2pGSmY0aVVIUUdWQVBnWEdVNDlzQ05QZ1ZkekY1Q0g0X2JqeEtnbXJuX05NUGNUTDBfMnNuTUdJOTBwNHpNRVNUTUFRd1k1ckhaSFU1dk1Vd0xOQ1RXeUVwWWdNRmNpTFJobXM3VW9ZSFlvNElraHZxUVY2Tmtn?oc=5",
           "source": "BNN Bloomberg",
@@ -2608,6 +2560,54 @@
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUkJVeXA3aGxzY0NPdEFlVWxmR2Nyc0tCQnNzaWJmbGxqYmxTcllpZUhMZFZLOUVqUVEwZ3lpUTkyOUZxbXg3em5HOEoybThQdFBXb0p2bkpKSC12ZUJ2WTB2OGJHX1lRRmRRSWpuVUxXemdXR2ljRmN2MWd5blhpT0R0TTZRSUg4cmNjb2pET1ROWkN5TW92SnBB?oc=5",
           "source": "Moomoo",
           "date": "2026-06-25T07:00:00.000Z"
+        },
+        {
+          "title": "Sawmill Output Slips as Capacity Continues to Decline",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmpyWW85VzVyMHBNLS1UenRSWURNNENlZTJadFhGdUtvV0Q4c0ZYNXhxMUNNVTBGd3F4aGRaNXRJSUdLVGN5NS10c1dfZXpFT3Y4VmpVVTlhUXZxOXlCQUs0RE9qRnZGVnFlcG1qQUpNRW0zMU9uUTFzWWdJTzBVU1JCLVB2cGlBWHMya2ptT2Q?oc=5",
+          "source": "Eye On Housing",
+          "date": "2026-06-24T07:00:00.000Z"
+        },
+        {
+          "title": "Madison’s Reporter: Lumber Prices Waffle in Mid-June",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTWdTVE5HT2VGVUpVeHpObFM4STQ3cjM2dGlVUUMxcm1HQmxKLThTblBjNC1TTmY4Q2gxQ01Fb3FpMEp2SmZnNnlWVHFxdEUwNkVYYnJaeXVUaVdfX3owLTFwQjJLdkJ6bHFGZE1BYjhmUENtTmFwQl9Lc0dUNmx4NGh3NWg5ekN1N0RVVFJ0cDhPc2ltdWpKWl9fYlI?oc=5",
+          "source": "Red Book Lumber Data",
+          "date": "2026-06-23T07:00:00.000Z"
+        },
+        {
+          "title": "US Lumber Futures Surge Past $630 Amid Canadian Duty Dispute and Supply Constraints - News and Statistics",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYU5PVFY0dlpyeDRnZWNpRDJvN3h2OWJ6VElBNmZRazhISGRIWVdtOVVQYnFMNkprVDUxdk9TRGkwQ2l1SEF2ZFM3dDF1SVRsWDQ0aTU1MHBuZ2EwYzFJbHRkTi13dnl4bkRTTFRlb196X3FMUFZnaUJtcUhwRFJ1ZlhpcG5tck5zM2NHbnhXV3dOcnhrMjkyREN5NlIwb1hneEZWQVV2Unhtdw?oc=5",
+          "source": "IndexBox",
+          "date": "2026-06-21T07:00:00.000Z"
+        },
+        {
+          "title": "Lumber futures hit 8-month high, amid rising costs and tighter supply",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUmg0Q2FaY0ZyZE8yNnhIVFdSeVRFZ3Foejh6ZjB6amlrLTExc21wM3VDMGtWV3gxZEtTVTRsd1dnTFRkTGNYRHBkVTd0aEs4SC1qUkxPT0NrQVJHX01oWWtKTGQ2NE1vMzJfUmhvdnI3Y3FaS2pKcnhybHBCakZMd3pSMzV2ejd2bmI4dGVBRERhRUVfSDZBNGQxaDFaUQ?oc=5",
+          "source": "Tree Frog creative",
+          "date": "2026-06-19T20:09:23.000Z"
+        },
+        {
+          "title": "Early-June lumber market lacked clear direction",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSk12MUEyV1Zha1U5dzE3VXVHSGF1YW9YYVEtOGVIbEloMjZpUWJIeHhjaDBkQkVvR1ZEWVVSTzNpcXhhQW8tY1pSYTRJdjNYTktQNTkzQ0hEMmNWX1lzMkRXS0g3b2I3aGkzNVVpejlXN1d0Y0NCWnQ5WkZNbndzbTl4ak8xMlNzZklr?oc=5",
+          "source": "Pulp and Paper Canada",
+          "date": "2026-06-17T19:36:39.000Z"
+        },
+        {
+          "title": "Weyerhaeuser launches $4 Million road project",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeGJfYkwyTWZuTVBLeF9DOTJTTUVjc1hFeFFZeGhKdkE4OWpyUXdpRTVyTnR0WlFQRHZPcUo1QU1PZXBvbko4RW9wUlA1dms3ZFRIdXpWeF9mNFB4Zmk2NkIzWGY1SkdYUExCcTNXbG9hdll0RnY1cE9QVnE4NWpnQjc5V0V3VHdYM0xkc096RXdMUXZs?oc=5",
+          "source": "Neshoba Democrat",
+          "date": "2026-06-17T07:00:00.000Z"
+        },
+        {
+          "title": "Madison\"s Lumber Prices Index rises 1% to $524",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbTRCM2diVUFlVDJqekViTW1sUzMxMW5TV1BfdURiMG1MSnNmQkFvZURrR0ptdXZmLU1lVkY2UnlIYUZlbGRxSE53VHdLeE5IeTlreUFrcnZYOGVMWjA0TFhrbXdlQllhSnZUc2tmaWR3eF9GWEtBT3NkeHY3eWJFdTZtVUF0enBYRHd3?oc=5",
+          "source": "lesprom.com",
+          "date": "2026-06-16T20:51:27.000Z"
+        },
+        {
+          "title": "Early June Lumber Market Still Lacks Clear Direction",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQanpFWlo0akhmUlJKelpHeFlnRldzTy10Y0xPR0RQcnpWZkM2WmkybW5oSUVIZTRKaFYzMTV6ZTJfY1hCRnZZejFsVGdJVV9iS2x4NkFROWszb1FuVWdQR0JTcFA5eTg1QlRpcEZXeEcyQS1NaXVrM3ZKUmZka2diTVI5TjBpX0RJcjMzV1pnTFl3NnpTZ1dN?oc=5",
+          "source": "Canadian Biomass Magazine",
+          "date": "2026-06-16T07:00:00.000Z"
         }
       ]
     },
