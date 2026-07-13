@@ -2497,7 +2497,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-13T13:25:58.968Z",
+      "fetchedAt": "2026-07-13T13:30:53.262Z",
       "items": [
         {
           "title": "Weyerhaeuser stock reflects timber REIT exposure and housing demand",
