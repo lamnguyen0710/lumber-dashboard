@@ -100,6 +100,25 @@
     document.querySelectorAll('.news-time[data-date]').forEach((el) => { el.textContent = relTime(el.dataset.date); });
   }
 
+  // Add a "download data" (CSV → Excel) button to every rendered chart card.
+  const DL_ICON = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v11"/><path d="m7.5 10 4.5 4 4.5-4"/><path d="M5 20h14"/></svg>';
+  function addChartExports() {
+    C.chartIds().forEach((id) => {
+      const canvas = document.getElementById(id);
+      const head = canvas && canvas.closest('.card') && canvas.closest('.card').querySelector('.card__head');
+      if (!head || head.querySelector('.card__export')) return;
+      const title = ((head.querySelector('.card__title') || {}).textContent || id).replace(/\s+(LIVE|SAMPLE)\s*$/, '').trim();
+      const fname = (title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || id).slice(0, 60);
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'card__export';
+      btn.title = 'Download data (CSV — opens in Excel)';
+      btn.innerHTML = DL_ICON;
+      btn.addEventListener('click', () => C.exportChartCSV(id, fname));
+      head.appendChild(btn);
+    });
+  }
+
   // =========================================================================
   // INDUSTRY OVERVIEW
   // =========================================================================
@@ -515,6 +534,7 @@
     const hash = location.hash || '#/';
     if (hash.startsWith('#/company/')) renderCompany(decodeURIComponent(hash.replace('#/company/', '')));
     else renderIndustry();
+    addChartExports();
     window.scrollTo({ top: 0 });
   }
   window.addEventListener('hashchange', route);

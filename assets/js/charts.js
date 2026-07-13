@@ -207,5 +207,36 @@
     registry.clear();
   }
 
-  window.LumberCharts = { line, stackedArea, bar, stackedBar, hbar, destroyAll, seriesColors: () => tokens().series };
+  // --- CSV export -----------------------------------------------------------
+  function csvCell(v) {
+    if (v == null || v === '') return '';
+    const s = String(v);
+    return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  }
+  function chartIds() { return [...registry.keys()]; }
+
+  // Build a CSV from a chart's current labels + datasets and trigger a download.
+  // Works for any chart type (the first column is the x label, then one column
+  // per series). A UTF-8 BOM makes Excel open it cleanly.
+  function exportChartCSV(canvasId, filename) {
+    const chart = registry.get(canvasId);
+    if (!chart) return;
+    const labels = chart.data.labels || [];
+    const ds = chart.data.datasets || [];
+    const isPeriod = /^\d{4}(Q[1-4]|-\d{2}|E)?$/.test(String(labels[0] ?? ''));
+    const rows = [[isPeriod ? 'Period' : 'Category', ...ds.map((d) => d.label || 'Value')]];
+    labels.forEach((lab, i) => rows.push([lab, ...ds.map((d) => d.data[i])]));
+    const csv = rows.map((r) => r.map(csvCell).join(',')).join('\r\n');
+    const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = (filename || canvasId) + '.csv';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  window.LumberCharts = { line, stackedArea, bar, stackedBar, hbar, destroyAll, chartIds, exportChartCSV, seriesColors: () => tokens().series };
 })();
