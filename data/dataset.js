@@ -663,7 +663,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 623
+          "framing_composite": 638
         }
       ]
     },
@@ -2497,7 +2497,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-13T13:30:53.262Z",
+      "fetchedAt": "2026-07-13T14:22:20.624Z",
       "items": [
         {
           "title": "Weyerhaeuser stock reflects timber REIT exposure and housing demand",
