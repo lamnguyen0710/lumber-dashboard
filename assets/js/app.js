@@ -190,6 +190,7 @@
               <div class="chart-wrap"><canvas id="chSales"></canvas></div>
             </div>`
           : ''}
+        ${ind.activeListings ? card('US homes for sale — active listings', 'homes on the market · monthly', 'Existing unsold-home inventory (Realtor.com active listings). Crashed to ~350–500K in the 2021–22 shortage; back above 1.1M as supply normalizes — more inventory competes with new construction.', 'chListings', { span: true, section: 'housing' }) : ''}
       </div>
 
       ${newsSection(ind.news)}
@@ -285,6 +286,12 @@
         salesTog.querySelectorAll('.seg__btn').forEach((b) => b.classList.toggle('is-active', b === btn));
         drawSales(btn.dataset.mode);
       });
+    }
+
+    if (ind.activeListings) {
+      C.line('chListings', ind.activeListings.series.map(p => p.period), [
+        { label: 'Active listings', data: ind.activeListings.series.map(p => p.value), slot: 5 },
+      ], { unit: 'homes', legend: false, xTicks: 8, beginAtZero: false, fill: true });
     }
 
     // Homebuilder deliveries — stacked bar by fiscal year (top 7 builders + Other),

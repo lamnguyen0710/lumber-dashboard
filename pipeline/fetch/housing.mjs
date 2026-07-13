@@ -63,16 +63,18 @@ function assembleSingle(map, unit, startYear) {
 }
 
 export async function fetchHousing({ startYear = 2015 } = {}) {
-  const [houst, houst1f, permit, permit1, supply, newSales] = await Promise.all([
+  const [houst, houst1f, permit, permit1, supply, newSales, activeListings] = await Promise.all([
     fredSeries('HOUST'), fredSeries('HOUST1F'), fredSeries('PERMIT'), fredSeries('PERMIT1'),
-    fredSeries('MSACSR'),   // Monthly Supply of New Houses (months) — housing supply/demand balance
-    fredSeries('HSN1F'),    // New One-Family Houses Sold (thousands SAAR, Census) — new-construction demand
+    fredSeries('MSACSR'),      // Monthly Supply of New Houses (months) — housing supply/demand balance
+    fredSeries('HSN1F'),       // New One-Family Houses Sold (thousands SAAR, Census) — new-construction demand
+    fredSeries('ACTLISCOUUS'), // Realtor.com Active Listing Count — homes for sale (unsold inventory)
   ]);
   return {
     starts: assemble(houst, houst1f, startYear),
     permits: assemble(permit, permit1, startYear),
     supply: assembleSingle(supply, 'months', startYear),
     newHomeSales: assembleSingle(newSales, 'thousands (SAAR)', startYear),
+    activeListings: assembleSingle(activeListings, 'homes', startYear),
   };
 }
 

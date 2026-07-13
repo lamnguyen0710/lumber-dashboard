@@ -48,6 +48,7 @@ export async function fetchLiveDataset({ fallback }) {
     industry.housingPermits = useOrFallback(housing.permits, base.industry.housingPermits, 'housingPermits');
     if (housing.supply && housing.supply.series.length) industry.newHomeSupply = housing.supply;
     if (housing.newHomeSales && housing.newHomeSales.series.length) industry.newHomeSales = housing.newHomeSales;
+    if (housing.activeListings && housing.activeListings.series.length) industry.activeListings = housing.activeListings;
     live.housing = !!housing;
   }
   if (exports) { industry.canadaExports = useOrFallback(exports, base.industry.canadaExports, 'canadaExports'); live.exports = !!exports; }
