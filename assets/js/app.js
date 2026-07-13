@@ -168,6 +168,19 @@
         ${ind.newHomeSupply
           ? card("Months' supply of new homes", 'months · monthly', 'Unsold new-home inventory relative to the sales pace — a housing supply/demand balance gauge. Above ~6 months signals soft demand and less lumber buying.', 'chSupply', { section: 'housing' })
           : card('Industry inventory', 'index, 2015 avg = 100 · quarterly', 'Distributor/mill stock levels.', 'chInv', { section: 'production' })}
+        ${ind.newHomeSales
+          ? `<div class="card">
+              <div class="card__head">
+                <h3 class="card__title">US new home sales ${provBadge('housing')}</h3>
+                <div class="seg" id="salesToggle">
+                  <button type="button" data-mode="levels" class="seg__btn is-active">Levels</button>
+                  <button type="button" data-mode="growth" class="seg__btn">YoY %</button>
+                </div>
+              </div>
+              <div class="card__note" id="salesNote"></div>
+              <div class="chart-wrap"><canvas id="chSales"></canvas></div>
+            </div>`
+          : ''}
       </div>
 
       ${newsSection(ind.news)}
@@ -236,6 +249,33 @@
       C.line('chInv', ind.inventory.series.map(p => p.period), [
         { label: 'Inventory index', data: ind.inventory.series.map(p => p.index), slot: 1 },
       ], { unit: '', legend: false, xTicks: 8, beginAtZero: false });
+    }
+
+    // New home sales — Levels ⇄ YoY-growth toggle.
+    if (ind.newHomeSales) {
+      const hs = ind.newHomeSales.series;
+      const salesLabels = hs.map(p => p.period);
+      const yoy = hs.map((p, i) => (i >= 12 && hs[i - 12].value ? +(((p.value - hs[i - 12].value) / hs[i - 12].value) * 100).toFixed(1) : null));
+      const salesNoteFor = (mode) => mode === 'growth'
+        ? 'Year-over-year % change in new single-family home sales — the growth signal for new-construction lumber demand.'
+        : 'New single-family homes sold, thousands (SAAR) — Census. A direct new-construction demand signal for lumber.';
+      function drawSales(mode) {
+        if (mode === 'growth') {
+          C.line('chSales', salesLabels, [{ label: 'New home sales YoY', data: yoy, slot: 3 }], { unit: '%', legend: false, xTicks: 7, beginAtZero: false });
+        } else {
+          C.line('chSales', salesLabels, [{ label: 'New home sales', data: hs.map(p => p.value), slot: 3 }], { unit: 'K SAAR', legend: false, xTicks: 7, fill: true });
+        }
+        const el = document.getElementById('salesNote');
+        if (el) el.textContent = salesNoteFor(mode);
+      }
+      drawSales('levels');
+      const salesTog = document.getElementById('salesToggle');
+      if (salesTog) salesTog.addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-mode]');
+        if (!btn) return;
+        salesTog.querySelectorAll('.seg__btn').forEach((b) => b.classList.toggle('is-active', b === btn));
+        drawSales(btn.dataset.mode);
+      });
     }
 
     wireTableRows();

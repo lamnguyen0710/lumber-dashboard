@@ -21,6 +21,7 @@ supply/demand picture and lets you drill into individual public companies.
 - **Canadian softwood exports by destination** (US / China / Japan / Europe / Other) with a **$ value ⇄ volume** toggle (Comtrade reports both) — the trade-diversion story
 - US share of Canadian exports (one line: are they shipping elsewhere?)
 - Months' supply of new homes (housing supply/demand balance, FRED)
+- US new home sales with a **Levels ⇄ YoY-growth** toggle (Census, FRED)
 - Live lumber-industry **news board** (Google News RSS, keyless) — headlines, source, relative timestamps
 - A sortable company comparison table
 

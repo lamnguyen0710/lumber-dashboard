@@ -663,7 +663,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 638
+          "framing_composite": 640
         }
       ]
     },
@@ -2497,8 +2497,14 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-13T14:22:20.624Z",
+      "fetchedAt": "2026-07-13T14:45:19.681Z",
       "items": [
+        {
+          "title": "Why Interfor Stock Is Back In Focus After Updated Market Expectations?",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbF9YVXg2Yjk5b1lJWEppYUtsdHd1aFpwNG5fMlNaS1FSNlRTbnZwNFRQMnRFcXVqZFpsT3RySzgxQTBBRE12NldrSUZMX19jZ2pxd1V5WE1TTnJBM2JnMENrLXZKWmpDWW9vMnhsQ09GenRobVZFd25qYXl6WTl1bXpWNEp4ZkE2eU1RWFVqYWJkcWp5eHRvWVNVRE5GblFDbzNXRU5MUGJlMjlKdENibzdZSXo?oc=5",
+          "source": "Kalkine Media",
+          "date": "2026-07-13T14:26:00.000Z"
+        },
         {
           "title": "Weyerhaeuser stock reflects timber REIT exposure and housing demand",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSi16LVFxOW41T3JkZk11Y0dwSkhJcjMyU3NSeHNtaEFCMlBncmZ2TW5EUFh0akJRT2lDM1h3ajc1LWdMLVkwTTFJM2VmWDdyUVRMcERpMDNCbWVjeU44ZHE2d0tnLWNfYXBPZWpOcG1SdzcxbDZTU3RGcC14bWcxTi1fWDVXeEJKRE5ha285LVd5aUtsVk1lY0NCWUQ0VU5RbkJWeTJKLUtlOUZiRERaR0tScm03aU1zem1PQkFlRzUxMzZy?oc=5",
@@ -2672,12 +2678,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVJFeUVTTDFleVlCNExuRHAwbk5xdE15aHJ5QWNJeGJuUk1LS2cwSUZqQVJpNDNZTVVpVFdwRVo3NlhHOUo4RXI5SDlfQTJHcEtrYkFJTWE3WGlsNWt3MHRrU2JrQzZEMGJQMk8wQm1DSWVnLUticlk0REcxQk5aX190M0ZhTWs1ZFhjc290N1ctTEIxVFlLdVZJY3M5cms?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-06-26T07:00:00.000Z"
-        },
-        {
-          "title": "Louisiana-Pacific earnings outlook and housing cycle, shares watch on NYSE",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTmdQNmkxc3FRTlVfeWJCQWUyU2V6QVlvdXgxVTZIRzFJdld0aE1nd0xJbGJTNzFDYlhPcWFhQnhIRDN3U0xNMEprLWhiTzQxVWRab0NHenNMNHk3X3JVNkEtNFhCUXJHV1FoUnVhMFdsWkVUOERsdmlnaVBuLWtoLVBlekl4MUlVUGpybEoxZ3pUekpDU2JWNW0wQ05FcUdoUnlqWTJfQ0lJOXFxWDlWdmU1WDRxZnZKUTVvZWgzNEdVWW83dGVXODlhakg?oc=5",
-          "source": "ad-hoc-news.de",
-          "date": "2026-06-25T20:54:05.000Z"
         }
       ]
     },
@@ -3232,6 +3232,560 @@ window.LUMBER_DATA = {
         {
           "period": "2026-05",
           "value": 10.3
+        }
+      ]
+    },
+    "newHomeSales": {
+      "unit": "thousands (SAAR)",
+      "freq": "monthly",
+      "series": [
+        {
+          "period": "2015-01",
+          "value": 515
+        },
+        {
+          "period": "2015-02",
+          "value": 540
+        },
+        {
+          "period": "2015-03",
+          "value": 480
+        },
+        {
+          "period": "2015-04",
+          "value": 502
+        },
+        {
+          "period": "2015-05",
+          "value": 502
+        },
+        {
+          "period": "2015-06",
+          "value": 480
+        },
+        {
+          "period": "2015-07",
+          "value": 506
+        },
+        {
+          "period": "2015-08",
+          "value": 518
+        },
+        {
+          "period": "2015-09",
+          "value": 456
+        },
+        {
+          "period": "2015-10",
+          "value": 482
+        },
+        {
+          "period": "2015-11",
+          "value": 504
+        },
+        {
+          "period": "2015-12",
+          "value": 546
+        },
+        {
+          "period": "2016-01",
+          "value": 505
+        },
+        {
+          "period": "2016-02",
+          "value": 517
+        },
+        {
+          "period": "2016-03",
+          "value": 532
+        },
+        {
+          "period": "2016-04",
+          "value": 576
+        },
+        {
+          "period": "2016-05",
+          "value": 571
+        },
+        {
+          "period": "2016-06",
+          "value": 557
+        },
+        {
+          "period": "2016-07",
+          "value": 628
+        },
+        {
+          "period": "2016-08",
+          "value": 575
+        },
+        {
+          "period": "2016-09",
+          "value": 558
+        },
+        {
+          "period": "2016-10",
+          "value": 575
+        },
+        {
+          "period": "2016-11",
+          "value": 571
+        },
+        {
+          "period": "2016-12",
+          "value": 561
+        },
+        {
+          "period": "2017-01",
+          "value": 573
+        },
+        {
+          "period": "2017-02",
+          "value": 587
+        },
+        {
+          "period": "2017-03",
+          "value": 632
+        },
+        {
+          "period": "2017-04",
+          "value": 598
+        },
+        {
+          "period": "2017-05",
+          "value": 635
+        },
+        {
+          "period": "2017-06",
+          "value": 619
+        },
+        {
+          "period": "2017-07",
+          "value": 572
+        },
+        {
+          "period": "2017-08",
+          "value": 556
+        },
+        {
+          "period": "2017-09",
+          "value": 637
+        },
+        {
+          "period": "2017-10",
+          "value": 626
+        },
+        {
+          "period": "2017-11",
+          "value": 711
+        },
+        {
+          "period": "2017-12",
+          "value": 630
+        },
+        {
+          "period": "2018-01",
+          "value": 590
+        },
+        {
+          "period": "2018-02",
+          "value": 618
+        },
+        {
+          "period": "2018-03",
+          "value": 679
+        },
+        {
+          "period": "2018-04",
+          "value": 642
+        },
+        {
+          "period": "2018-05",
+          "value": 662
+        },
+        {
+          "period": "2018-06",
+          "value": 636
+        },
+        {
+          "period": "2018-07",
+          "value": 628
+        },
+        {
+          "period": "2018-08",
+          "value": 593
+        },
+        {
+          "period": "2018-09",
+          "value": 595
+        },
+        {
+          "period": "2018-10",
+          "value": 554
+        },
+        {
+          "period": "2018-11",
+          "value": 625
+        },
+        {
+          "period": "2018-12",
+          "value": 546
+        },
+        {
+          "period": "2019-01",
+          "value": 595
+        },
+        {
+          "period": "2019-02",
+          "value": 648
+        },
+        {
+          "period": "2019-03",
+          "value": 718
+        },
+        {
+          "period": "2019-04",
+          "value": 702
+        },
+        {
+          "period": "2019-05",
+          "value": 618
+        },
+        {
+          "period": "2019-06",
+          "value": 729
+        },
+        {
+          "period": "2019-07",
+          "value": 648
+        },
+        {
+          "period": "2019-08",
+          "value": 712
+        },
+        {
+          "period": "2019-09",
+          "value": 712
+        },
+        {
+          "period": "2019-10",
+          "value": 722
+        },
+        {
+          "period": "2019-11",
+          "value": 713
+        },
+        {
+          "period": "2019-12",
+          "value": 700
+        },
+        {
+          "period": "2020-01",
+          "value": 689
+        },
+        {
+          "period": "2020-02",
+          "value": 707
+        },
+        {
+          "period": "2020-03",
+          "value": 626
+        },
+        {
+          "period": "2020-04",
+          "value": 576
+        },
+        {
+          "period": "2020-05",
+          "value": 707
+        },
+        {
+          "period": "2020-06",
+          "value": 901
+        },
+        {
+          "period": "2020-07",
+          "value": 981
+        },
+        {
+          "period": "2020-08",
+          "value": 1016
+        },
+        {
+          "period": "2020-09",
+          "value": 979
+        },
+        {
+          "period": "2020-10",
+          "value": 1031
+        },
+        {
+          "period": "2020-11",
+          "value": 877
+        },
+        {
+          "period": "2020-12",
+          "value": 874
+        },
+        {
+          "period": "2021-01",
+          "value": 899
+        },
+        {
+          "period": "2021-02",
+          "value": 772
+        },
+        {
+          "period": "2021-03",
+          "value": 852
+        },
+        {
+          "period": "2021-04",
+          "value": 817
+        },
+        {
+          "period": "2021-05",
+          "value": 717
+        },
+        {
+          "period": "2021-06",
+          "value": 714
+        },
+        {
+          "period": "2021-07",
+          "value": 745
+        },
+        {
+          "period": "2021-08",
+          "value": 688
+        },
+        {
+          "period": "2021-09",
+          "value": 733
+        },
+        {
+          "period": "2021-10",
+          "value": 689
+        },
+        {
+          "period": "2021-11",
+          "value": 782
+        },
+        {
+          "period": "2021-12",
+          "value": 816
+        },
+        {
+          "period": "2022-01",
+          "value": 809
+        },
+        {
+          "period": "2022-02",
+          "value": 784
+        },
+        {
+          "period": "2022-03",
+          "value": 710
+        },
+        {
+          "period": "2022-04",
+          "value": 612
+        },
+        {
+          "period": "2022-05",
+          "value": 639
+        },
+        {
+          "period": "2022-06",
+          "value": 564
+        },
+        {
+          "period": "2022-07",
+          "value": 535
+        },
+        {
+          "period": "2022-08",
+          "value": 634
+        },
+        {
+          "period": "2022-09",
+          "value": 552
+        },
+        {
+          "period": "2022-10",
+          "value": 586
+        },
+        {
+          "period": "2022-11",
+          "value": 592
+        },
+        {
+          "period": "2022-12",
+          "value": 615
+        },
+        {
+          "period": "2023-01",
+          "value": 653
+        },
+        {
+          "period": "2023-02",
+          "value": 633
+        },
+        {
+          "period": "2023-03",
+          "value": 639
+        },
+        {
+          "period": "2023-04",
+          "value": 656
+        },
+        {
+          "period": "2023-05",
+          "value": 736
+        },
+        {
+          "period": "2023-06",
+          "value": 687
+        },
+        {
+          "period": "2023-07",
+          "value": 727
+        },
+        {
+          "period": "2023-08",
+          "value": 645
+        },
+        {
+          "period": "2023-09",
+          "value": 682
+        },
+        {
+          "period": "2023-10",
+          "value": 689
+        },
+        {
+          "period": "2023-11",
+          "value": 607
+        },
+        {
+          "period": "2023-12",
+          "value": 634
+        },
+        {
+          "period": "2024-01",
+          "value": 683
+        },
+        {
+          "period": "2024-02",
+          "value": 653
+        },
+        {
+          "period": "2024-03",
+          "value": 681
+        },
+        {
+          "period": "2024-04",
+          "value": 706
+        },
+        {
+          "period": "2024-05",
+          "value": 670
+        },
+        {
+          "period": "2024-06",
+          "value": 683
+        },
+        {
+          "period": "2024-07",
+          "value": 732
+        },
+        {
+          "period": "2024-08",
+          "value": 687
+        },
+        {
+          "period": "2024-09",
+          "value": 715
+        },
+        {
+          "period": "2024-10",
+          "value": 632
+        },
+        {
+          "period": "2024-11",
+          "value": 669
+        },
+        {
+          "period": "2024-12",
+          "value": 702
+        },
+        {
+          "period": "2025-01",
+          "value": 665
+        },
+        {
+          "period": "2025-02",
+          "value": 641
+        },
+        {
+          "period": "2025-03",
+          "value": 656
+        },
+        {
+          "period": "2025-04",
+          "value": 701
+        },
+        {
+          "period": "2025-05",
+          "value": 622
+        },
+        {
+          "period": "2025-06",
+          "value": 665
+        },
+        {
+          "period": "2025-07",
+          "value": 648
+        },
+        {
+          "period": "2025-08",
+          "value": 698
+        },
+        {
+          "period": "2025-09",
+          "value": 714
+        },
+        {
+          "period": "2025-10",
+          "value": 652
+        },
+        {
+          "period": "2025-11",
+          "value": 757
+        },
+        {
+          "period": "2025-12",
+          "value": 723
+        },
+        {
+          "period": "2026-01",
+          "value": 576
+        },
+        {
+          "period": "2026-02",
+          "value": 630
+        },
+        {
+          "period": "2026-03",
+          "value": 664
+        },
+        {
+          "period": "2026-04",
+          "value": 626
+        },
+        {
+          "period": "2026-05",
+          "value": 580
         }
       ]
     },
