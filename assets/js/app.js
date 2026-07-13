@@ -163,6 +163,14 @@
             </div>`
           : card('Canadian softwood exports by destination', `${expUnit} / ${expPer} · stacked`, 'Where Canadian softwood lumber ships.', 'chExports', { span: true, tall: true, section: 'exports' })}
         ${ind.exportsByRegion ? card('Canada → US exports by region of origin', `${ind.exportsByRegion.unit} (thousand bd ft) / month · stacked`, 'Which Canadian regions mill the lumber going to the US (Global Affairs Canada export-permit data). The BC Interior\'s volumes have fallen sharply — mill curtailments and beetle-kill timber decline.', 'chRegionExports', { span: true, tall: true, section: 'regionExports' }) : ''}
+        ${DATA.homebuilders ? `<div class="card span-2">
+            <div class="card__head">
+              <h3 class="card__title">Top-10 US homebuilder deliveries</h3>
+              <span class="card__unit">homes / fiscal year · stacked · 2026E = guidance</span>
+            </div>
+            <div class="card__note">Homes delivered by the 10 largest US builders (SEC 10-Ks) — demand ≈ lumber consumed. 2026E uses management guidance (range midpoints); builders that give no guidance are held flat at their 2025 actual.</div>
+            <div class="chart-wrap tall"><canvas id="chBuilders"></canvas></div>
+          </div>` : ''}
         ${card('US share of Canadian exports', `% of total · ${expFreq}`, 'How reliant Canadian softwood is on the US market, by export value. The duties have squeezed volumes and prices more than they have redirected the wood elsewhere.', 'chUsShare', { span: true, section: 'exports' })}
         ${card('Lumber price — CME futures', '$/mbf · monthly', 'CME front-month lumber futures (LBR). The current contract launched in 2022, so this live series starts then.', 'chPrice', { section: 'price' })}
         ${card('US housing — starts vs. permits', 'thousands (SAAR) · monthly', 'The demand side. Permits lead starts; both cooled through the 2022–23 rate cycle.', 'chHousing', { section: 'housing' })}
@@ -189,8 +197,6 @@
       <section class="section-head"><h2>Company comparison</h2>
         <p>Publicly traded lumber producers we track. Click a row for the full company view.</p></section>
       ${companyTable()}
-
-      ${homebuildersSection()}
     `;
 
     // charts
@@ -281,44 +287,21 @@
       });
     }
 
-    // Homebuilder deliveries — stacked bar by fiscal year (top 7 builders + Other).
+    // Homebuilder deliveries — stacked bar by fiscal year (top 7 builders + Other),
+    // with a final "2026E" bar from management guidance.
     if (DATA.homebuilders && DATA.homebuilders.builders) {
       const hb = DATA.homebuilders;
+      const labels = hb.years.map(String).concat(['2026E']);
+      const series = (b) => [...b.deliveries, b.expected2026];
       const top = hb.builders.slice(0, 7);
       const rest = hb.builders.slice(7);
-      const datasets = top.map((b, i) => ({ label: b.ticker, data: b.deliveries, slot: i }));
-      if (rest.length) datasets.push({ label: 'Other', data: hb.years.map((_, yi) => rest.reduce((s, b) => s + (b.deliveries[yi] || 0), 0)), slot: 7 });
-      C.stackedBar('chBuilders', hb.years.map(String), datasets, { unit: 'homes', xTicks: hb.years.length });
+      const datasets = top.map((b, i) => ({ label: b.ticker, data: series(b), slot: i }));
+      if (rest.length) datasets.push({ label: 'Other', data: labels.map((_, idx) => rest.reduce((s, b) => s + series(b)[idx], 0)), slot: 7 });
+      C.stackedBar('chBuilders', labels, datasets, { unit: 'homes', xTicks: labels.length });
     }
 
     wireTableRows();
     hydrateNewsTimes();
-  }
-
-  function homebuildersSection() {
-    const hb = DATA.homebuilders;
-    if (!hb || !hb.builders || !hb.builders.length) return '';
-    const years = hb.years;
-    const yearTotals = years.map((_, yi) => hb.builders.reduce((s, b) => s + (b.deliveries[yi] || 0), 0));
-    const rows = hb.builders.map((b) => `<tr>
-        <td class="name">${esc(b.name)}</td>
-        <td>${esc(b.ticker)}</td>
-        ${b.deliveries.map((n) => `<td>${F.int(n)}</td>`).join('')}
-      </tr>`).join('');
-    return `
-      <section class="section-head"><h2>Top US homebuilders — annual deliveries (FY2018–${years.at(-1)})</h2>
-        <p>The demand side: homes delivered/closed per fiscal year by the 10 largest US builders — deliveries ≈ lumber consumed. From SEC 10-K filings; fiscal-year ends differ by company.</p></section>
-      <div class="card span-2">
-        <div class="card__head"><h3 class="card__title">Homes delivered by fiscal year</h3><span class="card__unit">homes · stacked by builder</span></div>
-        <div class="chart-wrap tall"><canvas id="chBuilders"></canvas></div>
-      </div>
-      <div class="table-wrap" style="margin-top:16px"><table class="cmp cmp--static">
-        <thead><tr><th class="name">Builder</th><th>Ticker</th>${years.map((y) => `<th>${y}</th>`).join('')}</tr></thead>
-        <tbody>${rows}</tbody>
-        <tfoot><tr><td class="name" style="font-weight:700">Top 10 total</td><td></td>${yearTotals.map((t) => `<td style="font-weight:700">${F.int(t)}</td>`).join('')}</tr></tfoot>
-      </table></div>
-      <p style="font-size:11.5px;color:var(--text-muted);margin-top:8px">Homes delivered/closed (all segments) from each company's SEC 10-K. Columns are fiscal years, which end at different months by company (e.g. DHI Sep, Lennar Nov, Toll Oct). Snapshot as of ${esc(hb.asOf)}.</p>
-    `;
   }
 
   function companyTable() {

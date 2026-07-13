@@ -663,7 +663,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 638
+          "framing_composite": 639
         }
       ]
     },
@@ -2497,7 +2497,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-13T19:26:43.147Z",
+      "fetchedAt": "2026-07-13T19:33:18.427Z",
       "items": [
         {
           "title": "How New Interest-Rate Spotlight and Kopernik Stake At Weyerhaeuser (WY) Has Changed Its Investment Story",
@@ -2644,12 +2644,6 @@ window.LUMBER_DATA = {
           "date": "2026-07-02T07:00:00.000Z"
         },
         {
-          "title": "North American Lumber Market Outlook: What’s Shaping the Industry Right Now",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcDVBOE5SLXFDX1RrQXg2Vk4zb3AwU2pPeE1ObFNtS1FkSGM1U0ZJQnVZd0xiWGRkS1hXNlA0VUJDaUZVR3M3eUFxX3N1TzFfSGhNbGxHYW1jZ1NpZGx4cnpFNEp4NVJpbDRMaGJwTW4wbnhUdTF5WlpoTGtEdkdLVEdZT0Z2blhxbjlYeW90WUJXWk1jejNfQzlJWFg1dzVDVW9XTkU1SDBHakXSAbsBQVVfeXFMT1VuQmhqOS1lSlRaZHF2YlkxcXp6X0tmeUY1VFB6TGtQZGxoVU1IVUd0Rko4Mk1xbi1KOE1KTnNwRXl2NlNJeEhxSmFNUUpBTEdqV20yNWg3YVFmMmVlWUI3TV91dk8wR1dKYW1UMWhHNmhsRk5FdVBIOW8yalV4Ui01N2RzM09Cci1FN1FaQlVrX2ZobzNKV016SU5ncmY2ZDV0dzVEVEUwX3FsMlp2V1p6VWJ4QllrY3ZyRQ?oc=5",
-          "source": "ResourceWise",
-          "date": "2026-07-01T21:16:15.000Z"
-        },
-        {
           "title": "First Nations purchase shuttered Canfor sawmill in Vanderhoof to create industrial park",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNGtUZHZMZllqc1ZYTG5kc0VvaHBMRENoS0hxT3hvTEVSa3ZLdEJSSThGUHJ1T09QMXpUNENhQ2h3eEgxODBTbm91blJFZGVOWldtREYwYVBaQ2FxbnZ0dnFYWXE5aXNkQ3VudkhQMGRFSkNWbXNHaDFuWlQ2dnJrNzlHRG9BZVZSSU1jY0h0TDQybE0?oc=5",
           "source": "CBC",
@@ -2678,6 +2672,12 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSzJCMHJfOUxhNzlQNVJvTVpXRV9DQTJjY2hKTVpHQmNQZDlLSkd5Y0phalFKT2tnMFhIX2pQZHRsRkoxd0h3RDFma3JfY0o1U0JGckN1cXlwR1FzWk9tVzU5WFZtNjFFNTQ0eDVzV1JOVU00VW5aaWQxVkhHbjBOcHVDNDdacFg0SG81bnZWaUp4RDllT2swTVA2eXpPOWpvWlhidnNEeFJXVFNHUnpSdjNCN2lTTWpR?oc=5",
           "source": "ad-hoc-news.de",
           "date": "2026-06-28T09:25:38.000Z"
+        },
+        {
+          "title": "Here is What to Know Beyond Why Louisiana-Pacific Corporation (LPX) is a Trending Stock",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVJFeUVTTDFleVlCNExuRHAwbk5xdE15aHJ5QWNJeGJuUk1LS2cwSUZqQVJpNDNZTVVpVFdwRVo3NlhHOUo4RXI5SDlfQTJHcEtrYkFJTWE3WGlsNWt3MHRrU2JrQzZEMGJQMk8wQm1DSWVnLUticlk0REcxQk5aX190M0ZhTWs1ZFhjc290N1ctTEIxVFlLdVZJY3M5cms?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-06-26T07:00:00.000Z"
         }
       ]
     },
@@ -8282,6 +8282,7 @@ window.LUMBER_DATA = {
           89690,
           84863
         ],
+        "expected2026": 86750,
         "guidance": "86,000–87,500",
         "guidanceAsOf": "Q2 FY26 · Apr 2026"
       },
@@ -8299,6 +8300,7 @@ window.LUMBER_DATA = {
           80210,
           82583
         ],
+        "expected2026": 85000,
         "guidance": "≈ 85,000",
         "guidanceAsOf": "FY25 report · Dec 2025"
       },
@@ -8316,6 +8318,7 @@ window.LUMBER_DATA = {
           31219,
           29572
         ],
+        "expected2026": 28750,
         "guidance": "28,500–29,000",
         "guidanceAsOf": "Q4 FY25 call · Jan 2026"
       },
@@ -8333,6 +8336,7 @@ window.LUMBER_DATA = {
           22836,
           21915
         ],
+        "expected2026": 21915,
         "guidance": null,
         "guidanceNote": "No guidance (company policy)"
       },
@@ -8350,6 +8354,7 @@ window.LUMBER_DATA = {
           15611,
           15026
         ],
+        "expected2026": 15026,
         "guidance": "within ~5% of 2025",
         "guidanceAsOf": "Q1 FY26 · Apr 2026"
       },
@@ -8367,6 +8372,7 @@ window.LUMBER_DATA = {
           12896,
           12997
         ],
+        "expected2026": 11000,
         "guidance": "≈ 11,000",
         "guidanceAsOf": "Q1 FY26 · Apr 2026"
       },
@@ -8384,6 +8390,7 @@ window.LUMBER_DATA = {
           14169,
           12902
         ],
+        "expected2026": 10750,
         "guidance": "10,500–11,000",
         "guidanceAsOf": "Q2 FY26 · Jun 2026"
       },
@@ -8401,6 +8408,7 @@ window.LUMBER_DATA = {
           10813,
           11292
         ],
+        "expected2026": 10550,
         "guidance": "10,400–10,700",
         "guidanceAsOf": "Q2 FY26 · May 2026"
       },
@@ -8418,6 +8426,7 @@ window.LUMBER_DATA = {
           9055,
           8921
         ],
+        "expected2026": 8921,
         "guidance": null,
         "guidanceNote": "No numeric guidance"
       },
@@ -8435,6 +8444,7 @@ window.LUMBER_DATA = {
           6460,
           4947
         ],
+        "expected2026": 4947,
         "guidance": null,
         "guidanceNote": "No guidance (acquisition pending)"
       }
