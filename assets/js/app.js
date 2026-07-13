@@ -281,6 +281,16 @@
       });
     }
 
+    // Homebuilder deliveries — stacked bar by fiscal year (top 7 builders + Other).
+    if (DATA.homebuilders && DATA.homebuilders.builders) {
+      const hb = DATA.homebuilders;
+      const top = hb.builders.slice(0, 7);
+      const rest = hb.builders.slice(7);
+      const datasets = top.map((b, i) => ({ label: b.ticker, data: b.deliveries, slot: i }));
+      if (rest.length) datasets.push({ label: 'Other', data: hb.years.map((_, yi) => rest.reduce((s, b) => s + (b.deliveries[yi] || 0), 0)), slot: 7 });
+      C.stackedBar('chBuilders', hb.years.map(String), datasets, { unit: 'homes', xTicks: hb.years.length });
+    }
+
     wireTableRows();
     hydrateNewsTimes();
   }
@@ -288,31 +298,26 @@
   function homebuildersSection() {
     const hb = DATA.homebuilders;
     if (!hb || !hb.builders || !hb.builders.length) return '';
-    const total = hb.builders.reduce((s, b) => s + (b.fy2025 || 0), 0);
+    const years = hb.years;
+    const yearTotals = years.map((_, yi) => hb.builders.reduce((s, b) => s + (b.deliveries[yi] || 0), 0));
     const rows = hb.builders.map((b) => `<tr>
         <td class="name">${esc(b.name)}</td>
         <td>${esc(b.ticker)}</td>
-        <td>${esc(b.fye)}</td>
-        <td>${F.int(b.fy2025)}</td>
-        <td>${b.guidance
-          ? `${esc(b.guidance)}${b.guidanceAsOf ? ` <span style="color:var(--text-muted);font-size:11.5px">${esc(b.guidanceAsOf)}</span>` : ''}`
-          : `<span style="color:var(--text-muted)">— <span style="font-size:11.5px">${esc(b.guidanceNote || 'no guidance')}</span></span>`}</td>
+        ${b.deliveries.map((n) => `<td>${F.int(n)}</td>`).join('')}
       </tr>`).join('');
     return `
-      <section class="section-head"><h2>Top US homebuilders — deliveries &amp; FY2026 guidance</h2>
-        <p>The demand side: homes delivered (latest completed fiscal year) and management's full-year 2026 delivery guidance. Deliveries ≈ lumber consumed. Snapshot as of ${esc(hb.asOf)} — guidance is forward-looking and refreshed manually.</p></section>
-      <div class="table-wrap"><table class="cmp cmp--static">
-        <thead><tr>
-          <th class="name">Builder</th><th>Ticker</th><th>FY end</th><th>Homes delivered (latest FY)</th><th>FY2026 delivery guidance</th>
-        </tr></thead>
+      <section class="section-head"><h2>Top US homebuilders — annual deliveries (FY2018–${years.at(-1)})</h2>
+        <p>The demand side: homes delivered/closed per fiscal year by the 10 largest US builders — deliveries ≈ lumber consumed. From SEC 10-K filings; fiscal-year ends differ by company.</p></section>
+      <div class="card span-2">
+        <div class="card__head"><h3 class="card__title">Homes delivered by fiscal year</h3><span class="card__unit">homes · stacked by builder</span></div>
+        <div class="chart-wrap tall"><canvas id="chBuilders"></canvas></div>
+      </div>
+      <div class="table-wrap" style="margin-top:16px"><table class="cmp cmp--static">
+        <thead><tr><th class="name">Builder</th><th>Ticker</th>${years.map((y) => `<th>${y}</th>`).join('')}</tr></thead>
         <tbody>${rows}</tbody>
-        <tfoot><tr>
-          <td class="name" style="font-weight:700">Top 10 total</td><td></td><td></td>
-          <td style="font-weight:700">${F.int(total)}</td>
-          <td style="color:var(--text-muted)">3 of 10 give no delivery guidance</td>
-        </tr></tfoot>
+        <tfoot><tr><td class="name" style="font-weight:700">Top 10 total</td><td></td>${yearTotals.map((t) => `<td style="font-weight:700">${F.int(t)}</td>`).join('')}</tr></tfoot>
       </table></div>
-      <p style="font-size:11.5px;color:var(--text-muted);margin-top:8px">Source: company earnings releases / SEC 8-K filings. Fiscal-year ends differ by company; "latest FY" is each company's most recently completed fiscal year (mostly FY2025).</p>
+      <p style="font-size:11.5px;color:var(--text-muted);margin-top:8px">Homes delivered/closed (all segments) from each company's SEC 10-K. Columns are fiscal years, which end at different months by company (e.g. DHI Sep, Lennar Nov, Toll Oct). Snapshot as of ${esc(hb.asOf)}.</p>
     `;
   }
 
