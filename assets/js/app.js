@@ -147,9 +147,8 @@
       </section>
       <div class="tiles">${tiles.join('')}</div>
 
+      <!-- The two export charts are the headline story; the rest are leading indicators. -->
       <div class="grid" style="margin-top:20px">
-        ${card('Lumber price — CME futures', '$/mbf · monthly', 'CME front-month lumber futures (LBR). The current contract launched in 2022, so this live series starts then.', 'chPrice', { section: 'price' })}
-        ${card('US housing — starts vs. permits', 'thousands (SAAR) · monthly', 'The demand side. Permits lead starts; both cooled through the 2022–23 rate cycle.', 'chHousing', { section: 'housing' })}
         ${exp.volume
           ? `<div class="card span-2">
               <div class="card__head">
@@ -164,12 +163,19 @@
             </div>`
           : card('Canadian softwood exports by destination', `${expUnit} / ${expPer} · stacked`, 'Where Canadian softwood lumber ships.', 'chExports', { span: true, tall: true, section: 'exports' })}
         ${ind.exportsByRegion ? card('Canada → US exports by region of origin', `${ind.exportsByRegion.unit} (thousand bd ft) / month · stacked`, 'Which Canadian regions mill the lumber going to the US (Global Affairs Canada export-permit data). The BC Interior\'s volumes have fallen sharply — mill curtailments and beetle-kill timber decline.', 'chRegionExports', { span: true, tall: true, section: 'regionExports' }) : ''}
-        ${card('US share of Canadian exports', `% of total · ${expFreq}`, 'How reliant Canadian softwood is on the US market, by export value. The duties have squeezed volumes and prices more than they have redirected the wood elsewhere.', 'chUsShare', { section: 'exports' })}
+      </div>
+
+      <section class="section-head" style="margin-top:26px"><h2>Leading indicators</h2>
+        <p>Price, demand (US housing) and trade-reliance signals for the softwood complex.</p></section>
+      <div class="grid">
+        ${card('Lumber price — CME futures', '$/mbf · monthly', 'CME front-month lumber futures (LBR). The current contract launched in 2022, so this live series starts then.', 'chPrice', { section: 'price' })}
+        ${card('US housing — starts vs. permits', 'thousands (SAAR) · monthly', 'The demand side. Permits lead starts; both cooled through the 2022–23 rate cycle.', 'chHousing', { section: 'housing' })}
         ${ind.newHomeSupply
           ? card("Months' supply of new homes", 'months · monthly', 'Unsold new-home inventory relative to the sales pace — a housing supply/demand balance gauge. Above ~6 months signals soft demand and less lumber buying.', 'chSupply', { section: 'housing' })
           : card('Industry inventory', 'index, 2015 avg = 100 · quarterly', 'Distributor/mill stock levels.', 'chInv', { section: 'production' })}
+        ${card('US share of Canadian exports', `% of total · ${expFreq}`, 'How reliant Canadian softwood is on the US market, by export value. The duties have squeezed volumes and prices more than they have redirected the wood elsewhere.', 'chUsShare', { section: 'exports' })}
         ${ind.newHomeSales
-          ? `<div class="card">
+          ? `<div class="card span-2">
               <div class="card__head">
                 <h3 class="card__title">US new home sales ${provBadge('housing')}</h3>
                 <div class="seg" id="salesToggle">
@@ -178,7 +184,7 @@
                 </div>
               </div>
               <div class="card__note" id="salesNote"></div>
-              <div class="chart-wrap"><canvas id="chSales"></canvas></div>
+              <div class="chart-wrap tall"><canvas id="chSales"></canvas></div>
             </div>`
           : ''}
       </div>
