@@ -662,7 +662,7 @@
         },
         {
           "period": "2026-07",
-          "framing_composite": 638
+          "framing_composite": 635
         }
       ]
     },
@@ -2496,13 +2496,25 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-14T13:22:36.379Z",
+      "fetchedAt": "2026-07-14T19:11:35.995Z",
       "items": [
+        {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ld3Bway1BUnZxakhON29wSXZnSlYzdGxldkM0NjBSWnFULTBkSmNpLS1Mb25sQU5FeDFPUm5lRnpnN2MtanJOZzBKTkhHOFdNWEtTN1laX3NfNENsbmgxd2szM3pPdlRST2cxVjd3?oc=5",
+          "source": "AOL.com",
+          "date": "2026-07-14T17:30:12.000Z"
+        },
         {
           "title": "Lumber Slips From Two-Week High",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWlZwMGQzWFJETGhyMGFMUUk0aHNpOVdXb1E0aFExTzBzZjJQaUs1akgzUU05MC1Xb3A0VFpPTG43a3V5azQ5ZkVTSi1Rb0VJTDAyM0t1X09oUWNCMHlzNW1HTVlIT3VvdFM5ZV9seExTUUxjQlh0RjNERW05akM0WWw2bnhDNFlUN2c?oc=5",
           "source": "TradingView",
           "date": "2026-07-14T09:40:02.000Z"
+        },
+        {
+          "title": "Madison's Lumber Prices Index reaches $547 mfbm, up 4% month-over-month",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaUR2Y3NITXpybk9QeUZQOEI0cW55Q3BIZ1Bid1daR1FqV21WT3BXUUYtaUZzckQzdjB6VXVLdUlmMzVQYmVyLUplcURUbWVTVU13ZVpXOUptb0U5SEV1WnZ1eTFId2RSSHlpVjNuRmFRelFEN2JqUUpMWVBnSkNiblI1SUVCalBqVFdkV1dFWUFKblBCam1ROGhxX2UwY2JfZ1daSk51bGtBeDQ?oc=5",
+          "source": "lesprom.com",
+          "date": "2026-07-14T09:01:20.000Z"
         },
         {
           "title": "Louisiana-Pacific (LPX) Falls More Steeply Than Broader Market: What Investors Need to Know",
@@ -2535,16 +2547,16 @@
           "date": "2026-07-11T16:07:40.000Z"
         },
         {
+          "title": "Weyerhaeuser earnings preview: What to expect",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVEhMT2p1aC01UmozNmtQM2RORkVIR1EzYnA5ZzBWOGM3NUE3NnJrSlZjTXdualpmSTRyLXFZcXFhTGtUeVlmZi1RU3JLTHJrbnlnOUV6eHdhSUV3clYxVmtJbnpBYW9udkxRYW9obmpSM0Rxd0p3WDZqWE4xU2ZnNm12alRnVi1FT3k4RzRYOEo4V0hyc0Y3WGtmdFUtWnc?oc=5",
+          "source": "MSN",
+          "date": "2026-07-11T14:06:14.000Z"
+        },
+        {
           "title": "Weyerhaeuser (WY) Could Be 25% Undervalued Following Its Recent Rebound",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1hMTGFmZVFGT05PWFd2UHh3ZWZ3V1JOWDhLMmVabWJmTERtLXhUM3RRbGVKV0h6SWE4Vk5BZXJWbVlfTlZUOVFmVzZqRWtOV1NMakVCbWxTRU5FVFRHaDd0M0h6SVJTemJkUEVwQzJHb1RTV3M4WWNSWWVHXzJ5UW1mY29Ua3AxMy1WWTlFY2tPdXF5aEFvN1Zla2FUd0tiTXl1bDVBbk1fS2ZyLWZ6bXdldzRKemM1SkxRSlRBUlJqVXJLSmZCb3J30gHPAUFVX3lxTFBwSXFpRThZRlM0dldHWnVCYW10MmR5RGs1cWhfd2Y1X09ka3lDSjdYbHJ0V0hVdjhvb29Ka3dwNjc5OWlZTG1YZmdzVk9yLWwta2l2X2hxTWhFblFadTF6TGc0YkV1OHBLNXFlS3haa01wbjBqQ25mZ3IwTVFaZG5YWDdSZk9KX2pKQm5TM0hZeC1POWptc1dycDNsSTM3eVR6QlpoMHFmaU5QQVZEMnVSd3VKZWgtN2MxdVUwcjZzWjF0Ti1OaFRjbXVIR2RtMA?oc=5",
           "source": "simplywall.st",
           "date": "2026-07-11T13:03:06.000Z"
-        },
-        {
-          "title": "Weyerhaeuser TimberStrand LSL by Weyerhaeuser Co. - engineered lumber targets consistent strength",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVjdsV2Z1RkN2MERLcHBwd1ZkN3AtbFhKUUlITXFmeEJ2MDQya2MyM1NQbkFROHV2SVBsUmM5ZGpQZDROZHdHaVFxa09WcDViTW5GcjVHTkJiMl81OHJta01BNTctVW56RE1vWDI2YS1sU2gtaTVqSjVKb2lHbmFSN0JFS3BwSzM4ellNenp1SmZWNlQ0Ujc0WEExNWFyaVlUdExNQURiWl9XdEtzNU5aN1k1UjNKbzhUNG1tNnA3RXJ5YWs?oc=5",
-          "source": "Ad Hoc News",
-          "date": "2026-07-11T05:45:26.000Z"
         },
         {
           "title": "Madison’s Lumber Prices Index July 10, 2026: US$547 mfbm",
@@ -2613,24 +2625,6 @@
           "date": "2026-07-07T11:23:25.000Z"
         },
         {
-          "title": "BC-Lumber Futures",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JTXlySFlpM09kMFZKSC1nYlplOW1qd2VzclM2OEF4cjdvQXVUTnBtS0JkV2pvWHZVZDJwcnB2ajZCODltVEdGNEktTnB1TnhVZExLcF8xRnNNTVFySW0tYTdNLUhSTC1HdHFILV93?oc=5",
-          "source": "AOL.com",
-          "date": "2026-07-06T16:46:19.000Z"
-        },
-        {
-          "title": "Canfor Completes Acquisition Of Calgary-Based PinkWood Ltd.",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRG9BU1FWLU9yV3FlUk55ZS1HaVVGVDNRVllxcmhhY1owcU5VVks2VkJKUmdMaEhXQzh3ekQ0LVNsRGNIWlNzazNfZnFCNGNab3FBLV9JTFlic0FrRTNoZnhRMGZ2MHhpZmlUZWs2d0JFM2VNWnFETlZIZHVOMFMydnRaNV9KXzRSWlE2VXgtNTdhc0lmVUxVdG1RdzhIZFZUTmhyQkI1cw?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-07-06T14:58:53.000Z"
-        },
-        {
-          "title": "Canfor acquires PinkWood",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XRksyandSdUdaV0tCSG05QUNMN1NHNUJ2bHNCR3dMdGpFczdtdGptRmI2TUJyMmVmWlNidVE5WlVad1kybWljX3hOZ3RpRTI0QmxtSXNTMGMwNklhZXNlaUpHaHgxZXZXbjNjaQ?oc=5",
-          "source": "Pulp and Paper Canada",
-          "date": "2026-07-06T13:45:08.000Z"
-        },
-        {
           "title": "Lumber Market Watch: Could Housing Demand Put Timber Back in Focus?",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc2hZN0EybDl6Y0VnMkRGb0dmUmVKRVZYMk9yYU1USVhZcG5fMzZpUGZ1Q29pMUhXZDYydzdMSnBmUUJRVHhmU3FRT2llMzk4YktCTGdoZlg4Q2FtRC15bklVSVg2ZjJONHRqREJ3cENKX0I3eWVvZjdvY1hYNlRHbktzRUZ0R2xTa3Z4NVJMdi1SR2ZqdERLQ2o1VDdfUTFob3Jtd3dINGZXUQ?oc=5",
           "source": "Kalkine",
@@ -2641,12 +2635,6 @@
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbERXX0t1eFdyTkhhUzlsb2tLbHVjN1BlbW5TODlPVlJLeWswd0xCallZZ2drR2hYVFNLZmNGY2IwNXVpYkRFakt2MFBQQ3FYcmVod2VsTUxfSkNsUzlwZ1h1N0c3dnY0a3ZhOXFBRVhqaFNoZW94cTJZeUFSdVJTaUloby1SVkJVNklBTVV2Yw?oc=5",
           "source": "IndexBox",
           "date": "2026-07-06T06:20:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser Earnings Preview: What to Expect",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUGE4LW43WFRDTThJUkxXTUZxU016SEVrUzlCTDJhWEdDX1FmSjBRSEtfanBJaVIxNGhhQm50ZTFocDU2elBRMHlxVHk5VUpJVFNkQkpFVnB5aHdQM19HQ1NIOVlubEViLUM2SEpGZ01wR19wLXZPOVB2dUowRVVxbWw1Mk5ZaWVMOExOUFRnaG40NGRNSjFMaW5ZUkt6Tjk3ZDhZ?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-07-02T07:00:00.000Z"
         },
         {
           "title": "First Nations purchase shuttered Canfor sawmill in Vanderhoof to create industrial park",
@@ -2667,16 +2655,28 @@
           "date": "2026-06-30T16:27:10.000Z"
         },
         {
-          "title": "TimberStrand LSL from Weyerhaeuser Co. - engineered lumber for straighter walls",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWVB4Nm1ZRnBNT0w2WHkyeUhuRVN5Y19SVWFZMTRFN0RrZjhmREdER2NjaTRNVTVqTlMyRldjNmpmelpNcFBQYVJEbHJ2M0JfZlFHUzJ1aGRoVGFObEtWLXZsMkJFdHlsamc2eWV3NndXYWNBY01yc1g1QURTS25LRXc2WjZfWXZhQmFicFZXanVDamJZekx4TWhNWDUtS09pNVVTX2x3TGdxR3R0eWwtcl9YMEFjYm5yTDRtRmlhVHpWbW9iVVlvYQ?oc=5",
-          "source": "Ad Hoc News",
-          "date": "2026-06-28T17:59:02.000Z"
-        },
-        {
           "title": "Here is What to Know Beyond Why Louisiana-Pacific Corporation (LPX) is a Trending Stock",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVJFeUVTTDFleVlCNExuRHAwbk5xdE15aHJ5QWNJeGJuUk1LS2cwSUZqQVJpNDNZTVVpVFdwRVo3NlhHOUo4RXI5SDlfQTJHcEtrYkFJTWE3WGlsNWt3MHRrU2JrQzZEMGJQMk8wQm1DSWVnLUticlk0REcxQk5aX190M0ZhTWs1ZFhjc290N1ctTEIxVFlLdVZJY3M5cms?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-06-26T07:00:00.000Z"
+        },
+        {
+          "title": "Interfor positioned to surge as lumber prices climb, says BMO",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZTNWTVJmY2lzY1pzMzdobGI5dW1ZNEdFSkFBSWlOLWJQWVlmVDRlZDY1YjlWV1ZQVTBndXVtaFVoa2E1OHVIY2pGSmY0aVVIUUdWQVBnWEdVNDlzQ05QZ1ZkekY1Q0g0X2JqeEtnbXJuX05NUGNUTDBfMnNuTUdJOTBwNHpNRVNUTUFRd1k1ckhaSFU1dk1Vd0xOQ1RXeUVwWWdNRmNpTFJobXM3VW9ZSFlvNElraHZxUVY2Tmtn?oc=5",
+          "source": "BNN Bloomberg",
+          "date": "2026-06-25T07:00:00.000Z"
+        },
+        {
+          "title": "Weyerhaeuser Cuts 2Q Wood Production Guidance by $20M",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUkJVeXA3aGxzY0NPdEFlVWxmR2Nyc0tCQnNzaWJmbGxqYmxTcllpZUhMZFZLOUVqUVEwZ3lpUTkyOUZxbXg3em5HOEoybThQdFBXb0p2bkpKSC12ZUJ2WTB2OGJHX1lRRmRRSWpuVUxXemdXR2ljRmN2MWd5blhpT0R0TTZRSUg4cmNjb2pET1ROWkN5TW92SnBB?oc=5",
+          "source": "Moomoo",
+          "date": "2026-06-25T07:00:00.000Z"
+        },
+        {
+          "title": "Weyerhaeuser sets July 31 call after second-quarter results",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc1BTU01vdWhQN3dvTHVnY3dSdGszMHRHRlFYMVpfeTdmZFZENWYwZElURHA5ZzhROXdCdVdzc2szRXl6LXdWZ2JmeW1XVzAxbHU5c29ZSFJocHA4TUp0NHVjbnByWTJrMVpiUW5GVWhUYWNQaGxmWVhYVkhlU05VRjRyWDZINXJBLXpocURCUE03aXl1ckNvRXNGWWpMRGcxSlJWdjFCT0VvYk0?oc=5",
+          "source": "Stock Titan",
+          "date": "2026-06-25T07:00:00.000Z"
         }
       ]
     },
