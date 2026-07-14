@@ -2497,8 +2497,14 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-14T07:54:33.095Z",
+      "fetchedAt": "2026-07-14T13:22:36.379Z",
       "items": [
+        {
+          "title": "Lumber Slips From Two-Week High",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWlZwMGQzWFJETGhyMGFMUUk0aHNpOVdXb1E0aFExTzBzZjJQaUs1akgzUU05MC1Xb3A0VFpPTG43a3V5azQ5ZkVTSi1Rb0VJTDAyM0t1X09oUWNCMHlzNW1HTVlIT3VvdFM5ZV9seExTUUxjQlh0RjNERW05akM0WWw2bnhDNFlUN2c?oc=5",
+          "source": "TradingView",
+          "date": "2026-07-14T09:40:02.000Z"
+        },
         {
           "title": "Louisiana-Pacific (LPX) Falls More Steeply Than Broader Market: What Investors Need to Know",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmZoZTRHOUxDdDJWRC1vNldfbXhOekhSaW9EYS0xZkJIbzNQSk9Wa05NYXFMcXRNek9QNmlLazdVOC1vMGxueFRtYzZJaFlHMFNWSnduOWZROEdrQU9FeGsxY2hZLXpyd1J5UVdxSGpjYlFuVEpjanBjOVlUU0dmT2ZRSlNXemEy?oc=5",
@@ -2516,12 +2522,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMnBMVDFjNU1zSk5FZWd2TE9BNHVmNWlaS19iS1E0SXJvdTgwcGFLeldiV1VWUlJ4RXVkekQ0STNzR3dNNFJ0MlkxanZLbEwzMjlYVTd0RVB0WFl3eldVdFBuWHJESVo3UkJNYUpSU1laWk9abjRNYU8tdVJFQXNwcnlGTmM2Q24yRkNEZVNkVE1xdDYwa1JYQk1BdVBRZGdOS2k2bnpfUk9KU0dhTS1jakZTLV95U1pqZFNvbll5VQ?oc=5",
           "source": "dars.gov.et",
           "date": "2026-07-13T15:53:43.000Z"
-        },
-        {
-          "title": "Why Interfor Stock Is Back In Focus After Updated Market Expectations?",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbF9YVXg2Yjk5b1lJWEppYUtsdHd1aFpwNG5fMlNaS1FSNlRTbnZwNFRQMnRFcXVqZFpsT3RySzgxQTBBRE12NldrSUZMX19jZ2pxd1V5WE1TTnJBM2JnMENrLXZKWmpDWW9vMnhsQ09GenRobVZFd25qYXl6WTl1bXpWNEp4ZkE2eU1RWFVqYWJkcWp5eHRvWVNVRE5GblFDbzNXRU5MUGJlMjlKdENibzdZSXo?oc=5",
-          "source": "Kalkine Media",
-          "date": "2026-07-13T14:26:00.000Z"
         },
         {
           "title": "Weyerhaeuser stock reflects timber REIT exposure and housing demand",
@@ -2570,12 +2570,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdkdJS09fRGdaQmRVTXlfMXh1WDJqcDNxb2ZqMGkxRW1SOXJkVlVMZnRyR1k1VENScTlmQ1Rsc0VDOHYzMFZOUlkydXpfX3B4WmpxbHlQYU9wRUh1WjFXMnhvUTRrRGJOeUxRS2Z0a0pZcXJEa3cxY2NsUTFqS2lzanp1aUZCUXZzc3EtSG5GTWtXZmZ4RWVlNGV5aVhrSURxdUNaWEFjQzRBeGhYT1BUcXZyVGtEZTQ0cVA2bDVRY08zOU5PUFRSTHpuSHFEQQ?oc=5",
           "source": "IndexBox",
           "date": "2026-07-09T06:32:00.000Z"
-        },
-        {
-          "title": "Lumber",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vbEJsaHVPbHI0ZmtCSUZ3YXdHc2xnRml3cE41eFhZYURNSEdTWHdlY2Y2eWtSc2VDc1BjNlpDdDdVTUd0T0dSMDJQdkVZckpIVEExQkFjNFNlcm4tUk5BOWJXZnNmYkxCUlJEZ3FITWNWRnNHa0F3?oc=5",
-          "source": "CME Group",
-          "date": "2026-07-09T05:00:46.000Z"
         },
         {
           "title": "British Columbia softwood lumber production falls 9% in April",
@@ -2678,6 +2672,12 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWVB4Nm1ZRnBNT0w2WHkyeUhuRVN5Y19SVWFZMTRFN0RrZjhmREdER2NjaTRNVTVqTlMyRldjNmpmelpNcFBQYVJEbHJ2M0JfZlFHUzJ1aGRoVGFObEtWLXZsMkJFdHlsamc2eWV3NndXYWNBY01yc1g1QURTS25LRXc2WjZfWXZhQmFicFZXanVDamJZekx4TWhNWDUtS09pNVVTX2x3TGdxR3R0eWwtcl9YMEFjYm5yTDRtRmlhVHpWbW9iVVlvYQ?oc=5",
           "source": "Ad Hoc News",
           "date": "2026-06-28T17:59:02.000Z"
+        },
+        {
+          "title": "Here is What to Know Beyond Why Louisiana-Pacific Corporation (LPX) is a Trending Stock",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVJFeUVTTDFleVlCNExuRHAwbk5xdE15aHJ5QWNJeGJuUk1LS2cwSUZqQVJpNDNZTVVpVFdwRVo3NlhHOUo4RXI5SDlfQTJHcEtrYkFJTWE3WGlsNWt3MHRrU2JrQzZEMGJQMk8wQm1DSWVnLUticlk0REcxQk5aX190M0ZhTWs1ZFhjc290N1ctTEIxVFlLdVZJY3M5cms?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-06-26T07:00:00.000Z"
         }
       ]
     },
