@@ -2497,19 +2497,19 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-15T20:58:04.544Z",
+      "fetchedAt": "2026-07-15T21:00:31.008Z",
       "items": [
+        {
+          "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNkhjNHE3eFNsVHFiaENtdjQwcVVla0hiVnNYNGJJTXhTVWZqcjk5ZWJmbW91a3lJaGtLOWFYUnRpVktzcmc4b1B1VFRTR3o1WDBMc3lNT292TGJPaFk0UGNVZlhBczRPZUxya19OSGNFVXVWOW1KVXd0ZmpEaFVaUWNZMTRkNWdFRWc1WWFGVEhVN2xnYnVseG54WnBMam91aDNSM0sycUI?oc=5",
+          "source": "Maple Ridge News",
+          "date": "2026-07-15T20:15:45.000Z"
+        },
         {
           "title": "Union says B.C. mill closure leaves workers \u2018reeling,\u2019 as industry woes persist",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMUd6ZjFvZ1RIZG1hNjlnZllwdThzaWlfdXBZZlNqQnlpU0dYNkI1eEJvZEoyUWh1NC1fRVcyamNNLVdfMEx2M0NEcWdaS1NtY0tmMmRvM3g4SnlMWWpBdllDNkkxU3RtV09HT01iaEw2eEtwYkpzZlVrd1ZzLU9xc3p0Zmk0eFU5c1dFbnlBUGwwVUswS2NhMWRTNUZVLWtBaHFWQkVOcEhiMGpqeEZWbmhORVFQZ2tS?oc=5",
           "source": "CityNews Vancouver",
           "date": "2026-07-15T20:12:52.000Z"
-        },
-        {
-          "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZUNLWlhhYVphX2JYdjBYLW5ZZjVmYXVCVExNN3Q4eFR3TER6c2F4SlZ0cEg4X1M2NTBJRC1kR2lpN3g3WlVvWG1mMDVwcW9hdl9YWlBhdVFmU0FDekJEVlcxTWFKSnlRTk0xSDhIZmlqNjZLbFlzWEtMV2E2Nmdud1hmYzByWktEUDlFN3Z3Uzd4WWFmS1lDOGlzNmVqSUlnQS1PVU1qUjY?oc=5",
-          "source": "Aldergrove Star",
-          "date": "2026-07-15T20:10:38.000Z"
         },
         {
           "title": "Canfor closing Prince George pulp mill, hundreds of jobs lost",
@@ -5089,21 +5089,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-07",
-            "mean": 934813,
-            "lo": 830503,
-            "hi": 1052224
+            "mean": 934817,
+            "lo": 830507,
+            "hi": 1052229
           },
           {
             "period": "2026-08",
             "mean": 758296,
-            "lo": 666807,
+            "lo": 666806,
             "hi": 862338
           },
           {
             "period": "2026-09",
             "mean": 810909,
-            "lo": 706331,
-            "hi": 930970
+            "lo": 706330,
+            "hi": 930972
           }
         ]
       }
@@ -13819,7 +13819,7 @@ window.LUMBER_DATA = {
     ]
   },
   "fires": {
-    "asOf": "2026-07-15T20:58:15.271Z",
+    "asOf": "2026-07-15T21:00:33.808Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 24h",
     "dayRange": 1,
     "total": 9360,
