@@ -2496,13 +2496,13 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-15T21:00:31.008Z",
+      "fetchedAt": "2026-07-15T21:05:19.335Z",
       "items": [
         {
           "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNkhjNHE3eFNsVHFiaENtdjQwcVVla0hiVnNYNGJJTXhTVWZqcjk5ZWJmbW91a3lJaGtLOWFYUnRpVktzcmc4b1B1VFRTR3o1WDBMc3lNT292TGJPaFk0UGNVZlhBczRPZUxya19OSGNFVXVWOW1KVXd0ZmpEaFVaUWNZMTRkNWdFRWc1WWFGVEhVN2xnYnVseG54WnBMam91aDNSM0sycUI?oc=5",
-          "source": "Maple Ridge News",
-          "date": "2026-07-15T20:15:45.000Z"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdGF6cmMtb2Y1cl9pWF8zWW1NNlQ3N3V0dnRhX185Njl2eXo2TWdBTnM0eXVKYXZMS1NZdm9UUEpwOG0zbHBaNWxEY29vQXo0SmNMTDBZNVEzQU5oZHdVZUdXRmd5MFlrcW53ODBjODR3cFhyR2MwUmZSSmwtaFpTSHlaZ1ZieDNwN2Fqb0Q0VGUtbHc1aldHLUNPNWVvSUFKLS05eElrWDdKUmpv?oc=5",
+          "source": "Mission City Record",
+          "date": "2026-07-15T20:15:28.000Z"
         },
         {
           "title": "Union says B.C. mill closure leaves workers \u2018reeling,\u2019 as industry woes persist",
@@ -5088,21 +5088,21 @@
         "series": [
           {
             "period": "2026-07",
-            "mean": 934817,
-            "lo": 830507,
-            "hi": 1052229
+            "mean": 934813,
+            "lo": 830503,
+            "hi": 1052224
           },
           {
             "period": "2026-08",
             "mean": 758296,
-            "lo": 666806,
+            "lo": 666807,
             "hi": 862338
           },
           {
             "period": "2026-09",
             "mean": 810909,
-            "lo": 706330,
-            "hi": 930972
+            "lo": 706331,
+            "hi": 930970
           }
         ]
       }
@@ -13818,7 +13818,7 @@
     ]
   },
   "fires": {
-    "asOf": "2026-07-15T21:00:33.808Z",
+    "asOf": "2026-07-15T21:05:23.056Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 24h",
     "dayRange": 1,
     "total": 9360,
