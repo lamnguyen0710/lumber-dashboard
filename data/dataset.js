@@ -2497,25 +2497,55 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-15T01:55:54.029Z",
+      "fetchedAt": "2026-07-15T07:59:17.355Z",
       "items": [
+        {
+          "title": "Canfor to permanently close Northwood pulp mill in British Columbia",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSHlXVXNJbHNBUDBVVzdVTG82ZEFuOFFEVVdCRGVYY3UwZG5HdWlSRlRKVWdmRnRUSVZJczhDYm9Qam9HR1hqXzMwbVZsa18zZW9FSks5MVo1Z2NETXhyTk00ZmxCZHRUblRFai1melpIVnZLMnZESkM0VXE2UU94YjhJWQ?oc=5",
+          "source": "Fordaq",
+          "date": "2026-07-15T07:58:25.000Z"
+        },
         {
           "title": "300 jobs lost as Canfor closes pulp mill outside Prince George, B.C.",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNkRNUkFFZVEzQXVteW01T2FmWHpBTFpkQWRrS1ptZXJxdUU5TGpWWFBjcU1CNXFxSDVmYTNkbXdaUlhRd0NSanV3ZjlheS1reDlwZ2szMFAtRV8tT2sxbmRZMTFHV1BxY2JaMl9FMUo5ZTExaHgwakRYYmxLYTRSUA?oc=5",
           "source": "Yahoo! Finance Canada",
-          "date": "2026-07-15T01:35:00.000Z"
+          "date": "2026-07-15T07:32:46.000Z"
         },
         {
-          "title": "Minister’s statement about the closure of Canfor’s Northwood Pulp Mill",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1eFJfdUhHWlZlLXpreHlhdjJaSmwya2NuT2MzWkpsR2xjMDBNVXNxY0RISEdkNlRqOVR6MHBUU3ZrV3NhNHdVbnZRXzRoSUJNWWRpc3VEc043d255Nkxj?oc=5",
-          "source": "BC Gov News",
-          "date": "2026-07-15T00:54:40.000Z"
+          "title": "Canfor (TSX:CFP) Is Up 7.2% After Permanently Shuttering Northwood Pulp Mill – Has The Bull Case Changed?",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdTFPVm5hVnZ2T2R3dk1wT2t4MlRrNmxHeUtpeFZfRU5UYnZPcDZJcTQzU3diQ2RBUEo0ZlJYTHd5S3d3SktVZUtxSDhJanFOTUJvSWZJZl9sbVNxWFp4cVp4T1dDV2tCVnIyUUhpTkYxaFFscWRVTVVBTzE4ZHd5eGZPSHlWYm42akNQX0JfM1RLSGRpbGdwc29admZtMS1xelhwRkU4S0tnUHMwa0dOcVhOdTVXQlMyRlJScnpDV05OZkxtOFN0N9IBzgFBVV95cUxNRmRWZ0E3NUVTNmRVdzgzMmhHZ3VaR0FybkFQX2NxRmJzXzVlQUxxeEM0ZVBCektlaW04MzgwdGJKbzhsZ0R1bVNvUG9SODZOY2RCLWRlQlR4Ny13LVpnNllLdURzVHBGblF1UVhaU0xRc2w1SXhJMHZ4VTc3VU82eUJSRmhabUNHYlBidlY1cDlwcnFVOGZlUGREQnNNNlBxWkxkcUNuSExEVEtwNnBYaXItc08zVEo2cnpLb0ZfNWhDSl9wdmFvRV8xS2hDQQ?oc=5",
+          "source": "simplywall.st",
+          "date": "2026-07-15T06:42:29.000Z"
+        },
+        {
+          "title": "Canfor announces Northwood Pulp Mill closure; COFI and forestry minister respond",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbmxfN2xDNkhXUUtWSGN1V2RSbW44bUMtdjJBTWFDWmVsaVZnVkEtT0ZsNFhuWHlRdy1fUmQtTnF4UHZNbzJaZklTZTFpMUVadTlFYTBHZWFFYzZscndzUUM2X01hcjZrbFdYT3NkV2NXYkJUQnp3RHEyX3NyYnRfbmU5bTBWMGNYYXVZTmVobXVZZHlLdW9sM3ZNSjVHZG9hbmVOX3FxLVV4cDducTZaRm02cDMyUQ?oc=5",
+          "source": "Pulp and Paper Canada",
+          "date": "2026-07-15T03:47:19.000Z"
+        },
+        {
+          "title": "Canfor to close major northern pulp mill, fostering broader industry concerns",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbkNlWHZCQ1FDbm1BbTFtQW44ejFsT0JGS0Y4bFRlWmhkanhxcklIbXJsODA5QldYTHB1TGVrOEhBTmFrZEFfTGVCT091UjBHVjdldlZGQkdROXlRR2NLVFNaZ29LSWJwMV84cXoweVNkcXZYUTVxX0o1dG5JdTRNN3RR?oc=5",
+          "source": "Radio NL - Kamloops News",
+          "date": "2026-07-15T03:16:21.000Z"
+        },
+        {
+          "title": "300 jobs lost as Canfor shuts Prince George pulp mill",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeDhZX1ppY3cxcTZWRnd4RDl5aXpObWhZQWw5dTc5STZwSG9QaU1tUlpNdGtXTTlhNTg4VkpmYmhsN1ViemR5enlwTnZVdjNHZUgtdFJoU0xLdnNvWXlyM1JwZmtqN2NxVlZZSzhMQ3J1cnNDeUhRdndmaFlaaXRpakttMElndVhESDhv?oc=5",
+          "source": "Vancouver Sun",
+          "date": "2026-07-15T03:08:39.000Z"
+        },
+        {
+          "title": "Approximately 300 B.C. jobs to be lost as Canfor announces closure of pulp mill in Prince George",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdnNTMlBzdERoeW84WkxYUWJIMmdENktLcm4yclhNT28tYmVzajNwT043MS01Y3E3QjNLRTFuWWNUbnc5d0ZkWURvVHlKa1phXy1pZEt2UWxTaXpNclg5d01WaTI4S2tQTzVzck9rd25fc0RpMmt3WGppWkIxRkdtTVpaZ3QwdEpzNDVCOXNfNGM2c3FwUmtGdzRoZWhfdzN4SU1YZjF4dGFPZk9YZl9FQ3l2ZjRzdXV2bTRndVBRN3lfV3d3UlJfdldVa3lZbTNVVHc?oc=5",
+          "source": "CTV News",
+          "date": "2026-07-15T02:00:00.000Z"
         },
         {
           "title": "300 jobs lost as Canfor closes Prince George pulp mill",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16MXpCdjhKMXQybzNISF84eTZGR05nZzhfaGgzdHE1QmRTcFcyRHJzQWNSX3hjRzA2NzRrNldYSVRMbHRseFhMbHBkb3JyWWlKUF8xNi1xWUpyeTZpTXpUb3pxTG1NdHNFX00ydEROUzB4NDQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONUVnNXhxUGF1aWQ4b2cycEVMSC16d3NlSVF5bC1lUkNkUkI5V1lkY2paVGtKcms0eFdQeFpuMjJUWG9Nd1BfbVkxUm9yMDhoMlhmR2NGOW5vTE44c3hMdGFDblBsVU5TZzBUQnBRd3VORXM0eVFqMFRSOWxsVVItQm1sa1E2dXB2SU56aDVFbTlTTWZOV2pfM2dkX3NGNkZVX0xWVA?oc=5",
           "source": "Castanet Kamloops",
-          "date": "2026-07-15T00:25:52.000Z"
+          "date": "2026-07-15T00:25:54.000Z"
         },
         {
           "title": "CP NewsAlert: 300 jobs lost as Canfor closes B.C. pulp mill",
@@ -2527,13 +2557,13 @@ window.LUMBER_DATA = {
           "title": "Canfor closing Northwood Pulp Mill",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY1o2djFsZ0FINkV4RjFzaGV0NTN3SVFhWENlODFHZ08xZi1CMmhxaGlmeGEtb3JoN2RrLU9zbzc5dE12MFh1ckM4MjY1d1d3NzgzMVVKWkFxUmJJVGF5LWl2em81TGtQdDc1UktjOWxqYmFPcHcySmlPWVlvenNKM01VWGMxd3FZYzFOVDdHOHE0WHVy?oc=5",
           "source": "Prince George Citizen",
-          "date": "2026-07-14T23:47:48.000Z"
+          "date": "2026-07-14T23:52:53.000Z"
         },
         {
           "title": "300 jobs lost as Canfor closes Northwood Pulp Mill in Prince George",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16MmdCN2JiX0dxcENwS3VlZ2RQQThvQzZwNU5ubDhiRUl5Nm9SYWdQdG5jdHVhWVNDb2U5a0VRRkxkNkMtNDhyOE5JSTQ1MWVUVk5MZjRWV193eDhpTGZoSnpudHJpWFhvbVpvUmZpbHN0RlJPbmVz?oc=5",
-          "source": "Yahoo News Canada",
-          "date": "2026-07-14T23:40:59.000Z"
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVXBubWc4YVU0RTktekRCeS01V21CZU5UU1dTM0Q5cHFYTThkc2ZTVjRISy0xQXYtdUZWVlJYT3h4eGZsY1Q4VHFENFlZSHowM0lnY3dNREZkdmNXWnFkM2dTOXZ4MmVMWHFnRURta3RnV3Fkd3o5MWhGUXV1Tks4Z3ZB?oc=5",
+          "source": "CBC",
+          "date": "2026-07-14T23:40:00.000Z"
         },
         {
           "title": "Canfor announces permanent closure of Northwood Pulp Mill",
@@ -2549,8 +2579,8 @@ window.LUMBER_DATA = {
         },
         {
           "title": "Canfor announces closure of Northwood Pulp Mill",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNlBVQlBycWFaNVVlWktEM1VjUFEzbnRhQ2VBSE9QTzNURGpRRlE4UkNlYklIaFhWY2pRZkQ4UUtuaHJLa052dUN1eFBkcmU2UlA1YmdUWmlDdUkzakx4MEZCaGNfSWljMVNPQ2VsaENmN2pWcjZZcEtDS0Y5cXpYeGZmRGIxcGRZeGpzdVI5M1R0Zw?oc=5",
-          "source": "Yahoo Finance Singapore",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR2dfN08xVHo2bU5FNXRURG9wMVVnVnNBcHRnU1RHNzJ6cXlfU3FUbnktdjctSldsbTllVk5jUjRvU1hJcU5sRXNCazFpQTY4X1FOVGVJbko3M3hTWUtiRWo1M3Jjc0xfczJQZjRUenV2dktCYk5qdTRneDRZWG0zLTV5elNNMHJsSzY5UnpZM1NiSEx6c1l4TEw3R2tMNk5uTzdSNUhickp5aEtDN2h4TmcwRWZzazh4dThZ?oc=5",
+          "source": "GlobeNewswire",
           "date": "2026-07-14T23:15:00.000Z"
         },
         {
@@ -2596,10 +2626,10 @@ window.LUMBER_DATA = {
           "date": "2026-07-13T15:53:43.000Z"
         },
         {
-          "title": "Weyerhaeuser stock reflects timber REIT exposure and housing demand",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSi16LVFxOW41T3JkZk11Y0dwSkhJcjMyU3NSeHNtaEFCMlBncmZ2TW5EUFh0akJRT2lDM1h3ajc1LWdMLVkwTTFJM2VmWDdyUVRMcERpMDNCbWVjeU44ZHE2d0tnLWNfYXBPZWpOcG1SdzcxbDZTU3RGcC14bWcxTi1fWDVXeEJKRE5ha285LVd5aUtsVk1lY0NCWUQ0VU5RbkJWeTJKLUtlOUZiRERaR0tScm03aU1zem1PQkFlRzUxMzZy?oc=5",
-          "source": "Ad-hoc-news.de",
-          "date": "2026-07-12T05:35:04.000Z"
+          "title": "Minister’s statement about the closure of Canfor’s Northwood Pulp Mill",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1eFJfdUhHWlZlLXpreHlhdjJaSmwya2NuT2MzWkpsR2xjMDBNVXNxY0RISEdkNlRqOVR6MHBUU3ZrV3NhNHdVbnZRXzRoSUJNWWRpc3VEc043d255Nkxj?oc=5",
+          "source": "BC Gov News",
+          "date": "2026-07-13T07:00:00.000Z"
         },
         {
           "title": "Interfor (TSX:IFP) Stock Sees Fair Value Cut After Analysts Weigh Fresh Production Results",
@@ -2648,36 +2678,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWXF0RWM4ZzFZV1RxNnFUaWJaLU9kZFlwbGJzZTdtYmRGakZmS1E0dURZbzVxRDlBSm1kNHdEX0Z4dy03aGlyamdYeFJtN2FGNktwVVJfaHRpU3pEWXdOTHVlTy0xbWFUUnVkTnJKaWlOZGFHckpIc1RXTUtETXRSNF81V2hLbFRqNmZ6N2MzRUU2Q2U4WDR3dTBkeTFERnV2VWc?oc=5",
           "source": "lesprom.com",
           "date": "2026-07-08T20:22:04.000Z"
-        },
-        {
-          "title": "Customers hunt for value as lumber prices increase somewhat",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPckpSM1JscDY0QWRJU0dudkQzcldCZmRwc2JoNUthMURCckgtTmlWZmpTUnBkSjZpUXpXSnNVdFE2R1dfajY4RmJFM0hDakdNdkw4NEdxXzJaRFhFcC1ra285YjJLNWhIVGxnMlM2b0dTSDFtcnlKajA3UURXc19TTEJvSkl3Y2NmUTFBNGxpSXI2bW0zWjVIOHdlUQ?oc=5",
-          "source": "Pulp and Paper Canada",
-          "date": "2026-07-08T19:21:34.000Z"
-        },
-        {
-          "title": "Correction to Green Douglas Fir lumber prices for July 7",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU2N0anVzY1otbVlWTnF1R2EycGxfRElMNXBhWXdxN3ZHX1YwdUVfQnQtenNSWFdMTGF5UjZ5SG1rOUU5WE9WVkVfbjNKcWFlYmNzdVBkUm9wXzJxc20yNXdvSG1uZXJubUZtVWpvTWxqTllKaG9FTVB2WE5qaG5QWTJkclBCSUx1WHBlam9mbTRnSGZ1cXJ2d0hnMklZN0YwWnY2N2ZrTkxMX2wzVGc?oc=5",
-          "source": "Fastmarkets",
-          "date": "2026-07-08T07:41:55.000Z"
-        },
-        {
-          "title": "Madison’s Reporter: Customers Hunt for Value as Lumber Prices Increase Somewhat",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTGNweDJnd0hvMEdmUXl4S2EyM1IyOFVCOXV4bDJQQVJxQ2V0S1BJZThRM3Q5N2VMdXhvLUhUb09aTldaWnlzVkEzVXMwemZqOW5nYW5pQm96QkhJTnNUc1g2Y24tY2VQalBZRkxhS0p6SFdvTjZYX1pGRU1kS2FRczRUMWVadzI4T2pNU3JxUkszNEpSa2R1VHFabnRRX2tfWnN1bkNwYWdRWTM3cXdsa1dNWFU5SXZKc3dIejRQeC0?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-07-08T06:54:35.000Z"
-        },
-        {
-          "title": "Madison\"s Lumber Prices Index reaches $545 mfbm, up 1% weekly",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbXpRdHdOckVTZU9lVm5DQ2Z5RDhIdjBWcFNPOXdzMVR1U01JUHpBUEhyUlJucUJvN205c3dfTDRZUnM3LUIzck9YUmJYeHpzZl9nWlZNNUFXc1ZKSnZ0SWhtSUlMOFlXY0VkZTdxSVR6YjlGaU8zeDVaM3Y1SUFCMmNVQ2JIOFEzQk9TODNzaU5ma3pPMzlqdFNnZ2prQQ?oc=5",
-          "source": "lesprom.com",
-          "date": "2026-07-07T21:56:00.000Z"
-        },
-        {
-          "title": "Canada Presses US on Softwood Lumber Tariffs as CUSMA Enters Limbo",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ONHU1Tm5qVFpWYWVfdGRSUmNIOHl0c1dBVG13Qnc5eFpvNjdzX1FZcjV6bmNpTEJtWmhsWXdjR1BMWDNqOUtTaTdiR1Q3LUdZNklSSksxcGFpXzU0Z2FfSFFaUFZNVjlIX2NVNGowaTMzTW5lbllvT3lfWQ?oc=5",
-          "source": "Wood Central",
-          "date": "2026-07-07T11:23:25.000Z"
         }
       ]
     },
