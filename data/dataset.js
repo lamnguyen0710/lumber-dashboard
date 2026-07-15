@@ -2566,6 +2566,12 @@ window.LUMBER_DATA = {
           "date": "2026-07-15T09:20:00.000Z"
         },
         {
+          "title": "Canfor to permanently close Northwood pulp mill in British Columbia",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSHlXVXNJbHNBUDBVVzdVTG82ZEFuOFFEVVdCRGVYY3UwZG5HdWlSRlRKVWdmRnRUSVZJczhDYm9Qam9HR1hqXzMwbVZsa18zZW9FSks5MVo1Z2NETXhyTk00ZmxCZHRUblRFai1melpIVnZLMnZESkM0VXE2UU94YjhJWQ?oc=5",
+          "source": "Fordaq",
+          "date": "2026-07-15T09:00:35.000Z"
+        },
+        {
           "title": "Canfor (TSX:CFP) Is Up 7.2% After Permanently Shuttering Northwood Pulp Mill \u2013 Has The Bull Case Changed?",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdTFPVm5hVnZ2T2R3dk1wT2t4MlRrNmxHeUtpeFZfRU5UYnZPcDZJcTQzU3diQ2RBUEo0ZlJYTHd5S3d3SktVZUtxSDhJanFOTUJvSWZJZl9sbVNxWFp4cVp4T1dDV2tCVnIyUUhpTkYxaFFscWRVTVVBTzE4ZHd5eGZPSHlWYm42akNQX0JfM1RLSGRpbGdwc29admZtMS1xelhwRkU4S0tnUHMwa0dOcVhOdTVXQlMyRlJScnpDV05OZkxtOFN0N9IBzgFBVV95cUxNRmRWZ0E3NUVTNmRVdzgzMmhHZ3VaR0FybkFQX2NxRmJzXzVlQUxxeEM0ZVBCektlaW04MzgwdGJKbzhsZ0R1bVNvUG9SODZOY2RCLWRlQlR4Ny13LVpnNllLdURzVHBGblF1UVhaU0xRc2w1SXhJMHZ4VTc3VU82eUJSRmhabUNHYlBidlY1cDlwcnFVOGZlUGREQnNNNlBxWkxkcUNuSExEVEtwNnBYaXItc08zVEo2cnpLb0ZfNWhDSl9wdmFvRV8xS2hDQQ?oc=5",
           "source": "simplywall.st",
@@ -2672,6 +2678,12 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMnBMVDFjNU1zSk5FZWd2TE9BNHVmNWlaS19iS1E0SXJvdTgwcGFLeldiV1VWUlJ4RXVkekQ0STNzR3dNNFJ0MlkxanZLbEwzMjlYVTd0RVB0WFl3eldVdFBuWHJESVo3UkJNYUpSU1laWk9abjRNYU8tdVJFQXNwcnlGTmM2Q24yRkNEZVNkVE1xdDYwa1JYQk1BdVBRZGdOS2k2bnpfUk9KU0dhTS1jakZTLV95U1pqZFNvbll5VQ?oc=5",
           "source": "dars.gov.et",
           "date": "2026-07-13T15:53:43.000Z"
+        },
+        {
+          "title": "Why Interfor Stock Is Back In Focus After Updated Market Expectations?",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbF9YVXg2Yjk5b1lJWEppYUtsdHd1aFpwNG5fMlNaS1FSNlRTbnZwNFRQMnRFcXVqZFpsT3RySzgxQTBBRE12NldrSUZMX19jZ2pxd1V5WE1TTnJBM2JnMENrLXZKWmpDWW9vMnhsQ09GenRobVZFd25qYXl6WTl1bXpWNEp4ZkE2eU1RWFVqYWJkcWp5eHRvWVNVRE5GblFDbzNXRU5MUGJlMjlKdENibzdZSXo?oc=5",
+          "source": "Kalkine Media",
+          "date": "2026-07-13T14:26:00.000Z"
         },
         {
           "title": "Minister\u2019s statement about the closure of Canfor\u2019s Northwood Pulp Mill",
@@ -5075,10 +5087,12 @@ window.LUMBER_DATA = {
         "model": "SARIMAX(0,1,1)(0,1,1)[12] + lagged permits & lumber PPI",
         "interval": "80%",
         "backtestMAPE": {
-          "h1": 9.2,
-          "h2": 9.8,
-          "h3": 9.6,
-          "naive": 13.1
+          "h1": 9.6,
+          "h2": 11.3,
+          "h3": 12.7,
+          "naive": 17.6,
+          "window": "60-mo",
+          "coverageH3": 50
         },
         "lastActual": {
           "period": "2026-06",
@@ -5087,21 +5101,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-07",
-            "mean": 934813,
-            "lo": 830503,
-            "hi": 1052224
+            "mean": 934817,
+            "lo": 830507,
+            "hi": 1052229
           },
           {
             "period": "2026-08",
             "mean": 758296,
-            "lo": 666807,
+            "lo": 666806,
             "hi": 862338
           },
           {
             "period": "2026-09",
             "mean": 810909,
-            "lo": 706331,
-            "hi": 930970
+            "lo": 706330,
+            "hi": 930972
           }
         ]
       }

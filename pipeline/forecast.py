@@ -79,7 +79,9 @@ def main():
         'unit': 'MMbf (total, all regions)', 'metric': 'total',
         'model': 'SARIMAX(0,1,1)(0,1,1)[12] + lagged permits & lumber PPI',
         'interval': '80%',
-        'backtestMAPE': {'h1': 9.2, 'h2': 9.8, 'h3': 9.6, 'naive': 13.1},
+        # rolling-origin backtest, 60-month expanding window (tests on the recent
+        # 2025-26 declining regime — a harder, more honest read than a 48-mo window)
+        'backtestMAPE': {'h1': 9.6, 'h2': 11.3, 'h3': 12.7, 'naive': 17.6, 'window': '60-mo', 'coverageH3': 50},
         'lastActual': {'period': f'{last:%Y-%m}', 'value': round(float(data['exp'].iloc[-1]))},
         'series': series,
     }

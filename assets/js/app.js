@@ -184,7 +184,7 @@
         ${ind.exportsByRegion ? card('Canada → US exports by region of origin', `${ind.exportsByRegion.unit} (thousand bd ft) / month · stacked`, 'Which Canadian regions mill the lumber going to the US (Global Affairs Canada export-permit data). The BC Interior\'s volumes have fallen sharply — mill curtailments and beetle-kill timber decline.', 'chRegionExports', { span: true, tall: true, section: 'regionExports' }) : ''}
         ${(ind.exportsByRegion && ind.exportsByRegion.forecast) ? `<div class="card span-2">
             <div class="card__head"><h3 class="card__title">Total Canada → US exports — 3-month forecast</h3><span class="card__unit">MBF / month · SARIMAX + permits &amp; lumber price</span></div>
-            <div class="card__note">Total monthly exports (sum of regions) with a 3-month SARIMAX forecast (dashed) and 80% interval (shaded). Backtested MAPE ≈ ${ind.exportsByRegion.forecast.backtestMAPE.h3}% at 3 months vs ${ind.exportsByRegion.forecast.backtestMAPE.naive}% for a seasonal-naive baseline. Re-fits every pipeline run.</div>
+            <div class="card__note">Total monthly exports (sum of regions) with a 3-month SARIMAX forecast (dashed) + 80% band (shaded), re-fit every pipeline run. Backtest (60-mo window, testing the recent declining regime): 1-month MAPE ≈ ${ind.exportsByRegion.forecast.backtestMAPE.h1}% is reliable; 3-month ≈ ${ind.exportsByRegion.forecast.backtestMAPE.h3}% (vs ${ind.exportsByRegion.forecast.backtestMAPE.naive}% naive) is directional and its band understates uncertainty — read the near month with more confidence.</div>
             <div class="chart-wrap tall"><canvas id="chExportForecast"></canvas></div>
           </div>` : ''}
         ${DATA.homebuilders ? `<div class="card span-2">
