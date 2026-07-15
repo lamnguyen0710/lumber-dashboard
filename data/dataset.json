@@ -662,7 +662,7 @@
         },
         {
           "period": "2026-07",
-          "framing_composite": 633
+          "framing_composite": 627
         }
       ]
     },
@@ -2496,8 +2496,32 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-15T13:25:13.109Z",
+      "fetchedAt": "2026-07-15T16:04:49.761Z",
       "items": [
+        {
+          "title": "Canfor shutters B.C. pulp mill",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlcEp6MGkwREt4bGVUVFlWZUNRWFpSNkIxdENnb3A1dEFnVlhVbTBSZkFldjZwc0pCakwxc1BKdldRY3FHejBXbWxRSE9LNlJBaWk0YUlFanU1TzVrYmVn?oc=5",
+          "source": "HBS Dealer",
+          "date": "2026-07-15T15:31:15.000Z"
+        },
+        {
+          "title": "Canfor to Shut Northwood Pulp Mill, Cutting 300,000 Tonnes of NBSK Capacity by Late 2026",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeHh1MlJzMzNOSjhvMFJpLVNDbENyQmxNRDc0Sk5hdUhjY1dpNFNUSzFtYjFvd1NOZ0FNZ1hGTW1wQVJ2MjJDeGhMdlhuRDZIX0NhN014WmYzOHFqZmxUYURtY0RxZzJpaUdpbGNHYmZlUmMyTnVOdjZHbkNfeWhtSklCSzUySmR0YjFvNEEyTTd5X3l6dkdoM2h5WGZEcWJJdzFNOHJrRkJNRlB3QWRZUnI1bDBERkllNmsyc1lhTC1kZw?oc=5",
+          "source": "ChemAnalyst",
+          "date": "2026-07-15T15:17:12.000Z"
+        },
+        {
+          "title": "Canfor to Permanently Close Its Northwood Pulp Mill in Prince George",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTmlwdURCYm1pQVBxbDM5cHdYQll3YVpzX3J4anBSN3hLUDZtdUhYOFUxR2c4RXBGMlQzVjRxOEFEb1JPSmpObVJDNHpsUll1MHpmcW94dHlETjVNWklIMkw5dzY4NEhnNERDWjE5WmVEcjFtX3pybWpIV0EyM1RoZngzQ295SXc1TE51YjRCRVB3ZnVVRTc4Rm13VGJQczVkOWp4RVBDRXh1YlV6Wng3V0lQZEpXWk1r?oc=5",
+          "source": "Paper Industry News",
+          "date": "2026-07-15T14:27:21.000Z"
+        },
+        {
+          "title": "Canfor to shut Northwood pulp mill, cut 300 thousand tonnes of NBSK capacity",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0dfZ2dtemx3SG5lQ2MzaTVidG5UMGhMdjFCeWdlUnhCUlNOR1o1enJXWVZZMWpWWFRsZkJsb2pTZUdBdnRMcTBvdlFOOVBUMnZoWlVZeFZRMllnU1loU3U0dVU5bFQyUWczRmdRY1h0NTNJSy1hRmpQdGpIYVpVQTBWMFhJd2pGbWtxbzh2SXlqTVNTT3d2d3lHd08xRmdCcjY0aWRqNFg0b2NwOG5EMzR0eFJ5dw?oc=5",
+          "source": "lesprom.com",
+          "date": "2026-07-15T14:02:03.000Z"
+        },
         {
           "title": "Canfor (CFPZF) to Close Northwood Pulp Mill Amid Market Challenges",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNak5QMGRGVlBJOTVPdHJ1OGtLckdDemxab0dobHNXSTVCYWpnNXZKR001d0lqOVJpUTBNb25oNUVqaTdad3Q1UENVbXJNOW5XWElSbzNTU09RVGl6RmFTbVYwb3dpdEl4ZVdER2dmVlJHNXZzMm5pSXZzNTZHQ3o5bUQ3dWxINUVWZGRPREtCNW8yc3A0c2w1bE9COTdSbHFtMUxwY2FR?oc=5",
@@ -2518,9 +2542,9 @@
         },
         {
           "title": "Canfor Announces Permanent Closure Of Northwood Pulp Mill",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYS1JQjJTT1drcjdSSkZUSm9ReUVJWEh6NnNxNEpzVS1rSkc3Vk9OaWlWYm9mUUtESmw4NVppN0t0SEotZ1E1dmh1Qm1jamlWZHc5ay11MzVuVW5WNmg3eXpzQ1BUay1VOVZKLXB0OTA1dXdBd19xOFFCLUt2QnhWeDJ2OFY2eGp3UWVSbVdPQQ?oc=5",
-          "source": "Wood Business",
-          "date": "2026-07-15T11:24:52.000Z"
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNXZfd2IwYTJUM3hubXZLZW5mcDZxYXBFd1ZaOE1fQUZtWnllXzZhMGh4cTU5ZDBzUnF0ak5xSkZzV0lORk5CeGtPSTZUZnhsZUM1YW82Z2RXWG8yS2h2b3RCNjIzdlloM1l1YzRJZnR3SU4tOXBoM09RSlk4c01mWXZWd0p2MHJVU2w3LWVxN2dUU1VHMXU0LUpvZ3c2Zw?oc=5",
+          "source": "Canadian Biomass Magazine",
+          "date": "2026-07-15T11:25:54.000Z"
         },
         {
           "title": "Canfor Closes Northwood Pulp Mill as Global Glut Claims More Jobs",
@@ -2529,19 +2553,19 @@
           "date": "2026-07-15T11:22:38.000Z"
         },
         {
+          "title": "Canfor to permanently close Northwood pulp mill in British Columbia",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSHlXVXNJbHNBUDBVVzdVTG82ZEFuOFFEVVdCRGVYY3UwZG5HdWlSRlRKVWdmRnRUSVZJczhDYm9Qam9HR1hqXzMwbVZsa18zZW9FSks5MVo1Z2NETXhyTk00ZmxCZHRUblRFai1melpIVnZLMnZESkM0VXE2UU94YjhJWQ?oc=5",
+          "source": "Fordaq",
+          "date": "2026-07-15T09:38:09.000Z"
+        },
+        {
           "title": "Canfor Corporation Shuts Down Northwood Pulp Mill Permanently | 300 Jobs Lost - News and Statistics",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYzNmMlNudWFRdVN6eGlxNW5EaUdPZlozeUFVTTF0UUZleUtaSDZBMm1paHc4TUtZVXpsOXV4N2hHVVJLSUxnd3FLOWVQTmwxcVNtYkVPZGRmdEtWSVluZlZCMHEwcEFObjRsQmk0U1d5eEc1c29oUnloOURibjNZZkEweS1zLUNObmdNMW9vWnVmWXVEZW5SWmc4ek9GdUN5ZjVBS01Jbl83T0pGNTM3WkpERQ?oc=5",
           "source": "IndexBox",
           "date": "2026-07-15T09:20:00.000Z"
         },
         {
-          "title": "Canfor to permanently close Northwood pulp mill in British Columbia",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSHlXVXNJbHNBUDBVVzdVTG82ZEFuOFFEVVdCRGVYY3UwZG5HdWlSRlRKVWdmRnRUSVZJczhDYm9Qam9HR1hqXzMwbVZsa18zZW9FSks5MVo1Z2NETXhyTk00ZmxCZHRUblRFai1melpIVnZLMnZESkM0VXE2UU94YjhJWQ?oc=5",
-          "source": "Fordaq",
-          "date": "2026-07-15T09:00:35.000Z"
-        },
-        {
-          "title": "Canfor (TSX:CFP) Is Up 7.2% After Permanently Shuttering Northwood Pulp Mill – Has The Bull Case Changed?",
+          "title": "Canfor (TSX:CFP) Is Up 7.2% After Permanently Shuttering Northwood Pulp Mill \u2013 Has The Bull Case Changed?",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdTFPVm5hVnZ2T2R3dk1wT2t4MlRrNmxHeUtpeFZfRU5UYnZPcDZJcTQzU3diQ2RBUEo0ZlJYTHd5S3d3SktVZUtxSDhJanFOTUJvSWZJZl9sbVNxWFp4cVp4T1dDV2tCVnIyUUhpTkYxaFFscWRVTVVBTzE4ZHd5eGZPSHlWYm42akNQX0JfM1RLSGRpbGdwc29admZtMS1xelhwRkU4S0tnUHMwa0dOcVhOdTVXQlMyRlJScnpDV05OZkxtOFN0N9IBzgFBVV95cUxNRmRWZ0E3NUVTNmRVdzgzMmhHZ3VaR0FybkFQX2NxRmJzXzVlQUxxeEM0ZVBCektlaW04MzgwdGJKbzhsZ0R1bVNvUG9SODZOY2RCLWRlQlR4Ny13LVpnNllLdURzVHBGblF1UVhaU0xRc2w1SXhJMHZ4VTc3VU82eUJSRmhabUNHYlBidlY1cDlwcnFVOGZlUGREQnNNNlBxWkxkcUNuSExEVEtwNnBYaXItc08zVEo2cnpLb0ZfNWhDSl9wdmFvRV8xS2hDQQ?oc=5",
           "source": "simplywall.st",
           "date": "2026-07-15T06:42:29.000Z"
@@ -2566,8 +2590,8 @@
         },
         {
           "title": "Approximately 300 B.C. jobs to be lost as Canfor announces closure of pulp mill in Prince George",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdnNTMlBzdERoeW84WkxYUWJIMmdENktLcm4yclhNT28tYmVzajNwT043MS01Y3E3QjNLRTFuWWNUbnc5d0ZkWURvVHlKa1phXy1pZEt2UWxTaXpNclg5d01WaTI4S2tQTzVzck9rd25fc0RpMmt3WGppWkIxRkdtTVpaZ3QwdEpzNDVCOXNfNGM2c3FwUmtGdzRoZWhfdzN4SU1YZjF4dGFPZk9YZl9FQ3l2ZjRzdXV2bTRndVBRN3lfV3d3UlJfdldVa3lZbTNVVHc?oc=5",
-          "source": "CTV News",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRjNLdGpsaFJ6MmNFNy1qN044OEJyQ1g0VDY5d0JUR2wxa015MjdxWVBsbURjTE1GQUJINU05MWtMUUg0aW9vVFVuRUFvdGJGSDhNLUItYW5ZTTBoWXcyY1pweU1Ncks4SHdQQVI1VlNya2ZxZTI0SzBxbHliQ3FScEk0WDBmdll5YTdZZHUzTnhVeTF2cjBIX2l1NFU4WDJXYlUySzlEeWtVQ1h2Q09EOHZKaFpFNGh0MnpYSkNvNF9fYTNQM0owQUprb2hMTC1KcG52NW9zdDR1b2c?oc=5",
+          "source": "BNN Bloomberg",
           "date": "2026-07-15T02:00:00.000Z"
         },
         {
@@ -2608,12 +2632,12 @@
         },
         {
           "title": "Canfor announces closure of Northwood Pulp Mill",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR2dfN08xVHo2bU5FNXRURG9wMVVnVnNBcHRnU1RHNzJ6cXlfU3FUbnktdjctSldsbTllVk5jUjRvU1hJcU5sRXNCazFpQTY4X1FOVGVJbko3M3hTWUtiRWo1M3Jjc0xfczJQZjRUenV2dktCYk5qdTRneDRZWG0zLTV5elNNMHJsSzY5UnpZM1NiSEx6c1l4TEw3R2tMNk5uTzdSNUhickp5aEtDN2h4TmcwRWZzazh4dThZ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVkIwQ3RuaG54SkFYc044QW9YZlltS0ZmemN3c25BSUU2Y0k3TFI2Nk0ySXB3UnMtT0s0QkZiRFd4RUZORGRRMmRNREVKeFM4Y2RtVk1DX2o1WVhwenhLa3BXUkU0dThPY0FpWnV0WUh3cjdndXlrMGMweUV5LUMzVDQ0TlNTODdWaGVMa1M1LVFvTXJ0SkVRcWJNNll3VUVCam1JRTFBUUVkZnZKOF85WkRBUTZ1ZkNrQTQ4?oc=5",
           "source": "GlobeNewswire",
           "date": "2026-07-14T23:15:00.000Z"
         },
         {
-          "title": "Price to earnings forward of Interfor Corporation – MUN:8IF1",
+          "title": "Price to earnings forward of Interfor Corporation \u2013 MUN:8IF1",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMkJreU1Ld3hNMGdyUFRhQXRfb0c4ZVVNNHFnMmI1cVFuZFR0N3p5LWNCMi1VZC1rNkFHSHV2OTBXM3ZmTUVWTEstN0RPenNBZEg3dWZoQnFMZmozLWJSeHRtal9BWW04dG5oaC1xSEluRzNHWXBEZGRiOTNseDdlNzJsLVZSc2F3Y3BjUUpSVUtlanVsT3FCOWJaOWNWdw?oc=5",
           "source": "TradingView",
           "date": "2026-07-14T22:48:58.000Z"
@@ -2649,184 +2673,10 @@
           "date": "2026-07-13T15:53:43.000Z"
         },
         {
-          "title": "Why Interfor Stock Is Back In Focus After Updated Market Expectations?",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbF9YVXg2Yjk5b1lJWEppYUtsdHd1aFpwNG5fMlNaS1FSNlRTbnZwNFRQMnRFcXVqZFpsT3RySzgxQTBBRE12NldrSUZMX19jZ2pxd1V5WE1TTnJBM2JnMENrLXZKWmpDWW9vMnhsQ09GenRobVZFd25qYXl6WTl1bXpWNEp4ZkE2eU1RWFVqYWJkcWp5eHRvWVNVRE5GblFDbzNXRU5MUGJlMjlKdENibzdZSXo?oc=5",
-          "source": "Kalkine Media",
-          "date": "2026-07-13T14:26:00.000Z"
-        },
-        {
-          "title": "Minister’s statement about the closure of Canfor’s Northwood Pulp Mill",
+          "title": "Minister\u2019s statement about the closure of Canfor\u2019s Northwood Pulp Mill",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1eFJfdUhHWlZlLXpreHlhdjJaSmwya2NuT2MzWkpsR2xjMDBNVXNxY0RISEdkNlRqOVR6MHBUU3ZrV3NhNHdVbnZRXzRoSUJNWWRpc3VEc043d255Nkxj?oc=5",
           "source": "BC Gov News",
           "date": "2026-07-13T07:00:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser stock reflects timber REIT exposure and housing demand",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSi16LVFxOW41T3JkZk11Y0dwSkhJcjMyU3NSeHNtaEFCMlBncmZ2TW5EUFh0akJRT2lDM1h3ajc1LWdMLVkwTTFJM2VmWDdyUVRMcERpMDNCbWVjeU44ZHE2d0tnLWNfYXBPZWpOcG1SdzcxbDZTU3RGcC14bWcxTi1fWDVXeEJKRE5ha285LVd5aUtsVk1lY0NCWUQ0VU5RbkJWeTJKLUtlOUZiRERaR0tScm03aU1zem1PQkFlRzUxMzZy?oc=5",
-          "source": "Ad-hoc-news.de",
-          "date": "2026-07-12T05:35:04.000Z"
-        },
-        {
-          "title": "Interfor (TSX:IFP) Stock Sees Fair Value Cut After Analysts Weigh Fresh Production Results",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYW9Nc1BhUkNBVGg3ajJPUGpZTGx0dWZQSnNad18tX2k5WmJYRWNfTkdjRFl6ZnBIckY2T3FPdE5MZGRjdEsxMkhKTzRMUW9rTHBlQi1WNXhnS3EwQ2xaZGhaanBtSERJUmxsV2kwM1NmSG9ELXc0VWVyZzM4X0JERVlsTDZWa0tzTU5YSk1BX0thTUdQcXZR?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-07-11T16:07:40.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Could Be 25% Undervalued Following Its Recent Rebound",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1hMTGFmZVFGT05PWFd2UHh3ZWZ3V1JOWDhLMmVabWJmTERtLXhUM3RRbGVKV0h6SWE4Vk5BZXJWbVlfTlZUOVFmVzZqRWtOV1NMakVCbWxTRU5FVFRHaDd0M0h6SVJTemJkUEVwQzJHb1RTV3M4WWNSWWVHXzJ5UW1mY29Ua3AxMy1WWTlFY2tPdXF5aEFvN1Zla2FUd0tiTXl1bDVBbk1fS2ZyLWZ6bXdldzRKemM1SkxRSlRBUlJqVXJLSmZCb3J30gHPAUFVX3lxTFBwSXFpRThZRlM0dldHWnVCYW10MmR5RGs1cWhfd2Y1X09ka3lDSjdYbHJ0V0hVdjhvb29Ka3dwNjc5OWlZTG1YZmdzVk9yLWwta2l2X2hxTWhFblFadTF6TGc0YkV1OHBLNXFlS3haa01wbjBqQ25mZ3IwTVFaZG5YWDdSZk9KX2pKQm5TM0hZeC1POWptc1dycDNsSTM3eVR6QlpoMHFmaU5QQVZEMnVSd3VKZWgtN2MxdVUwcjZzWjF0Ti1OaFRjbXVIR2RtMA?oc=5",
-          "source": "simplywall.st",
-          "date": "2026-07-11T13:03:06.000Z"
-        },
-        {
-          "title": "Weyerhaeuser TimberStrand LSL by Weyerhaeuser Co. - engineered lumber targets consistent strength",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVjdsV2Z1RkN2MERLcHBwd1ZkN3AtbFhKUUlITXFmeEJ2MDQya2MyM1NQbkFROHV2SVBsUmM5ZGpQZDROZHdHaVFxa09WcDViTW5GcjVHTkJiMl81OHJta01BNTctVW56RE1vWDI2YS1sU2gtaTVqSjVKb2lHbmFSN0JFS3BwSzM4ellNenp1SmZWNlQ0Ujc0WEExNWFyaVlUdExNQURiWl9XdEtzNU5aN1k1UjNKbzhUNG1tNnA3RXJ5YWs?oc=5",
-          "source": "ad-hoc-news.de",
-          "date": "2026-07-11T05:45:26.000Z"
-        },
-        {
-          "title": "Madison\u2019s Lumber Prices Index July 10, 2026: US$547 mfbm",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQV9JV3hHVEhpMGxNUFBJWURuUzNwWTR2akhuVHNHWm9XeGxNbGoyc2VzZFNuZUp4TE5QUU9JLVpfM3NZN0xiV2kxVmtGSXdOdnViZDY3MmxCVHVtdkZmMjZlclU4OWQ2VExBNTNaX1gxeUt2ZUtvT3NRcWZfbWExMHpJdWVneEJOTTFUa0RBZDhJMDAteXlxNWFFemF4aXc?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-07-10T22:47:29.000Z"
-        },
-        {
-          "title": "Weyerhaeuser Rallies as Analyst Upgrade and Better Lumber Sentiment Lift Shares",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRURGVjdCVU5RUGNBcmRBYWREYkQxM3gwMVlKaXBsM3hOY2tPenJiQ3Zhb1ZBN3pPd2Q4bTZ2SF9iS3lmVzJlaFdRakxXeHNQT0NOaGVHS3dudXJyRlp2dkpzSm1LbllBWjFBQVRDaE5rakRoRHdQOFNDVDBjY04ySGNXN3lObmFPNUxaN2tKMkdMcHAxTnBDSVFZVnhjNDFiYWltUTRpMV9qYzRXdmJtOWt3?oc=5",
-          "source": "Quiver Quantitative",
-          "date": "2026-07-10T21:20:00.000Z"
-        },
-        {
-          "title": "Investors Heavily Search Louisiana-Pacific Corporation (LPX): Here is What You Need to Know",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT2FKX3dRM09RcTdIZFJVSzZPOUVpdzRRamt4T0FOZmxHeDBHbmk3NGlyV2s5UmNSUHN2LWRDMUFCV1NTMzh3YndtS1JzTGJnejR3V0g3WkNyX1NxT3FSSTVBVGpIdEJxTk5QcW83RTNFQWZQNm5mLWY4Q3BlSnJvTVdWc0hVWHZPLWR2b1p0ZVNxNzJmTFlhMm1BV3NFcTVWNk04UFZoX0VKRlU?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-07-10T13:00:04.000Z"
-        },
-        {
-          "title": "U.S. Softwood Lumber Self-Sufficiency Hits 75% as Domestic Mills Expand Under Trade Policies - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdkdJS09fRGdaQmRVTXlfMXh1WDJqcDNxb2ZqMGkxRW1SOXJkVlVMZnRyR1k1VENScTlmQ1Rsc0VDOHYzMFZOUlkydXpfX3B4WmpxbHlQYU9wRUh1WjFXMnhvUTRrRGJOeUxRS2Z0a0pZcXJEa3cxY2NsUTFqS2lzanp1aUZCUXZzc3EtSG5GTWtXZmZ4RWVlNGV5aVhrSURxdUNaWEFjQzRBeGhYT1BUcXZyVGtEZTQ0cVA2bDVRY08zOU5PUFRSTHpuSHFEQQ?oc=5",
-          "source": "IndexBox",
-          "date": "2026-07-09T06:32:00.000Z"
-        },
-        {
-          "title": "Lumber",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vbEJsaHVPbHI0ZmtCSUZ3YXdHc2xnRml3cE41eFhZYURNSEdTWHdlY2Y2eWtSc2VDc1BjNlpDdDdVTUd0T0dSMDJQdkVZckpIVEExQkFjNFNlcm4tUk5BOWJXZnNmYkxCUlJEZ3FITWNWRnNHa0F3?oc=5",
-          "source": "CME Group",
-          "date": "2026-07-09T05:00:46.000Z"
-        },
-        {
-          "title": "British Columbia softwood lumber production falls 9% in April",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWXF0RWM4ZzFZV1RxNnFUaWJaLU9kZFlwbGJzZTdtYmRGakZmS1E0dURZbzVxRDlBSm1kNHdEX0Z4dy03aGlyamdYeFJtN2FGNktwVVJfaHRpU3pEWXdOTHVlTy0xbWFUUnVkTnJKaWlOZGFHckpIc1RXTUtETXRSNF81V2hLbFRqNmZ6N2MzRUU2Q2U4WDR3dTBkeTFERnV2VWc?oc=5",
-          "source": "lesprom.com",
-          "date": "2026-07-08T20:22:04.000Z"
-        },
-        {
-          "title": "Customers Hunt For Value As Lumber Prices Increase Somewhat",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLU5BX3QyZWNENzF6QS13ZHo2b1lqVW9TVGRWNllvaDBLQzlVeVVCeEVHSm01U0dybGtBMDBZWnd1aWxTNkV3NjAyWTZ0YXBrUlVrbl9QSlczb1NWNHQwWjE3c1RkVE1QbTAyR0hLdzAzdFpYY0JIX0ZaeF85NUx6YU82YzN3ZTk3bVdhb0s4UXA3dw?oc=5",
-          "source": "Wood Business",
-          "date": "2026-07-08T15:21:20.000Z"
-        },
-        {
-          "title": "Correction to Green Douglas Fir lumber prices for July 7",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU2N0anVzY1otbVlWTnF1R2EycGxfRElMNXBhWXdxN3ZHX1YwdUVfQnQtenNSWFdMTGF5UjZ5SG1rOUU5WE9WVkVfbjNKcWFlYmNzdVBkUm9wXzJxc20yNXdvSG1uZXJubUZtVWpvTWxqTllKaG9FTVB2WE5qaG5QWTJkclBCSUx1WHBlam9mbTRnSGZ1cXJ2d0hnMklZN0YwWnY2N2ZrTkxMX2wzVGc?oc=5",
-          "source": "Fastmarkets",
-          "date": "2026-07-08T07:41:55.000Z"
-        },
-        {
-          "title": "Madison\u2019s Reporter: Customers Hunt for Value as Lumber Prices Increase Somewhat",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTGNweDJnd0hvMEdmUXl4S2EyM1IyOFVCOXV4bDJQQVJxQ2V0S1BJZThRM3Q5N2VMdXhvLUhUb09aTldaWnlzVkEzVXMwemZqOW5nYW5pQm96QkhJTnNUc1g2Y24tY2VQalBZRkxhS0p6SFdvTjZYX1pGRU1kS2FRczRUMWVadzI4T2pNU3JxUkszNEpSa2R1VHFabnRRX2tfWnN1bkNwYWdRWTM3cXdsa1dNWFU5SXZKc3dIejRQeC0?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-07-08T06:54:35.000Z"
-        },
-        {
-          "title": "Madison\"s Lumber Prices Index reaches $545 mfbm, up 1% weekly",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbXpRdHdOckVTZU9lVm5DQ2Z5RDhIdjBWcFNPOXdzMVR1U01JUHpBUEhyUlJucUJvN205c3dfTDRZUnM3LUIzck9YUmJYeHpzZl9nWlZNNUFXc1ZKSnZ0SWhtSUlMOFlXY0VkZTdxSVR6YjlGaU8zeDVaM3Y1SUFCMmNVQ2JIOFEzQk9TODNzaU5ma3pPMzlqdFNnZ2prQQ?oc=5",
-          "source": "lesprom.com",
-          "date": "2026-07-07T21:56:00.000Z"
-        },
-        {
-          "title": "U.S. sawmill output continues to shrink",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSEdoUFpENTJtZHgwZzJacmtjdnNmN19IZnFCSl9DOTI5ZzhPV2NFTzZHeWNUOGVaaWVyYzJxZzVJc3BUdjdhZk5mZ0ZIUmczREVlZlNMY0R5THEtMnpTS3RLR3lLWWRsbkRTRExudnRmS2s1ODROLXpFckcxaWhVNnY2YXBnNldnVHZlblR2UzFIYnpqODRTTE0zZHpyU0s3UlRsRW5TYnFrOGc4SG5nQTlhc0drQVlBVUZZSlIxUlc0UkQyQU1VSlN3S1lBVU5fS0ttd3NFeWsyNkIw?oc=5",
-          "source": "LBM Journal",
-          "date": "2026-07-07T14:15:48.000Z"
-        },
-        {
-          "title": "Canada Presses US on Softwood Lumber Tariffs as CUSMA Enters Limbo",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ONHU1Tm5qVFpWYWVfdGRSUmNIOHl0c1dBVG13Qnc5eFpvNjdzX1FZcjV6bmNpTEJtWmhsWXdjR1BMWDNqOUtTaTdiR1Q3LUdZNklSSksxcGFpXzU0Z2FfSFFaUFZNVjlIX2NVNGowaTMzTW5lbllvT3lfWQ?oc=5",
-          "source": "Wood Central",
-          "date": "2026-07-07T11:23:25.000Z"
-        },
-        {
-          "title": "BC-Lumber Futures",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JTXlySFlpM09kMFZKSC1nYlplOW1qd2VzclM2OEF4cjdvQXVUTnBtS0JkV2pvWHZVZDJwcnB2ajZCODltVEdGNEktTnB1TnhVZExLcF8xRnNNTVFySW0tYTdNLUhSTC1HdHFILV93?oc=5",
-          "source": "AOL.com",
-          "date": "2026-07-06T16:46:19.000Z"
-        },
-        {
-          "title": "Canfor Completes Acquisition Of Calgary-Based PinkWood Ltd.",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRG9BU1FWLU9yV3FlUk55ZS1HaVVGVDNRVllxcmhhY1owcU5VVks2VkJKUmdMaEhXQzh3ekQ0LVNsRGNIWlNzazNfZnFCNGNab3FBLV9JTFlic0FrRTNoZnhRMGZ2MHhpZmlUZWs2d0JFM2VNWnFETlZIZHVOMFMydnRaNV9KXzRSWlE2VXgtNTdhc0lmVUxVdG1RdzhIZFZUTmhyQkI1cw?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-07-06T14:58:53.000Z"
-        },
-        {
-          "title": "Canfor acquires PinkWood",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XRksyandSdUdaV0tCSG05QUNMN1NHNUJ2bHNCR3dMdGpFczdtdGptRmI2TUJyMmVmWlNidVE5WlVad1kybWljX3hOZ3RpRTI0QmxtSXNTMGMwNklhZXNlaUpHaHgxZXZXbjNjaQ?oc=5",
-          "source": "Pulp and Paper Canada",
-          "date": "2026-07-06T13:45:08.000Z"
-        },
-        {
-          "title": "Lumber Market Watch: Could Housing Demand Put Timber Back in Focus?",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc2hZN0EybDl6Y0VnMkRGb0dmUmVKRVZYMk9yYU1USVhZcG5fMzZpUGZ1Q29pMUhXZDYydzdMSnBmUUJRVHhmU3FRT2llMzk4YktCTGdoZlg4Q2FtRC15bklVSVg2ZjJONHRqREJ3cENKX0I3eWVvZjdvY1hYNlRHbktzRUZ0R2xTa3Z4NVJMdi1SR2ZqdERLQ2o1VDdfUTFob3Jtd3dINGZXUQ?oc=5",
-          "source": "Kalkine",
-          "date": "2026-07-06T10:39:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser Co. Overview: Timberlands, Wood Products, and REIT Operations - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbERXX0t1eFdyTkhhUzlsb2tLbHVjN1BlbW5TODlPVlJLeWswd0xCallZZ2drR2hYVFNLZmNGY2IwNXVpYkRFakt2MFBQQ3FYcmVod2VsTUxfSkNsUzlwZ1h1N0c3dnY0a3ZhOXFBRVhqaFNoZW94cTJZeUFSdVJTaUloby1SVkJVNklBTVV2Yw?oc=5",
-          "source": "IndexBox",
-          "date": "2026-07-06T06:20:00.000Z"
-        },
-        {
-          "title": "Quebec leaders mull next steps in softwood lumber dispute",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSndyeC03Z05XRWc3NEYybTYyVkZJQXI4U0piZ2FZMU1CRHN5UlptVmxDTngzMXB4YUZWOGVEQW9abXRKUExhdTR6dllpWjZnWmZLbHZWYkItcVhBc0xmTDFILXRrTHhwOURyTnJ5OWVqVVJpMEhKUVZrdU5YOUdTLUE2M1B6TlZseGRBWEUtOU1YN2c1TG5DTzIzRXRDZDQ?oc=5",
-          "source": "CTV News",
-          "date": "2026-07-02T13:51:37.000Z"
-        },
-        {
-          "title": "Weyerhaeuser Earnings Preview: What to Expect",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUGE4LW43WFRDTThJUkxXTUZxU016SEVrUzlCTDJhWEdDX1FmSjBRSEtfanBJaVIxNGhhQm50ZTFocDU2elBRMHlxVHk5VUpJVFNkQkpFVnB5aHdQM19HQ1NIOVlubEViLUM2SEpGZ01wR19wLXZPOVB2dUowRVVxbWw1Mk5ZaWVMOExOUFRnaG40NGRNSjFMaW5ZUkt6Tjk3ZDhZ?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-07-02T07:00:00.000Z"
-        },
-        {
-          "title": "North American Softwood Lumber Market in June 2026: Cautious Sentiment and Flat Prices",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYW1OY0s2RkR4ZVR1bDNJN1BpOVk5SFdYSXB3dkRJTFhpZHF0eTFiS0g0ZVNKcWIwUlU1LUVSQnJCcmQ4TnBTU2VQbGFrWTQyQV9XRWpaV1Ewb2FVemw2bEw2Wi1tblZmN0VfM3BMUVpXdjVjMnZGZEozUk4xUGkyVFQ5a3E1UC1sU1RVWlpERFRmOUFJdEhGQS1nLVYxN3RseWV1QnF1c0N1c09sM29nVGZaRzVJZw?oc=5",
-          "source": "IndexBox",
-          "date": "2026-07-01T06:20:00.000Z"
-        },
-        {
-          "title": "North America Softwood Lumber Market Update: Q2 2026",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZWxEd3N6WFphUDU0MHF6SDR4QlhMTzBaTDJBYmtpa3loekhvbURxTmtLVzk3MGt4VDYtSlkzMm1Vc3NEeklGaDZBMm1rTHBPRmFEVzZfbDlfT1BmU0xLMjl4czhnaWExSFgwajZQTEFiSEw0NnJGdUIzQlZMbnZDR3R4M0dSOHFpdmRjNzBDN0xhZEtiSFE?oc=5",
-          "source": "Canadian Biomass Magazine",
-          "date": "2026-06-30T16:27:10.000Z"
-        },
-        {
-          "title": "TimberStrand LSL from Weyerhaeuser Co. - engineered lumber for straighter walls",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWVB4Nm1ZRnBNT0w2WHkyeUhuRVN5Y19SVWFZMTRFN0RrZjhmREdER2NjaTRNVTVqTlMyRldjNmpmelpNcFBQYVJEbHJ2M0JfZlFHUzJ1aGRoVGFObEtWLXZsMkJFdHlsamc2eWV3NndXYWNBY01yc1g1QURTS25LRXc2WjZfWXZhQmFicFZXanVDamJZekx4TWhNWDUtS09pNVVTX2x3TGdxR3R0eWwtcl9YMEFjYm5yTDRtRmlhVHpWbW9iVVlvYQ?oc=5",
-          "source": "ad-hoc-news.de",
-          "date": "2026-06-28T17:59:02.000Z"
-        },
-        {
-          "title": "Weyerhaeuser sets Q2 earnings date, shares in focus on NYSE",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSzJCMHJfOUxhNzlQNVJvTVpXRV9DQTJjY2hKTVpHQmNQZDlLSkd5Y0phalFKT2tnMFhIX2pQZHRsRkoxd0h3RDFma3JfY0o1U0JGckN1cXlwR1FzWk9tVzU5WFZtNjFFNTQ0eDVzV1JOVU00VW5aaWQxVkhHbjBOcHVDNDdacFg0SG81bnZWaUp4RDllT2swTVA2eXpPOWpvWlhidnNEeFJXVFNHUnpSdjNCN2lTTWpR?oc=5",
-          "source": "ad-hoc-news.de",
-          "date": "2026-06-28T09:25:38.000Z"
-        },
-        {
-          "title": "Here is What to Know Beyond Why Louisiana-Pacific Corporation (LPX) is a Trending Stock",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVJFeUVTTDFleVlCNExuRHAwbk5xdE15aHJ5QWNJeGJuUk1LS2cwSUZqQVJpNDNZTVVpVFdwRVo3NlhHOUo4RXI5SDlfQTJHcEtrYkFJTWE3WGlsNWt3MHRrU2JrQzZEMGJQMk8wQm1DSWVnLUticlk0REcxQk5aX190M0ZhTWs1ZFhjc290N1ctTEIxVFlLdVZJY3M5cms?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-06-26T07:00:00.000Z"
         }
       ]
     },
@@ -5231,26 +5081,26 @@
         },
         "lastActual": {
           "period": "2026-06",
-          "value": 941505
+          "value": 954870
         },
         "series": [
           {
             "period": "2026-07",
-            "mean": 929011,
-            "lo": 825833,
-            "hi": 1045080
+            "mean": 934813,
+            "lo": 830503,
+            "hi": 1052224
           },
           {
             "period": "2026-08",
-            "mean": 751826,
-            "lo": 661685,
-            "hi": 854246
+            "mean": 758296,
+            "lo": 666807,
+            "hi": 862338
           },
           {
             "period": "2026-09",
-            "mean": 804428,
-            "lo": 701455,
-            "hi": 922518
+            "mean": 810909,
+            "lo": 706331,
+            "hi": 930970
           }
         ]
       }
