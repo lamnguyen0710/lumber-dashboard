@@ -41,6 +41,20 @@ jobs:
         env:
           COMTRADE_KEY: ${{ secrets.COMTRADE_KEY }}
 
+      # SARIMAX 3-month forecast of total Canada->US exports. Re-fits each run on
+      # the freshly-built data and writes the forecast back into the dataset. It's
+      # self-guarding (skips without failing the build if the fit errors).
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install forecast deps
+        continue-on-error: true
+        run: pip install -r pipeline/requirements.txt
+      - name: Forecast exports (SARIMAX)
+        continue-on-error: true
+        run: python pipeline/forecast.py
+
       # Optional: keep a git history of the data. This must NOT block the deploy —
       # the site publishes the freshly-built files regardless of whether this
       # commit-back succeeds, so any git hiccup here is downgraded to a warning.

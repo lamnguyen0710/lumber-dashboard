@@ -182,6 +182,11 @@
             </div>`
           : card('Canadian softwood exports by destination', `${expUnit} / ${expPer} · stacked`, 'Where Canadian softwood lumber ships.', 'chExports', { span: true, tall: true, section: 'exports' })}
         ${ind.exportsByRegion ? card('Canada → US exports by region of origin', `${ind.exportsByRegion.unit} (thousand bd ft) / month · stacked`, 'Which Canadian regions mill the lumber going to the US (Global Affairs Canada export-permit data). The BC Interior\'s volumes have fallen sharply — mill curtailments and beetle-kill timber decline.', 'chRegionExports', { span: true, tall: true, section: 'regionExports' }) : ''}
+        ${(ind.exportsByRegion && ind.exportsByRegion.forecast) ? `<div class="card span-2">
+            <div class="card__head"><h3 class="card__title">Total Canada → US exports — 3-month forecast</h3><span class="card__unit">MBF / month · SARIMAX + permits &amp; lumber price</span></div>
+            <div class="card__note">Total monthly exports (sum of regions) with a 3-month SARIMAX forecast (dashed) and 80% interval (shaded). Backtested MAPE ≈ ${ind.exportsByRegion.forecast.backtestMAPE.h3}% at 3 months vs ${ind.exportsByRegion.forecast.backtestMAPE.naive}% for a seasonal-naive baseline. Re-fits every pipeline run.</div>
+            <div class="chart-wrap tall"><canvas id="chExportForecast"></canvas></div>
+          </div>` : ''}
         ${DATA.homebuilders ? `<div class="card span-2">
             <div class="card__head">
               <h3 class="card__title">Top-10 US homebuilder deliveries</h3>
@@ -269,6 +274,14 @@
       C.stackedArea('chRegionExports', reg.series.map(p => p.period),
         reg.regions.map((r, i) => ({ label: r, data: reg.series.map(row => row[r]), slot: i })),
         { unit: reg.unit, xTicks: 9 });
+
+      // Companion: total Canada→US exports with the 3-month SARIMAX forecast.
+      if (reg.forecast && reg.forecast.series) {
+        const fc = reg.forecast;
+        const actual = reg.series.map(row => reg.regions.reduce((s, r) => s + row[r], 0));
+        C.forecastLine('chExportForecast', reg.series.map(p => p.period), actual,
+          { series: fc.series, connect: fc.lastActual.value }, { unit: reg.unit });
+      }
     }
 
     C.line('chUsShare', expLabels, [

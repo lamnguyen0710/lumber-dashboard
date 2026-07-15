@@ -145,6 +145,36 @@
     return render(canvasId, { type: 'line', data: { labels, datasets }, options: baseOptions(t, labels, o) });
   }
 
+  // Single non-stacked line (actual) + a dashed forecast mean and shaded 80% band.
+  // forecast = { series:[{period, mean, lo, hi}], connect:<last actual value> }
+  function forecastLine(canvasId, labels, actual, forecast, opts) {
+    const t = tokens();
+    const fcSeries = (forecast && forecast.series) || [];
+    const allLabels = labels.concat(fcSeries.map((f) => f.period));
+    const pad = (arr) => arr.concat(new Array(allLabels.length - arr.length).fill(null));
+    const connectIdx = labels.length - 1;
+    const mk = (key) => {
+      const a = new Array(allLabels.length).fill(null);
+      a[connectIdx] = forecast.connect;
+      fcSeries.forEach((f, i) => { a[labels.length + i] = f[key]; });
+      return a;
+    };
+    const c0 = t.series[0], band = alpha(t.muted, 0.22);
+    const datasets = [
+      { label: 'Actual', data: pad(actual), borderColor: c0, backgroundColor: alpha(c0, 0.10),
+        fill: true, tension: 0.25, borderWidth: 2, pointRadius: 0, pointHoverRadius: 4 },
+    ];
+    if (fcSeries.length) {
+      datasets.push({ label: '_lo', data: mk('lo'), borderColor: 'transparent', backgroundColor: band, fill: false, pointRadius: 0, tension: 0.25 });
+      datasets.push({ label: '80% interval', data: mk('hi'), borderColor: 'transparent', backgroundColor: band, fill: '-1', pointRadius: 0, tension: 0.25 });
+      datasets.push({ label: 'Forecast', data: mk('mean'), borderColor: t.text, borderDash: [5, 4], borderWidth: 2, fill: false, pointRadius: 0, pointHoverRadius: 4, tension: 0.25 });
+    }
+    const o = Object.assign({ beginAtZero: false, xTicks: 8 }, opts);
+    const options = baseOptions(t, allLabels, o);
+    options.plugins.legend.labels.filter = (item) => item.text !== '_lo';
+    return render(canvasId, { type: 'line', data: { labels: allLabels, datasets }, options });
+  }
+
   // Vertical bars (single or grouped). series = [{label, data, slot}]
   function bar(canvasId, labels, series, opts) {
     const t = tokens();
@@ -238,5 +268,5 @@
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
 
-  window.LumberCharts = { line, stackedArea, bar, stackedBar, hbar, destroyAll, chartIds, exportChartCSV, seriesColors: () => tokens().series };
+  window.LumberCharts = { line, stackedArea, forecastLine, bar, stackedBar, hbar, destroyAll, chartIds, exportChartCSV, seriesColors: () => tokens().series };
 })();
