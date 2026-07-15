@@ -9008,11 +9008,11 @@ window.LUMBER_DATA = {
   },
   "mills": {
     "asOf": "2026-07-15",
-    "count": 148,
+    "count": 152,
     "byProvince": {
       "BC": 115,
       "AB": 13,
-      "ON": 8,
+      "ON": 12,
       "NB": 2,
       "QC": 10
     },
@@ -10648,6 +10648,50 @@ window.LUMBER_DATA = {
         "capacityMMbf": null,
         "status": "operating",
         "source": "Domtar NW Ontario operations"
+      },
+      {
+        "name": "Kapuskasing",
+        "company": "GreenFirst Forest Products",
+        "town": "Kapuskasing",
+        "province": "ON",
+        "lat": 49.42,
+        "lon": -82.43,
+        "capacityMMbf": null,
+        "status": "operating",
+        "source": "GreenFirst (ex-Rayonier/Tembec); 4 ON sawmills + Kap paper mill"
+      },
+      {
+        "name": "Hearst",
+        "company": "GreenFirst Forest Products",
+        "town": "Hearst",
+        "province": "ON",
+        "lat": 49.69,
+        "lon": -83.67,
+        "capacityMMbf": null,
+        "status": "operating",
+        "source": "GreenFirst (ex-Rayonier/Tembec)"
+      },
+      {
+        "name": "Cochrane",
+        "company": "GreenFirst Forest Products",
+        "town": "Cochrane",
+        "province": "ON",
+        "lat": 49.07,
+        "lon": -81.02,
+        "capacityMMbf": null,
+        "status": "operating",
+        "source": "GreenFirst (ex-Rayonier/Tembec)"
+      },
+      {
+        "name": "Chapleau",
+        "company": "GreenFirst Forest Products",
+        "town": "Chapleau",
+        "province": "ON",
+        "lat": 47.84,
+        "lon": -83.4,
+        "capacityMMbf": null,
+        "status": "operating",
+        "source": "GreenFirst (ex-Rayonier/Tembec)"
       }
     ]
   },

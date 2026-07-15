@@ -62,5 +62,10 @@
   { "name": "La Dore", "company": "Domtar (ex-Resolute)", "province": "QC", "town": "La Dore", "lat": 48.72, "lon": -72.65, "capacityMMbf": null, "status": "operating", "source": "Domtar wood products locations" },
   { "name": "Thunder Bay", "company": "Domtar (ex-Resolute)", "province": "ON", "town": "Thunder Bay", "lat": 48.38, "lon": -89.25, "capacityMMbf": null, "status": "operating", "source": "Domtar NW Ontario operations" },
   { "name": "Atikokan (Sapawe)", "company": "Domtar (ex-Resolute)", "province": "ON", "town": "Atikokan", "lat": 48.75, "lon": -91.62, "capacityMMbf": null, "status": "operating", "source": "Domtar NW Ontario operations" },
-  { "name": "Ignace", "company": "Domtar (ex-Resolute)", "province": "ON", "town": "Ignace", "lat": 49.41, "lon": -91.66, "capacityMMbf": null, "status": "operating", "source": "Domtar NW Ontario operations" }
+  { "name": "Ignace", "company": "Domtar (ex-Resolute)", "province": "ON", "town": "Ignace", "lat": 49.41, "lon": -91.66, "capacityMMbf": null, "status": "operating", "source": "Domtar NW Ontario operations" },
+
+  { "name": "Kapuskasing", "company": "GreenFirst Forest Products", "province": "ON", "town": "Kapuskasing", "lat": 49.42, "lon": -82.43, "capacityMMbf": null, "status": "operating", "source": "GreenFirst (ex-Rayonier/Tembec); 4 ON sawmills + Kap paper mill" },
+  { "name": "Hearst", "company": "GreenFirst Forest Products", "province": "ON", "town": "Hearst", "lat": 49.69, "lon": -83.67, "capacityMMbf": null, "status": "operating", "source": "GreenFirst (ex-Rayonier/Tembec)" },
+  { "name": "Cochrane", "company": "GreenFirst Forest Products", "province": "ON", "town": "Cochrane", "lat": 49.07, "lon": -81.02, "capacityMMbf": null, "status": "operating", "source": "GreenFirst (ex-Rayonier/Tembec)" },
+  { "name": "Chapleau", "company": "GreenFirst Forest Products", "province": "ON", "town": "Chapleau", "lat": 47.84, "lon": -83.40, "capacityMMbf": null, "status": "operating", "source": "GreenFirst (ex-Rayonier/Tembec)" }
 ]
