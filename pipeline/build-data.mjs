@@ -141,6 +141,16 @@ function carryForwardLive(ds) {
     console.log('[build-data] ⚠ housing fetch failed — carried forward last good live housing');
   }
 
+  // SARIMAX export forecast (written by the later forecast.py step). build-data
+  // rebuilds exportsByRegion without it each run; seed it from the last good
+  // forecast so that if forecast.py fails the card doesn't disappear (forecast.py
+  // overwrites this with a fresh forecast when it succeeds).
+  if (di.exportsByRegion && !di.exportsByRegion.forecast &&
+      pi.exportsByRegion && pi.exportsByRegion.forecast) {
+    di.exportsByRegion.forecast = pi.exportsByRegion.forecast;
+    console.log('[build-data] ⚠ forecast missing — carried forward last good forecast (forecast.py will refresh)');
+  }
+
   // Per-company: production & revenue parsed from EDGAR filings.
   for (const [id, co] of Object.entries(ds.companies || {})) {
     const pco = prev.companies && prev.companies[id];
