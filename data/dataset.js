@@ -663,7 +663,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 627
+          "framing_composite": 622
         }
       ]
     },
@@ -2497,8 +2497,14 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-15T16:04:49.761Z",
+      "fetchedAt": "2026-07-15T16:18:23.403Z",
       "items": [
+        {
+          "title": "The future of lumber prices, supply, and quality explained",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPT0dCOU9GT0o4eWxRWWxtYWIzMWFvZ0xtbFNvY0dUcDBMbU0yZ0dWNzA2Q2poZzZsNVRTaVJyTlRMd1dtX19RdU9fbGlRdzBiejdiYlZQZFI0R2JLUnJQaG5RTEp6MnJHYUlEcDBDTGoxdkY3N3RGU2RWNG1ibnh6Q2NPQVNsQXp5NEFZN2NJY0tNc1JCZF9USzY3N3lwd1M5bE5XS3UwYzIzMWN0cEhGRWJfV1pFbUZxdFotQTZXbDN2V3dYUW5IQmdyZw?oc=5",
+          "source": "MSN",
+          "date": "2026-07-15T16:14:43.000Z"
+        },
         {
           "title": "Canfor shutters B.C. pulp mill",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlcEp6MGkwREt4bGVUVFlWZUNRWFpSNkIxdENnb3A1dEFnVlhVbTBSZkFldjZwc0pCakwxc1BKdldRY3FHejBXbWxRSE9LNlJBaWk0YUlFanU1TzVrYmVn?oc=5",
@@ -2543,9 +2549,9 @@ window.LUMBER_DATA = {
         },
         {
           "title": "Canfor Announces Permanent Closure Of Northwood Pulp Mill",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNXZfd2IwYTJUM3hubXZLZW5mcDZxYXBFd1ZaOE1fQUZtWnllXzZhMGh4cTU5ZDBzUnF0ak5xSkZzV0lORk5CeGtPSTZUZnhsZUM1YW82Z2RXWG8yS2h2b3RCNjIzdlloM1l1YzRJZnR3SU4tOXBoM09RSlk4c01mWXZWd0p2MHJVU2w3LWVxN2dUU1VHMXU0LUpvZ3c2Zw?oc=5",
-          "source": "Canadian Biomass Magazine",
-          "date": "2026-07-15T11:25:54.000Z"
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYS1JQjJTT1drcjdSSkZUSm9ReUVJWEh6NnNxNEpzVS1rSkc3Vk9OaWlWYm9mUUtESmw4NVppN0t0SEotZ1E1dmh1Qm1jamlWZHc5ay11MzVuVW5WNmg3eXpzQ1BUay1VOVZKLXB0OTA1dXdBd19xOFFCLUt2QnhWeDJ2OFY2eGp3UWVSbVdPQQ?oc=5",
+          "source": "Wood Business",
+          "date": "2026-07-15T11:24:52.000Z"
         },
         {
           "title": "Canfor Closes Northwood Pulp Mill as Global Glut Claims More Jobs",
@@ -2564,12 +2570,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYzNmMlNudWFRdVN6eGlxNW5EaUdPZlozeUFVTTF0UUZleUtaSDZBMm1paHc4TUtZVXpsOXV4N2hHVVJLSUxnd3FLOWVQTmwxcVNtYkVPZGRmdEtWSVluZlZCMHEwcEFObjRsQmk0U1d5eEc1c29oUnloOURibjNZZkEweS1zLUNObmdNMW9vWnVmWXVEZW5SWmc4ek9GdUN5ZjVBS01Jbl83T0pGNTM3WkpERQ?oc=5",
           "source": "IndexBox",
           "date": "2026-07-15T09:20:00.000Z"
-        },
-        {
-          "title": "Canfor to permanently close Northwood pulp mill in British Columbia",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSHlXVXNJbHNBUDBVVzdVTG82ZEFuOFFEVVdCRGVYY3UwZG5HdWlSRlRKVWdmRnRUSVZJczhDYm9Qam9HR1hqXzMwbVZsa18zZW9FSks5MVo1Z2NETXhyTk00ZmxCZHRUblRFai1melpIVnZLMnZESkM0VXE2UU94YjhJWQ?oc=5",
-          "source": "Fordaq",
-          "date": "2026-07-15T09:00:35.000Z"
         },
         {
           "title": "Canfor (TSX:CFP) Is Up 7.2% After Permanently Shuttering Northwood Pulp Mill \u2013 Has The Bull Case Changed?",
@@ -2678,18 +2678,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMnBMVDFjNU1zSk5FZWd2TE9BNHVmNWlaS19iS1E0SXJvdTgwcGFLeldiV1VWUlJ4RXVkekQ0STNzR3dNNFJ0MlkxanZLbEwzMjlYVTd0RVB0WFl3eldVdFBuWHJESVo3UkJNYUpSU1laWk9abjRNYU8tdVJFQXNwcnlGTmM2Q24yRkNEZVNkVE1xdDYwa1JYQk1BdVBRZGdOS2k2bnpfUk9KU0dhTS1jakZTLV95U1pqZFNvbll5VQ?oc=5",
           "source": "dars.gov.et",
           "date": "2026-07-13T15:53:43.000Z"
-        },
-        {
-          "title": "Why Interfor Stock Is Back In Focus After Updated Market Expectations?",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbF9YVXg2Yjk5b1lJWEppYUtsdHd1aFpwNG5fMlNaS1FSNlRTbnZwNFRQMnRFcXVqZFpsT3RySzgxQTBBRE12NldrSUZMX19jZ2pxd1V5WE1TTnJBM2JnMENrLXZKWmpDWW9vMnhsQ09GenRobVZFd25qYXl6WTl1bXpWNEp4ZkE2eU1RWFVqYWJkcWp5eHRvWVNVRE5GblFDbzNXRU5MUGJlMjlKdENibzdZSXo?oc=5",
-          "source": "Kalkine Media",
-          "date": "2026-07-13T14:26:00.000Z"
-        },
-        {
-          "title": "Minister\u2019s statement about the closure of Canfor\u2019s Northwood Pulp Mill",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1eFJfdUhHWlZlLXpreHlhdjJaSmwya2NuT2MzWkpsR2xjMDBNVXNxY0RISEdkNlRqOVR6MHBUU3ZrV3NhNHdVbnZRXzRoSUJNWWRpc3VEc043d255Nkxj?oc=5",
-          "source": "BC Gov News",
-          "date": "2026-07-13T07:00:00.000Z"
         }
       ]
     },
@@ -5101,21 +5089,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-07",
-            "mean": 934817,
-            "lo": 830507,
-            "hi": 1052229
+            "mean": 934813,
+            "lo": 830503,
+            "hi": 1052224
           },
           {
             "period": "2026-08",
             "mean": 758296,
-            "lo": 666806,
+            "lo": 666807,
             "hi": 862338
           },
           {
             "period": "2026-09",
             "mean": 810909,
-            "lo": 706330,
-            "hi": 930972
+            "lo": 706331,
+            "hi": 930970
           }
         ]
       }
