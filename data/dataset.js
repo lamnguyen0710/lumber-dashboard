@@ -7,23 +7,23 @@ window.LUMBER_DATA = {
     "live": {
       "production": false,
       "price": true,
-      "housing": true,
+      "housing": false,
       "exports": true,
       "companies": true,
       "regionExports": true
     },
-    "disclaimer": "PLACEHOLDER DATA — synthetic values scaled to realistic magnitudes so every chart renders. Replace with the live pipeline output (pipeline/fetch/*) before using for analysis.",
+    "disclaimer": "PLACEHOLDER DATA \u2014 synthetic values scaled to realistic magnitudes so every chart renders. Replace with the live pipeline output (pipeline/fetch/*) before using for analysis.",
     "sources": [
       {
-        "name": "US Census — New Residential Construction (starts & permits)",
+        "name": "US Census \u2014 New Residential Construction (starts & permits)",
         "url": "https://www.census.gov/construction/nrc/"
       },
       {
-        "name": "Statistics Canada — Softwood lumber exports",
+        "name": "Statistics Canada \u2014 Softwood lumber exports",
         "url": "https://www.statcan.gc.ca/"
       },
       {
-        "name": "Random Lengths — Framing Lumber Composite",
+        "name": "Random Lengths \u2014 Framing Lumber Composite",
         "url": "https://www.randomlengths.com/"
       },
       {
@@ -31,7 +31,7 @@ window.LUMBER_DATA = {
         "url": "https://www.sec.gov/edgar"
       },
       {
-        "name": "Internal — ICTLF / softwood_exports_pivot",
+        "name": "Internal \u2014 ICTLF / softwood_exports_pivot",
         "url": ""
       }
     ]
@@ -663,7 +663,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 627
+          "framing_composite": 628
         }
       ]
     },
@@ -673,825 +673,759 @@ window.LUMBER_DATA = {
       "series": [
         {
           "period": "2015-01",
-          "total": 1085,
-          "single_family": 703,
-          "multi_family": 382
+          "total": 856,
+          "single_family": 576,
+          "multi_family": 280
         },
         {
           "period": "2015-02",
-          "total": 886,
-          "single_family": 584,
-          "multi_family": 302
+          "total": 922,
+          "single_family": 609,
+          "multi_family": 312
         },
         {
           "period": "2015-03",
-          "total": 960,
-          "single_family": 627,
-          "multi_family": 333
+          "total": 1030,
+          "single_family": 673,
+          "multi_family": 357
         },
         {
           "period": "2015-04",
-          "total": 1190,
-          "single_family": 742,
-          "multi_family": 448
+          "total": 1068,
+          "single_family": 705,
+          "multi_family": 363
         },
         {
           "period": "2015-05",
-          "total": 1079,
-          "single_family": 708,
-          "multi_family": 371
+          "total": 1100,
+          "single_family": 722,
+          "multi_family": 378
         },
         {
           "period": "2015-06",
-          "total": 1205,
-          "single_family": 700,
-          "multi_family": 505
+          "total": 1131,
+          "single_family": 748,
+          "multi_family": 383
         },
         {
           "period": "2015-07",
-          "total": 1146,
-          "single_family": 759,
-          "multi_family": 387
+          "total": 1096,
+          "single_family": 711,
+          "multi_family": 385
         },
         {
           "period": "2015-08",
-          "total": 1130,
-          "single_family": 734,
-          "multi_family": 396
+          "total": 1079,
+          "single_family": 711,
+          "multi_family": 368
         },
         {
           "period": "2015-09",
-          "total": 1224,
-          "single_family": 746,
-          "multi_family": 478
+          "total": 1009,
+          "single_family": 659,
+          "multi_family": 350
         },
         {
           "period": "2015-10",
-          "total": 1058,
-          "single_family": 705,
-          "multi_family": 353
+          "total": 1003,
+          "single_family": 677,
+          "multi_family": 326
         },
         {
           "period": "2015-11",
-          "total": 1172,
-          "single_family": 774,
-          "multi_family": 398
+          "total": 892,
+          "single_family": 581,
+          "multi_family": 310
         },
         {
           "period": "2015-12",
-          "total": 1146,
-          "single_family": 765,
-          "multi_family": 381
+          "total": 873,
+          "single_family": 573,
+          "multi_family": 299
         },
         {
           "period": "2016-01",
-          "total": 1092,
-          "single_family": 752,
-          "multi_family": 340
+          "total": 892,
+          "single_family": 592,
+          "multi_family": 300
         },
         {
           "period": "2016-02",
-          "total": 1225,
-          "single_family": 859,
-          "multi_family": 366
+          "total": 926,
+          "single_family": 624,
+          "multi_family": 303
         },
         {
           "period": "2016-03",
-          "total": 1111,
-          "single_family": 753,
-          "multi_family": 358
+          "total": 1074,
+          "single_family": 703,
+          "multi_family": 371
         },
         {
           "period": "2016-04",
+          "total": 1175,
+          "single_family": 768,
+          "multi_family": 406
+        },
+        {
+          "period": "2016-05",
+          "total": 1199,
+          "single_family": 778,
+          "multi_family": 421
+        },
+        {
+          "period": "2016-06",
+          "total": 1142,
+          "single_family": 749,
+          "multi_family": 393
+        },
+        {
+          "period": "2016-07",
+          "total": 1162,
+          "single_family": 777,
+          "multi_family": 385
+        },
+        {
+          "period": "2016-08",
+          "total": 1096,
+          "single_family": 732,
+          "multi_family": 364
+        },
+        {
+          "period": "2016-09",
+          "total": 1068,
+          "single_family": 715,
+          "multi_family": 352
+        },
+        {
+          "period": "2016-10",
+          "total": 1046,
+          "single_family": 685,
+          "multi_family": 362
+        },
+        {
+          "period": "2016-11",
+          "total": 938,
+          "single_family": 606,
+          "multi_family": 332
+        },
+        {
+          "period": "2016-12",
+          "total": 914,
+          "single_family": 613,
+          "multi_family": 301
+        },
+        {
+          "period": "2017-01",
+          "total": 941,
+          "single_family": 615,
+          "multi_family": 325
+        },
+        {
+          "period": "2017-02",
+          "total": 989,
+          "single_family": 662,
+          "multi_family": 328
+        },
+        {
+          "period": "2017-03",
+          "total": 1123,
+          "single_family": 747,
+          "multi_family": 376
+        },
+        {
+          "period": "2017-04",
+          "total": 1196,
+          "single_family": 794,
+          "multi_family": 402
+        },
+        {
+          "period": "2017-05",
+          "total": 1253,
+          "single_family": 841,
+          "multi_family": 412
+        },
+        {
+          "period": "2017-06",
+          "total": 1243,
+          "single_family": 825,
+          "multi_family": 419
+        },
+        {
+          "period": "2017-07",
+          "total": 1210,
+          "single_family": 799,
+          "multi_family": 411
+        },
+        {
+          "period": "2017-08",
+          "total": 1199,
+          "single_family": 793,
+          "multi_family": 407
+        },
+        {
+          "period": "2017-09",
+          "total": 1108,
+          "single_family": 725,
+          "multi_family": 382
+        },
+        {
+          "period": "2017-10",
+          "total": 1083,
+          "single_family": 724,
+          "multi_family": 358
+        },
+        {
+          "period": "2017-11",
+          "total": 1018,
+          "single_family": 671,
+          "multi_family": 347
+        },
+        {
+          "period": "2017-12",
+          "total": 956,
+          "single_family": 636,
+          "multi_family": 320
+        },
+        {
+          "period": "2018-01",
+          "total": 1010,
+          "single_family": 680,
+          "multi_family": 330
+        },
+        {
+          "period": "2018-02",
+          "total": 1037,
+          "single_family": 672,
+          "multi_family": 365
+        },
+        {
+          "period": "2018-03",
+          "total": 1179,
+          "single_family": 762,
+          "multi_family": 417
+        },
+        {
+          "period": "2018-04",
+          "total": 1267,
+          "single_family": 847,
+          "multi_family": 420
+        },
+        {
+          "period": "2018-05",
+          "total": 1326,
+          "single_family": 884,
+          "multi_family": 442
+        },
+        {
+          "period": "2018-06",
+          "total": 1273,
+          "single_family": 824,
+          "multi_family": 448
+        },
+        {
+          "period": "2018-07",
+          "total": 1268,
+          "single_family": 854,
+          "multi_family": 414
+        },
+        {
+          "period": "2018-08",
+          "total": 1209,
+          "single_family": 785,
+          "multi_family": 425
+        },
+        {
+          "period": "2018-09",
+          "total": 1162,
+          "single_family": 783,
+          "multi_family": 379
+        },
+        {
+          "period": "2018-10",
+          "total": 1164,
+          "single_family": 756,
+          "multi_family": 407
+        },
+        {
+          "period": "2018-11",
+          "total": 1050,
+          "single_family": 683,
+          "multi_family": 367
+        },
+        {
+          "period": "2018-12",
+          "total": 988,
+          "single_family": 639,
+          "multi_family": 349
+        },
+        {
+          "period": "2019-01",
+          "total": 1043,
+          "single_family": 681,
+          "multi_family": 361
+        },
+        {
+          "period": "2019-02",
+          "total": 1123,
+          "single_family": 737,
+          "multi_family": 386
+        },
+        {
+          "period": "2019-03",
+          "total": 1229,
+          "single_family": 806,
+          "multi_family": 422
+        },
+        {
+          "period": "2019-04",
+          "total": 1310,
+          "single_family": 866,
+          "multi_family": 443
+        },
+        {
+          "period": "2019-05",
+          "total": 1355,
+          "single_family": 904,
+          "multi_family": 451
+        },
+        {
+          "period": "2019-06",
+          "total": 1373,
+          "single_family": 888,
+          "multi_family": 486
+        },
+        {
+          "period": "2019-07",
+          "total": 1335,
+          "single_family": 872,
+          "multi_family": 463
+        },
+        {
+          "period": "2019-08",
+          "total": 1270,
+          "single_family": 837,
+          "multi_family": 433
+        },
+        {
+          "period": "2019-09",
+          "total": 1252,
+          "single_family": 824,
+          "multi_family": 427
+        },
+        {
+          "period": "2019-10",
+          "total": 1198,
+          "single_family": 779,
+          "multi_family": 419
+        },
+        {
+          "period": "2019-11",
+          "total": 1086,
+          "single_family": 728,
+          "multi_family": 357
+        },
+        {
+          "period": "2019-12",
+          "total": 1037,
+          "single_family": 688,
+          "multi_family": 349
+        },
+        {
+          "period": "2020-01",
+          "total": 1080,
+          "single_family": 709,
+          "multi_family": 371
+        },
+        {
+          "period": "2020-02",
+          "total": 1136,
+          "single_family": 757,
+          "multi_family": 379
+        },
+        {
+          "period": "2020-03",
+          "total": 1294,
+          "single_family": 855,
+          "multi_family": 439
+        },
+        {
+          "period": "2020-04",
+          "total": 1376,
+          "single_family": 917,
+          "multi_family": 459
+        },
+        {
+          "period": "2020-05",
+          "total": 1394,
+          "single_family": 923,
+          "multi_family": 471
+        },
+        {
+          "period": "2020-06",
+          "total": 1397,
+          "single_family": 927,
+          "multi_family": 471
+        },
+        {
+          "period": "2020-07",
+          "total": 1407,
+          "single_family": 935,
+          "multi_family": 473
+        },
+        {
+          "period": "2020-08",
+          "total": 1377,
+          "single_family": 929,
+          "multi_family": 448
+        },
+        {
+          "period": "2020-09",
+          "total": 1285,
+          "single_family": 851,
+          "multi_family": 434
+        },
+        {
+          "period": "2020-10",
+          "total": 1270,
+          "single_family": 844,
+          "multi_family": 425
+        },
+        {
+          "period": "2020-11",
+          "total": 1127,
+          "single_family": 743,
+          "multi_family": 384
+        },
+        {
+          "period": "2020-12",
+          "total": 1072,
+          "single_family": 718,
+          "multi_family": 354
+        },
+        {
+          "period": "2021-01",
+          "total": 1127,
+          "single_family": 735,
+          "multi_family": 391
+        },
+        {
+          "period": "2021-02",
+          "total": 1170,
+          "single_family": 764,
+          "multi_family": 406
+        },
+        {
+          "period": "2021-03",
+          "total": 1363,
+          "single_family": 895,
+          "multi_family": 469
+        },
+        {
+          "period": "2021-04",
+          "total": 1477,
+          "single_family": 954,
+          "multi_family": 523
+        },
+        {
+          "period": "2021-05",
+          "total": 1493,
+          "single_family": 1003,
+          "multi_family": 490
+        },
+        {
+          "period": "2021-06",
+          "total": 1505,
+          "single_family": 1005,
+          "multi_family": 500
+        },
+        {
+          "period": "2021-07",
+          "total": 1446,
+          "single_family": 944,
+          "multi_family": 502
+        },
+        {
+          "period": "2021-08",
+          "total": 1445,
+          "single_family": 933,
+          "multi_family": 512
+        },
+        {
+          "period": "2021-09",
+          "total": 1353,
+          "single_family": 898,
+          "multi_family": 455
+        },
+        {
+          "period": "2021-10",
+          "total": 1309,
+          "single_family": 881,
+          "multi_family": 428
+        },
+        {
+          "period": "2021-11",
+          "total": 1186,
+          "single_family": 782,
+          "multi_family": 403
+        },
+        {
+          "period": "2021-12",
+          "total": 1138,
+          "single_family": 760,
+          "multi_family": 378
+        },
+        {
+          "period": "2022-01",
+          "total": 1162,
+          "single_family": 754,
+          "multi_family": 408
+        },
+        {
+          "period": "2022-02",
+          "total": 1229,
+          "single_family": 829,
+          "multi_family": 400
+        },
+        {
+          "period": "2022-03",
+          "total": 1447,
+          "single_family": 975,
+          "multi_family": 473
+        },
+        {
+          "period": "2022-04",
+          "total": 1479,
+          "single_family": 976,
+          "multi_family": 502
+        },
+        {
+          "period": "2022-05",
+          "total": 1538,
+          "single_family": 1025,
+          "multi_family": 514
+        },
+        {
+          "period": "2022-06",
+          "total": 1515,
+          "single_family": 1001,
+          "multi_family": 514
+        },
+        {
+          "period": "2022-07",
+          "total": 1490,
+          "single_family": 983,
+          "multi_family": 507
+        },
+        {
+          "period": "2022-08",
+          "total": 1503,
+          "single_family": 992,
+          "multi_family": 511
+        },
+        {
+          "period": "2022-09",
+          "total": 1391,
+          "single_family": 922,
+          "multi_family": 469
+        },
+        {
+          "period": "2022-10",
+          "total": 1381,
+          "single_family": 903,
+          "multi_family": 478
+        },
+        {
+          "period": "2022-11",
+          "total": 1241,
+          "single_family": 829,
+          "multi_family": 412
+        },
+        {
+          "period": "2022-12",
+          "total": 1203,
+          "single_family": 785,
+          "multi_family": 418
+        },
+        {
+          "period": "2023-01",
+          "total": 1120,
+          "single_family": 745,
+          "multi_family": 375
+        },
+        {
+          "period": "2023-02",
           "total": 1163,
           "single_family": 777,
           "multi_family": 386
         },
         {
-          "period": "2016-05",
-          "total": 1148,
-          "single_family": 753,
-          "multi_family": 395
-        },
-        {
-          "period": "2016-06",
-          "total": 1203,
-          "single_family": 769,
-          "multi_family": 434
-        },
-        {
-          "period": "2016-07",
-          "total": 1239,
-          "single_family": 769,
-          "multi_family": 470
-        },
-        {
-          "period": "2016-08",
-          "total": 1171,
-          "single_family": 734,
-          "multi_family": 437
-        },
-        {
-          "period": "2016-09",
-          "total": 1068,
-          "single_family": 777,
-          "multi_family": 291
-        },
-        {
-          "period": "2016-10",
-          "total": 1313,
-          "single_family": 859,
-          "multi_family": 454
-        },
-        {
-          "period": "2016-11",
-          "total": 1140,
-          "single_family": 817,
-          "multi_family": 323
-        },
-        {
-          "period": "2016-12",
-          "total": 1252,
-          "single_family": 801,
-          "multi_family": 451
-        },
-        {
-          "period": "2017-01",
-          "total": 1190,
-          "single_family": 785,
-          "multi_family": 405
-        },
-        {
-          "period": "2017-02",
-          "total": 1271,
-          "single_family": 864,
-          "multi_family": 407
-        },
-        {
-          "period": "2017-03",
-          "total": 1190,
-          "single_family": 836,
-          "multi_family": 354
-        },
-        {
-          "period": "2017-04",
-          "total": 1146,
-          "single_family": 825,
-          "multi_family": 321
-        },
-        {
-          "period": "2017-05",
-          "total": 1157,
-          "single_family": 832,
-          "multi_family": 325
-        },
-        {
-          "period": "2017-06",
-          "total": 1249,
-          "single_family": 867,
-          "multi_family": 382
-        },
-        {
-          "period": "2017-07",
-          "total": 1206,
-          "single_family": 841,
-          "multi_family": 365
-        },
-        {
-          "period": "2017-08",
-          "total": 1159,
-          "single_family": 867,
-          "multi_family": 292
-        },
-        {
-          "period": "2017-09",
-          "total": 1181,
-          "single_family": 839,
-          "multi_family": 342
-        },
-        {
-          "period": "2017-10",
-          "total": 1257,
-          "single_family": 878,
-          "multi_family": 379
-        },
-        {
-          "period": "2017-11",
-          "total": 1273,
-          "single_family": 924,
-          "multi_family": 349
-        },
-        {
-          "period": "2017-12",
-          "total": 1177,
-          "single_family": 824,
-          "multi_family": 353
-        },
-        {
-          "period": "2018-01",
-          "total": 1299,
-          "single_family": 872,
-          "multi_family": 427
-        },
-        {
-          "period": "2018-02",
-          "total": 1277,
-          "single_family": 894,
-          "multi_family": 383
-        },
-        {
-          "period": "2018-03",
-          "total": 1318,
-          "single_family": 875,
-          "multi_family": 443
-        },
-        {
-          "period": "2018-04",
-          "total": 1276,
-          "single_family": 908,
-          "multi_family": 368
-        },
-        {
-          "period": "2018-05",
-          "total": 1357,
-          "single_family": 970,
-          "multi_family": 387
-        },
-        {
-          "period": "2018-06",
-          "total": 1192,
-          "single_family": 866,
-          "multi_family": 326
-        },
-        {
-          "period": "2018-07",
-          "total": 1208,
-          "single_family": 869,
-          "multi_family": 339
-        },
-        {
-          "period": "2018-08",
-          "total": 1288,
-          "single_family": 900,
-          "multi_family": 388
-        },
-        {
-          "period": "2018-09",
-          "total": 1250,
-          "single_family": 875,
-          "multi_family": 375
-        },
-        {
-          "period": "2018-10",
-          "total": 1221,
-          "single_family": 872,
-          "multi_family": 349
-        },
-        {
-          "period": "2018-11",
-          "total": 1181,
-          "single_family": 781,
-          "multi_family": 400
-        },
-        {
-          "period": "2018-12",
-          "total": 1095,
-          "single_family": 775,
-          "multi_family": 320
-        },
-        {
-          "period": "2019-01",
-          "total": 1226,
-          "single_family": 917,
-          "multi_family": 309
-        },
-        {
-          "period": "2019-02",
-          "total": 1121,
-          "single_family": 778,
-          "multi_family": 343
-        },
-        {
-          "period": "2019-03",
-          "total": 1191,
-          "single_family": 837,
-          "multi_family": 354
-        },
-        {
-          "period": "2019-04",
-          "total": 1272,
-          "single_family": 874,
-          "multi_family": 398
-        },
-        {
-          "period": "2019-05",
-          "total": 1293,
-          "single_family": 844,
-          "multi_family": 449
-        },
-        {
-          "period": "2019-06",
-          "total": 1243,
-          "single_family": 879,
-          "multi_family": 364
-        },
-        {
-          "period": "2019-07",
-          "total": 1240,
-          "single_family": 888,
-          "multi_family": 352
-        },
-        {
-          "period": "2019-08",
-          "total": 1375,
-          "single_family": 909,
-          "multi_family": 466
-        },
-        {
-          "period": "2019-09",
-          "total": 1311,
-          "single_family": 928,
-          "multi_family": 383
-        },
-        {
-          "period": "2019-10",
-          "total": 1325,
-          "single_family": 891,
-          "multi_family": 434
-        },
-        {
-          "period": "2019-11",
-          "total": 1353,
-          "single_family": 915,
-          "multi_family": 438
-        },
-        {
-          "period": "2019-12",
-          "total": 1548,
-          "single_family": 1004,
-          "multi_family": 544
-        },
-        {
-          "period": "2020-01",
-          "total": 1581,
-          "single_family": 970,
-          "multi_family": 611
-        },
-        {
-          "period": "2020-02",
-          "total": 1549,
-          "single_family": 1034,
-          "multi_family": 515
-        },
-        {
-          "period": "2020-03",
-          "total": 1266,
-          "single_family": 878,
-          "multi_family": 388
-        },
-        {
-          "period": "2020-04",
-          "total": 936,
-          "single_family": 688,
-          "multi_family": 248
-        },
-        {
-          "period": "2020-05",
-          "total": 1039,
-          "single_family": 740,
-          "multi_family": 299
-        },
-        {
-          "period": "2020-06",
-          "total": 1266,
-          "single_family": 904,
-          "multi_family": 362
-        },
-        {
-          "period": "2020-07",
-          "total": 1526,
-          "single_family": 1007,
-          "multi_family": 519
-        },
-        {
-          "period": "2020-08",
-          "total": 1396,
-          "single_family": 1041,
-          "multi_family": 355
-        },
-        {
-          "period": "2020-09",
-          "total": 1473,
-          "single_family": 1114,
-          "multi_family": 359
-        },
-        {
-          "period": "2020-10",
-          "total": 1543,
-          "single_family": 1189,
-          "multi_family": 354
-        },
-        {
-          "period": "2020-11",
-          "total": 1543,
-          "single_family": 1168,
-          "multi_family": 375
-        },
-        {
-          "period": "2020-12",
-          "total": 1614,
-          "single_family": 1273,
-          "multi_family": 341
-        },
-        {
-          "period": "2021-01",
-          "total": 1624,
-          "single_family": 1130,
-          "multi_family": 494
-        },
-        {
-          "period": "2021-02",
-          "total": 1398,
-          "single_family": 1041,
-          "multi_family": 357
-        },
-        {
-          "period": "2021-03",
-          "total": 1688,
-          "single_family": 1213,
-          "multi_family": 475
-        },
-        {
-          "period": "2021-04",
-          "total": 1489,
-          "single_family": 1060,
-          "multi_family": 429
-        },
-        {
-          "period": "2021-05",
-          "total": 1600,
-          "single_family": 1094,
-          "multi_family": 506
-        },
-        {
-          "period": "2021-06",
-          "total": 1664,
-          "single_family": 1173,
-          "multi_family": 491
-        },
-        {
-          "period": "2021-07",
-          "total": 1600,
-          "single_family": 1145,
-          "multi_family": 455
-        },
-        {
-          "period": "2021-08",
-          "total": 1596,
-          "single_family": 1107,
-          "multi_family": 489
-        },
-        {
-          "period": "2021-09",
-          "total": 1576,
-          "single_family": 1098,
-          "multi_family": 478
-        },
-        {
-          "period": "2021-10",
-          "total": 1587,
-          "single_family": 1108,
-          "multi_family": 479
-        },
-        {
-          "period": "2021-11",
-          "total": 1707,
-          "single_family": 1214,
-          "multi_family": 493
-        },
-        {
-          "period": "2021-12",
-          "total": 1711,
-          "single_family": 1169,
-          "multi_family": 542
-        },
-        {
-          "period": "2022-01",
-          "total": 1693,
-          "single_family": 1172,
-          "multi_family": 521
-        },
-        {
-          "period": "2022-02",
-          "total": 1730,
-          "single_family": 1193,
-          "multi_family": 537
-        },
-        {
-          "period": "2022-03",
-          "total": 1700,
-          "single_family": 1166,
-          "multi_family": 534
-        },
-        {
-          "period": "2022-04",
-          "total": 1807,
-          "single_family": 1202,
-          "multi_family": 605
-        },
-        {
-          "period": "2022-05",
-          "total": 1546,
-          "single_family": 1052,
-          "multi_family": 494
-        },
-        {
-          "period": "2022-06",
-          "total": 1556,
-          "single_family": 1013,
-          "multi_family": 543
-        },
-        {
-          "period": "2022-07",
-          "total": 1382,
-          "single_family": 911,
-          "multi_family": 471
-        },
-        {
-          "period": "2022-08",
-          "total": 1532,
-          "single_family": 927,
-          "multi_family": 605
-        },
-        {
-          "period": "2022-09",
-          "total": 1481,
-          "single_family": 892,
-          "multi_family": 589
-        },
-        {
-          "period": "2022-10",
-          "total": 1446,
-          "single_family": 876,
-          "multi_family": 570
-        },
-        {
-          "period": "2022-11",
-          "total": 1434,
-          "single_family": 791,
-          "multi_family": 643
-        },
-        {
-          "period": "2022-12",
-          "total": 1296,
-          "single_family": 850,
-          "multi_family": 446
-        },
-        {
-          "period": "2023-01",
-          "total": 1358,
-          "single_family": 832,
-          "multi_family": 526
-        },
-        {
-          "period": "2023-02",
-          "total": 1395,
-          "single_family": 817,
-          "multi_family": 578
-        },
-        {
           "period": "2023-03",
-          "total": 1366,
-          "single_family": 829,
-          "multi_family": 537
+          "total": 1320,
+          "single_family": 861,
+          "multi_family": 459
         },
         {
           "period": "2023-04",
-          "total": 1343,
-          "single_family": 869,
-          "multi_family": 474
+          "total": 1445,
+          "single_family": 968,
+          "multi_family": 477
         },
         {
           "period": "2023-05",
-          "total": 1609,
-          "single_family": 1003,
-          "multi_family": 606
+          "total": 1496,
+          "single_family": 984,
+          "multi_family": 512
         },
         {
           "period": "2023-06",
-          "total": 1420,
-          "single_family": 940,
-          "multi_family": 480
+          "total": 1435,
+          "single_family": 945,
+          "multi_family": 490
         },
         {
           "period": "2023-07",
-          "total": 1464,
-          "single_family": 1007,
-          "multi_family": 457
+          "total": 1440,
+          "single_family": 953,
+          "multi_family": 487
         },
         {
           "period": "2023-08",
-          "total": 1321,
-          "single_family": 959,
-          "multi_family": 362
+          "total": 1409,
+          "single_family": 946,
+          "multi_family": 464
         },
         {
           "period": "2023-09",
-          "total": 1369,
-          "single_family": 978,
-          "multi_family": 391
+          "total": 1375,
+          "single_family": 896,
+          "multi_family": 479
         },
         {
           "period": "2023-10",
-          "total": 1380,
-          "single_family": 987,
-          "multi_family": 393
+          "total": 1275,
+          "single_family": 827,
+          "multi_family": 448
         },
         {
           "period": "2023-11",
-          "total": 1522,
-          "single_family": 1124,
-          "multi_family": 398
+          "total": 1213,
+          "single_family": 794,
+          "multi_family": 420
         },
         {
           "period": "2023-12",
-          "total": 1504,
-          "single_family": 1024,
-          "multi_family": 480
+          "total": 1145,
+          "single_family": 750,
+          "multi_family": 395
         },
         {
           "period": "2024-01",
-          "total": 1378,
-          "single_family": 1016,
-          "multi_family": 362
+          "total": 1102,
+          "single_family": 741,
+          "multi_family": 361
         },
         {
           "period": "2024-02",
-          "total": 1555,
-          "single_family": 1140,
-          "multi_family": 415
-        },
-        {
-          "period": "2024-03",
-          "total": 1297,
-          "single_family": 1031,
-          "multi_family": 266
-        },
-        {
-          "period": "2024-04",
-          "total": 1379,
-          "single_family": 1051,
-          "multi_family": 328
-        },
-        {
-          "period": "2024-05",
-          "total": 1329,
-          "single_family": 995,
-          "multi_family": 334
-        },
-        {
-          "period": "2024-06",
-          "total": 1318,
-          "single_family": 979,
-          "multi_family": 339
-        },
-        {
-          "period": "2024-07",
-          "total": 1269,
-          "single_family": 879,
-          "multi_family": 390
-        },
-        {
-          "period": "2024-08",
-          "total": 1394,
-          "single_family": 1016,
+          "total": 1139,
+          "single_family": 761,
           "multi_family": 378
         },
         {
+          "period": "2024-03",
+          "total": 1303,
+          "single_family": 878,
+          "multi_family": 425
+        },
+        {
+          "period": "2024-04",
+          "total": 1355,
+          "single_family": 887,
+          "multi_family": 467
+        },
+        {
+          "period": "2024-05",
+          "total": 1378,
+          "single_family": 922,
+          "multi_family": 457
+        },
+        {
+          "period": "2024-06",
+          "total": 1398,
+          "single_family": 922,
+          "multi_family": 476
+        },
+        {
+          "period": "2024-07",
+          "total": 1351,
+          "single_family": 882,
+          "multi_family": 469
+        },
+        {
+          "period": "2024-08",
+          "total": 1315,
+          "single_family": 865,
+          "multi_family": 450
+        },
+        {
           "period": "2024-09",
-          "total": 1357,
-          "single_family": 1052,
-          "multi_family": 305
+          "total": 1265,
+          "single_family": 846,
+          "multi_family": 419
         },
         {
           "period": "2024-10",
-          "total": 1370,
-          "single_family": 958,
-          "multi_family": 412
+          "total": 1247,
+          "single_family": 842,
+          "multi_family": 406
         },
         {
           "period": "2024-11",
-          "total": 1300,
-          "single_family": 1010,
-          "multi_family": 290
+          "total": 1134,
+          "single_family": 758,
+          "multi_family": 376
         },
         {
           "period": "2024-12",
-          "total": 1494,
-          "single_family": 1056,
-          "multi_family": 438
+          "total": 1086,
+          "single_family": 731,
+          "multi_family": 355
         },
         {
           "period": "2025-01",
-          "total": 1353,
-          "single_family": 1002,
-          "multi_family": 351
+          "total": 999,
+          "single_family": 644,
+          "multi_family": 354
         },
         {
           "period": "2025-02",
-          "total": 1491,
-          "single_family": 1094,
-          "multi_family": 397
+          "total": 1048,
+          "single_family": 680,
+          "multi_family": 368
         },
         {
           "period": "2025-03",
-          "total": 1346,
-          "single_family": 939,
-          "multi_family": 407
+          "total": 1226,
+          "single_family": 827,
+          "multi_family": 399
         },
         {
           "period": "2025-04",
-          "total": 1400,
-          "single_family": 953,
-          "multi_family": 447
+          "total": 1268,
+          "single_family": 822,
+          "multi_family": 446
         },
         {
           "period": "2025-05",
-          "total": 1289,
-          "single_family": 945,
-          "multi_family": 344
+          "total": 1305,
+          "single_family": 865,
+          "multi_family": 440
         },
         {
           "period": "2025-06",
-          "total": 1379,
-          "single_family": 925,
-          "multi_family": 454
-        },
-        {
-          "period": "2025-07",
-          "total": 1432,
-          "single_family": 959,
-          "multi_family": 473
-        },
-        {
-          "period": "2025-08",
-          "total": 1291,
-          "single_family": 873,
-          "multi_family": 418
-        },
-        {
-          "period": "2025-09",
-          "total": 1319,
-          "single_family": 837,
-          "multi_family": 482
-        },
-        {
-          "period": "2025-10",
-          "total": 1273,
-          "single_family": 893,
-          "multi_family": 380
-        },
-        {
-          "period": "2025-11",
-          "total": 1319,
-          "single_family": 929,
-          "multi_family": 390
-        },
-        {
-          "period": "2025-12",
-          "total": 1378,
-          "single_family": 946,
-          "multi_family": 432
-        },
-        {
-          "period": "2026-01",
-          "total": 1385,
-          "single_family": 894,
-          "multi_family": 491
-        },
-        {
-          "period": "2026-02",
-          "total": 1346,
-          "single_family": 923,
-          "multi_family": 423
-        },
-        {
-          "period": "2026-03",
-          "total": 1522,
-          "single_family": 1017,
-          "multi_family": 505
-        },
-        {
-          "period": "2026-04",
-          "total": 1392,
-          "single_family": 899,
-          "multi_family": 493
-        },
-        {
-          "period": "2026-05",
-          "total": 1177,
-          "single_family": 882,
-          "multi_family": 295
+          "total": 1295,
+          "single_family": 838,
+          "multi_family": 458
         }
       ]
     },
@@ -1501,825 +1435,759 @@ window.LUMBER_DATA = {
       "series": [
         {
           "period": "2015-01",
-          "total": 1049,
-          "single_family": 662,
-          "multi_family": 387
+          "total": 922,
+          "single_family": 604,
+          "multi_family": 318
         },
         {
           "period": "2015-02",
-          "total": 1127,
-          "single_family": 628,
-          "multi_family": 499
+          "total": 933,
+          "single_family": 627,
+          "multi_family": 305
         },
         {
           "period": "2015-03",
-          "total": 1072,
-          "single_family": 658,
-          "multi_family": 414
+          "total": 1094,
+          "single_family": 734,
+          "multi_family": 360
         },
         {
           "period": "2015-04",
-          "total": 1166,
-          "single_family": 679,
-          "multi_family": 487
+          "total": 1156,
+          "single_family": 759,
+          "multi_family": 397
         },
         {
           "period": "2015-05",
-          "total": 1272,
-          "single_family": 701,
-          "multi_family": 571
+          "total": 1196,
+          "single_family": 807,
+          "multi_family": 389
         },
         {
           "period": "2015-06",
-          "total": 1379,
-          "single_family": 706,
-          "multi_family": 673
+          "total": 1156,
+          "single_family": 776,
+          "multi_family": 380
         },
         {
           "period": "2015-07",
-          "total": 1140,
-          "single_family": 700,
-          "multi_family": 440
+          "total": 1108,
+          "single_family": 745,
+          "multi_family": 363
         },
         {
           "period": "2015-08",
-          "total": 1165,
-          "single_family": 718,
-          "multi_family": 447
+          "total": 1137,
+          "single_family": 766,
+          "multi_family": 371
         },
         {
           "period": "2015-09",
-          "total": 1144,
-          "single_family": 711,
-          "multi_family": 433
+          "total": 1087,
+          "single_family": 722,
+          "multi_family": 364
         },
         {
           "period": "2015-10",
-          "total": 1160,
-          "single_family": 721,
-          "multi_family": 439
+          "total": 1027,
+          "single_family": 677,
+          "multi_family": 350
         },
         {
           "period": "2015-11",
-          "total": 1244,
-          "single_family": 730,
-          "multi_family": 514
+          "total": 958,
+          "single_family": 623,
+          "multi_family": 336
         },
         {
           "period": "2015-12",
-          "total": 1211,
-          "single_family": 719,
-          "multi_family": 492
+          "total": 905,
+          "single_family": 599,
+          "multi_family": 306
         },
         {
           "period": "2016-01",
-          "total": 1171,
-          "single_family": 720,
-          "multi_family": 451
+          "total": 962,
+          "single_family": 642,
+          "multi_family": 320
         },
         {
           "period": "2016-02",
-          "total": 1172,
-          "single_family": 723,
-          "multi_family": 449
+          "total": 984,
+          "single_family": 650,
+          "multi_family": 334
         },
         {
           "period": "2016-03",
-          "total": 1118,
-          "single_family": 737,
+          "total": 1143,
+          "single_family": 762,
           "multi_family": 381
         },
         {
           "period": "2016-04",
-          "total": 1160,
-          "single_family": 753,
-          "multi_family": 407
+          "total": 1187,
+          "single_family": 784,
+          "multi_family": 404
         },
         {
           "period": "2016-05",
-          "total": 1205,
-          "single_family": 748,
-          "multi_family": 457
+          "total": 1241,
+          "single_family": 836,
+          "multi_family": 405
         },
         {
           "period": "2016-06",
-          "total": 1208,
-          "single_family": 752,
-          "multi_family": 456
+          "total": 1226,
+          "single_family": 804,
+          "multi_family": 422
         },
         {
           "period": "2016-07",
-          "total": 1198,
-          "single_family": 720,
-          "multi_family": 478
+          "total": 1208,
+          "single_family": 803,
+          "multi_family": 405
         },
         {
           "period": "2016-08",
-          "total": 1201,
-          "single_family": 751,
-          "multi_family": 450
+          "total": 1195,
+          "single_family": 797,
+          "multi_family": 398
         },
         {
           "period": "2016-09",
-          "total": 1303,
+          "total": 1115,
           "single_family": 752,
-          "multi_family": 551
+          "multi_family": 363
         },
         {
           "period": "2016-10",
-          "total": 1254,
-          "single_family": 769,
-          "multi_family": 485
+          "total": 1094,
+          "single_family": 733,
+          "multi_family": 362
         },
         {
           "period": "2016-11",
-          "total": 1230,
-          "single_family": 770,
-          "multi_family": 460
+          "total": 982,
+          "single_family": 655,
+          "multi_family": 326
         },
         {
           "period": "2016-12",
-          "total": 1248,
-          "single_family": 809,
-          "multi_family": 439
+          "total": 950,
+          "single_family": 617,
+          "multi_family": 333
         },
         {
           "period": "2017-01",
-          "total": 1303,
-          "single_family": 790,
-          "multi_family": 513
+          "total": 998,
+          "single_family": 667,
+          "multi_family": 331
         },
         {
           "period": "2017-02",
-          "total": 1234,
-          "single_family": 811,
-          "multi_family": 423
+          "total": 1028,
+          "single_family": 691,
+          "multi_family": 337
         },
         {
           "period": "2017-03",
-          "total": 1272,
-          "single_family": 826,
-          "multi_family": 446
+          "total": 1192,
+          "single_family": 788,
+          "multi_family": 403
         },
         {
           "period": "2017-04",
-          "total": 1251,
-          "single_family": 793,
-          "multi_family": 458
+          "total": 1247,
+          "single_family": 822,
+          "multi_family": 425
         },
         {
           "period": "2017-05",
-          "total": 1208,
-          "single_family": 795,
-          "multi_family": 413
+          "total": 1290,
+          "single_family": 869,
+          "multi_family": 421
         },
         {
           "period": "2017-06",
-          "total": 1353,
-          "single_family": 822,
-          "multi_family": 531
+          "total": 1286,
+          "single_family": 849,
+          "multi_family": 436
         },
         {
           "period": "2017-07",
-          "total": 1256,
-          "single_family": 818,
-          "multi_family": 438
+          "total": 1261,
+          "single_family": 840,
+          "multi_family": 421
         },
         {
           "period": "2017-08",
-          "total": 1319,
-          "single_family": 816,
-          "multi_family": 503
+          "total": 1212,
+          "single_family": 814,
+          "multi_family": 398
         },
         {
           "period": "2017-09",
-          "total": 1273,
-          "single_family": 830,
-          "multi_family": 443
+          "total": 1181,
+          "single_family": 779,
+          "multi_family": 402
         },
         {
           "period": "2017-10",
-          "total": 1356,
-          "single_family": 852,
-          "multi_family": 504
+          "total": 1133,
+          "single_family": 755,
+          "multi_family": 378
         },
         {
           "period": "2017-11",
-          "total": 1299,
-          "single_family": 859,
-          "multi_family": 440
+          "total": 1052,
+          "single_family": 700,
+          "multi_family": 352
         },
         {
           "period": "2017-12",
-          "total": 1311,
-          "single_family": 862,
-          "multi_family": 449
+          "total": 986,
+          "single_family": 659,
+          "multi_family": 328
         },
         {
           "period": "2018-01",
-          "total": 1317,
-          "single_family": 856,
-          "multi_family": 461
+          "total": 1073,
+          "single_family": 719,
+          "multi_family": 354
         },
         {
           "period": "2018-02",
-          "total": 1321,
-          "single_family": 865,
-          "multi_family": 456
+          "total": 1080,
+          "single_family": 697,
+          "multi_family": 383
         },
         {
           "period": "2018-03",
-          "total": 1385,
-          "single_family": 847,
-          "multi_family": 538
+          "total": 1244,
+          "single_family": 827,
+          "multi_family": 417
         },
         {
           "period": "2018-04",
-          "total": 1378,
-          "single_family": 865,
-          "multi_family": 513
+          "total": 1330,
+          "single_family": 893,
+          "multi_family": 437
         },
         {
           "period": "2018-05",
-          "total": 1338,
-          "single_family": 859,
-          "multi_family": 479
+          "total": 1363,
+          "single_family": 895,
+          "multi_family": 469
         },
         {
           "period": "2018-06",
-          "total": 1345,
-          "single_family": 864,
-          "multi_family": 481
+          "total": 1392,
+          "single_family": 916,
+          "multi_family": 476
         },
         {
           "period": "2018-07",
-          "total": 1334,
-          "single_family": 884,
-          "multi_family": 450
+          "total": 1340,
+          "single_family": 901,
+          "multi_family": 439
         },
         {
           "period": "2018-08",
-          "total": 1273,
-          "single_family": 840,
-          "multi_family": 433
+          "total": 1274,
+          "single_family": 851,
+          "multi_family": 424
         },
         {
           "period": "2018-09",
-          "total": 1314,
-          "single_family": 858,
-          "multi_family": 456
+          "total": 1227,
+          "single_family": 828,
+          "multi_family": 399
         },
         {
           "period": "2018-10",
-          "total": 1272,
-          "single_family": 849,
-          "multi_family": 423
+          "total": 1205,
+          "single_family": 786,
+          "multi_family": 418
         },
         {
           "period": "2018-11",
-          "total": 1340,
-          "single_family": 845,
-          "multi_family": 495
+          "total": 1117,
+          "single_family": 731,
+          "multi_family": 386
         },
         {
           "period": "2018-12",
-          "total": 1317,
-          "single_family": 812,
-          "multi_family": 505
+          "total": 1053,
+          "single_family": 694,
+          "multi_family": 359
         },
         {
           "period": "2019-01",
-          "total": 1254,
-          "single_family": 797,
-          "multi_family": 457
+          "total": 1084,
+          "single_family": 704,
+          "multi_family": 380
         },
         {
           "period": "2019-02",
-          "total": 1286,
-          "single_family": 796,
-          "multi_family": 490
+          "total": 1178,
+          "single_family": 785,
+          "multi_family": 393
         },
         {
           "period": "2019-03",
-          "total": 1295,
-          "single_family": 809,
-          "multi_family": 486
+          "total": 1325,
+          "single_family": 869,
+          "multi_family": 457
         },
         {
           "period": "2019-04",
-          "total": 1322,
-          "single_family": 796,
-          "multi_family": 526
+          "total": 1405,
+          "single_family": 932,
+          "multi_family": 472
         },
         {
           "period": "2019-05",
-          "total": 1347,
-          "single_family": 833,
-          "multi_family": 514
+          "total": 1438,
+          "single_family": 939,
+          "multi_family": 499
         },
         {
           "period": "2019-06",
-          "total": 1299,
-          "single_family": 848,
-          "multi_family": 451
+          "total": 1431,
+          "single_family": 943,
+          "multi_family": 487
         },
         {
           "period": "2019-07",
-          "total": 1379,
-          "single_family": 865,
-          "multi_family": 514
-        },
-        {
-          "period": "2019-08",
-          "total": 1482,
-          "single_family": 906,
-          "multi_family": 576
-        },
-        {
-          "period": "2019-09",
-          "total": 1469,
-          "single_family": 904,
-          "multi_family": 565
-        },
-        {
-          "period": "2019-10",
-          "total": 1523,
-          "single_family": 934,
-          "multi_family": 589
-        },
-        {
-          "period": "2019-11",
-          "total": 1535,
-          "single_family": 944,
-          "multi_family": 591
-        },
-        {
-          "period": "2019-12",
-          "total": 1443,
-          "single_family": 934,
-          "multi_family": 509
-        },
-        {
-          "period": "2020-01",
-          "total": 1490,
-          "single_family": 971,
-          "multi_family": 519
-        },
-        {
-          "period": "2020-02",
-          "total": 1461,
-          "single_family": 979,
-          "multi_family": 482
-        },
-        {
-          "period": "2020-03",
-          "total": 1351,
-          "single_family": 873,
-          "multi_family": 478
-        },
-        {
-          "period": "2020-04",
-          "total": 1079,
-          "single_family": 664,
-          "multi_family": 415
-        },
-        {
-          "period": "2020-05",
-          "total": 1251,
-          "single_family": 751,
-          "multi_family": 500
-        },
-        {
-          "period": "2020-06",
-          "total": 1333,
-          "single_family": 866,
-          "multi_family": 467
-        },
-        {
-          "period": "2020-07",
-          "total": 1539,
-          "single_family": 1012,
-          "multi_family": 527
-        },
-        {
-          "period": "2020-08",
-          "total": 1534,
-          "single_family": 1073,
-          "multi_family": 461
-        },
-        {
-          "period": "2020-09",
-          "total": 1650,
-          "single_family": 1145,
-          "multi_family": 505
-        },
-        {
-          "period": "2020-10",
-          "total": 1612,
-          "single_family": 1147,
-          "multi_family": 465
-        },
-        {
-          "period": "2020-11",
-          "total": 1692,
-          "single_family": 1158,
-          "multi_family": 534
-        },
-        {
-          "period": "2020-12",
-          "total": 1755,
-          "single_family": 1228,
-          "multi_family": 527
-        },
-        {
-          "period": "2021-01",
-          "total": 1856,
-          "single_family": 1247,
-          "multi_family": 609
-        },
-        {
-          "period": "2021-02",
-          "total": 1703,
-          "single_family": 1104,
-          "multi_family": 599
-        },
-        {
-          "period": "2021-03",
-          "total": 1756,
-          "single_family": 1167,
-          "multi_family": 589
-        },
-        {
-          "period": "2021-04",
-          "total": 1710,
-          "single_family": 1125,
-          "multi_family": 585
-        },
-        {
-          "period": "2021-05",
-          "total": 1705,
-          "single_family": 1125,
-          "multi_family": 580
-        },
-        {
-          "period": "2021-06",
-          "total": 1662,
-          "single_family": 1091,
-          "multi_family": 571
-        },
-        {
-          "period": "2021-07",
-          "total": 1666,
-          "single_family": 1069,
-          "multi_family": 597
-        },
-        {
-          "period": "2021-08",
-          "total": 1740,
-          "single_family": 1069,
-          "multi_family": 671
-        },
-        {
-          "period": "2021-09",
-          "total": 1649,
-          "single_family": 1064,
-          "multi_family": 585
-        },
-        {
-          "period": "2021-10",
-          "total": 1699,
-          "single_family": 1090,
-          "multi_family": 609
-        },
-        {
-          "period": "2021-11",
-          "total": 1770,
-          "single_family": 1131,
-          "multi_family": 639
-        },
-        {
-          "period": "2021-12",
-          "total": 1886,
-          "single_family": 1139,
-          "multi_family": 747
-        },
-        {
-          "period": "2022-01",
-          "total": 1923,
-          "single_family": 1245,
-          "multi_family": 678
-        },
-        {
-          "period": "2022-02",
-          "total": 1846,
-          "single_family": 1181,
-          "multi_family": 665
-        },
-        {
-          "period": "2022-03",
-          "total": 1899,
-          "single_family": 1129,
-          "multi_family": 770
-        },
-        {
-          "period": "2022-04",
-          "total": 1849,
-          "single_family": 1084,
-          "multi_family": 765
-        },
-        {
-          "period": "2022-05",
-          "total": 1711,
-          "single_family": 1036,
-          "multi_family": 675
-        },
-        {
-          "period": "2022-06",
-          "total": 1726,
-          "single_family": 957,
-          "multi_family": 769
-        },
-        {
-          "period": "2022-07",
-          "total": 1707,
-          "single_family": 931,
-          "multi_family": 776
-        },
-        {
-          "period": "2022-08",
-          "total": 1565,
+          "total": 1361,
           "single_family": 890,
-          "multi_family": 675
-        },
-        {
-          "period": "2022-09",
-          "total": 1586,
-          "single_family": 862,
-          "multi_family": 724
-        },
-        {
-          "period": "2022-10",
-          "total": 1583,
-          "single_family": 841,
-          "multi_family": 742
-        },
-        {
-          "period": "2022-11",
-          "total": 1424,
-          "single_family": 789,
-          "multi_family": 635
-        },
-        {
-          "period": "2022-12",
-          "total": 1398,
-          "single_family": 738,
-          "multi_family": 660
-        },
-        {
-          "period": "2023-01",
-          "total": 1418,
-          "single_family": 755,
-          "multi_family": 663
-        },
-        {
-          "period": "2023-02",
-          "total": 1605,
-          "single_family": 794,
-          "multi_family": 811
-        },
-        {
-          "period": "2023-03",
-          "total": 1472,
-          "single_family": 838,
-          "multi_family": 634
-        },
-        {
-          "period": "2023-04",
-          "total": 1482,
-          "single_family": 874,
-          "multi_family": 608
-        },
-        {
-          "period": "2023-05",
-          "total": 1579,
-          "single_family": 925,
-          "multi_family": 654
-        },
-        {
-          "period": "2023-06",
-          "total": 1447,
-          "single_family": 959,
-          "multi_family": 488
-        },
-        {
-          "period": "2023-07",
-          "total": 1530,
-          "single_family": 967,
-          "multi_family": 563
-        },
-        {
-          "period": "2023-08",
-          "total": 1596,
-          "single_family": 977,
-          "multi_family": 619
-        },
-        {
-          "period": "2023-09",
-          "total": 1530,
-          "single_family": 985,
-          "multi_family": 545
-        },
-        {
-          "period": "2023-10",
-          "total": 1524,
-          "single_family": 982,
-          "multi_family": 542
-        },
-        {
-          "period": "2023-11",
-          "total": 1513,
-          "single_family": 994,
-          "multi_family": 519
-        },
-        {
-          "period": "2023-12",
-          "total": 1501,
-          "single_family": 1008,
-          "multi_family": 493
-        },
-        {
-          "period": "2024-01",
-          "total": 1548,
-          "single_family": 1036,
-          "multi_family": 512
-        },
-        {
-          "period": "2024-02",
-          "total": 1570,
-          "single_family": 1022,
-          "multi_family": 548
-        },
-        {
-          "period": "2024-03",
-          "total": 1477,
-          "single_family": 980,
-          "multi_family": 497
-        },
-        {
-          "period": "2024-04",
-          "total": 1456,
-          "single_family": 981,
-          "multi_family": 475
-        },
-        {
-          "period": "2024-05",
-          "total": 1405,
-          "single_family": 962,
-          "multi_family": 443
-        },
-        {
-          "period": "2024-06",
-          "total": 1459,
-          "single_family": 955,
-          "multi_family": 504
-        },
-        {
-          "period": "2024-07",
-          "total": 1448,
-          "single_family": 953,
-          "multi_family": 495
-        },
-        {
-          "period": "2024-08",
-          "total": 1492,
-          "single_family": 973,
-          "multi_family": 519
-        },
-        {
-          "period": "2024-09",
-          "total": 1421,
-          "single_family": 963,
-          "multi_family": 458
-        },
-        {
-          "period": "2024-10",
-          "total": 1435,
-          "single_family": 964,
           "multi_family": 471
         },
         {
-          "period": "2024-11",
-          "total": 1512,
-          "single_family": 971,
-          "multi_family": 541
+          "period": "2019-08",
+          "total": 1351,
+          "single_family": 906,
+          "multi_family": 445
         },
         {
-          "period": "2024-12",
-          "total": 1467,
-          "single_family": 985,
-          "multi_family": 482
+          "period": "2019-09",
+          "total": 1315,
+          "single_family": 855,
+          "multi_family": 459
         },
         {
-          "period": "2025-01",
-          "total": 1463,
-          "single_family": 982,
-          "multi_family": 481
+          "period": "2019-10",
+          "total": 1232,
+          "single_family": 828,
+          "multi_family": 404
         },
         {
-          "period": "2025-02",
-          "total": 1446,
-          "single_family": 979,
-          "multi_family": 467
+          "period": "2019-11",
+          "total": 1130,
+          "single_family": 755,
+          "multi_family": 375
         },
         {
-          "period": "2025-03",
-          "total": 1492,
-          "single_family": 964,
-          "multi_family": 528
+          "period": "2019-12",
+          "total": 1110,
+          "single_family": 727,
+          "multi_family": 383
         },
         {
-          "period": "2025-04",
-          "total": 1445,
-          "single_family": 923,
-          "multi_family": 522
+          "period": "2020-01",
+          "total": 1154,
+          "single_family": 756,
+          "multi_family": 398
         },
         {
-          "period": "2025-05",
-          "total": 1416,
-          "single_family": 902,
-          "multi_family": 514
+          "period": "2020-02",
+          "total": 1180,
+          "single_family": 764,
+          "multi_family": 416
         },
         {
-          "period": "2025-06",
-          "total": 1399,
-          "single_family": 873,
-          "multi_family": 526
+          "period": "2020-03",
+          "total": 1364,
+          "single_family": 903,
+          "multi_family": 461
         },
         {
-          "period": "2025-07",
-          "total": 1400,
-          "single_family": 884,
-          "multi_family": 516
-        },
-        {
-          "period": "2025-08",
-          "total": 1347,
-          "single_family": 867,
-          "multi_family": 480
-        },
-        {
-          "period": "2025-09",
-          "total": 1444,
-          "single_family": 888,
-          "multi_family": 556
-        },
-        {
-          "period": "2025-10",
-          "total": 1418,
-          "single_family": 886,
-          "multi_family": 532
-        },
-        {
-          "period": "2025-11",
-          "total": 1414,
-          "single_family": 908,
-          "multi_family": 506
-        },
-        {
-          "period": "2025-12",
-          "total": 1482,
-          "single_family": 892,
-          "multi_family": 590
-        },
-        {
-          "period": "2026-01",
-          "total": 1393,
-          "single_family": 879,
-          "multi_family": 514
-        },
-        {
-          "period": "2026-02",
-          "total": 1540,
-          "single_family": 929,
-          "multi_family": 611
-        },
-        {
-          "period": "2026-03",
-          "total": 1363,
-          "single_family": 895,
+          "period": "2020-04",
+          "total": 1434,
+          "single_family": 966,
           "multi_family": 468
         },
         {
-          "period": "2026-04",
-          "total": 1423,
-          "single_family": 881,
-          "multi_family": 542
+          "period": "2020-05",
+          "total": 1497,
+          "single_family": 1001,
+          "multi_family": 496
         },
         {
-          "period": "2026-05",
-          "total": 1410,
-          "single_family": 892,
-          "multi_family": 518
+          "period": "2020-06",
+          "total": 1500,
+          "single_family": 1006,
+          "multi_family": 494
+        },
+        {
+          "period": "2020-07",
+          "total": 1469,
+          "single_family": 985,
+          "multi_family": 484
+        },
+        {
+          "period": "2020-08",
+          "total": 1443,
+          "single_family": 951,
+          "multi_family": 492
+        },
+        {
+          "period": "2020-09",
+          "total": 1349,
+          "single_family": 870,
+          "multi_family": 479
+        },
+        {
+          "period": "2020-10",
+          "total": 1286,
+          "single_family": 845,
+          "multi_family": 441
+        },
+        {
+          "period": "2020-11",
+          "total": 1200,
+          "single_family": 797,
+          "multi_family": 403
+        },
+        {
+          "period": "2020-12",
+          "total": 1178,
+          "single_family": 769,
+          "multi_family": 410
+        },
+        {
+          "period": "2021-01",
+          "total": 1219,
+          "single_family": 808,
+          "multi_family": 412
+        },
+        {
+          "period": "2021-02",
+          "total": 1287,
+          "single_family": 863,
+          "multi_family": 424
+        },
+        {
+          "period": "2021-03",
+          "total": 1404,
+          "single_family": 928,
+          "multi_family": 476
+        },
+        {
+          "period": "2021-04",
+          "total": 1517,
+          "single_family": 981,
+          "multi_family": 536
+        },
+        {
+          "period": "2021-05",
+          "total": 1596,
+          "single_family": 1055,
+          "multi_family": 541
+        },
+        {
+          "period": "2021-06",
+          "total": 1513,
+          "single_family": 1001,
+          "multi_family": 512
+        },
+        {
+          "period": "2021-07",
+          "total": 1483,
+          "single_family": 997,
+          "multi_family": 487
+        },
+        {
+          "period": "2021-08",
+          "total": 1453,
+          "single_family": 959,
+          "multi_family": 494
+        },
+        {
+          "period": "2021-09",
+          "total": 1437,
+          "single_family": 960,
+          "multi_family": 477
+        },
+        {
+          "period": "2021-10",
+          "total": 1376,
+          "single_family": 899,
+          "multi_family": 477
+        },
+        {
+          "period": "2021-11",
+          "total": 1240,
+          "single_family": 809,
+          "multi_family": 431
+        },
+        {
+          "period": "2021-12",
+          "total": 1190,
+          "single_family": 780,
+          "multi_family": 410
+        },
+        {
+          "period": "2022-01",
+          "total": 1250,
+          "single_family": 841,
+          "multi_family": 409
+        },
+        {
+          "period": "2022-02",
+          "total": 1309,
+          "single_family": 852,
+          "multi_family": 457
+        },
+        {
+          "period": "2022-03",
+          "total": 1509,
+          "single_family": 1017,
+          "multi_family": 491
+        },
+        {
+          "period": "2022-04",
+          "total": 1556,
+          "single_family": 1035,
+          "multi_family": 521
+        },
+        {
+          "period": "2022-05",
+          "total": 1636,
+          "single_family": 1079,
+          "multi_family": 557
+        },
+        {
+          "period": "2022-06",
+          "total": 1619,
+          "single_family": 1072,
+          "multi_family": 548
+        },
+        {
+          "period": "2022-07",
+          "total": 1535,
+          "single_family": 1007,
+          "multi_family": 528
+        },
+        {
+          "period": "2022-08",
+          "total": 1511,
+          "single_family": 1007,
+          "multi_family": 504
+        },
+        {
+          "period": "2022-09",
+          "total": 1461,
+          "single_family": 953,
+          "multi_family": 508
+        },
+        {
+          "period": "2022-10",
+          "total": 1432,
+          "single_family": 941,
+          "multi_family": 491
+        },
+        {
+          "period": "2022-11",
+          "total": 1283,
+          "single_family": 828,
+          "multi_family": 455
+        },
+        {
+          "period": "2022-12",
+          "total": 1267,
+          "single_family": 843,
+          "multi_family": 423
+        },
+        {
+          "period": "2023-01",
+          "total": 1170,
+          "single_family": 757,
+          "multi_family": 414
+        },
+        {
+          "period": "2023-02",
+          "total": 1229,
+          "single_family": 825,
+          "multi_family": 404
+        },
+        {
+          "period": "2023-03",
+          "total": 1428,
+          "single_family": 938,
+          "multi_family": 490
+        },
+        {
+          "period": "2023-04",
+          "total": 1491,
+          "single_family": 977,
+          "multi_family": 514
+        },
+        {
+          "period": "2023-05",
+          "total": 1522,
+          "single_family": 1025,
+          "multi_family": 498
+        },
+        {
+          "period": "2023-06",
+          "total": 1559,
+          "single_family": 1026,
+          "multi_family": 533
+        },
+        {
+          "period": "2023-07",
+          "total": 1514,
+          "single_family": 1020,
+          "multi_family": 494
+        },
+        {
+          "period": "2023-08",
+          "total": 1440,
+          "single_family": 939,
+          "multi_family": 500
+        },
+        {
+          "period": "2023-09",
+          "total": 1414,
+          "single_family": 928,
+          "multi_family": 486
+        },
+        {
+          "period": "2023-10",
+          "total": 1351,
+          "single_family": 912,
+          "multi_family": 439
+        },
+        {
+          "period": "2023-11",
+          "total": 1254,
+          "single_family": 821,
+          "multi_family": 433
+        },
+        {
+          "period": "2023-12",
+          "total": 1163,
+          "single_family": 753,
+          "multi_family": 409
+        },
+        {
+          "period": "2024-01",
+          "total": 1145,
+          "single_family": 744,
+          "multi_family": 401
+        },
+        {
+          "period": "2024-02",
+          "total": 1157,
+          "single_family": 767,
+          "multi_family": 390
+        },
+        {
+          "period": "2024-03",
+          "total": 1321,
+          "single_family": 890,
+          "multi_family": 431
+        },
+        {
+          "period": "2024-04",
+          "total": 1447,
+          "single_family": 960,
+          "multi_family": 487
+        },
+        {
+          "period": "2024-05",
+          "total": 1444,
+          "single_family": 940,
+          "multi_family": 504
+        },
+        {
+          "period": "2024-06",
+          "total": 1463,
+          "single_family": 951,
+          "multi_family": 512
+        },
+        {
+          "period": "2024-07",
+          "total": 1394,
+          "single_family": 941,
+          "multi_family": 454
+        },
+        {
+          "period": "2024-08",
+          "total": 1405,
+          "single_family": 923,
+          "multi_family": 483
+        },
+        {
+          "period": "2024-09",
+          "total": 1337,
+          "single_family": 864,
+          "multi_family": 473
+        },
+        {
+          "period": "2024-10",
+          "total": 1316,
+          "single_family": 887,
+          "multi_family": 429
+        },
+        {
+          "period": "2024-11",
+          "total": 1159,
+          "single_family": 767,
+          "multi_family": 392
+        },
+        {
+          "period": "2024-12",
+          "total": 1126,
+          "single_family": 742,
+          "multi_family": 383
+        },
+        {
+          "period": "2025-01",
+          "total": 1099,
+          "single_family": 722,
+          "multi_family": 377
+        },
+        {
+          "period": "2025-02",
+          "total": 1126,
+          "single_family": 754,
+          "multi_family": 371
+        },
+        {
+          "period": "2025-03",
+          "total": 1246,
+          "single_family": 814,
+          "multi_family": 432
+        },
+        {
+          "period": "2025-04",
+          "total": 1346,
+          "single_family": 904,
+          "multi_family": 442
+        },
+        {
+          "period": "2025-05",
+          "total": 1374,
+          "single_family": 889,
+          "multi_family": 485
+        },
+        {
+          "period": "2025-06",
+          "total": 1389,
+          "single_family": 908,
+          "multi_family": 480
         }
       ]
     },
@@ -2497,8 +2365,14 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-15T19:03:26.943Z",
+      "fetchedAt": "2026-07-15T19:27:28.219Z",
       "items": [
+        {
+          "title": "Canfor pulp mill closure impacts workers, highlights need for forestry sector evolution",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXEzY3RGV1dwY0U0Y2NrRXVGRVhVcS1uWFhSaFVLRFFtNlFkaUFWbzlDaER0YkVPbk04NFdOVkQwejFISWR0Y2ZfZUljamgtR0Y1bXU5LU5YdE1PZGNkNU5jRF9HVDNPU3FaanZPQUFvZ2ZYRklPUXY4d0YxZEVaS3ByaFF4NVNXV1RIaVNjMjl1QzFIUlpwNTB2NlQxQk03TVQwZ2YwUGRHbDFwbk1OdllPZHFveHJF?oc=5",
+          "source": "Island Social Trends",
+          "date": "2026-07-15T19:17:38.000Z"
+        },
         {
           "title": "Canfor closing its Prince George pulp mill",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN3U2ZkpKSjdESXhVSWtrdHd3MUg3MmlESzlhRUtsOEx2OFl3SDItRUc5SUVudzhiUFBGQnBLQWtfbkxpSm41a19qOHlwRnZWbXYzWE5EdjB6Mml5TzJvdVgxWXVEeGFpMnpvNnJyRzFub1JFTnB0eEd2ejVpeGw5WGYwNFdvSFk?oc=5",
@@ -2512,7 +2386,7 @@ window.LUMBER_DATA = {
           "date": "2026-07-15T16:16:14.000Z"
         },
         {
-          "title": "‘Heartbreaking’: Prince George pulp mill to shut down, putting around 300 employees out of work",
+          "title": "\u2018Heartbreaking\u2019: Prince George pulp mill to shut down, putting around 300 employees out of work",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYWdMNFR3Q1N4azZKdWlKM1JXRjNEWUdKVWV0RlVRYkthbkZKV1BOVjdCeEVXdjhBVlFaWXRpc0xpblM5SzQ4V2RoZmpCbmc0MGFSYjBLeEhBTDJhRmxqZzNlSzYzc3Z4aEVUMS14UzZsMWFkOXNrVWdVbjUxSVhvOGNBMFNLNGx3ZVZNajlxeWxjdkhzRmc1RHNlQllWY3JpRUZBbDNaZWRxLVFzNW9XWmYtWHVIWjAzOXNUYzJ2S3dfTnVVMXhr?oc=5",
           "source": "CJDC-TV",
           "date": "2026-07-15T16:16:04.000Z"
@@ -2590,7 +2464,7 @@ window.LUMBER_DATA = {
           "date": "2026-07-15T09:20:00.000Z"
         },
         {
-          "title": "Canfor (TSX:CFP) Is Up 7.2% After Permanently Shuttering Northwood Pulp Mill – Has The Bull Case Changed?",
+          "title": "Canfor (TSX:CFP) Is Up 7.2% After Permanently Shuttering Northwood Pulp Mill \u2013 Has The Bull Case Changed?",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdTFPVm5hVnZ2T2R3dk1wT2t4MlRrNmxHeUtpeFZfRU5UYnZPcDZJcTQzU3diQ2RBUEo0ZlJYTHd5S3d3SktVZUtxSDhJanFOTUJvSWZJZl9sbVNxWFp4cVp4T1dDV2tCVnIyUUhpTkYxaFFscWRVTVVBTzE4ZHd5eGZPSHlWYm42akNQX0JfM1RLSGRpbGdwc29admZtMS1xelhwRkU4S0tnUHMwa0dOcVhOdTVXQlMyRlJScnpDV05OZkxtOFN0N9IBzgFBVV95cUxNRmRWZ0E3NUVTNmRVdzgzMmhHZ3VaR0FybkFQX2NxRmJzXzVlQUxxeEM0ZVBCektlaW04MzgwdGJKbzhsZ0R1bVNvUG9SODZOY2RCLWRlQlR4Ny13LVpnNllLdURzVHBGblF1UVhaU0xRc2w1SXhJMHZ4VTc3VU82eUJSRmhabUNHYlBidlY1cDlwcnFVOGZlUGREQnNNNlBxWkxkcUNuSExEVEtwNnBYaXItc08zVEo2cnpLb0ZfNWhDSl9wdmFvRV8xS2hDQQ?oc=5",
           "source": "simplywall.st",
           "date": "2026-07-15T06:42:29.000Z"
@@ -2656,7 +2530,7 @@ window.LUMBER_DATA = {
           "date": "2026-07-14T23:15:00.000Z"
         },
         {
-          "title": "Price to earnings forward of Interfor Corporation – MUN:8IF1",
+          "title": "Price to earnings forward of Interfor Corporation \u2013 MUN:8IF1",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMkJreU1Ld3hNMGdyUFRhQXRfb0c4ZVVNNHFnMmI1cVFuZFR0N3p5LWNCMi1VZC1rNkFHSHV2OTBXM3ZmTUVWTEstN0RPenNBZEg3dWZoQnFMZmozLWJSeHRtal9BWW04dG5oaC1xSEluRzNHWXBEZGRiOTNseDdlNzJsLVZSc2F3Y3BjUUpSVUtlanVsT3FCOWJaOWNWdw?oc=5",
           "source": "TradingView",
           "date": "2026-07-14T22:48:58.000Z"
@@ -2672,1606 +2546,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaUR2Y3NITXpybk9QeUZQOEI0cW55Q3BIZ1Bid1daR1FqV21WT3BXUUYtaUZzckQzdjB6VXVLdUlmMzVQYmVyLUplcURUbWVTVU13ZVpXOUptb0U5SEV1WnZ1eTFId2RSSHlpVjNuRmFRelFEN2JqUUpMWVBnSkNiblI1SUVCalBqVFdkV1dFWUFKblBCam1ROGhxX2UwY2JfZ1daSk51bGtBeDQ?oc=5",
           "source": "lesprom.com",
           "date": "2026-07-14T09:01:20.000Z"
-        },
-        {
-          "title": "Louisiana-Pacific (LPX) Falls More Steeply Than Broader Market: What Investors Need to Know",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmZoZTRHOUxDdDJWRC1vNldfbXhOekhSaW9EYS0xZkJIbzNQSk9Wa05NYXFMcXRNek9QNmlLazdVOC1vMGxueFRtYzZJaFlHMFNWSnduOWZROEdrQU9FeGsxY2hZLXpyd1J5UVdxSGpjYlFuVEpjanBjOVlUU0dmT2ZRSlNXemEy?oc=5",
-          "source": "Yahoo Finance Singapore",
-          "date": "2026-07-13T22:00:04.000Z"
-        }
-      ]
-    },
-    "newHomeSupply": {
-      "unit": "months",
-      "freq": "monthly",
-      "series": [
-        {
-          "period": "2015-01",
-          "value": 4.8
-        },
-        {
-          "period": "2015-02",
-          "value": 4.5
-        },
-        {
-          "period": "2015-03",
-          "value": 5.1
-        },
-        {
-          "period": "2015-04",
-          "value": 4.9
-        },
-        {
-          "period": "2015-05",
-          "value": 5
-        },
-        {
-          "period": "2015-06",
-          "value": 5.4
-        },
-        {
-          "period": "2015-07",
-          "value": 5.2
-        },
-        {
-          "period": "2015-08",
-          "value": 5
-        },
-        {
-          "period": "2015-09",
-          "value": 5.9
-        },
-        {
-          "period": "2015-10",
-          "value": 5.6
-        },
-        {
-          "period": "2015-11",
-          "value": 5.5
-        },
-        {
-          "period": "2015-12",
-          "value": 5.1
-        },
-        {
-          "period": "2016-01",
-          "value": 5.6
-        },
-        {
-          "period": "2016-02",
-          "value": 5.5
-        },
-        {
-          "period": "2016-03",
-          "value": 5.5
-        },
-        {
-          "period": "2016-04",
-          "value": 5
-        },
-        {
-          "period": "2016-05",
-          "value": 5.1
-        },
-        {
-          "period": "2016-06",
-          "value": 5.3
-        },
-        {
-          "period": "2016-07",
-          "value": 4.5
-        },
-        {
-          "period": "2016-08",
-          "value": 5
-        },
-        {
-          "period": "2016-09",
-          "value": 5.2
-        },
-        {
-          "period": "2016-10",
-          "value": 5.2
-        },
-        {
-          "period": "2016-11",
-          "value": 5.2
-        },
-        {
-          "period": "2016-12",
-          "value": 5.4
-        },
-        {
-          "period": "2017-01",
-          "value": 5.4
-        },
-        {
-          "period": "2017-02",
-          "value": 5.3
-        },
-        {
-          "period": "2017-03",
-          "value": 5
-        },
-        {
-          "period": "2017-04",
-          "value": 5.4
-        },
-        {
-          "period": "2017-05",
-          "value": 5.1
-        },
-        {
-          "period": "2017-06",
-          "value": 5.3
-        },
-        {
-          "period": "2017-07",
-          "value": 5.8
-        },
-        {
-          "period": "2017-08",
-          "value": 6.1
-        },
-        {
-          "period": "2017-09",
-          "value": 5.3
-        },
-        {
-          "period": "2017-10",
-          "value": 5.5
-        },
-        {
-          "period": "2017-11",
-          "value": 4.8
-        },
-        {
-          "period": "2017-12",
-          "value": 5.6
-        },
-        {
-          "period": "2018-01",
-          "value": 6
-        },
-        {
-          "period": "2018-02",
-          "value": 5.7
-        },
-        {
-          "period": "2018-03",
-          "value": 5.2
-        },
-        {
-          "period": "2018-04",
-          "value": 5.6
-        },
-        {
-          "period": "2018-05",
-          "value": 5.5
-        },
-        {
-          "period": "2018-06",
-          "value": 5.8
-        },
-        {
-          "period": "2018-07",
-          "value": 6
-        },
-        {
-          "period": "2018-08",
-          "value": 6.5
-        },
-        {
-          "period": "2018-09",
-          "value": 6.6
-        },
-        {
-          "period": "2018-10",
-          "value": 7.2
-        },
-        {
-          "period": "2018-11",
-          "value": 6.4
-        },
-        {
-          "period": "2018-12",
-          "value": 7.6
-        },
-        {
-          "period": "2019-01",
-          "value": 7
-        },
-        {
-          "period": "2019-02",
-          "value": 6.3
-        },
-        {
-          "period": "2019-03",
-          "value": 5.6
-        },
-        {
-          "period": "2019-04",
-          "value": 5.7
-        },
-        {
-          "period": "2019-05",
-          "value": 6.5
-        },
-        {
-          "period": "2019-06",
-          "value": 5.4
-        },
-        {
-          "period": "2019-07",
-          "value": 6.1
-        },
-        {
-          "period": "2019-08",
-          "value": 5.5
-        },
-        {
-          "period": "2019-09",
-          "value": 5.4
-        },
-        {
-          "period": "2019-10",
-          "value": 5.3
-        },
-        {
-          "period": "2019-11",
-          "value": 5.4
-        },
-        {
-          "period": "2019-12",
-          "value": 5.5
-        },
-        {
-          "period": "2020-01",
-          "value": 5.7
-        },
-        {
-          "period": "2020-02",
-          "value": 5.6
-        },
-        {
-          "period": "2020-03",
-          "value": 6.4
-        },
-        {
-          "period": "2020-04",
-          "value": 6.8
-        },
-        {
-          "period": "2020-05",
-          "value": 5.3
-        },
-        {
-          "period": "2020-06",
-          "value": 4
-        },
-        {
-          "period": "2020-07",
-          "value": 3.5
-        },
-        {
-          "period": "2020-08",
-          "value": 3.4
-        },
-        {
-          "period": "2020-09",
-          "value": 3.5
-        },
-        {
-          "period": "2020-10",
-          "value": 3.3
-        },
-        {
-          "period": "2020-11",
-          "value": 3.9
-        },
-        {
-          "period": "2020-12",
-          "value": 4.1
-        },
-        {
-          "period": "2021-01",
-          "value": 4
-        },
-        {
-          "period": "2021-02",
-          "value": 4.8
-        },
-        {
-          "period": "2021-03",
-          "value": 4.4
-        },
-        {
-          "period": "2021-04",
-          "value": 4.7
-        },
-        {
-          "period": "2021-05",
-          "value": 5.5
-        },
-        {
-          "period": "2021-06",
-          "value": 5.9
-        },
-        {
-          "period": "2021-07",
-          "value": 5.8
-        },
-        {
-          "period": "2021-08",
-          "value": 6.6
-        },
-        {
-          "period": "2021-09",
-          "value": 6.1
-        },
-        {
-          "period": "2021-10",
-          "value": 6.7
-        },
-        {
-          "period": "2021-11",
-          "value": 6
-        },
-        {
-          "period": "2021-12",
-          "value": 5.7
-        },
-        {
-          "period": "2022-01",
-          "value": 5.9
-        },
-        {
-          "period": "2022-02",
-          "value": 6
-        },
-        {
-          "period": "2022-03",
-          "value": 6.9
-        },
-        {
-          "period": "2022-04",
-          "value": 8.5
-        },
-        {
-          "period": "2022-05",
-          "value": 8.2
-        },
-        {
-          "period": "2022-06",
-          "value": 9.4
-        },
-        {
-          "period": "2022-07",
-          "value": 10.3
-        },
-        {
-          "period": "2022-08",
-          "value": 8.8
-        },
-        {
-          "period": "2022-09",
-          "value": 10.1
-        },
-        {
-          "period": "2022-10",
-          "value": 9.6
-        },
-        {
-          "period": "2022-11",
-          "value": 9.3
-        },
-        {
-          "period": "2022-12",
-          "value": 8.8
-        },
-        {
-          "period": "2023-01",
-          "value": 8.1
-        },
-        {
-          "period": "2023-02",
-          "value": 8.3
-        },
-        {
-          "period": "2023-03",
-          "value": 8.1
-        },
-        {
-          "period": "2023-04",
-          "value": 7.8
-        },
-        {
-          "period": "2023-05",
-          "value": 6.9
-        },
-        {
-          "period": "2023-06",
-          "value": 7.5
-        },
-        {
-          "period": "2023-07",
-          "value": 7
-        },
-        {
-          "period": "2023-08",
-          "value": 8
-        },
-        {
-          "period": "2023-09",
-          "value": 7.7
-        },
-        {
-          "period": "2023-10",
-          "value": 7.7
-        },
-        {
-          "period": "2023-11",
-          "value": 8.9
-        },
-        {
-          "period": "2023-12",
-          "value": 8.6
-        },
-        {
-          "period": "2024-01",
-          "value": 8.1
-        },
-        {
-          "period": "2024-02",
-          "value": 8.5
-        },
-        {
-          "period": "2024-03",
-          "value": 8.2
-        },
-        {
-          "period": "2024-04",
-          "value": 7.9
-        },
-        {
-          "period": "2024-05",
-          "value": 8.3
-        },
-        {
-          "period": "2024-06",
-          "value": 8.2
-        },
-        {
-          "period": "2024-07",
-          "value": 7.6
-        },
-        {
-          "period": "2024-08",
-          "value": 8.2
-        },
-        {
-          "period": "2024-09",
-          "value": 7.9
-        },
-        {
-          "period": "2024-10",
-          "value": 9.1
-        },
-        {
-          "period": "2024-11",
-          "value": 8.8
-        },
-        {
-          "period": "2024-12",
-          "value": 8.4
-        },
-        {
-          "period": "2025-01",
-          "value": 9
-        },
-        {
-          "period": "2025-02",
-          "value": 9.4
-        },
-        {
-          "period": "2025-03",
-          "value": 9.3
-        },
-        {
-          "period": "2025-04",
-          "value": 8.6
-        },
-        {
-          "period": "2025-05",
-          "value": 9.7
-        },
-        {
-          "period": "2025-06",
-          "value": 9
-        },
-        {
-          "period": "2025-07",
-          "value": 9.2
-        },
-        {
-          "period": "2025-08",
-          "value": 8.5
-        },
-        {
-          "period": "2025-09",
-          "value": 8.2
-        },
-        {
-          "period": "2025-10",
-          "value": 9
-        },
-        {
-          "period": "2025-11",
-          "value": 7.7
-        },
-        {
-          "period": "2025-12",
-          "value": 7.9
-        },
-        {
-          "period": "2026-01",
-          "value": 9.9
-        },
-        {
-          "period": "2026-02",
-          "value": 9.3
-        },
-        {
-          "period": "2026-03",
-          "value": 8.7
-        },
-        {
-          "period": "2026-04",
-          "value": 9.3
-        },
-        {
-          "period": "2026-05",
-          "value": 10.3
-        }
-      ]
-    },
-    "newHomeSales": {
-      "unit": "thousands (SAAR)",
-      "freq": "monthly",
-      "series": [
-        {
-          "period": "2015-01",
-          "value": 515
-        },
-        {
-          "period": "2015-02",
-          "value": 540
-        },
-        {
-          "period": "2015-03",
-          "value": 480
-        },
-        {
-          "period": "2015-04",
-          "value": 502
-        },
-        {
-          "period": "2015-05",
-          "value": 502
-        },
-        {
-          "period": "2015-06",
-          "value": 480
-        },
-        {
-          "period": "2015-07",
-          "value": 506
-        },
-        {
-          "period": "2015-08",
-          "value": 518
-        },
-        {
-          "period": "2015-09",
-          "value": 456
-        },
-        {
-          "period": "2015-10",
-          "value": 482
-        },
-        {
-          "period": "2015-11",
-          "value": 504
-        },
-        {
-          "period": "2015-12",
-          "value": 546
-        },
-        {
-          "period": "2016-01",
-          "value": 505
-        },
-        {
-          "period": "2016-02",
-          "value": 517
-        },
-        {
-          "period": "2016-03",
-          "value": 532
-        },
-        {
-          "period": "2016-04",
-          "value": 576
-        },
-        {
-          "period": "2016-05",
-          "value": 571
-        },
-        {
-          "period": "2016-06",
-          "value": 557
-        },
-        {
-          "period": "2016-07",
-          "value": 628
-        },
-        {
-          "period": "2016-08",
-          "value": 575
-        },
-        {
-          "period": "2016-09",
-          "value": 558
-        },
-        {
-          "period": "2016-10",
-          "value": 575
-        },
-        {
-          "period": "2016-11",
-          "value": 571
-        },
-        {
-          "period": "2016-12",
-          "value": 561
-        },
-        {
-          "period": "2017-01",
-          "value": 573
-        },
-        {
-          "period": "2017-02",
-          "value": 587
-        },
-        {
-          "period": "2017-03",
-          "value": 632
-        },
-        {
-          "period": "2017-04",
-          "value": 598
-        },
-        {
-          "period": "2017-05",
-          "value": 635
-        },
-        {
-          "period": "2017-06",
-          "value": 619
-        },
-        {
-          "period": "2017-07",
-          "value": 572
-        },
-        {
-          "period": "2017-08",
-          "value": 556
-        },
-        {
-          "period": "2017-09",
-          "value": 637
-        },
-        {
-          "period": "2017-10",
-          "value": 626
-        },
-        {
-          "period": "2017-11",
-          "value": 711
-        },
-        {
-          "period": "2017-12",
-          "value": 630
-        },
-        {
-          "period": "2018-01",
-          "value": 590
-        },
-        {
-          "period": "2018-02",
-          "value": 618
-        },
-        {
-          "period": "2018-03",
-          "value": 679
-        },
-        {
-          "period": "2018-04",
-          "value": 642
-        },
-        {
-          "period": "2018-05",
-          "value": 662
-        },
-        {
-          "period": "2018-06",
-          "value": 636
-        },
-        {
-          "period": "2018-07",
-          "value": 628
-        },
-        {
-          "period": "2018-08",
-          "value": 593
-        },
-        {
-          "period": "2018-09",
-          "value": 595
-        },
-        {
-          "period": "2018-10",
-          "value": 554
-        },
-        {
-          "period": "2018-11",
-          "value": 625
-        },
-        {
-          "period": "2018-12",
-          "value": 546
-        },
-        {
-          "period": "2019-01",
-          "value": 595
-        },
-        {
-          "period": "2019-02",
-          "value": 648
-        },
-        {
-          "period": "2019-03",
-          "value": 718
-        },
-        {
-          "period": "2019-04",
-          "value": 702
-        },
-        {
-          "period": "2019-05",
-          "value": 618
-        },
-        {
-          "period": "2019-06",
-          "value": 729
-        },
-        {
-          "period": "2019-07",
-          "value": 648
-        },
-        {
-          "period": "2019-08",
-          "value": 712
-        },
-        {
-          "period": "2019-09",
-          "value": 712
-        },
-        {
-          "period": "2019-10",
-          "value": 722
-        },
-        {
-          "period": "2019-11",
-          "value": 713
-        },
-        {
-          "period": "2019-12",
-          "value": 700
-        },
-        {
-          "period": "2020-01",
-          "value": 689
-        },
-        {
-          "period": "2020-02",
-          "value": 707
-        },
-        {
-          "period": "2020-03",
-          "value": 626
-        },
-        {
-          "period": "2020-04",
-          "value": 576
-        },
-        {
-          "period": "2020-05",
-          "value": 707
-        },
-        {
-          "period": "2020-06",
-          "value": 901
-        },
-        {
-          "period": "2020-07",
-          "value": 981
-        },
-        {
-          "period": "2020-08",
-          "value": 1016
-        },
-        {
-          "period": "2020-09",
-          "value": 979
-        },
-        {
-          "period": "2020-10",
-          "value": 1031
-        },
-        {
-          "period": "2020-11",
-          "value": 877
-        },
-        {
-          "period": "2020-12",
-          "value": 874
-        },
-        {
-          "period": "2021-01",
-          "value": 899
-        },
-        {
-          "period": "2021-02",
-          "value": 772
-        },
-        {
-          "period": "2021-03",
-          "value": 852
-        },
-        {
-          "period": "2021-04",
-          "value": 817
-        },
-        {
-          "period": "2021-05",
-          "value": 717
-        },
-        {
-          "period": "2021-06",
-          "value": 714
-        },
-        {
-          "period": "2021-07",
-          "value": 745
-        },
-        {
-          "period": "2021-08",
-          "value": 688
-        },
-        {
-          "period": "2021-09",
-          "value": 733
-        },
-        {
-          "period": "2021-10",
-          "value": 689
-        },
-        {
-          "period": "2021-11",
-          "value": 782
-        },
-        {
-          "period": "2021-12",
-          "value": 816
-        },
-        {
-          "period": "2022-01",
-          "value": 809
-        },
-        {
-          "period": "2022-02",
-          "value": 784
-        },
-        {
-          "period": "2022-03",
-          "value": 710
-        },
-        {
-          "period": "2022-04",
-          "value": 612
-        },
-        {
-          "period": "2022-05",
-          "value": 639
-        },
-        {
-          "period": "2022-06",
-          "value": 564
-        },
-        {
-          "period": "2022-07",
-          "value": 535
-        },
-        {
-          "period": "2022-08",
-          "value": 634
-        },
-        {
-          "period": "2022-09",
-          "value": 552
-        },
-        {
-          "period": "2022-10",
-          "value": 586
-        },
-        {
-          "period": "2022-11",
-          "value": 592
-        },
-        {
-          "period": "2022-12",
-          "value": 615
-        },
-        {
-          "period": "2023-01",
-          "value": 653
-        },
-        {
-          "period": "2023-02",
-          "value": 633
-        },
-        {
-          "period": "2023-03",
-          "value": 639
-        },
-        {
-          "period": "2023-04",
-          "value": 656
-        },
-        {
-          "period": "2023-05",
-          "value": 736
-        },
-        {
-          "period": "2023-06",
-          "value": 687
-        },
-        {
-          "period": "2023-07",
-          "value": 727
-        },
-        {
-          "period": "2023-08",
-          "value": 645
-        },
-        {
-          "period": "2023-09",
-          "value": 682
-        },
-        {
-          "period": "2023-10",
-          "value": 689
-        },
-        {
-          "period": "2023-11",
-          "value": 607
-        },
-        {
-          "period": "2023-12",
-          "value": 634
-        },
-        {
-          "period": "2024-01",
-          "value": 683
-        },
-        {
-          "period": "2024-02",
-          "value": 653
-        },
-        {
-          "period": "2024-03",
-          "value": 681
-        },
-        {
-          "period": "2024-04",
-          "value": 706
-        },
-        {
-          "period": "2024-05",
-          "value": 670
-        },
-        {
-          "period": "2024-06",
-          "value": 683
-        },
-        {
-          "period": "2024-07",
-          "value": 732
-        },
-        {
-          "period": "2024-08",
-          "value": 687
-        },
-        {
-          "period": "2024-09",
-          "value": 715
-        },
-        {
-          "period": "2024-10",
-          "value": 632
-        },
-        {
-          "period": "2024-11",
-          "value": 669
-        },
-        {
-          "period": "2024-12",
-          "value": 702
-        },
-        {
-          "period": "2025-01",
-          "value": 665
-        },
-        {
-          "period": "2025-02",
-          "value": 641
-        },
-        {
-          "period": "2025-03",
-          "value": 656
-        },
-        {
-          "period": "2025-04",
-          "value": 701
-        },
-        {
-          "period": "2025-05",
-          "value": 622
-        },
-        {
-          "period": "2025-06",
-          "value": 665
-        },
-        {
-          "period": "2025-07",
-          "value": 648
-        },
-        {
-          "period": "2025-08",
-          "value": 698
-        },
-        {
-          "period": "2025-09",
-          "value": 714
-        },
-        {
-          "period": "2025-10",
-          "value": 652
-        },
-        {
-          "period": "2025-11",
-          "value": 757
-        },
-        {
-          "period": "2025-12",
-          "value": 723
-        },
-        {
-          "period": "2026-01",
-          "value": 576
-        },
-        {
-          "period": "2026-02",
-          "value": 630
-        },
-        {
-          "period": "2026-03",
-          "value": 664
-        },
-        {
-          "period": "2026-04",
-          "value": 626
-        },
-        {
-          "period": "2026-05",
-          "value": 580
-        }
-      ]
-    },
-    "activeListings": {
-      "unit": "homes",
-      "freq": "monthly",
-      "series": [
-        {
-          "period": "2016-07",
-          "value": 1463025
-        },
-        {
-          "period": "2016-08",
-          "value": 1460071
-        },
-        {
-          "period": "2016-09",
-          "value": 1443103
-        },
-        {
-          "period": "2016-10",
-          "value": 1407722
-        },
-        {
-          "period": "2016-11",
-          "value": 1339724
-        },
-        {
-          "period": "2016-12",
-          "value": 1236003
-        },
-        {
-          "period": "2017-01",
-          "value": 1154139
-        },
-        {
-          "period": "2017-02",
-          "value": 1151139
-        },
-        {
-          "period": "2017-03",
-          "value": 1172731
-        },
-        {
-          "period": "2017-04",
-          "value": 1198445
-        },
-        {
-          "period": "2017-05",
-          "value": 1253871
-        },
-        {
-          "period": "2017-06",
-          "value": 1292389
-        },
-        {
-          "period": "2017-07",
-          "value": 1322676
-        },
-        {
-          "period": "2017-08",
-          "value": 1325376
-        },
-        {
-          "period": "2017-09",
-          "value": 1308624
-        },
-        {
-          "period": "2017-10",
-          "value": 1287341
-        },
-        {
-          "period": "2017-11",
-          "value": 1228097
-        },
-        {
-          "period": "2017-12",
-          "value": 1127819
-        },
-        {
-          "period": "2018-01",
-          "value": 1043968
-        },
-        {
-          "period": "2018-02",
-          "value": 1045168
-        },
-        {
-          "period": "2018-03",
-          "value": 1067293
-        },
-        {
-          "period": "2018-04",
-          "value": 1102074
-        },
-        {
-          "period": "2018-05",
-          "value": 1156921
-        },
-        {
-          "period": "2018-06",
-          "value": 1216521
-        },
-        {
-          "period": "2018-07",
-          "value": 1261936
-        },
-        {
-          "period": "2018-08",
-          "value": 1285682
-        },
-        {
-          "period": "2018-09",
-          "value": 1301939
-        },
-        {
-          "period": "2018-10",
-          "value": 1304695
-        },
-        {
-          "period": "2018-11",
-          "value": 1273060
-        },
-        {
-          "period": "2018-12",
-          "value": 1185880
-        },
-        {
-          "period": "2019-01",
-          "value": 1110654
-        },
-        {
-          "period": "2019-02",
-          "value": 1102678
-        },
-        {
-          "period": "2019-03",
-          "value": 1115955
-        },
-        {
-          "period": "2019-04",
-          "value": 1137210
-        },
-        {
-          "period": "2019-05",
-          "value": 1180934
-        },
-        {
-          "period": "2019-06",
-          "value": 1219821
-        },
-        {
-          "period": "2019-07",
-          "value": 1239557
-        },
-        {
-          "period": "2019-08",
-          "value": 1235278
-        },
-        {
-          "period": "2019-09",
-          "value": 1224891
-        },
-        {
-          "period": "2019-10",
-          "value": 1208337
-        },
-        {
-          "period": "2019-11",
-          "value": 1143358
-        },
-        {
-          "period": "2019-12",
-          "value": 1033913
-        },
-        {
-          "period": "2020-01",
-          "value": 951699
-        },
-        {
-          "period": "2020-02",
-          "value": 928363
-        },
-        {
-          "period": "2020-03",
-          "value": 937341
-        },
-        {
-          "period": "2020-04",
-          "value": 941752
-        },
-        {
-          "period": "2020-05",
-          "value": 928387
-        },
-        {
-          "period": "2020-06",
-          "value": 871577
-        },
-        {
-          "period": "2020-07",
-          "value": 822849
-        },
-        {
-          "period": "2020-08",
-          "value": 779567
-        },
-        {
-          "period": "2020-09",
-          "value": 749403
-        },
-        {
-          "period": "2020-10",
-          "value": 734048
-        },
-        {
-          "period": "2020-11",
-          "value": 683830
-        },
-        {
-          "period": "2020-12",
-          "value": 612307
-        },
-        {
-          "period": "2021-01",
-          "value": 531780
-        },
-        {
-          "period": "2021-02",
-          "value": 464924
-        },
-        {
-          "period": "2021-03",
-          "value": 440592
-        },
-        {
-          "period": "2021-04",
-          "value": 435667
-        },
-        {
-          "period": "2021-05",
-          "value": 447670
-        },
-        {
-          "period": "2021-06",
-          "value": 492432
-        },
-        {
-          "period": "2021-07",
-          "value": 546697
-        },
-        {
-          "period": "2021-08",
-          "value": 574649
-        },
-        {
-          "period": "2021-09",
-          "value": 578079
-        },
-        {
-          "period": "2021-10",
-          "value": 565716
-        },
-        {
-          "period": "2021-11",
-          "value": 512250
-        },
-        {
-          "period": "2021-12",
-          "value": 445310
-        },
-        {
-          "period": "2022-01",
-          "value": 376973
-        },
-        {
-          "period": "2022-02",
-          "value": 346514
-        },
-        {
-          "period": "2022-03",
-          "value": 354019
-        },
-        {
-          "period": "2022-04",
-          "value": 379980
-        },
-        {
-          "period": "2022-05",
-          "value": 479469
-        },
-        {
-          "period": "2022-06",
-          "value": 573660
-        },
-        {
-          "period": "2022-07",
-          "value": 691663
-        },
-        {
-          "period": "2022-08",
-          "value": 726793
-        },
-        {
-          "period": "2022-09",
-          "value": 731511
-        },
-        {
-          "period": "2022-10",
-          "value": 752749
-        },
-        {
-          "period": "2022-11",
-          "value": 750209
-        },
-        {
-          "period": "2022-12",
-          "value": 680931
-        },
-        {
-          "period": "2023-01",
-          "value": 616869
-        },
-        {
-          "period": "2023-02",
-          "value": 579268
-        },
-        {
-          "period": "2023-03",
-          "value": 562453
-        },
-        {
-          "period": "2023-04",
-          "value": 562979
-        },
-        {
-          "period": "2023-05",
-          "value": 582451
-        },
-        {
-          "period": "2023-06",
-          "value": 614336
-        },
-        {
-          "period": "2023-07",
-          "value": 647145
-        },
-        {
-          "period": "2023-08",
-          "value": 669765
-        },
-        {
-          "period": "2023-09",
-          "value": 702470
-        },
-        {
-          "period": "2023-10",
-          "value": 738119
-        },
-        {
-          "period": "2023-11",
-          "value": 755529
-        },
-        {
-          "period": "2023-12",
-          "value": 714214
-        },
-        {
-          "period": "2024-01",
-          "value": 665603
-        },
-        {
-          "period": "2024-02",
-          "value": 664745
-        },
-        {
-          "period": "2024-03",
-          "value": 694844
-        },
-        {
-          "period": "2024-04",
-          "value": 734324
-        },
-        {
-          "period": "2024-05",
-          "value": 787726
-        },
-        {
-          "period": "2024-06",
-          "value": 839960
-        },
-        {
-          "period": "2024-07",
-          "value": 883905
-        },
-        {
-          "period": "2024-08",
-          "value": 908944
-        },
-        {
-          "period": "2024-09",
-          "value": 937267
-        },
-        {
-          "period": "2024-10",
-          "value": 954201
-        },
-        {
-          "period": "2024-11",
-          "value": 952414
-        },
-        {
-          "period": "2024-12",
-          "value": 871518
-        },
-        {
-          "period": "2025-01",
-          "value": 829376
-        },
-        {
-          "period": "2025-02",
-          "value": 847825
-        },
-        {
-          "period": "2025-03",
-          "value": 892561
-        },
-        {
-          "period": "2025-04",
-          "value": 959251
-        },
-        {
-          "period": "2025-05",
-          "value": 1036101
-        },
-        {
-          "period": "2025-06",
-          "value": 1082520
-        },
-        {
-          "period": "2025-07",
-          "value": 1102787
-        },
-        {
-          "period": "2025-08",
-          "value": 1098681
-        },
-        {
-          "period": "2025-09",
-          "value": 1100407
-        },
-        {
-          "period": "2025-10",
-          "value": 1099856
-        },
-        {
-          "period": "2025-11",
-          "value": 1072266
-        },
-        {
-          "period": "2025-12",
-          "value": 976833
-        },
-        {
-          "period": "2026-01",
-          "value": 912696
-        },
-        {
-          "period": "2026-02",
-          "value": 915717
-        },
-        {
-          "period": "2026-03",
-          "value": 947866
-        },
-        {
-          "period": "2026-04",
-          "value": 1002935
-        },
-        {
-          "period": "2026-05",
-          "value": 1058693
-        },
-        {
-          "period": "2026-06",
-          "value": 1102615
         }
       ]
     },
@@ -5089,21 +3363,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-07",
-            "mean": 934813,
-            "lo": 830503,
-            "hi": 1052224
+            "mean": 916563,
+            "lo": 813918,
+            "hi": 1032153
           },
           {
             "period": "2026-08",
-            "mean": 758296,
-            "lo": 666807,
-            "hi": 862338
+            "mean": 741518,
+            "lo": 651278,
+            "hi": 844262
           },
           {
             "period": "2026-09",
-            "mean": 810909,
-            "lo": 706331,
-            "hi": 930970
+            "mean": 791103,
+            "lo": 687825,
+            "hi": 909889
           }
         ]
       }
@@ -8807,8 +7081,8 @@ window.LUMBER_DATA = {
           84863
         ],
         "expected2026": 86750,
-        "guidance": "86,000–87,500",
-        "guidanceAsOf": "Q2 FY26 · Apr 2026"
+        "guidance": "86,000\u201387,500",
+        "guidanceAsOf": "Q2 FY26 \u00b7 Apr 2026"
       },
       {
         "name": "Lennar",
@@ -8825,8 +7099,8 @@ window.LUMBER_DATA = {
           82583
         ],
         "expected2026": 85000,
-        "guidance": "≈ 85,000",
-        "guidanceAsOf": "FY25 report · Dec 2025"
+        "guidance": "\u2248 85,000",
+        "guidanceAsOf": "FY25 report \u00b7 Dec 2025"
       },
       {
         "name": "PulteGroup",
@@ -8843,8 +7117,8 @@ window.LUMBER_DATA = {
           29572
         ],
         "expected2026": 28750,
-        "guidance": "28,500–29,000",
-        "guidanceAsOf": "Q4 FY25 call · Jan 2026"
+        "guidance": "28,500\u201329,000",
+        "guidanceAsOf": "Q4 FY25 call \u00b7 Jan 2026"
       },
       {
         "name": "NVR",
@@ -8880,7 +7154,7 @@ window.LUMBER_DATA = {
         ],
         "expected2026": 15026,
         "guidance": "within ~5% of 2025",
-        "guidanceAsOf": "Q1 FY26 · Apr 2026"
+        "guidanceAsOf": "Q1 FY26 \u00b7 Apr 2026"
       },
       {
         "name": "Taylor Morrison",
@@ -8897,8 +7171,8 @@ window.LUMBER_DATA = {
           12997
         ],
         "expected2026": 11000,
-        "guidance": "≈ 11,000",
-        "guidanceAsOf": "Q1 FY26 · Apr 2026"
+        "guidance": "\u2248 11,000",
+        "guidanceAsOf": "Q1 FY26 \u00b7 Apr 2026"
       },
       {
         "name": "KB Home",
@@ -8915,8 +7189,8 @@ window.LUMBER_DATA = {
           12902
         ],
         "expected2026": 10750,
-        "guidance": "10,500–11,000",
-        "guidanceAsOf": "Q2 FY26 · Jun 2026"
+        "guidance": "10,500\u201311,000",
+        "guidanceAsOf": "Q2 FY26 \u00b7 Jun 2026"
       },
       {
         "name": "Toll Brothers",
@@ -8933,8 +7207,8 @@ window.LUMBER_DATA = {
           11292
         ],
         "expected2026": 10550,
-        "guidance": "10,400–10,700",
-        "guidanceAsOf": "Q2 FY26 · May 2026"
+        "guidance": "10,400\u201310,700",
+        "guidanceAsOf": "Q2 FY26 \u00b7 May 2026"
       },
       {
         "name": "M/I Homes",
@@ -8976,8 +7250,8 @@ window.LUMBER_DATA = {
   },
   "stumpage": {
     "asOf": "2026-07",
-    "unit": "C$/m³",
-    "note": "Current softwood-sawlog stumpage/dues, one figure per region as each province publishes it. Systems differ (BC appraisal · AB formula dues · ON residual value · QC auction), so this is indicative rather than like-for-like.",
+    "unit": "C$/m\u00b3",
+    "note": "Current softwood-sawlog stumpage/dues, one figure per region as each province publishes it. Systems differ (BC appraisal \u00b7 AB formula dues \u00b7 ON residual value \u00b7 QC auction), so this is indicative rather than like-for-like.",
     "regions": [
       {
         "region": "Alberta",
@@ -8985,9 +7259,9 @@ window.LUMBER_DATA = {
         "detail": "timber dues, general operator (Jul 2026)"
       },
       {
-        "region": "Québec",
+        "region": "Qu\u00e9bec",
         "rate": 7.4,
-        "detail": "illustrative recent auction — no published avg"
+        "detail": "illustrative recent auction \u2014 no published avg"
       },
       {
         "region": "BC Interior",
@@ -9026,10 +7300,10 @@ window.LUMBER_DATA = {
     },
     "note": "Comprehensive census where an official geodataset exists (BC, QC, ON); major producers geocoded to town where none does (AB and the Atlantic/Prairie provinces).",
     "sources": [
-      "BC Data Catalogue — Major Timber Processing Facilities (live WFS)",
-      "MRNF Québec — Usines de transformation primaire du bois (live CSV)",
-      "Ontario MNRF — Forest resource mills (xlsx, baked)",
-      "Company disclosures — AB + Atlantic/Prairie majors (town-level, baked)"
+      "BC Data Catalogue \u2014 Major Timber Processing Facilities (live WFS)",
+      "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire du bois (live CSV)",
+      "Ontario MNRF \u2014 Forest resource mills (xlsx, baked)",
+      "Company disclosures \u2014 AB + Atlantic/Prairie majors (town-level, baked)"
     ],
     "features": [
       {
@@ -10535,10 +8809,10 @@ window.LUMBER_DATA = {
         "lon": -72.804,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 72k m³/yr (roundwood)",
+        "capacityLabel": "permitted 72k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10548,10 +8822,10 @@ window.LUMBER_DATA = {
         "lon": -67.2438,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 110k m³/yr (roundwood)",
+        "capacityLabel": "permitted 110k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10561,10 +8835,10 @@ window.LUMBER_DATA = {
         "lon": -71.8746,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 240k m³/yr (roundwood)",
+        "capacityLabel": "permitted 240k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10574,49 +8848,49 @@ window.LUMBER_DATA = {
         "lon": -72.2536,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 7k m³/yr (roundwood)",
+        "capacityLabel": "permitted 7k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "9551069 Canada inc. (MultiFib)",
-        "town": "Dégelis",
+        "town": "D\u00e9gelis",
         "lat": 47.553,
         "lon": -68.6318,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 35k m³/yr (roundwood)",
+        "capacityLabel": "permitted 35k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Clermond Hamel ltée (Scierie BH)",
-        "town": "Saint-Éphrem-de-Beauce",
+        "company": "Clermond Hamel lt\u00e9e (Scierie BH)",
+        "town": "Saint-\u00c9phrem-de-Beauce",
         "lat": 46.0429,
         "lon": -70.5513,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 60k m³/yr (roundwood)",
+        "capacityLabel": "permitted 60k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Groupe Crête division St-Faustin inc.",
+        "company": "Groupe Cr\u00eate division St-Faustin inc.",
         "town": "Mont-Blanc",
         "lat": 46.1237,
         "lon": -74.4499,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 300k m³/yr (roundwood)",
+        "capacityLabel": "permitted 300k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10626,10 +8900,10 @@ window.LUMBER_DATA = {
         "lon": -72.5311,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 75k m³/yr (roundwood)",
+        "capacityLabel": "permitted 75k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10639,23 +8913,23 @@ window.LUMBER_DATA = {
         "lon": -76.7176,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 39k m³/yr (roundwood)",
+        "capacityLabel": "permitted 39k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie Carrière ltée",
+        "company": "Scierie Carri\u00e8re lt\u00e9e",
         "town": "Lachute",
         "lat": 45.6342,
         "lon": -74.3663,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 57k m³/yr (roundwood)",
+        "capacityLabel": "permitted 57k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10665,10 +8939,10 @@ window.LUMBER_DATA = {
         "lon": -72.6504,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 7k m³/yr (roundwood)",
+        "capacityLabel": "permitted 7k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10678,10 +8952,10 @@ window.LUMBER_DATA = {
         "lon": -71.8456,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 60k m³/yr (roundwood)",
+        "capacityLabel": "permitted 60k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10691,36 +8965,36 @@ window.LUMBER_DATA = {
         "lon": -70.6612,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 86k m³/yr (roundwood)",
+        "capacityLabel": "permitted 86k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Forêt Coupe inc. (Cèdréco)",
-        "town": "Saint-Aimé-des-Lacs",
+        "company": "For\u00eat Coupe inc. (C\u00e8dr\u00e9co)",
+        "town": "Saint-Aim\u00e9-des-Lacs",
         "lat": 47.7308,
         "lon": -70.3833,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 45k m³/yr (roundwood)",
+        "capacityLabel": "permitted 45k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF Résolu Canada inc. (Maniwaki)",
+        "company": "PF R\u00e9solu Canada inc. (Maniwaki)",
         "town": "Maniwaki",
         "lat": 46.3894,
         "lon": -76.0005,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 806k m³/yr (roundwood)",
+        "capacityLabel": "permitted 806k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10730,10 +9004,10 @@ window.LUMBER_DATA = {
         "lon": -66.6911,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 151k m³/yr (roundwood)",
+        "capacityLabel": "permitted 151k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10743,36 +9017,36 @@ window.LUMBER_DATA = {
         "lon": -71.7818,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 95k m³/yr (roundwood)",
+        "capacityLabel": "permitted 95k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Bois Lambert inc.",
-        "town": "Lac-Mégantic",
+        "town": "Lac-M\u00e9gantic",
         "lat": 45.5799,
         "lon": -70.8744,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 14k m³/yr (roundwood)",
+        "capacityLabel": "permitted 14k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Cèdre JD Sirois inc.",
-        "town": "Métis-sur-Mer",
+        "company": "C\u00e8dre JD Sirois inc.",
+        "town": "M\u00e9tis-sur-Mer",
         "lat": 48.679,
         "lon": -67.9592,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 10k m³/yr (roundwood)",
+        "capacityLabel": "permitted 10k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10782,49 +9056,49 @@ window.LUMBER_DATA = {
         "lon": -79.24,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 5k m³/yr (roundwood)",
+        "capacityLabel": "permitted 5k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "9143-6121 Québec inc. (Récupération forestière Québec)",
+        "company": "9143-6121 Qu\u00e9bec inc. (R\u00e9cup\u00e9ration foresti\u00e8re Qu\u00e9bec)",
         "town": "Montebello",
         "lat": 45.6647,
         "lon": -74.9508,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 8k m³/yr (roundwood)",
+        "capacityLabel": "permitted 8k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Foresterie P. Belleville inc.",
-        "town": "Sainte-Émélie-de-l'Énergie",
+        "town": "Sainte-\u00c9m\u00e9lie-de-l'\u00c9nergie",
         "lat": 46.3215,
         "lon": -73.6392,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 3k m³/yr (roundwood)",
+        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "9268-1881 Québec inc. (Scierie familiale Gagnon)",
+        "company": "9268-1881 Qu\u00e9bec inc. (Scierie familiale Gagnon)",
         "town": "Amherst",
         "lat": 45.9747,
         "lon": -74.7199,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 2k m³/yr (roundwood)",
+        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10834,10 +9108,10 @@ window.LUMBER_DATA = {
         "lon": -71.5385,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 90k m³/yr (roundwood)",
+        "capacityLabel": "permitted 90k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10847,10 +9121,10 @@ window.LUMBER_DATA = {
         "lon": -71.3505,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 40k m³/yr (roundwood)",
+        "capacityLabel": "permitted 40k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10860,10 +9134,10 @@ window.LUMBER_DATA = {
         "lon": -68.836,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 66k m³/yr (roundwood)",
+        "capacityLabel": "permitted 66k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10873,23 +9147,23 @@ window.LUMBER_DATA = {
         "lon": -72.0155,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 18k m³/yr (roundwood)",
+        "capacityLabel": "permitted 18k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie BP inc.",
-        "town": "Saint-Honoré-de-Shenley",
+        "town": "Saint-Honor\u00e9-de-Shenley",
         "lat": 45.9609,
         "lon": -70.8167,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 13k m³/yr (roundwood)",
+        "capacityLabel": "permitted 13k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10899,10 +9173,10 @@ window.LUMBER_DATA = {
         "lon": -69.776,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 520k m³/yr (roundwood)",
+        "capacityLabel": "permitted 520k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10912,10 +9186,10 @@ window.LUMBER_DATA = {
         "lon": -72.0793,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 3k m³/yr (roundwood)",
+        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10925,10 +9199,10 @@ window.LUMBER_DATA = {
         "lon": -71.5082,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 13k m³/yr (roundwood)",
+        "capacityLabel": "permitted 13k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -10938,62 +9212,62 @@ window.LUMBER_DATA = {
         "lon": -68.1179,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 450k m³/yr (roundwood)",
+        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Matériaux Blanchet inc. (Saint-Pamphile)",
+        "company": "Mat\u00e9riaux Blanchet inc. (Saint-Pamphile)",
         "town": "Saint-Pamphile",
         "lat": 46.943,
         "lon": -69.7515,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 495k m³/yr (roundwood)",
+        "capacityLabel": "permitted 495k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Produits Forestiers D&G Ltée (Saint-Côme-Linière)",
-        "town": "Saint-Côme - Linière",
+        "company": "Les Produits Forestiers D&G Lt\u00e9e (Saint-C\u00f4me-Lini\u00e8re)",
+        "town": "Saint-C\u00f4me - Lini\u00e8re",
         "lat": 46.0105,
         "lon": -70.484,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 125k m³/yr (roundwood)",
+        "capacityLabel": "permitted 125k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Maibec inc. (Saint-Théophile)",
-        "town": "Saint-Théophile",
+        "company": "Maibec inc. (Saint-Th\u00e9ophile)",
+        "town": "Saint-Th\u00e9ophile",
         "lat": 45.9588,
         "lon": -70.4496,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 51k m³/yr (roundwood)",
+        "capacityLabel": "permitted 51k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Clermond Hamel ltée",
-        "town": "Saint-Éphrem-de-Beauce",
+        "company": "Clermond Hamel lt\u00e9e",
+        "town": "Saint-\u00c9phrem-de-Beauce",
         "lat": 46.0721,
         "lon": -70.9216,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 675k m³/yr (roundwood)",
+        "capacityLabel": "permitted 675k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11003,36 +9277,36 @@ window.LUMBER_DATA = {
         "lon": -68.7656,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 10k m³/yr (roundwood)",
+        "capacityLabel": "permitted 10k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Bardobec inc.",
-        "town": "Saint-Just-de-Bretenières",
+        "town": "Saint-Just-de-Breteni\u00e8res",
         "lat": 46.6035,
         "lon": -70.0399,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 40k m³/yr (roundwood)",
+        "capacityLabel": "permitted 40k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Produits de bois Réginald Dingman et Fils d'Austin limitée",
+        "company": "Produits de bois R\u00e9ginald Dingman et Fils d'Austin limit\u00e9e",
         "town": "Coaticook",
         "lat": 45.1252,
         "lon": -71.8105,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 8k m³/yr (roundwood)",
+        "capacityLabel": "permitted 8k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11042,36 +9316,36 @@ window.LUMBER_DATA = {
         "lon": -69.7764,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 73k m³/yr (roundwood)",
+        "capacityLabel": "permitted 73k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Irénée Grondin & Fils ltée",
+        "company": "Ir\u00e9n\u00e9e Grondin & Fils lt\u00e9e",
         "town": "Saint-Zacharie",
         "lat": 46.1292,
         "lon": -70.3552,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 159k m³/yr (roundwood)",
+        "capacityLabel": "permitted 159k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Produits Forestiers Miniers Abitibi inc.",
-        "town": "Rivière-Héva",
+        "town": "Rivi\u00e8re-H\u00e9va",
         "lat": 48.1382,
         "lon": -78.1352,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 9k m³/yr (roundwood)",
+        "capacityLabel": "permitted 9k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11081,49 +9355,49 @@ window.LUMBER_DATA = {
         "lon": -71.7721,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 512k m³/yr (roundwood)",
+        "capacityLabel": "permitted 512k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Bardeaux Lajoie inc. (Saint-Eusèbe)",
-        "town": "Saint-Eusèbe",
+        "company": "Les Bardeaux Lajoie inc. (Saint-Eus\u00e8be)",
+        "town": "Saint-Eus\u00e8be",
         "lat": 47.547,
         "lon": -68.9462,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 29k m³/yr (roundwood)",
+        "capacityLabel": "permitted 29k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Groupe Lebel inc. (Dégelis)",
-        "town": "Dégelis",
+        "company": "Groupe Lebel inc. (D\u00e9gelis)",
+        "town": "D\u00e9gelis",
         "lat": 47.5533,
         "lon": -68.6469,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 450k m³/yr (roundwood)",
+        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Champeau Mégantic inc. (Frontenac)",
+        "company": "Champeau M\u00e9gantic inc. (Frontenac)",
         "town": "Frontenac",
         "lat": 45.6058,
         "lon": -70.8432,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 12k m³/yr (roundwood)",
+        "capacityLabel": "permitted 12k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11133,10 +9407,10 @@ window.LUMBER_DATA = {
         "lon": -70.6949,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 35k m³/yr (roundwood)",
+        "capacityLabel": "permitted 35k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11146,10 +9420,10 @@ window.LUMBER_DATA = {
         "lon": -71.6514,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 21k m³/yr (roundwood)",
+        "capacityLabel": "permitted 21k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11159,114 +9433,114 @@ window.LUMBER_DATA = {
         "lon": -66.6863,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 274k m³/yr (roundwood)",
+        "capacityLabel": "permitted 274k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Carrier & Bégin inc.",
-        "town": "Saint-Honoré-de-Shenley",
+        "company": "Carrier & B\u00e9gin inc.",
+        "town": "Saint-Honor\u00e9-de-Shenley",
         "lat": 45.9552,
         "lon": -70.8319,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 320k m³/yr (roundwood)",
+        "capacityLabel": "permitted 320k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF Résolu Canada inc. (Girardville)",
+        "company": "PF R\u00e9solu Canada inc. (Girardville)",
         "town": "Girardville",
         "lat": 49.1232,
         "lon": -72.6036,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 940k m³/yr (roundwood)",
+        "capacityLabel": "permitted 940k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF Résolu Canada inc. (Saint-Thomas)",
+        "company": "PF R\u00e9solu Canada inc. (Saint-Thomas)",
         "town": "Saint-Thomas-Didyme",
         "lat": 48.9162,
         "lon": -72.6525,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 450k m³/yr (roundwood)",
+        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Chantiers de Chibougamau ltée",
+        "company": "Les Chantiers de Chibougamau lt\u00e9e",
         "town": "Chibougamau",
         "lat": 49.9313,
         "lon": -74.3677,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 1300k m³/yr (roundwood)",
+        "capacityLabel": "permitted 1300k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Barrette-Chapais ltée",
+        "company": "Barrette-Chapais lt\u00e9e",
         "town": "Chapais",
         "lat": 49.7907,
         "lon": -74.7098,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 1000k m³/yr (roundwood)",
+        "capacityLabel": "permitted 1000k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie Lachance 2015",
-        "town": "Hébertville",
+        "town": "H\u00e9bertville",
         "lat": 48.4658,
         "lon": -71.5874,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 12k m³/yr (roundwood)",
+        "capacityLabel": "permitted 12k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Chantiers de Chibougamau ltée (Scierie La Sarre)",
+        "company": "Les Chantiers de Chibougamau lt\u00e9e (Scierie La Sarre)",
         "town": "La Sarre",
         "lat": 48.8036,
         "lon": -79.2333,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 635k m³/yr (roundwood)",
+        "capacityLabel": "permitted 635k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Groupe Lebel inc. (Vallée-des-Lacs)",
+        "company": "Groupe Lebel inc. (Vall\u00e9e-des-Lacs)",
         "town": "Saint-Michel-du-Squatec",
         "lat": 47.8792,
         "lon": -68.7256,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 450k m³/yr (roundwood)",
+        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11276,23 +9550,23 @@ window.LUMBER_DATA = {
         "lon": -68.6048,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 50k m³/yr (roundwood)",
+        "capacityLabel": "permitted 50k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Le Spécialiste du bardeau de cèdre inc.",
+        "company": "Le Sp\u00e9cialiste du bardeau de c\u00e8dre inc.",
         "town": "Saint-Prosper",
         "lat": 46.2087,
         "lon": -70.5408,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 73k m³/yr (roundwood)",
+        "capacityLabel": "permitted 73k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11302,23 +9576,23 @@ window.LUMBER_DATA = {
         "lon": -71.589,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 81k m³/yr (roundwood)",
+        "capacityLabel": "permitted 81k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie Lauzé inc.",
-        "town": "Saint-Édouard-de-Lotbinière",
+        "company": "Scierie Lauz\u00e9 inc.",
+        "town": "Saint-\u00c9douard-de-Lotbini\u00e8re",
         "lat": 46.5657,
         "lon": -71.8441,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 10k m³/yr (roundwood)",
+        "capacityLabel": "permitted 10k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11328,23 +9602,23 @@ window.LUMBER_DATA = {
         "lon": -71.8468,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 250k m³/yr (roundwood)",
+        "capacityLabel": "permitted 250k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Groupe Crête division St-Faustin inc. (Usine Chertsey)",
+        "company": "Groupe Cr\u00eate division St-Faustin inc. (Usine Chertsey)",
         "town": "Chertsey",
         "lat": 46.0788,
         "lon": -73.9034,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 225k m³/yr (roundwood)",
+        "capacityLabel": "permitted 225k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11354,23 +9628,23 @@ window.LUMBER_DATA = {
         "lon": -67.8213,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 70k m³/yr (roundwood)",
+        "capacityLabel": "permitted 70k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie Bois St-François inc.",
-        "town": "Saint-François-du-Lac",
+        "company": "Scierie Bois St-Fran\u00e7ois inc.",
+        "town": "Saint-Fran\u00e7ois-du-Lac",
         "lat": 46.0606,
         "lon": -72.8237,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 18k m³/yr (roundwood)",
+        "capacityLabel": "permitted 18k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11380,10 +9654,10 @@ window.LUMBER_DATA = {
         "lon": -66.3561,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 612k m³/yr (roundwood)",
+        "capacityLabel": "permitted 612k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11393,23 +9667,23 @@ window.LUMBER_DATA = {
         "lon": -65.629,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 80k m³/yr (roundwood)",
+        "capacityLabel": "permitted 80k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Industries G.D.S. inc. (Pointe-à-la-Croix)",
-        "town": "Pointe-à-la-Croix",
+        "company": "Industries G.D.S. inc. (Pointe-\u00e0-la-Croix)",
+        "town": "Pointe-\u00e0-la-Croix",
         "lat": 48.0295,
         "lon": -66.7161,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 255k m³/yr (roundwood)",
+        "capacityLabel": "permitted 255k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11419,10 +9693,10 @@ window.LUMBER_DATA = {
         "lon": -69.6425,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 154k m³/yr (roundwood)",
+        "capacityLabel": "permitted 154k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11432,49 +9706,49 @@ window.LUMBER_DATA = {
         "lon": -72.9453,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 140k m³/yr (roundwood)",
+        "capacityLabel": "permitted 140k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "La Compagnie Commonwealth Plywood ltée (Low)",
+        "company": "La Compagnie Commonwealth Plywood lt\u00e9e (Low)",
         "town": "Low",
         "lat": 45.8083,
         "lon": -75.9493,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 125k m³/yr (roundwood)",
+        "capacityLabel": "permitted 125k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF Résolu Canada inc. (Senneterre)",
+        "company": "PF R\u00e9solu Canada inc. (Senneterre)",
         "town": "Senneterre",
         "lat": 48.3857,
         "lon": -77.2318,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 925k m³/yr (roundwood)",
+        "capacityLabel": "permitted 925k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF Résolu Canada inc. (Comtois)",
-        "town": "Lebel-sur-Quévillon",
+        "company": "PF R\u00e9solu Canada inc. (Comtois)",
+        "town": "Lebel-sur-Qu\u00e9villon",
         "lat": 49.11,
         "lon": -77.152,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 590k m³/yr (roundwood)",
+        "capacityLabel": "permitted 590k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11484,10 +9758,10 @@ window.LUMBER_DATA = {
         "lon": -77.9514,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 780k m³/yr (roundwood)",
+        "capacityLabel": "permitted 780k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11497,36 +9771,36 @@ window.LUMBER_DATA = {
         "lon": -68.335,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 180k m³/yr (roundwood)",
+        "capacityLabel": "permitted 180k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Groupe Crête Ferme-Neuve inc.",
+        "company": "Groupe Cr\u00eate Ferme-Neuve inc.",
         "town": "Ferme-Neuve",
         "lat": 46.7092,
         "lon": -75.4397,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 580k m³/yr (roundwood)",
+        "capacityLabel": "permitted 580k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie Lapointe & Roy ltée",
-        "town": "Courcelles - Saint-Évariste",
+        "company": "Scierie Lapointe & Roy lt\u00e9e",
+        "town": "Courcelles - Saint-\u00c9variste",
         "lat": 45.873,
         "lon": -70.986,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 100k m³/yr (roundwood)",
+        "capacityLabel": "permitted 100k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11536,23 +9810,23 @@ window.LUMBER_DATA = {
         "lon": -72.9834,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 50k m³/yr (roundwood)",
+        "capacityLabel": "permitted 50k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Chantiers de Chibougamau ltée (Scierie Matagami)",
+        "company": "Les Chantiers de Chibougamau lt\u00e9e (Scierie Matagami)",
         "town": "Matagami",
         "lat": 49.7307,
         "lon": -77.7011,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 540k m³/yr (roundwood)",
+        "capacityLabel": "permitted 540k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11562,23 +9836,23 @@ window.LUMBER_DATA = {
         "lon": -71.5126,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 58k m³/yr (roundwood)",
+        "capacityLabel": "permitted 58k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Préverco inc. (Division Scierie)",
+        "company": "Pr\u00e9verco inc. (Division Scierie)",
         "town": "Daveluyville",
         "lat": 46.208,
         "lon": -72.1435,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 58k m³/yr (roundwood)",
+        "capacityLabel": "permitted 58k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11588,10 +9862,10 @@ window.LUMBER_DATA = {
         "lon": -66.5466,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 26k m³/yr (roundwood)",
+        "capacityLabel": "permitted 26k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11601,23 +9875,23 @@ window.LUMBER_DATA = {
         "lon": -71.7671,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 20k m³/yr (roundwood)",
+        "capacityLabel": "permitted 20k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Produits Forestiers D&G Ltée (Sainte-Aurélie)",
-        "town": "Sainte-Aurélie",
+        "company": "Les Produits Forestiers D&G Lt\u00e9e (Sainte-Aur\u00e9lie)",
+        "town": "Sainte-Aur\u00e9lie",
         "lat": 46.1809,
         "lon": -70.3692,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 530k m³/yr (roundwood)",
+        "capacityLabel": "permitted 530k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11627,36 +9901,36 @@ window.LUMBER_DATA = {
         "lon": -70.9922,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 224k m³/yr (roundwood)",
+        "capacityLabel": "permitted 224k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Produits forestiers Lachance inc.",
-        "town": "Sainte-Émélie-de-l'Énergie",
+        "town": "Sainte-\u00c9m\u00e9lie-de-l'\u00c9nergie",
         "lat": 46.3291,
         "lon": -73.6129,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 77k m³/yr (roundwood)",
+        "capacityLabel": "permitted 77k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Multi Cèdre ltée (MultiCed)",
+        "company": "Multi C\u00e8dre lt\u00e9e (MultiCed)",
         "town": "Esprit-Saint",
         "lat": 48.0744,
         "lon": -68.5533,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 32k m³/yr (roundwood)",
+        "capacityLabel": "permitted 32k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11666,23 +9940,23 @@ window.LUMBER_DATA = {
         "lon": -71.0863,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 45k m³/yr (roundwood)",
+        "capacityLabel": "permitted 45k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie St-Elzéar inc.",
-        "town": "Saint-Elzéar",
+        "company": "Scierie St-Elz\u00e9ar inc.",
+        "town": "Saint-Elz\u00e9ar",
         "lat": 48.1653,
         "lon": -65.3996,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 240k m³/yr (roundwood)",
+        "capacityLabel": "permitted 240k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11692,10 +9966,10 @@ window.LUMBER_DATA = {
         "lon": -75.629,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 40k m³/yr (roundwood)",
+        "capacityLabel": "permitted 40k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11705,10 +9979,10 @@ window.LUMBER_DATA = {
         "lon": -71.1175,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 52k m³/yr (roundwood)",
+        "capacityLabel": "permitted 52k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11718,10 +9992,10 @@ window.LUMBER_DATA = {
         "lon": -73.9247,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 2k m³/yr (roundwood)",
+        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11731,10 +10005,10 @@ window.LUMBER_DATA = {
         "lon": -75.248,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 258k m³/yr (roundwood)",
+        "capacityLabel": "permitted 258k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11744,10 +10018,10 @@ window.LUMBER_DATA = {
         "lon": -72.281,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 61k m³/yr (roundwood)",
+        "capacityLabel": "permitted 61k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11757,23 +10031,23 @@ window.LUMBER_DATA = {
         "lon": -73.9257,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 400k m³/yr (roundwood)",
+        "capacityLabel": "permitted 400k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF Résolu Canada inc. (Baie-Comeau - Sciage)",
+        "company": "PF R\u00e9solu Canada inc. (Baie-Comeau - Sciage)",
         "town": "Baie-Comeau",
         "lat": 49.1795,
         "lon": -68.4045,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 800k m³/yr (roundwood)",
+        "capacityLabel": "permitted 800k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11783,10 +10057,10 @@ window.LUMBER_DATA = {
         "lon": -70.2185,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 24k m³/yr (roundwood)",
+        "capacityLabel": "permitted 24k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11796,10 +10070,10 @@ window.LUMBER_DATA = {
         "lon": -71.4055,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 122k m³/yr (roundwood)",
+        "capacityLabel": "permitted 122k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11809,10 +10083,10 @@ window.LUMBER_DATA = {
         "lon": -68.72,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 50k m³/yr (roundwood)",
+        "capacityLabel": "permitted 50k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11822,49 +10096,49 @@ window.LUMBER_DATA = {
         "lon": -74.6352,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 735k m³/yr (roundwood)",
+        "capacityLabel": "permitted 735k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "La Compagnie Commonwealth Plywood ltée (Rapides-des-Joachims)",
+        "company": "La Compagnie Commonwealth Plywood lt\u00e9e (Rapides-des-Joachims)",
         "town": "Rapides-des-Joachims",
         "lat": 46.2014,
         "lon": -77.7094,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 121k m³/yr (roundwood)",
+        "capacityLabel": "permitted 121k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Boisaco inc.",
-        "town": "Sacré-Coeur",
+        "town": "Sacr\u00e9-Coeur",
         "lat": 48.2784,
         "lon": -69.8854,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 630k m³/yr (roundwood)",
+        "capacityLabel": "permitted 630k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF Résolu Canada inc. (La Doré)",
-        "town": "La Doré",
+        "company": "PF R\u00e9solu Canada inc. (La Dor\u00e9)",
+        "town": "La Dor\u00e9",
         "lat": 48.7244,
         "lon": -72.6279,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 1050k m³/yr (roundwood)",
+        "capacityLabel": "permitted 1050k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11874,49 +10148,49 @@ window.LUMBER_DATA = {
         "lon": -70.8592,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 48k m³/yr (roundwood)",
+        "capacityLabel": "permitted 48k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Entreprise Forestière Lambert inc.",
+        "company": "Entreprise Foresti\u00e8re Lambert inc.",
         "town": "Saint-Augustin-de-Woburn",
         "lat": 45.3886,
         "lon": -70.8677,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 90k m³/yr (roundwood)",
+        "capacityLabel": "permitted 90k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Matériaux Blanchet inc. (Amos)",
+        "company": "Mat\u00e9riaux Blanchet inc. (Amos)",
         "town": "Amos",
         "lat": 48.5605,
         "lon": -78.1694,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 530k m³/yr (roundwood)",
+        "capacityLabel": "permitted 530k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Arbec, Bois d'oeuvre inc. (Saint-Roch)",
-        "town": "Saint-Roch-de-Mékinac",
+        "town": "Saint-Roch-de-M\u00e9kinac",
         "lat": 46.7994,
         "lon": -72.7643,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 740k m³/yr (roundwood)",
+        "capacityLabel": "permitted 740k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11926,10 +10200,10 @@ window.LUMBER_DATA = {
         "lon": -71.5024,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 140k m³/yr (roundwood)",
+        "capacityLabel": "permitted 140k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11939,10 +10213,10 @@ window.LUMBER_DATA = {
         "lon": -70.8554,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 325k m³/yr (roundwood)",
+        "capacityLabel": "permitted 325k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11952,10 +10226,10 @@ window.LUMBER_DATA = {
         "lon": -72.3917,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 31k m³/yr (roundwood)",
+        "capacityLabel": "permitted 31k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -11965,36 +10239,36 @@ window.LUMBER_DATA = {
         "lon": -70.3954,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 220k m³/yr (roundwood)",
+        "capacityLabel": "permitted 220k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Bégin & Bégin inc. (Saint-Juste-du-Lac)",
+        "company": "B\u00e9gin & B\u00e9gin inc. (Saint-Juste-du-Lac)",
         "town": "Saint-Juste-du-Lac",
         "lat": 47.6668,
         "lon": -68.6693,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 130k m³/yr (roundwood)",
+        "capacityLabel": "permitted 130k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Groupe NBG inc.",
-        "town": "Rivière-Bleue",
+        "town": "Rivi\u00e8re-Bleue",
         "lat": 47.4358,
         "lon": -69.0659,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 195k m³/yr (roundwood)",
+        "capacityLabel": "permitted 195k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12004,10 +10278,10 @@ window.LUMBER_DATA = {
         "lon": -69.7497,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 28k m³/yr (roundwood)",
+        "capacityLabel": "permitted 28k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12017,23 +10291,23 @@ window.LUMBER_DATA = {
         "lon": -72.5879,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 96k m³/yr (roundwood)",
+        "capacityLabel": "permitted 96k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Bois Daaquam inc. (Saint-Just-de-Bretenières)",
-        "town": "Saint-Just-de-Bretenières",
+        "company": "Bois Daaquam inc. (Saint-Just-de-Breteni\u00e8res)",
+        "town": "Saint-Just-de-Breteni\u00e8res",
         "lat": 46.5695,
         "lon": -70.0978,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 467k m³/yr (roundwood)",
+        "capacityLabel": "permitted 467k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12043,49 +10317,49 @@ window.LUMBER_DATA = {
         "lon": -71.8397,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 600k m³/yr (roundwood)",
+        "capacityLabel": "permitted 600k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Adélard Goyette & Fils ltée",
-        "town": "Rivière-à-Pierre",
+        "company": "Ad\u00e9lard Goyette & Fils lt\u00e9e",
+        "town": "Rivi\u00e8re-\u00e0-Pierre",
         "lat": 46.9991,
         "lon": -72.1751,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 33k m³/yr (roundwood)",
+        "capacityLabel": "permitted 33k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Chantiers de Chibougamau ltée (Scierie Béarn)",
-        "town": "Béarn",
+        "company": "Les Chantiers de Chibougamau lt\u00e9e (Scierie B\u00e9arn)",
+        "town": "B\u00e9arn",
         "lat": 47.2807,
         "lon": -79.3295,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 650k m³/yr (roundwood)",
+        "capacityLabel": "permitted 650k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Les Scieries du Lac St-Jean inc.",
-        "town": "Métabetchouan - Lac-à-la-Croix",
+        "town": "M\u00e9tabetchouan - Lac-\u00e0-la-Croix",
         "lat": 48.3791,
         "lon": -71.8862,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 255k m³/yr (roundwood)",
+        "capacityLabel": "permitted 255k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12095,49 +10369,49 @@ window.LUMBER_DATA = {
         "lon": -71.6109,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 1130k m³/yr (roundwood)",
+        "capacityLabel": "permitted 1130k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "La Scierie Martel ltée",
+        "company": "La Scierie Martel lt\u00e9e",
         "town": "Alma",
         "lat": 48.5106,
         "lon": -71.5898,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 118k m³/yr (roundwood)",
+        "capacityLabel": "permitted 118k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "La Compagnie Commonwealth Plywood ltée (Mont-Laurier)",
+        "company": "La Compagnie Commonwealth Plywood lt\u00e9e (Mont-Laurier)",
         "town": "Mont-Laurier",
         "lat": 46.5481,
         "lon": -75.4744,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 115k m³/yr (roundwood)",
+        "capacityLabel": "permitted 115k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie Cojovi Toupin & fils inc.",
-        "town": "Saint-Célestin",
+        "town": "Saint-C\u00e9lestin",
         "lat": 46.1895,
         "lon": -72.4109,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 2k m³/yr (roundwood)",
+        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12147,49 +10421,49 @@ window.LUMBER_DATA = {
         "lon": -67.2365,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 660k m³/yr (roundwood)",
+        "capacityLabel": "permitted 660k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Entreprises forestières Gauthier SNC",
-        "town": "Saint-André-Avellin",
+        "company": "Les Entreprises foresti\u00e8res Gauthier SNC",
+        "town": "Saint-Andr\u00e9-Avellin",
         "lat": 45.6657,
         "lon": -75.0853,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 3k m³/yr (roundwood)",
+        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF Résolu Canada inc. (Saint-Félicien)",
-        "town": "Saint-Félicien",
+        "company": "PF R\u00e9solu Canada inc. (Saint-F\u00e9licien)",
+        "town": "Saint-F\u00e9licien",
         "lat": 48.6406,
         "lon": -72.4458,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 680k m³/yr (roundwood)",
+        "capacityLabel": "permitted 680k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF Résolu Canada inc. (Dolbeau-Mistassini - Sciage)",
+        "company": "PF R\u00e9solu Canada inc. (Dolbeau-Mistassini - Sciage)",
         "town": "Dolbeau-Mistassini",
         "lat": 48.8823,
         "lon": -72.2032,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 900k m³/yr (roundwood)",
+        "capacityLabel": "permitted 900k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12199,10 +10473,10 @@ window.LUMBER_DATA = {
         "lon": -70.7695,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 330k m³/yr (roundwood)",
+        "capacityLabel": "permitted 330k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12212,36 +10486,36 @@ window.LUMBER_DATA = {
         "lon": -71.2926,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 380k m³/yr (roundwood)",
+        "capacityLabel": "permitted 380k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie de la Rouge inc.",
-        "town": "Rivière-Rouge",
+        "town": "Rivi\u00e8re-Rouge",
         "lat": 46.3735,
         "lon": -74.8574,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 27k m³/yr (roundwood)",
+        "capacityLabel": "permitted 27k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Bois Granval G.D.S. inc. (Grande-Vallée)",
-        "town": "Grande-Vallée",
+        "company": "Bois Granval G.D.S. inc. (Grande-Vall\u00e9e)",
+        "town": "Grande-Vall\u00e9e",
         "lat": 49.2186,
         "lon": -65.1337,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 246k m³/yr (roundwood)",
+        "capacityLabel": "permitted 246k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12251,10 +10525,10 @@ window.LUMBER_DATA = {
         "lon": -66.0723,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 242k m³/yr (roundwood)",
+        "capacityLabel": "permitted 242k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12264,36 +10538,36 @@ window.LUMBER_DATA = {
         "lon": -69.5375,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 72k m³/yr (roundwood)",
+        "capacityLabel": "permitted 72k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie Arbotek inc.",
-        "town": "Saint-Just-de-Bretenières",
+        "town": "Saint-Just-de-Breteni\u00e8res",
         "lat": 46.5553,
         "lon": -70.0778,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 30k m³/yr (roundwood)",
+        "capacityLabel": "permitted 30k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie SerDam inc.",
-        "town": "La Rédemption",
+        "town": "La R\u00e9demption",
         "lat": 48.4456,
         "lon": -67.8757,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 53k m³/yr (roundwood)",
+        "capacityLabel": "permitted 53k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12303,10 +10577,10 @@ window.LUMBER_DATA = {
         "lon": -71.8121,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 25k m³/yr (roundwood)",
+        "capacityLabel": "permitted 25k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12316,10 +10590,10 @@ window.LUMBER_DATA = {
         "lon": -66.8243,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 720k m³/yr (roundwood)",
+        "capacityLabel": "permitted 720k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12329,10 +10603,10 @@ window.LUMBER_DATA = {
         "lon": -72.0222,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 18k m³/yr (roundwood)",
+        "capacityLabel": "permitted 18k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12342,23 +10616,23 @@ window.LUMBER_DATA = {
         "lon": -72.8897,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 648k m³/yr (roundwood)",
+        "capacityLabel": "permitted 648k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Chantiers de Chibougamau ltée (Mont Bourbeau)",
+        "company": "Les Chantiers de Chibougamau lt\u00e9e (Mont Bourbeau)",
         "town": "Chibougamau",
         "lat": 49.9204,
         "lon": -74.3465,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 2k m³/yr (roundwood)",
+        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12368,10 +10642,10 @@ window.LUMBER_DATA = {
         "lon": -71.4573,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 3k m³/yr (roundwood)",
+        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12381,23 +10655,23 @@ window.LUMBER_DATA = {
         "lon": -74.9239,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 29k m³/yr (roundwood)",
+        "capacityLabel": "permitted 29k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Société en commandite Scierie Opitciwan",
+        "company": "Soci\u00e9t\u00e9 en commandite Scierie Opitciwan",
         "town": "Obedjiwan",
         "lat": 48.6674,
         "lon": -74.9292,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 276k m³/yr (roundwood)",
+        "capacityLabel": "permitted 276k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12407,23 +10681,23 @@ window.LUMBER_DATA = {
         "lon": -73.9124,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 5k m³/yr (roundwood)",
+        "capacityLabel": "permitted 5k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie de la Vallée",
+        "company": "Scierie de la Vall\u00e9e",
         "town": "Amqui",
         "lat": 48.4984,
         "lon": -67.4829,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 43k m³/yr (roundwood)",
+        "capacityLabel": "permitted 43k m\u00b3/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Québec — Usines de transformation primaire (live)"
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
       },
       {
         "province": "ON",
@@ -13820,7 +12094,7 @@ window.LUMBER_DATA = {
   },
   "fires": {
     "asOf": "2026-07-15T18:14:55.157Z",
-    "source": "NASA FIRMS — VIIRS 375m (NOAA-20 + S-NPP), last 24h",
+    "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 24h",
     "dayRange": 1,
     "total": 9051,
     "count": 6000,
