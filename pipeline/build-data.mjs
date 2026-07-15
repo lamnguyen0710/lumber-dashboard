@@ -23,6 +23,8 @@ import { fetchLiveDataset } from './fetch/index.mjs';
 import { fetchNews } from './fetch/news.mjs';
 import { homebuilders } from './homebuilders.mjs';
 import { stumpage } from './stumpage.mjs';
+import { fetchMills } from './mills.mjs';
+import { fetchFires } from './fires.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = resolve(__dirname, '..', 'data');
@@ -56,6 +58,38 @@ async function main() {
 
   // Canadian stumpage-by-region snapshot (manually-compiled, not a live feed).
   dataset.stumpage = stumpage();
+
+  // Fire & sawmill map. Mills are keyless (BC live + curated producers); fires
+  // need a free FIRMS key. Both carry forward from the last build on any failure
+  // so the map never goes blank.
+  let prev = null;
+  const readPrev = () => {
+    if (prev !== null) return prev;
+    try { prev = JSON.parse(readFileSync(resolve(OUT_DIR, 'dataset.json'), 'utf8')); }
+    catch { prev = {}; }
+    return prev;
+  };
+  try {
+    dataset.mills = await fetchMills();
+    console.log(`[build-data] mills: ${dataset.mills.count} (${JSON.stringify(dataset.mills.byProvince)})`);
+  } catch (e) {
+    const p = readPrev();
+    if (p.mills) { dataset.mills = p.mills; console.warn('[build-data] ⚠ mills fetch failed — carried forward'); }
+    else console.warn('[build-data] mills fetch failed and no prior data:', e.message);
+  }
+  try {
+    const fires = await fetchFires(process.env.FIRMS_KEY);
+    if (fires) { dataset.fires = fires; console.log(`[build-data] fires: ${fires.count} detections (24h)`); }
+    else {
+      const p = readPrev();
+      if (p.fires) { dataset.fires = p.fires; console.log('[build-data] fires: no key/data — carried forward last set'); }
+      else console.log('[build-data] fires: skipped (set FIRMS_KEY to enable)');
+    }
+  } catch (e) {
+    const p = readPrev();
+    if (p.fires) { dataset.fires = p.fires; console.warn('[build-data] ⚠ fires fetch failed — carried forward'); }
+    else console.warn('[build-data] fires fetch failed and no prior data:', e.message);
+  }
 
   // Stamp the actual build date so the dashboard's "updated" reflects each run.
   dataset.meta = dataset.meta || {};

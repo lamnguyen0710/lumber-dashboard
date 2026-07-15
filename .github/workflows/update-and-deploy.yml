@@ -40,6 +40,9 @@ jobs:
         run: node pipeline/build-data.mjs --live
         env:
           COMTRADE_KEY: ${{ secrets.COMTRADE_KEY }}
+          # Free NASA FIRMS map key — powers the active-fire layer on the map.
+          # Keyless mill data still builds if this is unset; fires just no-op.
+          FIRMS_KEY: ${{ secrets.FIRMS_KEY }}
 
       # SARIMAX 3-month forecast of total Canada->US exports. Re-fits each run on
       # the freshly-built data and writes the forecast back into the dataset. It's

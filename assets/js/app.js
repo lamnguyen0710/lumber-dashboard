@@ -120,6 +120,82 @@
   }
 
   // =========================================================================
+  // FIRE & SAWMILL MAP  (Leaflet — active fires over Canadian sawmills)
+  // =========================================================================
+  function renderFireMillMap() {
+    const el = document.getElementById('fireMillMap');
+    if (!el || !window.L || el._leaflet_id) return;           // no map, or already built
+    const L = window.L;
+    const mills = (DATA.mills && DATA.mills.features) || [];
+    const fires = (DATA.fires && DATA.fires.points) || [];
+
+    const map = L.map(el, { scrollWheelZoom: false, zoomControl: true, minZoom: 3, maxZoom: 12 })
+      .setView([57, -100], 4);
+    // Scroll-wheel zoom only after a click, so the page still scrolls past the map.
+    map.on('focus', () => map.scrollWheelZoom.enable());
+    map.on('blur', () => map.scrollWheelZoom.disable());
+
+    const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (dark) {
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+        { attribution: '© OpenStreetMap © CARTO', subdomains: 'abcd', maxZoom: 12 }).addTo(map);
+    } else {
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+        { attribution: '© OpenStreetMap © CARTO', subdomains: 'abcd', maxZoom: 12 }).addTo(map);
+    }
+
+    // ---- sawmills ---------------------------------------------------------
+    const millLayer = L.layerGroup();
+    // Radius scaled by annual capacity (√ so area ~ capacity); default for unknown.
+    const rFor = (c) => (c ? Math.max(4, Math.min(14, Math.sqrt(c) / 2.2)) : 4);
+    mills.forEach((m) => {
+      const off = m.status !== 'operating';
+      L.circleMarker([m.lat, m.lon], {
+        radius: rFor(m.capacityMMbf),
+        color: off ? '#8a8f98' : '#1f9d61',
+        weight: 1, fillColor: off ? '#b9bec6' : '#37c884', fillOpacity: 0.7,
+      }).bindPopup(
+        `<b>${esc(m.company)}</b><br>${esc(m.town || '')}, ${esc(m.province)}` +
+        `${m.capacityMMbf ? `<br>${F.int(m.capacityMMbf)} MMbf/yr` : ''}` +
+        `<br><span style="color:${off ? '#a00' : '#0a0'}">${esc(m.status)}</span>` +
+        `<br><small style="color:#888">${esc(m.source)}</small>`
+      ).addTo(millLayer);
+    });
+
+    // ---- active fires (canvas renderer — handles thousands of points) -----
+    const fireCanvas = L.canvas({ padding: 0.5 });
+    const fireLayer = L.layerGroup();
+    fires.forEach((p) => {
+      const [lat, lon, frp, high] = p;
+      L.circleMarker([lat, lon], {
+        renderer: fireCanvas, radius: high ? 3.2 : 2.2, stroke: false,
+        fillColor: high ? '#e53935' : '#fb8c00', fillOpacity: high ? 0.85 : 0.6,
+      }).addTo(fireLayer);
+    });
+
+    millLayer.addTo(map);
+    if (fires.length) fireLayer.addTo(map);
+    const overlays = {};
+    overlays[`Sawmills (${mills.length})`] = millLayer;
+    if (fires.length) overlays[`Active fires 24h (${fires.length})`] = fireLayer;
+    L.control.layers(null, overlays, { collapsed: false, position: 'topright' }).addTo(map);
+
+    // ---- note under the title --------------------------------------------
+    const note = document.getElementById('mapNote');
+    if (note) {
+      const millTxt = DATA.mills
+        ? `${mills.length} lumber sawmills (BC live from the province’s facilities dataset + major producers’ mills elsewhere, as of ${DATA.mills.asOf})`
+        : '';
+      const fireTxt = DATA.fires
+        ? `${DATA.fires.count.toLocaleString()} active-fire detections in the last 24h${DATA.fires.capped ? ` (strongest ${DATA.fires.count.toLocaleString()} of ${DATA.fires.total.toLocaleString()} shown)` : ''}, updated ${relTime(DATA.fires.asOf)}`
+        : 'fire layer activates once a FIRMS key is configured';
+      note.innerHTML = [millTxt, fireTxt].filter(Boolean).join(' · ') +
+        '. Click the map to zoom; toggle layers top-right.';
+    }
+    setTimeout(() => map.invalidateSize(), 0);   // ensure correct sizing after layout
+  }
+
+  // =========================================================================
   // INDUSTRY OVERVIEW
   // =========================================================================
   function renderIndustry() {
@@ -221,6 +297,23 @@
             <div class="chart-wrap"><canvas id="chStumpage"></canvas></div>
           </div>` : ''}
       </div>
+
+      ${(DATA.mills || DATA.fires) ? `
+      <section class="section-head"><h2>Wildfire &amp; sawmill map ${DATA.fires ? '<span class="news-live" title="Fires refresh with the data pipeline">● LIVE</span>' : ''}</h2>
+        <p>Active fire detections (NASA FIRMS, last 24h) over Canada's lumber sawmills. Fire season disrupts log supply, rail and mill operations across the softwood basket — proximity of fire to mills is a real supply-risk signal.</p></section>
+      <div class="card span-2">
+        <div class="card__head">
+          <h3 class="card__title">Active fires &amp; sawmills</h3>
+          <div class="map-legend">
+            <span class="mlg"><i class="dot dot--fire-h"></i>Fire (high conf.)</span>
+            <span class="mlg"><i class="dot dot--fire"></i>Fire</span>
+            <span class="mlg"><i class="dot dot--mill"></i>Sawmill</span>
+            <span class="mlg"><i class="dot dot--mill-off"></i>Curtailed / n/r</span>
+          </div>
+        </div>
+        <div class="card__note" id="mapNote"></div>
+        <div id="fireMillMap" class="map-wrap"></div>
+      </div>` : ''}
 
       ${newsSection(ind.news)}
 
@@ -350,6 +443,7 @@
 
     wireTableRows();
     hydrateNewsTimes();
+    renderFireMillMap();
   }
 
   function companyTable() {
