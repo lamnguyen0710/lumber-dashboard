@@ -12,18 +12,18 @@ window.LUMBER_DATA = {
       "companies": true,
       "regionExports": true
     },
-    "disclaimer": "PLACEHOLDER DATA — synthetic values scaled to realistic magnitudes so every chart renders. Replace with the live pipeline output (pipeline/fetch/*) before using for analysis.",
+    "disclaimer": "PLACEHOLDER DATA \u2014 synthetic values scaled to realistic magnitudes so every chart renders. Replace with the live pipeline output (pipeline/fetch/*) before using for analysis.",
     "sources": [
       {
-        "name": "US Census — New Residential Construction (starts & permits)",
+        "name": "US Census \u2014 New Residential Construction (starts & permits)",
         "url": "https://www.census.gov/construction/nrc/"
       },
       {
-        "name": "Statistics Canada — Softwood lumber exports",
+        "name": "Statistics Canada \u2014 Softwood lumber exports",
         "url": "https://www.statcan.gc.ca/"
       },
       {
-        "name": "Random Lengths — Framing Lumber Composite",
+        "name": "Random Lengths \u2014 Framing Lumber Composite",
         "url": "https://www.randomlengths.com/"
       },
       {
@@ -31,7 +31,7 @@ window.LUMBER_DATA = {
         "url": "https://www.sec.gov/edgar"
       },
       {
-        "name": "Internal — ICTLF / softwood_exports_pivot",
+        "name": "Internal \u2014 ICTLF / softwood_exports_pivot",
         "url": ""
       }
     ]
@@ -663,7 +663,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 622
+          "framing_composite": 628
         }
       ]
     },
@@ -2497,13 +2497,31 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-15T16:18:23.403Z",
+      "fetchedAt": "2026-07-15T18:14:53.213Z",
       "items": [
+        {
+          "title": "Canfor closing its Prince George pulp mill",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN3U2ZkpKSjdESXhVSWtrdHd3MUg3MmlESzlhRUtsOEx2OFl3SDItRUc5SUVudzhiUFBGQnBLQWtfbkxpSm41a19qOHlwRnZWbXYzWE5EdjB6Mml5TzJvdVgxWXVEeGFpMnpvNnJyRzFub1JFTnB0eEd2ejVpeGw5WGYwNFdvSFk?oc=5",
+          "source": "Global News",
+          "date": "2026-07-15T17:25:01.000Z"
+        },
         {
           "title": "The future of lumber prices, supply, and quality explained",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPT0dCOU9GT0o4eWxRWWxtYWIzMWFvZ0xtbFNvY0dUcDBMbU0yZ0dWNzA2Q2poZzZsNVRTaVJyTlRMd1dtX19RdU9fbGlRdzBiejdiYlZQZFI0R2JLUnJQaG5RTEp6MnJHYUlEcDBDTGoxdkY3N3RGU2RWNG1ibnh6Q2NPQVNsQXp5NEFZN2NJY0tNc1JCZF9USzY3N3lwd1M5bE5XS3UwYzIzMWN0cEhGRWJfV1pFbUZxdFotQTZXbDN2V3dYUW5IQmdyZw?oc=5",
           "source": "MSN",
-          "date": "2026-07-15T16:14:43.000Z"
+          "date": "2026-07-15T16:16:14.000Z"
+        },
+        {
+          "title": "\u2018Heartbreaking\u2019: Prince George pulp mill to shut down, putting around 300 employees out of work",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYWdMNFR3Q1N4azZKdWlKM1JXRjNEWUdKVWV0RlVRYkthbkZKV1BOVjdCeEVXdjhBVlFaWXRpc0xpblM5SzQ4V2RoZmpCbmc0MGFSYjBLeEhBTDJhRmxqZzNlSzYzc3Z4aEVUMS14UzZsMWFkOXNrVWdVbjUxSVhvOGNBMFNLNGx3ZVZNajlxeWxjdkhzRmc1RHNlQllWY3JpRUZBbDNaZWRxLVFzNW9XWmYtWHVIWjAzOXNUYzJ2S3dfTnVVMXhr?oc=5",
+          "source": "CJDC-TV",
+          "date": "2026-07-15T16:16:04.000Z"
+        },
+        {
+          "title": "Canfor Closes Northwood Pulp Mill as Global Glut Claims More Jobs",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA5RnYtUmpCcGJ6MWFpQ2dnTl9XTWs4TGt4OXlCN3BxRF9IcEcyTmlJY0ZOWVU1bk1lLUd5X0gzUFlTRTRMaFBjczBWa1pPZ0J2cVJ6RnJiNFowSHhkLWdCZFBTaEJrbFpQMFE1VWE2RQ?oc=5",
+          "source": "Wood Central",
+          "date": "2026-07-15T16:04:03.000Z"
         },
         {
           "title": "Canfor shutters B.C. pulp mill",
@@ -2516,6 +2534,12 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeHh1MlJzMzNOSjhvMFJpLVNDbENyQmxNRDc0Sk5hdUhjY1dpNFNUSzFtYjFvd1NOZ0FNZ1hGTW1wQVJ2MjJDeGhMdlhuRDZIX0NhN014WmYzOHFqZmxUYURtY0RxZzJpaUdpbGNHYmZlUmMyTnVOdjZHbkNfeWhtSklCSzUySmR0YjFvNEEyTTd5X3l6dkdoM2h5WGZEcWJJdzFNOHJrRkJNRlB3QWRZUnI1bDBERkllNmsyc1lhTC1kZw?oc=5",
           "source": "ChemAnalyst",
           "date": "2026-07-15T15:17:12.000Z"
+        },
+        {
+          "title": "Canfor Northwood closure sparks calls for urgent action as Province, industry respond",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb0xnQVFUVUFud19qdndTZmdYcGhJWUE1eTlINVVmYkdCMVRDclRaU2Y0UXBQcXV5dHRBZWNtYjlnMXVKSmxMUkNzOHBkYjhPZ2xiT1QtN0JjMFVCSzdqQW9STlpOU2NZZERsTkxxUFNsSi1PLU85d3RpOHM3UHczLWpYTjctLXN3cXk5Y2I0eUZkSk9SYUJBeTJrQ0p4T1pGV3NOTVV1ZjNpNFNlN0lDQllhcmV0dmo4?oc=5",
+          "source": "CKPG Today",
+          "date": "2026-07-15T14:45:00.000Z"
         },
         {
           "title": "Canfor to Permanently Close Its Northwood Pulp Mill in Prince George",
@@ -2549,15 +2573,9 @@ window.LUMBER_DATA = {
         },
         {
           "title": "Canfor Announces Permanent Closure Of Northwood Pulp Mill",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYS1JQjJTT1drcjdSSkZUSm9ReUVJWEh6NnNxNEpzVS1rSkc3Vk9OaWlWYm9mUUtESmw4NVppN0t0SEotZ1E1dmh1Qm1jamlWZHc5ay11MzVuVW5WNmg3eXpzQ1BUay1VOVZKLXB0OTA1dXdBd19xOFFCLUt2QnhWeDJ2OFY2eGp3UWVSbVdPQQ?oc=5",
-          "source": "Wood Business",
-          "date": "2026-07-15T11:24:52.000Z"
-        },
-        {
-          "title": "Canfor Closes Northwood Pulp Mill as Global Glut Claims More Jobs",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA5RnYtUmpCcGJ6MWFpQ2dnTl9XTWs4TGt4OXlCN3BxRF9IcEcyTmlJY0ZOWVU1bk1lLUd5X0gzUFlTRTRMaFBjczBWa1pPZ0J2cVJ6RnJiNFowSHhkLWdCZFBTaEJrbFpQMFE1VWE2RQ?oc=5",
-          "source": "Wood Central",
-          "date": "2026-07-15T11:22:38.000Z"
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNXZfd2IwYTJUM3hubXZLZW5mcDZxYXBFd1ZaOE1fQUZtWnllXzZhMGh4cTU5ZDBzUnF0ak5xSkZzV0lORk5CeGtPSTZUZnhsZUM1YW82Z2RXWG8yS2h2b3RCNjIzdlloM1l1YzRJZnR3SU4tOXBoM09RSlk4c01mWXZWd0p2MHJVU2w3LWVxN2dUU1VHMXU0LUpvZ3c2Zw?oc=5",
+          "source": "Canadian Biomass Magazine",
+          "date": "2026-07-15T11:25:54.000Z"
         },
         {
           "title": "Canfor to permanently close Northwood pulp mill in British Columbia",
@@ -2572,16 +2590,16 @@ window.LUMBER_DATA = {
           "date": "2026-07-15T09:20:00.000Z"
         },
         {
-          "title": "Canfor to permanently close Northwood pulp mill in British Columbia",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSHlXVXNJbHNBUDBVVzdVTG82ZEFuOFFEVVdCRGVYY3UwZG5HdWlSRlRKVWdmRnRUSVZJczhDYm9Qam9HR1hqXzMwbVZsa18zZW9FSks5MVo1Z2NETXhyTk00ZmxCZHRUblRFai1melpIVnZLMnZESkM0VXE2UU94YjhJWQ?oc=5",
-          "source": "Fordaq",
-          "date": "2026-07-15T09:00:35.000Z"
-        },
-        {
-          "title": "Canfor (TSX:CFP) Is Up 7.2% After Permanently Shuttering Northwood Pulp Mill – Has The Bull Case Changed?",
+          "title": "Canfor (TSX:CFP) Is Up 7.2% After Permanently Shuttering Northwood Pulp Mill \u2013 Has The Bull Case Changed?",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdTFPVm5hVnZ2T2R3dk1wT2t4MlRrNmxHeUtpeFZfRU5UYnZPcDZJcTQzU3diQ2RBUEo0ZlJYTHd5S3d3SktVZUtxSDhJanFOTUJvSWZJZl9sbVNxWFp4cVp4T1dDV2tCVnIyUUhpTkYxaFFscWRVTVVBTzE4ZHd5eGZPSHlWYm42akNQX0JfM1RLSGRpbGdwc29admZtMS1xelhwRkU4S0tnUHMwa0dOcVhOdTVXQlMyRlJScnpDV05OZkxtOFN0N9IBzgFBVV95cUxNRmRWZ0E3NUVTNmRVdzgzMmhHZ3VaR0FybkFQX2NxRmJzXzVlQUxxeEM0ZVBCektlaW04MzgwdGJKbzhsZ0R1bVNvUG9SODZOY2RCLWRlQlR4Ny13LVpnNllLdURzVHBGblF1UVhaU0xRc2w1SXhJMHZ4VTc3VU82eUJSRmhabUNHYlBidlY1cDlwcnFVOGZlUGREQnNNNlBxWkxkcUNuSExEVEtwNnBYaXItc08zVEo2cnpLb0ZfNWhDSl9wdmFvRV8xS2hDQQ?oc=5",
           "source": "simplywall.st",
           "date": "2026-07-15T06:42:29.000Z"
+        },
+        {
+          "title": "300 jobs lost as Canfor closes pulp mill outside Prince George, B.C.",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTGV6dGIyOHNZOUlDU0ZTOHdsbjlXOFhzZzhWS2VRbHdoWEdZLWNSLWlyMDlRb0d2X1ItWktxWHdzZGx0VTFHZjh6ZTd2aGhVVkYxeHh5MnEtRWVHLV9lQk96QU5nZFZ5X2E4TFFZRW5BdTEwSnc3NnMtWkRScVV0eUlrMFBJZ3lYbXY4NGl5VXljMXg4SHVkWlR5NzZCUDQ?oc=5",
+          "source": "Fraser Valley Today",
+          "date": "2026-07-15T06:18:36.000Z"
         },
         {
           "title": "Canfor announces Northwood Pulp Mill closure; COFI and forestry minister respond",
@@ -2602,12 +2620,6 @@ window.LUMBER_DATA = {
           "date": "2026-07-15T03:08:39.000Z"
         },
         {
-          "title": "Approximately 300 B.C. jobs to be lost as Canfor announces closure of pulp mill in Prince George",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRjNLdGpsaFJ6MmNFNy1qN044OEJyQ1g0VDY5d0JUR2wxa015MjdxWVBsbURjTE1GQUJINU05MWtMUUg0aW9vVFVuRUFvdGJGSDhNLUItYW5ZTTBoWXcyY1pweU1Ncks4SHdQQVI1VlNya2ZxZTI0SzBxbHliQ3FScEk0WDBmdll5YTdZZHUzTnhVeTF2cjBIX2l1NFU4WDJXYlUySzlEeWtVQ1h2Q09EOHZKaFpFNGh0MnpYSkNvNF9fYTNQM0owQUprb2hMTC1KcG52NW9zdDR1b2c?oc=5",
-          "source": "BNN Bloomberg",
-          "date": "2026-07-15T02:00:00.000Z"
-        },
-        {
           "title": "300 jobs lost as Canfor closes Prince George pulp mill",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONUVnNXhxUGF1aWQ4b2cycEVMSC16d3NlSVF5bC1lUkNkUkI5V1lkY2paVGtKcms0eFdQeFpuMjJUWG9Nd1BfbVkxUm9yMDhoMlhmR2NGOW5vTE44c3hMdGFDblBsVU5TZzBUQnBRd3VORXM0eVFqMFRSOWxsVVItQm1sa1E2dXB2SU56aDVFbTlTTWZOV2pfM2dkX3NGNkZVX0xWVA?oc=5",
           "source": "Castanet Kamloops",
@@ -2618,12 +2630,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVktIbEhJNWZqNVVYQkRUSDNDYnAwQ2FYV3RCNExsYzBjN0hRTmtkRWJfbG1aUnNac2g1dTg4aTI1WDRkdXllazByRGdBVFZrTkZzQWJReC1PSE5Oc2l6MEE0TS1qOUpIZ2lJWkVwQ2IwaVhMSG9QcDNrd3gtM3ZTVDdEemZmaGJlWWR1U3ozdlhlazVDaEc0bHJCY1BQMEdiMHhCOUhvbVlMUFJmSXFabWZyX3lGWjl4?oc=5",
           "source": "The Lethbridge Herald",
           "date": "2026-07-15T00:20:57.000Z"
-        },
-        {
-          "title": "300 jobs lost as Canfor closes pulp mill outside Prince George, B.C.",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWk1ManYwaV85UkRuQjAzSjVTNmQxUU9CYjRteGlVeHlHVEpOd3VyeGdOWHYtejdZM2t6ZVBsT2Vhcy1aejRvSm9mdzRGMVRraGJaQi1ubm44YVBya3NkNTNDeExHemtDVmhfRE9UVzhJeXozODJiZktpSnFGa3piUEEySFRHbnpNTy1mWVRvVE1UUWxoanFaLWw1T3h2ZXpCbFpUTEhuZHZjVEhoZm1NelJUc1RIWlFIRGkyYlJBX1FvNE9JREY1OHRZQ3VsM0hRTGdUd2Vtb2hnaWhpZDRMRVBhWDljTm1TUnE1VFl4SEE?oc=5",
-          "source": "Toronto Star",
-          "date": "2026-07-15T00:15:05.000Z"
         },
         {
           "title": "Canfor closing Northwood Pulp Mill",
@@ -2645,12 +2651,12 @@ window.LUMBER_DATA = {
         },
         {
           "title": "Canfor announces closure of Northwood Pulp Mill",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVkIwQ3RuaG54SkFYc044QW9YZlltS0ZmemN3c25BSUU2Y0k3TFI2Nk0ySXB3UnMtT0s0QkZiRFd4RUZORGRRMmRNREVKeFM4Y2RtVk1DX2o1WVhwenhLa3BXUkU0dThPY0FpWnV0WUh3cjdndXlrMGMweUV5LUMzVDQ0TlNTODdWaGVMa1M1LVFvTXJ0SkVRcWJNNll3VUVCam1JRTFBUUVkZnZKOF85WkRBUTZ1ZkNrQTQ4?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR2dfN08xVHo2bU5FNXRURG9wMVVnVnNBcHRnU1RHNzJ6cXlfU3FUbnktdjctSldsbTllVk5jUjRvU1hJcU5sRXNCazFpQTY4X1FOVGVJbko3M3hTWUtiRWo1M3Jjc0xfczJQZjRUenV2dktCYk5qdTRneDRZWG0zLTV5elNNMHJsSzY5UnpZM1NiSEx6c1l4TEw3R2tMNk5uTzdSNUhickp5aEtDN2h4TmcwRWZzazh4dThZ?oc=5",
           "source": "GlobeNewswire",
           "date": "2026-07-14T23:15:00.000Z"
         },
         {
-          "title": "Price to earnings forward of Interfor Corporation – MUN:8IF1",
+          "title": "Price to earnings forward of Interfor Corporation \u2013 MUN:8IF1",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMkJreU1Ld3hNMGdyUFRhQXRfb0c4ZVVNNHFnMmI1cVFuZFR0N3p5LWNCMi1VZC1rNkFHSHV2OTBXM3ZmTUVWTEstN0RPenNBZEg3dWZoQnFMZmozLWJSeHRtal9BWW04dG5oaC1xSEluRzNHWXBEZGRiOTNseDdlNzJsLVZSc2F3Y3BjUUpSVUtlanVsT3FCOWJaOWNWdw?oc=5",
           "source": "TradingView",
           "date": "2026-07-14T22:48:58.000Z"
@@ -2672,30 +2678,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmZoZTRHOUxDdDJWRC1vNldfbXhOekhSaW9EYS0xZkJIbzNQSk9Wa05NYXFMcXRNek9QNmlLazdVOC1vMGxueFRtYzZJaFlHMFNWSnduOWZROEdrQU9FeGsxY2hZLXpyd1J5UVdxSGpjYlFuVEpjanBjOVlUU0dmT2ZRSlNXemEy?oc=5",
           "source": "Yahoo Finance Singapore",
           "date": "2026-07-13T22:00:04.000Z"
-        },
-        {
-          "title": "How New Interest-Rate Spotlight and Kopernik Stake At Weyerhaeuser (WY) Has Changed Its Investment Story",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeklHS1NnQlR0eHFSNHl2R0NtTmdMbncwNXgtMzZPOWZKeEppMEgyUjBRVk5HWFRidUVkWEFlZFF2c05OMzV1VU9RUjUwV0dxaU5MVDlseXFVb0hUOFZqSG9wQzlXM1ZpMFNMaXJjRFpOZmlybkNPOFlxNUY3a1lXMjJxWlVkMWFldHdKblk3dkxaeXJYRng0SS16aVdHbUNfS0NHR3ZuNVVzNTVPcWpZbEdsYTBlQ0EzM0VxUFlTMzVlelFjR2YwandB0gHPAUFVX3lxTE9rUjZtdFk5YzlqUTZmZ19MamgwbHNKTDEyMGVzRHVGSGFDeG5hdzcwVFVBcHRRWk9ZQXIxd1BFUzc4dUJmY29RQlJndnprN291OGxCa3FzYldMU2Q2aXhTNmxFTmxlUDNSVTdxMGVrbE5MZHExam83ZmFsMnFfdWl3TG01ZkVxSkE1eUlxcW1zS2NrSGlDN1B2Ml9VWHlMb0hlbldjOUdJYk9jRVB3VW1lQjlySWc2WlRSQVQzU0RORU44UFNpUGNNR0hDQkZFcw?oc=5",
-          "source": "simplywall.st",
-          "date": "2026-07-13T20:03:45.000Z"
-        },
-        {
-          "title": "Jim Cramer Expresses Strong Bullish Stance on Weyerhaeuser Amid Market Skepticism - Earnings Growth Analysis",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMnBMVDFjNU1zSk5FZWd2TE9BNHVmNWlaS19iS1E0SXJvdTgwcGFLeldiV1VWUlJ4RXVkekQ0STNzR3dNNFJ0MlkxanZLbEwzMjlYVTd0RVB0WFl3eldVdFBuWHJESVo3UkJNYUpSU1laWk9abjRNYU8tdVJFQXNwcnlGTmM2Q24yRkNEZVNkVE1xdDYwa1JYQk1BdVBRZGdOS2k2bnpfUk9KU0dhTS1jakZTLV95U1pqZFNvbll5VQ?oc=5",
-          "source": "dars.gov.et",
-          "date": "2026-07-13T15:53:43.000Z"
-        },
-        {
-          "title": "Why Interfor Stock Is Back In Focus After Updated Market Expectations?",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbF9YVXg2Yjk5b1lJWEppYUtsdHd1aFpwNG5fMlNaS1FSNlRTbnZwNFRQMnRFcXVqZFpsT3RySzgxQTBBRE12NldrSUZMX19jZ2pxd1V5WE1TTnJBM2JnMENrLXZKWmpDWW9vMnhsQ09GenRobVZFd25qYXl6WTl1bXpWNEp4ZkE2eU1RWFVqYWJkcWp5eHRvWVNVRE5GblFDbzNXRU5MUGJlMjlKdENibzdZSXo?oc=5",
-          "source": "Kalkine Media",
-          "date": "2026-07-13T14:26:00.000Z"
-        },
-        {
-          "title": "Minister’s statement about the closure of Canfor’s Northwood Pulp Mill",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1eFJfdUhHWlZlLXpreHlhdjJaSmwya2NuT2MzWkpsR2xjMDBNVXNxY0RISEdkNlRqOVR6MHBUU3ZrV3NhNHdVbnZRXzRoSUJNWWRpc3VEc043d255Nkxj?oc=5",
-          "source": "BC Gov News",
-          "date": "2026-07-13T07:00:00.000Z"
         }
       ]
     },
@@ -8825,8 +8807,8 @@ window.LUMBER_DATA = {
           84863
         ],
         "expected2026": 86750,
-        "guidance": "86,000–87,500",
-        "guidanceAsOf": "Q2 FY26 · Apr 2026"
+        "guidance": "86,000\u201387,500",
+        "guidanceAsOf": "Q2 FY26 \u00b7 Apr 2026"
       },
       {
         "name": "Lennar",
@@ -8843,8 +8825,8 @@ window.LUMBER_DATA = {
           82583
         ],
         "expected2026": 85000,
-        "guidance": "≈ 85,000",
-        "guidanceAsOf": "FY25 report · Dec 2025"
+        "guidance": "\u2248 85,000",
+        "guidanceAsOf": "FY25 report \u00b7 Dec 2025"
       },
       {
         "name": "PulteGroup",
@@ -8861,8 +8843,8 @@ window.LUMBER_DATA = {
           29572
         ],
         "expected2026": 28750,
-        "guidance": "28,500–29,000",
-        "guidanceAsOf": "Q4 FY25 call · Jan 2026"
+        "guidance": "28,500\u201329,000",
+        "guidanceAsOf": "Q4 FY25 call \u00b7 Jan 2026"
       },
       {
         "name": "NVR",
@@ -8898,7 +8880,7 @@ window.LUMBER_DATA = {
         ],
         "expected2026": 15026,
         "guidance": "within ~5% of 2025",
-        "guidanceAsOf": "Q1 FY26 · Apr 2026"
+        "guidanceAsOf": "Q1 FY26 \u00b7 Apr 2026"
       },
       {
         "name": "Taylor Morrison",
@@ -8915,8 +8897,8 @@ window.LUMBER_DATA = {
           12997
         ],
         "expected2026": 11000,
-        "guidance": "≈ 11,000",
-        "guidanceAsOf": "Q1 FY26 · Apr 2026"
+        "guidance": "\u2248 11,000",
+        "guidanceAsOf": "Q1 FY26 \u00b7 Apr 2026"
       },
       {
         "name": "KB Home",
@@ -8933,8 +8915,8 @@ window.LUMBER_DATA = {
           12902
         ],
         "expected2026": 10750,
-        "guidance": "10,500–11,000",
-        "guidanceAsOf": "Q2 FY26 · Jun 2026"
+        "guidance": "10,500\u201311,000",
+        "guidanceAsOf": "Q2 FY26 \u00b7 Jun 2026"
       },
       {
         "name": "Toll Brothers",
@@ -8951,8 +8933,8 @@ window.LUMBER_DATA = {
           11292
         ],
         "expected2026": 10550,
-        "guidance": "10,400–10,700",
-        "guidanceAsOf": "Q2 FY26 · May 2026"
+        "guidance": "10,400\u201310,700",
+        "guidanceAsOf": "Q2 FY26 \u00b7 May 2026"
       },
       {
         "name": "M/I Homes",
@@ -8994,8 +8976,8 @@ window.LUMBER_DATA = {
   },
   "stumpage": {
     "asOf": "2026-07",
-    "unit": "C$/m³",
-    "note": "Current softwood-sawlog stumpage/dues, one figure per region as each province publishes it. Systems differ (BC appraisal · AB formula dues · ON residual value · QC auction), so this is indicative rather than like-for-like.",
+    "unit": "C$/m\u00b3",
+    "note": "Current softwood-sawlog stumpage/dues, one figure per region as each province publishes it. Systems differ (BC appraisal \u00b7 AB formula dues \u00b7 ON residual value \u00b7 QC auction), so this is indicative rather than like-for-like.",
     "regions": [
       {
         "region": "Alberta",
@@ -9003,9 +8985,9 @@ window.LUMBER_DATA = {
         "detail": "timber dues, general operator (Jul 2026)"
       },
       {
-        "region": "Québec",
+        "region": "Qu\u00e9bec",
         "rate": 7.4,
-        "detail": "illustrative recent auction — no published avg"
+        "detail": "illustrative recent auction \u2014 no published avg"
       },
       {
         "region": "BC Interior",
@@ -9035,12 +9017,12 @@ window.LUMBER_DATA = {
       "QC": 10
     },
     "sources": [
-      "BC Data Catalogue — Major Timber Processing Facilities (WFS, live)",
-      "Company disclosures — major producers’ mills outside BC (curated)"
+      "BC Data Catalogue \u2014 Major Timber Processing Facilities (WFS, live)",
+      "Company disclosures \u2014 major producers\u2019 mills outside BC (curated)"
     ],
     "features": [
       {
-        "name": "Canadian Forest Products — Prince George",
+        "name": "Canadian Forest Products \u2014 Prince George",
         "company": "Canadian Forest Products",
         "town": "Prince George",
         "province": "BC",
@@ -9051,7 +9033,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Continental Pole — Mount Currie",
+        "name": "Continental Pole \u2014 Mount Currie",
         "company": "Continental Pole",
         "town": "Mount Currie",
         "province": "BC",
@@ -9062,7 +9044,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Canfor and Pacific BioEnergy — Fort St. John",
+        "name": "Canfor and Pacific BioEnergy \u2014 Fort St. John",
         "company": "Canfor and Pacific BioEnergy",
         "town": "Fort St. John",
         "province": "BC",
@@ -9073,7 +9055,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Hampton Lumber Canada — Burns Lake",
+        "name": "Hampton Lumber Canada \u2014 Burns Lake",
         "company": "Hampton Lumber Canada",
         "town": "Burns Lake",
         "province": "BC",
@@ -9084,7 +9066,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Tolko — Armstrong",
+        "name": "Tolko \u2014 Armstrong",
         "company": "Tolko",
         "town": "Armstrong",
         "province": "BC",
@@ -9095,7 +9077,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Ledcor Group — Chilliwack",
+        "name": "Ledcor Group \u2014 Chilliwack",
         "company": "Ledcor Group",
         "town": "Chilliwack",
         "province": "BC",
@@ -9106,7 +9088,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "West Fraser — Quesnel",
+        "name": "West Fraser \u2014 Quesnel",
         "company": "West Fraser",
         "town": "Quesnel",
         "province": "BC",
@@ -9117,7 +9099,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Skeena Bioenergy — Terrace",
+        "name": "Skeena Bioenergy \u2014 Terrace",
         "company": "Skeena Bioenergy",
         "town": "Terrace",
         "province": "BC",
@@ -9128,7 +9110,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Haida Gwaii Forest Products Joint Venture — Port Clements",
+        "name": "Haida Gwaii Forest Products Joint Venture \u2014 Port Clements",
         "company": "Haida Gwaii Forest Products Joint Venture",
         "town": "Port Clements",
         "province": "BC",
@@ -9139,7 +9121,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Andersen Pacific Forest Products — Maple Ridge",
+        "name": "Andersen Pacific Forest Products \u2014 Maple Ridge",
         "company": "Andersen Pacific Forest Products",
         "town": "Maple Ridge",
         "province": "BC",
@@ -9150,7 +9132,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "A. J. Forest Products — Brackendale",
+        "name": "A. J. Forest Products \u2014 Brackendale",
         "company": "A. J. Forest Products",
         "town": "Brackendale",
         "province": "BC",
@@ -9161,7 +9143,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Gorman Bros. Lumber — West Kelowna",
+        "name": "Gorman Bros. Lumber \u2014 West Kelowna",
         "company": "Gorman Bros. Lumber",
         "town": "West Kelowna",
         "province": "BC",
@@ -9172,7 +9154,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Tolko — Coldstream",
+        "name": "Tolko \u2014 Coldstream",
         "company": "Tolko",
         "town": "Coldstream",
         "province": "BC",
@@ -9183,7 +9165,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Shannon Lumber — Chilliwack",
+        "name": "Shannon Lumber \u2014 Chilliwack",
         "company": "Shannon Lumber",
         "town": "Chilliwack",
         "province": "BC",
@@ -9194,7 +9176,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Suncoast — Sechelt",
+        "name": "Suncoast \u2014 Sechelt",
         "company": "Suncoast",
         "town": "Sechelt",
         "province": "BC",
@@ -9205,7 +9187,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Weyerhaeuser Company — Princeton",
+        "name": "Weyerhaeuser Company \u2014 Princeton",
         "company": "Weyerhaeuser Company",
         "town": "Princeton",
         "province": "BC",
@@ -9216,7 +9198,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Interfor — Grand Forks",
+        "name": "Interfor \u2014 Grand Forks",
         "company": "Interfor",
         "town": "Grand Forks",
         "province": "BC",
@@ -9227,7 +9209,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Gibbs Custom Sawmill — McBride",
+        "name": "Gibbs Custom Sawmill \u2014 McBride",
         "company": "Gibbs Custom Sawmill",
         "town": "McBride",
         "province": "BC",
@@ -9238,7 +9220,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Gorman Brothers (Downie Timber) — Revelstoke",
+        "name": "Gorman Brothers (Downie Timber) \u2014 Revelstoke",
         "company": "Gorman Brothers (Downie Timber)",
         "town": "Revelstoke",
         "province": "BC",
@@ -9249,7 +9231,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Joe Kozek Sawmills — Revelstoke",
+        "name": "Joe Kozek Sawmills \u2014 Revelstoke",
         "company": "Joe Kozek Sawmills",
         "town": "Revelstoke",
         "province": "BC",
@@ -9260,7 +9242,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Kalesnikoff Lumber Co. — Castlegar",
+        "name": "Kalesnikoff Lumber Co. \u2014 Castlegar",
         "company": "Kalesnikoff Lumber Co.",
         "town": "Castlegar",
         "province": "BC",
@@ -9271,7 +9253,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Interfor — Castlegar",
+        "name": "Interfor \u2014 Castlegar",
         "company": "Interfor",
         "town": "Castlegar",
         "province": "BC",
@@ -9282,7 +9264,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Gilbert Smith Forest Product — Barriere",
+        "name": "Gilbert Smith Forest Product \u2014 Barriere",
         "company": "Gilbert Smith Forest Product",
         "town": "Barriere",
         "province": "BC",
@@ -9293,7 +9275,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Interfor — Chase",
+        "name": "Interfor \u2014 Chase",
         "company": "Interfor",
         "town": "Chase",
         "province": "BC",
@@ -9304,7 +9286,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Canadian Forest Products — Elko",
+        "name": "Canadian Forest Products \u2014 Elko",
         "company": "Canadian Forest Products",
         "town": "Elko",
         "province": "BC",
@@ -9315,7 +9297,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "J. H. Huscroft — Creston",
+        "name": "J. H. Huscroft \u2014 Creston",
         "company": "J. H. Huscroft",
         "town": "Creston",
         "province": "BC",
@@ -9326,7 +9308,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Canadian Forest Products — Radium Hot Springs",
+        "name": "Canadian Forest Products \u2014 Radium Hot Springs",
         "company": "Canadian Forest Products",
         "town": "Radium Hot Springs",
         "province": "BC",
@@ -9337,7 +9319,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Canadian Forest Products — Wynndel",
+        "name": "Canadian Forest Products \u2014 Wynndel",
         "company": "Canadian Forest Products",
         "town": "Wynndel",
         "province": "BC",
@@ -9348,7 +9330,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "West Fraser — 100 Mile House",
+        "name": "West Fraser \u2014 100 Mile House",
         "company": "West Fraser",
         "town": "100 Mile House",
         "province": "BC",
@@ -9359,7 +9341,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Thomson Bros. Lumber Co. — Courtenay",
+        "name": "Thomson Bros. Lumber Co. \u2014 Courtenay",
         "company": "Thomson Bros. Lumber Co.",
         "town": "Courtenay",
         "province": "BC",
@@ -9370,7 +9352,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Teal-Jones Group (J.S. Jones) — Surrey",
+        "name": "Teal-Jones Group (J.S. Jones) \u2014 Surrey",
         "company": "Teal-Jones Group (J.S. Jones)",
         "town": "Surrey",
         "province": "BC",
@@ -9381,7 +9363,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Tolko — Williams Lake",
+        "name": "Tolko \u2014 Williams Lake",
         "company": "Tolko",
         "town": "Williams Lake",
         "province": "BC",
@@ -9392,7 +9374,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Tolko — Williams Lake",
+        "name": "Tolko \u2014 Williams Lake",
         "company": "Tolko",
         "town": "Williams Lake",
         "province": "BC",
@@ -9403,7 +9385,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "West Fraser — Williams Lake",
+        "name": "West Fraser \u2014 Williams Lake",
         "company": "West Fraser",
         "town": "Williams Lake",
         "province": "BC",
@@ -9414,7 +9396,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Canadian Forest Products — Chetwynd",
+        "name": "Canadian Forest Products \u2014 Chetwynd",
         "company": "Canadian Forest Products",
         "town": "Chetwynd",
         "province": "BC",
@@ -9425,7 +9407,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Conifex Timber — Mackenzie",
+        "name": "Conifex Timber \u2014 Mackenzie",
         "company": "Conifex Timber",
         "town": "Mackenzie",
         "province": "BC",
@@ -9436,7 +9418,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Hampton Lumber (Fort St. James Forest Products) — Fort St. James",
+        "name": "Hampton Lumber (Fort St. James Forest Products) \u2014 Fort St. James",
         "company": "Hampton Lumber (Fort St. James Forest Products)",
         "town": "Fort St. James",
         "province": "BC",
@@ -9447,7 +9429,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Sinclar Group (Apollo Forest Products) — Fort St. James",
+        "name": "Sinclar Group (Apollo Forest Products) \u2014 Fort St. James",
         "company": "Sinclar Group (Apollo Forest Products)",
         "town": "Fort St. James",
         "province": "BC",
@@ -9458,7 +9440,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Canadian Forest Products — Vanderhoof",
+        "name": "Canadian Forest Products \u2014 Vanderhoof",
         "company": "Canadian Forest Products",
         "town": "Vanderhoof",
         "province": "BC",
@@ -9469,7 +9451,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Nechako Lumber Co. — Vanderhoof",
+        "name": "Nechako Lumber Co. \u2014 Vanderhoof",
         "company": "Nechako Lumber Co.",
         "town": "Vanderhoof",
         "province": "BC",
@@ -9480,7 +9462,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Sinclar Group (Lakeland) — Prince George",
+        "name": "Sinclar Group (Lakeland) \u2014 Prince George",
         "company": "Sinclar Group (Lakeland)",
         "town": "Prince George",
         "province": "BC",
@@ -9491,7 +9473,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Carrier Lumber — Prince George",
+        "name": "Carrier Lumber \u2014 Prince George",
         "company": "Carrier Lumber",
         "town": "Prince George",
         "province": "BC",
@@ -9502,7 +9484,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Dunkley Lumber — Hixon",
+        "name": "Dunkley Lumber \u2014 Hixon",
         "company": "Dunkley Lumber",
         "town": "Hixon",
         "province": "BC",
@@ -9513,7 +9495,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Canadian Forest Products — Bear Lake",
+        "name": "Canadian Forest Products \u2014 Bear Lake",
         "company": "Canadian Forest Products",
         "town": "Bear Lake",
         "province": "BC",
@@ -9524,7 +9506,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Valemount Industrial Park — Valemount",
+        "name": "Valemount Industrial Park \u2014 Valemount",
         "company": "Valemount Industrial Park",
         "town": "Valemount",
         "province": "BC",
@@ -9535,7 +9517,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Kitwanga Forest Products — Kitwanga",
+        "name": "Kitwanga Forest Products \u2014 Kitwanga",
         "company": "Kitwanga Forest Products",
         "town": "Kitwanga",
         "province": "BC",
@@ -9546,7 +9528,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "West Fraser — Smithers",
+        "name": "West Fraser \u2014 Smithers",
         "company": "West Fraser",
         "town": "Smithers",
         "province": "BC",
@@ -9557,7 +9539,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Canadian Forest Products — Houston",
+        "name": "Canadian Forest Products \u2014 Houston",
         "company": "Canadian Forest Products",
         "town": "Houston",
         "province": "BC",
@@ -9568,7 +9550,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "McDonald Ranch & Lumber — Grasmere",
+        "name": "McDonald Ranch & Lumber \u2014 Grasmere",
         "company": "McDonald Ranch & Lumber",
         "town": "Grasmere",
         "province": "BC",
@@ -9579,7 +9561,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "North Star Hardware and Building Supplies — Invermere",
+        "name": "North Star Hardware and Building Supplies \u2014 Invermere",
         "company": "North Star Hardware and Building Supplies",
         "town": "Invermere",
         "province": "BC",
@@ -9590,7 +9572,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Babine Forest Products (Hampton Lumber) — Burns Lake",
+        "name": "Babine Forest Products (Hampton Lumber) \u2014 Burns Lake",
         "company": "Babine Forest Products (Hampton Lumber)",
         "town": "Burns Lake",
         "province": "BC",
@@ -9601,7 +9583,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Rouck Brothers Sawmill — Lumby",
+        "name": "Rouck Brothers Sawmill \u2014 Lumby",
         "company": "Rouck Brothers Sawmill",
         "town": "Lumby",
         "province": "BC",
@@ -9612,7 +9594,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Acorn Forest Products — Delta",
+        "name": "Acorn Forest Products \u2014 Delta",
         "company": "Acorn Forest Products",
         "town": "Delta",
         "province": "BC",
@@ -9623,7 +9605,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Western Forest Products — Cowichan Bay",
+        "name": "Western Forest Products \u2014 Cowichan Bay",
         "company": "Western Forest Products",
         "town": "Cowichan Bay",
         "province": "BC",
@@ -9634,7 +9616,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Delta Cedar Sawmill — Delta",
+        "name": "Delta Cedar Sawmill \u2014 Delta",
         "company": "Delta Cedar Sawmill",
         "town": "Delta",
         "province": "BC",
@@ -9645,7 +9627,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Riverside Forest Products — Surrey",
+        "name": "Riverside Forest Products \u2014 Surrey",
         "company": "Riverside Forest Products",
         "town": "Surrey",
         "province": "BC",
@@ -9656,7 +9638,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Western Forest Products — Ladysmith",
+        "name": "Western Forest Products \u2014 Ladysmith",
         "company": "Western Forest Products",
         "town": "Ladysmith",
         "province": "BC",
@@ -9667,7 +9649,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Coulson Manufacturing — Port Alberni",
+        "name": "Coulson Manufacturing \u2014 Port Alberni",
         "company": "Coulson Manufacturing",
         "town": "Port Alberni",
         "province": "BC",
@@ -9678,7 +9660,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Western Forest Products — Chemainus",
+        "name": "Western Forest Products \u2014 Chemainus",
         "company": "Western Forest Products",
         "town": "Chemainus",
         "province": "BC",
@@ -9689,7 +9671,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Terminal Forest Products — Vancouver",
+        "name": "Terminal Forest Products \u2014 Vancouver",
         "company": "Terminal Forest Products",
         "town": "Vancouver",
         "province": "BC",
@@ -9700,7 +9682,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Western Forest Products — Ladysmith",
+        "name": "Western Forest Products \u2014 Ladysmith",
         "company": "Western Forest Products",
         "town": "Ladysmith",
         "province": "BC",
@@ -9711,7 +9693,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "S & R Sawmills — Surrey",
+        "name": "S & R Sawmills \u2014 Surrey",
         "company": "S & R Sawmills",
         "town": "Surrey",
         "province": "BC",
@@ -9722,7 +9704,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Schapol Logging — Enderby",
+        "name": "Schapol Logging \u2014 Enderby",
         "company": "Schapol Logging",
         "town": "Enderby",
         "province": "BC",
@@ -9733,7 +9715,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Aspen Planers — Merritt",
+        "name": "Aspen Planers \u2014 Merritt",
         "company": "Aspen Planers",
         "town": "Merritt",
         "province": "BC",
@@ -9744,7 +9726,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Jemico Enterprises — Chemainus",
+        "name": "Jemico Enterprises \u2014 Chemainus",
         "company": "Jemico Enterprises",
         "town": "Chemainus",
         "province": "BC",
@@ -9755,7 +9737,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "West Fraser — Fraser Lake",
+        "name": "West Fraser \u2014 Fraser Lake",
         "company": "West Fraser",
         "town": "Fraser Lake",
         "province": "BC",
@@ -9766,7 +9748,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Goldwood — Richmond",
+        "name": "Goldwood \u2014 Richmond",
         "company": "Goldwood",
         "town": "Richmond",
         "province": "BC",
@@ -9777,7 +9759,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Teal-Jones Group (Stag Timber) — Surrey",
+        "name": "Teal-Jones Group (Stag Timber) \u2014 Surrey",
         "company": "Teal-Jones Group (Stag Timber)",
         "town": "Surrey",
         "province": "BC",
@@ -9788,7 +9770,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Terminal Forest Products — Richmond",
+        "name": "Terminal Forest Products \u2014 Richmond",
         "company": "Terminal Forest Products",
         "town": "Richmond",
         "province": "BC",
@@ -9799,7 +9781,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Western Forest Products — Nanaimo",
+        "name": "Western Forest Products \u2014 Nanaimo",
         "company": "Western Forest Products",
         "town": "Nanaimo",
         "province": "BC",
@@ -9810,7 +9792,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "West Fraser — Chetwynd",
+        "name": "West Fraser \u2014 Chetwynd",
         "company": "West Fraser",
         "town": "Chetwynd",
         "province": "BC",
@@ -9821,7 +9803,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Green D Forest Products — Merville",
+        "name": "Green D Forest Products \u2014 Merville",
         "company": "Green D Forest Products",
         "town": "Merville",
         "province": "BC",
@@ -9832,7 +9814,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Forever Wood — Quathiaski Cove",
+        "name": "Forever Wood \u2014 Quathiaski Cove",
         "company": "Forever Wood",
         "town": "Quathiaski Cove",
         "province": "BC",
@@ -9843,7 +9825,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "North Enderby Timber — Enderby",
+        "name": "North Enderby Timber \u2014 Enderby",
         "company": "North Enderby Timber",
         "town": "Enderby",
         "province": "BC",
@@ -9854,7 +9836,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Porcupine Wood Products — Salmo",
+        "name": "Porcupine Wood Products \u2014 Salmo",
         "company": "Porcupine Wood Products",
         "town": "Salmo",
         "province": "BC",
@@ -9865,7 +9847,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Bear Lumber — Cranbrook",
+        "name": "Bear Lumber \u2014 Cranbrook",
         "company": "Bear Lumber",
         "town": "Cranbrook",
         "province": "BC",
@@ -9876,7 +9858,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "SpikeTop Cedar — Port Hardy",
+        "name": "SpikeTop Cedar \u2014 Port Hardy",
         "company": "SpikeTop Cedar",
         "town": "Port Hardy",
         "province": "BC",
@@ -9887,7 +9869,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Port Hardy Merchandising — Port Hardy",
+        "name": "Port Hardy Merchandising \u2014 Port Hardy",
         "company": "Port Hardy Merchandising",
         "town": "Port Hardy",
         "province": "BC",
@@ -9898,7 +9880,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Long Hoh Enterprises Canada — Qualicum Beach",
+        "name": "Long Hoh Enterprises Canada \u2014 Qualicum Beach",
         "company": "Long Hoh Enterprises Canada",
         "town": "Qualicum Beach",
         "province": "BC",
@@ -9909,7 +9891,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Franklin Forest Products — Port Alberni",
+        "name": "Franklin Forest Products \u2014 Port Alberni",
         "company": "Franklin Forest Products",
         "town": "Port Alberni",
         "province": "BC",
@@ -9920,7 +9902,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Edgegrain — Black Creek",
+        "name": "Edgegrain \u2014 Black Creek",
         "company": "Edgegrain",
         "town": "Black Creek",
         "province": "BC",
@@ -9931,7 +9913,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Sigurdson Forest Products — Williams Lake",
+        "name": "Sigurdson Forest Products \u2014 Williams Lake",
         "company": "Sigurdson Forest Products",
         "town": "Williams Lake",
         "province": "BC",
@@ -9942,7 +9924,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Rain Forest Sawmill — Black Creek",
+        "name": "Rain Forest Sawmill \u2014 Black Creek",
         "company": "Rain Forest Sawmill",
         "town": "Black Creek",
         "province": "BC",
@@ -9953,7 +9935,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Saratoga Speedway — Black Creek",
+        "name": "Saratoga Speedway \u2014 Black Creek",
         "company": "Saratoga Speedway",
         "town": "Black Creek",
         "province": "BC",
@@ -9964,7 +9946,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Pacific Timber — Burns Lake",
+        "name": "Pacific Timber \u2014 Burns Lake",
         "company": "Pacific Timber",
         "town": "Burns Lake",
         "province": "BC",
@@ -9975,7 +9957,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Gold Island Forest Products — Slocan",
+        "name": "Gold Island Forest Products \u2014 Slocan",
         "company": "Gold Island Forest Products",
         "town": "Slocan",
         "province": "BC",
@@ -9986,7 +9968,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Woodco — Barriere",
+        "name": "Woodco \u2014 Barriere",
         "company": "Woodco",
         "town": "Barriere",
         "province": "BC",
@@ -9997,7 +9979,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Deacoff Bros. Enterprises — Kelowna",
+        "name": "Deacoff Bros. Enterprises \u2014 Kelowna",
         "company": "Deacoff Bros. Enterprises",
         "town": "Kelowna",
         "province": "BC",
@@ -10008,7 +9990,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Hyde Sawmill — Malakwa",
+        "name": "Hyde Sawmill \u2014 Malakwa",
         "company": "Hyde Sawmill",
         "town": "Malakwa",
         "province": "BC",
@@ -10019,7 +10001,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Fu So Enterprises — Surrey",
+        "name": "Fu So Enterprises \u2014 Surrey",
         "company": "Fu So Enterprises",
         "town": "Surrey",
         "province": "BC",
@@ -10030,7 +10012,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Halo Sawmill Manufacturing — Pitt Meadows",
+        "name": "Halo Sawmill Manufacturing \u2014 Pitt Meadows",
         "company": "Halo Sawmill Manufacturing",
         "town": "Pitt Meadows",
         "province": "BC",
@@ -10041,7 +10023,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Harrop Procter Forest Products — Harrop",
+        "name": "Harrop Procter Forest Products \u2014 Harrop",
         "company": "Harrop Procter Forest Products",
         "town": "Harrop",
         "province": "BC",
@@ -10052,7 +10034,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Pacific Timber — Burns Lake",
+        "name": "Pacific Timber \u2014 Burns Lake",
         "company": "Pacific Timber",
         "town": "Burns Lake",
         "province": "BC",
@@ -10063,7 +10045,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Greenslide Cattle Co. — Revelstoke",
+        "name": "Greenslide Cattle Co. \u2014 Revelstoke",
         "company": "Greenslide Cattle Co.",
         "town": "Revelstoke",
         "province": "BC",
@@ -10074,7 +10056,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Take to Heart Specialty Wood Products — Revelstoke",
+        "name": "Take to Heart Specialty Wood Products \u2014 Revelstoke",
         "company": "Take to Heart Specialty Wood Products",
         "town": "Revelstoke",
         "province": "BC",
@@ -10085,7 +10067,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "E Schuk contracting — Tatla Lake",
+        "name": "E Schuk contracting \u2014 Tatla Lake",
         "company": "E Schuk contracting",
         "town": "Tatla Lake",
         "province": "BC",
@@ -10096,7 +10078,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Ludwig Lumber — Black Creek",
+        "name": "Ludwig Lumber \u2014 Black Creek",
         "company": "Ludwig Lumber",
         "town": "Black Creek",
         "province": "BC",
@@ -10107,7 +10089,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Eaglecrest Enterprises — Port Clements",
+        "name": "Eaglecrest Enterprises \u2014 Port Clements",
         "company": "Eaglecrest Enterprises",
         "town": "Port Clements",
         "province": "BC",
@@ -10118,7 +10100,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Timberspan Wood Products. — Prince George",
+        "name": "Timberspan Wood Products. \u2014 Prince George",
         "company": "Timberspan Wood Products.",
         "town": "Prince George",
         "province": "BC",
@@ -10129,7 +10111,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Lower North Thompson Community Forest Society — Barriere",
+        "name": "Lower North Thompson Community Forest Society \u2014 Barriere",
         "company": "Lower North Thompson Community Forest Society",
         "town": "Barriere",
         "province": "BC",
@@ -10140,7 +10122,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Straight Edge Milling — Chilliwack",
+        "name": "Straight Edge Milling \u2014 Chilliwack",
         "company": "Straight Edge Milling",
         "town": "Chilliwack",
         "province": "BC",
@@ -10151,7 +10133,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "North Pacific Timber — Daajing Giids",
+        "name": "North Pacific Timber \u2014 Daajing Giids",
         "company": "North Pacific Timber",
         "town": "Daajing Giids",
         "province": "BC",
@@ -10162,7 +10144,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Pacheedaht Mill — Port Renfrew",
+        "name": "Pacheedaht Mill \u2014 Port Renfrew",
         "company": "Pacheedaht Mill",
         "town": "Port Renfrew",
         "province": "BC",
@@ -10173,7 +10155,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "L&Y Forest Products — Duncan",
+        "name": "L&Y Forest Products \u2014 Duncan",
         "company": "L&Y Forest Products",
         "town": "Duncan",
         "province": "BC",
@@ -10184,7 +10166,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Lake Drive Lumber — Terrace",
+        "name": "Lake Drive Lumber \u2014 Terrace",
         "company": "Lake Drive Lumber",
         "town": "Terrace",
         "province": "BC",
@@ -10195,7 +10177,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Canadian Timber Frames — Golden",
+        "name": "Canadian Timber Frames \u2014 Golden",
         "company": "Canadian Timber Frames",
         "town": "Golden",
         "province": "BC",
@@ -10206,7 +10188,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Nickolaus Stockklauser — Burns Lake",
+        "name": "Nickolaus Stockklauser \u2014 Burns Lake",
         "company": "Nickolaus Stockklauser",
         "town": "Burns Lake",
         "province": "BC",
@@ -10217,7 +10199,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Moroski Mill Site — Burns Lake",
+        "name": "Moroski Mill Site \u2014 Burns Lake",
         "company": "Moroski Mill Site",
         "town": "Burns Lake",
         "province": "BC",
@@ -10228,7 +10210,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Black Sheep Timbers — Hagensborg",
+        "name": "Black Sheep Timbers \u2014 Hagensborg",
         "company": "Black Sheep Timbers",
         "town": "Hagensborg",
         "province": "BC",
@@ -10239,7 +10221,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "VI Timberworks — Courtenay",
+        "name": "VI Timberworks \u2014 Courtenay",
         "company": "VI Timberworks",
         "town": "Courtenay",
         "province": "BC",
@@ -10250,7 +10232,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Richard Thompson — Okanagan Falls",
+        "name": "Richard Thompson \u2014 Okanagan Falls",
         "company": "Richard Thompson",
         "town": "Okanagan Falls",
         "province": "BC",
@@ -10261,7 +10243,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Dave Kopas Sawmill — Hagensborg",
+        "name": "Dave Kopas Sawmill \u2014 Hagensborg",
         "company": "Dave Kopas Sawmill",
         "town": "Hagensborg",
         "province": "BC",
@@ -10272,7 +10254,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Powell River Forest Products — Powell River",
+        "name": "Powell River Forest Products \u2014 Powell River",
         "company": "Powell River Forest Products",
         "town": "Powell River",
         "province": "BC",
@@ -10283,7 +10265,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "Post & Purlin Forest Products — Powell River",
+        "name": "Post & Purlin Forest Products \u2014 Powell River",
         "company": "Post & Purlin Forest Products",
         "town": "Powell River",
         "province": "BC",
@@ -10294,7 +10276,7 @@ window.LUMBER_DATA = {
         "source": "BC Major Timber Processing Facilities"
       },
       {
-        "name": "BMHC Timber Milling Services — Port Mellon",
+        "name": "BMHC Timber Milling Services \u2014 Port Mellon",
         "company": "BMHC Timber Milling Services",
         "town": "Port Mellon",
         "province": "BC",
@@ -10670,8 +10652,8 @@ window.LUMBER_DATA = {
     ]
   },
   "fires": {
-    "asOf": "2026-07-15T18:10:13.768Z",
-    "source": "NASA FIRMS — VIIRS 375m (NOAA-20 + S-NPP), last 24h",
+    "asOf": "2026-07-15T18:14:55.157Z",
+    "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 24h",
     "dayRange": 1,
     "total": 8615,
     "count": 6000,
