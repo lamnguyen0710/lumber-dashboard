@@ -126,6 +126,21 @@ function carryForwardLive(ds) {
     console.log('[build-data] ⚠ region-exports scrape failed — carried forward last good data');
   }
 
+  // Housing (FRED, keyless but transiently flaky). If a live housing build drops
+  // out, the demand-side charts (months-supply, new-home sales, active listings)
+  // vanish entirely — they're live-only. Carry them + the core housing series
+  // forward from the last good build so the charts never disappear.
+  const pi = prev.industry || {}, di = ds.industry;
+  for (const k of ['newHomeSupply', 'newHomeSales', 'activeListings']) {
+    if (!di[k] && pi[k]) { di[k] = pi[k]; console.log(`[build-data] ⚠ ${k} missing — carried forward last good data`); }
+  }
+  if (!ds.meta.live.housing && prev.meta && prev.meta.live && prev.meta.live.housing) {
+    if (pi.housingStarts) di.housingStarts = pi.housingStarts;
+    if (pi.housingPermits) di.housingPermits = pi.housingPermits;
+    ds.meta.live.housing = true;
+    console.log('[build-data] ⚠ housing fetch failed — carried forward last good live housing');
+  }
+
   // Per-company: production & revenue parsed from EDGAR filings.
   for (const [id, co] of Object.entries(ds.companies || {})) {
     const pco = prev.companies && prev.companies[id];
