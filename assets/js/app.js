@@ -146,18 +146,19 @@
 
     // ---- sawmills ---------------------------------------------------------
     const millLayer = L.layerGroup();
-    // Radius scaled by annual capacity (√ so area ~ capacity); default for unknown.
-    const rFor = (c) => (c ? Math.max(4, Math.min(14, Math.sqrt(c) / 2.2)) : 4);
+    // Marker size by capacity tier (derived per source from native capacity).
+    const rTier = { lg: 8, md: 5.5, sm: 3.5, un: 4 };
     mills.forEach((m) => {
       const off = m.status !== 'operating';
       L.circleMarker([m.lat, m.lon], {
-        radius: rFor(m.capacityMMbf),
+        radius: rTier[m.sizeTier] || 4,
         color: off ? '#8a8f98' : '#1f9d61',
-        weight: 1, fillColor: off ? '#b9bec6' : '#37c884', fillOpacity: 0.7,
+        weight: 1, fillColor: off ? '#b9bec6' : '#37c884', fillOpacity: 0.72,
       }).bindPopup(
         `<b>${esc(m.company)}</b><br>${esc(m.town || '')}, ${esc(m.province)}` +
-        `${m.capacityMMbf ? `<br>${F.int(m.capacityMMbf)} MMbf/yr` : ''}` +
+        `${m.capacityLabel ? `<br>${esc(m.capacityLabel)}` : ''}` +
         `<br><span style="color:${off ? '#a00' : '#0a0'}">${esc(m.status)}</span>` +
+        `${m.coordAccuracy === 'town' ? '<br><small style="color:#888">approx. (town-level)</small>' : ''}` +
         `<br><small style="color:#888">${esc(m.source)}</small>`
       ).addTo(millLayer);
     });
@@ -184,7 +185,7 @@
     const note = document.getElementById('mapNote');
     if (note) {
       const millTxt = DATA.mills
-        ? `${mills.length} lumber sawmills (BC live from the province’s facilities dataset + major producers’ mills elsewhere, as of ${DATA.mills.asOf})`
+        ? `${mills.length} lumber sawmills — official provincial censuses for BC, Québec &amp; Ontario, major producers geocoded to town elsewhere (as of ${DATA.mills.asOf}); marker size ≈ mill capacity`
         : '';
       const fireTxt = DATA.fires
         ? `${DATA.fires.count.toLocaleString()} active-fire detections in the last 24h${DATA.fires.capped ? ` (strongest ${DATA.fires.count.toLocaleString()} of ${DATA.fires.total.toLocaleString()} shown)` : ''}, updated ${relTime(DATA.fires.asOf)}`
