@@ -2497,10 +2497,10 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-16T13:17:48.880Z",
+      "fetchedAt": "2026-07-16T13:39:39.017Z",
       "items": [
         {
-          "title": "'Hit really hard': Workers face uncertain future as Prince George mill winds down | CBC News",
+          "title": "Workers face uncertain future as Prince George, B.C., mill winds down",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdzZyLTZucGNVM3I2V2dtN200ZUtNRk9jQjYwbGJmMzU0eEJDNW8xX0ZtdmYzVmNJdFhQbllzNmxSSm5hMFNnVi1yaHhNUkw5NmN2TEZCckN3cGxWVWpxWU9oWUZxOW9mbkhWQlNSNzE1b0N1TnpOVllXakJzZXo1M1J5bUpQeENvNTRDdXdkYlRxVkV1LXBteWFNWl9pQQ?oc=5",
           "source": "CBC",
           "date": "2026-07-16T13:00:00.000Z"
@@ -2579,9 +2579,9 @@ window.LUMBER_DATA = {
         },
         {
           "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTEtoaEhNQks2MlVVczNZU1RLS0QyNG00MzJCa201ZmxGWjBnMUpNUHZxSU1fajBxRXBxOUNxbWhJdEJmMUVhZnlmWDJWXzVQajFDUkYxOFhzQzA4TEVWWktOR19zMWxYa0ZGWUlsNlhqdjdlT3dhU2JxaURFbkV1d2FRQWhLVjI1QVgtOTJRR0MxS1Z4OXBQZmdFa3VaOS1OaWxyTFlYWQ?oc=5",
-          "source": "Peace Arch News",
-          "date": "2026-07-15T20:16:12.000Z"
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTkRCSndrckt3TUNzVFFyUnhmZmRLa2xoaDZZOENsM2FtRmxrYk15NWVObTRPSG0zX0lJOVJhR0UwMTh1TlFuOGE3MUQ5dUM3X3dSWlMtWmJSZk45TlIxVHo5V2hzSzRseDhkNmZGRHFUUTF1RWkyWXZENHZrdHVPRGl0Z01zSW4zUDRRWUdmZ2pTNWhOUTZ4T09fa3RZMkZzdjNuRV9FMnk4SDA?oc=5",
+          "source": "Grand Forks Gazette",
+          "date": "2026-07-15T20:15:07.000Z"
         },
         {
           "title": "Canfor closing Prince George pulp mill, hundreds of jobs lost",
@@ -2656,12 +2656,6 @@ window.LUMBER_DATA = {
           "date": "2026-07-15T14:02:03.000Z"
         },
         {
-          "title": "What Is Fueling Canfor (TSX:CFP) Wood Products Business?",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdGt1R1RmY0NGZ1VtNDR2T0tkb3FlU3l4MjR2cWdRM0FfV3VscmJDZ2NBaDhmWWVMUXpKV1BpQkxPemlrbFdzTVpPenB3Vk0xbFUzX1VoYmhoUC15c1Y3MmRlUDFQWFVMS3JaVHlJLTJGYkRIb2swVC13TUFqa04zc2VxZ1pla3dCTURaTENqX1ZHNDVPNHNoZWV4YmZLb0FibDhzVVJuSQ?oc=5",
-          "source": "Kalkine Media",
-          "date": "2026-07-15T12:52:00.000Z"
-        },
-        {
           "title": "Canfor to permanently close Northwood pulp mill in British Columbia",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSHlXVXNJbHNBUDBVVzdVTG82ZEFuOFFEVVdCRGVYY3UwZG5HdWlSRlRKVWdmRnRUSVZJczhDYm9Qam9HR1hqXzMwbVZsa18zZW9FSks5MVo1Z2NETXhyTk00ZmxCZHRUblRFai1melpIVnZLMnZESkM0VXE2UU94YjhJWQ?oc=5",
           "source": "Fordaq",
@@ -2678,6 +2672,12 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYS1JQjJTT1drcjdSSkZUSm9ReUVJWEh6NnNxNEpzVS1rSkc3Vk9OaWlWYm9mUUtESmw4NVppN0t0SEotZ1E1dmh1Qm1jamlWZHc5ay11MzVuVW5WNmg3eXpzQ1BUay1VOVZKLXB0OTA1dXdBd19xOFFCLUt2QnhWeDJ2OFY2eGp3UWVSbVdPQQ?oc=5",
           "source": "Wood Business",
           "date": "2026-07-15T11:24:52.000Z"
+        },
+        {
+          "title": "Canfor Corporation Shuts Down Northwood Pulp Mill Permanently | 300 Jobs Lost - News and Statistics",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYzNmMlNudWFRdVN6eGlxNW5EaUdPZlozeUFVTTF0UUZleUtaSDZBMm1paHc4TUtZVXpsOXV4N2hHVVJLSUxnd3FLOWVQTmwxcVNtYkVPZGRmdEtWSVluZlZCMHEwcEFObjRsQmk0U1d5eEc1c29oUnloOURibjNZZkEweS1zLUNObmdNMW9vWnVmWXVEZW5SWmc4ek9GdUN5ZjVBS01Jbl83T0pGNTM3WkpERQ?oc=5",
+          "source": "IndexBox",
+          "date": "2026-07-15T09:20:00.000Z"
         }
       ]
     },
