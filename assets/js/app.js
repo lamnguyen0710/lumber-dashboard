@@ -188,7 +188,7 @@
         ? `${mills.length} lumber sawmills — official provincial censuses for BC, Québec &amp; Ontario, major producers geocoded to town elsewhere (as of ${DATA.mills.asOf}); marker size ≈ mill capacity`
         : '';
       const fireTxt = DATA.fires
-        ? `${DATA.fires.count.toLocaleString()} active-fire detections in the last 24h${DATA.fires.capped ? ` (strongest ${DATA.fires.count.toLocaleString()} of ${DATA.fires.total.toLocaleString()} shown)` : ''}, updated ${relTime(DATA.fires.asOf)}`
+        ? `${DATA.fires.count.toLocaleString()} active-fire detections in the last 48h${DATA.fires.capped ? ` (strongest ${DATA.fires.count.toLocaleString()} of ${DATA.fires.total.toLocaleString()} shown)` : ''}, updated ${relTime(DATA.fires.asOf)}`
         : 'fire layer activates once a FIRMS key is configured';
       note.innerHTML = [millTxt, fireTxt].filter(Boolean).join(' · ') +
         '. Click the map to zoom; toggle layers top-right.';
@@ -301,7 +301,7 @@
 
       ${(DATA.mills || DATA.fires) ? `
       <section class="section-head"><h2>Wildfire &amp; sawmill map ${DATA.fires ? '<span class="news-live" title="Fires refresh with the data pipeline">● LIVE</span>' : ''}</h2>
-        <p>Active fire detections (NASA FIRMS, last 24h) over Canada's lumber sawmills. Fire season disrupts log supply, rail and mill operations across the softwood basket — proximity of fire to mills is a real supply-risk signal.</p></section>
+        <p>Active fire detections (NASA FIRMS, last 48h) over Canada's lumber sawmills. Fire season disrupts log supply, rail and mill operations across the softwood basket — proximity of fire to mills is a real supply-risk signal.</p></section>
       <div class="card span-2">
         <div class="card__head">
           <h3 class="card__title">Active fires &amp; sawmills</h3>

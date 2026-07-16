@@ -19,7 +19,12 @@
 // Canada (plus a little of the northern US border) — west,south,east,north.
 const BBOX = '-141,41,-52,71';
 const SOURCES = ['VIIRS_NOAA20_NRT', 'VIIRS_SNPP_NRT'];
-const DAY_RANGE = 1;       // most recent 24h ("current fires")
+// 2-day window, NOT 1. FIRMS "1 day" returns only the current UTC day, which is
+// barely processed early in the day — a cron firing ~06:00 UTC once returned just
+// 124 detections for all of Canada while a midday pull had 8,486. Two days always
+// captures at least one fully-processed day, so the count is stable regardless of
+// when the scheduled build runs.
+const DAY_RANGE = 2;
 // Safety ceiling only — not a FIRMS limit. We keep ALL credible (nominal/high-
 // confidence, de-duplicated) detections; this bound just prevents a pathological
 // peak-fire-season day (Canada has topped 40k detections/day) from bloating
@@ -101,7 +106,7 @@ export async function fetchFires(key) {
 
   return {
     asOf: new Date().toISOString(),
-    source: 'NASA FIRMS — VIIRS 375m (NOAA-20 + S-NPP), last 24h',
+    source: 'NASA FIRMS — VIIRS 375m (NOAA-20 + S-NPP), last 48h',
     dayRange: DAY_RANGE,
     total,                 // detections before the payload cap
     count: points.length,  // detections actually stored
