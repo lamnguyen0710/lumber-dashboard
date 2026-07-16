@@ -19,8 +19,13 @@
 // Canada (plus a little of the northern US border) — west,south,east,north.
 const BBOX = '-141,41,-52,71';
 const SOURCES = ['VIIRS_NOAA20_NRT', 'VIIRS_SNPP_NRT'];
-const DAY_RANGE = 1;      // most recent 24h ("current fires")
-const MAX_POINTS = 6000;  // cap payload; keep the strongest by FRP
+const DAY_RANGE = 1;       // most recent 24h ("current fires")
+// Safety ceiling only — not a FIRMS limit. We keep ALL credible (nominal/high-
+// confidence, de-duplicated) detections; this bound just prevents a pathological
+// peak-fire-season day (Canada has topped 40k detections/day) from bloating
+// data/dataset.js, which every page load downloads. On a normal/heavy day every
+// fire is shown; only an extreme day is trimmed to the strongest by FRP.
+const MAX_POINTS = 25000;
 
 const UA = { 'User-Agent': 'lumber-dashboard/1.0 (industry map)' };
 
