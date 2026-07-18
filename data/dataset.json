@@ -662,7 +662,7 @@
         },
         {
           "period": "2026-07",
-          "framing_composite": 636
+          "framing_composite": 635
         }
       ]
     },
@@ -2508,7 +2508,7 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-18T01:58:43.190Z",
+      "fetchedAt": "2026-07-18T07:40:47.676Z",
       "items": [
         {
           "title": "Madison\u2019s Lumber Prices Index July 17, 2026: US$548 mfbm",
@@ -2531,7 +2531,7 @@
         {
           "title": "Weyerhaeuser stock holds near a yearly range as 2025 sales and earnings set the backdrop",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPa1ZMMmtyRW8xMF80X3N3bXNJLUxQeDRHNFptdXlaM3FUVTlMZlhvQ1V4RE1vSWhUMTR0YXJBZEtNMHZMeDNYcTAybUo5aG5qTEo4bmxGeEFZOWNJM0JwdXZwRXctWUdmOUwyc005RUxvbVp5RFdnZnl2cEV4TWlPbTRENkc4bHltNnlQR0xBS1UxWTNCdFJiWDVFQWxSZnk5YkRZTEVfUnpZVlhfbjd4b2RRMVlUZks0bGQ4Q0NoRFJsTVZOalJFV09R?oc=5",
-          "source": "Ad Hoc News",
+          "source": "ad-hoc-news.de",
           "date": "2026-07-17T07:18:47.000Z"
         },
         {
@@ -2541,10 +2541,34 @@
           "date": "2026-07-17T06:05:04.000Z"
         },
         {
+          "title": "Canfor to close Northwood Pulp Mill in Prince George by end of year",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYk9GLS1mMXlDbmp0RzlmdGo5LWdLVWVTU1ZzYXpocXduSzNGREs2Rm1nSUphdkxPeEMxUU8temdxUnhjNFlTaXdkQkRRVTBCdDZMV1pKdncwQnJNeUV2dE5RQTVIRTZtclN4WlZhWFZEdUctVUdMcHJQWVUtX0YyOF9aR0ZiOV9NZmx2aWkwOFlDMDNFSjNVSnR2akxPRUdFV2I1eC03UW4xSnZWRmlUTmFjOThhUGtMakV5RlVsbl9PRm91UkdNSjFUWXROVDBaUEN2MjFYRWRNUQ?oc=5",
+          "source": "MSN",
+          "date": "2026-07-17T01:33:19.000Z"
+        },
+        {
           "title": "Workers face uncertain future as Prince George, B.C., mill winds down",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdzZyLTZucGNVM3I2V2dtN200ZUtNRk9jQjYwbGJmMzU0eEJDNW8xX0ZtdmYzVmNJdFhQbllzNmxSSm5hMFNnVi1yaHhNUkw5NmN2TEZCckN3cGxWVWpxWU9oWUZxOW9mbkhWQlNSNzE1b0N1TnpOVllXakJzZXo1M1J5bUpQeENvNTRDdXdkYlRxVkV1LXBteWFNWl9pQQ?oc=5",
           "source": "CBC",
           "date": "2026-07-16T21:55:02.000Z"
+        },
+        {
+          "title": "Union says B.C. mill closure leaves workers 'reeling,' as industry woes persist",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUnNKbU1SSGdyaVhIR3pRSXh5eDRpT1BUamdOX09YOVY3SVkzRnpFd2xhQmdySFR6YUVPUm9lbkVGRmZPVEpuelJsOFM4ZWdXaUNZQ2NQWTBFcXJOczhtYl8zQ3ZjeWM3cDFjc3p1Qy1OZnlkeHMzVnB4ZVg0cmNJbGtDMndpUlJaTUFfM0tSMWVxZFIza2FoWFNhMEduS3R2cEpMck00aHh1aF9Mc1RTTUphTVVDYWVzOFNkRw?oc=5",
+          "source": "DARPAN Magazine",
+          "date": "2026-07-16T18:08:10.000Z"
+        },
+        {
+          "title": "Interfor Corporation (IFP) Q1 2024 Earnings Report - Results, Call & Slides",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GNVZOaGpGVUxxdmV2Z0NreTY0YW9YWGZHZnFyVjc5dVpCVVlBN3BEM3Rtcm1kQUIyS09DR3JRVEwwY1BfV1dLWHpBX1kyRTZBOWdyWmpWSXFFOXNPVllJQWtobTNVM3dBTmtGZUwtTHM?oc=5",
+          "source": "TipRanks",
+          "date": "2026-07-16T17:10:35.000Z"
+        },
+        {
+          "title": "B.C.\u2019s forestry sector faces mounting pressure as Northwood pulp mill closure adds to job losses",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMzdLblJZSUZ6c2xrSXd0dXpwZTlBLTNYb2VHakRGTndaUDBKMERtVlNNc1BfTG1WUkVrWU9zUFp5dHlLRmI5eFY0TUNWcXdTamZ1a3lwY21DUl8yelF5SW91RmxTb3BhSmtfZmRfNEZPWThoOGhETVphWWxmTW9Lc09uX18wX0hFQTRUTndUNmhFQllESGJNZ0VyUVZEeVNxQUNoT1J5ckFJcXBNTDZ1RGhTd21YWkFwdVJLMk95Z203N2EtRFNuOFZVdnJUVDRv?oc=5",
+          "source": "CTV News",
+          "date": "2026-07-16T13:53:38.000Z"
         },
         {
           "title": "Interfor Corporation (IFP) Q3 2024 Earnings Report - Results, Call & Slides",
@@ -2565,28 +2589,22 @@
           "date": "2026-07-16T06:47:41.000Z"
         },
         {
+          "title": "Canfor closing Prince George pulp mill",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaGZpcUNjblI0SFBubEtOQUhLM1RGc2hBVU11blBIeGZsaFRTNWE1NmlwWGRJdDg4SGdNNjBVSVFNbzFKT3pGT25lTjk4eFZsQTVkX01vNHhDMlNZMGNrWVhCbmZMbEx3WDloOHAwcGRxak9rT3EzWFM4QnE4bEtmWnlPRFhYZkFDNm8xWDdneEpmcnc?oc=5",
+          "source": "CTV News",
+          "date": "2026-07-16T06:43:45.000Z"
+        },
+        {
           "title": "Workers devastated as Canfor closes another mill in Prince George",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05ZUFOeDcyNjhXeWRseVdkV2pwZ3VEaEkxWmhYU3ZCejhYMXZISFlrQjZIaFNNekJjVEMtWjFNWUEwcUZjUjI3Rzl3b1dVMmJ2QUN2UXJfSzFZQQ?oc=5",
           "source": "CBC",
           "date": "2026-07-16T01:51:29.000Z"
         },
         {
-          "title": "Canfor to close Northwood Pulp Mill in Prince George by end of year",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcW5FZU51S1ZKdTdOVmhhVjVqUmlBVjNQRDRqQXZhM2Z4bjlUYUtxU2lXdTcyeE9nekFUSFJQYk9Ud2hDMHdpcnVwMGNHRnRFa2NROHQtalNKcU1vb2U4aTR2ZW43eGZBckQ0OGRmSUJsZ0k0ejlmUGRaR2hOYnFMbVVfZndpR2I2aDFCVnpjeXBuVFV4SWNZb08zWnZPblZFblJDaHRnX3Q?oc=5",
-          "source": "Global News",
-          "date": "2026-07-16T01:32:13.000Z"
-        },
-        {
           "title": "Weyerhaeuser: A Timber Giant at a Crossroads",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQk80UVEtSXBnd3laZHpQUXJTNVpPR19ac3Vkd2lfdGxKb0EwRjdncXJlRERBbW01M2lnT19vRGd0U2Vzd1hDVXhaQVVDdHNfOFFHdjBzd2k0ak5tNEpBNFVtWWlBWEE4SFhlWkpmMm5odVctb25teEJ6c1BfOVhWQzhHMVY?oc=5",
           "source": "Kavout | AI",
           "date": "2026-07-16T00:57:44.000Z"
-        },
-        {
-          "title": "Union says B.C. mill closure leaves workers \u2018reeling,\u2019 as industry woes persist",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMkdzLXdDTDlRSWE2dlpEcXZqTjBJVVZIcXVBemFoQ1cxaHpNd3BRdFdPTzUtaFQ2emNkQlRYXzRWakVOenJaakNNb290YUpVS2lzdXhKVzZmRUE1YkE4ZURJdnNMVzhvYk9tVzBPa25BeExPemlXRjkzRGFLYzJWZWw4WHBaM1NIQ29FcF8xS1Z5ZVcwWFRwVDBDQzJIOG9IcUhEbGlOdlV5dTlyaGRzVFNB?oc=5",
-          "source": "CHAT News Today",
-          "date": "2026-07-16T00:20:42.000Z"
         },
         {
           "title": "A Shaken Sector: politicians weigh in on Canfor\u2019s Northwood Pulp Mill closure",
@@ -2625,16 +2643,16 @@
           "date": "2026-07-15T21:02:00.000Z"
         },
         {
-          "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdjBoUXpVZkxNT0V0Q3RoYldleXBRWnBQNVRRd1JKN1JvaXRHTkYtY244ZUhlZGJRNlJodGZ5cFR5bXVaamI4dUJfZGFpSU5hMEI3Wm9mbXZoWGo2RzhQLVQ3V1ZlU0hzU1p6bGVNaXBvZld2UnVCMWF4TzBLUUhJZkM3b1R6bG9SRTZ2QU1JVUNmZmJnZEJzTE9QbDVfSTJKN1IyYi1vbFZRWmU3dE1n?oc=5",
-          "source": "Creston Valley Advance",
-          "date": "2026-07-15T20:14:24.000Z"
-        },
-        {
           "title": "Canfor closing Prince George pulp mill, hundreds of jobs lost",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZW42dEtMSmZkOEVTT1dMaHNiRWxpczhwVF9JYWt1TGVFZWh3d2hOcUxQV0JwRUhxLVZjMlFaV1d6a2ZFcThzdG5SMmJlNC1PbHpsV2dVWnJqWU4tSGVvM1dNOWVVUnNvYWJUQmpvTkxRbWF4bFIzUWFIc3lTTjdFTnZQdnFKSWcwdjFwcGc1ay10U2EwbTZ1U21R?oc=5",
           "source": "Global News",
           "date": "2026-07-15T20:10:37.000Z"
+        },
+        {
+          "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZVFpZjlJWnNyZTRMdUpHY1J0ZUZuRzYzc1hSMGpnb3E1RThMRDhvVkNsazRzNWxfODktclEtV0NLaUNwN3RyRGFTX0RCTTJmRWplZlIxWnpfUkRVYVNWV3VxUXoxSmVZUzJTdHl4d1EwMVBxV0RYUmZfcXB1bmRGOHB0alhydm9sX0JPWlNDcS1SV29kby04QmhtY1NkS3hGME9IeUpEODhGQ1U3LWU4ODZmc0JBWkk?oc=5",
+          "source": "The Ashcroft-Cache Creek Journal",
+          "date": "2026-07-15T20:10:26.000Z"
         },
         {
           "title": "Canfor pulp mill closure impacts workers, highlights need for forestry sector evolution",
@@ -2671,24 +2689,6 @@
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA5RnYtUmpCcGJ6MWFpQ2dnTl9XTWs4TGt4OXlCN3BxRF9IcEcyTmlJY0ZOWVU1bk1lLUd5X0gzUFlTRTRMaFBjczBWa1pPZ0J2cVJ6RnJiNFowSHhkLWdCZFBTaEJrbFpQMFE1VWE2RQ?oc=5",
           "source": "Wood Central",
           "date": "2026-07-15T16:04:03.000Z"
-        },
-        {
-          "title": "Canfor shutters B.C. pulp mill",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlcEp6MGkwREt4bGVUVFlWZUNRWFpSNkIxdENnb3A1dEFnVlhVbTBSZkFldjZwc0pCakwxc1BKdldRY3FHejBXbWxRSE9LNlJBaWk0YUlFanU1TzVrYmVn?oc=5",
-          "source": "HBS Dealer",
-          "date": "2026-07-15T15:31:15.000Z"
-        },
-        {
-          "title": "Canfor to Shut Northwood Pulp Mill, Cutting 300,000 Tonnes of NBSK Capacity by Late 2026",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeHh1MlJzMzNOSjhvMFJpLVNDbENyQmxNRDc0Sk5hdUhjY1dpNFNUSzFtYjFvd1NOZ0FNZ1hGTW1wQVJ2MjJDeGhMdlhuRDZIX0NhN014WmYzOHFqZmxUYURtY0RxZzJpaUdpbGNHYmZlUmMyTnVOdjZHbkNfeWhtSklCSzUySmR0YjFvNEEyTTd5X3l6dkdoM2h5WGZEcWJJdzFNOHJrRkJNRlB3QWRZUnI1bDBERkllNmsyc1lhTC1kZw?oc=5",
-          "source": "ChemAnalyst",
-          "date": "2026-07-15T15:17:12.000Z"
-        },
-        {
-          "title": "Canfor to shut Northwood pulp mill, cut 300 thousand tonnes of NBSK capacity",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0dfZ2dtemx3SG5lQ2MzaTVidG5UMGhMdjFCeWdlUnhCUlNOR1o1enJXWVZZMWpWWFRsZkJsb2pTZUdBdnRMcTBvdlFOOVBUMnZoWlVZeFZRMllnU1loU3U0dVU5bFQyUWczRmdRY1h0NTNJSy1hRmpQdGpIYVpVQTBWMFhJd2pGbWtxbzh2SXlqTVNTT3d2d3lHd08xRmdCcjY0aWRqNFg0b2NwOG5EMzR0eFJ5dw?oc=5",
-          "source": "lesprom.com",
-          "date": "2026-07-15T14:02:03.000Z"
         }
       ]
     },
@@ -5100,21 +5100,21 @@
         "series": [
           {
             "period": "2026-07",
-            "mean": 934813,
-            "lo": 830503,
-            "hi": 1052224
+            "mean": 934821,
+            "lo": 830509,
+            "hi": 1052234
           },
           {
             "period": "2026-08",
-            "mean": 758296,
-            "lo": 666807,
-            "hi": 862338
+            "mean": 758300,
+            "lo": 666809,
+            "hi": 862345
           },
           {
             "period": "2026-09",
-            "mean": 807133,
-            "lo": 703042,
-            "hi": 926635
+            "mean": 807137,
+            "lo": 703043,
+            "hi": 926644
           }
         ]
       }
@@ -13830,11 +13830,11 @@
     ]
   },
   "fires": {
-    "asOf": "2026-07-18T01:58:44.657Z",
+    "asOf": "2026-07-18T07:40:49.442Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
-    "total": 5393,
-    "count": 5393,
+    "total": 5395,
+    "count": 5395,
     "capped": false,
     "fields": [
       "lat",
@@ -39572,6 +39572,12 @@
         0
       ],
       [
+        41.837,
+        -74.927,
+        2,
+        0
+      ],
+      [
         50.766,
         -89.275,
         2,
@@ -42850,6 +42856,12 @@
       [
         44.776,
         -120.318,
+        1,
+        0
+      ],
+      [
+        45.281,
+        -66.012,
         1,
         0
       ],
