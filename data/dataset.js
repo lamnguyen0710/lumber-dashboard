@@ -663,7 +663,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 648
+          "framing_composite": 647
         }
       ]
     },
@@ -2509,8 +2509,14 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-20T15:56:47.145Z",
+      "fetchedAt": "2026-07-20T17:43:02.248Z",
       "items": [
+        {
+          "title": "Weyerhaeuser stock trades steady as timber REIT leans on cash flow and housing demand",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSTBNUTBVdWFaM2JhRFNDV2ZUd1JSUHNVR2VxZzdCaTdoejhVWTJ5M0pNSnUtY1JJb2hDNFdiZzl4a0JJTk5nRUNaY3JBSmJocWk0UjVHZHdWakxTUXJLWjZZbFI1OFF1cFdYaWhFcl8zY3Q4MjdLUGF4WnRDVW5aZlBwMTR1dnl1MlpQRFZDNXBta2NfOHNuY2tiYUl5Mk11allURHJma1NzcG1vVHBpWU40S0wtcGRvR01rT3dURlBRQktGc04zUQ?oc=5",
+          "source": "Ad-hoc-news.de",
+          "date": "2026-07-20T17:31:45.000Z"
+        },
         {
           "title": "Weyerhaeuser Q2 2025 Earnings Preview",
           "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNTmVJRkl3dFBFMnE0MUZubElaWTc2NHFZeUtUZG1UQllmTWdpUW9WOEJMNGM0OFpmNFp1bTNISVIxRUJfNHdkS3dwRERnZWdzRS00aTBBYktLRWE2SkxaU1NSUDVGNlpQeFlDc1RWWTNDa1ljY2RBVkpkcEczZ1QwTHhPdTIwZWY0Y2pIRVoteVVKMEllbFpyOTZ0a1pVZF9ZdzJCS2d1M2Q1RWxRbk5kc256WGV1VjdEZWNVdmJIUnp3aGpxTnFxUWlWaTdSbXBCMGwxV1djazF0ckhvTFFJXzhjU0hXbE1aeDIyZzRSLWItUmxHaHRoVWdNVEpqbEc1bldoM1NhU05UWTR0M2JSTnBxejFFb241Z1pWMXdoeGJBT3h1SEY5aWgwRQ?oc=5",
@@ -2520,7 +2526,7 @@ window.LUMBER_DATA = {
         {
           "title": "Weyerhaeuser stock trades steady as timber REIT highlights cash flow and dividend strength",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOUpxOEVhNkZ5MUJtNDZLR1ZuaFZiX0tvT0xJalhOY2tuRGttcmg1Q1N3SjlOOXhYLV9DdHVBUU1Hdk1HWUhqeGlaQndXeVoyYmtidkt3NG1UdGdJMGNIR3FhcWhCdGNTOVRJWXJ3aFZJVFlZZjNkcDg5aW43UjhoaXE0OXRWMmtiVkxEUXA4SzkwWUNjenhvQ0M4WVJsdmpZcmNzRWFfd01xT05lWTZDb2FXLWJFZkJjTDJacW84X29JSVE4S09hZC1kYw?oc=5",
-          "source": "ad-hoc-news.de",
+          "source": "Ad-hoc-news.de",
           "date": "2026-07-18T16:23:27.000Z"
         },
         {
@@ -2574,7 +2580,7 @@ window.LUMBER_DATA = {
         {
           "title": "Weyerhaeuser stock holds near a yearly range as 2025 sales and earnings set the backdrop",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPa1ZMMmtyRW8xMF80X3N3bXNJLUxQeDRHNFptdXlaM3FUVTlMZlhvQ1V4RE1vSWhUMTR0YXJBZEtNMHZMeDNYcTAybUo5aG5qTEo4bmxGeEFZOWNJM0JwdXZwRXctWUdmOUwyc005RUxvbVp5RFdnZnl2cEV4TWlPbTRENkc4bHltNnlQR0xBS1UxWTNCdFJiWDVFQWxSZnk5YkRZTEVfUnpZVlhfbjd4b2RRMVlUZks0bGQ4Q0NoRFJsTVZOalJFV09R?oc=5",
-          "source": "ad-hoc-news.de",
+          "source": "Ad-hoc-news.de",
           "date": "2026-07-17T07:18:47.000Z"
         },
         {
@@ -2668,28 +2674,22 @@ window.LUMBER_DATA = {
           "date": "2026-07-15T21:02:00.000Z"
         },
         {
-          "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdjBoUXpVZkxNT0V0Q3RoYldleXBRWnBQNVRRd1JKN1JvaXRHTkYtY244ZUhlZGJRNlJodGZ5cFR5bXVaamI4dUJfZGFpSU5hMEI3Wm9mbXZoWGo2RzhQLVQ3V1ZlU0hzU1p6bGVNaXBvZld2UnVCMWF4TzBLUUhJZkM3b1R6bG9SRTZ2QU1JVUNmZmJnZEJzTE9QbDVfSTJKN1IyYi1vbFZRWmU3dE1n?oc=5",
-          "source": "Creston Valley Advance",
-          "date": "2026-07-15T20:14:24.000Z"
-        },
-        {
           "title": "Canfor closing Prince George pulp mill, hundreds of jobs lost",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZW42dEtMSmZkOEVTT1dMaHNiRWxpczhwVF9JYWt1TGVFZWh3d2hOcUxQV0JwRUhxLVZjMlFaV1d6a2ZFcThzdG5SMmJlNC1PbHpsV2dVWnJqWU4tSGVvM1dNOWVVUnNvYWJUQmpvTkxRbWF4bFIzUWFIc3lTTjdFTnZQdnFKSWcwdjFwcGc1ay10U2EwbTZ1U21R?oc=5",
           "source": "Global News",
           "date": "2026-07-15T20:10:37.000Z"
         },
         {
+          "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZVFpZjlJWnNyZTRMdUpHY1J0ZUZuRzYzc1hSMGpnb3E1RThMRDhvVkNsazRzNWxfODktclEtV0NLaUNwN3RyRGFTX0RCTTJmRWplZlIxWnpfUkRVYVNWV3VxUXoxSmVZUzJTdHl4d1EwMVBxV0RYUmZfcXB1bmRGOHB0alhydm9sX0JPWlNDcS1SV29kby04QmhtY1NkS3hGME9IeUpEODhGQ1U3LWU4ODZmc0JBWkk?oc=5",
+          "source": "The Ashcroft-Cache Creek Journal",
+          "date": "2026-07-15T20:10:26.000Z"
+        },
+        {
           "title": "Canfor pulp mill closure impacts workers, highlights need for forestry sector evolution",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXEzY3RGV1dwY0U0Y2NrRXVGRVhVcS1uWFhSaFVLRFFtNlFkaUFWbzlDaER0YkVPbk04NFdOVkQwejFISWR0Y2ZfZUljamgtR0Y1bXU5LU5YdE1PZGNkNU5jRF9HVDNPU3FaanZPQUFvZ2ZYRklPUXY4d0YxZEVaS3ByaFF4NVNXV1RIaVNjMjl1QzFIUlpwNTB2NlQxQk03TVQwZ2YwUGRHbDFwbk1OdllPZHFveHJF?oc=5",
           "source": "Island Social Trends",
           "date": "2026-07-15T19:17:38.000Z"
-        },
-        {
-          "title": "Canfor closure brings B.C. forestry closer to the brink",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZlQ3RjhnUENVQXRYVkFlVFdxS19QeFFISkx1UnRTc2xxb2lCWElIN2NCNVlyVFRiTC1ITGtWSzR6Rl9DRlZudGVaRm83a1lObHZWbDJvNXAzamtmbHZCNUZQYmJhNWg1cm5OUlBkc2NVeHZ3ckVCdlVycEJYMlBObU5QNlBVU29hWUg4?oc=5",
-          "source": "unifor.org",
-          "date": "2026-07-15T18:23:41.000Z"
         }
       ]
     },
@@ -7058,7 +7058,7 @@ window.LUMBER_DATA = {
           "2026 Q1"
         ],
         "values": [
-          116.0,
+          116,
           117.8,
           120.2,
           122.8,
@@ -7094,18 +7094,18 @@ window.LUMBER_DATA = {
           223.8,
           229.4,
           235.2,
-          240.0,
+          240,
           247.3,
           257.4,
-          268.0,
+          268,
           276.7,
           274.6,
           271.7,
           268.7,
           266.3,
           262.8,
-          258.0,
-          253.0,
+          258,
+          253,
           248.8,
           243.6,
           236.3,
@@ -7118,7 +7118,7 @@ window.LUMBER_DATA = {
           226.2,
           228.2,
           230.3,
-          232.0,
+          232,
           232.7,
           233.7,
           234.7,
@@ -7126,7 +7126,7 @@ window.LUMBER_DATA = {
           238.2,
           241.9,
           245.8,
-          249.0,
+          249,
           252.3,
           256.9,
           261.8,
@@ -7137,14 +7137,14 @@ window.LUMBER_DATA = {
           276.7,
           277.3,
           278.1,
-          279.0,
+          279,
           279.7,
           281.5,
           283.9,
           286.6,
           288.7,
           295.5,
-          305.0,
+          305,
           315.1,
           323.3,
           324.2,
@@ -7163,7 +7163,7 @@ window.LUMBER_DATA = {
           458.1,
           489.5,
           515.2,
-          514.0,
+          514,
           512.6,
           511.2,
           510.1,
@@ -7175,11 +7175,11 @@ window.LUMBER_DATA = {
           506.9,
           505.7,
           508.6,
-          521.0
+          521
         ]
       },
       "projection": {
-        "connect": 521.0,
+        "connect": 521,
         "series": [
           {
             "period": "2026 Q2",
@@ -7205,7 +7205,7 @@ window.LUMBER_DATA = {
       },
       "lastActual": {
         "period": "2026 Q1",
-        "value": 521.0
+        "value": 521
       }
     }
   },
@@ -15919,11 +15919,11 @@ window.LUMBER_DATA = {
     ]
   },
   "fires": {
-    "asOf": "2026-07-20T15:56:48.474Z",
+    "asOf": "2026-07-20T17:43:04.170Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
-    "total": 6562,
-    "count": 6562,
+    "total": 6569,
+    "count": 6569,
     "capped": false,
     "fields": [
       "lat",
@@ -21479,6 +21479,18 @@ window.LUMBER_DATA = {
       [
         51.412,
         -89.613,
+        19,
+        0
+      ],
+      [
+        51.624,
+        -78.374,
+        19,
+        1
+      ],
+      [
+        51.627,
+        -78.383,
         19,
         0
       ],
@@ -28929,6 +28941,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        42.796,
+        -73.702,
+        7,
+        1
+      ],
+      [
         62.956,
         -122.623,
         7,
@@ -33501,6 +33519,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        51.618,
+        -78.375,
+        5,
+        0
+      ],
+      [
         63.585,
         -118.978,
         5,
@@ -34539,6 +34563,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        51.69,
+        -78.603,
+        4,
+        0
+      ],
+      [
         63.575,
         -118.97,
         4,
@@ -35403,6 +35433,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        45.235,
+        -63.653,
+        4,
+        0
+      ],
+      [
         44.656,
         -120.178,
         4,
@@ -35501,6 +35537,12 @@ window.LUMBER_DATA = {
       [
         63.845,
         -118.64,
+        4,
+        0
+      ],
+      [
+        45.839,
+        -73.249,
         4,
         0
       ],
@@ -37785,6 +37827,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        42.544,
+        -71.593,
+        3,
+        0
+      ],
+      [
         64.387,
         -116.628,
         3,
@@ -39083,12 +39131,6 @@ window.LUMBER_DATA = {
       [
         44.076,
         -119.951,
-        3,
-        0
-      ],
-      [
-        45.838,
-        -73.251,
         3,
         0
       ],
