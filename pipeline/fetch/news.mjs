@@ -85,9 +85,9 @@ export async function fetchNews({ limit = 30 } = {}) {
   const feaKeys = new Set(feaD.map(keyOf));
   const googleD = dedup(google.sort((a, b) => b.date.localeCompare(a.date))).filter((it) => !feaKeys.has(keyOf(it)));
 
-  // FEA leads the board as the main-focus source (its items newest-first), then
-  // Google headlines fill below (newest-first) for broader coverage.
-  const items = [...feaD, ...googleD].slice(0, limit);
+  // FEA is checked first (guaranteed into the pool + wins de-dup), then Google
+  // fills the rest — but the board itself is presented purely newest-first.
+  const items = [...feaD, ...googleD].slice(0, limit).sort((a, b) => b.date.localeCompare(a.date));
   return { fetchedAt: new Date().toISOString(), items };
 }
 

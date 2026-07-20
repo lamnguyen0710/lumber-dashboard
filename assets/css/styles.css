@@ -263,8 +263,6 @@ table.cmp tfoot td { border-top: 1px solid var(--border-strong); border-bottom: 
 .news-title:hover { color: var(--series-1); text-decoration: none; }
 .news-meta { display: flex; align-items: center; gap: 8px; margin-top: 4px; font-size: 12px; color: var(--text-muted); }
 .news-source { color: var(--text-secondary); font-weight: 550; }
-.news-item--focus { border-left: 2px solid var(--series-1); padding-left: 10px; background: color-mix(in srgb, var(--series-1) 5%, transparent); }
-.news-focus-tag { font-size: 10px; font-weight: 700; letter-spacing: 0.03em; color: #fff; background: var(--series-1); padding: 1px 6px; border-radius: 4px; flex: none; }
 .news-source::after { content: ""; }
 .news-time { font-variant-numeric: tabular-nums; }
 .news-time::before { content: "·"; margin-right: 8px; color: var(--axis); }
