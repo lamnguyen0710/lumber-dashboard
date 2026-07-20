@@ -294,6 +294,7 @@
         ${ind.activeListings ? card('US homes for sale — active listings', 'homes on the market · monthly', 'Existing unsold-home inventory (Realtor.com active listings). Crashed to ~350–500K in the 2021–22 shortage; back above 1.1M as supply normalizes — more inventory competes with new construction.', 'chListings', { span: true, section: 'housing' }) : ''}
         ${ind.multifamily ? card('Multi-family construction — starts vs. permits (5+ units)', 'thousands (SAAR) · monthly', 'New multi-family (5+ unit) starts and permits — Census via FRED. A secondary lumber-demand signal: mid/high-rise multi-family is less lumber-intensive than single-family, but low-rise/garden apartments are wood-framed.', 'chMFStartsPermits', { section: 'housing' }) : ''}
         ${ind.multifamily ? card('Multi-family under construction (5+ units)', 'thousands of units · monthly', 'Units in 5+ unit buildings currently under construction — the pipeline backlog, near multi-decade highs. As it works off it sustains (then eventually reduces) multi-family lumber demand.', 'chMFUnderConstruction', { section: 'housing' }) : ''}
+        ${ind.distInventory ? card('Lumber distributor inventory — inventory-to-sales ratio', 'months of sales held · monthly', 'Merchant wholesalers of lumber &amp; construction materials — months of sales they hold as inventory (US Census; the whole two-step distribution channel, not just a few firms). Price-neutral: it rises when distributors overstock or begin destocking, falls when they run lean. Spiked in the 2020–22 crunch, then normalized.', 'chDistInventory', { span: true, section: 'housing' }) : ''}
         ${DATA.stumpage ? `<div class="card span-2">
             <div class="card__head"><h3 class="card__title">Canadian stumpage by region</h3><span class="card__unit">C$/m³ · softwood sawlogs · ${esc(DATA.stumpage.asOf)}</span></div>
             <div class="card__note">${esc(DATA.stumpage.note)}</div>
@@ -437,6 +438,12 @@
       C.line('chMFUnderConstruction', mfu.map(p => p.period), [
         { label: 'Under construction (5+)', data: mfu.map(p => p.value), slot: 4 },
       ], { unit: 'K units', legend: false, xTicks: 7, beginAtZero: false, fill: true });
+    }
+
+    if (ind.distInventory) {
+      C.line('chDistInventory', ind.distInventory.series.map(p => p.period), [
+        { label: 'Inventory/sales ratio', data: ind.distInventory.series.map(p => p.value), slot: 6 },
+      ], { unit: 'months', legend: false, xTicks: 8, beginAtZero: false, fill: true });
     }
 
     if (DATA.stumpage && DATA.stumpage.regions) {

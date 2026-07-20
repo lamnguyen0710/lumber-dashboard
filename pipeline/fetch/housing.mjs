@@ -75,7 +75,7 @@ function assemblePair(mapA, mapB, keyA, keyB, unit, startYear) {
 
 export async function fetchHousing({ startYear = 2015 } = {}) {
   const [houst, houst1f, permit, permit1, supply, newSales, activeListings,
-    houst5f, permit5, undcon5] = await Promise.all([
+    houst5f, permit5, undcon5, distInv] = await Promise.all([
     fredSeries('HOUST'), fredSeries('HOUST1F'), fredSeries('PERMIT'), fredSeries('PERMIT1'),
     fredSeries('MSACSR'),      // Monthly Supply of New Houses (months) — housing supply/demand balance
     fredSeries('HSN1F'),       // New One-Family Houses Sold (thousands SAAR, Census) — new-construction demand
@@ -83,6 +83,7 @@ export async function fetchHousing({ startYear = 2015 } = {}) {
     fredSeries('HOUST5F'),     // Housing Starts: 5+ Unit Structures (multi-family), thousands SAAR
     fredSeries('PERMIT5'),     // Building Permits: 5+ Units (multi-family), thousands SAAR
     fredSeries('UNDCON5MUSA'), // Under Construction: 5+ Units — the multi-family backlog
+    fredSeries('R4233IM163NCEN'), // Wholesalers (lumber & construction materials) Inventories/Sales ratio — distributor channel stocking
   ]);
   return {
     starts: assemble(houst, houst1f, startYear),
@@ -96,6 +97,9 @@ export async function fetchHousing({ startYear = 2015 } = {}) {
       // Units in 5+ unit buildings currently under construction (the pipeline backlog).
       underConstruction: assembleSingle(undcon5, 'thousands of units', startYear),
     },
+    // Distributor-channel stocking: months of sales held as inventory by lumber &
+    // construction-materials wholesalers (Census). Price-neutral destock/restock gauge.
+    distInventory: assembleSingle(distInv, 'months', startYear),
   };
 }
 
