@@ -131,7 +131,7 @@ function carryForwardLive(ds) {
   // vanish entirely — they're live-only. Carry them + the core housing series
   // forward from the last good build so the charts never disappear.
   const pi = prev.industry || {}, di = ds.industry;
-  for (const k of ['newHomeSupply', 'newHomeSales', 'activeListings']) {
+  for (const k of ['newHomeSupply', 'newHomeSales', 'activeListings', 'multifamily']) {
     if (!di[k] && pi[k]) { di[k] = pi[k]; console.log(`[build-data] ⚠ ${k} missing — carried forward last good data`); }
   }
   if (!ds.meta.live.housing && prev.meta && prev.meta.live && prev.meta.live.housing) {

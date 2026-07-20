@@ -62,12 +62,27 @@ function assembleSingle(map, unit, startYear) {
   return { unit, freq: 'monthly', series };
 }
 
+// Two aligned monthly FRED series -> { unit, freq, series:[{period, a, b}] }.
+function assemblePair(mapA, mapB, keyA, keyB, unit, startYear) {
+  const periods = [...new Set([...mapA.keys(), ...mapB.keys()])]
+    .filter((p) => Number(p.slice(0, 4)) >= startYear).sort();
+  return {
+    unit, freq: 'monthly',
+    series: periods.map((p) => ({ period: p, [keyA]: mapA.get(p) ?? null, [keyB]: mapB.get(p) ?? null }))
+      .filter((r) => r[keyA] != null || r[keyB] != null),
+  };
+}
+
 export async function fetchHousing({ startYear = 2015 } = {}) {
-  const [houst, houst1f, permit, permit1, supply, newSales, activeListings] = await Promise.all([
+  const [houst, houst1f, permit, permit1, supply, newSales, activeListings,
+    houst5f, permit5, undcon5] = await Promise.all([
     fredSeries('HOUST'), fredSeries('HOUST1F'), fredSeries('PERMIT'), fredSeries('PERMIT1'),
     fredSeries('MSACSR'),      // Monthly Supply of New Houses (months) — housing supply/demand balance
     fredSeries('HSN1F'),       // New One-Family Houses Sold (thousands SAAR, Census) — new-construction demand
     fredSeries('ACTLISCOUUS'), // Realtor.com Active Listing Count — homes for sale (unsold inventory)
+    fredSeries('HOUST5F'),     // Housing Starts: 5+ Unit Structures (multi-family), thousands SAAR
+    fredSeries('PERMIT5'),     // Building Permits: 5+ Units (multi-family), thousands SAAR
+    fredSeries('UNDCON5MUSA'), // Under Construction: 5+ Units — the multi-family backlog
   ]);
   return {
     starts: assemble(houst, houst1f, startYear),
@@ -75,6 +90,12 @@ export async function fetchHousing({ startYear = 2015 } = {}) {
     supply: assembleSingle(supply, 'months', startYear),
     newHomeSales: assembleSingle(newSales, 'thousands (SAAR)', startYear),
     activeListings: assembleSingle(activeListings, 'homes', startYear),
+    multifamily: {
+      // Starts + permits for 5+ unit (multi-family) buildings, aligned by month.
+      construction: assemblePair(houst5f, permit5, 'starts', 'permits', 'thousands (SAAR)', startYear),
+      // Units in 5+ unit buildings currently under construction (the pipeline backlog).
+      underConstruction: assembleSingle(undcon5, 'thousands of units', startYear),
+    },
   };
 }
 

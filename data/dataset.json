@@ -5118,6 +5118,1262 @@
           }
         ]
       }
+    },
+    "multifamily": {
+      "construction": {
+        "unit": "thousands (SAAR)",
+        "freq": "monthly",
+        "series": [
+          {
+            "period": "2015-01",
+            "starts": 376,
+            "permits": 362
+          },
+          {
+            "period": "2015-02",
+            "starts": 294,
+            "permits": 472
+          },
+          {
+            "period": "2015-03",
+            "starts": 313,
+            "permits": 387
+          },
+          {
+            "period": "2015-04",
+            "starts": 429,
+            "permits": 454
+          },
+          {
+            "period": "2015-05",
+            "starts": 362,
+            "permits": 535
+          },
+          {
+            "period": "2015-06",
+            "starts": 491,
+            "permits": 638
+          },
+          {
+            "period": "2015-07",
+            "starts": 376,
+            "permits": 410
+          },
+          {
+            "period": "2015-08",
+            "starts": 390,
+            "permits": 417
+          },
+          {
+            "period": "2015-09",
+            "starts": 467,
+            "permits": 395
+          },
+          {
+            "period": "2015-10",
+            "starts": 341,
+            "permits": 404
+          },
+          {
+            "period": "2015-11",
+            "starts": 392,
+            "permits": 487
+          },
+          {
+            "period": "2015-12",
+            "starts": 364,
+            "permits": 456
+          },
+          {
+            "period": "2016-01",
+            "starts": 322,
+            "permits": 416
+          },
+          {
+            "period": "2016-02",
+            "starts": 354,
+            "permits": 417
+          },
+          {
+            "period": "2016-03",
+            "starts": 349,
+            "permits": 344
+          },
+          {
+            "period": "2016-04",
+            "starts": 373,
+            "permits": 375
+          },
+          {
+            "period": "2016-05",
+            "starts": 390,
+            "permits": 424
+          },
+          {
+            "period": "2016-06",
+            "starts": 415,
+            "permits": 425
+          },
+          {
+            "period": "2016-07",
+            "starts": 462,
+            "permits": 446
+          },
+          {
+            "period": "2016-08",
+            "starts": 420,
+            "permits": 414
+          },
+          {
+            "period": "2016-09",
+            "starts": 276,
+            "permits": 511
+          },
+          {
+            "period": "2016-10",
+            "starts": 444,
+            "permits": 452
+          },
+          {
+            "period": "2016-11",
+            "starts": 320,
+            "permits": 419
+          },
+          {
+            "period": "2016-12",
+            "starts": 440,
+            "permits": 400
+          },
+          {
+            "period": "2017-01",
+            "starts": 402,
+            "permits": 484
+          },
+          {
+            "period": "2017-02",
+            "starts": 389,
+            "permits": 379
+          },
+          {
+            "period": "2017-03",
+            "starts": 345,
+            "permits": 409
+          },
+          {
+            "period": "2017-04",
+            "starts": 305,
+            "permits": 422
+          },
+          {
+            "period": "2017-05",
+            "starts": 312,
+            "permits": 377
+          },
+          {
+            "period": "2017-06",
+            "starts": 376,
+            "permits": 493
+          },
+          {
+            "period": "2017-07",
+            "starts": 353,
+            "permits": 397
+          },
+          {
+            "period": "2017-08",
+            "starts": 284,
+            "permits": 466
+          },
+          {
+            "period": "2017-09",
+            "starts": 324,
+            "permits": 407
+          },
+          {
+            "period": "2017-10",
+            "starts": 361,
+            "permits": 468
+          },
+          {
+            "period": "2017-11",
+            "starts": 341,
+            "permits": 399
+          },
+          {
+            "period": "2017-12",
+            "starts": 349,
+            "permits": 411
+          },
+          {
+            "period": "2018-01",
+            "starts": 415,
+            "permits": 416
+          },
+          {
+            "period": "2018-02",
+            "starts": 366,
+            "permits": 409
+          },
+          {
+            "period": "2018-03",
+            "starts": 429,
+            "permits": 497
+          },
+          {
+            "period": "2018-04",
+            "starts": 347,
+            "permits": 471
+          },
+          {
+            "period": "2018-05",
+            "starts": 375,
+            "permits": 442
+          },
+          {
+            "period": "2018-06",
+            "starts": 316,
+            "permits": 443
+          },
+          {
+            "period": "2018-07",
+            "starts": 333,
+            "permits": 420
+          },
+          {
+            "period": "2018-08",
+            "starts": 371,
+            "permits": 395
+          },
+          {
+            "period": "2018-09",
+            "starts": 366,
+            "permits": 413
+          },
+          {
+            "period": "2018-10",
+            "starts": 330,
+            "permits": 387
+          },
+          {
+            "period": "2018-11",
+            "starts": 389,
+            "permits": 451
+          },
+          {
+            "period": "2018-12",
+            "starts": 300,
+            "permits": 465
+          },
+          {
+            "period": "2019-01",
+            "starts": 293,
+            "permits": 412
+          },
+          {
+            "period": "2019-02",
+            "starts": 338,
+            "permits": 452
+          },
+          {
+            "period": "2019-03",
+            "starts": 349,
+            "permits": 450
+          },
+          {
+            "period": "2019-04",
+            "starts": 376,
+            "permits": 478
+          },
+          {
+            "period": "2019-05",
+            "starts": 437,
+            "permits": 478
+          },
+          {
+            "period": "2019-06",
+            "starts": 353,
+            "permits": 404
+          },
+          {
+            "period": "2019-07",
+            "starts": 340,
+            "permits": 467
+          },
+          {
+            "period": "2019-08",
+            "starts": 451,
+            "permits": 534
+          },
+          {
+            "period": "2019-09",
+            "starts": 372,
+            "permits": 525
+          },
+          {
+            "period": "2019-10",
+            "starts": 422,
+            "permits": 542
+          },
+          {
+            "period": "2019-11",
+            "starts": 419,
+            "permits": 551
+          },
+          {
+            "period": "2019-12",
+            "starts": 524,
+            "permits": 462
+          },
+          {
+            "period": "2020-01",
+            "starts": 602,
+            "permits": 478
+          },
+          {
+            "period": "2020-02",
+            "starts": 497,
+            "permits": 436
+          },
+          {
+            "period": "2020-03",
+            "starts": 375,
+            "permits": 429
+          },
+          {
+            "period": "2020-04",
+            "starts": 233,
+            "permits": 383
+          },
+          {
+            "period": "2020-05",
+            "starts": 291,
+            "permits": 459
+          },
+          {
+            "period": "2020-06",
+            "starts": 356,
+            "permits": 424
+          },
+          {
+            "period": "2020-07",
+            "starts": 508,
+            "permits": 478
+          },
+          {
+            "period": "2020-08",
+            "starts": 333,
+            "permits": 405
+          },
+          {
+            "period": "2020-09",
+            "starts": 353,
+            "permits": 459
+          },
+          {
+            "period": "2020-10",
+            "starts": 339,
+            "permits": 409
+          },
+          {
+            "period": "2020-11",
+            "starts": 359,
+            "permits": 474
+          },
+          {
+            "period": "2020-12",
+            "starts": 331,
+            "permits": 478
+          },
+          {
+            "period": "2021-01",
+            "starts": 481,
+            "permits": 555
+          },
+          {
+            "period": "2021-02",
+            "starts": 344,
+            "permits": 550
+          },
+          {
+            "period": "2021-03",
+            "starts": 453,
+            "permits": 530
+          },
+          {
+            "period": "2021-04",
+            "starts": 415,
+            "permits": 536
+          },
+          {
+            "period": "2021-05",
+            "starts": 496,
+            "permits": 525
+          },
+          {
+            "period": "2021-06",
+            "starts": 480,
+            "permits": 521
+          },
+          {
+            "period": "2021-07",
+            "starts": 444,
+            "permits": 544
+          },
+          {
+            "period": "2021-08",
+            "starts": 482,
+            "permits": 626
+          },
+          {
+            "period": "2021-09",
+            "starts": 468,
+            "permits": 536
+          },
+          {
+            "period": "2021-10",
+            "starts": 469,
+            "permits": 557
+          },
+          {
+            "period": "2021-11",
+            "starts": 475,
+            "permits": 589
+          },
+          {
+            "period": "2021-12",
+            "starts": 539,
+            "permits": 680
+          },
+          {
+            "period": "2022-01",
+            "starts": 511,
+            "permits": 620
+          },
+          {
+            "period": "2022-02",
+            "starts": 506,
+            "permits": 610
+          },
+          {
+            "period": "2022-03",
+            "starts": 519,
+            "permits": 713
+          },
+          {
+            "period": "2022-04",
+            "starts": 593,
+            "permits": 710
+          },
+          {
+            "period": "2022-05",
+            "starts": 464,
+            "permits": 616
+          },
+          {
+            "period": "2022-06",
+            "starts": 535,
+            "permits": 715
+          },
+          {
+            "period": "2022-07",
+            "starts": 456,
+            "permits": 719
+          },
+          {
+            "period": "2022-08",
+            "starts": 584,
+            "permits": 623
+          },
+          {
+            "period": "2022-09",
+            "starts": 571,
+            "permits": 671
+          },
+          {
+            "period": "2022-10",
+            "starts": 556,
+            "permits": 686
+          },
+          {
+            "period": "2022-11",
+            "starts": 629,
+            "permits": 580
+          },
+          {
+            "period": "2022-12",
+            "starts": 437,
+            "permits": 610
+          },
+          {
+            "period": "2023-01",
+            "starts": 515,
+            "permits": 603
+          },
+          {
+            "period": "2023-02",
+            "starts": 565,
+            "permits": 761
+          },
+          {
+            "period": "2023-03",
+            "starts": 515,
+            "permits": 578
+          },
+          {
+            "period": "2023-04",
+            "starts": 463,
+            "permits": 548
+          },
+          {
+            "period": "2023-05",
+            "starts": 597,
+            "permits": 598
+          },
+          {
+            "period": "2023-06",
+            "starts": 465,
+            "permits": 430
+          },
+          {
+            "period": "2023-07",
+            "starts": 448,
+            "permits": 512
+          },
+          {
+            "period": "2023-08",
+            "starts": 355,
+            "permits": 556
+          },
+          {
+            "period": "2023-09",
+            "starts": 376,
+            "permits": 494
+          },
+          {
+            "period": "2023-10",
+            "starts": 376,
+            "permits": 489
+          },
+          {
+            "period": "2023-11",
+            "starts": 384,
+            "permits": 469
+          },
+          {
+            "period": "2023-12",
+            "starts": 461,
+            "permits": 441
+          },
+          {
+            "period": "2024-01",
+            "starts": 344,
+            "permits": 462
+          },
+          {
+            "period": "2024-02",
+            "starts": 399,
+            "permits": 490
+          },
+          {
+            "period": "2024-03",
+            "starts": 259,
+            "permits": 444
+          },
+          {
+            "period": "2024-04",
+            "starts": 322,
+            "permits": 419
+          },
+          {
+            "period": "2024-05",
+            "starts": 315,
+            "permits": 387
+          },
+          {
+            "period": "2024-06",
+            "starts": 322,
+            "permits": 455
+          },
+          {
+            "period": "2024-07",
+            "starts": 366,
+            "permits": 442
+          },
+          {
+            "period": "2024-08",
+            "starts": 344,
+            "permits": 462
+          },
+          {
+            "period": "2024-09",
+            "starts": 291,
+            "permits": 398
+          },
+          {
+            "period": "2024-10",
+            "starts": 397,
+            "permits": 421
+          },
+          {
+            "period": "2024-11",
+            "starts": 275,
+            "permits": 489
+          },
+          {
+            "period": "2024-12",
+            "starts": 408,
+            "permits": 424
+          },
+          {
+            "period": "2025-01",
+            "starts": 328,
+            "permits": 425
+          },
+          {
+            "period": "2025-02",
+            "starts": 369,
+            "permits": 409
+          },
+          {
+            "period": "2025-03",
+            "starts": 393,
+            "permits": 469
+          },
+          {
+            "period": "2025-04",
+            "starts": 429,
+            "permits": 461
+          },
+          {
+            "period": "2025-05",
+            "starts": 324,
+            "permits": 460
+          },
+          {
+            "period": "2025-06",
+            "starts": 430,
+            "permits": 475
+          },
+          {
+            "period": "2025-07",
+            "starts": 453,
+            "permits": 461
+          },
+          {
+            "period": "2025-08",
+            "starts": 407,
+            "permits": 427
+          },
+          {
+            "period": "2025-09",
+            "starts": 471,
+            "permits": 498
+          },
+          {
+            "period": "2025-10",
+            "starts": 355,
+            "permits": 477
+          },
+          {
+            "period": "2025-11",
+            "starts": 375,
+            "permits": 448
+          },
+          {
+            "period": "2025-12",
+            "starts": 410,
+            "permits": 537
+          },
+          {
+            "period": "2026-01",
+            "starts": 469,
+            "permits": 463
+          },
+          {
+            "period": "2026-02",
+            "starts": 414,
+            "permits": 561
+          },
+          {
+            "period": "2026-03",
+            "starts": 481,
+            "permits": 419
+          },
+          {
+            "period": "2026-04",
+            "starts": 494,
+            "permits": 491
+          },
+          {
+            "period": "2026-05",
+            "starts": 291,
+            "permits": 468
+          },
+          {
+            "period": "2026-06",
+            "starts": 513,
+            "permits": 445
+          }
+        ]
+      },
+      "underConstruction": {
+        "unit": "thousands of units",
+        "freq": "monthly",
+        "series": [
+          {
+            "period": "2015-01",
+            "value": 456
+          },
+          {
+            "period": "2015-02",
+            "value": 462
+          },
+          {
+            "period": "2015-03",
+            "value": 471
+          },
+          {
+            "period": "2015-04",
+            "value": 489
+          },
+          {
+            "period": "2015-05",
+            "value": 495
+          },
+          {
+            "period": "2015-06",
+            "value": 507
+          },
+          {
+            "period": "2015-07",
+            "value": 509
+          },
+          {
+            "period": "2015-08",
+            "value": 514
+          },
+          {
+            "period": "2015-09",
+            "value": 526
+          },
+          {
+            "period": "2015-10",
+            "value": 528
+          },
+          {
+            "period": "2015-11",
+            "value": 538
+          },
+          {
+            "period": "2015-12",
+            "value": 545
+          },
+          {
+            "period": "2016-01",
+            "value": 540
+          },
+          {
+            "period": "2016-02",
+            "value": 547
+          },
+          {
+            "period": "2016-03",
+            "value": 551
+          },
+          {
+            "period": "2016-04",
+            "value": 557
+          },
+          {
+            "period": "2016-05",
+            "value": 570
+          },
+          {
+            "period": "2016-06",
+            "value": 574
+          },
+          {
+            "period": "2016-07",
+            "value": 590
+          },
+          {
+            "period": "2016-08",
+            "value": 596
+          },
+          {
+            "period": "2016-09",
+            "value": 593
+          },
+          {
+            "period": "2016-10",
+            "value": 599
+          },
+          {
+            "period": "2016-11",
+            "value": 588
+          },
+          {
+            "period": "2016-12",
+            "value": 602
+          },
+          {
+            "period": "2017-01",
+            "value": 610
+          },
+          {
+            "period": "2017-02",
+            "value": 611
+          },
+          {
+            "period": "2017-03",
+            "value": 609
+          },
+          {
+            "period": "2017-04",
+            "value": 607
+          },
+          {
+            "period": "2017-05",
+            "value": 600
+          },
+          {
+            "period": "2017-06",
+            "value": 598
+          },
+          {
+            "period": "2017-07",
+            "value": 600
+          },
+          {
+            "period": "2017-08",
+            "value": 596
+          },
+          {
+            "period": "2017-09",
+            "value": 601
+          },
+          {
+            "period": "2017-10",
+            "value": 603
+          },
+          {
+            "period": "2017-11",
+            "value": 601
+          },
+          {
+            "period": "2017-12",
+            "value": 598
+          },
+          {
+            "period": "2018-01",
+            "value": 601
+          },
+          {
+            "period": "2018-02",
+            "value": 602
+          },
+          {
+            "period": "2018-03",
+            "value": 606
+          },
+          {
+            "period": "2018-04",
+            "value": 597
+          },
+          {
+            "period": "2018-05",
+            "value": 596
+          },
+          {
+            "period": "2018-06",
+            "value": 590
+          },
+          {
+            "period": "2018-07",
+            "value": 587
+          },
+          {
+            "period": "2018-08",
+            "value": 590
+          },
+          {
+            "period": "2018-09",
+            "value": 596
+          },
+          {
+            "period": "2018-10",
+            "value": 599
+          },
+          {
+            "period": "2018-11",
+            "value": 602
+          },
+          {
+            "period": "2018-12",
+            "value": 602
+          },
+          {
+            "period": "2019-01",
+            "value": 602
+          },
+          {
+            "period": "2019-02",
+            "value": 594
+          },
+          {
+            "period": "2019-03",
+            "value": 586
+          },
+          {
+            "period": "2019-04",
+            "value": 584
+          },
+          {
+            "period": "2019-05",
+            "value": 595
+          },
+          {
+            "period": "2019-06",
+            "value": 606
+          },
+          {
+            "period": "2019-07",
+            "value": 609
+          },
+          {
+            "period": "2019-08",
+            "value": 617
+          },
+          {
+            "period": "2019-09",
+            "value": 624
+          },
+          {
+            "period": "2019-10",
+            "value": 626
+          },
+          {
+            "period": "2019-11",
+            "value": 636
+          },
+          {
+            "period": "2019-12",
+            "value": 645
+          },
+          {
+            "period": "2020-01",
+            "value": 657
+          },
+          {
+            "period": "2020-02",
+            "value": 671
+          },
+          {
+            "period": "2020-03",
+            "value": 671
+          },
+          {
+            "period": "2020-04",
+            "value": 666
+          },
+          {
+            "period": "2020-05",
+            "value": 657
+          },
+          {
+            "period": "2020-06",
+            "value": 660
+          },
+          {
+            "period": "2020-07",
+            "value": 672
+          },
+          {
+            "period": "2020-08",
+            "value": 671
+          },
+          {
+            "period": "2020-09",
+            "value": 661
+          },
+          {
+            "period": "2020-10",
+            "value": 649
+          },
+          {
+            "period": "2020-11",
+            "value": 652
+          },
+          {
+            "period": "2020-12",
+            "value": 645
+          },
+          {
+            "period": "2021-01",
+            "value": 656
+          },
+          {
+            "period": "2021-02",
+            "value": 656
+          },
+          {
+            "period": "2021-03",
+            "value": 658
+          },
+          {
+            "period": "2021-04",
+            "value": 664
+          },
+          {
+            "period": "2021-05",
+            "value": 670
+          },
+          {
+            "period": "2021-06",
+            "value": 680
+          },
+          {
+            "period": "2021-07",
+            "value": 677
+          },
+          {
+            "period": "2021-08",
+            "value": 686
+          },
+          {
+            "period": "2021-09",
+            "value": 703
+          },
+          {
+            "period": "2021-10",
+            "value": 718
+          },
+          {
+            "period": "2021-11",
+            "value": 724
+          },
+          {
+            "period": "2021-12",
+            "value": 742
+          },
+          {
+            "period": "2022-01",
+            "value": 751
+          },
+          {
+            "period": "2022-02",
+            "value": 769
+          },
+          {
+            "period": "2022-03",
+            "value": 804
+          },
+          {
+            "period": "2022-04",
+            "value": 828
+          },
+          {
+            "period": "2022-05",
+            "value": 839
+          },
+          {
+            "period": "2022-06",
+            "value": 845
+          },
+          {
+            "period": "2022-07",
+            "value": 848
+          },
+          {
+            "period": "2022-08",
+            "value": 871
+          },
+          {
+            "period": "2022-09",
+            "value": 889
+          },
+          {
+            "period": "2022-10",
+            "value": 908
+          },
+          {
+            "period": "2022-11",
+            "value": 917
+          },
+          {
+            "period": "2022-12",
+            "value": 923
+          },
+          {
+            "period": "2023-01",
+            "value": 936
+          },
+          {
+            "period": "2023-02",
+            "value": 945
+          },
+          {
+            "period": "2023-03",
+            "value": 956
+          },
+          {
+            "period": "2023-04",
+            "value": 968
+          },
+          {
+            "period": "2023-05",
+            "value": 984
+          },
+          {
+            "period": "2023-06",
+            "value": 993
+          },
+          {
+            "period": "2023-07",
+            "value": 1001
+          },
+          {
+            "period": "2023-08",
+            "value": 997
+          },
+          {
+            "period": "2023-09",
+            "value": 989
+          },
+          {
+            "period": "2023-10",
+            "value": 993
+          },
+          {
+            "period": "2023-11",
+            "value": 989
+          },
+          {
+            "period": "2023-12",
+            "value": 987
+          },
+          {
+            "period": "2024-01",
+            "value": 973
+          },
+          {
+            "period": "2024-02",
+            "value": 958
+          },
+          {
+            "period": "2024-03",
+            "value": 933
+          },
+          {
+            "period": "2024-04",
+            "value": 917
+          },
+          {
+            "period": "2024-05",
+            "value": 904
+          },
+          {
+            "period": "2024-06",
+            "value": 897
+          },
+          {
+            "period": "2024-07",
+            "value": 890
+          },
+          {
+            "period": "2024-08",
+            "value": 861
+          },
+          {
+            "period": "2024-09",
+            "value": 826
+          },
+          {
+            "period": "2024-10",
+            "value": 803
+          },
+          {
+            "period": "2024-11",
+            "value": 780
+          },
+          {
+            "period": "2024-12",
+            "value": 769
+          },
+          {
+            "period": "2025-01",
+            "value": 748
+          },
+          {
+            "period": "2025-02",
+            "value": 745
+          },
+          {
+            "period": "2025-03",
+            "value": 749
+          },
+          {
+            "period": "2025-04",
+            "value": 743
+          },
+          {
+            "period": "2025-05",
+            "value": 720
+          },
+          {
+            "period": "2025-06",
+            "value": 704
+          },
+          {
+            "period": "2025-07",
+            "value": 697
+          },
+          {
+            "period": "2025-08",
+            "value": 683
+          },
+          {
+            "period": "2025-09",
+            "value": 699
+          },
+          {
+            "period": "2025-10",
+            "value": 696
+          },
+          {
+            "period": "2025-11",
+            "value": 693
+          },
+          {
+            "period": "2025-12",
+            "value": 679
+          },
+          {
+            "period": "2026-01",
+            "value": 674
+          },
+          {
+            "period": "2026-02",
+            "value": 674
+          },
+          {
+            "period": "2026-03",
+            "value": 654
+          },
+          {
+            "period": "2026-04",
+            "value": 660
+          },
+          {
+            "period": "2026-05",
+            "value": 660
+          },
+          {
+            "period": "2026-06",
+            "value": 665
+          }
+        ]
+      }
     }
   },
   "companies": {
