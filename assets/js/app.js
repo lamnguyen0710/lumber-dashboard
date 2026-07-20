@@ -88,9 +88,9 @@
         <div class="card span-2"><div class="card__note">No headlines yet — run <code>node pipeline/build-data.mjs</code> to fetch the feed.</div></div>`;
     }
     const updated = news.fetchedAt ? ` · updated ${relTime(news.fetchedAt)}` : '';
-    const rows = items.map((n) => `<li class="news-item">
+    const rows = items.map((n) => `<li class="news-item${n.focus ? ' news-item--focus' : ''}">
         <a class="news-title" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
-        <div class="news-meta">${n.source ? `<span class="news-source">${esc(n.source)}</span>` : ''}<span class="news-time" data-date="${esc(n.date)}"></span></div>
+        <div class="news-meta">${n.focus ? '<span class="news-focus-tag">★ FEA</span>' : ''}${n.source ? `<span class="news-source">${esc(n.source)}</span>` : ''}<span class="news-time" data-date="${esc(n.date)}"></span></div>
       </li>`).join('');
     return `<section class="section-head"><h2>Lumber industry news <span class="news-live" title="Refreshes with the data pipeline">● LIVE</span></h2>
         <p>Latest across the softwood complex — prices, tariffs, mills and the public producers${updated}.</p></section>
