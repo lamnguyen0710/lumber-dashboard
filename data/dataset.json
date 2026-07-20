@@ -11,18 +11,18 @@
       "companies": true,
       "regionExports": true
     },
-    "disclaimer": "PLACEHOLDER DATA \u2014 synthetic values scaled to realistic magnitudes so every chart renders. Replace with the live pipeline output (pipeline/fetch/*) before using for analysis.",
+    "disclaimer": "PLACEHOLDER DATA — synthetic values scaled to realistic magnitudes so every chart renders. Replace with the live pipeline output (pipeline/fetch/*) before using for analysis.",
     "sources": [
       {
-        "name": "US Census \u2014 New Residential Construction (starts & permits)",
+        "name": "US Census — New Residential Construction (starts & permits)",
         "url": "https://www.census.gov/construction/nrc/"
       },
       {
-        "name": "Statistics Canada \u2014 Softwood lumber exports",
+        "name": "Statistics Canada — Softwood lumber exports",
         "url": "https://www.statcan.gc.ca/"
       },
       {
-        "name": "Random Lengths \u2014 Framing Lumber Composite",
+        "name": "Random Lengths — Framing Lumber Composite",
         "url": "https://www.randomlengths.com/"
       },
       {
@@ -30,7 +30,7 @@
         "url": "https://www.sec.gov/edgar"
       },
       {
-        "name": "Internal \u2014 ICTLF / softwood_exports_pivot",
+        "name": "Internal — ICTLF / softwood_exports_pivot",
         "url": ""
       }
     ]
@@ -662,7 +662,7 @@
         },
         {
           "period": "2026-07",
-          "framing_composite": 647
+          "framing_composite": 648
         }
       ]
     },
@@ -2508,14 +2508,8 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-20T17:43:02.248Z",
+      "fetchedAt": "2026-07-20T15:56:47.145Z",
       "items": [
-        {
-          "title": "Weyerhaeuser stock trades steady as timber REIT leans on cash flow and housing demand",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSTBNUTBVdWFaM2JhRFNDV2ZUd1JSUHNVR2VxZzdCaTdoejhVWTJ5M0pNSnUtY1JJb2hDNFdiZzl4a0JJTk5nRUNaY3JBSmJocWk0UjVHZHdWakxTUXJLWjZZbFI1OFF1cFdYaWhFcl8zY3Q4MjdLUGF4WnRDVW5aZlBwMTR1dnl1MlpQRFZDNXBta2NfOHNuY2tiYUl5Mk11allURHJma1NzcG1vVHBpWU40S0wtcGRvR01rT3dURlBRQktGc04zUQ?oc=5",
-          "source": "Ad-hoc-news.de",
-          "date": "2026-07-20T17:31:45.000Z"
-        },
         {
           "title": "Weyerhaeuser Q2 2025 Earnings Preview",
           "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNTmVJRkl3dFBFMnE0MUZubElaWTc2NHFZeUtUZG1UQllmTWdpUW9WOEJMNGM0OFpmNFp1bTNISVIxRUJfNHdkS3dwRERnZWdzRS00aTBBYktLRWE2SkxaU1NSUDVGNlpQeFlDc1RWWTNDa1ljY2RBVkpkcEczZ1QwTHhPdTIwZWY0Y2pIRVoteVVKMEllbFpyOTZ0a1pVZF9ZdzJCS2d1M2Q1RWxRbk5kc256WGV1VjdEZWNVdmJIUnp3aGpxTnFxUWlWaTdSbXBCMGwxV1djazF0ckhvTFFJXzhjU0hXbE1aeDIyZzRSLWItUmxHaHRoVWdNVEpqbEc1bldoM1NhU05UWTR0M2JSTnBxejFFb241Z1pWMXdoeGJBT3h1SEY5aWgwRQ?oc=5",
@@ -2525,7 +2519,7 @@
         {
           "title": "Weyerhaeuser stock trades steady as timber REIT highlights cash flow and dividend strength",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOUpxOEVhNkZ5MUJtNDZLR1ZuaFZiX0tvT0xJalhOY2tuRGttcmg1Q1N3SjlOOXhYLV9DdHVBUU1Hdk1HWUhqeGlaQndXeVoyYmtidkt3NG1UdGdJMGNIR3FhcWhCdGNTOVRJWXJ3aFZJVFlZZjNkcDg5aW43UjhoaXE0OXRWMmtiVkxEUXA4SzkwWUNjenhvQ0M4WVJsdmpZcmNzRWFfd01xT05lWTZDb2FXLWJFZkJjTDJacW84X29JSVE4S09hZC1kYw?oc=5",
-          "source": "Ad-hoc-news.de",
+          "source": "ad-hoc-news.de",
           "date": "2026-07-18T16:23:27.000Z"
         },
         {
@@ -2579,7 +2573,7 @@
         {
           "title": "Weyerhaeuser stock holds near a yearly range as 2025 sales and earnings set the backdrop",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPa1ZMMmtyRW8xMF80X3N3bXNJLUxQeDRHNFptdXlaM3FUVTlMZlhvQ1V4RE1vSWhUMTR0YXJBZEtNMHZMeDNYcTAybUo5aG5qTEo4bmxGeEFZOWNJM0JwdXZwRXctWUdmOUwyc005RUxvbVp5RFdnZnl2cEV4TWlPbTRENkc4bHltNnlQR0xBS1UxWTNCdFJiWDVFQWxSZnk5YkRZTEVfUnpZVlhfbjd4b2RRMVlUZks0bGQ4Q0NoRFJsTVZOalJFV09R?oc=5",
-          "source": "Ad-hoc-news.de",
+          "source": "ad-hoc-news.de",
           "date": "2026-07-17T07:18:47.000Z"
         },
         {
@@ -2601,7 +2595,7 @@
           "date": "2026-07-16T17:10:35.000Z"
         },
         {
-          "title": "B.C.\u2019s forestry sector faces mounting pressure as Northwood pulp mill closure adds to job losses",
+          "title": "B.C.’s forestry sector faces mounting pressure as Northwood pulp mill closure adds to job losses",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMzdLblJZSUZ6c2xrSXd0dXpwZTlBLTNYb2VHakRGTndaUDBKMERtVlNNc1BfTG1WUkVrWU9zUFp5dHlLRmI5eFY0TUNWcXdTamZ1a3lwY21DUl8yelF5SW91RmxTb3BhSmtfZmRfNEZPWThoOGhETVphWWxmTW9Lc09uX18wX0hFQTRUTndUNmhFQllESGJNZ0VyUVZEeVNxQUNoT1J5ckFJcXBNTDZ1RGhTd21YWkFwdVJLMk95Z203N2EtRFNuOFZVdnJUVDRv?oc=5",
           "source": "CTV News",
           "date": "2026-07-16T13:53:38.000Z"
@@ -2631,13 +2625,13 @@
           "date": "2026-07-16T01:51:29.000Z"
         },
         {
-          "title": "Union says B.C. mill closure leaves workers \u2018reeling,\u2019 as industry woes persist",
+          "title": "Union says B.C. mill closure leaves workers ‘reeling,’ as industry woes persist",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMkdzLXdDTDlRSWE2dlpEcXZqTjBJVVZIcXVBemFoQ1cxaHpNd3BRdFdPTzUtaFQ2emNkQlRYXzRWakVOenJaakNNb290YUpVS2lzdXhKVzZmRUE1YkE4ZURJdnNMVzhvYk9tVzBPa25BeExPemlXRjkzRGFLYzJWZWw4WHBaM1NIQ29FcF8xS1Z5ZVcwWFRwVDBDQzJIOG9IcUhEbGlOdlV5dTlyaGRzVFNB?oc=5",
           "source": "CHAT News Today",
           "date": "2026-07-16T00:20:42.000Z"
         },
         {
-          "title": "A Shaken Sector: politicians weigh in on Canfor\u2019s Northwood Pulp Mill closure",
+          "title": "A Shaken Sector: politicians weigh in on Canfor’s Northwood Pulp Mill closure",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVG5Kc1BwaVVBZ0NiNGx2QmhpSG56ZzlKUU45bGhPWjZsN3FpbkYzaGJtQTFGMW5BdjhHTDJ2WG1WOGo5dE1jWWp0RGFTLWdLSzYwYm93blNvc3dyMW1ITjFkeHV3VTVxSW5mVkJ6cTNORmViLVFGQWZvMWptakw0VkxwZy0wRldxRk9ZVEZRZkhtMk1hbHhwVDVZZ1R5djEwM1BOZTBHU0RUQk1LWWtr?oc=5",
           "source": "My Bulkley Lakes Now",
           "date": "2026-07-16T00:00:44.000Z"
@@ -2673,22 +2667,28 @@
           "date": "2026-07-15T21:02:00.000Z"
         },
         {
+          "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdjBoUXpVZkxNT0V0Q3RoYldleXBRWnBQNVRRd1JKN1JvaXRHTkYtY244ZUhlZGJRNlJodGZ5cFR5bXVaamI4dUJfZGFpSU5hMEI3Wm9mbXZoWGo2RzhQLVQ3V1ZlU0hzU1p6bGVNaXBvZld2UnVCMWF4TzBLUUhJZkM3b1R6bG9SRTZ2QU1JVUNmZmJnZEJzTE9QbDVfSTJKN1IyYi1vbFZRWmU3dE1n?oc=5",
+          "source": "Creston Valley Advance",
+          "date": "2026-07-15T20:14:24.000Z"
+        },
+        {
           "title": "Canfor closing Prince George pulp mill, hundreds of jobs lost",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZW42dEtMSmZkOEVTT1dMaHNiRWxpczhwVF9JYWt1TGVFZWh3d2hOcUxQV0JwRUhxLVZjMlFaV1d6a2ZFcThzdG5SMmJlNC1PbHpsV2dVWnJqWU4tSGVvM1dNOWVVUnNvYWJUQmpvTkxRbWF4bFIzUWFIc3lTTjdFTnZQdnFKSWcwdjFwcGc1ay10U2EwbTZ1U21R?oc=5",
           "source": "Global News",
           "date": "2026-07-15T20:10:37.000Z"
         },
         {
-          "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZVFpZjlJWnNyZTRMdUpHY1J0ZUZuRzYzc1hSMGpnb3E1RThMRDhvVkNsazRzNWxfODktclEtV0NLaUNwN3RyRGFTX0RCTTJmRWplZlIxWnpfUkRVYVNWV3VxUXoxSmVZUzJTdHl4d1EwMVBxV0RYUmZfcXB1bmRGOHB0alhydm9sX0JPWlNDcS1SV29kby04QmhtY1NkS3hGME9IeUpEODhGQ1U3LWU4ODZmc0JBWkk?oc=5",
-          "source": "The Ashcroft-Cache Creek Journal",
-          "date": "2026-07-15T20:10:26.000Z"
-        },
-        {
           "title": "Canfor pulp mill closure impacts workers, highlights need for forestry sector evolution",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXEzY3RGV1dwY0U0Y2NrRXVGRVhVcS1uWFhSaFVLRFFtNlFkaUFWbzlDaER0YkVPbk04NFdOVkQwejFISWR0Y2ZfZUljamgtR0Y1bXU5LU5YdE1PZGNkNU5jRF9HVDNPU3FaanZPQUFvZ2ZYRklPUXY4d0YxZEVaS3ByaFF4NVNXV1RIaVNjMjl1QzFIUlpwNTB2NlQxQk03TVQwZ2YwUGRHbDFwbk1OdllPZHFveHJF?oc=5",
           "source": "Island Social Trends",
           "date": "2026-07-15T19:17:38.000Z"
+        },
+        {
+          "title": "Canfor closure brings B.C. forestry closer to the brink",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZlQ3RjhnUENVQXRYVkFlVFdxS19QeFFISkx1UnRTc2xxb2lCWElIN2NCNVlyVFRiTC1ITGtWSzR6Rl9DRlZudGVaRm83a1lObHZWbDJvNXAzamtmbHZCNUZQYmJhNWg1cm5OUlBkc2NVeHZ3ckVCdlVycEJYMlBObU5QNlBVU29hWUg4?oc=5",
+          "source": "unifor.org",
+          "date": "2026-07-15T18:23:41.000Z"
         }
       ]
     },
@@ -5542,560 +5542,6 @@
         ]
       }
     },
-    "distInventory": {
-      "unit": "months",
-      "freq": "monthly",
-      "series": [
-        {
-          "period": "2015-01",
-          "value": 1.64
-        },
-        {
-          "period": "2015-02",
-          "value": 1.79
-        },
-        {
-          "period": "2015-03",
-          "value": 1.52
-        },
-        {
-          "period": "2015-04",
-          "value": 1.46
-        },
-        {
-          "period": "2015-05",
-          "value": 1.51
-        },
-        {
-          "period": "2015-06",
-          "value": 1.32
-        },
-        {
-          "period": "2015-07",
-          "value": 1.37
-        },
-        {
-          "period": "2015-08",
-          "value": 1.42
-        },
-        {
-          "period": "2015-09",
-          "value": 1.38
-        },
-        {
-          "period": "2015-10",
-          "value": 1.32
-        },
-        {
-          "period": "2015-11",
-          "value": 1.53
-        },
-        {
-          "period": "2015-12",
-          "value": 1.51
-        },
-        {
-          "period": "2016-01",
-          "value": 1.69
-        },
-        {
-          "period": "2016-02",
-          "value": 1.57
-        },
-        {
-          "period": "2016-03",
-          "value": 1.36
-        },
-        {
-          "period": "2016-04",
-          "value": 1.44
-        },
-        {
-          "period": "2016-05",
-          "value": 1.39
-        },
-        {
-          "period": "2016-06",
-          "value": 1.32
-        },
-        {
-          "period": "2016-07",
-          "value": 1.46
-        },
-        {
-          "period": "2016-08",
-          "value": 1.3
-        },
-        {
-          "period": "2016-09",
-          "value": 1.37
-        },
-        {
-          "period": "2016-10",
-          "value": 1.38
-        },
-        {
-          "period": "2016-11",
-          "value": 1.48
-        },
-        {
-          "period": "2016-12",
-          "value": 1.63
-        },
-        {
-          "period": "2017-01",
-          "value": 1.69
-        },
-        {
-          "period": "2017-02",
-          "value": 1.68
-        },
-        {
-          "period": "2017-03",
-          "value": 1.45
-        },
-        {
-          "period": "2017-04",
-          "value": 1.57
-        },
-        {
-          "period": "2017-05",
-          "value": 1.39
-        },
-        {
-          "period": "2017-06",
-          "value": 1.32
-        },
-        {
-          "period": "2017-07",
-          "value": 1.45
-        },
-        {
-          "period": "2017-08",
-          "value": 1.31
-        },
-        {
-          "period": "2017-09",
-          "value": 1.41
-        },
-        {
-          "period": "2017-10",
-          "value": 1.27
-        },
-        {
-          "period": "2017-11",
-          "value": 1.39
-        },
-        {
-          "period": "2017-12",
-          "value": 1.62
-        },
-        {
-          "period": "2018-01",
-          "value": 1.57
-        },
-        {
-          "period": "2018-02",
-          "value": 1.69
-        },
-        {
-          "period": "2018-03",
-          "value": 1.5
-        },
-        {
-          "period": "2018-04",
-          "value": 1.45
-        },
-        {
-          "period": "2018-05",
-          "value": 1.32
-        },
-        {
-          "period": "2018-06",
-          "value": 1.39
-        },
-        {
-          "period": "2018-07",
-          "value": 1.43
-        },
-        {
-          "period": "2018-08",
-          "value": 1.31
-        },
-        {
-          "period": "2018-09",
-          "value": 1.55
-        },
-        {
-          "period": "2018-10",
-          "value": 1.33
-        },
-        {
-          "period": "2018-11",
-          "value": 1.57
-        },
-        {
-          "period": "2018-12",
-          "value": 1.88
-        },
-        {
-          "period": "2019-01",
-          "value": 1.66
-        },
-        {
-          "period": "2019-02",
-          "value": 1.89
-        },
-        {
-          "period": "2019-03",
-          "value": 1.66
-        },
-        {
-          "period": "2019-04",
-          "value": 1.56
-        },
-        {
-          "period": "2019-05",
-          "value": 1.47
-        },
-        {
-          "period": "2019-06",
-          "value": 1.54
-        },
-        {
-          "period": "2019-07",
-          "value": 1.43
-        },
-        {
-          "period": "2019-08",
-          "value": 1.42
-        },
-        {
-          "period": "2019-09",
-          "value": 1.5
-        },
-        {
-          "period": "2019-10",
-          "value": 1.3
-        },
-        {
-          "period": "2019-11",
-          "value": 1.64
-        },
-        {
-          "period": "2019-12",
-          "value": 1.75
-        },
-        {
-          "period": "2020-01",
-          "value": 1.62
-        },
-        {
-          "period": "2020-02",
-          "value": 1.73
-        },
-        {
-          "period": "2020-03",
-          "value": 1.51
-        },
-        {
-          "period": "2020-04",
-          "value": 1.68
-        },
-        {
-          "period": "2020-05",
-          "value": 1.51
-        },
-        {
-          "period": "2020-06",
-          "value": 1.37
-        },
-        {
-          "period": "2020-07",
-          "value": 1.32
-        },
-        {
-          "period": "2020-08",
-          "value": 1.36
-        },
-        {
-          "period": "2020-09",
-          "value": 1.28
-        },
-        {
-          "period": "2020-10",
-          "value": 1.23
-        },
-        {
-          "period": "2020-11",
-          "value": 1.48
-        },
-        {
-          "period": "2020-12",
-          "value": 1.45
-        },
-        {
-          "period": "2021-01",
-          "value": 1.54
-        },
-        {
-          "period": "2021-02",
-          "value": 1.65
-        },
-        {
-          "period": "2021-03",
-          "value": 1.33
-        },
-        {
-          "period": "2021-04",
-          "value": 1.27
-        },
-        {
-          "period": "2021-05",
-          "value": 1.32
-        },
-        {
-          "period": "2021-06",
-          "value": 1.28
-        },
-        {
-          "period": "2021-07",
-          "value": 1.45
-        },
-        {
-          "period": "2021-08",
-          "value": 1.46
-        },
-        {
-          "period": "2021-09",
-          "value": 1.49
-        },
-        {
-          "period": "2021-10",
-          "value": 1.45
-        },
-        {
-          "period": "2021-11",
-          "value": 1.55
-        },
-        {
-          "period": "2021-12",
-          "value": 1.61
-        },
-        {
-          "period": "2022-01",
-          "value": 1.65
-        },
-        {
-          "period": "2022-02",
-          "value": 1.76
-        },
-        {
-          "period": "2022-03",
-          "value": 1.39
-        },
-        {
-          "period": "2022-04",
-          "value": 1.54
-        },
-        {
-          "period": "2022-05",
-          "value": 1.49
-        },
-        {
-          "period": "2022-06",
-          "value": 1.46
-        },
-        {
-          "period": "2022-07",
-          "value": 1.61
-        },
-        {
-          "period": "2022-08",
-          "value": 1.44
-        },
-        {
-          "period": "2022-09",
-          "value": 1.56
-        },
-        {
-          "period": "2022-10",
-          "value": 1.54
-        },
-        {
-          "period": "2022-11",
-          "value": 1.77
-        },
-        {
-          "period": "2022-12",
-          "value": 1.93
-        },
-        {
-          "period": "2023-01",
-          "value": 1.91
-        },
-        {
-          "period": "2023-02",
-          "value": 1.96
-        },
-        {
-          "period": "2023-03",
-          "value": 1.66
-        },
-        {
-          "period": "2023-04",
-          "value": 1.78
-        },
-        {
-          "period": "2023-05",
-          "value": 1.51
-        },
-        {
-          "period": "2023-06",
-          "value": 1.55
-        },
-        {
-          "period": "2023-07",
-          "value": 1.67
-        },
-        {
-          "period": "2023-08",
-          "value": 1.49
-        },
-        {
-          "period": "2023-09",
-          "value": 1.64
-        },
-        {
-          "period": "2023-10",
-          "value": 1.49
-        },
-        {
-          "period": "2023-11",
-          "value": 1.67
-        },
-        {
-          "period": "2023-12",
-          "value": 1.86
-        },
-        {
-          "period": "2024-01",
-          "value": 1.93
-        },
-        {
-          "period": "2024-02",
-          "value": 1.86
-        },
-        {
-          "period": "2024-03",
-          "value": 1.81
-        },
-        {
-          "period": "2024-04",
-          "value": 1.71
-        },
-        {
-          "period": "2024-05",
-          "value": 1.65
-        },
-        {
-          "period": "2024-06",
-          "value": 1.74
-        },
-        {
-          "period": "2024-07",
-          "value": 1.64
-        },
-        {
-          "period": "2024-08",
-          "value": 1.61
-        },
-        {
-          "period": "2024-09",
-          "value": 1.72
-        },
-        {
-          "period": "2024-10",
-          "value": 1.53
-        },
-        {
-          "period": "2024-11",
-          "value": 1.83
-        },
-        {
-          "period": "2024-12",
-          "value": 1.88
-        },
-        {
-          "period": "2025-01",
-          "value": 1.96
-        },
-        {
-          "period": "2025-02",
-          "value": 2.06
-        },
-        {
-          "period": "2025-03",
-          "value": 1.84
-        },
-        {
-          "period": "2025-04",
-          "value": 1.68
-        },
-        {
-          "period": "2025-05",
-          "value": 1.75
-        },
-        {
-          "period": "2025-06",
-          "value": 1.74
-        },
-        {
-          "period": "2025-07",
-          "value": 1.64
-        },
-        {
-          "period": "2025-08",
-          "value": 1.71
-        },
-        {
-          "period": "2025-09",
-          "value": 1.67
-        },
-        {
-          "period": "2025-10",
-          "value": 1.57
-        },
-        {
-          "period": "2025-11",
-          "value": 1.94
-        },
-        {
-          "period": "2025-12",
-          "value": 1.86
-        },
-        {
-          "period": "2026-01",
-          "value": 1.96
-        },
-        {
-          "period": "2026-02",
-          "value": 1.97
-        },
-        {
-          "period": "2026-03",
-          "value": 1.65
-        },
-        {
-          "period": "2026-04",
-          "value": 1.63
-        },
-        {
-          "period": "2026-05",
-          "value": 1.71
-        }
-      ]
-    },
     "exportsByRegion": {
       "unit": "MBF",
       "freq": "monthly",
@@ -6933,7 +6379,7 @@
       "unit": "$ billions (annualized)",
       "freq": "quarterly",
       "asOf": "2026 Q1",
-      "source": "Harvard JCHS \u2014 Leading Indicator of Remodeling Activity (LIRA)",
+      "source": "Harvard JCHS — Leading Indicator of Remodeling Activity (LIRA)",
       "metric": "4-quarter moving total of homeowner improvement & repair spending",
       "actual": {
         "labels": [
@@ -7206,6 +6652,561 @@
         "period": "2026 Q1",
         "value": 521
       }
+    },
+    "distInventoryVolume": {
+      "unit": "index, 2019 = 100",
+      "freq": "monthly",
+      "base": "2019-01",
+      "series": [
+        {
+          "period": "2015-01",
+          "value": 75.9
+        },
+        {
+          "period": "2015-02",
+          "value": 75.4
+        },
+        {
+          "period": "2015-03",
+          "value": 75.4
+        },
+        {
+          "period": "2015-04",
+          "value": 78.3
+        },
+        {
+          "period": "2015-05",
+          "value": 80
+        },
+        {
+          "period": "2015-06",
+          "value": 80.7
+        },
+        {
+          "period": "2015-07",
+          "value": 81.7
+        },
+        {
+          "period": "2015-08",
+          "value": 82.5
+        },
+        {
+          "period": "2015-09",
+          "value": 83.1
+        },
+        {
+          "period": "2015-10",
+          "value": 83.7
+        },
+        {
+          "period": "2015-11",
+          "value": 84.3
+        },
+        {
+          "period": "2015-12",
+          "value": 83.6
+        },
+        {
+          "period": "2016-01",
+          "value": 84.2
+        },
+        {
+          "period": "2016-02",
+          "value": 83.7
+        },
+        {
+          "period": "2016-03",
+          "value": 83.3
+        },
+        {
+          "period": "2016-04",
+          "value": 84.9
+        },
+        {
+          "period": "2016-05",
+          "value": 85.7
+        },
+        {
+          "period": "2016-06",
+          "value": 87.2
+        },
+        {
+          "period": "2016-07",
+          "value": 87.8
+        },
+        {
+          "period": "2016-08",
+          "value": 87.8
+        },
+        {
+          "period": "2016-09",
+          "value": 89
+        },
+        {
+          "period": "2016-10",
+          "value": 89.5
+        },
+        {
+          "period": "2016-11",
+          "value": 90.6
+        },
+        {
+          "period": "2016-12",
+          "value": 91.4
+        },
+        {
+          "period": "2017-01",
+          "value": 91.4
+        },
+        {
+          "period": "2017-02",
+          "value": 91.9
+        },
+        {
+          "period": "2017-03",
+          "value": 92
+        },
+        {
+          "period": "2017-04",
+          "value": 91.5
+        },
+        {
+          "period": "2017-05",
+          "value": 91.4
+        },
+        {
+          "period": "2017-06",
+          "value": 91.2
+        },
+        {
+          "period": "2017-07",
+          "value": 91.5
+        },
+        {
+          "period": "2017-08",
+          "value": 92.8
+        },
+        {
+          "period": "2017-09",
+          "value": 93.1
+        },
+        {
+          "period": "2017-10",
+          "value": 94
+        },
+        {
+          "period": "2017-11",
+          "value": 93.9
+        },
+        {
+          "period": "2017-12",
+          "value": 94.8
+        },
+        {
+          "period": "2018-01",
+          "value": 94.6
+        },
+        {
+          "period": "2018-02",
+          "value": 95.5
+        },
+        {
+          "period": "2018-03",
+          "value": 95.4
+        },
+        {
+          "period": "2018-04",
+          "value": 96.1
+        },
+        {
+          "period": "2018-05",
+          "value": 95.7
+        },
+        {
+          "period": "2018-06",
+          "value": 95.4
+        },
+        {
+          "period": "2018-07",
+          "value": 97.3
+        },
+        {
+          "period": "2018-08",
+          "value": 97.6
+        },
+        {
+          "period": "2018-09",
+          "value": 97.4
+        },
+        {
+          "period": "2018-10",
+          "value": 99.2
+        },
+        {
+          "period": "2018-11",
+          "value": 99.5
+        },
+        {
+          "period": "2018-12",
+          "value": 101.8
+        },
+        {
+          "period": "2019-01",
+          "value": 100
+        },
+        {
+          "period": "2019-02",
+          "value": 99.7
+        },
+        {
+          "period": "2019-03",
+          "value": 99.1
+        },
+        {
+          "period": "2019-04",
+          "value": 102.3
+        },
+        {
+          "period": "2019-05",
+          "value": 101.5
+        },
+        {
+          "period": "2019-06",
+          "value": 102.5
+        },
+        {
+          "period": "2019-07",
+          "value": 102.7
+        },
+        {
+          "period": "2019-08",
+          "value": 103.2
+        },
+        {
+          "period": "2019-09",
+          "value": 104
+        },
+        {
+          "period": "2019-10",
+          "value": 103.6
+        },
+        {
+          "period": "2019-11",
+          "value": 105
+        },
+        {
+          "period": "2019-12",
+          "value": 105.5
+        },
+        {
+          "period": "2020-01",
+          "value": 104.3
+        },
+        {
+          "period": "2020-02",
+          "value": 102.3
+        },
+        {
+          "period": "2020-03",
+          "value": 99.7
+        },
+        {
+          "period": "2020-04",
+          "value": 97.8
+        },
+        {
+          "period": "2020-05",
+          "value": 96.6
+        },
+        {
+          "period": "2020-06",
+          "value": 94.8
+        },
+        {
+          "period": "2020-07",
+          "value": 95.6
+        },
+        {
+          "period": "2020-08",
+          "value": 96.6
+        },
+        {
+          "period": "2020-09",
+          "value": 96.6
+        },
+        {
+          "period": "2020-10",
+          "value": 99.1
+        },
+        {
+          "period": "2020-11",
+          "value": 102.3
+        },
+        {
+          "period": "2020-12",
+          "value": 103.3
+        },
+        {
+          "period": "2021-01",
+          "value": 101.5
+        },
+        {
+          "period": "2021-02",
+          "value": 100.5
+        },
+        {
+          "period": "2021-03",
+          "value": 100.9
+        },
+        {
+          "period": "2021-04",
+          "value": 96.5
+        },
+        {
+          "period": "2021-05",
+          "value": 96.8
+        },
+        {
+          "period": "2021-06",
+          "value": 97.1
+        },
+        {
+          "period": "2021-07",
+          "value": 100.2
+        },
+        {
+          "period": "2021-08",
+          "value": 103
+        },
+        {
+          "period": "2021-09",
+          "value": 103.3
+        },
+        {
+          "period": "2021-10",
+          "value": 103.6
+        },
+        {
+          "period": "2021-11",
+          "value": 101.1
+        },
+        {
+          "period": "2021-12",
+          "value": 103.6
+        },
+        {
+          "period": "2022-01",
+          "value": 103.9
+        },
+        {
+          "period": "2022-02",
+          "value": 109.5
+        },
+        {
+          "period": "2022-03",
+          "value": 108.7
+        },
+        {
+          "period": "2022-04",
+          "value": 111.2
+        },
+        {
+          "period": "2022-05",
+          "value": 108.6
+        },
+        {
+          "period": "2022-06",
+          "value": 110.4
+        },
+        {
+          "period": "2022-07",
+          "value": 111.1
+        },
+        {
+          "period": "2022-08",
+          "value": 111.6
+        },
+        {
+          "period": "2022-09",
+          "value": 113.2
+        },
+        {
+          "period": "2022-10",
+          "value": 114.4
+        },
+        {
+          "period": "2022-11",
+          "value": 116.8
+        },
+        {
+          "period": "2022-12",
+          "value": 118.8
+        },
+        {
+          "period": "2023-01",
+          "value": 114.4
+        },
+        {
+          "period": "2023-02",
+          "value": 109.6
+        },
+        {
+          "period": "2023-03",
+          "value": 106.7
+        },
+        {
+          "period": "2023-04",
+          "value": 104.5
+        },
+        {
+          "period": "2023-05",
+          "value": 102.1
+        },
+        {
+          "period": "2023-06",
+          "value": 101
+        },
+        {
+          "period": "2023-07",
+          "value": 101.9
+        },
+        {
+          "period": "2023-08",
+          "value": 102.2
+        },
+        {
+          "period": "2023-09",
+          "value": 103.6
+        },
+        {
+          "period": "2023-10",
+          "value": 104.1
+        },
+        {
+          "period": "2023-11",
+          "value": 103.4
+        },
+        {
+          "period": "2023-12",
+          "value": 104.2
+        },
+        {
+          "period": "2024-01",
+          "value": 103.2
+        },
+        {
+          "period": "2024-02",
+          "value": 103
+        },
+        {
+          "period": "2024-03",
+          "value": 105.6
+        },
+        {
+          "period": "2024-04",
+          "value": 105.9
+        },
+        {
+          "period": "2024-05",
+          "value": 106.9
+        },
+        {
+          "period": "2024-06",
+          "value": 107
+        },
+        {
+          "period": "2024-07",
+          "value": 107.7
+        },
+        {
+          "period": "2024-08",
+          "value": 108.1
+        },
+        {
+          "period": "2024-09",
+          "value": 108.6
+        },
+        {
+          "period": "2024-10",
+          "value": 109
+        },
+        {
+          "period": "2024-11",
+          "value": 109.5
+        },
+        {
+          "period": "2024-12",
+          "value": 109.8
+        },
+        {
+          "period": "2025-01",
+          "value": 110.7
+        },
+        {
+          "period": "2025-02",
+          "value": 111.9
+        },
+        {
+          "period": "2025-03",
+          "value": 109.1
+        },
+        {
+          "period": "2025-04",
+          "value": 106.9
+        },
+        {
+          "period": "2025-05",
+          "value": 105.3
+        },
+        {
+          "period": "2025-06",
+          "value": 105.8
+        },
+        {
+          "period": "2025-07",
+          "value": 106.3
+        },
+        {
+          "period": "2025-08",
+          "value": 105.5
+        },
+        {
+          "period": "2025-09",
+          "value": 105.4
+        },
+        {
+          "period": "2025-10",
+          "value": 104.7
+        },
+        {
+          "period": "2025-11",
+          "value": 104.4
+        },
+        {
+          "period": "2025-12",
+          "value": 102.5
+        },
+        {
+          "period": "2026-01",
+          "value": 100.5
+        },
+        {
+          "period": "2026-02",
+          "value": 99.2
+        },
+        {
+          "period": "2026-03",
+          "value": 97.7
+        },
+        {
+          "period": "2026-04",
+          "value": 97.5
+        },
+        {
+          "period": "2026-05",
+          "value": 96.8
+        }
+      ]
     }
   },
   "companies": {
@@ -10906,8 +10907,8 @@
           84863
         ],
         "expected2026": 86750,
-        "guidance": "86,000\u201387,500",
-        "guidanceAsOf": "Q2 FY26 \u00b7 Apr 2026"
+        "guidance": "86,000–87,500",
+        "guidanceAsOf": "Q2 FY26 · Apr 2026"
       },
       {
         "name": "Lennar",
@@ -10924,8 +10925,8 @@
           82583
         ],
         "expected2026": 85000,
-        "guidance": "\u2248 85,000",
-        "guidanceAsOf": "FY25 report \u00b7 Dec 2025"
+        "guidance": "≈ 85,000",
+        "guidanceAsOf": "FY25 report · Dec 2025"
       },
       {
         "name": "PulteGroup",
@@ -10942,8 +10943,8 @@
           29572
         ],
         "expected2026": 28750,
-        "guidance": "28,500\u201329,000",
-        "guidanceAsOf": "Q4 FY25 call \u00b7 Jan 2026"
+        "guidance": "28,500–29,000",
+        "guidanceAsOf": "Q4 FY25 call · Jan 2026"
       },
       {
         "name": "NVR",
@@ -10979,7 +10980,7 @@
         ],
         "expected2026": 15026,
         "guidance": "within ~5% of 2025",
-        "guidanceAsOf": "Q1 FY26 \u00b7 Apr 2026"
+        "guidanceAsOf": "Q1 FY26 · Apr 2026"
       },
       {
         "name": "Taylor Morrison",
@@ -10996,8 +10997,8 @@
           12997
         ],
         "expected2026": 11000,
-        "guidance": "\u2248 11,000",
-        "guidanceAsOf": "Q1 FY26 \u00b7 Apr 2026"
+        "guidance": "≈ 11,000",
+        "guidanceAsOf": "Q1 FY26 · Apr 2026"
       },
       {
         "name": "KB Home",
@@ -11014,8 +11015,8 @@
           12902
         ],
         "expected2026": 10750,
-        "guidance": "10,500\u201311,000",
-        "guidanceAsOf": "Q2 FY26 \u00b7 Jun 2026"
+        "guidance": "10,500–11,000",
+        "guidanceAsOf": "Q2 FY26 · Jun 2026"
       },
       {
         "name": "Toll Brothers",
@@ -11032,8 +11033,8 @@
           11292
         ],
         "expected2026": 10550,
-        "guidance": "10,400\u201310,700",
-        "guidanceAsOf": "Q2 FY26 \u00b7 May 2026"
+        "guidance": "10,400–10,700",
+        "guidanceAsOf": "Q2 FY26 · May 2026"
       },
       {
         "name": "M/I Homes",
@@ -11075,8 +11076,8 @@
   },
   "stumpage": {
     "asOf": "2026-07",
-    "unit": "C$/m\u00b3",
-    "note": "Current softwood-sawlog stumpage/dues, one figure per region as each province publishes it. Systems differ (BC appraisal \u00b7 AB formula dues \u00b7 ON residual value \u00b7 QC auction), so this is indicative rather than like-for-like.",
+    "unit": "C$/m³",
+    "note": "Current softwood-sawlog stumpage/dues, one figure per region as each province publishes it. Systems differ (BC appraisal · AB formula dues · ON residual value · QC auction), so this is indicative rather than like-for-like.",
     "regions": [
       {
         "region": "Alberta",
@@ -11084,9 +11085,9 @@
         "detail": "timber dues, general operator (Jul 2026)"
       },
       {
-        "region": "Qu\u00e9bec",
+        "region": "Québec",
         "rate": 7.4,
-        "detail": "illustrative recent auction \u2014 no published avg"
+        "detail": "illustrative recent auction — no published avg"
       },
       {
         "region": "BC Interior",
@@ -11125,10 +11126,10 @@
     },
     "note": "Comprehensive census where an official geodataset exists (BC, QC, ON); major producers geocoded to town where none does (AB and the Atlantic/Prairie provinces).",
     "sources": [
-      "BC Data Catalogue \u2014 Major Timber Processing Facilities (live WFS)",
-      "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire du bois (live CSV)",
-      "Ontario MNRF \u2014 Forest resource mills (xlsx, baked)",
-      "Company disclosures \u2014 AB + Atlantic/Prairie majors (town-level, baked)"
+      "BC Data Catalogue — Major Timber Processing Facilities (live WFS)",
+      "MRNF Québec — Usines de transformation primaire du bois (live CSV)",
+      "Ontario MNRF — Forest resource mills (xlsx, baked)",
+      "Company disclosures — AB + Atlantic/Prairie majors (town-level, baked)"
     ],
     "features": [
       {
@@ -12634,10 +12635,10 @@
         "lon": -72.804,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 72k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 72k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12647,10 +12648,10 @@
         "lon": -67.2438,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 110k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 110k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12660,10 +12661,10 @@
         "lon": -71.8746,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 240k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 240k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12673,49 +12674,49 @@
         "lon": -72.2536,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 7k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 7k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "9551069 Canada inc. (MultiFib)",
-        "town": "D\u00e9gelis",
+        "town": "Dégelis",
         "lat": 47.553,
         "lon": -68.6318,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 35k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 35k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Clermond Hamel lt\u00e9e (Scierie BH)",
-        "town": "Saint-\u00c9phrem-de-Beauce",
+        "company": "Clermond Hamel ltée (Scierie BH)",
+        "town": "Saint-Éphrem-de-Beauce",
         "lat": 46.0429,
         "lon": -70.5513,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 60k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 60k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Groupe Cr\u00eate division St-Faustin inc.",
+        "company": "Groupe Crête division St-Faustin inc.",
         "town": "Mont-Blanc",
         "lat": 46.1237,
         "lon": -74.4499,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 300k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 300k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12725,10 +12726,10 @@
         "lon": -72.5311,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 75k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 75k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12738,23 +12739,23 @@
         "lon": -76.7176,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 39k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 39k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie Carri\u00e8re lt\u00e9e",
+        "company": "Scierie Carrière ltée",
         "town": "Lachute",
         "lat": 45.6342,
         "lon": -74.3663,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 57k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 57k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12764,10 +12765,10 @@
         "lon": -72.6504,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 7k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 7k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12777,10 +12778,10 @@
         "lon": -71.8456,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 60k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 60k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12790,36 +12791,36 @@
         "lon": -70.6612,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 86k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 86k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "For\u00eat Coupe inc. (C\u00e8dr\u00e9co)",
-        "town": "Saint-Aim\u00e9-des-Lacs",
+        "company": "Forêt Coupe inc. (Cèdréco)",
+        "town": "Saint-Aimé-des-Lacs",
         "lat": 47.7308,
         "lon": -70.3833,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 45k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 45k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF R\u00e9solu Canada inc. (Maniwaki)",
+        "company": "PF Résolu Canada inc. (Maniwaki)",
         "town": "Maniwaki",
         "lat": 46.3894,
         "lon": -76.0005,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 806k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 806k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12829,10 +12830,10 @@
         "lon": -66.6911,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 151k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 151k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12842,36 +12843,36 @@
         "lon": -71.7818,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 95k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 95k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Bois Lambert inc.",
-        "town": "Lac-M\u00e9gantic",
+        "town": "Lac-Mégantic",
         "lat": 45.5799,
         "lon": -70.8744,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 14k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 14k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "C\u00e8dre JD Sirois inc.",
-        "town": "M\u00e9tis-sur-Mer",
+        "company": "Cèdre JD Sirois inc.",
+        "town": "Métis-sur-Mer",
         "lat": 48.679,
         "lon": -67.9592,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 10k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 10k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12881,49 +12882,49 @@
         "lon": -79.24,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 5k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 5k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "9143-6121 Qu\u00e9bec inc. (R\u00e9cup\u00e9ration foresti\u00e8re Qu\u00e9bec)",
+        "company": "9143-6121 Québec inc. (Récupération forestière Québec)",
         "town": "Montebello",
         "lat": 45.6647,
         "lon": -74.9508,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 8k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 8k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Foresterie P. Belleville inc.",
-        "town": "Sainte-\u00c9m\u00e9lie-de-l'\u00c9nergie",
+        "town": "Sainte-Émélie-de-l'Énergie",
         "lat": 46.3215,
         "lon": -73.6392,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 3k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "9268-1881 Qu\u00e9bec inc. (Scierie familiale Gagnon)",
+        "company": "9268-1881 Québec inc. (Scierie familiale Gagnon)",
         "town": "Amherst",
         "lat": 45.9747,
         "lon": -74.7199,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 2k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12933,10 +12934,10 @@
         "lon": -71.5385,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 90k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 90k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12946,10 +12947,10 @@
         "lon": -71.3505,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 40k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 40k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12959,10 +12960,10 @@
         "lon": -68.836,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 66k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 66k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12972,23 +12973,23 @@
         "lon": -72.0155,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 18k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 18k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie BP inc.",
-        "town": "Saint-Honor\u00e9-de-Shenley",
+        "town": "Saint-Honoré-de-Shenley",
         "lat": 45.9609,
         "lon": -70.8167,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 13k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 13k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -12998,10 +12999,10 @@
         "lon": -69.776,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 520k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 520k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13011,10 +13012,10 @@
         "lon": -72.0793,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 3k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13024,10 +13025,10 @@
         "lon": -71.5082,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 13k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 13k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13037,62 +13038,62 @@
         "lon": -68.1179,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 450k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Mat\u00e9riaux Blanchet inc. (Saint-Pamphile)",
+        "company": "Matériaux Blanchet inc. (Saint-Pamphile)",
         "town": "Saint-Pamphile",
         "lat": 46.943,
         "lon": -69.7515,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 495k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 495k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Produits Forestiers D&G Lt\u00e9e (Saint-C\u00f4me-Lini\u00e8re)",
-        "town": "Saint-C\u00f4me - Lini\u00e8re",
+        "company": "Les Produits Forestiers D&G Ltée (Saint-Côme-Linière)",
+        "town": "Saint-Côme - Linière",
         "lat": 46.0105,
         "lon": -70.484,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 125k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 125k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Maibec inc. (Saint-Th\u00e9ophile)",
-        "town": "Saint-Th\u00e9ophile",
+        "company": "Maibec inc. (Saint-Théophile)",
+        "town": "Saint-Théophile",
         "lat": 45.9588,
         "lon": -70.4496,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 51k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 51k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Clermond Hamel lt\u00e9e",
-        "town": "Saint-\u00c9phrem-de-Beauce",
+        "company": "Clermond Hamel ltée",
+        "town": "Saint-Éphrem-de-Beauce",
         "lat": 46.0721,
         "lon": -70.9216,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 675k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 675k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13102,36 +13103,36 @@
         "lon": -68.7656,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 10k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 10k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Bardobec inc.",
-        "town": "Saint-Just-de-Breteni\u00e8res",
+        "town": "Saint-Just-de-Bretenières",
         "lat": 46.6035,
         "lon": -70.0399,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 40k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 40k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Produits de bois R\u00e9ginald Dingman et Fils d'Austin limit\u00e9e",
+        "company": "Produits de bois Réginald Dingman et Fils d'Austin limitée",
         "town": "Coaticook",
         "lat": 45.1252,
         "lon": -71.8105,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 8k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 8k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13141,36 +13142,36 @@
         "lon": -69.7764,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 73k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 73k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Ir\u00e9n\u00e9e Grondin & Fils lt\u00e9e",
+        "company": "Irénée Grondin & Fils ltée",
         "town": "Saint-Zacharie",
         "lat": 46.1292,
         "lon": -70.3552,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 159k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 159k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Produits Forestiers Miniers Abitibi inc.",
-        "town": "Rivi\u00e8re-H\u00e9va",
+        "town": "Rivière-Héva",
         "lat": 48.1382,
         "lon": -78.1352,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 9k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 9k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13180,49 +13181,49 @@
         "lon": -71.7721,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 512k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 512k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Bardeaux Lajoie inc. (Saint-Eus\u00e8be)",
-        "town": "Saint-Eus\u00e8be",
+        "company": "Les Bardeaux Lajoie inc. (Saint-Eusèbe)",
+        "town": "Saint-Eusèbe",
         "lat": 47.547,
         "lon": -68.9462,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 29k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 29k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Groupe Lebel inc. (D\u00e9gelis)",
-        "town": "D\u00e9gelis",
+        "company": "Groupe Lebel inc. (Dégelis)",
+        "town": "Dégelis",
         "lat": 47.5533,
         "lon": -68.6469,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 450k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Champeau M\u00e9gantic inc. (Frontenac)",
+        "company": "Champeau Mégantic inc. (Frontenac)",
         "town": "Frontenac",
         "lat": 45.6058,
         "lon": -70.8432,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 12k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 12k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13232,10 +13233,10 @@
         "lon": -70.6949,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 35k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 35k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13245,10 +13246,10 @@
         "lon": -71.6514,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 21k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 21k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13258,114 +13259,114 @@
         "lon": -66.6863,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 274k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 274k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Carrier & B\u00e9gin inc.",
-        "town": "Saint-Honor\u00e9-de-Shenley",
+        "company": "Carrier & Bégin inc.",
+        "town": "Saint-Honoré-de-Shenley",
         "lat": 45.9552,
         "lon": -70.8319,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 320k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 320k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF R\u00e9solu Canada inc. (Girardville)",
+        "company": "PF Résolu Canada inc. (Girardville)",
         "town": "Girardville",
         "lat": 49.1232,
         "lon": -72.6036,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 940k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 940k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF R\u00e9solu Canada inc. (Saint-Thomas)",
+        "company": "PF Résolu Canada inc. (Saint-Thomas)",
         "town": "Saint-Thomas-Didyme",
         "lat": 48.9162,
         "lon": -72.6525,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 450k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Chantiers de Chibougamau lt\u00e9e",
+        "company": "Les Chantiers de Chibougamau ltée",
         "town": "Chibougamau",
         "lat": 49.9313,
         "lon": -74.3677,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 1300k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 1300k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Barrette-Chapais lt\u00e9e",
+        "company": "Barrette-Chapais ltée",
         "town": "Chapais",
         "lat": 49.7907,
         "lon": -74.7098,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 1000k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 1000k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie Lachance 2015",
-        "town": "H\u00e9bertville",
+        "town": "Hébertville",
         "lat": 48.4658,
         "lon": -71.5874,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 12k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 12k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Chantiers de Chibougamau lt\u00e9e (Scierie La Sarre)",
+        "company": "Les Chantiers de Chibougamau ltée (Scierie La Sarre)",
         "town": "La Sarre",
         "lat": 48.8036,
         "lon": -79.2333,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 635k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 635k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Groupe Lebel inc. (Vall\u00e9e-des-Lacs)",
+        "company": "Groupe Lebel inc. (Vallée-des-Lacs)",
         "town": "Saint-Michel-du-Squatec",
         "lat": 47.8792,
         "lon": -68.7256,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 450k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13375,23 +13376,23 @@
         "lon": -68.6048,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 50k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 50k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Le Sp\u00e9cialiste du bardeau de c\u00e8dre inc.",
+        "company": "Le Spécialiste du bardeau de cèdre inc.",
         "town": "Saint-Prosper",
         "lat": 46.2087,
         "lon": -70.5408,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 73k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 73k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13401,23 +13402,23 @@
         "lon": -71.589,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 81k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 81k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie Lauz\u00e9 inc.",
-        "town": "Saint-\u00c9douard-de-Lotbini\u00e8re",
+        "company": "Scierie Lauzé inc.",
+        "town": "Saint-Édouard-de-Lotbinière",
         "lat": 46.5657,
         "lon": -71.8441,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 10k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 10k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13427,23 +13428,23 @@
         "lon": -71.8468,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 250k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 250k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Groupe Cr\u00eate division St-Faustin inc. (Usine Chertsey)",
+        "company": "Groupe Crête division St-Faustin inc. (Usine Chertsey)",
         "town": "Chertsey",
         "lat": 46.0788,
         "lon": -73.9034,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 225k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 225k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13453,23 +13454,23 @@
         "lon": -67.8213,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 70k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 70k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie Bois St-Fran\u00e7ois inc.",
-        "town": "Saint-Fran\u00e7ois-du-Lac",
+        "company": "Scierie Bois St-François inc.",
+        "town": "Saint-François-du-Lac",
         "lat": 46.0606,
         "lon": -72.8237,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 18k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 18k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13479,10 +13480,10 @@
         "lon": -66.3561,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 612k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 612k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13492,23 +13493,23 @@
         "lon": -65.629,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 80k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 80k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Industries G.D.S. inc. (Pointe-\u00e0-la-Croix)",
-        "town": "Pointe-\u00e0-la-Croix",
+        "company": "Industries G.D.S. inc. (Pointe-à-la-Croix)",
+        "town": "Pointe-à-la-Croix",
         "lat": 48.0295,
         "lon": -66.7161,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 255k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 255k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13518,10 +13519,10 @@
         "lon": -69.6425,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 154k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 154k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13531,49 +13532,49 @@
         "lon": -72.9453,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 140k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 140k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "La Compagnie Commonwealth Plywood lt\u00e9e (Low)",
+        "company": "La Compagnie Commonwealth Plywood ltée (Low)",
         "town": "Low",
         "lat": 45.8083,
         "lon": -75.9493,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 125k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 125k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF R\u00e9solu Canada inc. (Senneterre)",
+        "company": "PF Résolu Canada inc. (Senneterre)",
         "town": "Senneterre",
         "lat": 48.3857,
         "lon": -77.2318,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 925k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 925k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF R\u00e9solu Canada inc. (Comtois)",
-        "town": "Lebel-sur-Qu\u00e9villon",
+        "company": "PF Résolu Canada inc. (Comtois)",
+        "town": "Lebel-sur-Quévillon",
         "lat": 49.11,
         "lon": -77.152,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 590k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 590k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13583,10 +13584,10 @@
         "lon": -77.9514,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 780k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 780k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13596,36 +13597,36 @@
         "lon": -68.335,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 180k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 180k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Groupe Cr\u00eate Ferme-Neuve inc.",
+        "company": "Groupe Crête Ferme-Neuve inc.",
         "town": "Ferme-Neuve",
         "lat": 46.7092,
         "lon": -75.4397,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 580k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 580k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie Lapointe & Roy lt\u00e9e",
-        "town": "Courcelles - Saint-\u00c9variste",
+        "company": "Scierie Lapointe & Roy ltée",
+        "town": "Courcelles - Saint-Évariste",
         "lat": 45.873,
         "lon": -70.986,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 100k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 100k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13635,23 +13636,23 @@
         "lon": -72.9834,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 50k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 50k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Chantiers de Chibougamau lt\u00e9e (Scierie Matagami)",
+        "company": "Les Chantiers de Chibougamau ltée (Scierie Matagami)",
         "town": "Matagami",
         "lat": 49.7307,
         "lon": -77.7011,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 540k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 540k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13661,23 +13662,23 @@
         "lon": -71.5126,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 58k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 58k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Pr\u00e9verco inc. (Division Scierie)",
+        "company": "Préverco inc. (Division Scierie)",
         "town": "Daveluyville",
         "lat": 46.208,
         "lon": -72.1435,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 58k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 58k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13687,10 +13688,10 @@
         "lon": -66.5466,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 26k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 26k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13700,23 +13701,23 @@
         "lon": -71.7671,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 20k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 20k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Produits Forestiers D&G Lt\u00e9e (Sainte-Aur\u00e9lie)",
-        "town": "Sainte-Aur\u00e9lie",
+        "company": "Les Produits Forestiers D&G Ltée (Sainte-Aurélie)",
+        "town": "Sainte-Aurélie",
         "lat": 46.1809,
         "lon": -70.3692,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 530k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 530k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13726,36 +13727,36 @@
         "lon": -70.9922,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 224k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 224k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Produits forestiers Lachance inc.",
-        "town": "Sainte-\u00c9m\u00e9lie-de-l'\u00c9nergie",
+        "town": "Sainte-Émélie-de-l'Énergie",
         "lat": 46.3291,
         "lon": -73.6129,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 77k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 77k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Multi C\u00e8dre lt\u00e9e (MultiCed)",
+        "company": "Multi Cèdre ltée (MultiCed)",
         "town": "Esprit-Saint",
         "lat": 48.0744,
         "lon": -68.5533,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 32k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 32k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13765,23 +13766,23 @@
         "lon": -71.0863,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 45k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 45k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie St-Elz\u00e9ar inc.",
-        "town": "Saint-Elz\u00e9ar",
+        "company": "Scierie St-Elzéar inc.",
+        "town": "Saint-Elzéar",
         "lat": 48.1653,
         "lon": -65.3996,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 240k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 240k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13791,10 +13792,10 @@
         "lon": -75.629,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 40k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 40k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13804,10 +13805,10 @@
         "lon": -71.1175,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 52k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 52k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13817,10 +13818,10 @@
         "lon": -73.9247,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 2k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13830,10 +13831,10 @@
         "lon": -75.248,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 258k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 258k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13843,10 +13844,10 @@
         "lon": -72.281,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 61k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 61k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13856,23 +13857,23 @@
         "lon": -73.9257,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 400k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 400k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF R\u00e9solu Canada inc. (Baie-Comeau - Sciage)",
+        "company": "PF Résolu Canada inc. (Baie-Comeau - Sciage)",
         "town": "Baie-Comeau",
         "lat": 49.1795,
         "lon": -68.4045,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 800k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 800k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13882,10 +13883,10 @@
         "lon": -70.2185,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 24k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 24k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13895,10 +13896,10 @@
         "lon": -71.4055,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 122k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 122k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13908,10 +13909,10 @@
         "lon": -68.72,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 50k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 50k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13921,49 +13922,49 @@
         "lon": -74.6352,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 735k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 735k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "La Compagnie Commonwealth Plywood lt\u00e9e (Rapides-des-Joachims)",
+        "company": "La Compagnie Commonwealth Plywood ltée (Rapides-des-Joachims)",
         "town": "Rapides-des-Joachims",
         "lat": 46.2014,
         "lon": -77.7094,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 121k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 121k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Boisaco inc.",
-        "town": "Sacr\u00e9-Coeur",
+        "town": "Sacré-Coeur",
         "lat": 48.2784,
         "lon": -69.8854,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 630k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 630k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF R\u00e9solu Canada inc. (La Dor\u00e9)",
-        "town": "La Dor\u00e9",
+        "company": "PF Résolu Canada inc. (La Doré)",
+        "town": "La Doré",
         "lat": 48.7244,
         "lon": -72.6279,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 1050k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 1050k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -13973,49 +13974,49 @@
         "lon": -70.8592,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 48k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 48k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Entreprise Foresti\u00e8re Lambert inc.",
+        "company": "Entreprise Forestière Lambert inc.",
         "town": "Saint-Augustin-de-Woburn",
         "lat": 45.3886,
         "lon": -70.8677,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 90k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 90k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Mat\u00e9riaux Blanchet inc. (Amos)",
+        "company": "Matériaux Blanchet inc. (Amos)",
         "town": "Amos",
         "lat": 48.5605,
         "lon": -78.1694,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 530k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 530k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Arbec, Bois d'oeuvre inc. (Saint-Roch)",
-        "town": "Saint-Roch-de-M\u00e9kinac",
+        "town": "Saint-Roch-de-Mékinac",
         "lat": 46.7994,
         "lon": -72.7643,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 740k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 740k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14025,10 +14026,10 @@
         "lon": -71.5024,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 140k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 140k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14038,10 +14039,10 @@
         "lon": -70.8554,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 325k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 325k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14051,10 +14052,10 @@
         "lon": -72.3917,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 31k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 31k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14064,36 +14065,36 @@
         "lon": -70.3954,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 220k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 220k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "B\u00e9gin & B\u00e9gin inc. (Saint-Juste-du-Lac)",
+        "company": "Bégin & Bégin inc. (Saint-Juste-du-Lac)",
         "town": "Saint-Juste-du-Lac",
         "lat": 47.6668,
         "lon": -68.6693,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 130k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 130k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Groupe NBG inc.",
-        "town": "Rivi\u00e8re-Bleue",
+        "town": "Rivière-Bleue",
         "lat": 47.4358,
         "lon": -69.0659,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 195k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 195k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14103,10 +14104,10 @@
         "lon": -69.7497,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 28k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 28k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14116,23 +14117,23 @@
         "lon": -72.5879,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 96k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 96k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Bois Daaquam inc. (Saint-Just-de-Breteni\u00e8res)",
-        "town": "Saint-Just-de-Breteni\u00e8res",
+        "company": "Bois Daaquam inc. (Saint-Just-de-Bretenières)",
+        "town": "Saint-Just-de-Bretenières",
         "lat": 46.5695,
         "lon": -70.0978,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 467k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 467k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14142,49 +14143,49 @@
         "lon": -71.8397,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 600k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 600k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Ad\u00e9lard Goyette & Fils lt\u00e9e",
-        "town": "Rivi\u00e8re-\u00e0-Pierre",
+        "company": "Adélard Goyette & Fils ltée",
+        "town": "Rivière-à-Pierre",
         "lat": 46.9991,
         "lon": -72.1751,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 33k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 33k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Chantiers de Chibougamau lt\u00e9e (Scierie B\u00e9arn)",
-        "town": "B\u00e9arn",
+        "company": "Les Chantiers de Chibougamau ltée (Scierie Béarn)",
+        "town": "Béarn",
         "lat": 47.2807,
         "lon": -79.3295,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 650k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 650k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Les Scieries du Lac St-Jean inc.",
-        "town": "M\u00e9tabetchouan - Lac-\u00e0-la-Croix",
+        "town": "Métabetchouan - Lac-à-la-Croix",
         "lat": 48.3791,
         "lon": -71.8862,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 255k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 255k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14194,49 +14195,49 @@
         "lon": -71.6109,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 1130k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 1130k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "La Scierie Martel lt\u00e9e",
+        "company": "La Scierie Martel ltée",
         "town": "Alma",
         "lat": 48.5106,
         "lon": -71.5898,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 118k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 118k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "La Compagnie Commonwealth Plywood lt\u00e9e (Mont-Laurier)",
+        "company": "La Compagnie Commonwealth Plywood ltée (Mont-Laurier)",
         "town": "Mont-Laurier",
         "lat": 46.5481,
         "lon": -75.4744,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 115k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 115k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie Cojovi Toupin & fils inc.",
-        "town": "Saint-C\u00e9lestin",
+        "town": "Saint-Célestin",
         "lat": 46.1895,
         "lon": -72.4109,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 2k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14246,49 +14247,49 @@
         "lon": -67.2365,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 660k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 660k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Entreprises foresti\u00e8res Gauthier SNC",
-        "town": "Saint-Andr\u00e9-Avellin",
+        "company": "Les Entreprises forestières Gauthier SNC",
+        "town": "Saint-André-Avellin",
         "lat": 45.6657,
         "lon": -75.0853,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 3k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF R\u00e9solu Canada inc. (Saint-F\u00e9licien)",
-        "town": "Saint-F\u00e9licien",
+        "company": "PF Résolu Canada inc. (Saint-Félicien)",
+        "town": "Saint-Félicien",
         "lat": 48.6406,
         "lon": -72.4458,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 680k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 680k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "PF R\u00e9solu Canada inc. (Dolbeau-Mistassini - Sciage)",
+        "company": "PF Résolu Canada inc. (Dolbeau-Mistassini - Sciage)",
         "town": "Dolbeau-Mistassini",
         "lat": 48.8823,
         "lon": -72.2032,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 900k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 900k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14298,10 +14299,10 @@
         "lon": -70.7695,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 330k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 330k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14311,36 +14312,36 @@
         "lon": -71.2926,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 380k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 380k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie de la Rouge inc.",
-        "town": "Rivi\u00e8re-Rouge",
+        "town": "Rivière-Rouge",
         "lat": 46.3735,
         "lon": -74.8574,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 27k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 27k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Bois Granval G.D.S. inc. (Grande-Vall\u00e9e)",
-        "town": "Grande-Vall\u00e9e",
+        "company": "Bois Granval G.D.S. inc. (Grande-Vallée)",
+        "town": "Grande-Vallée",
         "lat": 49.2186,
         "lon": -65.1337,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 246k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 246k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14350,10 +14351,10 @@
         "lon": -66.0723,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 242k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 242k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14363,36 +14364,36 @@
         "lon": -69.5375,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 72k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 72k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie Arbotek inc.",
-        "town": "Saint-Just-de-Breteni\u00e8res",
+        "town": "Saint-Just-de-Bretenières",
         "lat": 46.5553,
         "lon": -70.0778,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 30k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 30k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
         "company": "Scierie SerDam inc.",
-        "town": "La R\u00e9demption",
+        "town": "La Rédemption",
         "lat": 48.4456,
         "lon": -67.8757,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 53k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 53k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14402,10 +14403,10 @@
         "lon": -71.8121,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 25k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 25k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14415,10 +14416,10 @@
         "lon": -66.8243,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 720k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 720k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14428,10 +14429,10 @@
         "lon": -72.0222,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 18k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 18k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14441,23 +14442,23 @@
         "lon": -72.8897,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 648k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 648k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Les Chantiers de Chibougamau lt\u00e9e (Mont Bourbeau)",
+        "company": "Les Chantiers de Chibougamau ltée (Mont Bourbeau)",
         "town": "Chibougamau",
         "lat": 49.9204,
         "lon": -74.3465,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 2k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14467,10 +14468,10 @@
         "lon": -71.4573,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 3k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14480,23 +14481,23 @@
         "lon": -74.9239,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 29k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 29k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Soci\u00e9t\u00e9 en commandite Scierie Opitciwan",
+        "company": "Société en commandite Scierie Opitciwan",
         "town": "Obedjiwan",
         "lat": 48.6674,
         "lon": -74.9292,
         "sizeTier": "lg",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 276k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 276k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
@@ -14506,23 +14507,23 @@
         "lon": -73.9124,
         "sizeTier": "sm",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 5k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 5k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "QC",
-        "company": "Scierie de la Vall\u00e9e",
+        "company": "Scierie de la Vallée",
         "town": "Amqui",
         "lat": 48.4984,
         "lon": -67.4829,
         "sizeTier": "md",
         "capacityMMbf": null,
-        "capacityLabel": "permitted 43k m\u00b3/yr (roundwood)",
+        "capacityLabel": "permitted 43k m³/yr (roundwood)",
         "status": "operating",
         "coordAccuracy": "exact",
-        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+        "source": "MRNF Québec — Usines de transformation primaire (live)"
       },
       {
         "province": "ON",
@@ -15918,11 +15919,11 @@
     ]
   },
   "fires": {
-    "asOf": "2026-07-20T17:43:04.170Z",
-    "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
+    "asOf": "2026-07-20T15:56:48.474Z",
+    "source": "NASA FIRMS — VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
-    "total": 6569,
-    "count": 6569,
+    "total": 6562,
+    "count": 6562,
     "capped": false,
     "fields": [
       "lat",
@@ -21478,18 +21479,6 @@
       [
         51.412,
         -89.613,
-        19,
-        0
-      ],
-      [
-        51.624,
-        -78.374,
-        19,
-        1
-      ],
-      [
-        51.627,
-        -78.383,
         19,
         0
       ],
@@ -28940,12 +28929,6 @@
         0
       ],
       [
-        42.796,
-        -73.702,
-        7,
-        1
-      ],
-      [
         62.956,
         -122.623,
         7,
@@ -33518,12 +33501,6 @@
         0
       ],
       [
-        51.618,
-        -78.375,
-        5,
-        0
-      ],
-      [
         63.585,
         -118.978,
         5,
@@ -34562,12 +34539,6 @@
         0
       ],
       [
-        51.69,
-        -78.603,
-        4,
-        0
-      ],
-      [
         63.575,
         -118.97,
         4,
@@ -35432,12 +35403,6 @@
         0
       ],
       [
-        45.235,
-        -63.653,
-        4,
-        0
-      ],
-      [
         44.656,
         -120.178,
         4,
@@ -35536,12 +35501,6 @@
       [
         63.845,
         -118.64,
-        4,
-        0
-      ],
-      [
-        45.839,
-        -73.249,
         4,
         0
       ],
@@ -37826,12 +37785,6 @@
         0
       ],
       [
-        42.544,
-        -71.593,
-        3,
-        0
-      ],
-      [
         64.387,
         -116.628,
         3,
@@ -39130,6 +39083,12 @@
       [
         44.076,
         -119.951,
+        3,
+        0
+      ],
+      [
+        45.838,
+        -73.251,
         3,
         0
       ],

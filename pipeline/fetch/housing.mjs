@@ -73,9 +73,28 @@ function assemblePair(mapA, mapB, keyA, keyB, unit, startYear) {
   };
 }
 
+// Real inventory index = (nominal inventory$ / goods PPI), rebased to base=100.
+// Only months present in BOTH series are kept, so the two line up exactly.
+function realInventory(invMap, ppiMap, base, startYear) {
+  const unit = `index, ${base.slice(0, 4)} = 100`;
+  const bInv = invMap.get(base), bPpi = ppiMap.get(base);
+  if (!bInv || !bPpi) return { unit, freq: 'monthly', base, series: [] };
+  const bReal = bInv / bPpi;
+  const periods = [...invMap.keys()]
+    .filter((p) => ppiMap.has(p) && Number(p.slice(0, 4)) >= startYear)
+    .sort();
+  return {
+    unit, freq: 'monthly', base,
+    series: periods.map((p) => ({
+      period: p,
+      value: +(((invMap.get(p) / ppiMap.get(p)) / bReal) * 100).toFixed(1),
+    })),
+  };
+}
+
 export async function fetchHousing({ startYear = 2015 } = {}) {
   const [houst, houst1f, permit, permit1, supply, newSales, activeListings,
-    houst5f, permit5, undcon5, distInv] = await Promise.all([
+    houst5f, permit5, undcon5, distInvLvl, distPpi] = await Promise.all([
     fredSeries('HOUST'), fredSeries('HOUST1F'), fredSeries('PERMIT'), fredSeries('PERMIT1'),
     fredSeries('MSACSR'),      // Monthly Supply of New Houses (months) — housing supply/demand balance
     fredSeries('HSN1F'),       // New One-Family Houses Sold (thousands SAAR, Census) — new-construction demand
@@ -83,7 +102,8 @@ export async function fetchHousing({ startYear = 2015 } = {}) {
     fredSeries('HOUST5F'),     // Housing Starts: 5+ Unit Structures (multi-family), thousands SAAR
     fredSeries('PERMIT5'),     // Building Permits: 5+ Units (multi-family), thousands SAAR
     fredSeries('UNDCON5MUSA'), // Under Construction: 5+ Units — the multi-family backlog
-    fredSeries('R4233IM163NCEN'), // Wholesalers (lumber & construction materials) Inventories/Sales ratio — distributor channel stocking
+    fredSeries('I4233IM144SCEN'), // Merchant wholesaler inventories: lumber & construction materials ($M level)
+    fredSeries('WPUSI012011'),    // PPI (commodity): Construction Materials — goods deflator
   ]);
   return {
     starts: assemble(houst, houst1f, startYear),
@@ -97,9 +117,10 @@ export async function fetchHousing({ startYear = 2015 } = {}) {
       // Units in 5+ unit buildings currently under construction (the pipeline backlog).
       underConstruction: assembleSingle(undcon5, 'thousands of units', startYear),
     },
-    // Distributor-channel stocking: months of sales held as inventory by lumber &
-    // construction-materials wholesalers (Census). Price-neutral destock/restock gauge.
-    distInventory: assembleSingle(distInv, 'months', startYear),
+    // Real distributor inventory VOLUME: nominal wholesaler inventories ($, Census)
+    // deflated by the construction-materials goods PPI, so price is stripped out and
+    // only physical stock movement remains. Indexed to 2019 = 100.
+    distInventoryVolume: realInventory(distInvLvl, distPpi, '2019-01', startYear),
   };
 }
 
