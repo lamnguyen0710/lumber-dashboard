@@ -663,7 +663,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 648
+          "framing_composite": 647
         }
       ]
     },
@@ -2509,7 +2509,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-20T19:04:28.898Z",
+      "fetchedAt": "2026-07-20T19:38:12.856Z",
       "items": [
         {
           "title": "Weyerhaeuser stock trades steady as timber REIT leans on cash flow and housing demand",
@@ -15920,7 +15920,7 @@ window.LUMBER_DATA = {
     ]
   },
   "fires": {
-    "asOf": "2026-07-20T19:04:31.016Z",
+    "asOf": "2026-07-20T19:38:14.492Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
     "total": 6701,
@@ -38596,6 +38596,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        42.544,
+        -71.593,
+        3,
+        0
+      ],
+      [
         64.586,
         -115.865,
         3,
@@ -38634,12 +38640,6 @@ window.LUMBER_DATA = {
       [
         62.627,
         -120.767,
-        3,
-        0
-      ],
-      [
-        42.544,
-        -71.593,
         3,
         0
       ],
