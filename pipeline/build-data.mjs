@@ -71,7 +71,17 @@ async function main() {
   };
   try {
     dataset.mills = await fetchMills();
-    console.log(`[build-data] mills: ${dataset.mills.count} (${JSON.stringify(dataset.mills.byProvince)})`);
+    // A live province (esp. Québec's MRNF server, flaky from CI) can drop out
+    // without throwing — fetchMills just returns fewer. If the census shrinks
+    // materially vs the last good build, that's a degraded fetch, not real
+    // attrition; keep the previous complete census.
+    const p = readPrev();
+    if (p.mills && p.mills.count && dataset.mills.count < p.mills.count * 0.85) {
+      console.warn(`[build-data] ⚠ mills ${p.mills.count}→${dataset.mills.count} (a live source flaked) — kept previous census`);
+      dataset.mills = p.mills;
+    } else {
+      console.log(`[build-data] mills: ${dataset.mills.count} (${JSON.stringify(dataset.mills.byProvince)})`);
+    }
   } catch (e) {
     const p = readPrev();
     if (p.mills) { dataset.mills = p.mills; console.warn('[build-data] ⚠ mills fetch failed — carried forward'); }
