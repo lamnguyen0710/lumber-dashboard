@@ -443,7 +443,7 @@
     if (ind.distInventory) {
       C.line('chDistInventory', ind.distInventory.series.map(p => p.period), [
         { label: 'Inventory/sales ratio', data: ind.distInventory.series.map(p => p.value), slot: 6 },
-      ], { unit: 'months', legend: false, xTicks: 8, beginAtZero: false, fill: true });
+      ], { unit: 'months', legend: false, xTicks: 8, beginAtZero: false, fill: true, decimals: 2 });
     }
 
     if (DATA.stumpage && DATA.stumpage.regions) {

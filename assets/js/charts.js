@@ -74,7 +74,8 @@
             label: (ctx) => {
               const v = ctx.parsed.y;
               const unit = opts.unit ? ' ' + opts.unit : '';
-              return `  ${ctx.dataset.label}: ${window.fmt.int(v)}${unit}`;
+              const val = opts.decimals != null ? Number(v).toFixed(opts.decimals) : window.fmt.int(v);
+              return `  ${ctx.dataset.label}: ${val}${unit}`;
             },
           },
         },
@@ -97,7 +98,7 @@
           border: { display: false },
           ticks: {
             color: t.muted, font: { family: fontFamily(), size: 11 }, padding: 8,
-            callback: (v) => window.fmt.compact(v),
+            callback: (v) => (opts.decimals != null ? Number(v).toFixed(opts.decimals) : window.fmt.compact(v)),
           },
         },
       },
