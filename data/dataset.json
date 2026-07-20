@@ -662,7 +662,7 @@
         },
         {
           "period": "2026-07",
-          "framing_composite": 635
+          "framing_composite": 648
         }
       ]
     },
@@ -2508,7 +2508,7 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-20T13:55:20.117Z",
+      "fetchedAt": "2026-07-20T14:56:30.389Z",
       "items": [
         {
           "title": "Weyerhaeuser Q2 2025 Earnings Preview",
@@ -2667,16 +2667,16 @@
           "date": "2026-07-15T21:02:00.000Z"
         },
         {
-          "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdjBoUXpVZkxNT0V0Q3RoYldleXBRWnBQNVRRd1JKN1JvaXRHTkYtY244ZUhlZGJRNlJodGZ5cFR5bXVaamI4dUJfZGFpSU5hMEI3Wm9mbXZoWGo2RzhQLVQ3V1ZlU0hzU1p6bGVNaXBvZld2UnVCMWF4TzBLUUhJZkM3b1R6bG9SRTZ2QU1JVUNmZmJnZEJzTE9QbDVfSTJKN1IyYi1vbFZRWmU3dE1n?oc=5",
-          "source": "Creston Valley Advance",
-          "date": "2026-07-15T20:14:24.000Z"
-        },
-        {
           "title": "Canfor closing Prince George pulp mill, hundreds of jobs lost",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZW42dEtMSmZkOEVTT1dMaHNiRWxpczhwVF9JYWt1TGVFZWh3d2hOcUxQV0JwRUhxLVZjMlFaV1d6a2ZFcThzdG5SMmJlNC1PbHpsV2dVWnJqWU4tSGVvM1dNOWVVUnNvYWJUQmpvTkxRbWF4bFIzUWFIc3lTTjdFTnZQdnFKSWcwdjFwcGc1ay10U2EwbTZ1U21R?oc=5",
           "source": "Global News",
           "date": "2026-07-15T20:10:37.000Z"
+        },
+        {
+          "title": "Canfor closing Prince George Northwood pulp mill, 300 jobs affected",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZVFpZjlJWnNyZTRMdUpHY1J0ZUZuRzYzc1hSMGpnb3E1RThMRDhvVkNsazRzNWxfODktclEtV0NLaUNwN3RyRGFTX0RCTTJmRWplZlIxWnpfUkRVYVNWV3VxUXoxSmVZUzJTdHl4d1EwMVBxV0RYUmZfcXB1bmRGOHB0alhydm9sX0JPWlNDcS1SV29kby04QmhtY1NkS3hGME9IeUpEODhGQ1U3LWU4ODZmc0JBWkk?oc=5",
+          "source": "The Ashcroft-Cache Creek Journal",
+          "date": "2026-07-15T20:10:26.000Z"
         },
         {
           "title": "Canfor pulp mill closure impacts workers, highlights need for forestry sector evolution",
@@ -4286,839 +4286,6 @@
         }
       ]
     },
-    "exportsByRegion": {
-      "unit": "MBF",
-      "freq": "monthly",
-      "regions": [
-        "BC Interior",
-        "BC Coast",
-        "Alberta",
-        "Ontario",
-        "Quebec",
-        "Maritimes",
-        "Other"
-      ],
-      "series": [
-        {
-          "period": "2020-01",
-          "BC Interior": 353580,
-          "BC Coast": 30998,
-          "Alberta": 162513,
-          "Ontario": 124674,
-          "Quebec": 196427,
-          "Maritimes": 106362,
-          "Other": 62761
-        },
-        {
-          "period": "2020-02",
-          "BC Interior": 349025,
-          "BC Coast": 37826,
-          "Alberta": 136549,
-          "Ontario": 110851,
-          "Quebec": 152832,
-          "Maritimes": 94234,
-          "Other": 55823
-        },
-        {
-          "period": "2020-03",
-          "BC Interior": 437805,
-          "BC Coast": 43927,
-          "Alberta": 183523,
-          "Ontario": 112737,
-          "Quebec": 218031,
-          "Maritimes": 115423,
-          "Other": 57572
-        },
-        {
-          "period": "2020-04",
-          "BC Interior": 337093,
-          "BC Coast": 31280,
-          "Alberta": 156142,
-          "Ontario": 104299,
-          "Quebec": 187827,
-          "Maritimes": 111122,
-          "Other": 58055
-        },
-        {
-          "period": "2020-05",
-          "BC Interior": 276267,
-          "BC Coast": 48371,
-          "Alberta": 142868,
-          "Ontario": 107267,
-          "Quebec": 191924,
-          "Maritimes": 105670,
-          "Other": 58298
-        },
-        {
-          "period": "2020-06",
-          "BC Interior": 381005,
-          "BC Coast": 53579,
-          "Alberta": 169356,
-          "Ontario": 117965,
-          "Quebec": 177836,
-          "Maritimes": 122101,
-          "Other": 57575
-        },
-        {
-          "period": "2020-07",
-          "BC Interior": 440612,
-          "BC Coast": 50299,
-          "Alberta": 177624,
-          "Ontario": 105583,
-          "Quebec": 167827,
-          "Maritimes": 125722,
-          "Other": 51292
-        },
-        {
-          "period": "2020-08",
-          "BC Interior": 471792,
-          "BC Coast": 50972,
-          "Alberta": 162776,
-          "Ontario": 110449,
-          "Quebec": 174267,
-          "Maritimes": 106392,
-          "Other": 58330
-        },
-        {
-          "period": "2020-09",
-          "BC Interior": 506137,
-          "BC Coast": 64315,
-          "Alberta": 191616,
-          "Ontario": 115835,
-          "Quebec": 217418,
-          "Maritimes": 120115,
-          "Other": 65512
-        },
-        {
-          "period": "2020-10",
-          "BC Interior": 520868,
-          "BC Coast": 68248,
-          "Alberta": 186647,
-          "Ontario": 104414,
-          "Quebec": 195741,
-          "Maritimes": 117858,
-          "Other": 62347
-        },
-        {
-          "period": "2020-11",
-          "BC Interior": 442858,
-          "BC Coast": 53643,
-          "Alberta": 187514,
-          "Ontario": 107072,
-          "Quebec": 202471,
-          "Maritimes": 107888,
-          "Other": 61335
-        },
-        {
-          "period": "2020-12",
-          "BC Interior": 451190,
-          "BC Coast": 58261,
-          "Alberta": 167711,
-          "Ontario": 110202,
-          "Quebec": 180121,
-          "Maritimes": 102094,
-          "Other": 54586
-        },
-        {
-          "period": "2021-01",
-          "BC Interior": 467861,
-          "BC Coast": 54979,
-          "Alberta": 165231,
-          "Ontario": 100346,
-          "Quebec": 176082,
-          "Maritimes": 98503,
-          "Other": 61468
-        },
-        {
-          "period": "2021-02",
-          "BC Interior": 401073,
-          "BC Coast": 58355,
-          "Alberta": 149596,
-          "Ontario": 90677,
-          "Quebec": 183335,
-          "Maritimes": 99531,
-          "Other": 59849
-        },
-        {
-          "period": "2021-03",
-          "BC Interior": 497291,
-          "BC Coast": 65609,
-          "Alberta": 194324,
-          "Ontario": 105153,
-          "Quebec": 199651,
-          "Maritimes": 109778,
-          "Other": 70362
-        },
-        {
-          "period": "2021-04",
-          "BC Interior": 533082,
-          "BC Coast": 63925,
-          "Alberta": 189282,
-          "Ontario": 126973,
-          "Quebec": 200597,
-          "Maritimes": 104924,
-          "Other": 64932
-        },
-        {
-          "period": "2021-05",
-          "BC Interior": 530995,
-          "BC Coast": 71080,
-          "Alberta": 175676,
-          "Ontario": 114163,
-          "Quebec": 190462,
-          "Maritimes": 102502,
-          "Other": 66289
-        },
-        {
-          "period": "2021-06",
-          "BC Interior": 531397,
-          "BC Coast": 70799,
-          "Alberta": 179059,
-          "Ontario": 110993,
-          "Quebec": 181929,
-          "Maritimes": 108537,
-          "Other": 65707
-        },
-        {
-          "period": "2021-07",
-          "BC Interior": 423092,
-          "BC Coast": 53059,
-          "Alberta": 162043,
-          "Ontario": 103267,
-          "Quebec": 157771,
-          "Maritimes": 110348,
-          "Other": 50577
-        },
-        {
-          "period": "2021-08",
-          "BC Interior": 370930,
-          "BC Coast": 42741,
-          "Alberta": 162014,
-          "Ontario": 107148,
-          "Quebec": 187052,
-          "Maritimes": 103697,
-          "Other": 65186
-        },
-        {
-          "period": "2021-09",
-          "BC Interior": 371479,
-          "BC Coast": 42327,
-          "Alberta": 169523,
-          "Ontario": 125413,
-          "Quebec": 230300,
-          "Maritimes": 113435,
-          "Other": 74375
-        },
-        {
-          "period": "2021-10",
-          "BC Interior": 422184,
-          "BC Coast": 40882,
-          "Alberta": 173983,
-          "Ontario": 122692,
-          "Quebec": 202182,
-          "Maritimes": 113527,
-          "Other": 75030
-        },
-        {
-          "period": "2021-11",
-          "BC Interior": 404723,
-          "BC Coast": 49558,
-          "Alberta": 181529,
-          "Ontario": 135021,
-          "Quebec": 220408,
-          "Maritimes": 108952,
-          "Other": 70660
-        },
-        {
-          "period": "2021-12",
-          "BC Interior": 345564,
-          "BC Coast": 29722,
-          "Alberta": 173562,
-          "Ontario": 98656,
-          "Quebec": 158666,
-          "Maritimes": 99190,
-          "Other": 53179
-        },
-        {
-          "period": "2022-01",
-          "BC Interior": 423032,
-          "BC Coast": 40687,
-          "Alberta": 166728,
-          "Ontario": 93753,
-          "Quebec": 168629,
-          "Maritimes": 95601,
-          "Other": 57010
-        },
-        {
-          "period": "2022-02",
-          "BC Interior": 331726,
-          "BC Coast": 41948,
-          "Alberta": 141899,
-          "Ontario": 81681,
-          "Quebec": 137857,
-          "Maritimes": 90456,
-          "Other": 54600
-        },
-        {
-          "period": "2022-03",
-          "BC Interior": 469809,
-          "BC Coast": 52198,
-          "Alberta": 164334,
-          "Ontario": 112902,
-          "Quebec": 169566,
-          "Maritimes": 112704,
-          "Other": 70441
-        },
-        {
-          "period": "2022-04",
-          "BC Interior": 445521,
-          "BC Coast": 50722,
-          "Alberta": 160501,
-          "Ontario": 103090,
-          "Quebec": 145849,
-          "Maritimes": 115973,
-          "Other": 67112
-        },
-        {
-          "period": "2022-05",
-          "BC Interior": 473364,
-          "BC Coast": 58732,
-          "Alberta": 183614,
-          "Ontario": 104955,
-          "Quebec": 180937,
-          "Maritimes": 114984,
-          "Other": 71513
-        },
-        {
-          "period": "2022-06",
-          "BC Interior": 443035,
-          "BC Coast": 50367,
-          "Alberta": 180823,
-          "Ontario": 114137,
-          "Quebec": 191199,
-          "Maritimes": 113917,
-          "Other": 70364
-        },
-        {
-          "period": "2022-07",
-          "BC Interior": 432300,
-          "BC Coast": 45734,
-          "Alberta": 179122,
-          "Ontario": 112376,
-          "Quebec": 160433,
-          "Maritimes": 109272,
-          "Other": 60622
-        },
-        {
-          "period": "2022-08",
-          "BC Interior": 458985,
-          "BC Coast": 49307,
-          "Alberta": 182526,
-          "Ontario": 116496,
-          "Quebec": 158036,
-          "Maritimes": 116329,
-          "Other": 66176
-        },
-        {
-          "period": "2022-09",
-          "BC Interior": 398230,
-          "BC Coast": 48218,
-          "Alberta": 168718,
-          "Ontario": 121511,
-          "Quebec": 187860,
-          "Maritimes": 106068,
-          "Other": 68199
-        },
-        {
-          "period": "2022-10",
-          "BC Interior": 358678,
-          "BC Coast": 45309,
-          "Alberta": 155556,
-          "Ontario": 114225,
-          "Quebec": 192448,
-          "Maritimes": 110710,
-          "Other": 61883
-        },
-        {
-          "period": "2022-11",
-          "BC Interior": 341236,
-          "BC Coast": 44335,
-          "Alberta": 135415,
-          "Ontario": 116367,
-          "Quebec": 195789,
-          "Maritimes": 102277,
-          "Other": 60672
-        },
-        {
-          "period": "2022-12",
-          "BC Interior": 239995,
-          "BC Coast": 36447,
-          "Alberta": 106970,
-          "Ontario": 88516,
-          "Quebec": 153738,
-          "Maritimes": 89854,
-          "Other": 45888
-        },
-        {
-          "period": "2023-01",
-          "BC Interior": 296867,
-          "BC Coast": 42675,
-          "Alberta": 155083,
-          "Ontario": 105214,
-          "Quebec": 172162,
-          "Maritimes": 100171,
-          "Other": 59126
-        },
-        {
-          "period": "2023-02",
-          "BC Interior": 268617,
-          "BC Coast": 43575,
-          "Alberta": 122569,
-          "Ontario": 107188,
-          "Quebec": 165971,
-          "Maritimes": 95499,
-          "Other": 61476
-        },
-        {
-          "period": "2023-03",
-          "BC Interior": 379081,
-          "BC Coast": 52441,
-          "Alberta": 162060,
-          "Ontario": 119067,
-          "Quebec": 181774,
-          "Maritimes": 112104,
-          "Other": 73259
-        },
-        {
-          "period": "2023-04",
-          "BC Interior": 363165,
-          "BC Coast": 40663,
-          "Alberta": 147959,
-          "Ontario": 110927,
-          "Quebec": 176374,
-          "Maritimes": 103171,
-          "Other": 57325
-        },
-        {
-          "period": "2023-05",
-          "BC Interior": 359316,
-          "BC Coast": 53795,
-          "Alberta": 180376,
-          "Ontario": 130864,
-          "Quebec": 174002,
-          "Maritimes": 116477,
-          "Other": 75388
-        },
-        {
-          "period": "2023-06",
-          "BC Interior": 340626,
-          "BC Coast": 61121,
-          "Alberta": 171405,
-          "Ontario": 121529,
-          "Quebec": 145460,
-          "Maritimes": 113567,
-          "Other": 63955
-        },
-        {
-          "period": "2023-07",
-          "BC Interior": 359330,
-          "BC Coast": 54268,
-          "Alberta": 156476,
-          "Ontario": 114501,
-          "Quebec": 120688,
-          "Maritimes": 98829,
-          "Other": 46844
-        },
-        {
-          "period": "2023-08",
-          "BC Interior": 366074,
-          "BC Coast": 57066,
-          "Alberta": 171920,
-          "Ontario": 116554,
-          "Quebec": 142652,
-          "Maritimes": 112905,
-          "Other": 52369
-        },
-        {
-          "period": "2023-09",
-          "BC Interior": 329880,
-          "BC Coast": 47778,
-          "Alberta": 158406,
-          "Ontario": 114369,
-          "Quebec": 175615,
-          "Maritimes": 104616,
-          "Other": 61427
-        },
-        {
-          "period": "2023-10",
-          "BC Interior": 352222,
-          "BC Coast": 45477,
-          "Alberta": 146014,
-          "Ontario": 113295,
-          "Quebec": 188980,
-          "Maritimes": 108944,
-          "Other": 61087
-        },
-        {
-          "period": "2023-11",
-          "BC Interior": 337558,
-          "BC Coast": 42275,
-          "Alberta": 152244,
-          "Ontario": 114290,
-          "Quebec": 175797,
-          "Maritimes": 113495,
-          "Other": 63849
-        },
-        {
-          "period": "2023-12",
-          "BC Interior": 271922,
-          "BC Coast": 32705,
-          "Alberta": 127402,
-          "Ontario": 112294,
-          "Quebec": 144979,
-          "Maritimes": 96296,
-          "Other": 49776
-        },
-        {
-          "period": "2024-01",
-          "BC Interior": 345300,
-          "BC Coast": 34748,
-          "Alberta": 148417,
-          "Ontario": 130521,
-          "Quebec": 180835,
-          "Maritimes": 112423,
-          "Other": 66708
-        },
-        {
-          "period": "2024-02",
-          "BC Interior": 352542,
-          "BC Coast": 47101,
-          "Alberta": 148983,
-          "Ontario": 115062,
-          "Quebec": 193068,
-          "Maritimes": 106492,
-          "Other": 66714
-        },
-        {
-          "period": "2024-03",
-          "BC Interior": 340459,
-          "BC Coast": 43107,
-          "Alberta": 160036,
-          "Ontario": 126957,
-          "Quebec": 209545,
-          "Maritimes": 109688,
-          "Other": 66500
-        },
-        {
-          "period": "2024-04",
-          "BC Interior": 349653,
-          "BC Coast": 38484,
-          "Alberta": 189284,
-          "Ontario": 109957,
-          "Quebec": 197436,
-          "Maritimes": 115478,
-          "Other": 58775
-        },
-        {
-          "period": "2024-05",
-          "BC Interior": 355128,
-          "BC Coast": 42687,
-          "Alberta": 173929,
-          "Ontario": 121641,
-          "Quebec": 218633,
-          "Maritimes": 115014,
-          "Other": 72560
-        },
-        {
-          "period": "2024-06",
-          "BC Interior": 300923,
-          "BC Coast": 44935,
-          "Alberta": 151961,
-          "Ontario": 101630,
-          "Quebec": 178771,
-          "Maritimes": 106979,
-          "Other": 63189
-        },
-        {
-          "period": "2024-07",
-          "BC Interior": 305265,
-          "BC Coast": 50028,
-          "Alberta": 167263,
-          "Ontario": 116771,
-          "Quebec": 188239,
-          "Maritimes": 114490,
-          "Other": 50101
-        },
-        {
-          "period": "2024-08",
-          "BC Interior": 289686,
-          "BC Coast": 47497,
-          "Alberta": 155849,
-          "Ontario": 103793,
-          "Quebec": 170069,
-          "Maritimes": 112123,
-          "Other": 61322
-        },
-        {
-          "period": "2024-09",
-          "BC Interior": 292018,
-          "BC Coast": 38472,
-          "Alberta": 152769,
-          "Ontario": 95289,
-          "Quebec": 173618,
-          "Maritimes": 111455,
-          "Other": 62501
-        },
-        {
-          "period": "2024-10",
-          "BC Interior": 333798,
-          "BC Coast": 41585,
-          "Alberta": 182410,
-          "Ontario": 124699,
-          "Quebec": 202593,
-          "Maritimes": 116431,
-          "Other": 73339
-        },
-        {
-          "period": "2024-11",
-          "BC Interior": 286967,
-          "BC Coast": 37678,
-          "Alberta": 146404,
-          "Ontario": 110257,
-          "Quebec": 178183,
-          "Maritimes": 102511,
-          "Other": 67050
-        },
-        {
-          "period": "2024-12",
-          "BC Interior": 238305,
-          "BC Coast": 36793,
-          "Alberta": 126593,
-          "Ontario": 89643,
-          "Quebec": 129258,
-          "Maritimes": 90404,
-          "Other": 49121
-        },
-        {
-          "period": "2025-01",
-          "BC Interior": 309957,
-          "BC Coast": 47975,
-          "Alberta": 174824,
-          "Ontario": 109328,
-          "Quebec": 164411,
-          "Maritimes": 109938,
-          "Other": 77555
-        },
-        {
-          "period": "2025-02",
-          "BC Interior": 270419,
-          "BC Coast": 40750,
-          "Alberta": 132595,
-          "Ontario": 107599,
-          "Quebec": 137294,
-          "Maritimes": 96062,
-          "Other": 63422
-        },
-        {
-          "period": "2025-03",
-          "BC Interior": 294302,
-          "BC Coast": 46231,
-          "Alberta": 185757,
-          "Ontario": 112379,
-          "Quebec": 168668,
-          "Maritimes": 121761,
-          "Other": 78569
-        },
-        {
-          "period": "2025-04",
-          "BC Interior": 262399,
-          "BC Coast": 33411,
-          "Alberta": 161985,
-          "Ontario": 123634,
-          "Quebec": 153735,
-          "Maritimes": 111963,
-          "Other": 64765
-        },
-        {
-          "period": "2025-05",
-          "BC Interior": 267359,
-          "BC Coast": 37194,
-          "Alberta": 164699,
-          "Ontario": 121222,
-          "Quebec": 183337,
-          "Maritimes": 112529,
-          "Other": 67932
-        },
-        {
-          "period": "2025-06",
-          "BC Interior": 257885,
-          "BC Coast": 38751,
-          "Alberta": 154722,
-          "Ontario": 110838,
-          "Quebec": 156669,
-          "Maritimes": 113995,
-          "Other": 70354
-        },
-        {
-          "period": "2025-07",
-          "BC Interior": 315936,
-          "BC Coast": 58983,
-          "Alberta": 166809,
-          "Ontario": 121134,
-          "Quebec": 179244,
-          "Maritimes": 132544,
-          "Other": 67511
-        },
-        {
-          "period": "2025-08",
-          "BC Interior": 220893,
-          "BC Coast": 19890,
-          "Alberta": 134364,
-          "Ontario": 76915,
-          "Quebec": 81525,
-          "Maritimes": 102810,
-          "Other": 38724
-        },
-        {
-          "period": "2025-09",
-          "BC Interior": 240213,
-          "BC Coast": 23249,
-          "Alberta": 141853,
-          "Ontario": 90307,
-          "Quebec": 111936,
-          "Maritimes": 111320,
-          "Other": 58918
-        },
-        {
-          "period": "2025-10",
-          "BC Interior": 244963,
-          "BC Coast": 24501,
-          "Alberta": 136948,
-          "Ontario": 106127,
-          "Quebec": 126612,
-          "Maritimes": 117329,
-          "Other": 57063
-        },
-        {
-          "period": "2025-11",
-          "BC Interior": 205762,
-          "BC Coast": 22570,
-          "Alberta": 128635,
-          "Ontario": 84142,
-          "Quebec": 115369,
-          "Maritimes": 93896,
-          "Other": 40373
-        },
-        {
-          "period": "2025-12",
-          "BC Interior": 186557,
-          "BC Coast": 18086,
-          "Alberta": 114012,
-          "Ontario": 78920,
-          "Quebec": 114170,
-          "Maritimes": 93688,
-          "Other": 38788
-        },
-        {
-          "period": "2026-01",
-          "BC Interior": 243376,
-          "BC Coast": 18881,
-          "Alberta": 104711,
-          "Ontario": 81763,
-          "Quebec": 116063,
-          "Maritimes": 97516,
-          "Other": 50935
-        },
-        {
-          "period": "2026-02",
-          "BC Interior": 232984,
-          "BC Coast": 25807,
-          "Alberta": 100596,
-          "Ontario": 79354,
-          "Quebec": 115270,
-          "Maritimes": 97247,
-          "Other": 43543
-        },
-        {
-          "period": "2026-03",
-          "BC Interior": 281692,
-          "BC Coast": 32842,
-          "Alberta": 114033,
-          "Ontario": 95999,
-          "Quebec": 150583,
-          "Maritimes": 118640,
-          "Other": 55988
-        },
-        {
-          "period": "2026-04",
-          "BC Interior": 277876,
-          "BC Coast": 32922,
-          "Alberta": 143200,
-          "Ontario": 108322,
-          "Quebec": 171329,
-          "Maritimes": 115928,
-          "Other": 64654
-        },
-        {
-          "period": "2026-05",
-          "BC Interior": 290326,
-          "BC Coast": 28285,
-          "Alberta": 130740,
-          "Ontario": 113790,
-          "Quebec": 158813,
-          "Maritimes": 104002,
-          "Other": 65529
-        },
-        {
-          "period": "2026-06",
-          "BC Interior": 308399,
-          "BC Coast": 31896,
-          "Alberta": 162834,
-          "Ontario": 106187,
-          "Quebec": 156028,
-          "Maritimes": 119004,
-          "Other": 70522
-        }
-      ],
-      "forecast": {
-        "unit": "MMbf (total, all regions)",
-        "metric": "total",
-        "model": "SARIMAX(0,1,1)(0,1,1)[12] + lagged permits & lumber PPI",
-        "interval": "80%",
-        "backtestMAPE": {
-          "h1": 9.6,
-          "h2": 11.3,
-          "h3": 12.7,
-          "naive": 17.6,
-          "window": "60-mo",
-          "coverageH3": 50
-        },
-        "lastActual": {
-          "period": "2026-06",
-          "value": 954870
-        },
-        "series": [
-          {
-            "period": "2026-07",
-            "mean": 934821,
-            "lo": 830509,
-            "hi": 1052234
-          },
-          {
-            "period": "2026-08",
-            "mean": 758300,
-            "lo": 666809,
-            "hi": 862345
-          },
-          {
-            "period": "2026-09",
-            "mean": 807137,
-            "lo": 703043,
-            "hi": 926644
-          }
-        ]
-      }
-    },
     "multifamily": {
       "construction": {
         "unit": "thousands (SAAR)",
@@ -6371,6 +5538,839 @@
           {
             "period": "2026-06",
             "value": 665
+          }
+        ]
+      }
+    },
+    "exportsByRegion": {
+      "unit": "MBF",
+      "freq": "monthly",
+      "regions": [
+        "BC Interior",
+        "BC Coast",
+        "Alberta",
+        "Ontario",
+        "Quebec",
+        "Maritimes",
+        "Other"
+      ],
+      "series": [
+        {
+          "period": "2020-01",
+          "BC Interior": 353580,
+          "BC Coast": 30998,
+          "Alberta": 162513,
+          "Ontario": 124674,
+          "Quebec": 196427,
+          "Maritimes": 106362,
+          "Other": 62761
+        },
+        {
+          "period": "2020-02",
+          "BC Interior": 349025,
+          "BC Coast": 37826,
+          "Alberta": 136549,
+          "Ontario": 110851,
+          "Quebec": 152832,
+          "Maritimes": 94234,
+          "Other": 55823
+        },
+        {
+          "period": "2020-03",
+          "BC Interior": 437805,
+          "BC Coast": 43927,
+          "Alberta": 183523,
+          "Ontario": 112737,
+          "Quebec": 218031,
+          "Maritimes": 115423,
+          "Other": 57572
+        },
+        {
+          "period": "2020-04",
+          "BC Interior": 337093,
+          "BC Coast": 31280,
+          "Alberta": 156142,
+          "Ontario": 104299,
+          "Quebec": 187827,
+          "Maritimes": 111122,
+          "Other": 58055
+        },
+        {
+          "period": "2020-05",
+          "BC Interior": 276267,
+          "BC Coast": 48371,
+          "Alberta": 142868,
+          "Ontario": 107267,
+          "Quebec": 191924,
+          "Maritimes": 105670,
+          "Other": 58298
+        },
+        {
+          "period": "2020-06",
+          "BC Interior": 381005,
+          "BC Coast": 53579,
+          "Alberta": 169356,
+          "Ontario": 117965,
+          "Quebec": 177836,
+          "Maritimes": 122101,
+          "Other": 57575
+        },
+        {
+          "period": "2020-07",
+          "BC Interior": 440612,
+          "BC Coast": 50299,
+          "Alberta": 177624,
+          "Ontario": 105583,
+          "Quebec": 167827,
+          "Maritimes": 125722,
+          "Other": 51292
+        },
+        {
+          "period": "2020-08",
+          "BC Interior": 471792,
+          "BC Coast": 50972,
+          "Alberta": 162776,
+          "Ontario": 110449,
+          "Quebec": 174267,
+          "Maritimes": 106392,
+          "Other": 58330
+        },
+        {
+          "period": "2020-09",
+          "BC Interior": 506137,
+          "BC Coast": 64315,
+          "Alberta": 191616,
+          "Ontario": 115835,
+          "Quebec": 217418,
+          "Maritimes": 120115,
+          "Other": 65512
+        },
+        {
+          "period": "2020-10",
+          "BC Interior": 520868,
+          "BC Coast": 68248,
+          "Alberta": 186647,
+          "Ontario": 104414,
+          "Quebec": 195741,
+          "Maritimes": 117858,
+          "Other": 62347
+        },
+        {
+          "period": "2020-11",
+          "BC Interior": 442858,
+          "BC Coast": 53643,
+          "Alberta": 187514,
+          "Ontario": 107072,
+          "Quebec": 202471,
+          "Maritimes": 107888,
+          "Other": 61335
+        },
+        {
+          "period": "2020-12",
+          "BC Interior": 451190,
+          "BC Coast": 58261,
+          "Alberta": 167711,
+          "Ontario": 110202,
+          "Quebec": 180121,
+          "Maritimes": 102094,
+          "Other": 54586
+        },
+        {
+          "period": "2021-01",
+          "BC Interior": 467861,
+          "BC Coast": 54979,
+          "Alberta": 165231,
+          "Ontario": 100346,
+          "Quebec": 176082,
+          "Maritimes": 98503,
+          "Other": 61468
+        },
+        {
+          "period": "2021-02",
+          "BC Interior": 401073,
+          "BC Coast": 58355,
+          "Alberta": 149596,
+          "Ontario": 90677,
+          "Quebec": 183335,
+          "Maritimes": 99531,
+          "Other": 59849
+        },
+        {
+          "period": "2021-03",
+          "BC Interior": 497291,
+          "BC Coast": 65609,
+          "Alberta": 194324,
+          "Ontario": 105153,
+          "Quebec": 199651,
+          "Maritimes": 109778,
+          "Other": 70362
+        },
+        {
+          "period": "2021-04",
+          "BC Interior": 533082,
+          "BC Coast": 63925,
+          "Alberta": 189282,
+          "Ontario": 126973,
+          "Quebec": 200597,
+          "Maritimes": 104924,
+          "Other": 64932
+        },
+        {
+          "period": "2021-05",
+          "BC Interior": 530995,
+          "BC Coast": 71080,
+          "Alberta": 175676,
+          "Ontario": 114163,
+          "Quebec": 190462,
+          "Maritimes": 102502,
+          "Other": 66289
+        },
+        {
+          "period": "2021-06",
+          "BC Interior": 531397,
+          "BC Coast": 70799,
+          "Alberta": 179059,
+          "Ontario": 110993,
+          "Quebec": 181929,
+          "Maritimes": 108537,
+          "Other": 65707
+        },
+        {
+          "period": "2021-07",
+          "BC Interior": 423092,
+          "BC Coast": 53059,
+          "Alberta": 162043,
+          "Ontario": 103267,
+          "Quebec": 157771,
+          "Maritimes": 110348,
+          "Other": 50577
+        },
+        {
+          "period": "2021-08",
+          "BC Interior": 370930,
+          "BC Coast": 42741,
+          "Alberta": 162014,
+          "Ontario": 107148,
+          "Quebec": 187052,
+          "Maritimes": 103697,
+          "Other": 65186
+        },
+        {
+          "period": "2021-09",
+          "BC Interior": 371479,
+          "BC Coast": 42327,
+          "Alberta": 169523,
+          "Ontario": 125413,
+          "Quebec": 230300,
+          "Maritimes": 113435,
+          "Other": 74375
+        },
+        {
+          "period": "2021-10",
+          "BC Interior": 422184,
+          "BC Coast": 40882,
+          "Alberta": 173983,
+          "Ontario": 122692,
+          "Quebec": 202182,
+          "Maritimes": 113527,
+          "Other": 75030
+        },
+        {
+          "period": "2021-11",
+          "BC Interior": 404723,
+          "BC Coast": 49558,
+          "Alberta": 181529,
+          "Ontario": 135021,
+          "Quebec": 220408,
+          "Maritimes": 108952,
+          "Other": 70660
+        },
+        {
+          "period": "2021-12",
+          "BC Interior": 345564,
+          "BC Coast": 29722,
+          "Alberta": 173562,
+          "Ontario": 98656,
+          "Quebec": 158666,
+          "Maritimes": 99190,
+          "Other": 53179
+        },
+        {
+          "period": "2022-01",
+          "BC Interior": 423032,
+          "BC Coast": 40687,
+          "Alberta": 166728,
+          "Ontario": 93753,
+          "Quebec": 168629,
+          "Maritimes": 95601,
+          "Other": 57010
+        },
+        {
+          "period": "2022-02",
+          "BC Interior": 331726,
+          "BC Coast": 41948,
+          "Alberta": 141899,
+          "Ontario": 81681,
+          "Quebec": 137857,
+          "Maritimes": 90456,
+          "Other": 54600
+        },
+        {
+          "period": "2022-03",
+          "BC Interior": 469809,
+          "BC Coast": 52198,
+          "Alberta": 164334,
+          "Ontario": 112902,
+          "Quebec": 169566,
+          "Maritimes": 112704,
+          "Other": 70441
+        },
+        {
+          "period": "2022-04",
+          "BC Interior": 445521,
+          "BC Coast": 50722,
+          "Alberta": 160501,
+          "Ontario": 103090,
+          "Quebec": 145849,
+          "Maritimes": 115973,
+          "Other": 67112
+        },
+        {
+          "period": "2022-05",
+          "BC Interior": 473364,
+          "BC Coast": 58732,
+          "Alberta": 183614,
+          "Ontario": 104955,
+          "Quebec": 180937,
+          "Maritimes": 114984,
+          "Other": 71513
+        },
+        {
+          "period": "2022-06",
+          "BC Interior": 443035,
+          "BC Coast": 50367,
+          "Alberta": 180823,
+          "Ontario": 114137,
+          "Quebec": 191199,
+          "Maritimes": 113917,
+          "Other": 70364
+        },
+        {
+          "period": "2022-07",
+          "BC Interior": 432300,
+          "BC Coast": 45734,
+          "Alberta": 179122,
+          "Ontario": 112376,
+          "Quebec": 160433,
+          "Maritimes": 109272,
+          "Other": 60622
+        },
+        {
+          "period": "2022-08",
+          "BC Interior": 458985,
+          "BC Coast": 49307,
+          "Alberta": 182526,
+          "Ontario": 116496,
+          "Quebec": 158036,
+          "Maritimes": 116329,
+          "Other": 66176
+        },
+        {
+          "period": "2022-09",
+          "BC Interior": 398230,
+          "BC Coast": 48218,
+          "Alberta": 168718,
+          "Ontario": 121511,
+          "Quebec": 187860,
+          "Maritimes": 106068,
+          "Other": 68199
+        },
+        {
+          "period": "2022-10",
+          "BC Interior": 358678,
+          "BC Coast": 45309,
+          "Alberta": 155556,
+          "Ontario": 114225,
+          "Quebec": 192448,
+          "Maritimes": 110710,
+          "Other": 61883
+        },
+        {
+          "period": "2022-11",
+          "BC Interior": 341236,
+          "BC Coast": 44335,
+          "Alberta": 135415,
+          "Ontario": 116367,
+          "Quebec": 195789,
+          "Maritimes": 102277,
+          "Other": 60672
+        },
+        {
+          "period": "2022-12",
+          "BC Interior": 239995,
+          "BC Coast": 36447,
+          "Alberta": 106970,
+          "Ontario": 88516,
+          "Quebec": 153738,
+          "Maritimes": 89854,
+          "Other": 45888
+        },
+        {
+          "period": "2023-01",
+          "BC Interior": 296867,
+          "BC Coast": 42675,
+          "Alberta": 155083,
+          "Ontario": 105214,
+          "Quebec": 172162,
+          "Maritimes": 100171,
+          "Other": 59126
+        },
+        {
+          "period": "2023-02",
+          "BC Interior": 268617,
+          "BC Coast": 43575,
+          "Alberta": 122569,
+          "Ontario": 107188,
+          "Quebec": 165971,
+          "Maritimes": 95499,
+          "Other": 61476
+        },
+        {
+          "period": "2023-03",
+          "BC Interior": 379081,
+          "BC Coast": 52441,
+          "Alberta": 162060,
+          "Ontario": 119067,
+          "Quebec": 181774,
+          "Maritimes": 112104,
+          "Other": 73259
+        },
+        {
+          "period": "2023-04",
+          "BC Interior": 363165,
+          "BC Coast": 40663,
+          "Alberta": 147959,
+          "Ontario": 110927,
+          "Quebec": 176374,
+          "Maritimes": 103171,
+          "Other": 57325
+        },
+        {
+          "period": "2023-05",
+          "BC Interior": 359316,
+          "BC Coast": 53795,
+          "Alberta": 180376,
+          "Ontario": 130864,
+          "Quebec": 174002,
+          "Maritimes": 116477,
+          "Other": 75388
+        },
+        {
+          "period": "2023-06",
+          "BC Interior": 340626,
+          "BC Coast": 61121,
+          "Alberta": 171405,
+          "Ontario": 121529,
+          "Quebec": 145460,
+          "Maritimes": 113567,
+          "Other": 63955
+        },
+        {
+          "period": "2023-07",
+          "BC Interior": 359330,
+          "BC Coast": 54268,
+          "Alberta": 156476,
+          "Ontario": 114501,
+          "Quebec": 120688,
+          "Maritimes": 98829,
+          "Other": 46844
+        },
+        {
+          "period": "2023-08",
+          "BC Interior": 366074,
+          "BC Coast": 57066,
+          "Alberta": 171920,
+          "Ontario": 116554,
+          "Quebec": 142652,
+          "Maritimes": 112905,
+          "Other": 52369
+        },
+        {
+          "period": "2023-09",
+          "BC Interior": 329880,
+          "BC Coast": 47778,
+          "Alberta": 158406,
+          "Ontario": 114369,
+          "Quebec": 175615,
+          "Maritimes": 104616,
+          "Other": 61427
+        },
+        {
+          "period": "2023-10",
+          "BC Interior": 352222,
+          "BC Coast": 45477,
+          "Alberta": 146014,
+          "Ontario": 113295,
+          "Quebec": 188980,
+          "Maritimes": 108944,
+          "Other": 61087
+        },
+        {
+          "period": "2023-11",
+          "BC Interior": 337558,
+          "BC Coast": 42275,
+          "Alberta": 152244,
+          "Ontario": 114290,
+          "Quebec": 175797,
+          "Maritimes": 113495,
+          "Other": 63849
+        },
+        {
+          "period": "2023-12",
+          "BC Interior": 271922,
+          "BC Coast": 32705,
+          "Alberta": 127402,
+          "Ontario": 112294,
+          "Quebec": 144979,
+          "Maritimes": 96296,
+          "Other": 49776
+        },
+        {
+          "period": "2024-01",
+          "BC Interior": 345300,
+          "BC Coast": 34748,
+          "Alberta": 148417,
+          "Ontario": 130521,
+          "Quebec": 180835,
+          "Maritimes": 112423,
+          "Other": 66708
+        },
+        {
+          "period": "2024-02",
+          "BC Interior": 352542,
+          "BC Coast": 47101,
+          "Alberta": 148983,
+          "Ontario": 115062,
+          "Quebec": 193068,
+          "Maritimes": 106492,
+          "Other": 66714
+        },
+        {
+          "period": "2024-03",
+          "BC Interior": 340459,
+          "BC Coast": 43107,
+          "Alberta": 160036,
+          "Ontario": 126957,
+          "Quebec": 209545,
+          "Maritimes": 109688,
+          "Other": 66500
+        },
+        {
+          "period": "2024-04",
+          "BC Interior": 349653,
+          "BC Coast": 38484,
+          "Alberta": 189284,
+          "Ontario": 109957,
+          "Quebec": 197436,
+          "Maritimes": 115478,
+          "Other": 58775
+        },
+        {
+          "period": "2024-05",
+          "BC Interior": 355128,
+          "BC Coast": 42687,
+          "Alberta": 173929,
+          "Ontario": 121641,
+          "Quebec": 218633,
+          "Maritimes": 115014,
+          "Other": 72560
+        },
+        {
+          "period": "2024-06",
+          "BC Interior": 300923,
+          "BC Coast": 44935,
+          "Alberta": 151961,
+          "Ontario": 101630,
+          "Quebec": 178771,
+          "Maritimes": 106979,
+          "Other": 63189
+        },
+        {
+          "period": "2024-07",
+          "BC Interior": 305265,
+          "BC Coast": 50028,
+          "Alberta": 167263,
+          "Ontario": 116771,
+          "Quebec": 188239,
+          "Maritimes": 114490,
+          "Other": 50101
+        },
+        {
+          "period": "2024-08",
+          "BC Interior": 289686,
+          "BC Coast": 47497,
+          "Alberta": 155849,
+          "Ontario": 103793,
+          "Quebec": 170069,
+          "Maritimes": 112123,
+          "Other": 61322
+        },
+        {
+          "period": "2024-09",
+          "BC Interior": 292018,
+          "BC Coast": 38472,
+          "Alberta": 152769,
+          "Ontario": 95289,
+          "Quebec": 173618,
+          "Maritimes": 111455,
+          "Other": 62501
+        },
+        {
+          "period": "2024-10",
+          "BC Interior": 333798,
+          "BC Coast": 41585,
+          "Alberta": 182410,
+          "Ontario": 124699,
+          "Quebec": 202593,
+          "Maritimes": 116431,
+          "Other": 73339
+        },
+        {
+          "period": "2024-11",
+          "BC Interior": 286967,
+          "BC Coast": 37678,
+          "Alberta": 146404,
+          "Ontario": 110257,
+          "Quebec": 178183,
+          "Maritimes": 102511,
+          "Other": 67050
+        },
+        {
+          "period": "2024-12",
+          "BC Interior": 238305,
+          "BC Coast": 36793,
+          "Alberta": 126593,
+          "Ontario": 89643,
+          "Quebec": 129258,
+          "Maritimes": 90404,
+          "Other": 49121
+        },
+        {
+          "period": "2025-01",
+          "BC Interior": 309957,
+          "BC Coast": 47975,
+          "Alberta": 174824,
+          "Ontario": 109328,
+          "Quebec": 164411,
+          "Maritimes": 109938,
+          "Other": 77555
+        },
+        {
+          "period": "2025-02",
+          "BC Interior": 270419,
+          "BC Coast": 40750,
+          "Alberta": 132595,
+          "Ontario": 107599,
+          "Quebec": 137294,
+          "Maritimes": 96062,
+          "Other": 63422
+        },
+        {
+          "period": "2025-03",
+          "BC Interior": 294302,
+          "BC Coast": 46231,
+          "Alberta": 185757,
+          "Ontario": 112379,
+          "Quebec": 168668,
+          "Maritimes": 121761,
+          "Other": 78569
+        },
+        {
+          "period": "2025-04",
+          "BC Interior": 262399,
+          "BC Coast": 33411,
+          "Alberta": 161985,
+          "Ontario": 123634,
+          "Quebec": 153735,
+          "Maritimes": 111963,
+          "Other": 64765
+        },
+        {
+          "period": "2025-05",
+          "BC Interior": 267359,
+          "BC Coast": 37194,
+          "Alberta": 164699,
+          "Ontario": 121222,
+          "Quebec": 183337,
+          "Maritimes": 112529,
+          "Other": 67932
+        },
+        {
+          "period": "2025-06",
+          "BC Interior": 257885,
+          "BC Coast": 38751,
+          "Alberta": 154722,
+          "Ontario": 110838,
+          "Quebec": 156669,
+          "Maritimes": 113995,
+          "Other": 70354
+        },
+        {
+          "period": "2025-07",
+          "BC Interior": 315936,
+          "BC Coast": 58983,
+          "Alberta": 166809,
+          "Ontario": 121134,
+          "Quebec": 179244,
+          "Maritimes": 132544,
+          "Other": 67511
+        },
+        {
+          "period": "2025-08",
+          "BC Interior": 220893,
+          "BC Coast": 19890,
+          "Alberta": 134364,
+          "Ontario": 76915,
+          "Quebec": 81525,
+          "Maritimes": 102810,
+          "Other": 38724
+        },
+        {
+          "period": "2025-09",
+          "BC Interior": 240213,
+          "BC Coast": 23249,
+          "Alberta": 141853,
+          "Ontario": 90307,
+          "Quebec": 111936,
+          "Maritimes": 111320,
+          "Other": 58918
+        },
+        {
+          "period": "2025-10",
+          "BC Interior": 244963,
+          "BC Coast": 24501,
+          "Alberta": 136948,
+          "Ontario": 106127,
+          "Quebec": 126612,
+          "Maritimes": 117329,
+          "Other": 57063
+        },
+        {
+          "period": "2025-11",
+          "BC Interior": 205762,
+          "BC Coast": 22570,
+          "Alberta": 128635,
+          "Ontario": 84142,
+          "Quebec": 115369,
+          "Maritimes": 93896,
+          "Other": 40373
+        },
+        {
+          "period": "2025-12",
+          "BC Interior": 186557,
+          "BC Coast": 18086,
+          "Alberta": 114012,
+          "Ontario": 78920,
+          "Quebec": 114170,
+          "Maritimes": 93688,
+          "Other": 38788
+        },
+        {
+          "period": "2026-01",
+          "BC Interior": 243376,
+          "BC Coast": 18881,
+          "Alberta": 104711,
+          "Ontario": 81763,
+          "Quebec": 116063,
+          "Maritimes": 97516,
+          "Other": 50935
+        },
+        {
+          "period": "2026-02",
+          "BC Interior": 232984,
+          "BC Coast": 25807,
+          "Alberta": 100596,
+          "Ontario": 79354,
+          "Quebec": 115270,
+          "Maritimes": 97247,
+          "Other": 43543
+        },
+        {
+          "period": "2026-03",
+          "BC Interior": 281692,
+          "BC Coast": 32842,
+          "Alberta": 114033,
+          "Ontario": 95999,
+          "Quebec": 150583,
+          "Maritimes": 118640,
+          "Other": 55988
+        },
+        {
+          "period": "2026-04",
+          "BC Interior": 277876,
+          "BC Coast": 32922,
+          "Alberta": 143200,
+          "Ontario": 108322,
+          "Quebec": 171329,
+          "Maritimes": 115928,
+          "Other": 64654
+        },
+        {
+          "period": "2026-05",
+          "BC Interior": 290326,
+          "BC Coast": 28285,
+          "Alberta": 130740,
+          "Ontario": 113790,
+          "Quebec": 158813,
+          "Maritimes": 104002,
+          "Other": 65529
+        },
+        {
+          "period": "2026-06",
+          "BC Interior": 308399,
+          "BC Coast": 31896,
+          "Alberta": 162834,
+          "Ontario": 106187,
+          "Quebec": 156028,
+          "Maritimes": 119004,
+          "Other": 70522
+        }
+      ],
+      "forecast": {
+        "unit": "MMbf (total, all regions)",
+        "metric": "total",
+        "model": "SARIMAX(0,1,1)(0,1,1)[12] + lagged permits & lumber PPI",
+        "interval": "80%",
+        "backtestMAPE": {
+          "h1": 9.6,
+          "h2": 11.3,
+          "h3": 12.7,
+          "naive": 17.6,
+          "window": "60-mo",
+          "coverageH3": 50
+        },
+        "lastActual": {
+          "period": "2026-06",
+          "value": 954870
+        },
+        "series": [
+          {
+            "period": "2026-07",
+            "mean": 934813,
+            "lo": 830503,
+            "hi": 1052224
+          },
+          {
+            "period": "2026-08",
+            "mean": 758296,
+            "lo": 666807,
+            "hi": 862338
+          },
+          {
+            "period": "2026-09",
+            "mean": 807133,
+            "lo": 703042,
+            "hi": 926635
           }
         ]
       }
@@ -10275,13 +10275,14 @@
   },
   "mills": {
     "asOf": "2026-07-20",
-    "count": 222,
+    "count": 368,
     "live": {
       "BC": 115,
-      "QC": 0
+      "QC": 146
     },
     "byProvince": {
       "BC": 115,
+      "QC": 146,
       "ON": 77,
       "AB": 13,
       "NB": 5,
@@ -11794,6 +11795,1904 @@
         "source": "BC Major Timber Processing Facilities (live)"
       },
       {
+        "province": "QC",
+        "company": "Savco inc.",
+        "town": "La Tuque",
+        "lat": 47.5199,
+        "lon": -72.804,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 72k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois CFM inc. (Sainte-Florence)",
+        "town": "Sainte-Florence",
+        "lat": 48.2927,
+        "lon": -67.2438,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 110k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois LIB inc.",
+        "town": "Princeville",
+        "lat": 46.1837,
+        "lon": -71.8746,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 240k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Sciages GP inc.",
+        "town": "Mashteuiatsh",
+        "lat": 48.562,
+        "lon": -72.2536,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 7k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "9551069 Canada inc. (MultiFib)",
+        "town": "D\u00e9gelis",
+        "lat": 47.553,
+        "lon": -68.6318,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 35k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Clermond Hamel lt\u00e9e (Scierie BH)",
+        "town": "Saint-\u00c9phrem-de-Beauce",
+        "lat": 46.0429,
+        "lon": -70.5513,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 60k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Cr\u00eate division St-Faustin inc.",
+        "town": "Mont-Blanc",
+        "lat": 46.1237,
+        "lon": -74.4499,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 300k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Planchers Mercier inc.",
+        "town": "Drummondville",
+        "lat": 45.8673,
+        "lon": -72.5311,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 75k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Lefebvre & Pharand inc.",
+        "town": "Mansfield-et-Pontefract",
+        "lat": 45.8889,
+        "lon": -76.7176,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 39k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Carri\u00e8re lt\u00e9e",
+        "town": "Lachute",
+        "lat": 45.6342,
+        "lon": -74.3663,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 57k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "S.M.T. inc.",
+        "town": "Saint-Thomas-Didyme",
+        "lat": 48.8945,
+        "lon": -72.6504,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 7k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois Hunting inc.",
+        "town": "Waterville",
+        "lat": 45.3378,
+        "lon": -71.8456,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 60k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Mobilier Rustique (Beauce) inc.",
+        "town": "Saint-Martin",
+        "lat": 45.9559,
+        "lon": -70.6612,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 86k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "For\u00eat Coupe inc. (C\u00e8dr\u00e9co)",
+        "town": "Saint-Aim\u00e9-des-Lacs",
+        "lat": 47.7308,
+        "lon": -70.3833,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 45k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "PF R\u00e9solu Canada inc. (Maniwaki)",
+        "town": "Maniwaki",
+        "lat": 46.3894,
+        "lon": -76.0005,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 806k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Damabois division Cap-Chat inc. (Sciage feuillus)",
+        "town": "Cap-Chat",
+        "lat": 49.0857,
+        "lon": -66.6911,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 151k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie V.O.G. inc.",
+        "town": "Plessisville",
+        "lat": 46.2336,
+        "lon": -71.7818,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 95k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois Lambert inc.",
+        "town": "Lac-M\u00e9gantic",
+        "lat": 45.5799,
+        "lon": -70.8744,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 14k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "C\u00e8dre JD Sirois inc.",
+        "town": "M\u00e9tis-sur-Mer",
+        "lat": 48.679,
+        "lon": -67.9592,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 10k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Ferme Fortin & Farrell inc. (Val-Paradis)",
+        "town": "Eeyou Istchee Baie-James",
+        "lat": 49.1004,
+        "lon": -79.24,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 5k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "9143-6121 Qu\u00e9bec inc. (R\u00e9cup\u00e9ration foresti\u00e8re Qu\u00e9bec)",
+        "town": "Montebello",
+        "lat": 45.6647,
+        "lon": -74.9508,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 8k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Foresterie P. Belleville inc.",
+        "town": "Sainte-\u00c9m\u00e9lie-de-l'\u00c9nergie",
+        "lat": 46.3215,
+        "lon": -73.6392,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "9268-1881 Qu\u00e9bec inc. (Scierie familiale Gagnon)",
+        "town": "Amherst",
+        "lat": 45.9747,
+        "lon": -74.7199,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Clifton inc.",
+        "town": "Saint-Isidore-de-Clifton",
+        "lat": 45.2731,
+        "lon": -71.5385,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 90k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois Franc-Nord inc.",
+        "town": "Saint-Jacques-de-Leeds",
+        "lat": 46.2756,
+        "lon": -71.3505,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 40k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie St-Fabien inc.",
+        "town": "Saint-Fabien",
+        "lat": 48.2923,
+        "lon": -68.836,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 66k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois francs S.C. inc.",
+        "town": "Danville",
+        "lat": 45.7838,
+        "lon": -72.0155,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 18k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie BP inc.",
+        "town": "Saint-Honor\u00e9-de-Shenley",
+        "lat": 45.9609,
+        "lon": -70.8167,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 13k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois Daaquam inc. (Saint-Pamphile)",
+        "town": "Saint-Pamphile",
+        "lat": 46.9633,
+        "lon": -69.776,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 520k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Welsh & Fils inc.",
+        "town": "Saint-Alban",
+        "lat": 46.7122,
+        "lon": -72.0793,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Labranche inc.",
+        "town": "Saint-Isidore-de-Clifton",
+        "lat": 45.2644,
+        "lon": -71.5082,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 13k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Lebel inc. (Price)",
+        "town": "Price",
+        "lat": 48.5943,
+        "lon": -68.1179,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Mat\u00e9riaux Blanchet inc. (Saint-Pamphile)",
+        "town": "Saint-Pamphile",
+        "lat": 46.943,
+        "lon": -69.7515,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 495k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Produits Forestiers D&G Lt\u00e9e (Saint-C\u00f4me-Lini\u00e8re)",
+        "town": "Saint-C\u00f4me - Lini\u00e8re",
+        "lat": 46.0105,
+        "lon": -70.484,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 125k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Maibec inc. (Saint-Th\u00e9ophile)",
+        "town": "Saint-Th\u00e9ophile",
+        "lat": 45.9588,
+        "lon": -70.4496,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 51k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Clermond Hamel lt\u00e9e",
+        "town": "Saint-\u00c9phrem-de-Beauce",
+        "lat": 46.0721,
+        "lon": -70.9216,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 675k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie du Lac",
+        "town": "Saint-Juste-du-Lac",
+        "lat": 47.6494,
+        "lon": -68.7656,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 10k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bardobec inc.",
+        "town": "Saint-Just-de-Breteni\u00e8res",
+        "lat": 46.6035,
+        "lon": -70.0399,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 40k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Produits de bois R\u00e9ginald Dingman et Fils d'Austin limit\u00e9e",
+        "town": "Coaticook",
+        "lat": 45.1252,
+        "lon": -71.8105,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 8k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Maibec inc. (Saint-Pamphile - Bardeaux)",
+        "town": "Saint-Pamphile",
+        "lat": 46.963,
+        "lon": -69.7764,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 73k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Ir\u00e9n\u00e9e Grondin & Fils lt\u00e9e",
+        "town": "Saint-Zacharie",
+        "lat": 46.1292,
+        "lon": -70.3552,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 159k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Produits Forestiers Miniers Abitibi inc.",
+        "town": "Rivi\u00e8re-H\u00e9va",
+        "lat": 48.1382,
+        "lon": -78.1352,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 9k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Produits forestiers Petit-Paris inc.",
+        "town": "Saint-Ludger-de-Milot",
+        "lat": 48.9006,
+        "lon": -71.7721,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 512k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Bardeaux Lajoie inc. (Saint-Eus\u00e8be)",
+        "town": "Saint-Eus\u00e8be",
+        "lat": 47.547,
+        "lon": -68.9462,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 29k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Lebel inc. (D\u00e9gelis)",
+        "town": "D\u00e9gelis",
+        "lat": 47.5533,
+        "lon": -68.6469,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Champeau M\u00e9gantic inc. (Frontenac)",
+        "town": "Frontenac",
+        "lat": 45.6058,
+        "lon": -70.8432,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 12k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Bois Poulin inc.",
+        "town": "Saint-Ludger",
+        "lat": 45.744,
+        "lon": -70.6949,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 35k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "La Menuiserie d'East Angus inc.",
+        "town": "East Angus",
+        "lat": 45.4788,
+        "lon": -71.6514,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 21k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Damabois division Cap-Chat inc. (Bois Chic-Choc)",
+        "town": "Cap-Chat",
+        "lat": 49.088,
+        "lon": -66.6863,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 274k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Carrier & B\u00e9gin inc.",
+        "town": "Saint-Honor\u00e9-de-Shenley",
+        "lat": 45.9552,
+        "lon": -70.8319,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 320k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "PF R\u00e9solu Canada inc. (Girardville)",
+        "town": "Girardville",
+        "lat": 49.1232,
+        "lon": -72.6036,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 940k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "PF R\u00e9solu Canada inc. (Saint-Thomas)",
+        "town": "Saint-Thomas-Didyme",
+        "lat": 48.9162,
+        "lon": -72.6525,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Chantiers de Chibougamau lt\u00e9e",
+        "town": "Chibougamau",
+        "lat": 49.9313,
+        "lon": -74.3677,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 1300k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Barrette-Chapais lt\u00e9e",
+        "town": "Chapais",
+        "lat": 49.7907,
+        "lon": -74.7098,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 1000k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Lachance 2015",
+        "town": "H\u00e9bertville",
+        "lat": 48.4658,
+        "lon": -71.5874,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 12k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Chantiers de Chibougamau lt\u00e9e (Scierie La Sarre)",
+        "town": "La Sarre",
+        "lat": 48.8036,
+        "lon": -79.2333,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 635k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Lebel inc. (Vall\u00e9e-des-Lacs)",
+        "town": "Saint-Michel-du-Squatec",
+        "lat": 47.8792,
+        "lon": -68.7256,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 450k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Lebel inc. (Biencourt)",
+        "town": "Biencourt",
+        "lat": 47.9345,
+        "lon": -68.6048,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 50k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Le Sp\u00e9cialiste du bardeau de c\u00e8dre inc.",
+        "town": "Saint-Prosper",
+        "lat": 46.2087,
+        "lon": -70.5408,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 73k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Vexco inc.",
+        "town": "Saint-Ferdinand",
+        "lat": 46.1315,
+        "lon": -71.589,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 81k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Lauz\u00e9 inc.",
+        "town": "Saint-\u00c9douard-de-Lotbini\u00e8re",
+        "lat": 46.5657,
+        "lon": -71.8441,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 10k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois Francs Bio Serra",
+        "town": "Sainte-Monique",
+        "lat": 48.7438,
+        "lon": -71.8468,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 250k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Cr\u00eate division St-Faustin inc. (Usine Chertsey)",
+        "town": "Chertsey",
+        "lat": 46.0788,
+        "lon": -73.9034,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 225k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Damabois",
+        "town": "Saint-Damase",
+        "lat": 48.6687,
+        "lon": -67.8213,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 70k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Bois St-Fran\u00e7ois inc.",
+        "town": "Saint-Fran\u00e7ois-du-Lac",
+        "lat": 46.0606,
+        "lon": -72.8237,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 18k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Lebel inc. (Nouvelle)",
+        "town": "Nouvelle",
+        "lat": 48.1545,
+        "lon": -66.3561,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 612k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Rosario Poirier inc. (Saint-Alphonse - Sciage)",
+        "town": "Saint-Alphonse",
+        "lat": 48.1862,
+        "lon": -65.629,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 80k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Industries G.D.S. inc. (Pointe-\u00e0-la-Croix)",
+        "town": "Pointe-\u00e0-la-Croix",
+        "lat": 48.0295,
+        "lon": -66.7161,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 255k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Lebel inc. (Saint-Joseph-de-Kamouraska)",
+        "town": "Saint-Joseph-de-Kamouraska",
+        "lat": 47.5781,
+        "lon": -69.6425,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 154k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Armand Duhamel & Fils inc.",
+        "town": "Saint-Ignace-de-Stanbridge",
+        "lat": 45.1746,
+        "lon": -72.9453,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 140k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "La Compagnie Commonwealth Plywood lt\u00e9e (Low)",
+        "town": "Low",
+        "lat": 45.8083,
+        "lon": -75.9493,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 125k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "PF R\u00e9solu Canada inc. (Senneterre)",
+        "town": "Senneterre",
+        "lat": 48.3857,
+        "lon": -77.2318,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 925k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "PF R\u00e9solu Canada inc. (Comtois)",
+        "town": "Lebel-sur-Qu\u00e9villon",
+        "lat": 49.11,
+        "lon": -77.152,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 590k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Landrienne",
+        "town": "Landrienne",
+        "lat": 48.5536,
+        "lon": -77.9514,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 780k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Lulumco inc.",
+        "town": "Sainte-Luce",
+        "lat": 48.5221,
+        "lon": -68.335,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 180k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Cr\u00eate Ferme-Neuve inc.",
+        "town": "Ferme-Neuve",
+        "lat": 46.7092,
+        "lon": -75.4397,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 580k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Lapointe & Roy lt\u00e9e",
+        "town": "Courcelles - Saint-\u00c9variste",
+        "lat": 45.873,
+        "lon": -70.986,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 100k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Produits forestiers St-Armand inc. (Saint-Armand - Sciage)",
+        "town": "Saint-Armand",
+        "lat": 45.0459,
+        "lon": -72.9834,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 50k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Chantiers de Chibougamau lt\u00e9e (Scierie Matagami)",
+        "town": "Matagami",
+        "lat": 49.7307,
+        "lon": -77.7011,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 540k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Champeau inc.",
+        "town": "Saint-Malo",
+        "lat": 45.1996,
+        "lon": -71.5126,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 58k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Pr\u00e9verco inc. (Division Scierie)",
+        "town": "Daveluyville",
+        "lat": 46.208,
+        "lon": -72.1435,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 58k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Gaston Cellard inc.",
+        "town": "Escuminac",
+        "lat": 48.0823,
+        "lon": -66.5466,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 26k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Leclerc et Tremblay inc.",
+        "town": "Dixville",
+        "lat": 45.0656,
+        "lon": -71.7671,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 20k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Produits Forestiers D&G Lt\u00e9e (Sainte-Aur\u00e9lie)",
+        "town": "Sainte-Aur\u00e9lie",
+        "lat": 46.1809,
+        "lon": -70.3692,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 530k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Alexandre Lemay & Fils inc.",
+        "town": "Sainte-Marie",
+        "lat": 46.4163,
+        "lon": -70.9922,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 224k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Produits forestiers Lachance inc.",
+        "town": "Sainte-\u00c9m\u00e9lie-de-l'\u00c9nergie",
+        "lat": 46.3291,
+        "lon": -73.6129,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 77k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Multi C\u00e8dre lt\u00e9e (MultiCed)",
+        "town": "Esprit-Saint",
+        "lat": 48.0744,
+        "lon": -68.5533,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 32k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bernier Bois franc inc.",
+        "town": "Lambton",
+        "lat": 45.8406,
+        "lon": -71.0863,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 45k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie St-Elz\u00e9ar inc.",
+        "town": "Saint-Elz\u00e9ar",
+        "lat": 48.1653,
+        "lon": -65.3996,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 240k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Bondu inc.",
+        "town": "Notre-Dame-de-Pontmain",
+        "lat": 46.3298,
+        "lon": -75.629,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 40k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Valibois inc.",
+        "town": "Saint-David-de-Falardeau",
+        "lat": 48.6224,
+        "lon": -71.1175,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 52k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Atelier Taureau inc.",
+        "town": "Saint-Michel-des-Saints",
+        "lat": 46.6778,
+        "lon": -73.9247,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Lauzon - Planchers de bois exclusifs inc.",
+        "town": "Thurso",
+        "lat": 45.5999,
+        "lon": -75.248,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 258k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie P.S.E. inc.",
+        "town": "Saint-Ubalde",
+        "lat": 46.7544,
+        "lon": -72.281,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 61k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie St-Michel inc.",
+        "town": "Saint-Michel-des-Saints",
+        "lat": 46.6816,
+        "lon": -73.9257,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 400k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "PF R\u00e9solu Canada inc. (Baie-Comeau - Sciage)",
+        "town": "Baie-Comeau",
+        "lat": 49.1795,
+        "lon": -68.4045,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 800k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "G. C. Bois Franc inc.",
+        "town": "Saint-Camille-de-Lellis",
+        "lat": 46.4923,
+        "lon": -70.2185,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 24k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Blanchette & Blanchette inc.",
+        "town": "Weedon",
+        "lat": 45.7639,
+        "lon": -71.4055,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 122k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Lebel inc. (Squatec)",
+        "town": "Saint-Michel-du-Squatec",
+        "lat": 47.8818,
+        "lon": -68.72,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 50k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Arbec, Bois d'oeuvre inc. (Parent)",
+        "town": "La Tuque",
+        "lat": 47.9281,
+        "lon": -74.6352,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 735k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "La Compagnie Commonwealth Plywood lt\u00e9e (Rapides-des-Joachims)",
+        "town": "Rapides-des-Joachims",
+        "lat": 46.2014,
+        "lon": -77.7094,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 121k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Boisaco inc.",
+        "town": "Sacr\u00e9-Coeur",
+        "lat": 48.2784,
+        "lon": -69.8854,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 630k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "PF R\u00e9solu Canada inc. (La Dor\u00e9)",
+        "town": "La Dor\u00e9",
+        "lat": 48.7244,
+        "lon": -72.6279,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 1050k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Multibois F.L. inc.",
+        "town": "Saint-Augustin-de-Woburn",
+        "lat": 45.3844,
+        "lon": -70.8592,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 48k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Entreprise Foresti\u00e8re Lambert inc.",
+        "town": "Saint-Augustin-de-Woburn",
+        "lat": 45.3886,
+        "lon": -70.8677,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 90k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Mat\u00e9riaux Blanchet inc. (Amos)",
+        "town": "Amos",
+        "lat": 48.5605,
+        "lon": -78.1694,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 530k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Arbec, Bois d'oeuvre inc. (Saint-Roch)",
+        "town": "Saint-Roch-de-M\u00e9kinac",
+        "lat": 46.7994,
+        "lon": -72.7643,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 740k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Marcel Lauzon inc. (East Hereford - Sciage)",
+        "town": "East Hereford",
+        "lat": 45.0292,
+        "lon": -71.5024,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 140k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Fontaine inc.",
+        "town": "Saint-Augustin-de-Woburn",
+        "lat": 45.3852,
+        "lon": -70.8554,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 325k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois Acer inc.",
+        "town": "Potton",
+        "lat": 45.1141,
+        "lon": -72.3917,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 31k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Lebel inc. (Saint-Hilarion)",
+        "town": "Saint-Hilarion",
+        "lat": 47.569,
+        "lon": -70.3954,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 220k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "B\u00e9gin & B\u00e9gin inc. (Saint-Juste-du-Lac)",
+        "town": "Saint-Juste-du-Lac",
+        "lat": 47.6668,
+        "lon": -68.6693,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 130k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe NBG inc.",
+        "town": "Rivi\u00e8re-Bleue",
+        "lat": 47.4358,
+        "lon": -69.0659,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 195k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois Cargault inc. (Saint-Pamphile)",
+        "town": "Saint-Pamphile",
+        "lat": 46.9564,
+        "lon": -69.7497,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 28k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie West Brome inc.",
+        "town": "Lac-Brome",
+        "lat": 45.2095,
+        "lon": -72.5879,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 96k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois Daaquam inc. (Saint-Just-de-Breteni\u00e8res)",
+        "town": "Saint-Just-de-Breteni\u00e8res",
+        "lat": 46.5695,
+        "lon": -70.0978,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 467k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Dion & Fils inc.",
+        "town": "Saint-Raymond",
+        "lat": 46.8865,
+        "lon": -71.8397,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 600k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Ad\u00e9lard Goyette & Fils lt\u00e9e",
+        "town": "Rivi\u00e8re-\u00e0-Pierre",
+        "lat": 46.9991,
+        "lon": -72.1751,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 33k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Chantiers de Chibougamau lt\u00e9e (Scierie B\u00e9arn)",
+        "town": "B\u00e9arn",
+        "lat": 47.2807,
+        "lon": -79.3295,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 650k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Scieries du Lac St-Jean inc.",
+        "town": "M\u00e9tabetchouan - Lac-\u00e0-la-Croix",
+        "lat": 48.3791,
+        "lon": -71.8862,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 255k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Arbec, Bois d'oeuvre inc. (L'Ascension-de-Notre-Seigneur)",
+        "town": "L'Ascension-de-Notre-Seigneur",
+        "lat": 48.749,
+        "lon": -71.6109,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 1130k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "La Scierie Martel lt\u00e9e",
+        "town": "Alma",
+        "lat": 48.5106,
+        "lon": -71.5898,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 118k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "La Compagnie Commonwealth Plywood lt\u00e9e (Mont-Laurier)",
+        "town": "Mont-Laurier",
+        "lat": 46.5481,
+        "lon": -75.4744,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 115k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Cojovi Toupin & fils inc.",
+        "town": "Saint-C\u00e9lestin",
+        "lat": 46.1895,
+        "lon": -72.4109,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois d'oeuvre Cedrico inc. (Causapscal)",
+        "town": "Causapscal",
+        "lat": 48.3351,
+        "lon": -67.2365,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 660k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Entreprises foresti\u00e8res Gauthier SNC",
+        "town": "Saint-Andr\u00e9-Avellin",
+        "lat": 45.6657,
+        "lon": -75.0853,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "PF R\u00e9solu Canada inc. (Saint-F\u00e9licien)",
+        "town": "Saint-F\u00e9licien",
+        "lat": 48.6406,
+        "lon": -72.4458,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 680k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "PF R\u00e9solu Canada inc. (Dolbeau-Mistassini - Sciage)",
+        "town": "Dolbeau-Mistassini",
+        "lat": 48.8823,
+        "lon": -72.2032,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 900k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Groupe Lignarex inc.",
+        "town": "Saguenay",
+        "lat": 48.3455,
+        "lon": -70.7695,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 330k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Girard inc.",
+        "town": "Saguenay",
+        "lat": 48.5289,
+        "lon": -71.2926,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 380k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie de la Rouge inc.",
+        "town": "Rivi\u00e8re-Rouge",
+        "lat": 46.3735,
+        "lon": -74.8574,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 27k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois Granval G.D.S. inc. (Grande-Vall\u00e9e)",
+        "town": "Grande-Vall\u00e9e",
+        "lat": 49.2186,
+        "lon": -65.1337,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 246k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bois Marsoui G.D.S. inc. (Marsoui)",
+        "town": "Marsoui",
+        "lat": 49.1985,
+        "lon": -66.0723,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 242k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Bersaco inc.",
+        "town": "Les Bergeronnes",
+        "lat": 48.2417,
+        "lon": -69.5375,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 72k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Arbotek inc.",
+        "town": "Saint-Just-de-Breteni\u00e8res",
+        "lat": 46.5553,
+        "lon": -70.0778,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 30k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie SerDam inc.",
+        "town": "La R\u00e9demption",
+        "lat": 48.4456,
+        "lon": -67.8757,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 53k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie GVL inc.",
+        "town": "Wotton",
+        "lat": 45.7332,
+        "lon": -71.8121,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 25k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Arbec, Bois d'oeuvre inc. (Port-Cartier)",
+        "town": "Port-Cartier",
+        "lat": 50.0307,
+        "lon": -66.8243,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 720k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Sciegex inc.",
+        "town": "Stanstead-Est",
+        "lat": 45.1468,
+        "lon": -72.0222,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 18k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Arbec, Bois d'oeuvre inc. (La Tuque)",
+        "town": "La Tuque",
+        "lat": 47.2146,
+        "lon": -72.8897,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 648k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Les Chantiers de Chibougamau lt\u00e9e (Mont Bourbeau)",
+        "town": "Chibougamau",
+        "lat": 49.9204,
+        "lon": -74.3465,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 2k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Jules Martineau (Scierie Jules Martineau)",
+        "town": "Saint-Adrien-d'Irlande",
+        "lat": 46.1074,
+        "lon": -71.4573,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 3k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Forespect inc.",
+        "town": "Namur",
+        "lat": 45.8881,
+        "lon": -74.9239,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 29k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Soci\u00e9t\u00e9 en commandite Scierie Opitciwan",
+        "town": "Obedjiwan",
+        "lat": 48.6674,
+        "lon": -74.9292,
+        "sizeTier": "lg",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 276k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie Sainte-Sophie inc.",
+        "town": "Sainte-Sophie",
+        "lat": 45.816,
+        "lon": -73.9124,
+        "sizeTier": "sm",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 5k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
+        "province": "QC",
+        "company": "Scierie de la Vall\u00e9e",
+        "town": "Amqui",
+        "lat": 48.4984,
+        "lon": -67.4829,
+        "sizeTier": "md",
+        "capacityMMbf": null,
+        "capacityLabel": "permitted 43k m\u00b3/yr (roundwood)",
+        "status": "operating",
+        "coordAccuracy": "exact",
+        "source": "MRNF Qu\u00e9bec \u2014 Usines de transformation primaire (live)"
+      },
+      {
         "province": "ON",
         "company": "Oxdrift Tractor Sales Ltd. o/a Skene Lumber",
         "town": "Oxdrift",
@@ -13187,11 +15086,11 @@
     ]
   },
   "fires": {
-    "asOf": "2026-07-20T13:55:32.242Z",
+    "asOf": "2026-07-20T14:56:33.350Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
-    "total": 6556,
-    "count": 6556,
+    "total": 6562,
+    "count": 6562,
     "capped": false,
     "fields": [
       "lat",
@@ -15877,6 +17776,12 @@
         0
       ],
       [
+        63.342,
+        -122.194,
+        37,
+        0
+      ],
+      [
         44.011,
         -119.879,
         37,
@@ -16749,12 +18654,6 @@
       [
         61.998,
         -120.913,
-        30,
-        0
-      ],
-      [
-        63.337,
-        -122.188,
         30,
         0
       ],
@@ -19147,6 +21046,12 @@
         0
       ],
       [
+        61.944,
+        -120.887,
+        18,
+        0
+      ],
+      [
         62.943,
         -122.624,
         18,
@@ -19309,6 +21214,18 @@
         0
       ],
       [
+        63.35,
+        -122.202,
+        17,
+        0
+      ],
+      [
+        63.347,
+        -122.209,
+        17,
+        0
+      ],
+      [
         48.245,
         -118.995,
         17,
@@ -19371,6 +21288,12 @@
       [
         44.856,
         -119.579,
+        17,
+        0
+      ],
+      [
+        61.934,
+        -120.889,
         17,
         0
       ],
@@ -19591,6 +21514,12 @@
         0
       ],
       [
+        61.938,
+        -120.884,
+        16,
+        0
+      ],
+      [
         48.156,
         -118.86,
         16,
@@ -19779,6 +21708,12 @@
       [
         62.604,
         -120.789,
+        15,
+        0
+      ],
+      [
+        63.347,
+        -122.194,
         15,
         0
       ],
@@ -21049,12 +22984,6 @@
         0
       ],
       [
-        63.351,
-        -122.189,
-        12,
-        0
-      ],
-      [
         63.35,
         -122.174,
         12,
@@ -21179,18 +23108,6 @@
         -119.145,
         12,
         1
-      ],
-      [
-        63.346,
-        -122.201,
-        12,
-        0
-      ],
-      [
-        63.347,
-        -122.21,
-        12,
-        0
       ],
       [
         50.739,
@@ -21323,6 +23240,12 @@
         -112.876,
         12,
         1
+      ],
+      [
+        62.075,
+        -121.585,
+        12,
+        0
       ],
       [
         62.123,
@@ -21627,24 +23550,6 @@
       [
         61.715,
         -121.536,
-        11,
-        0
-      ],
-      [
-        61.934,
-        -120.888,
-        11,
-        0
-      ],
-      [
-        61.937,
-        -120.886,
-        11,
-        0
-      ],
-      [
-        61.936,
-        -120.878,
         11,
         0
       ],
@@ -22387,6 +24292,12 @@
         0
       ],
       [
+        62.086,
+        -121.606,
+        10,
+        0
+      ],
+      [
         63.187,
         -121.887,
         10,
@@ -22497,6 +24408,12 @@
       [
         51.086,
         -101.105,
+        10,
+        0
+      ],
+      [
+        62.726,
+        -123.522,
         10,
         0
       ],
@@ -23185,6 +25102,12 @@
         0
       ],
       [
+        62.1,
+        -121.602,
+        9,
+        0
+      ],
+      [
         51.357,
         -122.375,
         9,
@@ -23235,6 +25158,12 @@
       [
         44.043,
         -120.495,
+        9,
+        0
+      ],
+      [
+        61.987,
+        -120.922,
         9,
         0
       ],
@@ -23337,12 +25266,6 @@
       [
         61.687,
         -121.445,
-        9,
-        0
-      ],
-      [
-        62.097,
-        -121.6,
         9,
         0
       ],
@@ -24421,6 +26344,12 @@
         0
       ],
       [
+        61.972,
+        -120.907,
+        8,
+        0
+      ],
+      [
         62.674,
         -123.117,
         8,
@@ -24943,12 +26872,6 @@
         0
       ],
       [
-        62.086,
-        -121.612,
-        8,
-        0
-      ],
-      [
         63.058,
         -116.248,
         8,
@@ -25401,6 +27324,12 @@
       [
         61.814,
         -109.347,
+        7,
+        0
+      ],
+      [
+        61.989,
+        -120.964,
         7,
         0
       ],
@@ -26384,12 +28313,6 @@
       ],
       [
         62.072,
-        -121.591,
-        7,
-        0
-      ],
-      [
-        62.072,
         -121.584,
         7,
         0
@@ -26791,12 +28714,6 @@
         0
       ],
       [
-        61.992,
-        -120.958,
-        6,
-        0
-      ],
-      [
         62.432,
         -121.737,
         6,
@@ -26967,6 +28884,18 @@
       [
         63.148,
         -116.343,
+        6,
+        0
+      ],
+      [
+        61.973,
+        -120.929,
+        6,
+        0
+      ],
+      [
+        61.977,
+        -120.924,
         6,
         0
       ],
@@ -27405,6 +29334,12 @@
       [
         63.139,
         -121.888,
+        6,
+        0
+      ],
+      [
+        62.12,
+        -120.651,
         6,
         0
       ],
@@ -28477,6 +30412,12 @@
         0
       ],
       [
+        51.307,
+        -122.368,
+        6,
+        0
+      ],
+      [
         62.01,
         -120.957,
         6,
@@ -28557,6 +30498,12 @@
       [
         64.812,
         -115.867,
+        6,
+        0
+      ],
+      [
+        62.71,
+        -123.515,
         6,
         0
       ],
@@ -28699,18 +30646,6 @@
         0
       ],
       [
-        61.975,
-        -120.914,
-        5,
-        0
-      ],
-      [
-        61.976,
-        -120.924,
-        5,
-        0
-      ],
-      [
         48.171,
         -119.178,
         5,
@@ -28759,6 +30694,12 @@
         0
       ],
       [
+        49.904,
+        -121.52,
+        5,
+        0
+      ],
+      [
         63.165,
         -120.904,
         5,
@@ -28797,12 +30738,6 @@
       [
         61.689,
         -121.388,
-        5,
-        0
-      ],
-      [
-        61.968,
-        -120.928,
         5,
         0
       ],
@@ -28887,6 +30822,12 @@
       [
         47.783,
         -120.975,
+        5,
+        0
+      ],
+      [
+        51.24,
+        -121.674,
         5,
         0
       ],
@@ -30499,6 +32440,18 @@
         0
       ],
       [
+        49.914,
+        -121.528,
+        5,
+        0
+      ],
+      [
+        49.919,
+        -121.518,
+        5,
+        0
+      ],
+      [
         64.99,
         -117.074,
         5,
@@ -31021,6 +32974,12 @@
         0
       ],
       [
+        66.34,
+        -126.768,
+        4,
+        0
+      ],
+      [
         60.255,
         -113.012,
         4,
@@ -31299,6 +33258,12 @@
       [
         48.222,
         -119.072,
+        4,
+        0
+      ],
+      [
+        62.728,
+        -123.51,
         4,
         0
       ],
@@ -31807,6 +33772,12 @@
         0
       ],
       [
+        62.719,
+        -123.513,
+        4,
+        0
+      ],
+      [
         63.315,
         -123.508,
         4,
@@ -31861,8 +33832,8 @@
         0
       ],
       [
-        66.342,
-        -126.768,
+        63.333,
+        -122.182,
         4,
         0
       ],
@@ -32623,6 +34594,12 @@
         0
       ],
       [
+        51.246,
+        -121.69,
+        4,
+        0
+      ],
+      [
         63.565,
         -119.435,
         4,
@@ -32893,12 +34870,6 @@
         0
       ],
       [
-        63.332,
-        -122.182,
-        4,
-        0
-      ],
-      [
         64.222,
         -119.185,
         4,
@@ -33027,12 +34998,6 @@
       [
         61.979,
         -121.203,
-        4,
-        0
-      ],
-      [
-        62.728,
-        -123.519,
         4,
         0
       ],
@@ -33565,12 +35530,6 @@
         0
       ],
       [
-        62.115,
-        -120.653,
-        4,
-        0
-      ],
-      [
         63.214,
         -116.336,
         4,
@@ -33697,20 +35656,8 @@
         0
       ],
       [
-        62.719,
-        -123.512,
-        3,
-        0
-      ],
-      [
         64.755,
         -115.783,
-        3,
-        0
-      ],
-      [
-        51.253,
-        -121.686,
         3,
         0
       ],
@@ -33753,6 +35700,12 @@
       [
         62.729,
         -123.536,
+        3,
+        0
+      ],
+      [
+        50.248,
+        -122.436,
         3,
         0
       ],
@@ -33889,12 +35842,6 @@
         0
       ],
       [
-        49.904,
-        -121.519,
-        3,
-        0
-      ],
-      [
         64.199,
         -117.708,
         3,
@@ -33987,12 +35934,6 @@
       [
         64.248,
         -117.683,
-        3,
-        0
-      ],
-      [
-        61.988,
-        -120.92,
         3,
         0
       ],
@@ -35767,6 +37708,12 @@
         0
       ],
       [
+        52.695,
+        -125.372,
+        3,
+        0
+      ],
+      [
         65.102,
         -117.554,
         3,
@@ -36105,12 +38052,6 @@
       [
         44.54,
         -120.801,
-        3,
-        0
-      ],
-      [
-        62.732,
-        -123.515,
         3,
         0
       ],
@@ -37719,12 +39660,6 @@
       [
         64.826,
         -115.898,
-        2,
-        0
-      ],
-      [
-        52.7,
-        -125.375,
         2,
         0
       ],
@@ -39463,6 +41398,12 @@
         0
       ],
       [
+        50.249,
+        -122.433,
+        2,
+        0
+      ],
+      [
         49.586,
         -90.065,
         2,
@@ -39723,12 +41664,6 @@
       [
         62.711,
         -123.532,
-        2,
-        0
-      ],
-      [
-        62.715,
-        -123.522,
         2,
         0
       ],
@@ -40059,6 +41994,12 @@
       [
         64.996,
         -117.074,
+        2,
+        0
+      ],
+      [
+        51.346,
+        -121.773,
         2,
         0
       ],
@@ -45169,12 +47110,6 @@
         0
       ],
       [
-        50.253,
-        -122.439,
-        1,
-        0
-      ],
-      [
         61.794,
         -121.597,
         1,
@@ -47383,12 +49318,6 @@
         0
       ],
       [
-        51.346,
-        -121.774,
-        1,
-        0
-      ],
-      [
         63.291,
         -122.168,
         1,
@@ -48361,6 +50290,12 @@
         0
       ],
       [
+        51.357,
+        -122.376,
+        1,
+        0
+      ],
+      [
         64.775,
         -118.318,
         1,
@@ -49111,6 +51046,12 @@
         0
       ],
       [
+        54.021,
+        -128.682,
+        1,
+        0
+      ],
+      [
         63.746,
         -119.591,
         1,
@@ -49119,12 +51060,6 @@
       [
         51.395,
         -122.349,
-        1,
-        0
-      ],
-      [
-        54.021,
-        -128.682,
         1,
         0
       ],
@@ -49215,6 +51150,12 @@
       [
         64.833,
         -122.965,
+        1,
+        0
+      ],
+      [
+        57.352,
+        -122.052,
         1,
         0
       ],
@@ -49965,12 +51906,6 @@
       [
         52.691,
         -125.387,
-        1,
-        0
-      ],
-      [
-        57.355,
-        -122.052,
         1,
         0
       ],
