@@ -291,6 +291,11 @@
               <div class="chart-wrap"><canvas id="chSales"></canvas></div>
             </div>`
           : ''}
+        ${ind.lira ? `<div class="card span-2">
+            <div class="card__head"><h3 class="card__title">Home repair &amp; remodel spending — Harvard LIRA</h3><span class="card__unit">$B annualized · quarterly · dashed = JCHS projection</span></div>
+            <div class="card__note">Four-quarter moving total of US homeowner improvement &amp; repair spending, with the Harvard Joint Center for Housing Studies' 4-quarter-ahead projection (dashed). Repair &amp; remodel is ~40%+ of US lumber demand and steadier than new construction.${ind.lira.projection && ind.lira.projection.series.length ? ` Projected to reach $${ind.lira.projection.series.at(-1).mean}B by ${esc(ind.lira.projection.series.at(-1).period)}.` : ''}${ind.lira.asOf ? ` (LIRA release ${esc(ind.lira.asOf)})` : ''}</div>
+            <div class="chart-wrap tall"><canvas id="chLIRA"></canvas></div>
+          </div>` : ''}
         ${ind.activeListings ? card('US homes for sale — active listings', 'homes on the market · monthly', 'Existing unsold-home inventory (Realtor.com active listings). Crashed to ~350–500K in the 2021–22 shortage; back above 1.1M as supply normalizes — more inventory competes with new construction.', 'chListings', { span: true, section: 'housing' }) : ''}
         ${ind.multifamily ? card('Multi-family construction — starts vs. permits (5+ units)', 'thousands (SAAR) · monthly', 'New multi-family (5+ unit) starts and permits — Census via FRED. A secondary lumber-demand signal: mid/high-rise multi-family is less lumber-intensive than single-family, but low-rise/garden apartments are wood-framed.', 'chMFStartsPermits', { section: 'housing' }) : ''}
         ${ind.multifamily ? card('Multi-family under construction (5+ units)', 'thousands of units · monthly', 'Units in 5+ unit buildings currently under construction — the pipeline backlog, near multi-decade highs. As it works off it sustains (then eventually reduces) multi-family lumber demand.', 'chMFUnderConstruction', { section: 'housing' }) : ''}
@@ -420,6 +425,13 @@
         salesTog.querySelectorAll('.seg__btn').forEach((b) => b.classList.toggle('is-active', b === btn));
         drawSales(btn.dataset.mode);
       });
+    }
+
+    if (ind.lira) {
+      const l = ind.lira;
+      C.forecastLine('chLIRA', l.actual.labels, l.actual.values,
+        { connect: l.projection.connect, series: l.projection.series },
+        { unit: '$B', noBand: true, forecastLabel: 'JCHS projection', xTicks: 8, beginAtZero: false });
     }
 
     if (ind.activeListings) {

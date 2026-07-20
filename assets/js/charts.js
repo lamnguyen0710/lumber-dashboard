@@ -149,6 +149,7 @@
   // Single non-stacked line (actual) + a dashed forecast mean and shaded 80% band.
   // forecast = { series:[{period, mean, lo, hi}], connect:<last actual value> }
   function forecastLine(canvasId, labels, actual, forecast, opts) {
+    opts = opts || {};
     const t = tokens();
     const fcSeries = (forecast && forecast.series) || [];
     const allLabels = labels.concat(fcSeries.map((f) => f.period));
@@ -166,9 +167,11 @@
         fill: true, tension: 0.25, borderWidth: 2, pointRadius: 0, pointHoverRadius: 4 },
     ];
     if (fcSeries.length) {
-      datasets.push({ label: '_lo', data: mk('lo'), borderColor: 'transparent', backgroundColor: band, fill: false, pointRadius: 0, tension: 0.25 });
-      datasets.push({ label: '80% interval', data: mk('hi'), borderColor: 'transparent', backgroundColor: band, fill: '-1', pointRadius: 0, tension: 0.25 });
-      datasets.push({ label: 'Forecast', data: mk('mean'), borderColor: t.text, borderDash: [5, 4], borderWidth: 2, fill: false, pointRadius: 0, pointHoverRadius: 4, tension: 0.25 });
+      if (!opts.noBand) {
+        datasets.push({ label: '_lo', data: mk('lo'), borderColor: 'transparent', backgroundColor: band, fill: false, pointRadius: 0, tension: 0.25 });
+        datasets.push({ label: '80% interval', data: mk('hi'), borderColor: 'transparent', backgroundColor: band, fill: '-1', pointRadius: 0, tension: 0.25 });
+      }
+      datasets.push({ label: opts.forecastLabel || 'Forecast', data: mk('mean'), borderColor: t.text, borderDash: [5, 4], borderWidth: 2, fill: false, pointRadius: 0, pointHoverRadius: 4, tension: 0.25 });
     }
     const o = Object.assign({ beginAtZero: false, xTicks: 8 }, opts);
     const options = baseOptions(t, allLabels, o);
