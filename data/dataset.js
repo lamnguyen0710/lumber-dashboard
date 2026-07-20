@@ -663,7 +663,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-07",
-          "framing_composite": 648
+          "framing_composite": 649
         }
       ]
     },
@@ -2509,7 +2509,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-20T15:56:47.145Z",
+      "fetchedAt": "2026-07-20T16:03:31.048Z",
       "items": [
         {
           "title": "Weyerhaeuser Q2 2025 Earnings Preview",
@@ -2590,6 +2590,12 @@ window.LUMBER_DATA = {
           "date": "2026-07-16T21:55:02.000Z"
         },
         {
+          "title": "Union says B.C. mill closure leaves workers 'reeling,' as industry woes persist",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUnNKbU1SSGdyaVhIR3pRSXh5eDRpT1BUamdOX09YOVY3SVkzRnpFd2xhQmdySFR6YUVPUm9lbkVGRmZPVEpuelJsOFM4ZWdXaUNZQ2NQWTBFcXJOczhtYl8zQ3ZjeWM3cDFjc3p1Qy1OZnlkeHMzVnB4ZVg0cmNJbGtDMndpUlJaTUFfM0tSMWVxZFIza2FoWFNhMEduS3R2cEpMck00aHh1aF9Mc1RTTUphTVVDYWVzOFNkRw?oc=5",
+          "source": "DARPAN Magazine",
+          "date": "2026-07-16T18:08:10.000Z"
+        },
+        {
           "title": "Interfor Corporation (IFP) Q1 2024 Earnings Report - Results, Call & Slides",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GNVZOaGpGVUxxdmV2Z0NreTY0YW9YWGZHZnFyVjc5dVpCVVlBN3BEM3Rtcm1kQUIyS09DR3JRVEwwY1BfV1dLWHpBX1kyRTZBOWdyWmpWSXFFOXNPVllJQWtobTNVM3dBTmtGZUwtTHM?oc=5",
           "source": "TipRanks",
@@ -2624,12 +2630,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05ZUFOeDcyNjhXeWRseVdkV2pwZ3VEaEkxWmhYU3ZCejhYMXZISFlrQjZIaFNNekJjVEMtWjFNWUEwcUZjUjI3Rzl3b1dVMmJ2QUN2UXJfSzFZQQ?oc=5",
           "source": "CBC",
           "date": "2026-07-16T01:51:29.000Z"
-        },
-        {
-          "title": "Union says B.C. mill closure leaves workers \u2018reeling,\u2019 as industry woes persist",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMkdzLXdDTDlRSWE2dlpEcXZqTjBJVVZIcXVBemFoQ1cxaHpNd3BRdFdPTzUtaFQ2emNkQlRYXzRWakVOenJaakNNb290YUpVS2lzdXhKVzZmRUE1YkE4ZURJdnNMVzhvYk9tVzBPa25BeExPemlXRjkzRGFLYzJWZWw4WHBaM1NIQ29FcF8xS1Z5ZVcwWFRwVDBDQzJIOG9IcUhEbGlOdlV5dTlyaGRzVFNB?oc=5",
-          "source": "CHAT News Today",
-          "date": "2026-07-16T00:20:42.000Z"
         },
         {
           "title": "A Shaken Sector: politicians weigh in on Canfor\u2019s Northwood Pulp Mill closure",
@@ -15641,7 +15641,7 @@ window.LUMBER_DATA = {
     ]
   },
   "fires": {
-    "asOf": "2026-07-20T15:56:48.474Z",
+    "asOf": "2026-07-20T16:03:34.193Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
     "total": 6562,
