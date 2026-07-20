@@ -2508,7 +2508,7 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-20T02:30:38.536Z",
+      "fetchedAt": "2026-07-20T08:49:36.865Z",
       "items": [
         {
           "title": "Weyerhaeuser stock trades steady as timber REIT focuses on cash flow and housing demand",
@@ -2521,6 +2521,12 @@
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOUpxOEVhNkZ5MUJtNDZLR1ZuaFZiX0tvT0xJalhOY2tuRGttcmg1Q1N3SjlOOXhYLV9DdHVBUU1Hdk1HWUhqeGlaQndXeVoyYmtidkt3NG1UdGdJMGNIR3FhcWhCdGNTOVRJWXJ3aFZJVFlZZjNkcDg5aW43UjhoaXE0OXRWMmtiVkxEUXA4SzkwWUNjenhvQ0M4WVJsdmpZcmNzRWFfd01xT05lWTZDb2FXLWJFZkJjTDJacW84X29JSVE4S09hZC1kYw?oc=5",
           "source": "ad-hoc-news.de",
           "date": "2026-07-18T16:23:27.000Z"
+        },
+        {
+          "title": "Weyerhaeuser (WY) Q1 2025 earnings summary",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Gcmx2T2YycFFLR0JJbk9qbFBxUFNmSHF2bTlSZV9aSGd6c2JyZ3MySVFMOGJBYnp1WU1ETWEyd3IzdzdaYVFCZzQyYk1fd2FJWVctTWNvcnR4ZG1UWmpMQXNYbzZKMzNOU3c?oc=5",
+          "source": "Quartr",
+          "date": "2026-07-18T16:01:22.000Z"
         },
         {
           "title": "Louisiana-Pacific Corp (MEX:LPX) Stock Earnings Transcripts",
@@ -2541,10 +2547,10 @@
           "date": "2026-07-18T08:13:55.000Z"
         },
         {
-          "title": "Madison\u2019s Lumber Prices Index July 17, 2026: US$548 mfbm",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TeU9val9nTE9MellYd3hQV19DUTlFenc0Um9UMC1IQVJ5cUM4UzE1cGg2MnQ5LTFHeFo3SEZINmk3cjBqYmVNQW1nNVg3MFV6MHNFODhGdHY2N01Qb00tR2dDVEs0OHhuaVE?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-07-17T22:24:30.000Z"
+          "title": "Weyerhaeuser: A Timber Giant at a Crossroads",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQk80UVEtSXBnd3laZHpQUXJTNVpPR19ac3Vkd2lfdGxKb0EwRjdncXJlRERBbW01M2lnT19vRGd0U2Vzd1hDVXhaQVVDdHNfOFFHdjBzd2k0ak5tNEpBNFVtWWlBWEE4SFhlWkpmMm5odVctb25teEJ6c1BfOVhWQzhHMVY?oc=5",
+          "source": "Kavout | AI",
+          "date": "2026-07-18T01:19:04.000Z"
         },
         {
           "title": "US softwood lumber prices rise 7% year on year in June",
@@ -2563,6 +2569,12 @@
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONDU1MEZya3JVWDdoekpmZ1FSeDhpdGR5OXdveWNUdUhuYW8wcEQ4eWJ6aDF2eFRDTFdhbENGTThEam5wclktQnNhc0dCYnU2bVF4d3VMMTktQW05bnM5dlRIUmZiaG1HRk54bzRxY0I1NlBwbDhfcE9EQnZ1bnNHUkF1TVFTVEhaYVdUdGwzYUw2OE80VzhQeENYc3pkaUd1X19MdXVtMzM?oc=5",
           "source": "Tissue Online North America",
           "date": "2026-07-17T11:35:35.000Z"
+        },
+        {
+          "title": "Weyerhaeuser stock holds near a yearly range as 2025 sales and earnings set the backdrop",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPa1ZMMmtyRW8xMF80X3N3bXNJLUxQeDRHNFptdXlaM3FUVTlMZlhvQ1V4RE1vSWhUMTR0YXJBZEtNMHZMeDNYcTAybUo5aG5qTEo4bmxGeEFZOWNJM0JwdXZwRXctWUdmOUwyc005RUxvbVp5RFdnZnl2cEV4TWlPbTRENkc4bHltNnlQR0xBS1UxWTNCdFJiWDVFQWxSZnk5YkRZTEVfUnpZVlhfbjd4b2RRMVlUZks0bGQ4Q0NoRFJsTVZOalJFV09R?oc=5",
+          "source": "ad-hoc-news.de",
+          "date": "2026-07-17T07:18:47.000Z"
         },
         {
           "title": "Workers face uncertain future as Prince George, B.C., mill winds down",
@@ -2599,12 +2611,6 @@
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxON0NnSnIyZk8wWmIzWnhmcng1N2NCQWl3T1MybkVKQTJMcThNWV9YSENtY0N1eXYtZVh0V1MyRnRmM1dCLTJPRHd1ZUxpSmtGdW1ScjFWTGcwcUwxaUFtUjA3Tl9oeV9PWWUwZXJxc2ZTVVFIQjRGRWliYVBmajBiRGNvNHNMQkVSell3ZGhZSHVHRFFTNW52Rm9vdDlMZHF5cEU4b1pGcw?oc=5",
           "source": "Global News",
           "date": "2026-07-16T01:32:13.000Z"
-        },
-        {
-          "title": "Weyerhaeuser: A Timber Giant at a Crossroads",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQk80UVEtSXBnd3laZHpQUXJTNVpPR19ac3Vkd2lfdGxKb0EwRjdncXJlRERBbW01M2lnT19vRGd0U2Vzd1hDVXhaQVVDdHNfOFFHdjBzd2k0ak5tNEpBNFVtWWlBWEE4SFhlWkpmMm5odVctb25teEJ6c1BfOVhWQzhHMVY?oc=5",
-          "source": "Kavout | AI",
-          "date": "2026-07-16T00:57:44.000Z"
         },
         {
           "title": "Union says B.C. mill closure leaves workers \u2018reeling,\u2019 as industry woes persist",
@@ -2683,12 +2689,6 @@
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTkY0WEF3VXpTT01GMHBpZ3dXM3UyOXEwMFdiZmNlS0dkcWhYcHNMOGFzVmNDMV9jWkRrQjVGUGdxdzdXemNoNXBVMUJESUhkTjJwRE9yUDZDLVNHbDRzZF9vc1RJcTdiaFBvVmYzT3NyOEtMZlNJMlhfcGVSWGtDZUloOXBEdw?oc=5",
           "source": "Global News",
           "date": "2026-07-15T17:25:01.000Z"
-        },
-        {
-          "title": "\u2018Heartbreaking\u2019: Prince George pulp mill to shut down, putting around 300 employees out of work",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYWdMNFR3Q1N4azZKdWlKM1JXRjNEWUdKVWV0RlVRYkthbkZKV1BOVjdCeEVXdjhBVlFaWXRpc0xpblM5SzQ4V2RoZmpCbmc0MGFSYjBLeEhBTDJhRmxqZzNlSzYzc3Z4aEVUMS14UzZsMWFkOXNrVWdVbjUxSVhvOGNBMFNLNGx3ZVZNajlxeWxjdkhzRmc1RHNlQllWY3JpRUZBbDNaZWRxLVFzNW9XWmYtWHVIWjAzOXNUYzJ2S3dfTnVVMXhr?oc=5",
-          "source": "CJDC-TV",
-          "date": "2026-07-15T16:16:04.000Z"
         }
       ]
     },
@@ -5100,21 +5100,21 @@
         "series": [
           {
             "period": "2026-07",
-            "mean": 934813,
-            "lo": 830503,
-            "hi": 1052224
+            "mean": 934821,
+            "lo": 830509,
+            "hi": 1052234
           },
           {
             "period": "2026-08",
-            "mean": 758296,
-            "lo": 666807,
-            "hi": 862338
+            "mean": 758300,
+            "lo": 666809,
+            "hi": 862345
           },
           {
             "period": "2026-09",
-            "mean": 807133,
-            "lo": 703042,
-            "hi": 926635
+            "mean": 807137,
+            "lo": 703043,
+            "hi": 926644
           }
         ]
       }
