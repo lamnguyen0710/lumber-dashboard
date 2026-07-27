@@ -662,7 +662,7 @@
         },
         {
           "period": "2026-07",
-          "framing_composite": 655
+          "framing_composite": 647
         }
       ]
     },
@@ -2508,8 +2508,14 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-27T09:40:49.040Z",
+      "fetchedAt": "2026-07-27T14:20:58.466Z",
       "items": [
+        {
+          "title": "Louisiana Pacific (LPX) Stock Looks Fully Priced At Current Levels",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcHh2dF9BQWNjVmo1TnhmYXNCb1FmbW45MEM5REtINzE0ZlJyTnVYVGt3cE5oQkJJcTI4UVdVRDBlMHVJbmJOeUJfNkF6YUZHMTVhMktteE5GTzhRdUlINUtHd1JRXzRZeF9zcHNXMk52cXVXQVJjTW5CdGNmaS1GOWNmTDBNZlNUTUE?oc=5",
+          "source": "Yahoo! Finance Canada",
+          "date": "2026-07-27T11:07:59.000Z"
+        },
         {
           "title": "Will Softer WY Earnings Expectations and Steady Payouts Shift Weyerhaeuser's Cash Flow Narrative?",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORnpENU5uNVIwekUyaFg1cDJNbXpSTmZTSUdnQ2ZBR1gyaWxJNkNjRzQtVkFETTduZHp2S2d3Rm1Tb3FTdG1aV1UxTWVYbnp4VVczekNidmNkNWN0Wnpsd0RtTjJuMHpoWHdtUDY0NDQ4TnJ4RVRlaGZQT3JaNXZWSUF2ZWNCLTREVlFfeTNITXBkTW5ZeG1sb1NkNGFwRlR2TXI4T0pSZ3NnQkxBZEd0dlpzTGJ6bDlXdkF5Z2NMRU5NWk1OVnE1MjAyZFItTzjSAc8BQVVfeXFMTkZ6RDVObjVSMHpFMmhYNXAyTW16Uk5mU0lHZ0NmQUdYMmlsSTZDY0c0LVZBRE03bmR6dktnd0ZtU29xU3RtWldVMU1lWG56eFVXM3pDYnZjZDVjdFp6bHdEbU4ybjB6aFh3bVA2NDQ0OE5yeEVUZWhmUE9yWjV2VklBdmVjQi00RFZRX3kzSE1wZE1uWXhtbG9TZDRhcEZUdk1yOE9KUmdzZ0JMQWRHdHZac0xiemw5V3ZBeWdjTEVOTVpNTlZxNTIwMmRSLU84?oc=5",
@@ -2533,12 +2539,6 @@
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVUxRUkVCeFl1WWNndHhXX0h2bWRDVkIxbTNhcXdncXBNUGkwcXBOQWRBUG1SSngtcXo3RFVvcVJNTXE2c3BVLVV6Qll2eEdqR1VCYU5yb1FjU0hocWl0VG9FVUJFNk5GUFd4QnRQbGNxNEN0dkpyVmhDUFgxZDZTOTJ1QnowRUh4WlQzZ05qOUJIVUFseGlF?oc=5",
           "source": "lesprom.com",
           "date": "2026-07-25T18:05:14.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Stock Looks Reasonable On Timber Cash Flow Outlook",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcHVZMm1MMm9vbXdFU1AxQTBGd2hZMkRKb1ZWbGZxWFl1RHFSWF81aVJWa0VSLXk0ZUVQMUdhWUtGZUNOYnR4OUVqZWlIc05BYVhqaEpPYzdyLW83QW5XMDM1YXkwOFBPTUlEYVVtc3R3N2NjcXhjdHNDQ0FSdHVhVnNOeGt1ZF9UNmJfa3I4cGh2M2x3aXdLRGNfTXcxRVFFZlR6M2dDNW9Zb0ZJS1NTcHgxNkIyRVBBYWRWMTdBUWpXQVg3LWpKcjVB0gHPAUFVX3lxTE9TemRwcTBKX3dibVN2UzFZOXFxU1RtS1lGU2w3ZHFBS1BfSzRBd1pLWFFvY0x3UUZDWTdyWEJLVEQ5SU5zT2FsVzhhekRubkdMVG5tbHFDdjFieWxkVmhpNkF0SHI4cm5Ya0t4STRPTWNDYmFlbkk4eDg0bEQ4Skhpa1pKdGozdTlFRldNdXJ0cDhmWFNyN0ZRR3RoVTdhMk9haDB6dGppalZiejBUbHAxd1JCM0NwR1dCdV90N1hZR1hUcWEyTUdCNDE0Ukh5RQ?oc=5",
-          "source": "simplywall.st",
-          "date": "2026-07-25T10:39:40.000Z"
         },
         {
           "title": "Should Bearish Earnings Revisions and Negative ESP Require Action From Weyerhaeuser (WY) Investors?",
@@ -2631,6 +2631,12 @@
           "date": "2026-07-24T15:02:00.000Z"
         },
         {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbFRtNC00dFFQalJjZ280NGhBaElGYUxrSzJGT0hzdjdIbUJHakp0cWNtQXMzc0NYWkFsYkRaZjJ1X0NlLUVHd2d1bS1BUXFPcG5JOVJPSlU5Tm13M0E2WGlwSm1URm0ySVFjUUxFS2xpX3BHS05DR0JDeFdzc3JoVHhEQTVLX0tGd29EOG05SjY?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-07-24T14:30:14.000Z"
+        },
+        {
           "title": "Weyerhaeuser Company (1WY) Q1 2026 Earnings Report - Results, Call & Slides",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FX3Y2SXU0Tm1GTUo1ajhMcWFqamFLSnNueXVLVS0xNi1wWlR1Y3prWGg1eU85eXBXS0dGMXZfSDAxUTRpUTBPQk83VzRYNnF5eDYwZklwaFBYUVZWWXk5MlBfdFVGcUFwQVU2Qi1zcw?oc=5",
           "source": "TipRanks",
@@ -2661,16 +2667,10 @@
           "date": "2026-07-24T02:42:37.000Z"
         },
         {
-          "title": "Canfor Corporation (NKC) Q2 2024 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53TmVTN3U0SEE2QTJnRkp4cjJXTHdyVFEyeWpVN2hlV0QxYzB1X25Ya0kwM25mdVBPTEFzaXpRSWFXWGplTkkwNHNNa2UzMElOajFYTzhBYmwxT0xvV1AzLTV6UDJtYmFraTFvX1lUdw?oc=5",
+          "title": "Canfor Corporation (NKC) Q1 2025 Earnings Report - Results, Call & Slides",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4wYzRyMHBHM0s0Y3prLWRObFNja0s0TUJMajZRSklqZ2VfUjR6UmhJcGRZTHpnaVFpX2lQWEJQaWpBRHZmRXdqUmZqbmh2LWNjbjgzUXBMVGVtYUJGbEp5aUdDOFRGVGhxOVBIdlJ1NA?oc=5",
           "source": "TipRanks",
-          "date": "2026-07-24T02:23:36.000Z"
-        },
-        {
-          "title": "Canfor Corporation (NKC) Q1 2024 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EdEFtUEt5VW10azIyOFBaV1dMTURLSDNLamtTNUtJMi1xWmFMTjZiVXVseEgtd3FVRmpxVjItZ3A0cjVuNTNMdURSbnBNSlM5Znd0RGlsLXFob1NIdFpWS3lyOUJvTHZMUzZjUnBsWQ?oc=5",
-          "source": "TipRanks",
-          "date": "2026-07-24T02:23:34.000Z"
+          "date": "2026-07-24T02:23:40.000Z"
         },
         {
           "title": "US Mortgage Rates Rise for Third Consecutive Week",
