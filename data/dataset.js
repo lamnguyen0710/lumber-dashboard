@@ -2509,19 +2509,43 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-07-30T08:15:44.631Z",
+      "fetchedAt": "2026-07-30T13:46:51.988Z",
       "items": [
+        {
+          "title": "Canfor reports $18.5M second-quarter loss, sales up from year ago",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTzlLQTlJUjRfbW1lQnFXREFfbVJEN0NocGdIN3M0NFVpWV9sQkRhbG43UkthUXNuSGFYdGxsUFV6YlRia0F3My1LUUpLbVozRS1fQUI4aWE3UElqbmNqa1NxVVRwMFI2UnVnZlZpTnBmbU1oX0tVeGJEcWl2bjhhejNqbU80YjhESk5xOU5WaHFSSTNYTktwYWVZMFp5UHZjVnVsa1l1MjZWempNT0V0d0RlSmtVSk1IRkc5ZUc2RVN6QQ?oc=5",
+          "source": "BNN Bloomberg",
+          "date": "2026-07-30T12:54:33.000Z"
+        },
+        {
+          "title": "Why West Fraser Timber (NYSE:WFG) Results Lift NYSE Composite Buzz?",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS3l1UHFtY2NJM1FBQ0R4dlFiTUtCX0lLSFg2V1Y1QmE0ek9YamMwcm1nNlJ3UzVGeXZRSmJ3V09HU0hYNjVPY2ZEZHV5VG8wRVhvbm5TSUZTaDZkSkc3a1EtQ3ZELWpNZ1BrMVdZYkJhQ3E4NzVwd0VhcDRLdFI3NnVBQU93QkgwNE1XZUNJSXpETmRZb3B0V2lqTGR4X25BaVZJRnVra0lqMkJIRGtONVdRVmJsUQ?oc=5",
+          "source": "kalkinemedia.com",
+          "date": "2026-07-30T10:17:00.000Z"
+        },
+        {
+          "title": "West Fraser Timber Q2 2026 Results: Losses Narrow, EBITDA Improves - News and Statistics",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYVREelJKUGRUSWIwOGg2cG13TzFOa25waVhkX2lNSFB4V2FrYlBaRUdVUG8tdE1xSmFWakpIU056RHF2NnJPbzhQSDNhTDlGaUhZT1BUSllCcjhBQU1WUVVxT2V0bTBPa21yeTdvRjVXRGN6SDg3b2lXMTVlOEZvb0x2UEZIOUlP?oc=5",
+          "source": "IndexBox",
+          "date": "2026-07-30T09:50:00.000Z"
+        },
+        {
+          "title": "Small caps to watch: Earnings from Ag Growth, Algoma Steel, Canfor, Endeavour Silver, Vermilion Energy and more",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcndOdjJGTDZ6S0hWTWt0QnIxbTd1QTFrUGZBbWlxam9oYTRPQUQxSS1lQnZjT2NZc3R3ZEFCY2hVVkFkRlNjNXFDSWVlNlpwb2pOU0kzX1BoWmNIVldPZFc5am1BQ2ZaZUxyOWdkcVZHZUZPcU1CeDdseWw3ZDY0YnJ0TXpQU0RKa2dwaGNqNGtxazlWMXpyak1HckVvUEt3bTVXY1pqN3lkMHBKN0tGTktCZTMwRjQxcnJ1ZGt4RFFLcXhiUjdGc2JFeDlzUlh6bEYtYnpORQ?oc=5",
+          "source": "The Globe and Mail",
+          "date": "2026-07-30T08:27:04.000Z"
+        },
         {
           "title": "US Duty Windfall Pays a Third of West Fraser\u2019s Lumber Earnings",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfc3VUV3F1dUpwNktPNkMzOUZhdm93V0tTaGVvV1VRMzIyR2tzR1hOdldYY3BNNHctWmc1X0M2RkZoa25iTmh0cGlsTmJGd0dBdTBxdlZPaTdKUklyb0JVTE9RSS1NUQ?oc=5",
           "source": "Wood Central",
-          "date": "2026-07-30T07:21:17.000Z"
+          "date": "2026-07-30T07:21:05.000Z"
         },
         {
           "title": "Canfor Closes Three Sawmills in Ten Weeks as Lumber Bounces Back",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9fakpfbkpzN0FtRkQySHNGQXdPZHJwcU96VzZMMnRCSXZPbWNHUHZ4YmQyQ21MMldNYVg1d3g4aktnWVQ5Rzd4OXFaaklMVW1LVTB4T1VHcWRIdFNlRG84?oc=5",
           "source": "Wood Central",
-          "date": "2026-07-30T06:16:31.000Z"
+          "date": "2026-07-30T06:42:18.000Z"
         },
         {
           "title": "Canfor returns to operating profit in Q2 as lumber recovers, but pulp remains a drag",
@@ -2580,7 +2604,7 @@ window.LUMBER_DATA = {
         {
           "title": "B.C. forestry company moving head offices to the U.S. amid struggles, tariffs",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOUNESTU4SjgwcDhuVVRTLWt1NTNqVkF3M09DRUtVOHhfUnljYnBuRjRDSXJWTUlfbm04S3ljYWFNMGRMeVhxM3RLWkdIc1BkbEJTU01fT0Jhdmwxa0tIVHJqQXBhRDJiaURSWnRlcU5HZFJwZlRtbnNYMUZxRy02dUMtWFZQTkpDMHQtd0prS212NVRWQm1hM3JhZVgzUQ?oc=5",
-          "source": "globalnews.ca",
+          "source": "Global News",
           "date": "2026-07-29T21:47:07.000Z"
         },
         {
@@ -2647,7 +2671,7 @@ window.LUMBER_DATA = {
         {
           "title": "Fox Creek sawmill permanently closing",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zeUxlX0NUVjlHOW1uMVZydTd5SnRQRHBrbDk5OXZjLVVfT3F2ckpNWG0yTVk5eVJSZFdxT1NuV21Sc2x0WmJEZ1BKR1Z4bXE2M0QzbnhPR1Y4c0xXWjFCNjNqcS1sRWxGa2xzeHRPNWwxNlhQVE9OdnpGcGszNW8?oc=5",
-          "source": "everythinggp.com",
+          "source": "EverythingGP",
           "date": "2026-07-29T18:41:56.000Z"
         },
         {
@@ -2655,30 +2679,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFRSWmRSZFRUcTdhU01ZVFJSanJEY0dxb3FHVV9DMkVUVWNNSEgwelpCcDRKZURSS0Rhb2pGa2ZZTS1tNDVFV1VDNDdpTEQxaHVURUdoMDFMOWZXbGdRY1dHRFNtT2QtTndCQ3lSMEtpU0JOMUFNZ3l4Z2dtLXg3V2lHcDBXX0hiRklZZy1OaC1LZEhCdlNPV2xmQQ?oc=5",
           "source": "My Cariboo Now",
           "date": "2026-07-29T15:12:57.000Z"
-        },
-        {
-          "title": "Canfor Announces Closure Of Fox Creek Sawmill",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pY1JEemwzMlEzejFxVjNzSm4tdnBrbjNYcjdVdlZpbWtBYTByOHFBUHdhbGVjSkNnclRZOThycTJBTmxiaDQwdWtTeFJPeEExZEhMamEyNV9qSEtTLTVUcmhReEVUc29BcndBbjFCSURfNEIwanB0ZlhoYjdXNDQ?oc=5",
-          "source": "Wood Business",
-          "date": "2026-07-29T14:16:27.000Z"
-        },
-        {
-          "title": "Earnings Preview: Louisiana-Pacific (LPX) Q2 Earnings Expected to Decline",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV1R6WGNiRW5wSDdqaE9WVTNKei1lUDBoYnZZSDljV2tDSnpRcFozcFdDY0gwYms3N2JqdTl4MjZ1WEZ5THdZLUJUQndDSlJGaEROWnhrVC03UzZTRXdJR1VxOWV4N2dTTHF1Yjdkd3pQa1BHajl3Tk9HaWlYQzNiaWs4Rm9lemx4TERSNmloWUlMaWEyLVFJeVZ6X1UyeFBrUXFTTFZ3?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-07-29T14:00:26.000Z"
-        },
-        {
-          "title": "Canfor to shut Alberta mill, citing tariffs and wildfires (CFPZF:OTCMKTS)",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLWM2bTNxbS1VWG52SGxtVklqOWR2c2ZSWFVBVlB1a2VTeml2TjRJRmhxWVdma1RtOWVoTGQyS0ppYkVrRWQ5c0lESEo2THUzZk9xQlpwZGEtT25jUXlaNGRodkJzbjRqeV9yTUZ5MTFtUzJ4ZzV1VUlSNi1MRkNPa0hucEZIT3dOOTQtRkRVRzVuN0xwUkdfZW9B?oc=5",
-          "source": "Seeking Alpha",
-          "date": "2026-07-29T13:24:14.000Z"
-        },
-        {
-          "title": "Louisiana-Pacific (LPX) Projected to Post Quarterly Earnings on Wednesday",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeFpPQkNLcjV6VXpFQTBHaFNxZjRyNlhVVDAwclJCREJCZUtBd3FnZ05OZjY4MURPX1B1TjlQWWFnVTkzc0Z5SUd1S19wMWpUTVBRR3Nudm1UVlRtRWtibjFHRmV3c1JHWlA3MWNvRWxmaFV4R3RDVE1uQ3RCbHFPcGNuWElCckQtNjFiYnBPTlpTelBVbE90REc5QklHdFh0YlVBZFZkaGViOVpGRmR0TnV6TDJZYnhGRnNXNy1seF91c28?oc=5",
-          "source": "MarketBeat",
-          "date": "2026-07-29T11:41:32.000Z"
         },
         {
           "title": "Canfor to Close Fox Creek, AB, Sawmill",
@@ -6930,21 +6930,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-07",
-            "mean": 934821,
-            "lo": 830509,
-            "hi": 1052234
+            "mean": 934813,
+            "lo": 830503,
+            "hi": 1052224
           },
           {
             "period": "2026-08",
-            "mean": 758300,
-            "lo": 666809,
-            "hi": 862345
+            "mean": 758296,
+            "lo": 666807,
+            "hi": 862338
           },
           {
             "period": "2026-09",
-            "mean": 807751,
-            "lo": 703578,
-            "hi": 927348
+            "mean": 807746,
+            "lo": 703576,
+            "hi": 927340
           }
         ]
       }
