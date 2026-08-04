@@ -666,7 +666,7 @@
         },
         {
           "period": "2026-08",
-          "framing_composite": 603
+          "framing_composite": 588
         }
       ]
     },
@@ -2512,13 +2512,37 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-08-04T13:58:20.410Z",
+      "fetchedAt": "2026-08-04T19:23:59.396Z",
       "items": [
+        {
+          "title": "Louisiana-Pacific earnings loom: Can siding offset OSB weakness? By Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOazZfemdwelVFeW5BRUFVSmNSdVVONVNrcUU3ZGgxS2EyRlIzel9iY1JUSkdHTDNDMjZRU1F3UzFkSzVLVmZVdzFHUDQtTndIS1dKWk5ZTkxtWXJPSEJxTHJKT2lxcUc4a3UtY2U1OVZTdlhDOE1rd1Bubkg1N2FXU0NNSnY0emFSWWc5X2xDejJSdVZ2UGI5WHplZnlCWlA2cjdkUW9PNXRKNmF2TkZNbXNfRQ?oc=5",
+          "source": "Investing.com UK",
+          "date": "2026-08-04T18:34:00.000Z"
+        },
+        {
+          "title": "Goforth to retire after 50 years at Weyerhaeuser",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOHZJaDJkZ2pyYkxjNGdZb3ZURXdmeDEzemNnbk1HbWhxOUpXT2RqalF6NEtaSVdNbjhCVU9yRTJFVGtOTzdYcVZUTG91d3JlNUh1NzJvOE5LdG84enpEeUItaFJxSUEtbFhjSTdmQjJSUjhhOWR4M0VWdm9XZE5MZXI1d3dLUkM4N2VmeUs1VWRoWGNER3JlX0xB?oc=5",
+          "source": "Neshoba Democrat",
+          "date": "2026-08-04T17:29:19.000Z"
+        },
+        {
+          "title": "Weyerhaeuser Q2 profit climbs with improved timberland sales",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUm9GTDk3c21ON3pRZ0t6VDZPMXBHWVpaTHFjMlZ2ekVxSVlMZjA2NHJFcmNPdXVFY0RMeTRVZFJXTlpidHlhRG9TUmJIcGhyamN4YllRVmpLOUdCMTlkUEpTYjc2T3RHdXlIdWlqSzJkOFhiaU4tTGx0QmVfS01PYzJEenRkR0tOZXlQcFdvUXRoSzR6QVlZSERLcHJ5aXA2Y0dJemFDc1NoT0doS0lFdEJRSk5HRl9xVXVsMk5B?oc=5",
+          "source": "Woodworking Network",
+          "date": "2026-08-04T13:29:18.000Z"
+        },
         {
           "title": "City councillor urges billionaire Jim Pattison to personally deliver final cheques to laid-off mill workers",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdFlTUkx5akxjM3ZYRklGbHZjdHQ5YjBvbVdXbDhNMmxGbV9mbU5FNnpwdmdmUVRXcTRMc2R5eW51UmpyN1lHSkJiODFsUEk2UDJrMG9IRWtTTzVSRnlPOWhuWHAwWWF5VElyWlJtNEJvUmVwd1JRcjlGb1M5TUlIV195OE9uellYNndNZXlTV2JCT3hJdTdN?oc=5",
           "source": "CBC",
           "date": "2026-08-04T13:00:00.000Z"
+        },
+        {
+          "title": "Truist raises Weyerhaeuser stock price target on earnings beat By Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUGMyaGptVXRWa1EzMVBLbGF3WG05RWJ2X2M2WmRzdnU0dzY0akUwVXdxVHJaMHFQcGZOUFlFT0ZzZ20tUWZseTVLR3BQanladTRLX3llMGN1Y2xJd0N5M00xd003MERCSWYtU2lKYzczYks1d01NVy1nQWc4cGd2MnlWV2ZBWDM3UjVnbkY2TDUxTkJEeFo2ZjlvQnhGY1NLS2dNQjJrOERXZHpfaENfV1pfVHhDQWxsTElaM0FudF9KZWJCaE1tWmdIcHRCZjVC?oc=5",
+          "source": "Investing.com Australia",
+          "date": "2026-08-03T21:40:07.000Z"
         },
         {
           "title": "US Construction Spending Slips in June",
@@ -2581,8 +2605,8 @@
         },
         {
           "title": "Madison\u2019s Lumber Prices Index July 31, 2026: US$558 mfbm",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsY3hqWUJ6M3NOSjB4aDV5VzFQU3ZFX28zMzJCRHZQLXNoaGl4MjFud2x1TkhYLTBxRVBLdGtNQ1RjU3JTR3VFTGV1SWFmcUdYekNsdkdn?oc=5",
-          "source": "redbooklumberdata.com",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VdWlvMTgwQlk5TW9zLW9CaVVlTWdvWlZSQ05LUFNWZkFyVHlXUzRmQm9iV2o1WE1JcUJZSm5jXzV4dFE0UzlFeHBaSEZtejZ4QjBzNDZmdk8xWjlEdmxxaUMteFUyQlpIbUE?oc=5",
+          "source": "Red Book Lumber Data",
           "date": "2026-08-03T13:39:55.000Z"
         },
         {
@@ -2590,12 +2614,6 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMF9MVHQtTXY5YzJEUFA4bm9CalpyVjJXeTB5cGVsSjRSM25UZXo5WmY3RXZPNVhaNnkzOVNWcHgwY3FzRzdtaWxodFBuTUdLZGYybmRzdTZmRTVwQzcxTEdNV1hoUXRzTld3bkJtVmpGcElBSVhUNVl1X3hoU2l4N21wSUNqemJtblBZZnRPYndLNHJvZXZRY0RZWkNlLTQ?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-08-03T13:15:03.000Z"
-        },
-        {
-          "title": "Truist raises Weyerhaeuser stock price target on earnings beat By Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQjFqeXFBWldpbUJhNm5aQS1acUZDbVF5R1ZzX09KRXdfeHFNT2pZdjhzRUtodFZpZExPaUZtQjZReFZKMUhjNjEtaENWU0FGYmROYlJEQjBlUThzeENjdkZGaGpNUVlEV3hSa2xGZm92Z1o2Z3dwV0xiWlBuNk8tUUloQm0xQlgxb2NOMm5FcktzR3MweUVGSnRUVTBZTHNvUTVqUGh3RHlvQzhLYVJNa3c4SjNjQktFbEFZLVZhUzc?oc=5",
-          "source": "Investing.com Nigeria",
-          "date": "2026-08-03T11:11:58.000Z"
         },
         {
           "title": "Truist raises Weyerhaeuser stock price target on earnings beat",
@@ -2685,24 +2703,6 @@
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR1VINkJIa09zUWpPVHAyODJOb1ZWaFlOY2psT1N3cklGTmRrcl93RGZrTDNtVWxVUHNkSk0tY19kU205c3hHNDBJNXpkaVN5cHVha244dENpVUNfbmd4bV92NENyOWlqdmdsY1o5STdEV21FeHQxQ0dSZHU5eXItRF9MZ1VGeDlzbzdPSnJ0V2J4a042NEtIQUV6S0NTN0dQRHdWQXZhQ05aOUcxWHVvY0VUUENJMEJDb0xaOTNxU0I?oc=5",
           "source": "marketscreener.com",
           "date": "2026-08-01T01:00:47.000Z"
-        },
-        {
-          "title": "Weyerhaeuser Q2 2026 slides: lumber recovery drives earnings beat By Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUnpUbjZBaFA1RnU0M0dDZGZLWUpXVEl0d2ZTZ3RvaXFaVE9ITmFMQU9OQ0hOSllzVnItelBBVXBXUmNtVWtlc3MxZ3lZTHB6eDZWdjF1WkVRbWtZVHNUdGdDNnh3TW5pb0F5b09pWm1hendxS1VycU8wUUhXR19vSkVzbEpqUTNhV1kzd0tUVEI5Vmk3UXZzRkhBUDE2ay0wRGN3ajk2V3lkMEQ5a1JfWXl1R3RoNWtLSTJLYQ?oc=5",
-          "source": "Investing.com Nigeria",
-          "date": "2026-07-31T23:46:47.000Z"
-        },
-        {
-          "title": "Canfor (TSX:CFP) Stock Faces Profit Reset Despite Narrower Quarterly Losses",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd1lpOTF0VkNlMjVLZE1JdVN3THdiQzVpOVlWSE0wd1VEY0dZRTU5dGpDRGNwcUtIRWp4T2tNMmlWd3ZVRzIyTk5VMnJOblY5SkM5d24xUG9rdTV4aVpVekNFNUdKbWxpeGRtekdfMHdGazUwRm1pZmVkOV9KQnhDWURkbktxVk1Fei1QcWc3cjQwMWltcmExQi1Fc2VSVkZIV3FZb0NUU1BhZUtMblFKQ1hGM2R3SXRlaFU2UDU5VVo2MTk4MUMtddIBzgFBVV95cUxPUXQycFBtZXpmczc4RElFWEJHbEI1YmNPOVh0bWhVdUFnZnZKYnFBajVWWkVXb3RvNjVvcVA0SlJFZGlfdFY2Z3MzNktQRnJvaTB3M2lkOFQ1YUZJQURqZ2JaVXVqT3d6cHk1T3M3N3FWNHNBYUpmYV81Mm94dnAyMXRQVjZPalFWcWZJTEFFaUg1Vko1YjdMZm1TaTlTQUkwVlJmZnpOTnNvVGxMMkk2aTJZUmpzc0hCc3IzcVBRQlFibGtZNExhVHpYNEU4QQ?oc=5",
-          "source": "simplywall.st",
-          "date": "2026-07-31T23:36:09.000Z"
-        },
-        {
-          "title": "Canfor Reports Results For Second Quarter Of 2026",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORXZyaEdHUloyNzh6NEt0Y29rdzBBNGpQNWtjNmpDS1Y3Q3JycDV6Q2xfQnNFODdVTW9rWUM0S3J5MExnU3ZoTG5ONkttSkc2WEN6SnQ5ZzM0VzIyMkRwSG44VGZuUFZDZGpkVjBZMS1YWmx0VWFmZE5RMlk3cG8tcG9sMEZObzhrRUVSZmU1QXE0YWM2d3JFczQ5Yw?oc=5",
-          "source": "redbooklumberdata.com",
-          "date": "2026-07-31T21:45:18.000Z"
         }
       ]
     },
