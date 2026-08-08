@@ -667,7 +667,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-08",
-          "framing_composite": 578
+          "framing_composite": 579
         }
       ]
     },
@@ -2513,8 +2513,20 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-08-08T01:11:01.218Z",
+      "fetchedAt": "2026-08-08T06:42:07.478Z",
       "items": [
+        {
+          "title": "Weyerhaeuser (WY) Q2 2026 Earnings Call Transcript",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYnc1ZG9Nbl9UeWUxNGNXMmUxdVI3cmVYc1RJbXZpYjdsbkxWakJDYWxsUkpKSk5Cd3hFVDhnX3pUSjhPUkJ0RUI4X0FfM1ctY0VDMlJtVTdSVy1WNzhpM1VDUEhxV282azRpY0MycUJFeG5KU0N4dVNJUml1WFo0cFl3?oc=5",
+          "source": "AOL.com",
+          "date": "2026-08-08T02:05:15.000Z"
+        },
+        {
+          "title": "News of the day: Interfor's move to U.S., job gains, AMD buying Taalas, interest rates, short-term investing and more",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRnkybFR5UlpOMTdKQzVHUDRmcVNCR0VNMDNkVF9JS2RsRk83OXY1M2pBTHpBTE5TaG13M21YS2pVclljT2FIbHZEd0dteTlDUUxXWTBnSGN1TjdzR2l2eFhtVEY3aW9jZGtTb3ZUcEZMZFFQVzllUlo1MGc0b0w2TW1nTkxBRkl0WkdLazVqeF9YUmFCZEl1bjd1bHJfNEE3bkR1blU0YUVsd29pWXhISUJLY3daVjg5dVZxWG1aTHFBclV3cEt0UEowNEtoY0xPUS1kdDVKcENnYkthMWhPaFItU2FtYkZxUkp5MTlzZ1ZKZlds?oc=5",
+          "source": "Financial Post",
+          "date": "2026-08-07T21:39:59.000Z"
+        },
         {
           "title": "Madison\u2019s Lumber Prices Index Aug 07, 2026: US$558 mfbm",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOUl1WlJlVVZWWGttQ0oxbDBILTJyREUxMGx5NUJqSElTR3RXalFDWDAtQTNPMUM2QXRBcGgySllsOURsQzhieUlrNHNoanV3NlhtMjdQcG8taVF6UnJKTjFLT1RKQTBCQnhkclZSNHYzYzV1UjZXQm5BNEVjY3lKQUxXUVFlLXZCd1VVSDloZHliY21PRVllWWJOTXhpZw?oc=5",
@@ -2588,6 +2600,12 @@ window.LUMBER_DATA = {
           "date": "2026-08-07T15:00:00.000Z"
         },
         {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbTd0WTZIRXVQMG1PeHllMGJKQzZrdjl6THp2N2d1OW1fb1gzc3lRZXhVaXFBQTlGaW5PWEpIMTVJMzM1azY3SVFHSTJWdmg1b1NaaFRwemFVNXI5Z0xvd1dkSG8zQ3dkbjdVd3BVV1p6aUhmYTJFZXhNaFZ2TVNzbGY0bkRsSFZhWG9RREVHelc?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-08-07T14:30:14.000Z"
+        },
+        {
           "title": "Interfor Posts Lower Q2 Net Earnings",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaEwtTy1kQk4wU3MyMngxbXBzaWIzQTNxaUhWYjVZdFFyTEREUGtUQ2pJNmw4dl9SUFBhdFUzdGdVZnlUWll4SFFveE5UOXBMWU5KVENFQUJyc3ZnUWRMVm9UM0dGRUdubzFpekRhWHFlV3VGQVB2ajFDX09VR1ZScEZfNjAzaENPSGNqMURybU5GMUE?oc=5",
           "source": "marketscreener.com",
@@ -2602,7 +2620,7 @@ window.LUMBER_DATA = {
         {
           "title": "Lumber Prices Reach Highest in Four Years | The Wall Street Journal - newspaper",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOVdLV2t5MTJYcC04VUJDU2YxMWQzNVVwRFd5OUNpZldCMkZpbi1rRnRFR2dtMTc2YWc4WTlOR1NMbXh1YV9ZajBhdHowX1ZmZmlXZk10d0c1cVNKRk92cS1zamRzQXBNRGZ4N19PdnJaZGFPaFZTcm5pVHJQMGV6d3dLV3FWNExfSFRYU0h0eGZuYzZqcGFRTlRURV9QbTVsMWplQ3lnN0lDS2M?oc=5",
-          "source": "magzter.com",
+          "source": "Magzter",
           "date": "2026-08-07T09:04:22.000Z"
         },
         {
@@ -2682,28 +2700,10 @@ window.LUMBER_DATA = {
           "date": "2026-08-06T16:53:00.000Z"
         },
         {
-          "title": "BC-Lumber Futures",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1RqR3hvcDF3eU5tOFdoYS1zV083WlRCOHV3TjNxemN2X09BWnBWcktPTmtZSGluTExzX3dzOW1fb204RjAtY2I2VkpzUjZ2T091cEZ3b0pqbEJvTUdWTkwtbnFtMmlBbUZMMUVGR0MxMjZvWThqRGxjUWlaSTJSNFJ3U19PSjFENFFpcW1MSWE?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-08-06T14:30:16.000Z"
-        },
-        {
           "title": "US softwood lumber imports fall 17% to 13-year low in H1 2026",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84TmgwSEkzNUpNMFA4c1p0MEZLRFdIY1R4eVpGS1FMdU5fSnRxQThTeW14dUFES1BCdnZkcDBqUTdDdkJxc19TV3NjdnU4bEFwQlJuVGg0dERrQk1JZlMyTnZzUG9HZU9MNzBpc1FybFc2MTZWeXB2QVFqSQ?oc=5",
           "source": "Fordaq",
           "date": "2026-08-06T13:09:24.000Z"
-        },
-        {
-          "title": "A 40-year trade fight is the easiest deal Trump could make this year",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaVYyakpxX3ZBZXk1NzdWcU1JMTZEUUttZ1FzS1VtemVFRXlTSTIzcFp3Ujh2US03V05GcWV3bU1wR2JXZXpteC1sSWY0aTVEX1BJdnphT1ViTzBkRTlJX0p6Uk52Z1ZRNGJOSkZROUZ1WFhFWjJhTkdaLVBMYnVqU1FUUTdjMTJtbVRTOThtbllNX1NHOTVpcA?oc=5",
-          "source": "Washington Examiner",
-          "date": "2026-08-06T13:00:00.000Z"
-        },
-        {
-          "title": "Lumber Prices Surge Despite Housing Slump",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa1pqRmhzS0VCSVVqVzVpNVdscXlDclk3S29QbkJMODBmcHJTd0xvN0Vfc1o3OHJsN20tWEFReVA1MjFYSDZQcGZUNW9UNVBybEIya3pFT2ZHLVRIUHVIV2JVVzNCM1hIaHJMLTFPZE5qeGlPOXRIVXFEVW9xWWRlZ21lZTV3UkEtQy1nRlozdGw?oc=5",
-          "source": "WSJ",
-          "date": "2026-08-06T10:50:00.000Z"
         }
       ]
     },
