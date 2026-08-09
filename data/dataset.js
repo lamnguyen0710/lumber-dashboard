@@ -2513,7 +2513,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-08-09T06:45:59.581Z",
+      "fetchedAt": "2026-08-09T12:38:54.954Z",
       "items": [
         {
           "title": "West Fraser Timber (TSX:WFG) Is Up 10.6% After Deeper Q2 Losses Extend 2026 Earnings Slide \u2013 Has The Bull Case Changed?",
@@ -2524,13 +2524,13 @@ window.LUMBER_DATA = {
         {
           "title": "Louisiana-Pacific Q2 Earnings Call Highlights",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeWZ6NktZa1BLWVVGaHpfWFVTYnAxcld6YW82XzhQanRvUUlVWmZaNURlZFdnRlNxcVgxd2h6LV9yY0NONW5SY3lISUFlR0FsaEdrZkd1dXlLV1pGZUNUMmdEZ2NwNEdCRlVhXzZsemhwQlpZaEt0Nmo3ZkpET2JNMFlBNTEweEREb3JhRkpzOXUxemZQLXZqQnBTa0JyblZm?oc=5",
-          "source": "finance.yahoo.com",
+          "source": "Yahoo Finance",
           "date": "2026-08-08T17:03:55.000Z"
         },
         {
           "title": "Weyerhaeuser (WY) Could Be 18% Undervalued On Its Latest Earnings Beat",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWkRMLTFDa1NHOTRwcEtXZ2h4c2xiZjlWa0NCUXFGQVFjZEJyUGlzWlUxOUJWdkdnRXo4a3ZocDlUVjBiQUIwNXBxQWc3UWN3N291cC1IMFJDRG1sbWRrRHNqRGo4dDZGbUpyMTFTM2t4VGhmMEw0dmJSaUp4NTFnNF9XdndXaE8wUmMtcXZn?oc=5",
-          "source": "Yahoo! Finance Canada",
+          "source": "ca.finance.yahoo.com",
           "date": "2026-08-08T14:12:12.000Z"
         },
         {
@@ -2542,7 +2542,7 @@ window.LUMBER_DATA = {
         {
           "title": "Weyerhaeuser (WY) Stock Looks Cheap On Cash Flow But Pricey On Earnings",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObUoxZXFEM1pIeXZ1cTlEYUFtTEo3VkVlYUkyM2FzcFJndzBaWEZPSjc4VUpXLXNrVzZXTjNPb0pXYmNKV2Y4ajVyeTVTNkxVN0pXSTdPM3JzakVSU0dPNGZmQkpWZ0tNNG9uZzlTOHRlYWprVmZ0ZjYzdjBYZU1QLUUxbGQteWwwSU50b2ZFeFBNOW1WR1Y3YnFjNVJIUTg?oc=5",
-          "source": "finance.yahoo.com",
+          "source": "Yahoo Finance",
           "date": "2026-08-08T11:11:24.000Z"
         },
         {
@@ -2626,7 +2626,7 @@ window.LUMBER_DATA = {
         {
           "title": "Lumber giant Interfor confirms plans to move corporate support to the U.S.",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeEJtTUhLYTh2c05jZnpqOHYyTDBvajE3QWxiVGRicU9LOUdnaHh1ck5BbmNQWUNieUJxajlTYnBjVVZianBEOV9QMUI0eXkxVUg1X2hXNnY5cm9Gb0JRblNKcW1LcEFzSjhOQjF5bHJrbXJ4b2NwOHV3aGZYTFV2QXdrLXUyb0h4WW0tUlhn?oc=5",
-          "source": "Yahoo! Finance Canada",
+          "source": "ca.finance.yahoo.com",
           "date": "2026-08-07T18:55:55.000Z"
         },
         {
@@ -2644,7 +2644,7 @@ window.LUMBER_DATA = {
         {
           "title": "Interfor Posts Lower Q2 Net Earnings",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNXzA4RlJPLUxPTVgyanBXb3RSVmFkb3FFLVlHbjlhVWJ3emlhYTJwa1loLTZjRTZGNTEya3c5VGY4OXdodlRWZnNudE9HcXlSNGJHcjVpNlNKZkQydFFnU1FyWHBsMDY1NmtDV1lMTVNVeWlFVUozTlMxVUNZcGdFcm1mWjh1TzBRck1nakQ1VWhKeHlROGFXVDQtaC1yaGUwcDlnV1pmX2otUm04aUNCb2E2UQ?oc=5",
-          "source": "Moomoo",
+          "source": "moomoo.com",
           "date": "2026-08-07T12:11:52.000Z"
         },
         {
@@ -2666,16 +2666,16 @@ window.LUMBER_DATA = {
           "date": "2026-08-07T07:31:42.000Z"
         },
         {
-          "title": "Home-Building Is Sputtering, but Lumber Prices Haven\u2019t Been So High in Years",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNblQ0Y2hkY3ZGR1lyWEZsT2VxNXBDNW9PZEQzR3lKblYzMlM5UHRjZHFEOE40c2pOS1MyMmRBN01STkYxX2xuZms2Z0J2NU9LRDJQNUc3REU5c0RYUkZ2cmdoV1J0aThuQVdLdkpsb2JyTEtHZlh3ak9hd00tSUl5VUtibUIzaHdFZHdmV09KTWxDVjloeUMxX1ZsX2RGV3BXQlZ0Ujdld2lQSFpfWVVDcG9IWHp6WGY5am5USEI5S2kzenExeUdfbHJFNA?oc=5",
-          "source": "WSJ",
-          "date": "2026-08-07T07:00:00.000Z"
-        },
-        {
           "title": "Interfor adjusted EBITDA triples as lumber price rises 11% in Q2",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGJ2SmhSRkY0a29uZXNRRTRXZTVHWm01QnBXRTZtUUFESnlDU0ZQQmVobFMxZkpXeGRXS01vUmJxYlZlUFdYUFh0Ul8zWUdaT2VxWjd0NFdyTWp3SUY0WFBxYjExSHV1U3c0ZHRCbWdxQllFWHA3T0plb0tkYlpadVBiRnFGS1pQMmNKajNvTy1Xc1FOWDN2WDVudEN1V1FHellhcEVB?oc=5",
           "source": "lesprom.com",
           "date": "2026-08-06T22:55:04.000Z"
+        },
+        {
+          "title": "Canfor returns to profitability in second quarter",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSlBTcjRfTUlmRzFueUFqcGFWUVpzZWRPaEJlNXJiZHFqMHJrY0ZQUy03bWlZQnVVY3FtVHZyX1ZGVjVSdE96V3lHZ3VCcEloZEFuZEY2X2xWUV9fMHZIc3NEcklrY1VieXpSZFJtclg3bWZ1SUN4ZTBuMHdkNER0bnR6UjVINEVGcnlIMk5hXy1BdU9uNDRteHAwT2xoUQ?oc=5",
+          "source": "Woodworking Network",
+          "date": "2026-08-06T22:44:28.000Z"
         },
         {
           "title": "Rayonier Completes Timberland Transactions Across Three States",
