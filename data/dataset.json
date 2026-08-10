@@ -2512,13 +2512,25 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-08-10T07:21:06.043Z",
+      "fetchedAt": "2026-08-10T12:55:46.233Z",
       "items": [
+        {
+          "title": "Canada Sells Less Lumber Outside the US Despite Hunting New Markets",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYYnpuNkhGeU5vRVNaSHVCMkVOU3o4Rmw2OVFKcHViMnhDSHR6Y2dScW4zTHdXaG5pWWEwWnhKcnNNcVg5Rkd6NTVmZDFEQm5ySElQMDFFLU5WeHI2Skg0bjFVSVVmb1NGTmJPd09Pdkc2eHo5Z3VSdlZlb0dHdw?oc=5",
+          "source": "Wood Central",
+          "date": "2026-08-10T12:02:21.000Z"
+        },
+        {
+          "title": "West Fraser Timber Co. Ltd. (TSX:WFG) Dividend Outlook: Assessing Sustainability Through Timber Cycles, Cash Flow and Balance Sheet Strength",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOUkExVEhOaklQbTNLcV9qd3pMTHJSd28zTko4SGVoajFfTzE0empJbTc3dmJ4VUpYVXB6c25YNDlZYXVQYkR2RndnVDVfa1Y4bTRkMk4xT2g0S1VVbHJaNlE3ZHZHYU56VTQ2cjBzYTJfTlVVTDRMVFV0RmJfejhDOE5abFFSOS1UTUtyc2wxN3c0bjNhWDZfbGQtbXJZcUpvR0hwSjhxbVlVNXhtTHJnSzJ1MzhKS3lWNmNSNVVDdHdMaUJGQ0lCRUQtYkdON1BIUnNxZ2pnWldra0lCX3pSNTFpS29QdVdEZjZSdkxtREtBNkI2dkpSdEw0UzJoWmtFeGdr?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-08-10T10:46:00.000Z"
+        },
         {
           "title": "Interfor Q2 adjusted EBITDA triples to $92m as lumber prices rise 11%",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPc0xaSlNlZ3FBSnhVNG1UQ0tDaENvdXBncWFlQ2hON0xFUzBmWUprWmk4MXBLMjV1cVJva0dDck5zamZMVjd2N1FmWnFtWjl6MTFQcUVMdnVDUi1PM2E2NnVubE83Z29yNnVQdGVDUUZlRENvV1c0NzUwcWR2MzdxbQ?oc=5",
           "source": "Fordaq",
-          "date": "2026-08-10T03:31:53.000Z"
+          "date": "2026-08-10T03:41:48.000Z"
         },
         {
           "title": "British Columbia softwood lumber production edges up 3% in May",
@@ -2577,7 +2589,7 @@
         {
           "title": "Weyerhaeuser (WY) Q2 2026 Earnings Call Transcript",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR21jRzFleHFtMVI2X2hlWXR6TEw4d3pBRkQ2NzZrQnBiOVo5djRsazM4SXkyVkFOcHJTMkdZeldMcDhtYU9jd0ZqUy1CUlNaYlNrVXFEMFY1NE1tQ1V1QnItaXVvNHNXWm95ZGVBeWdxc2NhT0kwTGl3emJvRFZKUnRJOElpNlZPMTJYS3o3UzZhYloteHZCR1FNSzNYSlQ2a1ZVS2FaSUJaUkh0bXZ5cmNMeFF6MnNHS2VmM3A0azIzZGJKT20tXzVGVQ?oc=5",
-          "source": "theglobeandmail.com",
+          "source": "The Globe and Mail",
           "date": "2026-08-08T01:48:00.000Z"
         },
         {
@@ -2589,7 +2601,7 @@
         {
           "title": "News of the day: Interfor's move to U.S., job gains, AMD buying Taalas, interest rates, short-term investing and more",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRnkybFR5UlpOMTdKQzVHUDRmcVNCR0VNMDNkVF9JS2RsRk83OXY1M2pBTHpBTE5TaG13M21YS2pVclljT2FIbHZEd0dteTlDUUxXWTBnSGN1TjdzR2l2eFhtVEY3aW9jZGtTb3ZUcEZMZFFQVzllUlo1MGc0b0w2TW1nTkxBRkl0WkdLazVqeF9YUmFCZEl1bjd1bHJfNEE3bkR1blU0YUVsd29pWXhISUJLY3daVjg5dVZxWG1aTHFBclV3cEt0UEowNEtoY0xPUS1kdDVKcENnYkthMWhPaFItU2FtYkZxUkp5MTlzZ1ZKZlds?oc=5",
-          "source": "Financial Post",
+          "source": "financialpost.com",
           "date": "2026-08-07T21:39:59.000Z"
         },
         {
@@ -2655,26 +2667,14 @@
         {
           "title": "Lumber giant Interfor confirms plans to move corporate support to the U.S.",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeEJtTUhLYTh2c05jZnpqOHYyTDBvajE3QWxiVGRicU9LOUdnaHh1ck5BbmNQWUNieUJxajlTYnBjVVZianBEOV9QMUI0eXkxVUg1X2hXNnY5cm9Gb0JRblNKcW1LcEFzSjhOQjF5bHJrbXJ4b2NwOHV3aGZYTFV2QXdrLXUyb0h4WW0tUlhn?oc=5",
-          "source": "Yahoo! Finance Canada",
+          "source": "ca.finance.yahoo.com",
           "date": "2026-08-07T18:55:55.000Z"
         },
         {
           "title": "West Fraser Timber Co Ltd (WFG) Earnings Forecast: Future EPS & Revenue Growth Estimates",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1rdlZobjNoZFFWVzYwM2dCNllIQVhSWThpTVE4Qm9MWkNPU1pOcG9LeV9lckdpZGx2TzZXZlRxMWJVR2JIbU5fX0tUeXRVb3ZJbWhkYVp6MU5SLUlMa3JiRzlUaEY?oc=5",
-          "source": "tradingkey.com",
+          "source": "TradingKey",
           "date": "2026-08-07T17:31:51.000Z"
-        },
-        {
-          "title": "Earnings call transcript: Interfor posts big Q2 2026 beat as shares rise",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNTA5ekU0YXdPRmZ3cHAxeHlTVnRsLVAzdjRPdlpoRVJrX1pRSWNoLUFVLWsyUVNkNzk5eV84NENwT281UUdpVWZfLVlNQ0RlNElsNWVZc1ZBTDNqa2huelFBZm1zaVdBQjM4NDFvMFRqTDU3MGVMaEdQZmRISEc5T2hzUDNsbnYyelZWRGhCcTYwWWdFUDd3SDhiemtTUHR1ZW15STlObUxXS3RYTzJFTHBmcGFSd2hmVHRoMm1nMnJOb0dPTGgyWHV1WUdpZFBu?oc=5",
-          "source": "Investing.com",
-          "date": "2026-08-07T15:40:00.000Z"
-        },
-        {
-          "title": "Interfor Posts Lower Q2 Net Earnings",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNXzA4RlJPLUxPTVgyanBXb3RSVmFkb3FFLVlHbjlhVWJ3emlhYTJwa1loLTZjRTZGNTEya3c5VGY4OXdodlRWZnNudE9HcXlSNGJHcjVpNlNKZkQydFFnU1FyWHBsMDY1NmtDV1lMTVNVeWlFVUozTlMxVUNZcGdFcm1mWjh1TzBRck1nakQ1VWhKeHlROGFXVDQtaC1yaGUwcDlnV1pmX2otUm04aUNCb2E2UQ?oc=5",
-          "source": "Moomoo",
-          "date": "2026-08-07T12:11:52.000Z"
         },
         {
           "title": "Rayonier Completes Timberland Transactions Across Three States",
