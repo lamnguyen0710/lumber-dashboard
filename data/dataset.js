@@ -2525,7 +2525,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-08-20T00:55:34.469Z",
+      "fetchedAt": "2026-08-20T06:37:06.912Z",
       "items": [
         {
           "title": "President Trump Postpones 50% Tariff on Certain Canadian Goods for Three Days",
@@ -2601,16 +2601,16 @@ window.LUMBER_DATA = {
           "date": "2026-08-19T14:19:00.000Z"
         },
         {
+          "title": "Lumber prices flat on usual late summer slowdown",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS2E4aXNHQktVUVp1VlRiblhJREJ6S2dGMGxleXAzdkh6YzZ4a1dBQnJMYVVhbzNxWjM3eFNBTks5em50SnFGUUpJeUd1NEo5XzdzRFQzaVNSQ2ExOFlibnN3T2RXMHE4MTN5OFJPa2NvanI2WEVoY0thcXE2a0FoamZIcmxxQ0xsNERteg?oc=5",
+          "source": "Pulp and Paper Canada",
+          "date": "2026-08-19T13:22:00.000Z"
+        },
+        {
           "title": "West Fraser Timber (TSX:WFG) Dividend Outlook: Assessing Sustainability Through Timber Cycles and Balance Sheet Strength",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS2xBanpZS2tXYlZuNS05RUVxUjQ5TzV4ZHJfSUlMa2IydVAxX0dLUk9TdmZFMHVJdTFNaVljb1NPM3lZTDNlVW5JQnk0WWc5LTJfVnRkTEhSSTR6UWdtdUxiM1NHNUlKTms2WWp4NkhreGdYR1RVR3pRQWJoX0liUUN0WUZ6NFZkUGRWMFpWMXdLNlFJUUZ0WTB2YjdLdnNNM1lUT2wwZG15anUxZVhYRkNSa25mYTNSYzN1SVhyV3I2S0FxeFNhLTBvdzdNYjZaZnBEQncyQVVNNzFXaUdoVVJ3MmxIdFlINEstWQ?oc=5",
           "source": "kalkine.ca",
           "date": "2026-08-19T12:55:00.000Z"
-        },
-        {
-          "title": "Madison\u2019s Reporter: Lumber Prices Flat on Usual Late Summer Slow-Down",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbnFhRXZXZ0ZaM0xEM0xBeFpyN1JVNmlWa3NIVUNXeExIWDRGaFNmelhIOEowc2g2ek1uTm5vLUoydmtxN0tqS2t3T3FlcG9QaFN2eDcydE02OGs1ZU0yTFV1VkZVamk1YnIyZnBJdC02WlJpUktMcXh4c2xoUWUtUDU1R0Q1RXBBLUlINGlWa09neGVsQWJuQ0NnWFBINW9QSWhyMWlSWUZpR3BEaUVsNnhwVQ?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-08-19T05:01:16.000Z"
         },
         {
           "title": "US Housing Starts Drop in July; Permits Rise",
@@ -2706,16 +2706,16 @@ window.LUMBER_DATA = {
           "date": "2026-08-15T23:27:52.000Z"
         },
         {
-          "title": "West Fraser Timber (WFG) Pushes Higher at $70.76 as Market Momentum Builds - Virgin POC",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRTRPMGNvREplNExsLWpsSGJRaFR6SW10LXU4aWd4ZWxCZC00eUNqX1AtcDdJNWdHTFItMGI5WjlkTUNybHJMOWgtcG9vTWFacjU5MmkzdkpMVkNQSnN3SEVJTkpHSmxodFVpWTBzbDlHa1pNbXRMejZicHljLVpNNENVWVp3TTFYVFJqVjRqWXVBU3JyWm9lRlBMM3RlektsVVNfNzZBTDByX0ZQMXBCYw?oc=5",
-          "source": "Vinanet",
-          "date": "2026-08-15T18:43:23.000Z"
-        },
-        {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWmVNVU1meEd3YmR3VDA3bnFtVFlxWGlzWmJabThQV21fTVp4MngyQXNJTmNOMS0weFRHTzVmWFpYcDdJVnF6T2ZXWFl4b0YtVEtMTXBUM1Vxc2JkMFlZTEI0d2c3V1VpOGV5c1VfdjlMYnYtZlExQkd4WEozNDlIMDUtdzhfWkFoUFA0RGVCcHhWaXVFNVVoRUFkeEdCU3BVMi1LRWJB?oc=5",
           "source": "Red Book Lumber Data",
           "date": "2026-08-14T21:16:24.000Z"
+        },
+        {
+          "title": "North America softwood lumber market update: Q2 2026",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVE0tYmx5ZVJWTktNcVpScDlsTTIxYS0tMXZqeHJDZzBXSE9zMG9FY0tnamZjajN3RkxJNkFtTEVIby03dVhqVS0tYW52VTBNOTlHS1BKUGc0THNUS3F5cFNfdEdiazVOa3B4cTdFUXhVSV9iTmlDYjc2ckh3emhtWG04dnVkakZQTjFCZTBKQ2lnRTg?oc=5",
+          "source": "Pulp and Paper Canada",
+          "date": "2026-08-14T15:42:04.000Z"
         }
       ]
     },
