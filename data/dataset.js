@@ -2525,8 +2525,14 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-08-21T06:36:47.761Z",
+      "fetchedAt": "2026-08-21T12:35:33.196Z",
       "items": [
+        {
+          "title": "Could Canfor (TSX:CFP) Be Entering a Stronger Recovery Phase?",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZjZkaWxfNlN5WjhqeXdHejhBSTVFa0FGX3JLVEpGelR4SEtZNVJpWFY3aURpazZ2cWFvMWgxQks1SUktQmxfSkg1QjBUQUNYVzJLWWctLVNJYlVWZ2JEMDNKVWZTWHhodWZYTDNpMmNzNXlIZWFzdVJ6UXVIRTV0RUlwYmw4bVRMUXBOZ3RDSEFaOVFDejFoa3hIVkNIcndMeUNLeHc0ckw4QQ?oc=5",
+          "source": "Kalkine Media",
+          "date": "2026-08-21T08:51:00.000Z"
+        },
         {
           "title": "Investment in Canadian Building Construction Slips in June",
           "url": "https://getfea.com/end-use/investment-in-canadian-building-construction-slips-in-june",
@@ -2652,6 +2658,12 @@ window.LUMBER_DATA = {
           "date": "2026-08-19T12:55:00.000Z"
         },
         {
+          "title": "No return of U.S. booze without tariff relief on softwood lumber, says New Brunswick premier Susan Holt",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObFFzMnlvbUFYeTJkejk4REFEZV9zeHFDQjRpcjN3QkN0eTNhaVVzNmxTU3hiN2xScWM5bEhPOF9oVERVOEZSSXl6TkFGRTNXZXFMU25US19PODl2TEc4U0FiSVZacHYwQ1Q0TGlEcnVfcjRfUEc3YllCaHlvQ1VwdXViX1EzU0ZEWlB2THV0WDBWenFtSThBSG1RQWhwX0RPSVBhOWF6TkhWei1wRFpGX3F5cUtVUlhqZm84RjBpbFJJbmxRb2NNeWZn?oc=5",
+          "source": "Tree Frog creative",
+          "date": "2026-08-19T07:00:00.000Z"
+        },
+        {
           "title": "Madison\u2019s Reporter: Lumber Prices Flat on Usual Late Summer Slow-Down",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPVmNzdkoxTk5fbWNnWGZZb3FEM25JUE4tanYzamFjeXlSbnVQUDJSNFVIc0Q5OGhDX1VIYTcxYTBGRG9pZkk3ck40WTlhdU1rYnhQV21EX2l0NnVCY0NUZkZpSzFfdU9qdWc?oc=5",
           "source": "Red Book Lumber Data",
@@ -2659,9 +2671,9 @@ window.LUMBER_DATA = {
         },
         {
           "title": "Louisiana-Pacific (LPX) Is Down 5.7% After Soft Q2 Results and Cautious Siding Outlook - What's Changed",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWnZsWU02Mm9JUXZfbHh6OHZ5OFluRkJfLXJtcXJiLU9nYmFwNEJQbGduN2lzNllWRkRVWUNhdXhNSG5LMHdtdmMxSldTRU5rODRrVUx6XzFscXhHcjAzMU5YazlrSWhpN0QyQ1dQQmJNV1ZsaGQweEtVZ0ZEQ09EWlE3NVhHVVIyUTlZVVNjUU13UUVsZmVPRTlUVFpCQ1lBelBXeHBGQXoxdUhQb0l2VmdzcXg1RGFnMlBRYzNWS3BsNzZVNkNwMkcxZkNlVjJkWTJWSFkydGoyQdIB2gFBVV95cUxQWnZsWU02Mm9JUXZfbHh6OHZ5OFluRkJfLXJtcXJiLU9nYmFwNEJQbGduN2lzNllWRkRVWUNhdXhNSG5LMHdtdmMxSldTRU5rODRrVUx6XzFscXhHcjAzMU5YazlrSWhpN0QyQ1dQQmJNV1ZsaGQweEtVZ0ZEQ09EWlE3NVhHVVIyUTlZVVNjUU13UUVsZmVPRTlUVFpCQ1lBelBXeHBGQXoxdUhQb0l2VmdzcXg1RGFnMlBRYzNWS3BsNzZVNkNwMkcxZkNlVjJkWTJWSFkydGoyQQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNamZ6a2VlT3prbmhkTTFkSmxUSzhfcTBobU5IdWY0bDhwSExfZHVad09lamd1VnVVeWoxTnA0YzVMNmx1Y3pqSmV2QzRHQVZRVTNFVFliaVBDZGNUbVhjdGx4TzN2X0Z4MWw5M0JudTI3cDVjNG5LZzBwMXlXc1NRNTd0U3ZwR05FZWN0MTlSV3BNcjBwZHA1S0lSRDJadWNoSWNDeUlsei1IX0lIak1kZldjR0pRNWhKU2szaGNBZURfVlMwdl9HaDVjb3Rud0pCd2VTN9IB2gFBVV95cUxQWnZsWU02Mm9JUXZfbHh6OHZ5OFluRkJfLXJtcXJiLU9nYmFwNEJQbGduN2lzNllWRkRVWUNhdXhNSG5LMHdtdmMxSldTRU5rODRrVUx6XzFscXhHcjAzMU5YazlrSWhpN0QyQ1dQQmJNV1ZsaGQweEtVZ0ZEQ09EWlE3NVhHVVIyUTlZVVNjUU13UUVsZmVPRTlUVFpCQ1lBelBXeHBGQXoxdUhQb0l2VmdzcXg1RGFnMlBRYzNWS3BsNzZVNkNwMkcxZkNlVjJkWTJWSFkydGoyQQ?oc=5",
           "source": "simplywall.st",
-          "date": "2026-08-18T21:37:11.000Z"
+          "date": "2026-08-18T21:37:03.000Z"
         },
         {
           "title": "\u2018We are dealing with a bunch of bullies\u2019: Softwood lumber industry braces for tariff deadline",
@@ -2704,18 +2716,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZTNXN3RDZ094WEM0MHRhQzB1dGxxYWlqbUpjaXJsX20tVjZHeGFfTFlibm1iNnRYSGhfYkNmcDdEODdmRlBkZzRicnZTMFhISlNPbmFOaHdrZ0k1VldNeVV0c0tac1ZiZUhTbDlfS2Zid093UjdQUFR2WF9nT0g2bDh3bW9EZ1p6NEptZGhFMUc0aDdQV2VrdE54d3d1UkZLZHI2aGlOSGM3UWIzdHRkMElWMmtJdmJreHlENGhnS3pod3pqZUdmYmRZMEVwbUk?oc=5",
           "source": "kalkine.ca",
           "date": "2026-08-18T10:47:00.000Z"
-        },
-        {
-          "title": "West Fraser Timber Stock Under Pressure as Lumber Weakness, Tariff Uncertainty and Macro Risks Weigh on Sentiment",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUHkwa2ZlX2ZTQ3FJMmJsVnVyYjh3MTczYTZ0cVI0c1VvY2xSX0k4Z0tHNldZTW4yZVlPa0U0OFFVQ2VTM1dfRF9aZllFcEV3bVVVcHhaOFpxbmFVcWdTd0w5RnpJNWZMZDFXUkxuVEJVSWRLOE10VHpyaXNudVBpc0FONG9JSTdscXhBa3lHN25kcEJ4T09sUzZRcWd0djQ5RWlEOEU5bFNOR0dtcHNiaTBOa1NQd1BhRV8xRkpBUW9MazlkTW14VEpvbEtvTTdrTzhEbGdzU2Zmb2pQemxGT1dR?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-08-18T10:47:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Stock Looks Below Fair Value While Earnings Look Rich",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbllGc3lrR25vdXVfUXVTd1lvbVk2c2ozNEd4R2p3NUREVEJmemNoTS1RMS1FUTlCR3ZXdHBXX3BQNHZ0a2RvcDlMaHJPV0xZV1lHRjY1V1JYVlZWaUtqSE9tWllYQ0F1RFJQZE1objdQeUhlcTQxMTZyTmhZblNHQjVCMGVKY2pJOHdGUkZabXQ5RWJyMXQxS21XOHBZd1cyS25COXJyTFp0b25pa0JjeFN1VktOVDhMc0tQeXotVW42NE9pNE53bdIBzgFBVV95cUxQYXp1ZWlhc2xweUhPZm9hUTdYQ3NhVXl0UHpoR25SZmlaSGgzUTZ0NEpuYVAya2FSM1hrdHJ6ZEpmeGZ0VTM0NEpIU1lOdHpMRFBmX0syV3RoWWtZYjhpeTg4YjhReHFDYXphY1FTRFhvbF9pWGpzdTdMS1NSNUpwdFU3MGFzUVJPQlNPZXc2Q25KRl9hWmcyUHFxd3hNVjhROHdIc1ZHN0UycW1JWThkTWZVamVqX3BMMy1CSDNZLUFyVHFDa01GV2puOFFrZw?oc=5",
-          "source": "simplywall.st",
-          "date": "2026-08-17T23:26:50.000Z"
         }
       ]
     },
@@ -6973,21 +6973,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-08",
-            "mean": 741241,
-            "lo": 658946,
-            "hi": 833814
+            "mean": 741249,
+            "lo": 658954,
+            "hi": 833821
           },
           {
             "period": "2026-09",
-            "mean": 785088,
-            "lo": 692028,
-            "hi": 890662
+            "mean": 785093,
+            "lo": 692035,
+            "hi": 890664
           },
           {
             "period": "2026-10",
-            "mean": 837235,
-            "lo": 732151,
-            "hi": 957401
+            "mean": 837237,
+            "lo": 732157,
+            "hi": 957399
           }
         ]
       }
