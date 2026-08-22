@@ -2525,8 +2525,14 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-08-22T00:55:28.451Z",
+      "fetchedAt": "2026-08-22T06:30:27.649Z",
       "items": [
+        {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pWV83VVFCZDZVQkl1M3JsbzFVRmhVd2lCR1ltRDZGT3BBTGlVb21LU18ySE9qM3FSOVNXRDlZNUVMZXgzOHZlbUY0emdMbzl3VWNSSkpHYk5MSHVfRHZMUHg5WW9BcDdxVGdBTlNn?oc=5",
+          "source": "AOL.com",
+          "date": "2026-08-22T04:47:20.000Z"
+        },
         {
           "title": "West Fraser Timber Stock And 2 Trade Exposed Industrial Picks",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaXBJRzEtcWtkREt0YjVsb1luZHNVRWwtbWRsaXZFLVZJUFcyZFpBakMwaHZTZDhfUEpGQUthLUU1TnZqZlYwaUhIWUJ0M3JISWd5UE54dC11dUNCcmdzc0pCVk1XT0lxOWIwRXNiazh1eEkzcHI2ZkprOW5Cb2QwYmZJN3gwcW1tT0dENDFPR1Q0S0x4bDZUQ3dVbThVNFpFSVNfSUlUN3JlaXUtVTZBdGFvV2kwYk1JbTk2OVBZRzZib3VCZGlhSlBKVVjSAdIBQVVfeXFMTjRESHVFLXNFQmE4ZkFxQTFIUVVpaEZFMDRWRWpaNmJvQjIxdThGV1Z5X1IxOWcyc3Y3STVObU5nY29zQ2x4XzN6M0lLS3FwR3dDQUctejVBanRFRG54a00ybUF1S1pBTXdPdEdKSWF3WnJ3RTNqWlFqdGdHeUoyak9WSm5pQ3ZOQ3c0bjhRdzBYenRLZFBWTnR5RE05b1BjQkpmV2dnNnB0R0VlR0tMMXhTZFRycHhZcUlJZU95ZUg4WURPYkxKbGhMQThIRlhGWl9n?oc=5",
@@ -2606,6 +2612,12 @@ window.LUMBER_DATA = {
           "date": "2026-08-20T09:56:00.000Z"
         },
         {
+          "title": "Interfor Stock Jumps 7.5% as Adjusted EBITDA Triples on Lumber Price Rebound",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU3dJOGdPRG5TMFltb3F0QlpkajI1RlNfVmZiMWNpUks2b2FuUGxhaGJyRDd3Vm1yb2NNaUZoMFM4YzZyRURhc2Q0RmU3TGVCaWNVbkFOczVoNjEzOHRWbzVfeDl1a29pMEJMekpnMkZsSmw0N29vWHRUTjR1dG9fSlJwR3VLTEF6a3NXSmMxQmpHYjRJS1N1RDN0Q3k4UFNoMXk4cDdfVE43aUd6V0pr?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-08-20T09:56:00.000Z"
+        },
+        {
           "title": "Weyerhaeuser stock holds gains as Q2 2026 earnings, dividend and timber demand support outlook",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNb0RJZlhfWlh2NDdQZGdUNzVNNXpFdUNCbnctSEE3cUxFVEw3ZW02NWVXN0V5SE81MmxCcFVEa1NySVVCY280SjJKMWRHNDJSLXlVelJJWjVTV1gxQ0xFeG51enphdHVHVk1aczIzTm4zMk1IcVQ3ZEhuT2JtOGJLWW4yV0JrWUVqRHVWeXRlellHZzhYTDBQREY2cC1IeGlMcWlVQXlLVFo5N0RkT0UxVW1CanNmUFZEdFlMSk53NXF1LVlsM2RqM1NBWkNsdw?oc=5",
           "source": "Ad-hoc-news.de",
@@ -2652,6 +2664,12 @@ window.LUMBER_DATA = {
           "date": "2026-08-19T14:19:00.000Z"
         },
         {
+          "title": "Lumber prices flat on usual late summer slowdown",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS2E4aXNHQktVUVp1VlRiblhJREJ6S2dGMGxleXAzdkh6YzZ4a1dBQnJMYVVhbzNxWjM3eFNBTks5em50SnFGUUpJeUd1NEo5XzdzRFQzaVNSQ2ExOFlibnN3T2RXMHE4MTN5OFJPa2NvanI2WEVoY0thcXE2a0FoamZIcmxxQ0xsNERteg?oc=5",
+          "source": "Pulp and Paper Canada",
+          "date": "2026-08-19T13:22:00.000Z"
+        },
+        {
           "title": "West Fraser Timber (TSX:WFG) Dividend Outlook: Assessing Sustainability Through Timber Cycles and Balance Sheet Strength",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS2xBanpZS2tXYlZuNS05RUVxUjQ5TzV4ZHJfSUlMa2IydVAxX0dLUk9TdmZFMHVJdTFNaVljb1NPM3lZTDNlVW5JQnk0WWc5LTJfVnRkTEhSSTR6UWdtdUxiM1NHNUlKTms2WWp4NkhreGdYR1RVR3pRQWJoX0liUUN0WUZ6NFZkUGRWMFpWMXdLNlFJUUZ0WTB2YjdLdnNNM1lUT2wwZG15anUxZVhYRkNSa25mYTNSYzN1SVhyV3I2S0FxeFNhLTBvdzdNYjZaZnBEQncyQVVNNzFXaUdoVVJ3MmxIdFlINEstWQ?oc=5",
           "source": "kalkine.ca",
@@ -2664,12 +2682,6 @@ window.LUMBER_DATA = {
           "date": "2026-08-19T07:00:00.000Z"
         },
         {
-          "title": "Madison\u2019s Reporter: Lumber Prices Flat on Usual Late Summer Slow-Down",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPVmNzdkoxTk5fbWNnWGZZb3FEM25JUE4tanYzamFjeXlSbnVQUDJSNFVIc0Q5OGhDX1VIYTcxYTBGRG9pZkk3ck40WTlhdU1rYnhQV21EX2l0NnVCY0NUZkZpSzFfdU9qdWc?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-08-19T05:01:15.000Z"
-        },
-        {
           "title": "Louisiana-Pacific (LPX) Is Down 5.7% After Soft Q2 Results and Cautious Siding Outlook - What's Changed",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNamZ6a2VlT3prbmhkTTFkSmxUSzhfcTBobU5IdWY0bDhwSExfZHVad09lamd1VnVVeWoxTnA0YzVMNmx1Y3pqSmV2QzRHQVZRVTNFVFliaVBDZGNUbVhjdGx4TzN2X0Z4MWw5M0JudTI3cDVjNG5LZzBwMXlXc1NRNTd0U3ZwR05FZWN0MTlSV3BNcjBwZHA1S0lSRDJadWNoSWNDeUlsei1IX0lIak1kZldjR0pRNWhKU2szaGNBZURfVlMwdl9HaDVjb3Rud0pCd2VTN9IB2gFBVV95cUxQWnZsWU02Mm9JUXZfbHh6OHZ5OFluRkJfLXJtcXJiLU9nYmFwNEJQbGduN2lzNllWRkRVWUNhdXhNSG5LMHdtdmMxSldTRU5rODRrVUx6XzFscXhHcjAzMU5YazlrSWhpN0QyQ1dQQmJNV1ZsaGQweEtVZ0ZEQ09EWlE3NVhHVVIyUTlZVVNjUU13UUVsZmVPRTlUVFpCQ1lBelBXeHBGQXoxdUhQb0l2VmdzcXg1RGFnMlBRYzNWS3BsNzZVNkNwMkcxZkNlVjJkWTJWSFkydGoyQQ?oc=5",
           "source": "simplywall.st",
@@ -2677,9 +2689,9 @@ window.LUMBER_DATA = {
         },
         {
           "title": "\u2018We are dealing with a bunch of bullies\u2019: Softwood lumber industry braces for tariff deadline",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObHNzeDhJZ0lSXzFudUN6NF9kV2JFNHRsbjNBa2wyMFhjVlBHY3JlaVlFVDBWRUZKbnpSbFBPQ2xuUHpiY2NwOW1MZWYxZ0U0UW5CaDZzVUVXRWY2OElvbXg5U2w4c2lsR1JYQmJXVXV2bHhfZ0d5X09FTDVUSzJIZTRiX3B6bEkySzIwYTZyVEhSdXBBbVl3dzZvNkNfejNpakRJd21QT3lBRC1yNl9PVXRWQ19paU0xWFV0NUVPdnJjS3lLT0tNMDRQaw?oc=5",
-          "source": "CTV News",
-          "date": "2026-08-18T17:39:17.000Z"
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMUlzWlgtOGRfS1pXWUlHWEplTG9KWG1Vd2ZObTNWSEdVYUFFUFozLWtZR1I2WnI5cllrbUZUQjRuaFh2bzAzcGZrdVFQbTJ1OHVWRmpOSzAxM2dfSXlYalJQZjlTZlFoaTNqT2wxVTFzM3BWamczaGhweF9wZDlkM3g2dmxRY0dta2g2bWVxSEViMXlyUjdRRVZXZ3gxZlhtMEd2cF9FTFphdEhCb1RrcDVNYk94dnV2Y0h1cGhVQU9GYnhydVd5ZQ?oc=5",
+          "source": "CP24",
+          "date": "2026-08-18T17:26:20.000Z"
         },
         {
           "title": "GreenFirst Forest Products Stock Falls 4.21%: Why TSX:GFP Is Back in Focus as Lumber Prices, Tariffs and Mill Recovery Drive the Outlook",
@@ -2704,18 +2716,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRXhZOUhOSWNSbzBLcFZHaWZuQ0drSVF2dTdmaGpFZ3JmbHRsVWFSLVZLOFByLVVCZUN5UXhfYU5iNDVEM2VhbU1hSVBYY2dxMm5jUlNJSjZVcVhWdFBMTXdJRE1hUDYwNmRTTmRqQXNqeE0yVGpyWUF2Q3NCamYwX3BpMzBCd0t2TEZvTVBBWTlSWXl0?oc=5",
           "source": "Business in Vancouver",
           "date": "2026-08-18T12:00:00.000Z"
-        },
-        {
-          "title": "U.S. Lumber Coalition Supports Trump's Trade Actions on Canadian Softwood Lumber - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNjVCSTg5bkh0VEFWVFBtT3IzM2gtMXR0MnFhbkNNRnp1ZTNsSHdmcnJZSUpxOWo1SG1iWWhwd29lS0gwUDF6ZmFKTmoxaGZzcVdhMnpFY2UtLWFCMFdoVHdsQ1pwcG03SS1jSnhCbWpuM3hJSm04d1NQZVNGUElPXzQ0TWJ1UDFzdlQxd045RjFkaGRl?oc=5",
-          "source": "IndexBox",
-          "date": "2026-08-18T11:02:00.000Z"
-        },
-        {
-          "title": "Interfor Stock Slides 3.57% as Lumber Market Volatility and Tariff Risks Weigh on Investor Sentiment",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZTNXN3RDZ094WEM0MHRhQzB1dGxxYWlqbUpjaXJsX20tVjZHeGFfTFlibm1iNnRYSGhfYkNmcDdEODdmRlBkZzRicnZTMFhISlNPbmFOaHdrZ0k1VldNeVV0c0tac1ZiZUhTbDlfS2Zid093UjdQUFR2WF9nT0g2bDh3bW9EZ1p6NEptZGhFMUc0aDdQV2VrdE54d3d1UkZLZHI2aGlOSGM3UWIzdHRkMElWMmtJdmJreHlENGhnS3pod3pqZUdmYmRZMEVwbUk?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-08-18T10:47:00.000Z"
         }
       ]
     },
@@ -6973,21 +6973,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-08",
-            "mean": 741241,
-            "lo": 658946,
-            "hi": 833814
+            "mean": 741249,
+            "lo": 658954,
+            "hi": 833821
           },
           {
             "period": "2026-09",
-            "mean": 785088,
-            "lo": 692028,
-            "hi": 890662
+            "mean": 785093,
+            "lo": 692035,
+            "hi": 890664
           },
           {
             "period": "2026-10",
-            "mean": 837235,
-            "lo": 732151,
-            "hi": 957401
+            "mean": 837237,
+            "lo": 732157,
+            "hi": 957399
           }
         ]
       }
