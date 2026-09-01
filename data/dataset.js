@@ -671,7 +671,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-09",
-          "framing_composite": 556
+          "framing_composite": 559
         }
       ]
     },
@@ -2529,8 +2529,32 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-09-01T15:57:26.860Z",
+      "fetchedAt": "2026-09-01T20:25:19.541Z",
       "items": [
+        {
+          "title": "Louisiana-Pacific to Curtail OSB Production at Jasper, Texas Facility",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORjBjNFc4aEZuLV84dzJqWTJCM1ZFSHl2Q0s0S2haTVpNSFhtSzVEQktyZDNqdnJMYU9oM1dmVWlUWGl5M0hCdlM1SXN0Nzd5U1A0cWVOY1lEUHNFcURaekRIYTB1dnpUWENrQVBzbDRFMTBOUzk2dzVPR1o5XzFvWGpoX3FYSzNWdnRwSWZJbUpNM09KbmxLSlZaODdLblBvaG5yOGNta2UzSkJtcVhTSUR5dXQwTmVFbk4xVzdn?oc=5",
+          "source": "marketscreener.com",
+          "date": "2026-09-01T19:06:20.000Z"
+        },
+        {
+          "title": "Louisiana-Pacific Statement Release: LP to Curtail OSB Production at Jasper, Texas Facility",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQTkhTUWVMUmRiWDNVTDVDdjRraEJiaDhqdmdRWHFSbFQ4eks2OVRNLUpYTDh2NURfbkVnNnpFcFA0d0pnLUZNaXV1UjNVNW9lRzNIbjlLZWhvTUYxMnBHU2RJVXZ6RTRIU1R4M1FyTmV5REd2RE5NU3FUR0o5YXV6T2FxY3ljcTlwYndQYjg3SzRBaFREd1hjMFBKTTdkbi1sWmZxXzRBcjJGMU96QzFOakNFZWQ5dFRFV0R4ei0tQk5TdFRJUDRJX2t0SF9fMVlOdzJFNUxYRjd4cUNSRmRYbDlrM3hVMU5pYjgydGRkZVlDUXUzYVpiWG9Za2xnT0NnTGFNRHp4dGFCTGFoaFJneXFnMA?oc=5",
+          "source": "easttexasbanner.com",
+          "date": "2026-09-01T18:52:00.000Z"
+        },
+        {
+          "title": "GreenFirst Forest Products Stock Rises 4.15% as Improving Sentiment Puts Forestry Recovery Potential Back in Focus",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTk9ETXB6TkxBQUJMMlAweDV3c3Y2QURjbGEyLVByTkVKYUpqbGM1aWt1SU80YjFHUzNqanRaMDF4VVMyMXlWUmlmeUFNRzQwTEQ2bjhCMGJDSWRJdDRWUTRzZU13WnpaYWpnZDQwa2NQMFI5enJwT1piTWo4NHRyT3BDakxtSldiLUg0QkxEY0RqUF9URnZ5Q25LMlZxWE90d0ZpU0lPRFBYclFqTXBscDVSZ2dnd3FabUtCOTU2QWRxVEVhUnh2RWt0LWFMU25UYlBETUt4OHUxZjg0dXZHMWJR?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-09-01T17:13:00.000Z"
+        },
+        {
+          "title": "Holmen cuts Linghem sawmill output by 64% to around 26,000 m\u00b3",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VR2FCOUJzNmRKSmVlVDNadHhDdld5a3dyNlFQVi1vUllHM1c0cmJwQ3g3eGtoQUp4ME81RG1BcFpIMXZmZDdELVV6b19nMVhfWEdkZDF2eGlLNlAzUlQyenNYWmJCZkI4TlV0bzJOa3VMRWNlODBxbkhfaG10QkU?oc=5",
+          "source": "fordaq.com",
+          "date": "2026-09-01T10:49:21.000Z"
+        },
         {
           "title": "Weyerhaeuser stock holds in the low $20s as investors look to timber demand and REIT income",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWHpLUlY1bDZrNmJqenBxZ3FwcXN6Tk1rVzRWU3hmNy1PVi1ySXh6bVpfcTBIc3FBUlZ2QXd4Y2xJUkU5c3g5emFrYktRZzRxeXpyV3VOQ0R0dG8wVnRseGRWS19Xdnd2eTJlSkxtVzB2emkxbXRSRmtZV3FXVFVXSjVLLXMtRFZ0N3gtSnZmRkdoV2tCYUdVX255SlRmcHpzV2dPc09RNjdmU1NQWWNjaTRfMnFHNHEtYjZPT29lLXhOWkllOFUwNmd3?oc=5",
@@ -2544,6 +2568,18 @@ window.LUMBER_DATA = {
           "date": "2026-09-01T07:54:00.000Z"
         },
         {
+          "title": "Canfor Corporation (CFPZF) Q2 2023 Earnings Report - Results, Call & Slides",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMcWR0eVUtNTZnVWhEVnR6UUxEQkVvNkk5X25OdXFTQ2JuMC1Mbm1pVkdCQW1wRng0LWdBZ3NSc0lwMTVCN193bjFLMXBvWkpPOHd0VVVkeTR0UW5DZmQ3QnlueXpJS19yWjQydWdB?oc=5",
+          "source": "TipRanks",
+          "date": "2026-09-01T05:17:30.000Z"
+        },
+        {
+          "title": "Canfor Corporation (CFPZF) Q1 2024 Earnings Report - Results, Call & Slides",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqWHdFczVYYUVacDdiMm1FZ2ZjdXJqRjVuMUNyRjNDMEZGX2FKbi1PYVY2YVlleVYxbkxwMTVqZk9tMm9MYWo3MFo3RTM2SmZsVWFyNUxZZTVIOTlVNjJPTnM1aTJDeW5CN0NObkVn?oc=5",
+          "source": "TipRanks",
+          "date": "2026-09-01T00:42:16.000Z"
+        },
+        {
           "title": "Weyerhaeuser (WHC) Q1 2026 Earnings Report - Results, Call & Slides",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8tWkJRTlFRcGlEbzhsX2syWlBHM2Iyek1ZUFBBMl8wR01jbHVOcFI1SzJtTUd5N0t2QkVDcHR6SE1PdVRQaWUxS3ZjT05SVnVJWnlyZmlNVUYzV2ZzX3BxemFIY21sVmlFZkVEOGF4NA?oc=5",
           "source": "TipRanks",
@@ -2551,13 +2587,13 @@ window.LUMBER_DATA = {
         },
         {
           "title": "Canfor Corporation (CFPZF) Q4 2025 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBRklaTHRvbXlTVGZNalU1QnpGMDAtUm5GaGNSSFJQZS11OGtKQnV4WFg3Zkt6UkZCeUpwRVgzUURPODVibDNPcFhWRlJ2V3dEbk9lSTBRMzB3YjdpSm5zcGY1R0lLVktSX0R5a1ZB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSFpOeDVrU1VqRGl4ZG15aGJLbHlIcnk4Zm9oaUozYnI4eWZOQU1kdy1jY2gta1g3Z0V5aUUzdHNwdDIxa0RSOTZQVWo2Nm5qTHZ3Vk5Bc0w1a3lDZVhxQWs5NERkc1dRUzFkWExoRWVUOUlFdmF1TUVRVUt4amdwb3B3?oc=5",
           "source": "TipRanks",
           "date": "2026-08-31T23:20:31.000Z"
         },
         {
           "title": "Canfor Corporation (CFPZF) Q3 2024 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObWVNekZETzUxNDQ3bzRJQmppVGpNc0g2ZzZYRFMxTnJCZnY3U0hiYjM1Zk9KdGdWcTY5Vm9EN2o0V1NPVXNwYkYycTdUU3NRTWE0N2syc3JoaUp3bW1uMElKT0FiVDZoQl9Zd3BJOWFNUUpYeUJNeWVjUF9SeXpsYkdB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yYUF2UXhHZmlpQnFMenp0MnMtd012OUV2cGR2OXFVVWw0LTdFUFlzRVNoam00b3RHMGRMMEpUSUllNThYS0wtQzJwLTFFU1RlNUpfYVo3Vy0xOWFwVGppRHZ3Nm5mZGN4QTFQX3Z3?oc=5",
           "source": "TipRanks",
           "date": "2026-08-31T23:20:28.000Z"
         },
@@ -2566,6 +2602,12 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOc0JpeGtkOWhxV0dMS01MeGpnejFOQkdpVXJXaXROMDFaY0lWUVZOMFdMSzNlbnRLVVV2VWRMSkJWUGZnZkZ1bVhpbnJjOHBwRXRmdDJGQml0QXV4V25wWWJCNlZUTENhUUQ1SlVR?oc=5",
           "source": "TipRanks",
           "date": "2026-08-31T23:19:55.000Z"
+        },
+        {
+          "title": "Canfor Corporation (CFPZF) Q2 2024 Earnings Report - Results, Call & Slides",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52VDdFZFlkNFYyMFZiRkpjMTZsSE11M3VHeDZZR1ZoelZ2TWdaQ1BpVmhobk5KTEcwOTNhRXdVMHFwdjRlT3VjLUt4c3lhbWZHUVh0QzBlalBuS1ZyWjNiSFpqVGF3d0c0d1BUeThB?oc=5",
+          "source": "TipRanks",
+          "date": "2026-08-31T23:18:53.000Z"
         },
         {
           "title": "Canfor Corporation (CFPZF) Q4 2024 Earnings Report - Results, Call & Slides",
@@ -2633,58 +2675,16 @@ window.LUMBER_DATA = {
           "date": "2026-08-31T11:16:00.000Z"
         },
         {
-          "title": "Canfor Corporation (CFPZF) Q3 2025 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSWZhSmd6SF9wZUtEWkhYVGZJOFZMN2huaW8yZUVqTHQtdFd3cU5rbE9qR3NOX1Vkc0xIWUhyZVhGNXZGZFRCUjhaSlJpdy1oWnlQdDAwaVZVTmlDN3pXSWJlbG9jeHg0a3lCZWNCUFBQaGdqeDJxVnJIcWVUMHpFZUVB?oc=5",
+          "title": "Canfor Corporation (CFPZF) Q1 2025 Earnings Report - Results, Call & Slides",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43N2g2OHJBeXBETnRHemMzMU5jaDJ1ZFRJTUtYQlJDZnBZeHJGcnVNZ0ZGaG1UX3N2SFowbjlTNWYwOENrNlF6S1BOSXE1Mm5WTFo4V2k2M2xXQmVUMjRTQ2JuRC1EcWoyTGJzMmZ3?oc=5",
           "source": "TipRanks",
-          "date": "2026-08-31T03:22:09.000Z"
-        },
-        {
-          "title": "GreenFirst Forest Products (ICLTF) Q3 2023 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPUkM0VWFkVE5uTTRmbDl0RlBlSXJKdTA5OHExVUhVT1hBd1BmOEg2UGtrMGU5S3dSaU94UmkySTFRci01dUtxcXhWV3ZZckpEeHVLSnhiMUxKSVhLTXNGYzNFTTBDRmlaZ3hVc0ZR?oc=5",
-          "source": "TipRanks",
-          "date": "2026-08-30T06:52:31.000Z"
+          "date": "2026-08-31T03:30:04.000Z"
         },
         {
           "title": "Interfor Corporation (8IF1) Q4 2022 Earnings Report - Results, Call & Slides",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53NmsxZVFoZEplcWNkd3Z2V25NbHpKeEswdVBWcEFpWXh0ejdqdmI2SXBsUXF4dXh4bG5VOHRvcTdNOHQwWGU2UkJZRDFicDgyYlgzbWVHdGp6TUFuQVNPbWpmNTFyMzNhSGRidWUzTnU?oc=5",
           "source": "TipRanks",
           "date": "2026-08-30T04:24:00.000Z"
-        },
-        {
-          "title": "GreenFirst Forest Products (ICLTF) Q3 2025 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9tbUprRnI1NGRaZUdFX1NWc0hzazdpTGE5TUZDRm5PeDFuRU05S0d6S0pCbkJmcjc4MDhEdm5GaEMwdlVlYWdnTURZUk5vVkNjaVc3UXp4WDVfZjhQUm5wTjAtWXlZb2lMYnNKYTdn?oc=5",
-          "source": "TipRanks",
-          "date": "2026-08-30T02:50:58.000Z"
-        },
-        {
-          "title": "GreenFirst Forest Products (ICLTF) Q3 2024 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pUGh4bThxU0lOT2pGYkFPS0pLYUlPY0NFT0tiRUx5YkFaNTJuX1F1OHlMbG41UnZRQkJvbnkwQ0NKSTZPcXVjOTJjdDRhSm1BU0ozWWdyYnVPWHJuVVpuWU9fbmZzMGUxZ2tjNjNn?oc=5",
-          "source": "TipRanks",
-          "date": "2026-08-30T02:24:51.000Z"
-        },
-        {
-          "title": "Interfor Corporation (8IF1) Q2 2023 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9acnNMcFhjTzE3ZGdJQ2tabl9KX1cwa1I1RHRCNWlsZ0tTaGJUMHpkeWo1eTZKNko5VXZ4enpXQTI4T2NkeEowU0FjdDBfSDF1Q2E0eHR3ZV8xdFVzeGNjUF8yenU5UWY4bGxPOWxnczA?oc=5",
-          "source": "TipRanks",
-          "date": "2026-08-30T02:22:17.000Z"
-        },
-        {
-          "title": "GreenFirst Forest Products (ICLTF) Q2 2025 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwVG8zeXRsZldYemF5T3psRzBIeFo0X25tOWFlZDR4WVk3em05ejQ2YXVacHU3anVsdjZ0N1h5Yi1GWkllYUVCdzA5b2dnNEhSWFFmMFpWSnNDSkZCMlZveUNnTkVybGJXQmVaNzNR?oc=5",
-          "source": "TipRanks",
-          "date": "2026-08-30T02:22:16.000Z"
-        },
-        {
-          "title": "GreenFirst Forest Products (ICLTF) Q2 2024 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTDNsdEhtUDU1X0V0U2MtRUpUNkxieFlHVGJtRXpEcGlwUEN2TUZDSzE3ZlZjQ0hzVW9PUTNwZ29NZUl2RGNXV0RzV2d2cUZ1cFM2RnZTNnRic3laZUZLMDk2WFhyaUtTRnl5ZjNwdlhhU2R2ZjdSMzJmZ2NSaFJOUnByNzgwSzQ?oc=5",
-          "source": "TipRanks",
-          "date": "2026-08-30T01:59:27.000Z"
-        },
-        {
-          "title": "Interfor Corporation (8IF1) Q3 2023 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oTlBZOWJNMVZiV2Y1UGxYMFdubDduSC0xRGZObWZXRER5Y1hPUlI0aTBtSE9jTE1TZUNzZmhOa0g5a3hBNXZwQ3BRMnc0NUZKNEI2SjhCcXdmVUg5LWpBQTNpYXh0cE1WaVJZNXNsTXU?oc=5",
-          "source": "TipRanks",
-          "date": "2026-08-30T01:41:50.000Z"
         },
         {
           "title": "Mercer Receives CA$20 Million From Canada to Support Peace River Pulp Mill",
@@ -6995,21 +6995,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-09",
-            "mean": 801514,
-            "lo": 713617,
-            "hi": 900236
+            "mean": 801519,
+            "lo": 713622,
+            "hi": 900242
           },
           {
             "period": "2026-10",
-            "mean": 851246,
-            "lo": 751258,
-            "hi": 964543
+            "mean": 851251,
+            "lo": 751259,
+            "hi": 964553
           },
           {
             "period": "2026-11",
-            "mean": 767314,
+            "mean": 767319,
             "lo": 671642,
-            "hi": 876614
+            "hi": 876626
           }
         ]
       }
