@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-04",
+    "lastUpdated": "2026-09-05",
     "dataThrough": "2025Q2",
     "isPlaceholder": true,
     "live": {
@@ -670,7 +670,7 @@
         },
         {
           "period": "2026-09",
-          "framing_composite": 567
+          "framing_composite": 566
         }
       ]
     },
@@ -2528,7 +2528,7 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-09-04T20:10:14.410Z",
+      "fetchedAt": "2026-09-05T02:33:54.750Z",
       "items": [
         {
           "title": "Why Is Louisiana-Pacific (LPX) Down 10.8% Since Last Earnings Report?",
@@ -2639,7 +2639,7 @@
         {
           "title": "Oriented Strand Lumber Market Outlook to 2035",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc1kxcVZfSE1yWmlEYkVWaWpTWGpRXy11Tm92N1JXVlhOLVREbnJxUEZ2elhtRmdEbDQtVXBqSVFWZ2xTWXpCY3JKQWRFSDJwQ1Q4cXNMSHQwOU9QVGRldjF6RE1iQ2Z1RUdMaVZ4RFdadGVjaG05a0ZQSkllZUU3cQ?oc=5",
-          "source": "indexbox.io",
+          "source": "IndexBox",
           "date": "2026-09-02T17:01:10.000Z"
         },
         {
@@ -11206,7 +11206,7 @@
     ]
   },
   "mills": {
-    "asOf": "2026-09-04",
+    "asOf": "2026-09-05",
     "count": 368,
     "live": {
       "BC": 115,
