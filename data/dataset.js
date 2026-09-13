@@ -2529,7 +2529,7 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-09-13T15:29:25.111Z",
+      "fetchedAt": "2026-09-13T20:10:06.266Z",
       "items": [
         {
           "title": "Louisiana-Pacific (LPX) Faces An Earnings Reset As Its Undervalued Case Gets Tested",
@@ -2546,7 +2546,7 @@ window.LUMBER_DATA = {
         {
           "title": "Madison\u2019s Lumber Prices Index Sept 11, 2026: US$525 mfbm",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUUdtbW1zLUU1bVlvMnN5LTc0a0hMakdXTHNNckpPdGJhRGxIVEh3YTUtWEk1TTNnTU5vZmFSM1BwbTJuTkEzdnB1NTd1Ukk1MnoxdnYxRWt4aXozSzY4aVludVp0STlZMHdISXFILU04RnJPTURhbXdEYUZ2eFhPcDFMUDhsWnBhYldXdFRhSnFMbDMybmFWWmw2UmNVaTg?oc=5",
-          "source": "redbooklumberdata.com",
+          "source": "Red Book Lumber Data",
           "date": "2026-09-12T00:18:24.000Z"
         },
         {
@@ -2640,19 +2640,25 @@ window.LUMBER_DATA = {
         {
           "title": "Louisiana-Pacific Corporation (LPX) Is a Trending Stock: Facts to Know Before Betting on It",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTi1QdGVyVTRHaS1fa0c4RGhkU01QMzVmUGFCYmFVSDV3ckxKVlgyZDVWd3Q5S2hfYUZrLVNtaDh2VG5EUVVLeUFibE5OekVjS1o1OUtLSVNQMVdRblZNV1VRQ0FZbm9fQUl4X3M4MWRiWlp4U1N6Y0xxY3lyejRmTEp4ZzVwclgwR28ySlloYS1UaG1Jc25HbDR2cDc3VTFCVW5lTmhFREE4ZUE?oc=5",
-          "source": "finance.yahoo.com",
+          "source": "Yahoo Finance",
           "date": "2026-09-10T13:00:03.000Z"
         },
         {
           "title": "Shuswap Band and Canfor Sign New Relationship Agreement",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR0t5aEFHaDRHNzlrTVpSclJheUxhTGNPRm5rd3hGZGlFbFNhRmhyWnNFNndmWFI0OEJCa0JxQndub1pFLWdXWnZBZXBBN183OXN4TmVuUGk5UlJSVlFhX3UtTGxJWWJ0aGxMRkNTVHUzMFlrLWkzT3dvTjdNajZ1b1M1ZmJUQWVHYzh1c1pLQ2dXNk8yMGowM0JseTFCUUZka3Zz?oc=5",
-          "source": "redbooklumberdata.com",
+          "source": "Red Book Lumber Data",
           "date": "2026-09-09T20:22:50.000Z"
+        },
+        {
+          "title": "Madison\"s Lumber Prices Index declines to $518 mfbm, down 1% weekly",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbjFMTFpiQUdLSk5qUXh3bV8xZjJyWUladl9vc1dJM3pST0NMbTdxSzljbHRSaHZZZVpFU2FGVlFENWdSRmc2MHcyOXo5VjBGRzA0dk5YWUNxeE42bjNsakRaaEdWdVpQQ3JrbXpXdXYyRFJLTDVOVlRsQkRPZm5Zd2hPdVdfcjRyNEFuekphMzJ4R2doNXhCTTlYaUJYaFVNX2ttak9B?oc=5",
+          "source": "lesprom.com",
+          "date": "2026-09-09T15:59:43.000Z"
         },
         {
           "title": "August\u2019s inexorable slide of lumber prices continued",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVm9FdUFfVExXb2tDdzRIMEVXaktidUtjOE5INWFkeHFnX21OZElyZ1k4TEdBMkhwb0kwSWhEQ2UxU0NUQzFudC02NGIwelV4SUJ0djVycGNkZmRBT21jSkF6OENsdzExaldRSG5NWXZwOUxUblBMREctN3htb1NEUTZQeU9BYV9GZlcyLUdKaDg?oc=5",
-          "source": "pulpandpapercanada.com",
+          "source": "Pulp and Paper Canada",
           "date": "2026-09-08T14:00:11.000Z"
         },
         {
@@ -2714,12 +2720,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWHpLUlY1bDZrNmJqenBxZ3FwcXN6Tk1rVzRWU3hmNy1PVi1ySXh6bVpfcTBIc3FBUlZ2QXd4Y2xJUkU5c3g5emFrYktRZzRxeXpyV3VOQ0R0dG8wVnRseGRWS19Xdnd2eTJlSkxtVzB2emkxbXRSRmtZV3FXVFVXSjVLLXMtRFZ0N3gtSnZmRkdoV2tCYUdVX255SlRmcHpzV2dPc09RNjdmU1NQWWNjaTRfMnFHNHEtYjZPT29lLXhOWkllOFUwNmd3?oc=5",
           "source": "ad-hoc-news.de",
           "date": "2026-09-01T08:29:42.000Z"
-        },
-        {
-          "title": "GreenFirst Forest Products (TSX:GFP) Moves Higher as Earnings Recovery and Lumber Market Optimism Support Momentum",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMmlfQ01yQTN3d182dmxCUFhHRGY5LTZGV1ZsZkJzeWtfck03d2JzN2tJS1JxZ3NtQmhoY1g4bTlpazl1N2tfM1dIYnc0cnZDZHFoaVlneWtYczJuZGZGU3ZSMVZMSFpkeTlVVU91WWk1ODVFSEdhUWNhbjVYS2NWS3RnVm8tMXM5THljNzRacXRQYnV1YWc3a1ZkVE44ODZDUi0wTGdRSVpZbFZENVRQX3hkTDdIOTZpNzkwMVpHWl9jVzM2cWdZYUo5d29TZmc1S0QtLXBNN1pkTXJaaHptag?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-09-01T07:54:00.000Z"
         }
       ]
     },
@@ -7003,20 +7003,20 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-09",
-            "mean": 801554,
-            "lo": 713654,
+            "mean": 801553,
+            "lo": 713652,
             "hi": 900281
           },
           {
             "period": "2026-10",
-            "mean": 851227,
-            "lo": 751240,
-            "hi": 964523
+            "mean": 851226,
+            "lo": 751238,
+            "hi": 964522
           },
           {
             "period": "2026-11",
-            "mean": 766143,
-            "lo": 670615,
+            "mean": 766142,
+            "lo": 670613,
             "hi": 875279
           }
         ]
