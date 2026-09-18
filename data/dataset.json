@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-17",
+    "lastUpdated": "2026-09-18",
     "dataThrough": "2025Q2",
     "isPlaceholder": true,
     "live": {
@@ -2540,8 +2540,29 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-09-17T20:52:08.388Z",
+      "fetchedAt": "2026-09-18T02:48:21.864Z",
       "items": [
+        {
+          "title": "US Housing Starts Fall in August but Single-Family Starts Climb 7.6%",
+          "url": "https://getfea.com/end-use/us-housing-starts-fall-in-august-but-single-family-starts-climb-7-6",
+          "source": "Forest Economic Advisors",
+          "date": "2026-09-17T21:22:59.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Mortgage Rates Surge Higher in the Week Ending September 17",
+          "url": "https://getfea.com/end-use/us-mortgage-rates-surge-higher-in-the-week-ending-september-17",
+          "source": "Forest Economic Advisors",
+          "date": "2026-09-17T21:18:23.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Pending Home Sales Rise in August",
+          "url": "https://getfea.com/end-use/us-pending-home-sales-rise-in-august-2",
+          "source": "Forest Economic Advisors",
+          "date": "2026-09-17T21:16:16.000Z",
+          "focus": true
+        },
         {
           "title": "Value of Canadian Building Permits Falls in July",
           "url": "https://getfea.com/end-use/value-of-canadian-building-permits-falls-in-july",
@@ -2616,37 +2637,22 @@
           "focus": true
         },
         {
-          "title": "Latvia State Forest Service Updates Storm Damage Estimate",
-          "url": "https://getfea.com/international-markets/latvia-state-forest-service-updates-storm-damage-estimate",
-          "source": "Forest Economic Advisors",
-          "date": "2026-09-16T21:21:49.000Z",
-          "focus": true
-        },
-        {
-          "title": "Canadian Job Vacancies Steady in Q2",
-          "url": "https://getfea.com/end-use/canadian-job-vacancies-steady-in-q2",
-          "source": "Forest Economic Advisors",
-          "date": "2026-09-16T21:18:47.000Z",
-          "focus": true
-        },
-        {
           "title": "Weyerhaeuser stock holds gains as investors watch dividend and timber outlook",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd201R2VTa3hpdlVXdHN4Q1BDSG8xTWwySjZfZU4xNTdrZ1lqOGxmVnEyeDRydHVOOFNHTHhhQ2lpaTJSdm9oY2ZDdGlEdFdpWE5hNDdVaDhvMjFQdHVjRmE4X3JIUU1wUFUxR0pwbmljYU13MjNmQm8wczBnUDR3NnhrZHh2ZkZjbjRfMUlic2NXeTU2Y0daNXNfZGZlS2d5bGNDN0k5R2RyUnNNRjhsblBTU3o2d09GV2I2Z094U21palpUbER3RnFET0Q?oc=5",
           "source": "ad-hoc-news.de",
           "date": "2026-09-16T19:53:40.000Z"
         },
         {
+          "title": "Trucking company to lose 90 per cent of workers due to Northwood shutdown",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWnRIdUlvc3NfRG1VYWVrSU1WMVNDZUhLS1JhWVY5eEsxcmRtZDRCMzRHQ1h6eGFPLUJhczlSM3U1eUZCMHZiQU9TMHlTRDFkdlpENVdkYW1YSTlxV24yV19uZFB5elZTZ2Q1TC11OGk3VzY2cWp2ekUzUGpnRzN4MG9NOGc1cm91T0pBbEtRUFk1OXRKaFZMUnZrU0pHZ1ota3A2MlFERDRURkxUdlhkYWFneXRwQjJVY2FUWWdsWjNrNjQ4akkwYQ?oc=5",
+          "source": "Prince George Citizen",
+          "date": "2026-09-16T18:51:45.000Z"
+        },
+        {
           "title": "Excel transportation faces major cuts following Canfor contract loss",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaXBtQmNHWVU2aFg5X2xtZFpReGQxdnJsU3hTMXUyT3J4RjdlWV9wNXA4QVR5Qy1Ybkw1dXhwT0pPaWxLd3J0dXZlQUFQS0xQcHdEVnBOVFBtdmxVVGM5WDdOOHVfbHBGN3hEQzVGYTJjYmFQNUlCd3FacU9XUDRBeFhPeHRjRFVfRFNGcndBaExLOS1lN2ttYUlZUDZHczBKcWhB?oc=5",
           "source": "CKPG Today",
           "date": "2026-09-16T17:27:00.000Z"
-        },
-        {
-          "title": "NZ Super Fund Raises US Timberland Mandate With Domain Timber Advisors to US$200 Million",
-          "url": "https://getfea.com/timber/nz-super-fund-raises-us-timberland-mandate-with-domain-timber-advisors-to-us200-million",
-          "source": "Forest Economic Advisors",
-          "date": "2026-09-15T22:21:47.000Z",
-          "focus": true
         },
         {
           "title": "The U.S. Lumber Coalition Commends CBP's Final Administrative Determination and Measures Taken to Combat Duty Evasion on Canadian Softwood Lumber",
@@ -2705,7 +2711,7 @@
         {
           "title": "Pressure-Treated Dimension Lumber Market Outlook to 2035",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVDdfSkxqYnlDTUFBOFAwSXh1eWtZU3pJdU52TFV4U2Q2T29WWDhHTVlYVG5SY2NLaENFQW1tbXQ5VWNXbkxDaFlqR1NsMDBueVkzM1ZkM3hKdFhrVVVpRlpRYTNkblJWWk13QnVobVhJMVdHTzlTTktSREJiZE5PRHFYRDFyNXlLN01JXy13bw?oc=5",
-          "source": "indexbox.io",
+          "source": "IndexBox",
           "date": "2026-09-13T12:26:20.000Z"
         },
         {
@@ -2725,12 +2731,6 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUUdtbW1zLUU1bVlvMnN5LTc0a0hMakdXTHNNckpPdGJhRGxIVEh3YTUtWEk1TTNnTU5vZmFSM1BwbTJuTkEzdnB1NTd1Ukk1MnoxdnYxRWt4aXozSzY4aVludVp0STlZMHdISXFILU04RnJPTURhbXdEYUZ2eFhPcDFMUDhsWnBhYldXdFRhSnFMbDMybmFWWmw2UmNVaTg?oc=5",
           "source": "Red Book Lumber Data",
           "date": "2026-09-12T00:18:24.000Z"
-        },
-        {
-          "title": "Softwood lumber market shows 'quiet strength'",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YQnhvMERyMEhrN21oLTZmTW41YkZBQnNaeWVROWxTVG1zVWo4RGJ6TUIwZWJWLTlCTDZJYVVwVThzVzZPTC1wdzlkdUtOT3g0RGJHR0ZnMmU2bkJ6cF9KcTFaMjJUbERKaVBPQ29feDZQdVU?oc=5",
-          "source": "HBS Dealer",
-          "date": "2026-09-10T19:40:45.000Z"
         }
       ]
     },
