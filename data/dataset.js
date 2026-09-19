@@ -671,7 +671,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-09",
-          "framing_composite": 536
+          "framing_composite": 537
         }
       ]
     },
@@ -2541,8 +2541,20 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-09-19T02:47:08.545Z",
+      "fetchedAt": "2026-09-19T10:10:18.433Z",
       "items": [
+        {
+          "title": "Are Interest Rates and Seasonality Pushing Lumber Futures Prices Lower?",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSi1lVHNxdFhpOVVFajFaaGdCcHJpSEtmd2pJeVFXMk5aenNiZmJOQzNFNlMtZFc2ZWtxYVdRTDRnYWRINWxtekZsd2oxcXRnNkNRS0tJX285Vk5MSXZkRXBRU1pPZVVQTTFZSlVNT1VuWFB5d0xKWVBIM1ZGN2tHallOVEJDc0xkYmExME9SU2tlblNCaWkzRGtoZW40LUl2Y2MyOU81anQ0OWdaX1FwUg?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-09-18T15:44:50.000Z"
+        },
+        {
+          "title": "Canfor Corporation Stock Slips 1.29%: Lumber Benchmark Pricing Volatility, Export Duties, and Macroeconomic Headwinds Weigh on Sentiment",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWVN0MV9HNEd4SG1hZlBuN2hvVEdBX1lJdUc0b0xGUzIyVlpuRnNrWGdEWU1KYmdlTmJZdWVaaDFvcmNjcDZsMDV6czFwZUNkcVhVcUJBeDJHcFp5T1NHUWVtUk15S2dQQXJQcmM0VDZNdFJJWm05cm5rOWlicTlnamtna21ENHNFWUlhWE8yU3A5UWlaYzZoaXU3LUVPU01ua2E2MFpaSXkxTmhvLTNYdURqeDdmMWR4Nk1jTEg3LTJzOGJpWjRubTNLZ0htcWUtaXhmelNyN01abm1WQk5KX041NFhVeDFWWU1Jb19kLVN5bTZ4SVNoWnF4VQ?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-09-18T13:17:00.000Z"
+        },
         {
           "title": "US Housing Starts Fall in August but Single-Family Starts Climb 7.6%",
           "url": "https://getfea.com/end-use/us-housing-starts-fall-in-august-but-single-family-starts-climb-7-6",
@@ -2586,6 +2598,36 @@ window.LUMBER_DATA = {
           "focus": true
         },
         {
+          "title": "Canadian softwood lumber producer prices fall 1.2% in August",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ2FSVHNfLUtjMzgzcUxQaHNQTVVnc3hMQlctR1FrLTRBbjFoLWc1ZVAxQmh2M3JwZFp2VC1zcEVCNkxIQUFSZHl2NnZ2a01ETmRjYzVfeklscFhsLVlGV2RxY2JyNXhuNWl1Y3JRemdUekVTdWZNTkNQM24xOEU1ZXZobXo1S3M0aWgwUnoxZ1BjajJOQ3ppZ2xfeUJ3eXZM?oc=5",
+          "source": "lesprom.com",
+          "date": "2026-09-17T15:49:58.000Z"
+        },
+        {
+          "title": "\u2018Made in NZ\u2019 Does Not Save Canadian Cedar from US Duties",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBJdXFaQ01oR2JaTGFhdTNMa05DYW1jMWNwbkY1bWVPVUwxVHg5UHpVNDBxTTRzTGlGSWtZRjFQRVBJeGVnSGtQOFNIRTUzT1E5czhLcTZBWEJ6Z1FVV2tIUExJZV9FQVFLRGNHdG1pSVBfRGl3WGdV?oc=5",
+          "source": "Wood Central",
+          "date": "2026-09-17T15:05:22.000Z"
+        },
+        {
+          "title": "GreenFirst Forest Products Stock Slips 4.35%: Lumber Market Volatility, Softwood Duties, and Sector Headwinds Weigh on Sentiment",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVmNIVXBsODk0RW5udjBVRmpfSTRHbFJWMWx0cVpJLWdlVl9vMW54TTR2d3NVRjZwZ0NiMU15S0d0ejg5aWxVZ2Q2RXl1S3AwMm92MHZRSHFnM3htYWMwZG5mZHhhYnNtUDhIYV9qcWRUYnQ5ZGpxaXlZWTlaS2MzTkRDQm1IREQ4WlZCLUFtV0RfR25wNnd0bEtBV0p2dTR0LW85Qk41TmtfVUFHWXl4RmE5V1lLYUpDWll1VlNYQl9wOXNSV2JTVkN3QWlYTGF1LTdOQ2xPVFlnYXpZa2dydkxmeGpyeVJ3em5pOVJpcU0?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-09-17T12:25:00.000Z"
+        },
+        {
+          "title": "Is Weyerhaeuser Stock Underperforming the S&P 500?",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTjRyMXI5dERQc2x4YmY1X1VvcGlHSjUyQUtqY1E0QXB1TVVPYXRRdlJXTHBYbkZvSHNQNjZ4WFQzWFdRRlZhb09BLVZIMHlRYkM1R1hxWU54bERQMmFNMUs3OWc1aG5rcUxLVTg5Q0J0V2hfVHJEWmQxSktRdk0xMnRRTFgxS0NnOHdjd0tDbUtVTUR3MDhjLUVna3hVMmZCT0RSemtZVHI?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-09-17T10:44:54.000Z"
+        },
+        {
+          "title": "Weyerhaeuser stock holds steady as investors focus on recent earnings and timber demand",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQXdiNGt2X2ZqZWpCelI4YmF6MDM5enpKTWJoUUJaNF9LY2JYeC1LTTBUWFFjQUFkdC0tU1I2RzVvSUdlUnBnc09zMkp0Mjhla3FyeFpuYWFROFBOXzc3ZHE5NjJlRTB2SExYamRPR2QyXzdod2VmRVdvM2ZnbmFTM1ZITFYtbERibnZDZmpENjRMdWotVW01RkdOc2FIUURSdWhQbVJHa0NmRGhTUFhuNkJ6SmNKaFNXWGtBZlp1dnh3MTNWLTRPQlhRVDhjWm5DSlE?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "2026-09-17T08:57:22.000Z"
+        },
+        {
           "title": "US Federal Reserve Raises Interest Rates for First Time in Three Years",
           "url": "https://getfea.com/end-use/us-federal-reserve-raises-interest-rates-for-first-time-in-three-years",
           "source": "Forest Economic Advisors",
@@ -2612,6 +2654,84 @@ window.LUMBER_DATA = {
           "source": "Forest Economic Advisors",
           "date": "2026-09-16T21:24:07.000Z",
           "focus": true
+        },
+        {
+          "title": "Weyerhaeuser stock holds gains as investors watch dividend and timber outlook",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd201R2VTa3hpdlVXdHN4Q1BDSG8xTWwySjZfZU4xNTdrZ1lqOGxmVnEyeDRydHVOOFNHTHhhQ2lpaTJSdm9oY2ZDdGlEdFdpWE5hNDdVaDhvMjFQdHVjRmE4X3JIUU1wUFUxR0pwbmljYU13MjNmQm8wczBnUDR3NnhrZHh2ZkZjbjRfMUlic2NXeTU2Y0daNXNfZGZlS2d5bGNDN0k5R2RyUnNNRjhsblBTU3o2d09GV2I2Z094U21palpUbER3RnFET0Q?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "2026-09-16T19:53:40.000Z"
+        },
+        {
+          "title": "Trucking company to lose 90 per cent of workers due to Northwood shutdown",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWnRIdUlvc3NfRG1VYWVrSU1WMVNDZUhLS1JhWVY5eEsxcmRtZDRCMzRHQ1h6eGFPLUJhczlSM3U1eUZCMHZiQU9TMHlTRDFkdlpENVdkYW1YSTlxV24yV19uZFB5elZTZ2Q1TC11OGk3VzY2cWp2ekUzUGpnRzN4MG9NOGc1cm91T0pBbEtRUFk1OXRKaFZMUnZrU0pHZ1ota3A2MlFERDRURkxUdlhkYWFneXRwQjJVY2FUWWdsWjNrNjQ4akkwYQ?oc=5",
+          "source": "Prince George Citizen",
+          "date": "2026-09-16T18:51:00.000Z"
+        },
+        {
+          "title": "The U.S. Lumber Coalition Commends CBP's Final Administrative Determination and Measures Taken to Combat Duty Evasion on Canadian Softwood Lumber",
+          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPUXVzUk91UnBtV2hJMVZTdjZyN0k4X01HQVF6TThDUnpHc1l1dzlqeG9MRmRPZ1cxekF4MUYzbjN6TmtSUVhEaUlDZ204WHRMSHZZV3dMREtjLXgyblZPbmlHRUhfUWN6WjZCSVBHN1AzZUJYUmVKaUZLX25uU3FqWFVsTzJ6WE55cmlrc3BrcE05WWpXMFB0M0hCNEI4b052ZUx0ZW0wVTcyQlNpWXdpV2dHam1UbjFXZEMzS3Nrd1kxajQ1aUFIa1RDcWNFYW1TdjFmY01yMXVFU2VqTVRRMnd1NWNZUzJnZThWZFhtUTFQT29ubEZwQ0MwNjlLQUFYZE11Vl9IaENQYXJJUlpRUTJiQ1ZmSkZPaF9JYlFReWZmNWJB?oc=5",
+          "source": "PR Newswire",
+          "date": "2026-09-15T16:21:00.000Z"
+        },
+        {
+          "title": "GreenFirst Forest Products (TSX:GFP) Gains Ground as Lumber Recovery and Operational Improvements Boost Investor Sentiment",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWGdiX1BDRXN4S0piQUh5MWQ4QjVNVzVPNUYxMHJ0MzR4eUc0ckk3cV9fcENueENnRmExTFZ4Ym5wZk1yODkxMEFOdXBId0xzVE5Db1lhaHF1U0Z5UWFiZUtLYWpiSmJNVndVQUNHZWdXcTdfQ0FzTldLNkZwaWxVXzN2VzV5VTdHVk1tRmNkS0ZZZmlMTXdPcU5oT3RhbkpWdUxDOHNncXAxYnZ4UnlTLTh6WnZPdTl5UERmRXRVRHZTTlM4MXNxZlJhLVpRXzk1RS1yZ2xWWVYyZURfNy1XaklSVFc2NzVicTFF?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-09-15T15:55:00.000Z"
+        },
+        {
+          "title": "Weyerhaeuser stock edges higher on Q2 2026 earnings and EBITDA growth plan",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQejkzc1JueHM0UlBPRXNNT1RqbjBBaTFEYVNidk5nZjhmNEVubEdjNTlCdzhwNjdQX2hDTE1pemZVM3ltRjhaRndhUHNQcUxqM2FwSFVrdXpXaHNQRjFkcm55UDhjY1RDa2hpUHpFSnpFLTEyZ2xXZzJLUEpoVzdRRy1DbGhiVm1TVG9KR3laYjlPV0wtVzNUaHNvejBMN2xxTVVGRVFrZDYwQTB2d2F0M0pRYXZwSGZ1R2tLX293djk2NzFOZEpTVUZUb2ZpMExpUEp3?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "2026-09-15T15:04:38.000Z"
+        },
+        {
+          "title": "Canfor Corporation (TSX:CFP) Gains Momentum as Lumber Market Recovery and Operational Restructuring Improve Investor Sentiment",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTkdYNWRpNHI5cTlEYjM2UVNlZGVXQXFDd0hGVXUyWWJqSGdxcTY5ejVseksxeVpoZF9zazNJZVRVWGZMOFg2Y1ZySFVONUNsNFNYVUoyLUtIU1pRX1hRaVF3czJrS1NfT3Y4V0lyYUJwRjQySFE1LXRGT1g1TVZHZFliQmYwc3RYRGFXMWNPVWFaNlJYX1dKVTZDNTVjc1ZUSW5fT3dwcHNFWVMxUnFiQURvdmxWS3N6RmtRdEQ3MFVZZ2xUM3FiX1JyQU50dEVHN3RyZXBMRnFhV2x3dExUbDg4T054UmpBSVc5bUNaT1g?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-09-15T11:29:00.000Z"
+        },
+        {
+          "title": "Interfor Corporation (TSX:IFP) Gains Momentum as Lumber Market Recovery and Operational Improvements Lift Investor Confidence",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUTA1T1hoekZGSUN5bkhzemZqMXRSS2kyanhVMHhxMGZpaFcxbERsUUViV3hSYmM2WHNjSGdhS0I3TWZOdkxZZ0dTLXpPN09oLTRXN1c5eUNFQXBvZlBrd2FVYVZpdDNjem93OUJKTkZNZldrbnM4SEctNzJ0alFiTjlVOEF6a1RCU1ZsOWJIT3ptZ1hEQVFxUkpsRGlfeWVKWGM5TFVsTHBpbUZBMVZ1cEVIMjZUZ2pQT0lielJxVm9mX3IzS3YzYXlqUVJFcUhWbm15S1pSMDI3eFp6b1VNVzI4d3o0alNfR2ZwRkdMRQ?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-09-15T11:22:00.000Z"
+        },
+        {
+          "title": "Swedish sawmills narrow losses as lumber prices rise in second quarter",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZHBMWUtXZ0FQNk1ib0tTMnVNeGpLYVBQb0lwNDd5aVhJYWc2cWNmS2xsRVhYNHN5angwdGQxWk9KSHJhdzUzRGJaaUdTYUNDemptWXJRQUZxblFaUVZQamo5T1c5ZWhYemlXTlktZEQxWm1hZllTVWdIeHZWRlFfMk9XY2VHY0RWTVQteFNCdWdrWTRxcGNJNVNfcEJKSUFxcENnQWl2QUtFWXVjTzJj?oc=5",
+          "source": "lesprom.com",
+          "date": "2026-09-14T23:45:16.000Z"
+        },
+        {
+          "title": "Learn Why The Bull Case For Louisiana Pacific Stock Could Change Following OSB Mill Curtailment",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTDE2dmFHM2s3ZEV3d1B3bGFyWWsyd3ctX2t5WGxOeVluTDVaX21GZU05UU5PYWR1a2FwQ0xUaE5WajB5cEFSVlJaRE5xQjd2NDNPUTAxRzlPTkFTLXZlakkxSTFNTXJmVDloa0RUQzNVNGJqeWJ3a1lUM0FRTUhZZmZmdUNEenEtNkk5ZVBvRk1VMm91dzdhVHk0dGF5VmJYUUg3TGo2Zkg1WTJNajJ3Z2E4REJuX1ByYmd1TkxKMVJqRnh0OVpXVTZiRVZKM2t4TlBoedIB2gFBVV95cUxNV0hQV3ctMk5PNEVMQ2RfRTlPS3pfcVlZbEM0MC1QS2l0eXZZN1V2dlhSRDh1a3ZJb3kyTUNqQXNESDF2QWZIaXF1RnFBUXRQZHpDazNWOHAxSWk3dDNsdC1rMlYzZ3lQLXktcVFEM1A2MGR2clZqbmF1WEpBN1NFSlljc2Z6RlVsQ1BDRHNBaDhNMTk1R3RPYlh3TGswaC1BdzUtSWp3SzdHYVBweHA3azc4ZmdyRnJxc3JmakdvYWNQalZ2SEtDeWJhdi1MTzA1WTFRM0c2LVpVUQ?oc=5",
+          "source": "simplywall.st",
+          "date": "2026-09-14T20:24:29.000Z"
+        },
+        {
+          "title": "Madison's Lumber Prices Index rises 1% to US$525/mfbm after four weekly declines",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMVhNNU1USnIwV2hpR25aTEhKOHZFQXNwdG9YeUhZbkZOVU5JSDFmdERCb2NEQkhRS09SVGNSOUw5M251ZHV3RGh2VXVCdURvRU1QdmtCSFBvRzctUDBteklLdlVOQnpEeW44bDQ1ZlRCNGdZMjVnNFJlRlQ2RDNqVQ?oc=5",
+          "source": "Fordaq",
+          "date": "2026-09-14T09:04:03.000Z"
+        },
+        {
+          "title": "Pressure-Treated Dimension Lumber Market Outlook to 2035",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVDdfSkxqYnlDTUFBOFAwSXh1eWtZU3pJdU52TFV4U2Q2T29WWDhHTVlYVG5SY2NLaENFQW1tbXQ5VWNXbkxDaFlqR1NsMDBueVkzM1ZkM3hKdFhrVVVpRlpRYTNkblJWWk13QnVobVhJMVdHTzlTTktSREJiZE5PRHFYRDFyNXlLN01JXy13bw?oc=5",
+          "source": "IndexBox",
+          "date": "2026-09-13T12:26:20.000Z"
+        },
+        {
+          "title": "Louisiana-Pacific (LPX) Faces An Earnings Reset As Its Undervalued Case Gets Tested",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSmpEbGdaOUhFVm9hQ2tSZjNpbDlTRWhrQUd2cDNfUF8xNnc5eTVKcGsxY1VJem00eXJDYnNsSmYzZUVwVW1fMVoyRWEwNmxmOTRxSWRCaDBfLS11REw1OUpwWnNGOU1DazJzUlh3MFBnNkZTckpMU2p5RERDX3EzZjN0OWdzaXlHMWRFaVotLTZOa2xWYUlsNzRXMXIxTFNjX1Z3YUNBa1JFdzFIdU9DdlQwMlFBSGdHdkEwRUVCdjYwYUtlUnlLTDRSVk8zQ2Zfcy13RNIB2gFBVV95cUxNa3FTMWtBeWtaSWNDeEdoTEVCci04M0IwczJlYmZYeVR0M3ZRSHIxMnhzOWo5Snk3V0VSVktUVnF1RnhzdjZLMmNJSjN1ZEdqTWlhcS1QWFZPM1JwVkJVaHZXc1F3am5XcVJRYkxScnVBcHBoUGlHVm56cU5idm5nSThNNnJfa0hNM2NCRDlBWmNEMVZNQ1dsQXBrWVBuRWxjU09jVEMyZ0VGYjZNRllQcEQ0aTVORmI1Z3k1eWxmOEh2cWxFY1RNczdERURxTVIxRlR2b0c5ODh3UQ?oc=5",
+          "source": "simplywall.st",
+          "date": "2026-09-12T14:25:34.000Z"
+        },
+        {
+          "title": "Q2 2026 Louisiana-Pacific Corp Earnings Call Transcript",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13Mk1PYWthdG5mS3pPRm9rSHU2SFh6UGFnUGdsYWRvY25LN3dod3R5X2w5ZkRjQUNZdk40V25VNkNGcUdiN0Q0c0tuY1BOUWZNLVQ0Q3dNM2w5bTZoTjRXeUtpVVFQUnVZeTJR?oc=5",
+          "source": "GuruFocus",
+          "date": "2026-09-12T12:22:26.000Z"
         }
       ]
     },
@@ -6904,21 +7024,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-09",
-            "mean": 813475,
-            "lo": 724434,
-            "hi": 913460
+            "mean": 813483,
+            "lo": 724440,
+            "hi": 913470
           },
           {
             "period": "2026-10",
-            "mean": 861910,
-            "lo": 760634,
-            "hi": 976671
+            "mean": 861919,
+            "lo": 760638,
+            "hi": 976687
           },
           {
             "period": "2026-11",
-            "mean": 776405,
-            "lo": 679404,
-            "hi": 887254
+            "mean": 776413,
+            "lo": 679405,
+            "hi": 887272
           }
         ]
       }
@@ -11112,7 +11232,7 @@ window.LUMBER_DATA = {
     ]
   },
   "mills": {
-    "asOf": "2026-09-18",
+    "asOf": "2026-09-19",
     "count": 368,
     "live": {
       "BC": 115,
