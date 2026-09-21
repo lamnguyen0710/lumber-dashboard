@@ -2540,13 +2540,26 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-09-21T17:42:27.407Z",
+      "fetchedAt": "2026-09-21T21:35:53.133Z",
       "items": [
+        {
+          "title": "State-Level Construction Employment Posts Gains in August",
+          "url": "https://getfea.com/end-use/state-level-construction-employment-posts-gains-in-august",
+          "source": "Forest Economic Advisors",
+          "date": "2026-09-21T21:19:56.000Z",
+          "focus": true
+        },
         {
           "title": "West Fraser announces term loan refinancing, declares dividend",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLXRlZVFNLWVHSGk4c1R5WlBuVUhIaG9QS2Z2X1p2Q1V5SjdRNU9jREpuaDY4S0tsMTVRWFhia2g2Nm9FMng0UDdfaXVqbTBEUnlCQmYtODQ1Z2RNbTlIT1ZtV1FXVEVpeDByZGxNY2p4d3ozbXIwUlRlRkRDZzFkSEI0bm5FWVI5aVY5U3MzRzJralNEWl9NdUYtMi11UGZOQ2Y4SzJ0WlZLeWRmMldtWFVfd1JMQQ?oc=5",
           "source": "Woodworking Network",
           "date": "2026-09-21T16:06:00.000Z"
+        },
+        {
+          "title": "Lumber Prices Firm While Timber Markets Stay Uneven",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6ejlyVzRQd1hobjBaRVYtOWlxSjBuNXV2OFI4RW8zcjdld1FPbVRnV2VCeWhQQTJicXNtWGdYUHhYTFdmRUgxclU5VjZBR2tkdXBNVUcwWl96LVpxc2Vua0hIYTBfc3k3ZUswSXFyVUU0MXdnMXdpb0RGeDlqUQ?oc=5",
+          "source": "RFD-TV",
+          "date": "2026-09-21T14:49:54.000Z"
         },
         {
           "title": "GreenFirst Forest Q2FY26 Results: Revenue rises 60%, turns profitable",
@@ -2555,16 +2568,16 @@
           "date": "2026-09-21T13:50:11.000Z"
         },
         {
-          "title": "CME lumber futures close week at eight-month low of $537",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3BKcGJwRUFkaHVZOVJUVDJjTVVLMUpsY0lhcjVEbmFZVWg1U1gzNXNtN2g1MmdtOVloY2hFQ3FqZFNGaDNQWU9FQzFDbEphaHRfX0d0SnFWTzBMcGk0Z1FCZkt2MURWWVJhVEdFcTJVcnkzcUNXcUQ4OVBxalVvQ04ydW1uWF9BNEpFR3F6MFk5SmRmN1F2TzZCUQ?oc=5",
-          "source": "lesprom.com",
-          "date": "2026-09-21T13:22:12.000Z"
-        },
-        {
           "title": "Transcript: GreenFirst Forest Prods Q2 2026 Earnings Conference Call",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdDBJejQ4TXRvQ3lRRGktYTZ4YU4xc0tKSS1YZVgta21PcEJ0Y1FQbHBDeU1NbDRBMHUtc01sblpjNWQzN0szMU13aDVNaXk0MUZWc3ZFOGs2cEN3TGstcVhteEsxUF9leE9XMUJnTVl6QWNTQml3UGlGZmVMWWhFWDZEUkEwMHdJNnB2VGlfbmlBM0lNMEVSTGlFbDBBWkt4aFh3N3dqLXUzRmQ2bWNBTVJn?oc=5",
           "source": "Benzinga",
           "date": "2026-09-21T13:00:22.000Z"
+        },
+        {
+          "title": "CME lumber futures close week at eight-month low of $537",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3BKcGJwRUFkaHVZOVJUVDJjTVVLMUpsY0lhcjVEbmFZVWg1U1gzNXNtN2g1MmdtOVloY2hFQ3FqZFNGaDNQWU9FQzFDbEphaHRfX0d0SnFWTzBMcGk0Z1FCZkt2MURWWVJhVEdFcTJVcnkzcUNXcUQ4OVBxalVvQ04ydW1uWF9BNEpFR3F6MFk5SmRmN1F2TzZCUQ?oc=5",
+          "source": "lesprom.com",
+          "date": "2026-09-21T12:00:01.000Z"
         },
         {
           "title": "Madison\u2019s Lumber Prices Index falls 2% to US$514/mfbm",
@@ -2690,13 +2703,6 @@
           "focus": true
         },
         {
-          "title": "US Weekly Initial Jobless Claims Drop in the Week Ending September 12",
-          "url": "https://getfea.com/end-use/us-weekly-initial-jobless-claims-drop-in-the-week-ending-september-12",
-          "source": "Forest Economic Advisors",
-          "date": "2026-09-17T20:33:21.000Z",
-          "focus": true
-        },
-        {
           "title": "Canadian softwood lumber producer prices fall 1.2% in August",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ2FSVHNfLUtjMzgzcUxQaHNQTVVnc3hMQlctR1FrLTRBbjFoLWc1ZVAxQmh2M3JwZFp2VC1zcEVCNkxIQUFSZHl2NnZ2a01ETmRjYzVfeklscFhsLVlGV2RxY2JyNXhuNWl1Y3JRemdUekVTdWZNTkNQM24xOEU1ZXZobXo1S3M0aWgwUnoxZ1BjajJOQ3ppZ2xfeUJ3eXZM?oc=5",
           "source": "lesprom.com",
@@ -2719,12 +2725,6 @@
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQXdiNGt2X2ZqZWpCelI4YmF6MDM5enpKTWJoUUJaNF9LY2JYeC1LTTBUWFFjQUFkdC0tU1I2RzVvSUdlUnBnc09zMkp0Mjhla3FyeFpuYWFROFBOXzc3ZHE5NjJlRTB2SExYamRPR2QyXzdod2VmRVdvM2ZnbmFTM1ZITFYtbERibnZDZmpENjRMdWotVW01RkdOc2FIUURSdWhQbVJHa0NmRGhTUFhuNkJ6SmNKaFNXWGtBZlp1dnh3MTNWLTRPQlhRVDhjWm5DSlE?oc=5",
           "source": "AD HOC NEWS",
           "date": "2026-09-17T08:57:22.000Z"
-        },
-        {
-          "title": "West Fraser Announces Term Loan Refinancing and Declares Dividend",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNS1mOEtuYl9qQTlzbHhXZm53WW5BVUN4NUdSbzd4cmhody1tbG8tRVRVUGdaZzgyNHl4Y1dxTHBlZE1YYTVsdkJRM0ZXTHUtS1ZPNnJIbzFTb1JkTzlVWDJSTUhVZ3kwV0VENk1UWl9WakU1RWI3eHN5Z2N0Z2RmOGV3YWpCOTRUaHlyU19fd3pEYk5UcXU2dnhuc0c?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-09-16T21:01:00.000Z"
         },
         {
           "title": "The U.S. Lumber Coalition Commends CBP's Final Administrative Determination and Measures Taken to Combat Duty Evasion on Canadian Softwood Lumber",
@@ -7023,21 +7023,21 @@
         "series": [
           {
             "period": "2026-09",
-            "mean": 813475,
-            "lo": 724434,
-            "hi": 913460
+            "mean": 813483,
+            "lo": 724440,
+            "hi": 913470
           },
           {
             "period": "2026-10",
-            "mean": 861910,
-            "lo": 760634,
-            "hi": 976671
+            "mean": 861919,
+            "lo": 760638,
+            "hi": 976687
           },
           {
             "period": "2026-11",
-            "mean": 776405,
-            "lo": 679404,
-            "hi": 887254
+            "mean": 776413,
+            "lo": 679405,
+            "hi": 887272
           }
         ]
       }
