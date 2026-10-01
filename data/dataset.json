@@ -671,6 +671,10 @@
         {
           "period": "2026-09",
           "framing_composite": 540
+        },
+        {
+          "period": "2026-10",
+          "framing_composite": 529
         }
       ]
     },
@@ -2540,8 +2544,79 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-10-01T12:16:47.646Z",
+      "fetchedAt": "2026-10-01T22:15:14.594Z",
       "items": [
+        {
+          "title": "US Mortgage Rates Surge in the Week Ending October 1",
+          "url": "https://getfea.com/end-use/us-mortgage-rates-surge-in-the-week-ending-october-1",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-01T21:02:44.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Construction Spending Increases in August",
+          "url": "https://getfea.com/end-use/us-construction-spending-increases-in-august",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-01T20:35:27.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Commercial and Multifamily Mortgage Debt Outstanding Rises in Q2",
+          "url": "https://getfea.com/end-use/us-commercial-and-multifamily-mortgage-debt-outstanding-rises-in-q2",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-01T20:31:49.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Weekly Initial Jobless Claims Edge Lower in the Week Ending September 26",
+          "url": "https://getfea.com/end-use/us-weekly-initial-jobless-claims-edge-lower-in-the-week-ending-september-26",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-01T20:22:45.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Job Cuts Fall in September, Reaching Lowest September Total Since 2022",
+          "url": "https://getfea.com/end-use/us-job-cuts-fall-in-september-reaching-lowest-september-total-since-2022",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-01T20:20:27.000Z",
+          "focus": true
+        },
+        {
+          "title": "Why Is Canfor Stock Down 3.56% as Lumber Tariffs and Mill Closures Stay in Focus? [TSX:CFP]",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbF9qdmp6eHZZQUlWOW41QW5pdGpVbUNHWGUxc3MzYl80bmszbTE2MURQSDNWa0w4b1k1LVJKVURrQnZtVkh0QzB0V3JuV19UQlJWT0lDcDk2WTJ0bEo3MlNhN0pkeGk4d21GTzg3c0pwRHVPaGY1bk5XdkJReHd4dHpsWDFmRkpwLWo5M01DMmkzNUlFeWxrVmQ4bVRnY1NjeEI4YndWenZlQU1XRGhQYklvQ2k2X3ZyemxUSmp3?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-10-01T16:04:00.000Z"
+        },
+        {
+          "title": "West Fraser Timber Slides 2.77% as Investors Reprice Lumber-Cycle and Demand Risks (TSX:WFG)",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ2NoTGpwN21hVmNPQkpUSjBZdjFJSVB1S3RCbGpQZUJCM0pkMzZHWGtvcnBzQTBrb01yRmtiaUlESHRtaUwyX3l5MXZYS0s5ZUR4Q0YyeGtYeW1CYmFfWkhQQWs2SVVJTU5hMEc5eU93azF5QVBWNEQ0TDkzVm9KWnJNNkRBaklxRnNTS1lDbWhMT3RpcGt0WFRFdHg0YjJ1TFliMVNEOXFlSHhJOS10ekgta2p6Y25KQUJ1YVVsTjc?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-10-01T15:42:00.000Z"
+        },
+        {
+          "title": "Trump to Make Call on Hardwood Imports as S232 Deadline Falls",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5McTZESmk3a0xBX0MybkRTcjl2MXdfZ2VMQjdPdmJVUV9GSVhxYnd4Sk5iX0RtOVVrWVJUV0Z2ZjVia21YT29FU0ZMOFEwQzJOSXlHWjNxWS1EdUFDbTVYbWxSSnIyZ2ZNV1FN?oc=5",
+          "source": "woodcentral.com.au",
+          "date": "2026-10-01T14:58:32.000Z"
+        },
+        {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQTBicDVxNWt1d0x2clVobFRPc01UQlVvbWdZWm9uTkxleXJJWEFpUTBZNm9NR3RwT1FnMXlpRFV2WjJlYTl1NGRheWZZSnhTLWtmLWlzbW5DSklHZUZNNjFfLV9MZUwtWHp4Q281cHVERE9zbFNkRXdrRmJGSzY2TGJnaE04UTBwcUFodUVaTU4?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-10-01T14:30:13.000Z"
+        },
+        {
+          "title": "JPMorgan cuts Weyerhaeuser stock target to USD 24.00",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeklfQWhHcHBWZlNiM1RXTU1GcmZrclZ4cHI4Ym9FV29BNlB4MW9XamFId01hUXJTdlVfTFFDeHphZTlHYVFibWN2MHlWcXI3Rml4YnZpZGY3QkpCeHk2R2o5SnZMTTBhaTBFalI4TFJxUzdQYl9hWFoyR1pONmt5YS02SkZpWEhGYWVfMDRRSVUwRG5MUGhmMW1wUG1YaVROay0xSDRYWGlLbzhfcjd1bDNIeF9HQQ?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "2026-10-01T13:15:36.000Z"
+        },
+        {
+          "title": "JPMorgan cuts target for Weyerhaeuser stock to USD 24",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTm1VS0hVbkZPMWIzcFZGZi1NVHV3c1JXbHVHMzIwWms2eW0yU1h2bU1CemNNalByX1d3cnB3ejBVeTlGOFg5cDdyajI5M29ZeHVBWUY3N2x5VjdhU2ZMZkQ2c3lBTl9qQ3AxUXdwNW5FejZRalkxbm5kSExvUzdsQ2g3WW9yNVB5elF3bHE4M0JFZ3p0SUdXYzZqNGRCTFEwZjRkS0wtU093X3JLYy1oMXlnRjFCRlE?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "2026-10-01T13:07:16.000Z"
+        },
         {
           "title": "US Real GDP Increases at an Annual Rate of 2.2% in Q2, BEA Reports in Its \u201cThird\u201d Estimate",
           "url": "https://getfea.com/end-use/us-real-gdp-increases-at-an-annual-rate-of-2-2-in-q2-bea-reports-in-its-third-estimate",
@@ -2578,24 +2653,10 @@
           "focus": true
         },
         {
-          "title": "US Mortgage Applications Fall for Fourth Consecutive Week",
-          "url": "https://getfea.com/end-use/us-mortgage-applications-fall-for-fourth-consecutive-week",
-          "source": "Forest Economic Advisors",
-          "date": "2026-09-30T21:44:49.000Z",
-          "focus": true
-        },
-        {
           "title": "Louisiana-Pacific (LPX) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY3IwUnpvMDUwY0ZmQUVpTnpSUWhNX1owbWlmdmVmSVAxSWZCM25TYnZKVE5hUE5ZUmU5NjlXeDJfMkkwZlpJVm5MeW9NUVo4MXhNRDJpNU8zSTVLVUVpckExQ1FCaGQ1aW9scS0xNDd1eGxCZWR6R3k1SDFvb3p3LUwxOEdsWUtOVE9CSWpqRWFXcFlGX2k5Q2w2QkU?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-09-30T21:00:05.000Z"
-        },
-        {
-          "title": "ADP: Private Sector Employment and Compensation Increase in September",
-          "url": "https://getfea.com/end-use/adp-private-sector-employment-and-compensation-increase-in-september",
-          "source": "Forest Economic Advisors",
-          "date": "2026-09-30T20:55:26.000Z",
-          "focus": true
         },
         {
           "title": "Madison\u2019s Reporter: Some Lumber Prices Slip into September",
@@ -2604,15 +2665,9 @@
           "date": "2026-09-30T16:49:37.000Z"
         },
         {
-          "title": "BC-Lumber Futures",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdjVsR2NoNVJZOWQ3SE5NR0ZFbG5KWkliZjJLSTBoZHRUa01xSTBxeUt1YkxRa0VRVDg5UWRnUGZKMW1PR1hyV3h1MTFzSjV4ZkNxemtaTDk2MktTNnhVUEFOWFFUMG5EYzF5bUNYdUs5cTUxRW5VSXB2WkNaLUdCTS1uQlJnV2YyRlJYejNnTTB0YmZGd015ZUZ5MWNPUmJ5elhHNUFsbzVlT28?oc=5",
-          "source": "wfmz.com",
-          "date": "2026-09-30T14:39:49.000Z"
-        },
-        {
           "title": "Canada Takes Fight Over 2% Lumber Dumping Test to US Appeals Court",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12a0RzVXgyeWJjWDE0clc1ZkV5ZDI4VzFTMFhQVTVJSjZtUDU3dm1EUnpDdFBxdFBxT1Y1Q3VVdm13Z2RfLTdKMDgta1RzU1BFeG5WMERFN2EtdG43RjFmTk05THVRMXVpNVE?oc=5",
-          "source": "Wood Central",
+          "source": "woodcentral.com.au",
           "date": "2026-09-30T11:27:57.000Z"
         },
         {
@@ -2622,37 +2677,34 @@
           "date": "2026-09-30T10:27:43.000Z"
         },
         {
+          "title": "Canfor Southern Pine suspends operations after fatal workplace incident",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPREZyc1VZbkVyMl8yQTdFSjB0OVItSFpHbnk4YkhjUlJodHkwR0Jyd0VvaUdvNGkxcnlHTVh0VXZKTUlnZ2dScHc0YzIzbzFfbm4tekJURjc4a2tDYUctdWRlZm5NakZuUFp3WlBnblAzeEVHZDJpeW1ldllrU3QtTEtITW5ka2NLNWNvczd0dkN2U19waHd6UkNBaFcwNVpjUWVfTw?oc=5",
+          "source": "1819 News",
+          "date": "2026-09-30T10:06:38.000Z"
+        },
+        {
           "title": "Lumber Futures,Nov-2026 (LBRX26.CME) stock price, news, quote and history",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxb3BaRldHWmxhMWpSeWd6OE83SkgzbWhuRmY4UXZ1RENkQ09Oc0w2NHBobDRTZEhUcUxNRnFwbDFZWGIzSTdNWDd3SnNGQXVpcUlQYVJKejZuUQ?oc=5",
           "source": "Yahoo Finance UK",
           "date": "2026-09-30T08:36:52.000Z"
         },
         {
-          "title": "S&P Cotality Case-Shiller Index Reports 1.9% Annual Gain in US Home Prices in July",
-          "url": "https://getfea.com/end-use/sp-cotality-case-shiller-index-reports-1-9-annual-gain-in-us-home-prices-in-july",
-          "source": "Forest Economic Advisors",
-          "date": "2026-09-29T22:01:18.000Z",
-          "focus": true
-        },
-        {
-          "title": "FHFA House Price Index Climbs in July",
-          "url": "https://getfea.com/end-use/fhfa-house-price-index-climbs-in-july",
-          "source": "Forest Economic Advisors",
-          "date": "2026-09-29T21:56:43.000Z",
-          "focus": true
-        },
-        {
-          "title": "Paraguay and J.P. Morgan Announce US$200 Million Sustainable Forestry Investment",
-          "url": "https://getfea.com/international-markets/paraguay-and-j-p-morgan-announce-us200-million-sustainable-forestry-investment",
-          "source": "Forest Economic Advisors",
-          "date": "2026-09-29T21:54:36.000Z",
-          "focus": true
+          "title": "Will PinkWood Acquisition Change Canfor Stock Narrative",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOczlUcXlfQXc3WE5vc2tRX0RzLURLbGJ5ZnFkYnBPTEczckl1RmtVNHVhNC15ZXprR2J6cXN2U0tzUDExNW1xZFA1dGVZNWpYS1E1Z3RNSWtjRFk2R09feWhlaUM1c2JMbnNLbXhwTnZ4Qm1TSEpPVUY4TmxVRU5lRjNZVHZoUEtKWWJBeGhEVVpsamtRWVBHelBKNU9pQXpTSmJQaUw3WV8zdjYySndEb2p4NXoyeG15MTFyTmZMVVRsUdIBxwFBVV95cUxQV0N2dFdDOWRVOElGZGNRMlY0b21Yamt6Y2tLSVRMMTVrdkxmbF8xWW5TRzFwZ2I3QU5HN1l4dUtQb2ozTzlQeDB6ZUFlZEdYS0xRajJrLVBxSFJvR3ZsWndUWnROUHUtM181aVc1aHkxSVhUWVBUb2d6a2lxdER1ZjF4aXFaU3lScncyTG5FVDFqQ1U2SDZzUm1jM2lQemZlQTIyQThmLXZpcjg5aUplb2RxNF9qd0NUSDk2SExjMjFXSzdmMGRR?oc=5",
+          "source": "Simply Wall Street",
+          "date": "2026-09-29T18:33:44.000Z"
         },
         {
           "title": "Italian lumber prices fall 0.8% in August as industrial prices rise",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZDRWVjBEYU54NWNVbUxnWlh4anlNelc0cF82VjMwMWRxZmNuWXhBZVA3bWprX3RZTXk2ZFk2QUE2THUzN3BPcGtOM1cxSHR1NlhuYVFackZWVmxxSVdoOGVXX1NIWmVhVVl0V0x6cHBZTzg5YTNmSjBUUEtUY2h2MVdRVDFVQlFzSk9BOUw0WXBmVHhJTU0zVlNZbDlDZWNHM3dNRWI5TllWZw?oc=5",
           "source": "lesprom.com",
           "date": "2026-09-29T15:59:24.000Z"
+        },
+        {
+          "title": "Canfor Corporation (TSX:CFP) Gains Momentum as Forestry Recovery and Value-Added Wood Strategy Support Investor Interest",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZ1IzdWluSmI4T0hIbXF1MTJmbFpRRUM3VklJcmFzLUhtd2xYUlpBLTdKMmRKamUyOFFZZVJHWTVlbVZGbFR5NnJwY0UxdmxaY3N5c184eFlnYnhmX1pwelktUE05Z2J4NjloQU5rSzJzNWdUXzNmQkx1Mlo1YlVwTzdIdjRGeS1iZDZIbGdDeUhnUXgtMGNYNDMyRkF4X2FqNFl3QkloSVR0b21hWTVsSEdxQVZHbnRCR25TNTJKb0w4cXVBWWg2U1p5cW5JTzAyMlpYMFlsRjlHY3RvcmEtUzlpUEY2d21k?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-09-29T14:17:00.000Z"
         },
         {
           "title": "Imports of softwood lumber to Japan lose 29% in August",
@@ -2681,56 +2733,8 @@
         {
           "title": "Gulf Softwood Lumber Deliveries Fall by a Third as Hormuz Stays Shut",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sZEJtSlVSRXdqN2FfVUxwaWxJMUVBZVRfQm5uR3FiOXg1eURUeU5pOEcxSm92Zml3MnB0SEdIX0UtbUpFcmRHSFExYWYwZ254dWVTTEVjSlh2TGZZQndyV2hWVW1PUG8?oc=5",
-          "source": "Wood Central",
+          "source": "woodcentral.com.au",
           "date": "2026-09-28T20:45:42.000Z"
-        },
-        {
-          "title": "Louisiana-Pacific (LPX): Is the Market Missing Its Siding Transformation?",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZl9lcXQzVGl0VG1ZRFh6UEN4R3RsSkR6bzYyb2E4d1lBcEhEdzY0YnBJX29uMXkxSFNHcHhNODJQdmlaYlRYQzB5dW4wb09ubXh6WWZfRUlCSHNsUHlxWmhCSXc1U1ROMHNGeWRwaTByVGJoX0U2dkVHbjRQSGVCdVkwMDI3NFRVdTZlbVpJT0lmMW9xTzZlWl9pM0c4Vm8?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-09-28T20:35:38.000Z"
-        },
-        {
-          "title": "Madison\"s Lumber Prices Index drops to $505 mfbm",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSnNMYzlOMm9MRl9QaTh0QWRHMkdNbkg3cGtxdHhyYk1tQjBRRGtscW5qdGtPdEp3endGNUpvbEQzSDhmUGpnSkI3dWJ1RzVKR3hmd0RXNldJVlA4emNGUERKSC1LLWtYQTRoblVRUG1wYnN0bnVLYlp5ajgxMHVpM2owcjQ5Smx4eW10VTlNaw?oc=5",
-          "source": "lesprom.com",
-          "date": "2026-09-28T16:15:24.000Z"
-        },
-        {
-          "title": "CME lumber futures end week little changed at $538",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUk50dlFsb1h2WUppR3k4RnhuOUtlRHJXLXRveVZXVWk4QVN2MktNY2d6d2NsOTBVTjIza0NHRW96a25PTTdFX2pvVV9ncWVRNGNNakdlOVJjZWZWRlZXd3dvQ19NMHNKZWhlUXU3ZDM3VTZmazdpX3B2TXBWYWpfWjFpQk4wOXNvUGtfR28tdDFtbXc?oc=5",
-          "source": "lesprom.com",
-          "date": "2026-09-28T09:00:03.000Z"
-        },
-        {
-          "title": "Weyerhaeuser stock faces a weaker Q3 outlook after new filing",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONEIwbTA4dDAyVkNyemdLX3VlaXUtRkduZHFVSkF0S2hmOElOSVROX2Z4Q3dBUGRlLS15ZjZ4Y01iRi0yQnlCc2VzVldmTUlNekJTdzQ5aDBqanAxZ09NTTk1a1lnUVRJWWJZRE5XX2hRY0ZERW9PWlNnUEE4MTlXVGFiQkN5eHcxUTR3ajdGak9OOHZKMGYtd2NmelR6MFo2MTRSZXNPWGJPYWRwYU1sblVMRjZQZmtWTDZVSklacWlSQQ?oc=5",
-          "source": "AD HOC NEWS",
-          "date": "2026-09-28T07:56:24.000Z"
-        },
-        {
-          "title": "Wisconsin white oak lumber prices fall nearly 24% over past year",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSmVpSXMxUlBveDdSdi1FRm03ZUg5LV9CVjVpT0JsNUdmVlVTbFlGdzVhMWxJZGNtSXhvM0pnOFV5UE1abHlQMnVnRnJzM01JbzJnUXBmanpOZy1IVlFndDF2QWcwUE5fSWtfOU5ZcVdIb1FqSGJNMmFUbUNnUTVMUGo0NUw4OG9IcDBOWXNSeVBtN0Y1R2M2T0t6WGo4Y1J5WUx4T0ZR?oc=5",
-          "source": "lesprom.com",
-          "date": "2026-09-27T14:22:37.000Z"
-        },
-        {
-          "title": "Madison\u2019s Lumber Prices Index Sept 25, 2026: US$505 mfbm",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05b2p0V3h1a3dNSDlzYU1pVXlBSE9JMVowYV9QU3hjbkt4RXh6eUt6UnZsWEFyRlkxU3M5c29RWktfTXFPSWsza3dtWXRWekZ3WTBoeGRn?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-09-25T21:46:52.000Z"
-        },
-        {
-          "title": "GreenFirst Forest Products Stock Falls 5.56% as Lumber-Market Weakness and Trade Risks Weigh on Sentiment",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPT09jeFhRTmxWY1ZxUUt5VUlzRE9oRkRBZ3Z4VnVrUlIzTWwybnNsQ0xCZ19qX0RKWTBPc1psdkhyVFN4MWQ2ZFRZUnVPaEJwREpfWndGWnlSSHpVNlI5U0FoX00xNGQ2NkFnZ0lfQTNockZFaW84bnozcUk3Smx5VUo5X0Z2a1U4bTlPN096NldxX29aZFhRYVhTeEtYVGphRjJ3VmZrVEpaMEJxelltVGE0Rlh2TDB1ckZOZXNOY20yeExVTXpxa3EzSndQUXNJQ2h1T3d3?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-09-25T14:24:00.000Z"
-        },
-        {
-          "title": "Louisiana-Pacific Corporation (LPX) is Attracting Investor Attention: Here is What You Should Know",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaTBUVXEtb1d2Z2txOUZfOTlpQmwtd2RYa1hUMjR0b0JITXFjQkI0WFhsTU5QcFBQVm1VcUJLanc4VTF6a1hrTWs2cVhKUTl4ZHpLdVVmUVVBdW91U3ZUTXhtYWlSS24tZy1pQldyOWhqZ21oY0o5M3EyRlR4MTVqTnhHNjFVT0h3eTBEQWl2dzdHT1hlTkg5Uw?oc=5",
-          "source": "Yahoo! Finance Canada",
-          "date": "2026-09-25T12:00:05.000Z"
         }
       ]
     },
@@ -7009,6 +7013,16 @@
           "Quebec": 114773,
           "Maritimes": 109586,
           "Other": 53060
+        },
+        {
+          "period": "2026-09",
+          "BC Interior": 227597,
+          "BC Coast": 27596,
+          "Alberta": 151151,
+          "Ontario": 72794,
+          "Quebec": 124421,
+          "Maritimes": 103637,
+          "Other": 62622
         }
       ],
       "forecast": {
@@ -7025,27 +7039,27 @@
           "coverageH3": 50
         },
         "lastActual": {
-          "period": "2026-08",
-          "value": 786506
+          "period": "2026-09",
+          "value": 769818
         },
         "series": [
           {
-            "period": "2026-09",
-            "mean": 813483,
-            "lo": 724440,
-            "hi": 913470
-          },
-          {
             "period": "2026-10",
-            "mean": 861919,
-            "lo": 760638,
-            "hi": 976687
+            "mean": 842397,
+            "lo": 750470,
+            "hi": 945584
           },
           {
             "period": "2026-11",
-            "mean": 777097,
-            "lo": 680003,
-            "hi": 888054
+            "mean": 756276,
+            "lo": 668014,
+            "hi": 856199
+          },
+          {
+            "period": "2026-12",
+            "mean": 653119,
+            "lo": 572304,
+            "hi": 745347
           }
         ]
       }
