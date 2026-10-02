@@ -2545,8 +2545,20 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-10-02T03:42:01.853Z",
+      "fetchedAt": "2026-10-02T11:45:35.270Z",
       "items": [
+        {
+          "title": "Madison's Lumber Prices Index now live on LSEG.com",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZUEyMGRlSXAwcHBxeTlRUms1QWRkNTFmRy1PLXBiLUtqRkRPeXo0eWhZSDFfWWxGN1JzZEpxZ25OY2lXZ0VuS0dwbllzXzZMM1EyR0M1UWJkTDJoUGpDdzhPTnhRQS1qbDltMWZSOFRXdG44TnpiVGZGeTM5WXZlV3NB?oc=5",
+          "source": "AOL.com",
+          "date": "2026-10-02T11:00:31.000Z"
+        },
+        {
+          "title": "Weyerhaeuser (WY) Stock Looks Reasonable Despite Its 37% Slide",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSmVUbTJDcS1laDlwVnJoX3hkSlRpd1pZc1F1NnRPNnpZd19HbDR4ZjMyaXpYZWI3eXpqOGNxRm1OT1lUVmxqVHJQTnRya1ZmTm9uZEkyZG93SmVCTTVNMmVFdEE4dE8xTzdqOF96a2FMTEczZTNqWUJSTmVvdUwtQUZESlhtM0JGWk5vN25FQkNFQnBhNm1Fak50NXhTLXRCVHN3UG13ZGNGSW1kTktxQmFJa2l3YmZSWmxPS1NkWFNJVzBGRlluVNIBzgFBVV95cUxNN1FWLUpuRGp3OUNESWdjaVVkTnFUUTU3R3pCallMSUZ0MTh6V0NBS2J3Q05HTjFtX2Exbmo5Vk9DV25WTnBNc0dsMi1YeC1LSFVjMlZGLWRFV1B3cEJCMDJyMDJsZmNfY1dMc3VmWENlYUl4SHhULXd4Y1EzZFkzLURFQ3pOc0NieGNrMUpmclpCeWtQRHgtQXpVeWxiS290dmdSMDhBUVdZTERKRkZxWDhoS2VNRGpRczBkbDhmVFJpanJsQ0U5OUN2dGdndw?oc=5",
+          "source": "Simply Wall Street",
+          "date": "2026-10-02T08:48:06.000Z"
+        },
         {
           "title": "US Mortgage Rates Surge in the Week Ending October 1",
           "url": "https://getfea.com/end-use/us-mortgage-rates-surge-in-the-week-ending-october-1",
@@ -2583,12 +2595,6 @@ window.LUMBER_DATA = {
           "focus": true
         },
         {
-          "title": "Why Is Canfor Stock Down 3.56% as Lumber Tariffs and Mill Closures Stay in Focus? [TSX:CFP]",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbF9qdmp6eHZZQUlWOW41QW5pdGpVbUNHWGUxc3MzYl80bmszbTE2MURQSDNWa0w4b1k1LVJKVURrQnZtVkh0QzB0V3JuV19UQlJWT0lDcDk2WTJ0bEo3MlNhN0pkeGk4d21GTzg3c0pwRHVPaGY1bk5XdkJReHd4dHpsWDFmRkpwLWo5M01DMmkzNUlFeWxrVmQ4bVRnY1NjeEI4YndWenZlQU1XRGhQYklvQ2k2X3ZyemxUSmp3?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-10-01T16:04:00.000Z"
-        },
-        {
           "title": "West Fraser Timber Slides 2.77% as Investors Reprice Lumber-Cycle and Demand Risks (TSX:WFG)",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ2NoTGpwN21hVmNPQkpUSjBZdjFJSVB1S3RCbGpQZUJCM0pkMzZHWGtvcnBzQTBrb01yRmtiaUlESHRtaUwyX3l5MXZYS0s5ZUR4Q0YyeGtYeW1CYmFfWkhQQWs2SVVJTU5hMEc5eU93azF5QVBWNEQ0TDkzVm9KWnJNNkRBaklxRnNTS1lDbWhMT3RpcGt0WFRFdHg0YjJ1TFliMVNEOXFlSHhJOS10ekgta2p6Y25KQUJ1YVVsTjc?oc=5",
           "source": "kalkine.ca",
@@ -2617,6 +2623,12 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTm1VS0hVbkZPMWIzcFZGZi1NVHV3c1JXbHVHMzIwWms2eW0yU1h2bU1CemNNalByX1d3cnB3ejBVeTlGOFg5cDdyajI5M29ZeHVBWUY3N2x5VjdhU2ZMZkQ2c3lBTl9qQ3AxUXdwNW5FejZRalkxbm5kSExvUzdsQ2g3WW9yNVB5elF3bHE4M0JFZ3p0SUdXYzZqNGRCTFEwZjRkS0wtU093X3JLYy1oMXlnRjFCRlE?oc=5",
           "source": "AD HOC NEWS",
           "date": "2026-10-01T13:07:16.000Z"
+        },
+        {
+          "title": "Firefighters respond to fire at Guntown plant",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91dndMMVlfUFBhbFdiQ0tYOFZ3ZlA3ellHM294WEJ5MDRhZFRoS1BxLVJLZlJOV2RWN1BrVEJMdGdJZWNRNEJubm1ud1FTVEtkcHVOMGtOdHVTVGM3RFFZcGdsOThacWVXWGxyX1BaX1ZkUGRZUDhGdkp6NXQ?oc=5",
+          "source": "WTVA",
+          "date": "2026-09-30T22:31:00.000Z"
         },
         {
           "title": "US Real GDP Increases at an Annual Rate of 2.2% in Q2, BEA Reports in Its \u201cThird\u201d Estimate",
@@ -2654,12 +2666,6 @@ window.LUMBER_DATA = {
           "focus": true
         },
         {
-          "title": "Louisiana-Pacific (LPX) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY3IwUnpvMDUwY0ZmQUVpTnpSUWhNX1owbWlmdmVmSVAxSWZCM25TYnZKVE5hUE5ZUmU5NjlXeDJfMkkwZlpJVm5MeW9NUVo4MXhNRDJpNU8zSTVLVUVpckExQ1FCaGQ1aW9scS0xNDd1eGxCZWR6R3k1SDFvb3p3LUwxOEdsWUtOVE9CSWpqRWFXcFlGX2k5Q2w2QkU?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-09-30T21:00:05.000Z"
-        },
-        {
           "title": "Madison\u2019s Reporter: Some Lumber Prices Slip into September",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5VTDUxc2tuV3BjbEFwREVPRWVlaXZhcE9oUm9fTldaQk02WEYyckRZb1pDV08yWU5uR2kySmZWTUVOeDNuUFpqemJkYlV6bzJWakFIT1dB?oc=5",
           "source": "Red Book Lumber Data",
@@ -2690,22 +2696,10 @@ window.LUMBER_DATA = {
           "date": "2026-09-30T08:36:52.000Z"
         },
         {
-          "title": "Will PinkWood Acquisition Change Canfor Stock Narrative",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOczlUcXlfQXc3WE5vc2tRX0RzLURLbGJ5ZnFkYnBPTEczckl1RmtVNHVhNC15ZXprR2J6cXN2U0tzUDExNW1xZFA1dGVZNWpYS1E1Z3RNSWtjRFk2R09feWhlaUM1c2JMbnNLbXhwTnZ4Qm1TSEpPVUY4TmxVRU5lRjNZVHZoUEtKWWJBeGhEVVpsamtRWVBHelBKNU9pQXpTSmJQaUw3WV8zdjYySndEb2p4NXoyeG15MTFyTmZMVVRsUdIBxwFBVV95cUxQV0N2dFdDOWRVOElGZGNRMlY0b21Yamt6Y2tLSVRMMTVrdkxmbF8xWW5TRzFwZ2I3QU5HN1l4dUtQb2ozTzlQeDB6ZUFlZEdYS0xRajJrLVBxSFJvR3ZsWndUWnROUHUtM181aVc1aHkxSVhUWVBUb2d6a2lxdER1ZjF4aXFaU3lScncyTG5FVDFqQ1U2SDZzUm1jM2lQemZlQTIyQThmLXZpcjg5aUplb2RxNF9qd0NUSDk2SExjMjFXSzdmMGRR?oc=5",
-          "source": "Simply Wall Street",
-          "date": "2026-09-29T18:33:44.000Z"
-        },
-        {
           "title": "Italian lumber prices fall 0.8% in August as industrial prices rise",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZDRWVjBEYU54NWNVbUxnWlh4anlNelc0cF82VjMwMWRxZmNuWXhBZVA3bWprX3RZTXk2ZFk2QUE2THUzN3BPcGtOM1cxSHR1NlhuYVFackZWVmxxSVdoOGVXX1NIWmVhVVl0V0x6cHBZTzg5YTNmSjBUUEtUY2h2MVdRVDFVQlFzSk9BOUw0WXBmVHhJTU0zVlNZbDlDZWNHM3dNRWI5TllWZw?oc=5",
           "source": "lesprom.com",
           "date": "2026-09-29T15:59:24.000Z"
-        },
-        {
-          "title": "Canfor Corporation (TSX:CFP) Gains Momentum as Forestry Recovery and Value-Added Wood Strategy Support Investor Interest",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZ1IzdWluSmI4T0hIbXF1MTJmbFpRRUM3VklJcmFzLUhtd2xYUlpBLTdKMmRKamUyOFFZZVJHWTVlbVZGbFR5NnJwY0UxdmxaY3N5c184eFlnYnhmX1pwelktUE05Z2J4NjloQU5rSzJzNWdUXzNmQkx1Mlo1YlVwTzdIdjRGeS1iZDZIbGdDeUhnUXgtMGNYNDMyRkF4X2FqNFl3QkloSVR0b21hWTVsSEdxQVZHbnRCR25TNTJKb0w4cXVBWWg2U1p5cW5JTzAyMlpYMFlsRjlHY3RvcmEtUzlpUEY2d21k?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-09-29T14:17:00.000Z"
         },
         {
           "title": "Imports of softwood lumber to Japan lose 29% in August",
@@ -2736,6 +2730,12 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sZEJtSlVSRXdqN2FfVUxwaWxJMUVBZVRfQm5uR3FiOXg1eURUeU5pOEcxSm92Zml3MnB0SEdIX0UtbUpFcmRHSFExYWYwZ254dWVTTEVjSlh2TGZZQndyV2hWVW1PUG8?oc=5",
           "source": "Wood Central",
           "date": "2026-09-28T20:45:42.000Z"
+        },
+        {
+          "title": "Madison\"s Lumber Prices Index drops to $505 mfbm",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSnNMYzlOMm9MRl9QaTh0QWRHMkdNbkg3cGtxdHhyYk1tQjBRRGtscW5qdGtPdEp3endGNUpvbEQzSDhmUGpnSkI3dWJ1RzVKR3hmd0RXNldJVlA4emNGUERKSC1LLWtYQTRoblVRUG1wYnN0bnVLYlp5ajgxMHVpM2owcjQ5Smx4eW10VTlNaw?oc=5",
+          "source": "lesprom.com",
+          "date": "2026-09-28T16:15:24.000Z"
         }
       ]
     },
@@ -7050,21 +7050,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-10",
-            "mean": 842397,
+            "mean": 842398,
             "lo": 750470,
-            "hi": 945584
+            "hi": 945586
           },
           {
             "period": "2026-11",
-            "mean": 756276,
+            "mean": 756278,
             "lo": 668014,
-            "hi": 856199
+            "hi": 856203
           },
           {
             "period": "2026-12",
-            "mean": 653119,
-            "lo": 572304,
-            "hi": 745347
+            "mean": 653120,
+            "lo": 572302,
+            "hi": 745351
           }
         ]
       }
