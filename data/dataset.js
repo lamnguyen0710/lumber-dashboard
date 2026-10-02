@@ -675,7 +675,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-10",
-          "framing_composite": 529
+          "framing_composite": 528
         }
       ]
     },
@@ -2545,13 +2545,19 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-10-02T11:45:35.270Z",
+      "fetchedAt": "2026-10-02T17:17:56.488Z",
       "items": [
         {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTGl0MHhFM1RmdGRCdDVkWmdyVjBwY2xQWjZCOHJEWHBLTmkzdXVsS2dKZTRrN0JmM2xhV1lMa2xnR01VSzM2Z0lHSi14SUs4azdzSERDRDBNZWRmeUFONzMxZE9tSkVxOXo4Z1VPZFlja1c3SDgzbTJnYlRxd09odEFKZHpyWXR1ZGZiWXg3Z1I?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-10-02T14:30:14.000Z"
+        },
+        {
           "title": "Madison's Lumber Prices Index now live on LSEG.com",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZUEyMGRlSXAwcHBxeTlRUms1QWRkNTFmRy1PLXBiLUtqRkRPeXo0eWhZSDFfWWxGN1JzZEpxZ25OY2lXZ0VuS0dwbllzXzZMM1EyR0M1UWJkTDJoUGpDdzhPTnhRQS1qbDltMWZSOFRXdG44TnpiVGZGeTM5WXZlV3NB?oc=5",
-          "source": "AOL.com",
-          "date": "2026-10-02T11:00:31.000Z"
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMnh5bGZNbElzZWU4d2laWm41ZkQxbVllV1JCbXlIXzVpWmtKUEdKb3V2YVNhRWZqYndPT1dsbFdxNGdFVGxXRksxZEpiMXV5bGE2MXFJTk9KTDZzT2x1WW5zd3MyTzlvTmJHSzRvMDk3b0J0cURwUEZ5Wm0tRGVKTXlNU0otenJsbTBUeVE3elZoSzZZWTMxQjAyUXhLY1Vpb0JTcTBlel9oR1ZMakhjN2VfT3cwY2FSRkVrOEM0NWc0RkYyWXBzNzJJdjRpSWc?oc=5",
+          "source": "The Globe and Mail",
+          "date": "2026-10-02T11:15:31.000Z"
         },
         {
           "title": "Weyerhaeuser (WY) Stock Looks Reasonable Despite Its 37% Slide",
@@ -2607,12 +2613,6 @@ window.LUMBER_DATA = {
           "date": "2026-10-01T14:58:32.000Z"
         },
         {
-          "title": "BC-Lumber Futures",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZjJzcXpyUVFYX2l0UnRlaklvQmI5bS1manhDckFVM2l5OTQxX3JuVG53QUVvd01fRjNXYUdjYUltSkx6c3ktbUI2UFpZWUVVMnU1X3JwbjROM2RCTVZieEVFOEd3UTFTaGRiaFBpWll4ZXFjN3pnLUx3Qk4wVldVc2IwcDJtX004c3NCcXVPUDNLOEU4S0Nxd3hmTUhYNms0bU9sMGRyUVJwaG8?oc=5",
-          "source": "WFMZ.com",
-          "date": "2026-10-01T14:50:27.000Z"
-        },
-        {
           "title": "JPMorgan cuts Weyerhaeuser stock target to USD 24.00",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeklfQWhHcHBWZlNiM1RXTU1GcmZrclZ4cHI4Ym9FV29BNlB4MW9XamFId01hUXJTdlVfTFFDeHphZTlHYVFibWN2MHlWcXI3Rml4YnZpZGY3QkpCeHk2R2o5SnZMTTBhaTBFalI4TFJxUzdQYl9hWFoyR1pONmt5YS02SkZpWEhGYWVfMDRRSVUwRG5MUGhmMW1wUG1YaVROay0xSDRYWGlLbzhfcjd1bDNIeF9HQQ?oc=5",
           "source": "AD HOC NEWS",
@@ -2666,12 +2666,6 @@ window.LUMBER_DATA = {
           "focus": true
         },
         {
-          "title": "Madison\u2019s Reporter: Some Lumber Prices Slip into September",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5VTDUxc2tuV3BjbEFwREVPRWVlaXZhcE9oUm9fTldaQk02WEYyckRZb1pDV08yWU5uR2kySmZWTUVOeDNuUFpqemJkYlV6bzJWakFIT1dB?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-09-30T16:49:37.000Z"
-        },
-        {
           "title": "Canada Takes Fight Over 2% Lumber Dumping Test to US Appeals Court",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12a0RzVXgyeWJjWDE0clc1ZkV5ZDI4VzFTMFhQVTVJSjZtUDU3dm1EUnpDdFBxdFBxT1Y1Q3VVdm13Z2RfLTdKMDgta1RzU1BFeG5WMERFN2EtdG43RjFmTk05THVRMXVpNVE?oc=5",
           "source": "Wood Central",
@@ -2694,6 +2688,12 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxb3BaRldHWmxhMWpSeWd6OE83SkgzbWhuRmY4UXZ1RENkQ09Oc0w2NHBobDRTZEhUcUxNRnFwbDFZWGIzSTdNWDd3SnNGQXVpcUlQYVJKejZuUQ?oc=5",
           "source": "Yahoo Finance UK",
           "date": "2026-09-30T08:36:52.000Z"
+        },
+        {
+          "title": "Some Lumber Prices Slip Into September",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObEVTZ1VHQUlGMW1DUVFpRno5OHJXaUJ6OXhvMVluRHRiY3Rib0dwX3FVcXNyTGJuSUxrUjlpY3BYSzZwZ0pMaEt6QkJSbUNja1MtcFNRY0pwVHJNRDdmMFJkV0IwV2pyQ29ULVNDVVNxbDNlVV9tRzdxZENSbk5FVkh5NzI?oc=5",
+          "source": "Canadian Biomass Magazine",
+          "date": "2026-09-29T22:44:08.000Z"
         },
         {
           "title": "Italian lumber prices fall 0.8% in August as industrial prices rise",
@@ -2726,16 +2726,16 @@ window.LUMBER_DATA = {
           "date": "2026-09-28T21:29:00.000Z"
         },
         {
-          "title": "Gulf Softwood Lumber Deliveries Fall by a Third as Hormuz Stays Shut",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sZEJtSlVSRXdqN2FfVUxwaWxJMUVBZVRfQm5uR3FiOXg1eURUeU5pOEcxSm92Zml3MnB0SEdIX0UtbUpFcmRHSFExYWYwZ254dWVTTEVjSlh2TGZZQndyV2hWVW1PUG8?oc=5",
-          "source": "Wood Central",
-          "date": "2026-09-28T20:45:42.000Z"
-        },
-        {
           "title": "Madison\"s Lumber Prices Index drops to $505 mfbm",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSnNMYzlOMm9MRl9QaTh0QWRHMkdNbkg3cGtxdHhyYk1tQjBRRGtscW5qdGtPdEp3endGNUpvbEQzSDhmUGpnSkI3dWJ1RzVKR3hmd0RXNldJVlA4emNGUERKSC1LLWtYQTRoblVRUG1wYnN0bnVLYlp5ajgxMHVpM2owcjQ5Smx4eW10VTlNaw?oc=5",
           "source": "lesprom.com",
           "date": "2026-09-28T16:15:24.000Z"
+        },
+        {
+          "title": "CME lumber futures end week little changed at $538",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUk50dlFsb1h2WUppR3k4RnhuOUtlRHJXLXRveVZXVWk4QVN2MktNY2d6d2NsOTBVTjIza0NHRW96a25PTTdFX2pvVV9ncWVRNGNNakdlOVJjZWZWRlZXd3dvQ19NMHNKZWhlUXU3ZDM3VTZmazdpX3B2TXBWYWpfWjFpQk4wOXNvUGtfR28tdDFtbXc?oc=5",
+          "source": "lesprom.com",
+          "date": "2026-09-28T09:00:03.000Z"
         }
       ]
     },
