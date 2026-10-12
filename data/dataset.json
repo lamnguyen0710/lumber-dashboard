@@ -674,7 +674,7 @@
         },
         {
           "period": "2026-10",
-          "framing_composite": 533
+          "framing_composite": 538
         }
       ]
     },
@@ -2544,8 +2544,20 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-10-12T03:55:50.223Z",
+      "fetchedAt": "2026-10-12T14:12:39.771Z",
       "items": [
+        {
+          "title": "CME lumber futures end week at $533, up 1.2%",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZXdJRGRkaXBWMlZzd0hEamhfZDg2SjFpcUFkY2xHVm9qbXBfMXJlejFTbHZiMHgwSHNkU3NackVXTDZxRW1TM05mUkJsNkQyWEpOZDVnREtNTmlSczFCVW83MXV2Wkc3c05aVlRoQ2VmN1RlaDRDYWVrM0JpQVNkR24xS3RWT204?oc=5",
+          "source": "Lesprom Network",
+          "date": "2026-10-12T09:00:02.000Z"
+        },
+        {
+          "title": "NAFTA panel upholds US 2017 countervailing duty determination on Canadian softwood lumber",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95UUZZOFh5QVoxRjVJWGN5bVhoRFYwOTFTWWdtT2U3TUFSVzdSRkRLd2g3Z0tRV2NJdEFXZzNlZjAzZTBLU0dsYXB5TXIxSzdWZXVsQ3FxVFVOTC01UnZOUVZKSlY0Q3pncXBXV3hZa3NZakhLcFE?oc=5",
+          "source": "Fordaq",
+          "date": "2026-10-12T06:02:29.000Z"
+        },
         {
           "title": "NAFTA Panel Sends Nothing Back in Canada's Lumber Subsidy Challenge",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hWnpSYktieE9pQ3E3WW1ET2FxNVhGeXpmMG9aUXZQUmJOeE5ZR0h0OU1ad3g2eTFGMlVhWG04NXY4U3RPUDFteDVMNThySkd1dGpXSlY2ZlBNaWppanVBTW5PV0c4UQ?oc=5",
@@ -2559,16 +2571,16 @@
           "date": "2026-10-10T06:04:55.000Z"
         },
         {
-          "title": "Wood Fiber Insulation Deal Might Change The Case For Investing In Weyerhaeuser (WY)",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeXVxdkNTYlZ6djNQMEVjbWEyRDl4b2F0SDczV1piRFJEeWREM1QzYmtlSzBLcUIzM0x4SmJ2SGZxTG1HeUhYcWl3V3VOdlpsVV9kaHJTVlAySXFpSkR1b2stY1h3MGhNUkVJMmRrcFpIWUdTTjh2S2U4VU83a082cVNkR2NBYmExSG5zSUNoaFZkd01YU0s5d09oemZ5LUEwSXFrc095TTlERTZ3WnRSSGx5c3dBeDhSQ1hvbmZPc3hqVks0eURERDlTSS1LSE3SAc8BQVVfeXFMTXl1cXZDU2JWenYzUDBFY21hMkQ5eG9hdEg3M1daYkRSRHlkRDNUM2JrZUswS3FCMzNMeEpidkhmcUxtR3lIWHFpd1d1TnZabFVfZGhyU1ZQMklxaUpEdW9rLWNYdzBoTVJFSTJka3BaSFlHU044dktlOFVPN2tPNnFTZEdjQWJhMUhuc0lDaGhWZHdNWFNLOXdPaHpmeS1BMElxa3NPeU05REU2d1p0UkhseXN3QXg4UkNYb25mT3N4alZLNHlEREQ5U0ktS0hN?oc=5",
-          "source": "Simply Wall Street",
-          "date": "2026-10-10T02:09:06.000Z"
-        },
-        {
           "title": "TimberHP and Weyerhaeuser Announce Strategic Partnership to Advance Wood-Based Building Solutions",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdzcxb1Z6aHA1M2tfTjN4SUxzQndwQlBVV1pkbjJvMzZfcWRuOW1EdHlBV25scko4RWxod3lJUFJLNENSam42UWRDN3ZrYjJXcnVrcFF1UXhORzFsdVFONFNIZ2JFVmUxblR2TGJ5LWtMcTRXZVFIYXllLTNxamd6aERQYmtnYWZYZjlQWmRSbFFTSzYyMTlXQy0yVzJ5R1JEaGotWmNJT3pFck1WaEwyU3JtZXZQR19Wd0FDTW4yQ0lGb3Z1UVRDa2FidWdINDdmZ2ZxUnpHSmNUNkU?oc=5",
           "source": "Red Book Lumber Data",
           "date": "2026-10-09T21:03:58.000Z"
+        },
+        {
+          "title": "Madison\u2019s Lumber Prices Index Oct 09, 2026: US$500 mfbm",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zOXRreG50c01zclZfMzFiTWlHb19QRmNYRlFrTHU5QUtuSEpEdF9aZEo1T0tqMTB1bUZjQzFwQjBrMlVCLUd2aXFET0d0cmlKcjR1TXpR?oc=5",
+          "source": "Red Book Lumber Data",
+          "date": "2026-10-09T21:03:55.000Z"
         },
         {
           "title": "Health clinic gathers data for Weyerhaeuser mill toxic fume claims",
@@ -2634,6 +2646,12 @@
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV29wb1FvVUtBWng0dS0zU21YZ0NVYkNsTEZsMEU3Qk5kaElfMlFrNmRnbDdBQ0ZlVUJsOThHWTJvV1pSMUNmdkdDZ200WmNuUWJaQW9DWGRXUWJ1ZjJla0c1UGR5TWlXQ0Iyc3JaeVdrMUFPVWN0dXJ0czZIbE5iODV5dHlBU00zUGJaem9rcWpycjFnYk1zMHp3d3oyQXlpalNIQktuTFRQZUVfaGpBUHRKX2IzT2xaV1RnTQ?oc=5",
           "source": "Stock Titan",
           "date": "2026-10-08T21:10:24.000Z"
+        },
+        {
+          "title": "Louisiana-Pacific Corporation (LPX) Is a Trending Stock: Facts to Know Before Betting on It",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSEw0M3doYlIwcmVwekNhOUFJZzhFa0oxUEQ3azJRRVo5bDVzTDg3T3RDWEhyUy13amZtUWNfMERUTEhPWWJxajZRNHVHUmFJa2NVQmZoaE5EY0xzMVlvYVYwQWtsbzl6REtzeW9qcWFZZVR0QkVYZWliZVRKVHpCYnVUMzZtRW1IVGtrN213RUNrbUZZY0lmQVlmMFR2bTFrU2VnSEpSN1F0MW8?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-10-08T12:00:04.000Z"
         },
         {
           "title": "Bearlodge Forest Products to Close Hulett, WY, Operations",
@@ -2717,24 +2735,6 @@
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxb3BaRldHWmxhMWpSeWd6OE83SkgzbWhuRmY4UXZ1RENkQ09Oc0w2NHBobDRTZEhUcUxNRnFwbDFZWGIzSTdNWDd3SnNGQXVpcUlQYVJKejZuUQ?oc=5",
           "source": "Yahoo Finance UK",
           "date": "2026-09-30T08:36:52.000Z"
-        },
-        {
-          "title": "Some Lumber Prices Slip Into September",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZcmxFLWEtX0J0eU5ydl82aDdvTFFMQTR2MHBSRXI4aUFzSUFPbHg5N0phQURvRDhqU3ZOaUsyTFBfV3hqanNqT0hGYjhxcklHS19iYXNOVWZhUjFWa2dxZHQzLVZqaERCVXl0OG1MMEVTYUxTc3c?oc=5",
-          "source": "Wood Business",
-          "date": "2026-09-29T22:43:24.000Z"
-        },
-        {
-          "title": "Interfor Corporation (TSX:IFP) Gains Momentum as Lumber Market Recovery and Forestry Sector Optimism Support Investor Interest",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdk1DNl9ZQzBuWk1JM0ZTbmhkV0dGTS1YQ1J1VFZNcVBfOTNhWEhOWmxSOWNtR3JXQjZMSGJGZ1dTWDNON1NOWWtzd2xfNnZTTEJpU05KTXRMOXJWelNxNFViR2kzWFZ3SGNnd3Z0OWhVaFpxbFhfem1SMnJJMzFERUtKMG9jRDY2TEZ1cVQ1d2FPLXQ5U1JVcjJOdFNBNWFGNUNXUW5KUWVDT1dsVU1DenVqWXo2QnJRNjRHOVNYdVpqRDN3QkM5RndxYXJRNmdMWVNlcUhkeEdudElNb1J5NTlPMF9zNV9SSEJUUVd4aGw?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-09-29T07:00:00.000Z"
-        },
-        {
-          "title": "Trustees Seek Public Comment on Plan to Restore Lower Roanoke River Resources",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWjJIanF3MnhyYUFFaW5DalVkeEhHMjAwZV8tWHFGY3FfdVR5R0IyTy1rVzZVaDBUcW9EeXM2UUFZMGk5bkl6cXlwOU8xTzBaQ1B5NzFyR0M4OXNPT2JUbF8xaWhpVWo1WW9RallPc2xBY2EwT2pYeTNmX3AzNWNTX0o3VFFEX0paU3FwNnZiV25HYWxhdm9RTVl2UFAwa1FCUERvb1JZTldQVDVvRGhv?oc=5",
-          "source": "NOAA (.gov)",
-          "date": "2026-09-28T07:00:00.000Z"
         }
       ]
     },
