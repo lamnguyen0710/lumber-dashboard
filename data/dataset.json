@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-12",
+    "lastUpdated": "2026-10-13",
     "dataThrough": "2025Q2",
     "isPlaceholder": true,
     "live": {
@@ -674,7 +674,7 @@
         },
         {
           "period": "2026-10",
-          "framing_composite": 538
+          "framing_composite": 539
         }
       ]
     },
@@ -2544,8 +2544,73 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-10-12T14:12:39.771Z",
+      "fetchedAt": "2026-10-13T00:03:37.915Z",
       "items": [
+        {
+          "title": "US Remodeling Market Sentiment Holds Steady in Q3 Despite Ongoing Headwinds",
+          "url": "https://getfea.com/end-use/us-remodeling-market-sentiment-holds-steady-in-q3-despite-ongoing-headwinds",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-12T23:33:23.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Bureau of Land Management Reports $29.8 Million in Q3 Timber Sales Revenue",
+          "url": "https://getfea.com/timber/us-bureau-of-land-management-reports-29-8-million-in-q3-timber-sales-revenue",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-12T23:30:16.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Wood Pellet Exports Decline in August",
+          "url": "https://getfea.com/international-markets/us-wood-pellet-exports-decline-month-over-month-but-rise-year-over-year-in-august",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-12T23:27:23.000Z",
+          "focus": true
+        },
+        {
+          "title": "University of Michigan Releases Preliminary Results of Its Consumer Sentiment Index for October",
+          "url": "https://getfea.com/end-use/university-of-michigan-releases-preliminary-results-of-its-consumer-sentiment-index-for-october-2",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-12T23:25:05.000Z",
+          "focus": true
+        },
+        {
+          "title": "Is West Fraser (TSX:WFG) Built to Survive Higher Lumber Tariffs?",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGNRUURuSXNQVE9PNExnYWN4MnQzS3AzZUFKOHNJekV2NmFMeTlCMXFJX1NZZ1VhbzlPOG5UbV9IRmQwbFZPNGNnVWFDVjNWYVFFaXhpOHZEY0tkWUlFQ2dacGdWOThod2VwRnkzZzJNRU1mbnpSaHZwMTBYZnB5cGN6OEwyUWtHZ19WUUdMQURKbWhxU0Vtd0h1Z2lJbVQ4aFV3?oc=5",
+          "source": "Kalkine Media",
+          "date": "2026-10-12T23:23:00.000Z"
+        },
+        {
+          "title": "Canadian Employment Falls by 68,000 in September; Unemployment at 6.5%",
+          "url": "https://getfea.com/end-use/canadian-employment-falls-by-68000-in-september-unemployment-at-6-5",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-12T23:22:59.000Z",
+          "focus": true
+        },
+        {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLWF2S2d5UnR5TnQ5aWM3Ql94MWg5NUREd2pGRThvR1ZKSTQwOF8xdThxUTFFaVpHYnVkREFzV0M1T3RCRXItMkNqUy1USHd0bDZvWXpnRG1maUJTZzFYMHZNSXdGUnhaeGRpa08ydjl3VXJ4bzNqZXNhN18ydF9FdWxweVRkLVdjUmt5eWpkVVBGTy1hZVpQSlVyWkNRYmZFODItQ0lwR2JRR2c?oc=5",
+          "source": "WFMZ.com",
+          "date": "2026-10-12T20:05:12.000Z"
+        },
+        {
+          "title": "Can Higher Lumber Prices Rescue Goodfellow (TSX:GDL) From Trade Pressure?",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOekYwTFI3bnZqNnlUeXJVSkUySE1Cbmt6Q09wY0dEeGJYbjhEMnE4Qzc2UnNsUWpNdG95MDRmcEJxZ1ZJU0c2UEt1Z1pxakQ1SWE2dnZCSTFyVHhVQ3VZdHNKZmQ0eGwxbGJzOWpNR1IwVHI0WXZhMXFGQjRaZHNneGNHZGJWa2x6V19nSFRCRFg1b085dC1QanNuVV9CcWdSZjB0a25QSkVqTnI2T0ZR?oc=5",
+          "source": "Kalkine Media",
+          "date": "2026-10-12T20:01:00.000Z"
+        },
+        {
+          "title": "Will West Fraser Timber\u2019s Third-Quarter Results Reveal a Lumber Market Turning Point? (TSX:WFG)",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbU9XcjJlM2dBeTVGZ3RVU3VBQTlGeTZGU29EaUVOVlJlMHZXZUFjN00yUE5YbFk1S1otX3lla2RVYzZMMjBUMzJmU0s5amVtTzdieXJabENVcmo2M1pkdk5nZDFuMFBBQTlmelhvS2h6T0kydXBwNWVyZ01ScnNVa1NETVRtdW1nYk9SbWJqakxoVU5wYTF1MzhsNDNaTDdGR1MzUXBpUGplbkg0bHZoU2NzOFJWVkVaXzZqX1lLYWRLbnpf?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-10-12T15:16:00.000Z"
+        },
+        {
+          "title": "Can West Fraser Timber Navigate Lumber Volatility in Its Next Quarterly Update? (TSX:WFG)",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVl95RzgyMllFNkZQcG9LamtkSmM3cTRJMGx0eGowejVra21ucWtYLVhLSWt4MkZ6T2lWNzQxYkdldnE2bVdKYXBtN29RUUhWSFFNcTFTcHpTUmNrMF82Tmt2Y2VBRFh5eEJUbVRma0gzTW5SUHU2dEpERmpTUl9ULW1HVVZmNWp3R010UW9YcjRGamIzMm82dDhuY2I5cUo2OTNHY3RoemEzSGpPYnptUFgwblhDQWlzS1lPcVJn?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-10-12T15:16:00.000Z"
+        },
         {
           "title": "CME lumber futures end week at $533, up 1.2%",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZXdJRGRkaXBWMlZzd0hEamhfZDg2SjFpcUFkY2xHVm9qbXBfMXJlejFTbHZiMHgwSHNkU3NackVXTDZxRW1TM05mUkJsNkQyWEpOZDVnREtNTmlSczFCVW83MXV2Wkc3c05aVlRoQ2VmN1RlaDRDYWVrM0JpQVNkR24xS3RWT204?oc=5",
@@ -2601,12 +2666,6 @@
           "date": "2026-10-09T18:32:33.000Z"
         },
         {
-          "title": "BC-Lumber Futures",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWGJwTG1GOVhfd3o1SXBDWVRBNmszT1FsS2taNnVvWlZva3pFSDZqMmVWdjZlQmo1UldUUFNCTE1aamdsMTlTbmpkb3MwT3lFSHVueE1YODZKMEpYcjVIR0poNGVwNW5iNFZFcFFjM0dzSTJTV2ZFcW5jLUZET0hJdEdIaEpZQTdCY0ZqMFd6aGVXZ2RHVUd0bHRnMHVkYXpoOG5MS18xbklJNTA?oc=5",
-          "source": "WFMZ.com",
-          "date": "2026-10-09T14:42:22.000Z"
-        },
-        {
           "title": "US Mortgage Rates Rise for Seventh Consecutive Week",
           "url": "https://getfea.com/end-use/us-mortgage-rates-rise-for-seventh-consecutive-week",
           "source": "Forest Economic Advisors",
@@ -2648,45 +2707,16 @@
           "date": "2026-10-08T21:10:24.000Z"
         },
         {
+          "title": "Louisiana-Pacific Q3 2026 Earnings Date and Estimates",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRXZYSTFDaC1TMFdDc0pWdkprY1pWLXVFMGlpQ2Y0cEMwN1J6cDJOc3NRZGIyTXlETW81UHNzdnhMMDA5TWJUM2lQeFh0alJKYXQyd0tadUJNLTIyQzQyOUFhcHZ2QUhrbzIxQTJxTGxQSUwwR1dpVXVlVW5LRWxONjNUTDJDelZW?oc=5",
+          "source": "MarketBeat",
+          "date": "2026-10-08T12:45:32.000Z"
+        },
+        {
           "title": "Louisiana-Pacific Corporation (LPX) Is a Trending Stock: Facts to Know Before Betting on It",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSEw0M3doYlIwcmVwekNhOUFJZzhFa0oxUEQ3azJRRVo5bDVzTDg3T3RDWEhyUy13amZtUWNfMERUTEhPWWJxajZRNHVHUmFJa2NVQmZoaE5EY0xzMVlvYVYwQWtsbzl6REtzeW9qcWFZZVR0QkVYZWliZVRKVHpCYnVUMzZtRW1IVGtrN213RUNrbUZZY0lmQVlmMFR2bTFrU2VnSEpSN1F0MW8?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-10-08T12:00:04.000Z"
-        },
-        {
-          "title": "Bearlodge Forest Products to Close Hulett, WY, Operations",
-          "url": "https://getfea.com/mill-capacity-changes/bearlodge-forest-products-to-close-hulett-wy-operations",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-08T00:05:26.000Z",
-          "focus": true
-        },
-        {
-          "title": "Rayonier Advanced Materials Begins Construction on Altamaha Green Energy Biomass Project",
-          "url": "https://getfea.com/timber/rayonier-advanced-materials-begins-construction-on-altamaha-green-energy-biomass-project",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-07T23:40:27.000Z",
-          "focus": true
-        },
-        {
-          "title": "Northwest Territories Completes One of Its Largest Tree Planting Projects",
-          "url": "https://getfea.com/timber/northwest-territories-completes-one-of-its-largest-tree-planting-projects",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-07T23:35:27.000Z",
-          "focus": true
-        },
-        {
-          "title": "CPKC Reaches Tentative Five-Year Agreement With BLET",
-          "url": "https://getfea.com/transportation/cpkc-reaches-tentative-five-year-agreement-with-blet",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-07T23:30:20.000Z",
-          "focus": true
-        },
-        {
-          "title": "US Mortgage Applications Fall in the Week Ending October 2",
-          "url": "https://getfea.com/end-use/us-mortgage-applications-fall-in-the-week-ending-october-2",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-07T23:24:12.000Z",
-          "focus": true
         },
         {
           "title": "Interfor Stock Slides Under Pressure as Lumber Volatility and Tariff Risks Weigh on Sentiment",
@@ -2705,36 +2735,6 @@
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTVRhTWU4NVBwNUlHaHVMdjhrQmlrT21fOTI4eVkxeG1DdmlHUFlqMlZscnlWQ0ttUW9RTVNwbVhMT3dZRkxvM210U0g3cnA1c1M3VXVpSjAtckNzSm9JOXI4UHVEbl84YlNlV2dEMDJPSHdqYzV1VE5tdDMxckllUFF6Sjd1bDVBcFppc3RTRHBzekpoRlJLYW9mdm51X1FwU1RR?oc=5",
           "source": "Lesprom Network",
           "date": "2026-10-07T15:13:53.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Stock Looks Reasonable Despite Its 37% Slide",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MbnFaSkRheU1FN2FhZ0tuc1FXbnZJR1BYQWVyNVp6WlVhVnFva01qOTBMZy13UDhvMjdsTlFHZFJSeW1tOUY0UmY1U1BsQy1CdUFjOXBEYXM?oc=5",
-          "source": "Webull",
-          "date": "2026-10-06T15:30:35.000Z"
-        },
-        {
-          "title": "Interfor Revenue per Employee Puts Lumber Margin Recovery and Capital Discipline in Focus",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNX1pDalFLaGJfSU5ROXMwZHdnQ21XVWRZbnVDYXBmNktYMVZFbGQyYnBBb2xkUm0tRjNYbVRnZUlzQ29NZDJ4UUtVZFcwX213b21yNmpnVGpEYUp4dUpVZlpJV0FfZXN3UkdKbHIzcU1pUWU1WTJwS2ltMDlXSW5WdXdxSS1JcHJoVktLUURjb1VWZlJhdl8tdzQ0UlBIcEdlVVJjUjhhQVRwZnIwZS1hNmRCRzJYRF9KY1JNMkxQQ1lEdk0?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-10-05T13:23:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser: The Stock Prices Its Forest Below What Buyers Pay For The Acres (NYSE:WY)",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMlQwdEdPNXdnU21LY3RkZE9mYlJaZm5FRlVXNXQ0ZjE0UzNSRjVDQUl4eU1sRElPR21BU0MwN0tiZERUUW93anA3dDdOdDRrRVRSRVY1QTUtaGV4QzZmd3d0TEY0RHlwcmFGVVlUVzEtSEhjM05mXzA4VnFYSzdjUmlhSXZMLTR4aFBlQXNjakJVQ0M3TDVTRHRXMm5EenY5NDJ2WWIxam9VMzA0dXp3ZUF5d1hEUm0t?oc=5",
-          "source": "Seeking Alpha",
-          "date": "2026-10-05T13:12:43.000Z"
-        },
-        {
-          "title": "Madison's Lumber Prices Index now live on LSEG.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNamo3S2c4cFpnN0dqNjVIdnNsTVctRlpKcV9VQTkzSy1VaFRiT0JZNEh3TG9hclN2R3FUZDJ0ZGFvaGJ1YS1tQmV4Qm1YeXEtdlRvVkNINExXaXIySThVYS1nWm5LOFRxSUNKLXdvTkMyX1Y5c2dOU210S1kxQWxaWTNUZWxGQWJ0Z2wyMmx6aW41MXphWDRkQjh2RHZvb1ItZVNVRg?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-10-02T11:00:00.000Z"
-        },
-        {
-          "title": "Lumber Futures,Nov-2026 (LBRX26.CME) stock price, news, quote and history",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxb3BaRldHWmxhMWpSeWd6OE83SkgzbWhuRmY4UXZ1RENkQ09Oc0w2NHBobDRTZEhUcUxNRnFwbDFZWGIzSTdNWDd3SnNGQXVpcUlQYVJKejZuUQ?oc=5",
-          "source": "Yahoo Finance UK",
-          "date": "2026-09-30T08:36:52.000Z"
         }
       ]
     },
@@ -7049,21 +7049,21 @@
         "series": [
           {
             "period": "2026-10",
-            "mean": 842397,
+            "mean": 842398,
             "lo": 750470,
-            "hi": 945584
+            "hi": 945586
           },
           {
             "period": "2026-11",
-            "mean": 756276,
+            "mean": 756278,
             "lo": 668014,
-            "hi": 856199
+            "hi": 856203
           },
           {
             "period": "2026-12",
-            "mean": 653119,
-            "lo": 572304,
-            "hi": 745347
+            "mean": 653120,
+            "lo": 572302,
+            "hi": 745351
           }
         ]
       }
@@ -11257,7 +11257,7 @@
     ]
   },
   "mills": {
-    "asOf": "2026-10-12",
+    "asOf": "2026-10-13",
     "count": 368,
     "live": {
       "BC": 115,
@@ -16069,11 +16069,11 @@
     ]
   },
   "fires": {
-    "asOf": "2026-10-12T03:55:51.660Z",
+    "asOf": "2026-10-13T00:03:40.901Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
-    "total": 213,
-    "count": 213,
+    "total": 151,
+    "count": 151,
     "capped": false,
     "fields": [
       "lat",
@@ -16083,1280 +16083,908 @@
     ],
     "points": [
       [
-        55.307,
-        -126.371,
-        92,
+        44.032,
+        -89.768,
+        105,
         0
       ],
       [
-        51.291,
-        -119.85,
-        70,
-        1
-      ],
-      [
-        51.292,
-        -119.843,
-        70,
-        0
-      ],
-      [
-        55.303,
-        -126.369,
-        67,
-        0
-      ],
-      [
-        49.412,
-        -118.722,
-        57,
-        0
-      ],
-      [
-        51.292,
-        -119.855,
-        53,
-        0
-      ],
-      [
-        55.42,
-        -126.378,
-        46,
-        0
-      ],
-      [
-        55.584,
-        -126.634,
-        40,
-        0
-      ],
-      [
-        54.842,
-        -126.682,
-        36,
-        0
-      ],
-      [
-        55.228,
-        -123.855,
-        34,
-        0
-      ],
-      [
-        55.228,
-        -123.847,
-        34,
-        0
-      ],
-      [
-        55.585,
-        -126.628,
-        31,
-        0
-      ],
-      [
-        55.586,
-        -126.622,
-        31,
-        0
-      ],
-      [
-        54.843,
-        -126.69,
-        31,
-        0
-      ],
-      [
-        55.304,
-        -126.375,
-        30,
-        0
-      ],
-      [
-        55.244,
-        -125.266,
-        30,
-        0
-      ],
-      [
-        55.245,
-        -125.259,
-        30,
-        0
-      ],
-      [
-        55.247,
-        -125.268,
-        30,
-        0
-      ],
-      [
-        51.931,
-        -119.653,
-        26,
-        0
-      ],
-      [
-        51.927,
-        -119.657,
-        26,
-        0
-      ],
-      [
-        55.305,
-        -126.376,
-        26,
-        0
-      ],
-      [
-        42.664,
-        -93.135,
-        25,
-        0
-      ],
-      [
-        42.667,
-        -93.136,
-        25,
-        0
-      ],
-      [
-        54.848,
-        -126.688,
-        25,
-        0
-      ],
-      [
-        43.198,
-        -123.259,
-        22,
-        1
-      ],
-      [
-        55.583,
-        -126.601,
-        22,
-        0
-      ],
-      [
-        55.584,
-        -126.595,
-        22,
-        0
-      ],
-      [
-        55.586,
-        -126.602,
-        22,
-        0
-      ],
-      [
-        55.585,
-        -126.617,
-        21,
-        0
-      ],
-      [
-        55.585,
-        -126.611,
-        21,
-        0
-      ],
-      [
-        55.42,
-        -126.391,
-        20,
-        0
-      ],
-      [
-        55.426,
-        -126.392,
-        20,
-        0
-      ],
-      [
-        55.266,
-        -125.301,
-        20,
-        0
-      ],
-      [
-        55.267,
-        -125.295,
-        20,
-        0
-      ],
-      [
-        55.305,
-        -126.362,
-        19,
-        0
-      ],
-      [
-        46.595,
-        -87.627,
-        19,
-        0
-      ],
-      [
-        55.258,
-        -125.236,
-        19,
-        0
-      ],
-      [
-        51.439,
-        -117.139,
-        18,
-        0
-      ],
-      [
-        44.243,
-        -117.512,
-        18,
-        0
-      ],
-      [
-        44.038,
+        44.035,
         -89.776,
+        105,
+        0
+      ],
+      [
+        42.202,
+        -121.367,
+        84,
+        0
+      ],
+      [
+        49.571,
+        -118.665,
+        43,
+        1
+      ],
+      [
+        49.573,
+        -118.664,
+        33,
+        0
+      ],
+      [
+        49.576,
+        -118.666,
+        28,
+        0
+      ],
+      [
+        50.822,
+        -119.314,
+        28,
+        0
+      ],
+      [
+        55.227,
+        -123.899,
         17,
         0
       ],
       [
-        44.039,
-        -89.77,
+        51.466,
+        -119.029,
         17,
         0
       ],
       [
-        51.441,
-        -117.146,
+        51.468,
+        -119.035,
         17,
         0
       ],
       [
-        55.588,
-        -126.61,
-        16,
-        0
-      ],
-      [
-        55.188,
-        -123.874,
-        16,
-        0
-      ],
-      [
-        41.637,
-        -87.127,
-        16,
-        0
-      ],
-      [
-        51.481,
-        -118.976,
+        50.822,
+        -119.317,
         15,
         0
       ],
       [
-        55.259,
-        -125.234,
-        15,
-        0
-      ],
-      [
-        55.584,
-        -126.637,
-        15,
-        0
-      ],
-      [
-        43.893,
-        -94.35,
-        14,
-        0
-      ],
-      [
-        51.405,
-        -119.278,
+        51.471,
+        -119.024,
         13,
         0
       ],
       [
-        43.897,
-        -94.351,
-        13,
+        51.862,
+        -119.665,
+        12,
         0
       ],
       [
-        55.249,
-        -125.255,
+        51.867,
+        -119.663,
+        12,
+        0
+      ],
+      [
+        55.227,
+        -123.868,
         11,
         0
       ],
       [
-        46.632,
-        -88.167,
-        10,
-        0
-      ],
-      [
-        46.636,
-        -88.174,
-        10,
-        0
-      ],
-      [
-        46.597,
-        -87.619,
-        10,
-        0
-      ],
-      [
-        41.617,
-        -87.329,
-        9,
-        0
-      ],
-      [
-        55.319,
-        -126.37,
-        9,
-        0
-      ],
-      [
-        41.681,
-        -87.424,
-        9,
-        0
-      ],
-      [
-        51.442,
-        -117.156,
-        9,
-        0
-      ],
-      [
-        46.631,
-        -88.179,
+        44.028,
+        -87.851,
         8,
         0
       ],
       [
-        54.845,
-        -126.681,
+        41.678,
+        -87.433,
         8,
         0
       ],
       [
-        41.64,
-        -87.139,
+        55.227,
+        -123.88,
         8,
         0
       ],
       [
-        56.147,
-        -120.667,
+        55.226,
+        -123.909,
         8,
         0
       ],
       [
-        46.632,
-        -88.162,
+        41.636,
+        -87.129,
         8,
         0
       ],
       [
-        51.48,
-        -118.99,
+        51.289,
+        -119.852,
+        8,
+        0
+      ],
+      [
+        41.462,
+        -81.672,
         7,
         0
       ],
       [
-        55.264,
-        -125.293,
+        51.867,
+        -119.673,
         7,
         0
       ],
       [
-        41.349,
-        -123.866,
+        46.617,
+        -118.13,
         7,
         0
       ],
       [
-        42.31,
-        -94.551,
+        51.465,
+        -119.037,
         7,
         0
       ],
       [
-        41.347,
-        -123.857,
-        7,
-        0
-      ],
-      [
-        51.404,
-        -119.28,
-        7,
-        0
-      ],
-      [
-        44.036,
-        -89.763,
-        7,
-        0
-      ],
-      [
-        46.589,
-        -87.622,
+        41.564,
+        -84.047,
         6,
         0
       ],
       [
-        51.445,
-        -117.157,
+        47.359,
+        -120.263,
         6,
         0
       ],
       [
-        46.636,
-        -88.177,
+        41.45,
+        -81.675,
         6,
         0
       ],
       [
-        51.771,
-        -120.212,
+        51.154,
+        -119.759,
         6,
-        0
-      ],
-      [
-        41.347,
-        -123.855,
-        6,
-        0
-      ],
-      [
-        46.595,
-        -87.629,
-        6,
-        0
-      ],
-      [
-        54.589,
-        -126.081,
-        6,
-        0
-      ],
-      [
-        41.586,
-        -98.754,
-        6,
-        0
-      ],
-      [
-        48.371,
-        -120.796,
-        6,
-        0
-      ],
-      [
-        56.143,
-        -120.676,
-        5,
-        0
-      ],
-      [
-        54.592,
-        -126.091,
-        5,
-        0
-      ],
-      [
-        54.592,
-        -126.099,
-        5,
-        0
-      ],
-      [
-        48.251,
-        -79.024,
-        5,
-        0
-      ],
-      [
-        41.67,
-        -87.453,
-        5,
-        0
-      ],
-      [
-        46.596,
-        -87.615,
-        5,
-        0
-      ],
-      [
-        56.908,
-        -121.136,
-        5,
-        0
-      ],
-      [
-        46.426,
-        -89.923,
-        5,
-        0
-      ],
-      [
-        55.478,
-        -124.773,
-        5,
-        0
-      ],
-      [
-        46.428,
-        -89.925,
-        5,
-        0
-      ],
-      [
-        46.424,
-        -89.925,
-        5,
-        0
-      ],
-      [
-        41.634,
-        -87.134,
-        5,
-        0
-      ],
-      [
-        41.18,
-        -87.858,
-        5,
-        0
-      ],
-      [
-        54.351,
-        -126.693,
-        4,
-        0
-      ],
-      [
-        41.481,
-        -90.831,
-        4,
-        0
-      ],
-      [
-        56.91,
-        -121.13,
-        4,
-        0
-      ],
-      [
-        46.424,
-        -89.925,
-        4,
-        0
-      ],
-      [
-        46.487,
-        -81.031,
-        4,
-        0
-      ],
-      [
-        43.258,
-        -87.911,
-        4,
         0
       ],
       [
         47.569,
-        -79.733,
+        -122.368,
+        6,
+        0
+      ],
+      [
+        50.814,
+        -119.317,
+        6,
+        0
+      ],
+      [
+        55.232,
+        -123.891,
+        5,
+        0
+      ],
+      [
+        43.516,
+        -109.602,
+        5,
+        0
+      ],
+      [
+        41.566,
+        -84.045,
+        5,
+        0
+      ],
+      [
+        41.618,
+        -87.331,
+        5,
+        0
+      ],
+      [
+        41.569,
+        -84.045,
+        5,
+        0
+      ],
+      [
+        41.642,
+        -87.136,
+        5,
+        0
+      ],
+      [
+        47.358,
+        -120.27,
+        5,
+        0
+      ],
+      [
+        41.57,
+        -84.055,
+        5,
+        0
+      ],
+      [
+        41.451,
+        -81.674,
+        5,
+        0
+      ],
+      [
+        48.667,
+        -114.951,
         4,
         0
       ],
       [
-        41.612,
-        -87.329,
+        46.61,
+        -118.138,
         4,
         0
       ],
       [
-        43.946,
-        -93.519,
+        41.479,
+        -90.83,
         4,
         0
       ],
       [
-        41.671,
-        -87.463,
+        41.68,
+        -87.418,
         4,
         0
       ],
       [
-        46.683,
-        -92.336,
+        52.729,
+        -114.313,
         4,
         0
       ],
       [
-        54.589,
-        -126.074,
+        51.291,
+        -119.859,
         4,
         0
       ],
       [
-        54.533,
-        -118.356,
+        51.148,
+        -119.754,
         4,
         0
       ],
       [
-        41.581,
-        -98.751,
+        45.072,
+        -83.407,
         4,
         0
       ],
       [
-        55.478,
-        -124.784,
+        47.341,
+        -120.284,
         4,
         0
       ],
       [
-        54.349,
-        -126.698,
+        49.373,
+        -118.645,
+        4,
+        0
+      ],
+      [
+        49.375,
+        -118.651,
+        4,
+        0
+      ],
+      [
+        41.641,
+        -87.409,
+        4,
+        0
+      ],
+      [
+        41.674,
+        -87.435,
+        4,
+        0
+      ],
+      [
+        41.613,
+        -87.331,
+        4,
+        0
+      ],
+      [
+        46.612,
+        -118.133,
+        4,
+        0
+      ],
+      [
+        44.465,
+        -80.671,
+        4,
+        0
+      ],
+      [
+        51.478,
+        -118.986,
+        4,
+        0
+      ],
+      [
+        57.004,
+        -111.478,
+        4,
+        0
+      ],
+      [
+        50.318,
+        -113.852,
+        4,
+        0
+      ],
+      [
+        44.763,
+        -93.856,
         3,
         0
       ],
       [
-        54.592,
-        -126.106,
+        51.148,
+        -119.743,
         3,
         0
       ],
       [
-        55.305,
-        -125.023,
+        41.616,
+        -87.325,
+        3,
+        0
+      ],
+      [
+        51.443,
+        -117.144,
+        3,
+        0
+      ],
+      [
+        49.369,
+        -118.648,
+        3,
+        0
+      ],
+      [
+        51.452,
+        -119.013,
+        3,
+        0
+      ],
+      [
+        41.685,
+        -87.425,
+        3,
+        0
+      ],
+      [
+        43.938,
+        -93.111,
+        3,
+        0
+      ],
+      [
+        48.358,
+        -120.861,
         3,
         0
       ],
       [
         57.042,
+        -111.633,
+        3,
+        0
+      ],
+      [
+        46.618,
+        -118.125,
+        3,
+        0
+      ],
+      [
+        44.083,
+        -122.914,
+        3,
+        0
+      ],
+      [
+        51.482,
+        -118.978,
+        3,
+        0
+      ],
+      [
+        41.621,
+        -87.347,
+        3,
+        0
+      ],
+      [
+        48.359,
+        -120.865,
+        3,
+        0
+      ],
+      [
+        51.798,
+        -120.186,
+        3,
+        0
+      ],
+      [
+        48.353,
+        -120.86,
+        3,
+        0
+      ],
+      [
+        55.235,
+        -123.85,
+        3,
+        0
+      ],
+      [
+        41.665,
+        -87.428,
+        3,
+        0
+      ],
+      [
+        41.672,
+        -87.45,
+        3,
+        0
+      ],
+      [
+        51.155,
+        -119.759,
+        3,
+        0
+      ],
+      [
+        51.442,
+        -117.158,
+        3,
+        0
+      ],
+      [
+        51.48,
+        -118.972,
+        2,
+        0
+      ],
+      [
+        49.377,
+        -118.644,
+        2,
+        0
+      ],
+      [
+        46.572,
+        -118.964,
+        2,
+        0
+      ],
+      [
+        57.042,
         -111.637,
-        3,
-        0
-      ],
-      [
-        46.338,
-        -84.44,
-        3,
-        0
-      ],
-      [
-        42.646,
-        -122.983,
-        3,
-        0
-      ],
-      [
-        41.676,
-        -87.431,
-        3,
-        0
-      ],
-      [
-        54.531,
-        -118.355,
-        3,
-        0
-      ],
-      [
-        54.595,
-        -126.088,
-        3,
-        0
-      ],
-      [
-        45.747,
-        -118.481,
-        3,
-        0
-      ],
-      [
-        55.163,
-        -126.797,
-        3,
-        0
-      ],
-      [
-        41.785,
-        -103.397,
-        3,
-        0
-      ],
-      [
-        54.595,
-        -126.102,
-        3,
-        0
-      ],
-      [
-        54.351,
-        -126.708,
-        3,
-        0
-      ],
-      [
-        46.683,
-        -92.334,
-        3,
-        0
-      ],
-      [
-        46.686,
-        -92.342,
-        3,
-        0
-      ],
-      [
-        45.071,
-        -83.403,
-        3,
-        0
-      ],
-      [
-        54.347,
-        -126.684,
-        3,
-        0
-      ],
-      [
-        55.167,
-        -126.793,
         2,
         0
       ],
       [
-        48.886,
-        -122.738,
+        41.615,
+        -87.349,
         2,
         0
       ],
       [
-        55.181,
-        -126.793,
+        41.622,
+        -87.34,
         2,
         0
       ],
       [
-        55.187,
-        -126.791,
+        41.182,
+        -87.858,
         2,
         0
       ],
       [
-        41.413,
-        -88.183,
+        51.772,
+        -120.212,
         2,
         0
       ],
       [
-        55.475,
-        -124.771,
+        41.626,
+        -87.371,
         2,
         0
       ],
       [
-        41.639,
-        -87.407,
+        54.995,
+        -118.656,
         2,
         0
       ],
       [
-        54.58,
-        -126.048,
+        44.946,
+        -85.606,
         2,
         0
       ],
       [
-        54.586,
-        -126.048,
+        41.119,
+        -85.351,
         2,
         0
       ],
       [
-        41.786,
-        -103.395,
+        49.416,
+        -118.724,
         2,
         0
       ],
       [
-        45.073,
-        -83.408,
+        41.672,
+        -87.458,
         2,
         0
       ],
       [
-        48.253,
-        -79.027,
+        49.411,
+        -118.721,
         2,
         0
       ],
       [
-        47.572,
-        -122.37,
+        41.673,
+        -87.465,
         2,
         0
       ],
       [
-        56.905,
-        -121.134,
+        50.056,
+        -110.727,
         2,
         0
       ],
       [
-        61.559,
-        -121.511,
+        51.441,
+        -117.148,
         2,
         0
       ],
       [
-        55.166,
-        -126.796,
+        42.946,
+        -82.416,
         2,
         0
       ],
       [
-        55.162,
-        -126.79,
+        49.567,
+        -117.035,
         2,
         0
       ],
       [
-        54.574,
-        -126.048,
+        51.456,
+        -119.009,
         2,
         0
       ],
       [
-        41.674,
-        -87.433,
+        47.355,
+        -120.266,
         2,
         0
       ],
       [
-        41.646,
-        -88.053,
+        41.466,
+        -83.367,
         2,
         0
       ],
       [
-        51.01,
-        -119.925,
+        45.679,
+        -118.851,
         2,
         0
       ],
       [
-        54.6,
-        -126.452,
+        55.234,
+        -123.841,
         2,
         0
       ],
       [
-        55.479,
-        -124.787,
+        56.808,
+        -121.09,
         2,
         0
       ],
       [
-        54.577,
-        -126.039,
+        45.075,
+        -83.404,
         2,
         0
       ],
       [
-        46.042,
-        -73.141,
+        51.155,
+        -119.755,
         2,
         0
       ],
       [
-        45.745,
-        -118.479,
+        54.503,
+        -118.691,
         2,
         0
       ],
       [
-        51.006,
-        -119.918,
+        57.005,
+        -111.477,
         2,
         0
       ],
       [
-        41.521,
-        -93.114,
+        44.671,
+        -93.594,
         2,
         0
       ],
       [
-        43.474,
-        -94.353,
+        57.041,
+        -111.619,
         2,
         0
       ],
       [
-        54.361,
-        -118.317,
-        1,
-        0
-      ],
-      [
-        42.821,
-        -86,
-        1,
-        0
-      ],
-      [
-        41.482,
-        -90.825,
-        1,
-        0
-      ],
-      [
-        53.919,
-        -125.36,
-        1,
-        0
-      ],
-      [
-        43.702,
-        -88.386,
-        1,
-        0
-      ],
-      [
-        54.093,
-        -124.301,
-        1,
-        0
-      ],
-      [
-        55.185,
-        -126.785,
-        1,
-        0
-      ],
-      [
-        54.574,
-        -126.042,
-        1,
-        0
-      ],
-      [
-        41.413,
-        -88.186,
-        1,
-        0
-      ],
-      [
-        51.005,
-        -119.916,
-        1,
-        0
-      ],
-      [
-        55.184,
-        -126.783,
-        1,
-        0
-      ],
-      [
-        46.428,
-        -89.935,
-        1,
-        0
-      ],
-      [
-        41.595,
-        -87.554,
-        1,
-        0
-      ],
-      [
-        46.731,
-        -92.077,
-        1,
-        0
-      ],
-      [
-        48.356,
-        -57.173,
-        1,
+        46.577,
+        -118.961,
+        2,
         0
       ],
       [
         41.416,
-        -88.185,
+        -88.186,
+        2,
+        0
+      ],
+      [
+        51.463,
+        -119.03,
+        2,
+        0
+      ],
+      [
+        41.627,
+        -87.145,
+        2,
+        0
+      ],
+      [
+        42.281,
+        -83.112,
+        2,
+        0
+      ],
+      [
+        42.967,
+        -81.867,
+        2,
+        0
+      ],
+      [
+        52.713,
+        -114.414,
+        2,
+        0
+      ],
+      [
+        57.049,
+        -111.627,
+        2,
+        0
+      ],
+      [
+        41.665,
+        -87.482,
         1,
         0
       ],
       [
-        61.827,
-        -121.914,
+        41.123,
+        -96.679,
         1,
         0
       ],
       [
-        54.027,
-        -128.682,
+        55.929,
+        -120.904,
         1,
         0
       ],
       [
-        45.317,
+        45.318,
         -85.299,
         1,
         0
       ],
       [
-        46.256,
-        -122.964,
+        54.505,
+        -118.692,
         1,
         0
       ],
       [
-        42.405,
-        -97.373,
+        41.627,
+        -87.143,
         1,
         0
       ],
       [
-        48.883,
-        -122.739,
+        41.482,
+        -90.823,
         1,
         0
       ],
       [
-        61.587,
-        -121.523,
+        46.337,
+        -94.595,
         1,
         0
       ],
       [
-        46.519,
-        -84.381,
+        44.67,
+        -93.578,
         1,
         0
       ],
       [
-        45.303,
-        -74.992,
+        41.005,
+        -96.154,
         1,
         0
       ],
       [
-        46.516,
-        -84.397,
+        49.415,
+        -118.728,
+        1,
+        0
+      ],
+      [
+        55.931,
+        -120.905,
+        1,
+        0
+      ],
+      [
+        48.373,
+        -120.797,
+        1,
+        0
+      ],
+      [
+        41.614,
+        -87.336,
         1,
         0
       ],
       [
         41.37,
-        -91.112,
+        -84.915,
         1,
         0
       ],
       [
-        54.025,
-        -128.686,
+        55.942,
+        -119.811,
         1,
         0
       ],
       [
-        45.838,
-        -73.248,
+        57.053,
+        -111.623,
         1,
         0
       ],
       [
-        42.945,
-        -82.414,
+        52.716,
+        -114.413,
         1,
         0
       ],
       [
-        47.955,
-        -91.945,
+        49.414,
+        -118.707,
         1,
         0
       ],
       [
-        41.006,
-        -96.158,
+        53.542,
+        -113.387,
         1,
         0
       ],
       [
-        44.525,
-        -88.015,
+        41.648,
+        -88.053,
         1,
         0
       ],
       [
-        61.586,
-        -121.529,
+        45.065,
+        -84.825,
         1,
         0
       ],
       [
-        43.474,
-        -94.36,
+        46.045,
+        -73.139,
         1,
         0
       ],
       [
-        41.006,
-        -96.155,
+        46.045,
+        -73.144,
         1,
         0
       ],
       [
-        46.769,
-        -56.154,
+        48.367,
+        -120.859,
         1,
         0
       ],
       [
-        45.113,
-        -73.009,
+        53.202,
+        -124.865,
         1,
         0
       ],
       [
-        44.169,
-        -87.704,
+        42.82,
+        -85.999,
         1,
         0
       ],
       [
-        56.283,
-        -121.774,
+        41.373,
+        -91.116,
         1,
         0
       ],
       [
-        46.253,
-        -122.965,
-        1,
-        0
-      ],
-      [
-        54.602,
-        -126.456,
-        1,
-        0
-      ],
-      [
-        44.853,
-        -93.395,
-        1,
-        0
-      ],
-      [
-        55.301,
-        -119.123,
-        1,
-        0
-      ],
-      [
-        44.849,
-        -93.008,
-        1,
-        0
-      ],
-      [
-        45.305,
-        -74.991,
-        1,
-        0
-      ],
-      [
-        44.475,
-        -78.995,
-        1,
-        0
-      ],
-      [
-        41.369,
-        -91.115,
-        1,
-        0
-      ],
-      [
-        41.329,
-        -89.082,
-        1,
-        0
-      ],
-      [
-        44.54,
-        -117.421,
-        1,
-        0
-      ],
-      [
-        54.024,
-        -128.68,
-        1,
-        0
-      ],
-      [
-        48.887,
-        -122.734,
+        54.483,
+        -117.445,
         0,
         0
       ],
       [
-        43.743,
-        -98.011,
-        0,
-        0
-      ],
-      [
-        44.526,
-        -88.013,
-        0,
-        0
-      ],
-      [
-        44.055,
-        -77.127,
-        0,
-        0
-      ],
-      [
-        45.974,
-        -85.875,
-        0,
-        0
-      ],
-      [
-        43.404,
-        -87.95,
-        0,
-        0
-      ],
-      [
-        45.974,
-        -85.876,
+        43.417,
+        -93.748,
         0,
         0
       ]
