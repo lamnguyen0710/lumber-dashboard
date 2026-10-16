@@ -675,7 +675,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-10",
-          "framing_composite": 538
+          "framing_composite": 531
         }
       ]
     },
@@ -2545,8 +2545,55 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-10-16T15:56:58.775Z",
+      "fetchedAt": "2026-10-16T20:24:53.172Z",
       "items": [
+        {
+          "title": "US Building Material Prices Rise 5.5% Year-Over-Year in September",
+          "url": "https://getfea.com/end-use/us-building-material-prices-rise-5-5-year-over-year-in-september",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-16T19:09:41.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Existing-Home Asking Prices Decline for First Time Since March",
+          "url": "https://getfea.com/end-use/us-existing-home-asking-prices-decline-for-first-time-since-march",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-16T19:01:30.000Z",
+          "focus": true
+        },
+        {
+          "title": "Canadian Housing Starts Rise in September",
+          "url": "https://getfea.com/end-use/canadian-housing-starts-rise-in-september-2",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-16T18:56:48.000Z",
+          "focus": true
+        },
+        {
+          "title": "Canadian Existing-Home Sales Decline in September",
+          "url": "https://getfea.com/end-use/canadian-existing-home-sales-decline-in-september",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-16T18:54:34.000Z",
+          "focus": true
+        },
+        {
+          "title": "New Forests to Acquire AKD Plantation Forestry Assets in Australia",
+          "url": "https://getfea.com/international-markets/new-forests-to-acquire-akd-plantation-forestry-assets-in-australia",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-16T18:51:59.000Z",
+          "focus": true
+        },
+        {
+          "title": "Canfor Corporation (TSX:CFP): Why This Toronto Stock Exchange Stock Is Drawing Investor Attention on 16 October 2026",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd3JwSDlLQ1F4NndMNHB3ZDh2NnlOY21yRWhmbXd4ZnpIaTZEYnJhWTdEdmp4ckd1a1V6Rm50R2NDekJlcWY2aGdGNnpMOGh5RkNfejV5dUZIXzZkY3VOdXN2SWptTXdHRHVqR25scGxOV3V0dmVaNDA5b1FZZjh1em5nYXM4Wk1TVlU0OFIwR0RIX0h6NDlRQkpZMEdDZXJQVmpSX1ZKWk95RFZDYWRZZlhncDU3VEZaSHhKcXN0d082TkJSckw3cWJvQ25sUkUwaWt3M1ZIdk9IWkZ4REN1OUtR?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-10-16T18:41:00.000Z"
+        },
+        {
+          "title": "U.S. softwood lumber duties unjustified, Ontario ministers say after rate decrease",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZHNOOERDZ2ltYkZqa0UycDN3eWc3bktyMXpLeU9FSVZQZGQ5ZGMwazMwMDRzVll4MzVnOXY0UUIwLXRiOFVFY0lxdk9CSWlGWEpNZEgzVkM2dXNIMFA1eW5BTlZTczY0TW40N25ZVWJNSVhuUEZwNm9XM3dVMDFBTUwwbVh2cGd3QWNnZUxtQUt3a0tJcXVvMUpMZldJUEZsejNSbVV5QURJSTJCZzVac1VrekhqS2xXUkZZ?oc=5",
+          "source": "The Sydenham Current",
+          "date": "2026-10-16T16:01:00.000Z"
+        },
         {
           "title": "Commerce Dept. reduces duties on Canadian softwood lumber",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRGpBSTRkOEdQdDB1c0NjUG5LSldYWllfWkhnQWk5eEVmV0Q5SzJ6LS1Ucks5ZV9YbU5WY3NvdC1LT0EyZUFNbnZHcl9TaHF1NjV5aG05WkQ5VERSaW9TUFlPSDNuWkNlV0lVNWpaSHdYWWJwX2QyN2VWYmpyUnJCag?oc=5",
@@ -2557,13 +2604,13 @@ window.LUMBER_DATA = {
           "title": "BC-Lumber Futures",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaXkzLXlPVzF5VnJNMFF3ZjhmeXdac2duNEdHcmJ5RnZUUWNYNWVkcEY5aXdDeGJEckktREJGYl9UQy1ENGNmUDJiSC15LWNWdkliTThncVh1SVFTN2hzazR0VW1yZG1OTGw5ckJKRjI0Mlo1Xzg0YkRnWWt0dHRYQXJUcEtUc19NVEZQQWx6d2xWMVNwY1dOTVgwLUdVWVBQVGNEWkl1ZnhKd0U?oc=5",
           "source": "WFMZ.com",
-          "date": "2026-10-16T14:41:40.000Z"
+          "date": "2026-10-16T14:42:59.000Z"
         },
         {
           "title": "Reduced softwood lumber duties hardly a relief for B.C. as dispute drags on",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa3piaGxwUFM1a25rdTI3REYyNzRUOG1UdWxrWFBNZGN4UUxHRmNFMmpwcWhmeF9tRHdQUm9PTWEtOTFzeFgyczdXX1JXZXJEU1REQmVib2lkaTg4WlFoNTV3LU05NEVTNnhJNHFSaFk2amtReHJnU3M2WkZPbXJkNXpkVmQ?oc=5",
-          "source": "Yahoo News Canada",
-          "date": "2026-10-16T13:00:24.000Z"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ0tlQmtWVHZmMENBd3NFYVM3Y09LckZHMVc5Snpnd3VxeWhVejZYMTZjcnUzMmRmWWVyd1FSbndpNzVqR1hHVk5zWmt5aVNMWlAyVEE0MlNxZnlfVkwwNXlFQTZIZWVzSElsOFJUaHhuaE5qa3BZWjVZQVUyU3pHcGNwalh2ODhtbzhnY0pQSjZSRVhUclNSQ2hQS0owaG9EeVFOTXNZcWY4UjJ6?oc=5",
+          "source": "Vancouver Sun",
+          "date": "2026-10-16T13:08:36.000Z"
         },
         {
           "title": "US softwood lumber producer prices fall 1.4% in September as plywood rises",
@@ -2655,45 +2702,10 @@ window.LUMBER_DATA = {
           "date": "2026-10-15T03:05:28.000Z"
         },
         {
-          "title": "US Releases Final Countervailing Duty Determinations in Seventh Review of Canadian Softwood Lumber",
-          "url": "https://getfea.com/trade-dispute/us-releases-final-countervailing-duty-determinations-in-seventh-review-of-canadian-softwood-lumber",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-15T01:17:10.000Z",
-          "focus": true
-        },
-        {
           "title": "Canadian softwood lumber still faces nearly 35% in U.S. import taxes after latest review",
           "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPLVZ4UFY4ZHNrckQwakd3NzBGMm5XNUEwOHNMUmY2anliaHdfYVJHZG5GeTN1ZHkzY3hTWk0xdFFyd3h1NTk2c2VUbVFfQ25Ua0ViMFpZNDIzeHFpM1dEV21qdFRGREtlSGlqam1wWVZtbDduMnF5Q28tMllnNGd4YmRhTUV1YmNrc19rS2dXN1RJcFFPcHUwQjFNWURsQ2hxRGprVko5Qm5BYUx5TnBkZlJYSV9FUldmQXhBdzBwRGpDRDJwaU5oYU5ad1o5Nk1zN1FtY2RTdjg4dFJoTk9rZUp3ek5oWGRGYjUwamNzLTRpUDdPN3c?oc=5",
           "source": "Toronto Star",
           "date": "2026-10-15T00:12:00.000Z"
-        },
-        {
-          "title": "Value of Canadian Building Permits Rises 8.8% in August",
-          "url": "https://getfea.com/end-use/value-of-canadian-building-permits-rises-8-8-in-august",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-14T21:18:45.000Z",
-          "focus": true
-        },
-        {
-          "title": "US Mortgage Applications Fall for Sixth Consecutive Week",
-          "url": "https://getfea.com/end-use/us-mortgage-applications-fall-for-sixth-consecutive-week",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-14T21:14:06.000Z",
-          "focus": true
-        },
-        {
-          "title": "US Consumer Price Index Rises 3.7% Year-Over-Year in September",
-          "url": "https://getfea.com/end-use/us-consumer-price-index-rises-3-7-year-over-year-in-september",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-14T21:10:04.000Z",
-          "focus": true
-        },
-        {
-          "title": "Oregon Department of Forestry Invests $10 Million in Wildfire Risk Reduction and Forest Health Projects",
-          "url": "https://getfea.com/timber/oregon-department-of-forestry-invests-10-million-in-wildfire-risk-reduction-and-forest-health-projects",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-14T21:07:53.000Z",
-          "focus": true
         },
         {
           "title": "U.S. Lumber Coalition Supports the Trump Administration's Continued Strong Commitment to Enforce the U.S. Trade Laws Against Canadian Unfair Trade in Softwood Lumber",
@@ -2724,18 +2736,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV0tHdG90azZsUHVkUFZIbXNlbm91cWNGQV8xR0g0cUw2N1V3STZNLVY5ZmdqUE9lZjhKS3hhcFp6VXg2QmdaRGJKdUs5WGlQUjZpQ1RFblVNSEdBUnA5SHNSalJycVg3ZXdhaDFZZHEtSnM2N1JPWVdWSDY5UlR5NGlqa3QzTzlheTJBMzdqSXQwSnVHWUlVS1pZWWJlY0UwdUhtR25SZExKa3VCejk0bjZaak4xbjgzY1FNOU9SNjZIc0lVR1N0blRBNmM4M2RRaEJqTFNaZnFXMjBa?oc=5",
           "source": "The Globe and Mail",
           "date": "2026-10-13T17:15:23.000Z"
-        },
-        {
-          "title": "USMCA panel partly upholds US Commerce determination on Canadian softwood lumber",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcnhRNW96eGVVdWRrZUQydjktMG5nSWRJVTMtUWQ5dEFmMUg1ZVpHbFFfMHBZWXBXQUE2cHc2U2w2QjNjbWJMbzMyc3o0MVlCajJfcEI3cDNMVmVGa0Z5NmZabDhvS3BUazBURUlwVzhRM21MWEtPVFJWSmVSb3labW9Ba1pYTnRqemowR0owbjRVTWo5V29hNV9YcU1oemxSMXpkZjY1a3p0UWFhSjRZWFBNWjVGdkV2ai03UE5UZlhGODJsZ1ZHQ9IBWkFVX3lxTE1ib0oxSGVtY3hqXzRSZ25wQWtXbEtlUHp1QnpyamZ1U0dYM01GcFVjRFRfcV9nLWtQa0p0eWVVQ2lmN2dGSFpGS2N4ZlBpcmlXbUZaZDlCckNTUQ?oc=5",
-          "source": "MLex",
-          "date": "2026-10-13T14:53:44.000Z"
-        },
-        {
-          "title": "Weyerhaeuser\u2019s Q3 2026 Earnings: What to Expect",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeXNoaFRHRDVGX3N5U3NLU1pRWWZUN0hockdxbFZ0MnduNklzQkhxa0FkUTEwMTNaM3VyVzdlV1ZvZG5VeHJCZUtUajNOOEkzczR5XzNTSVpHTnpYZzgtY2dQdERpWlNjdVl3bmxsNjMzMWVsc2lWUDhaaXRtanBTZmNfMFNXYzRYcnBBOUIxSUN3eFVZdG5tRjhPaDhVcHJ1U3ZV?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-10-13T10:10:27.000Z"
         }
       ]
     },
@@ -7052,19 +7052,19 @@ window.LUMBER_DATA = {
             "period": "2026-10",
             "mean": 842395,
             "lo": 750468,
-            "hi": 945582
+            "hi": 945583
           },
           {
             "period": "2026-11",
-            "mean": 756206,
+            "mean": 756208,
             "lo": 667953,
-            "hi": 856121
+            "hi": 856125
           },
           {
             "period": "2026-12",
-            "mean": 652196,
-            "lo": 571495,
-            "hi": 744294
+            "mean": 652197,
+            "lo": 571493,
+            "hi": 744297
           }
         ]
       }
