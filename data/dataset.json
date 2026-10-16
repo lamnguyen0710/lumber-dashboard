@@ -674,7 +674,7 @@
         },
         {
           "period": "2026-10",
-          "framing_composite": 537
+          "framing_composite": 538
         }
       ]
     },
@@ -2544,8 +2544,38 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-10-16T10:32:10.543Z",
+      "fetchedAt": "2026-10-16T15:56:58.775Z",
       "items": [
+        {
+          "title": "Commerce Dept. reduces duties on Canadian softwood lumber",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRGpBSTRkOEdQdDB1c0NjUG5LSldYWllfWkhnQWk5eEVmV0Q5SzJ6LS1Ucks5ZV9YbU5WY3NvdC1LT0EyZUFNbnZHcl9TaHF1NjV5aG05WkQ5VERSaW9TUFlPSDNuWkNlV0lVNWpaSHdYWWJwX2QyN2VWYmpyUnJCag?oc=5",
+          "source": "HBS Dealer",
+          "date": "2026-10-16T15:22:32.000Z"
+        },
+        {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaXkzLXlPVzF5VnJNMFF3ZjhmeXdac2duNEdHcmJ5RnZUUWNYNWVkcEY5aXdDeGJEckktREJGYl9UQy1ENGNmUDJiSC15LWNWdkliTThncVh1SVFTN2hzazR0VW1yZG1OTGw5ckJKRjI0Mlo1Xzg0YkRnWWt0dHRYQXJUcEtUc19NVEZQQWx6d2xWMVNwY1dOTVgwLUdVWVBQVGNEWkl1ZnhKd0U?oc=5",
+          "source": "WFMZ.com",
+          "date": "2026-10-16T14:41:40.000Z"
+        },
+        {
+          "title": "Reduced softwood lumber duties hardly a relief for B.C. as dispute drags on",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa3piaGxwUFM1a25rdTI3REYyNzRUOG1UdWxrWFBNZGN4UUxHRmNFMmpwcWhmeF9tRHdQUm9PTWEtOTFzeFgyczdXX1JXZXJEU1REQmVib2lkaTg4WlFoNTV3LU05NEVTNnhJNHFSaFk2amtReHJnU3M2WkZPbXJkNXpkVmQ?oc=5",
+          "source": "Yahoo News Canada",
+          "date": "2026-10-16T13:00:24.000Z"
+        },
+        {
+          "title": "US softwood lumber producer prices fall 1.4% in September as plywood rises",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WNnVvdG92M0xUREt0bzYwZzRVWl9UN2d1SmhxUkZHVDNrY3dkbUh3bXQzQ0xkR3hfU2dKN3F3Y3pIQ25VcXAyNlN5dERFV0doRXIyd1FwSjhnY1NDOGNFMktFOXRlNldPZmpLNmkwWFVQWXNBQmdoZ2huVTNZMk0?oc=5",
+          "source": "Fordaq",
+          "date": "2026-10-16T09:10:47.000Z"
+        },
+        {
+          "title": "US finalizes annual lumber duty review, total tariffs near 35%",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUW9XY2IxZEZqZ2tvZThYVUNZTVhXSkJDYWxVLTVBeGduNEZBOFZyNDMtVUwyN3JLRlVnNU5rZ1dGbS1YVHNBS2ItbEJxNDJrRFZHU01yS3FqQjM4TjBzbHZlV201NGtmR21BcWFtUl9sTV9lY2d3UnBUcEN5MW1kQkdYVVlFcHp2S1BvLVhSVFNZd21oV3NaSUs5bkw3RXM?oc=5",
+          "source": "Tree Frog creative",
+          "date": "2026-10-15T20:34:52.000Z"
+        },
         {
           "title": "US Releases Final Antidumping Duty Determinations in Seventh Review of Canadian Softwood Lumber",
           "url": "https://getfea.com/trade-dispute/us-releases-final-antidumping-duty-determinations-in-seventh-review-of-canadian-softwood-lumber",
@@ -2582,12 +2612,6 @@
           "focus": true
         },
         {
-          "title": "BC-Lumber Futures",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcmx4SE1VazdlRFlOUjlETDIxVjVXMjBHOVZUeExvY2xNQ1R3YlBBRjFmdUg0ckV0T01sRHpnR0tOby1aMjczMjRRRHBBNFZWS1V3dlNpamxpWDg2RG9YQkpUNnRuSHkzOWU3YWJZaHBwMjFMOEVIRlFFMFI2Y3hPcFcxcUVDT3FLNl9PbC04d0pEOG9wTE5xWnVZdTRSUzk5aGNQZjAybVk0cHM?oc=5",
-          "source": "WFMZ.com",
-          "date": "2026-10-15T18:30:12.000Z"
-        },
-        {
           "title": "Bank of America cuts target for Louisiana-Pacific stock to USD 85.00",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOclRnLUJCYzVBTGVacmVfSFMxejZQSGRwYlgtZTZPMmpBbU1xMVdXeXFhRnViYTlQVzcwaFVjYU5kVWRaUF9mWmVzNHZ3NXVtcURVaEltdmNFbjJNbWxoWHZodWNuZFAtb0hYcUwwMVQ0b1d3ZzhjMlFPRWNuNUd6Y0xKYmEzVnlMeWhiOHN5R0dvSC0yeEVkeDlPQ2cwSnZFMWZNSFRjVWoyT0c5ckduTl9pOWlJT1dRS3FqU0tIZlBnWVdrY1E?oc=5",
           "source": "ad-hoc-news.de",
@@ -2612,22 +2636,22 @@
           "date": "2026-10-15T14:31:54.000Z"
         },
         {
+          "title": "Weyerhaeuser, Louisiana-Pacific Face Weak Demand Amid Lumber Market Challenges, BofA Says",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcDRQdEZHdWJadnM1dzQ3X2tYbTBIQnFvWkVPM1piQlhsOVJhTXdrVXg2MW5PR3FpbDRJYUVoa1Y1eVNiZl92UzQwNndycmlCRFNNVDBXMHg4aXJQZ0FfWkk4RkQ1U0hGTERkS29DbGVpNmttWjY3Y1BUdkliV1ZtUTRYWlZKMkFqcWNPWm96X1ZLUk9Nb0JwVXdPZVd2cU5rZzNyUmQ1ZXE4cldIMDRZb2xYZzAwVkFxcGs0bHJB?oc=5",
+          "source": "Moomoo",
+          "date": "2026-10-15T11:51:23.000Z"
+        },
+        {
           "title": "Bank of America cuts target to USD 25 for Weyerhaeuser stock",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX1lfWVhHel9ZSkVaWjFiRGdLLUxIaGdEZ0xrZEtuRmdPby12TzRZMXUydHpDd0FwY01HamVYdTZORlNWRW5TUFJxOUpqOVl1X3JpWFVWQVVPeXd3MlQtclZELUI3UzBRSXBIU1dIc2tIVGxsazV0c1B6ZXlMcjFMUWl1OWtsWFpjeEdUVmxFeXVLaG42QkgyQ2RVUm82UmJSUkp3Z3NGUS1zNVo2dnhrZmNhYndzbkR6N0pN?oc=5",
           "source": "ad-hoc-news.de",
           "date": "2026-10-15T11:33:16.000Z"
         },
         {
-          "title": "Louisiana Pacific (LPX) Stock Looks Fully Priced After A 27% Fall",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNXZKR25iYW0zeDZkRTU1dWs4YjZZSU5LVHZSRUxqWkx1RzFFN2lqck9YMGdrcVJucXdmajlwS2l4WGNmZE1hSmtJZjk0WFh0dnZHTnNCYmh5bWsxVEpvOFlPRUlsOWtpaFROYVRkNlY2YzdHWDdseVJTdkxuWDlqXy1PZ1hwX1lCNC1zc3FvNXg5blNFZGNXZ3VOelNKRWc?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-10-15T08:15:56.000Z"
-        },
-        {
           "title": "U.S. Softwood Lumber Duties Continue to Increase Costs for American and Canadian Families",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPY0hyS3dKaTFwY3h0b1pJNDF5eVVZOWowbmhneC0yOHZBcmQ3Ynh3aDVtbUtibzE0UlJxNTFtT1IxZkNTNFVzYmR5MVNTQlA1OGpELXJnM25UdTRuUVZWVGJCQi0zZ0tBZHhHcEFJbG1lallDRTJxLWd6OEZTa2pxT1oya01WRlhMUUlLYkl4a19UVVYxTjFxRGVpQWd2NEkweVBINk1wZXp0WXNLMzBxNnozRVNTSldfSGJLWkpVUGJ1TlNvMF9QRVFDYkQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbDJlZnRFWWpNVkFodmE1UU41U2VDMUtUTWFsRG55TkZpT0JxamRWT3BHRE84cndaQTczWE1NSG5jWVFyWTg1cU83WC05REdlNlctVU1EdUVHWGVlQzI2RzFEY2hvdWNWUHRYUnlfalR4ZTZXRW9jTUpDVDh4UHVYMFE3TDVYM3M2X0xld1ZtSzNBQkxhajVqdDdEellCUXNEdldPZUFtOS1CQllZSlM5empISXBYT3VmeS1FdDlTT3FNczZ2a1JoaHVJZmxzTnVLUWc?oc=5",
           "source": "Today's Northumberland",
-          "date": "2026-10-15T03:29:59.000Z"
+          "date": "2026-10-15T03:05:28.000Z"
         },
         {
           "title": "US Releases Final Countervailing Duty Determinations in Seventh Review of Canadian Softwood Lumber",
@@ -2677,10 +2701,10 @@
           "date": "2026-10-14T17:04:00.000Z"
         },
         {
-          "title": "Weyerhaeuser, Louisiana-Pacific Face Weak Demand Amid Lumber Market Challenges, BofA Says",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd0pmWmdpU2JMWXBxU2FfSlFMZjRaeUxGalVfNE1QbUF4TVBnQnU3S3QwcXB3TlZvYkVlanZzdXFQVmVVY1hUY1Zzck1GRzBUU1NJNzgyUG9kUmNLcXYyaHlXSUptc3lJR0FWb0NYc1FkUFhCX3hkdk14cTNhTGRoc0x3REt0UkoxdUZFSzE4YmhkQzduV0daUS05dVFYR1N0Mkt5Zw?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-10-14T15:10:49.000Z"
+          "title": "Weyerhaeuser upgraded at Bank of America on timberland assets (WY:NYSE)",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYkxxdHpFM1dKckpuRWNpX0VVd2RaVHBuSXJoTGJUT2toMzluMXhJejhCTURmZUpfeWZOZ1lKZGtMZUxjZ0ZBaF9nOWJTbUtmLWlwTVZ4MFpHcERFX0V3RFNVLXNMLTZYd1Z4NzVNanRKX2ZWbnpaSXpVdVV4dUttcGhtM05uM3RQY0NWSUZOVWVOZEJ5b0ozZzBEaDlINi1i?oc=5",
+          "source": "Seeking Alpha",
+          "date": "2026-10-14T13:19:09.000Z"
         },
         {
           "title": "Why Are Canadian Sawmills Adapting to the CME Physical-Truckload Lumber Futures Contract?",
@@ -2695,6 +2719,12 @@
           "date": "2026-10-13T21:00:05.000Z"
         },
         {
+          "title": "BMO Capital Reaffirms Their Buy Rating on Louisiana-Pacific (LPX)",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV0tHdG90azZsUHVkUFZIbXNlbm91cWNGQV8xR0g0cUw2N1V3STZNLVY5ZmdqUE9lZjhKS3hhcFp6VXg2QmdaRGJKdUs5WGlQUjZpQ1RFblVNSEdBUnA5SHNSalJycVg3ZXdhaDFZZHEtSnM2N1JPWVdWSDY5UlR5NGlqa3QzTzlheTJBMzdqSXQwSnVHWUlVS1pZWWJlY0UwdUhtR25SZExKa3VCejk0bjZaak4xbjgzY1FNOU9SNjZIc0lVR1N0blRBNmM4M2RRaEJqTFNaZnFXMjBa?oc=5",
+          "source": "The Globe and Mail",
+          "date": "2026-10-13T17:15:23.000Z"
+        },
+        {
           "title": "USMCA panel partly upholds US Commerce determination on Canadian softwood lumber",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcnhRNW96eGVVdWRrZUQydjktMG5nSWRJVTMtUWQ5dEFmMUg1ZVpHbFFfMHBZWXBXQUE2cHc2U2w2QjNjbWJMbzMyc3o0MVlCajJfcEI3cDNMVmVGa0Z5NmZabDhvS3BUazBURUlwVzhRM21MWEtPVFJWSmVSb3labW9Ba1pYTnRqemowR0owbjRVTWo5V29hNV9YcU1oemxSMXpkZjY1a3p0UWFhSjRZWFBNWjVGdkV2ai03UE5UZlhGODJsZ1ZHQ9IBWkFVX3lxTE1ib0oxSGVtY3hqXzRSZ25wQWtXbEtlUHp1QnpyamZ1U0dYM01GcFVjRFRfcV9nLWtQa0p0eWVVQ2lmN2dGSFpGS2N4ZlBpcmlXbUZaZDlCckNTUQ?oc=5",
           "source": "MLex",
@@ -2705,36 +2735,6 @@
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeXNoaFRHRDVGX3N5U3NLU1pRWWZUN0hockdxbFZ0MnduNklzQkhxa0FkUTEwMTNaM3VyVzdlV1ZvZG5VeHJCZUtUajNOOEkzczR5XzNTSVpHTnpYZzgtY2dQdERpWlNjdVl3bmxsNjMzMWVsc2lWUDhaaXRtanBTZmNfMFNXYzRYcnBBOUIxSUN3eFVZdG5tRjhPaDhVcHJ1U3ZV?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-10-13T10:10:27.000Z"
-        },
-        {
-          "title": "GreenFirst Forest Products Under Mounting Pressure: Bearish Momentum, Leadership Uncertainty, and Lumber Market Weakness Fuel Downside Risk",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPdzIyZEszNk02dy1zWDhtR191N2tnYVgwNmc4RDNJd0dxVzlJQlZIMGhDME5IQ1E1eVFnLTA0WUwwM2ZRQ2s2ejZlbllmMTN5WGdyMExGdU1jaUZ6LXVkTF9uVmdlQVNYVnZXckNxQ3BTVDVldmVaNVU0Ri1lelFHMklTOXo3clpJblhjUEwxNXAyN2JWUDVmRVNMVEZ2WXNFNTlCc29CMjROZ3c2U3JFcldPbjAzV2N1ZE1jbi1hd2NkSURaSUo2N1RYWG9oWHRrcTEyazRxcm54M3Ruc09XdXRGeHpHUmdEWm1LQ2gzWnZrV1NuRWlpSDFtbFo5SnNLSmc?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-10-13T10:02:00.000Z"
-        },
-        {
-          "title": "Will West Fraser Timber\u2019s Third-Quarter Results Reveal a Lumber Market Turning Point? (TSX:WFG)",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbU9XcjJlM2dBeTVGZ3RVU3VBQTlGeTZGU29EaUVOVlJlMHZXZUFjN00yUE5YbFk1S1otX3lla2RVYzZMMjBUMzJmU0s5amVtTzdieXJabENVcmo2M1pkdk5nZDFuMFBBQTlmelhvS2h6T0kydXBwNWVyZ01ScnNVa1NETVRtdW1nYk9SbWJqakxoVU5wYTF1MzhsNDNaTDdGR1MzUXBpUGplbkg0bHZoU2NzOFJWVkVaXzZqX1lLYWRLbnpf?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-10-12T15:16:00.000Z"
-        },
-        {
-          "title": "CME lumber futures end week at $533, up 1.2%",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZXdJRGRkaXBWMlZzd0hEamhfZDg2SjFpcUFkY2xHVm9qbXBfMXJlejFTbHZiMHgwSHNkU3NackVXTDZxRW1TM05mUkJsNkQyWEpOZDVnREtNTmlSczFCVW83MXV2Wkc3c05aVlRoQ2VmN1RlaDRDYWVrM0JpQVNkR24xS3RWT204?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-10-12T09:00:02.000Z"
-        },
-        {
-          "title": "Louisiana-Pacific Q3 2026 Earnings Date and Estimates",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRXZYSTFDaC1TMFdDc0pWdkprY1pWLXVFMGlpQ2Y0cEMwN1J6cDJOc3NRZGIyTXlETW81UHNzdnhMMDA5TWJUM2lQeFh0alJKYXQyd0tadUJNLTIyQzQyOUFhcHZ2QUhrbzIxQTJxTGxQSUwwR1dpVXVlVW5LRWxONjNUTDJDelZW?oc=5",
-          "source": "MarketBeat",
-          "date": "2026-10-12T08:47:50.000Z"
-        },
-        {
-          "title": "NAFTA panel upholds US 2017 countervailing duty determination on Canadian softwood lumber",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95UUZZOFh5QVoxRjVJWGN5bVhoRFYwOTFTWWdtT2U3TUFSVzdSRkRLd2g3Z0tRV2NJdEFXZzNlZjAzZTBLU0dsYXB5TXIxSzdWZXVsQ3FxVFVOTC01UnZOUVZKSlY0Q3pncXBXV3hZa3NZakhLcFE?oc=5",
-          "source": "Fordaq",
-          "date": "2026-10-12T06:02:29.000Z"
         }
       ]
     },
@@ -7051,19 +7051,19 @@
             "period": "2026-10",
             "mean": 842395,
             "lo": 750468,
-            "hi": 945583
+            "hi": 945582
           },
           {
             "period": "2026-11",
-            "mean": 756208,
+            "mean": 756206,
             "lo": 667953,
-            "hi": 856125
+            "hi": 856121
           },
           {
             "period": "2026-12",
-            "mean": 652197,
-            "lo": 571493,
-            "hi": 744297
+            "mean": 652196,
+            "lo": 571495,
+            "hi": 744294
           }
         ]
       }
@@ -16069,11 +16069,11 @@
     ]
   },
   "fires": {
-    "asOf": "2026-10-16T10:32:12.485Z",
+    "asOf": "2026-10-16T15:57:10.046Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
-    "total": 448,
-    "count": 448,
+    "total": 461,
+    "count": 461,
     "capped": false,
     "fields": [
       "lat",
@@ -16408,7 +16408,7 @@
       ],
       [
         42.64,
-        -123.031,
+        -123.032,
         25,
         0
       ],
@@ -16551,14 +16551,8 @@
         0
       ],
       [
-        42.645,
-        -123.036,
-        15,
-        0
-      ],
-      [
         42.649,
-        -123.029,
+        -123.03,
         15,
         0
       ],
@@ -16809,6 +16803,12 @@
         0
       ],
       [
+        42.654,
+        -123.02,
+        8,
+        0
+      ],
+      [
         48.455,
         -114.499,
         8,
@@ -16935,12 +16935,6 @@
         0
       ],
       [
-        42.648,
-        -123.022,
-        7,
-        0
-      ],
-      [
         43.076,
         -118.568,
         7,
@@ -16961,6 +16955,12 @@
       [
         44.05,
         -118.782,
+        7,
+        0
+      ],
+      [
+        42.652,
+        -123.014,
         7,
         0
       ],
@@ -17049,14 +17049,14 @@
         0
       ],
       [
-        48.114,
-        -103.093,
+        51.855,
+        -117.753,
         6,
         0
       ],
       [
-        51.855,
-        -117.753,
+        48.114,
+        -103.093,
         6,
         0
       ],
@@ -17211,6 +17211,12 @@
         0
       ],
       [
+        46.917,
+        -121.717,
+        4,
+        0
+      ],
+      [
         51.524,
         -119.125,
         4,
@@ -17337,6 +17343,24 @@
         0
       ],
       [
+        55.258,
+        -127.198,
+        4,
+        0
+      ],
+      [
+        55.256,
+        -127.208,
+        4,
+        0
+      ],
+      [
+        42.642,
+        -123.013,
+        4,
+        0
+      ],
+      [
         47.685,
         -120.251,
         4,
@@ -17433,32 +17457,20 @@
         0
       ],
       [
-        42.648,
-        -123.014,
-        3,
-        0
-      ],
-      [
         43.8,
         -118.967,
         3,
         0
       ],
       [
+        50.09,
+        -110.712,
+        3,
+        0
+      ],
+      [
         57.044,
         -111.636,
-        3,
-        0
-      ],
-      [
-        55.261,
-        -127.202,
-        3,
-        0
-      ],
-      [
-        55.261,
-        -127.212,
         3,
         0
       ],
@@ -17470,7 +17482,7 @@
       ],
       [
         45.805,
-        -117.117,
+        -117.118,
         3,
         0
       ],
@@ -17481,7 +17493,7 @@
         0
       ],
       [
-        48.279,
+        48.278,
         -118.393,
         3,
         0
@@ -17559,8 +17571,20 @@
         0
       ],
       [
+        46.921,
+        -121.715,
+        2,
+        0
+      ],
+      [
         44.659,
         -73.178,
+        2,
+        0
+      ],
+      [
+        46.925,
+        -121.711,
         2,
         0
       ],
@@ -17578,7 +17602,7 @@
       ],
       [
         54.158,
-        -108.281,
+        -108.282,
         2,
         0
       ],
@@ -17620,7 +17644,7 @@
       ],
       [
         54.602,
-        -126.026,
+        -126.027,
         2,
         0
       ],
@@ -17650,25 +17674,13 @@
       ],
       [
         41.268,
-        -105.604,
-        2,
-        0
-      ],
-      [
-        55.261,
-        -127.193,
-        2,
-        0
-      ],
-      [
-        50.514,
-        -104.625,
+        -105.605,
         2,
         0
       ],
       [
         50.519,
-        -104.63,
+        -104.631,
         2,
         0
       ],
@@ -17681,6 +17693,12 @@
       [
         50.438,
         -122.928,
+        2,
+        0
+      ],
+      [
+        54.601,
+        -126.696,
         2,
         0
       ],
@@ -17752,7 +17770,25 @@
       ],
       [
         55.267,
-        -127.207,
+        -127.209,
+        2,
+        0
+      ],
+      [
+        52.9,
+        -108.984,
+        2,
+        0
+      ],
+      [
+        52.049,
+        -107.965,
+        2,
+        0
+      ],
+      [
+        47.57,
+        -122.371,
         2,
         0
       ],
@@ -17764,7 +17800,13 @@
       ],
       [
         49.7,
-        -117.518,
+        -117.519,
+        2,
+        0
+      ],
+      [
+        45.791,
+        -117.11,
         2,
         0
       ],
@@ -17794,7 +17836,7 @@
       ],
       [
         50.522,
-        -104.636,
+        -104.637,
         2,
         0
       ],
@@ -17805,14 +17847,14 @@
         0
       ],
       [
-        41.475,
-        -81.662,
+        54.777,
+        -127.567,
         2,
         0
       ],
       [
-        54.777,
-        -127.565,
+        41.475,
+        -81.662,
         2,
         0
       ],
@@ -17853,6 +17895,12 @@
         0
       ],
       [
+        48.886,
+        -122.734,
+        2,
+        0
+      ],
+      [
         45.812,
         -73.276,
         2,
@@ -17865,8 +17913,8 @@
         0
       ],
       [
-        45.79,
-        -117.11,
+        53.545,
+        -113.386,
         2,
         0
       ],
@@ -17883,13 +17931,7 @@
         0
       ],
       [
-        53.545,
-        -113.386,
-        2,
-        0
-      ],
-      [
-        57.006,
+        57.005,
         -111.478,
         2,
         0
@@ -17937,6 +17979,12 @@
         0
       ],
       [
+        48.887,
+        -122.737,
+        2,
+        0
+      ],
+      [
         49.2,
         -116.669,
         2,
@@ -17949,14 +17997,20 @@
         0
       ],
       [
-        47.568,
-        -122.344,
+        48.52,
+        -118.057,
         1,
         0
       ],
       [
-        48.52,
-        -118.06,
+        55.259,
+        -127.189,
+        1,
+        0
+      ],
+      [
+        47.568,
+        -122.345,
         1,
         0
       ],
@@ -17969,6 +18023,12 @@
       [
         41.354,
         -72.12,
+        1,
+        0
+      ],
+      [
+        55.355,
+        -125.332,
         1,
         0
       ],
@@ -18028,7 +18088,13 @@
       ],
       [
         43.146,
-        -115.666,
+        -115.667,
+        1,
+        0
+      ],
+      [
+        42.868,
+        -118.522,
         1,
         0
       ],
@@ -18045,14 +18111,14 @@
         0
       ],
       [
-        42.869,
-        -118.521,
+        55.417,
+        -120.171,
         1,
         0
       ],
       [
-        55.417,
-        -120.171,
+        55.353,
+        -125.34,
         1,
         0
       ],
@@ -18081,14 +18147,20 @@
         0
       ],
       [
+        49.351,
+        -102.727,
+        1,
+        0
+      ],
+      [
         46.976,
         -122.293,
         1,
         0
       ],
       [
-        49.352,
-        -102.726,
+        50.515,
+        -104.625,
         1,
         0
       ],
@@ -18105,20 +18177,8 @@
         0
       ],
       [
-        50.515,
-        -104.624,
-        1,
-        0
-      ],
-      [
         47.733,
         -103.799,
-        1,
-        0
-      ],
-      [
-        48.888,
-        -122.739,
         1,
         0
       ],
@@ -18135,32 +18195,44 @@
         0
       ],
       [
-        48.084,
-        -103.032,
-        1,
-        0
-      ],
-      [
         50.677,
         -110.038,
         1,
         0
       ],
       [
-        54.774,
-        -127.564,
+        48.084,
+        -103.032,
         1,
         0
       ],
       [
-        45.591,
-        -122.988,
+        48.47,
+        -122.559,
+        1,
+        0
+      ],
+      [
+        54.624,
+        -126.692,
+        1,
+        0
+      ],
+      [
+        54.774,
+        -127.566,
         1,
         0
       ],
       [
         53.846,
         -113.122,
+        1,
+        0
+      ],
+      [
+        45.591,
+        -122.988,
         1,
         0
       ],
@@ -18179,6 +18251,12 @@
       [
         48.187,
         -103.797,
+        1,
+        0
+      ],
+      [
+        50.171,
+        -118.081,
         1,
         0
       ],
@@ -18207,14 +18285,14 @@
         0
       ],
       [
-        41.482,
-        -90.826,
+        48.636,
+        -102.395,
         1,
         0
       ],
       [
-        48.636,
-        -102.394,
+        41.482,
+        -90.826,
         1,
         0
       ],
@@ -18238,19 +18316,13 @@
       ],
       [
         55.24,
-        -124.744,
+        -124.746,
         1,
         0
       ],
       [
         48.635,
         -103.31,
-        1,
-        0
-      ],
-      [
-        53.543,
-        -113.386,
         1,
         0
       ],
@@ -18291,14 +18363,20 @@
         0
       ],
       [
-        48.633,
-        -103.313,
+        52.165,
+        -110.602,
         1,
         0
       ],
       [
-        52.165,
-        -110.601,
+        47.569,
+        -122.345,
+        1,
+        0
+      ],
+      [
+        48.633,
+        -103.313,
         1,
         0
       ],
@@ -18311,18 +18389,6 @@
       [
         49.291,
         -122.952,
-        1,
-        0
-      ],
-      [
-        50.17,
-        -118.083,
-        1,
-        0
-      ],
-      [
-        48.638,
-        -102.4,
         1,
         0
       ],
@@ -18346,13 +18412,19 @@
       ],
       [
         49.067,
-        -100.817,
+        -100.818,
         1,
         0
       ],
       [
         41.75,
         -81.284,
+        1,
+        0
+      ],
+      [
+        45.794,
+        -117.121,
         1,
         0
       ],
@@ -18387,12 +18459,6 @@
         0
       ],
       [
-        45.795,
-        -117.12,
-        1,
-        0
-      ],
-      [
         48.005,
         -102.791,
         1,
@@ -18405,8 +18471,8 @@
         0
       ],
       [
-        51.071,
-        -115.136,
+        51.07,
+        -115.137,
         1,
         0
       ],
@@ -18423,14 +18489,14 @@
         0
       ],
       [
-        47.982,
-        -103.116,
+        45.891,
+        -121.392,
         1,
         0
       ],
       [
-        45.891,
-        -121.391,
+        47.982,
+        -103.116,
         1,
         0
       ],
@@ -18472,19 +18538,13 @@
       ],
       [
         43.473,
-        -105.81,
+        -105.812,
         1,
         0
       ],
       [
-        51.182,
-        -117.751,
-        1,
-        0
-      ],
-      [
-        49.571,
-        -118.664,
+        51.181,
+        -117.752,
         1,
         0
       ],
@@ -18502,7 +18562,7 @@
       ],
       [
         45.946,
-        -111.478,
+        -111.479,
         1,
         0
       ],
@@ -18533,12 +18593,6 @@
       [
         45.568,
         -121.141,
-        1,
-        0
-      ],
-      [
-        47.851,
-        -103.444,
         1,
         0
       ],
@@ -18591,6 +18645,12 @@
         0
       ],
       [
+        47.47,
+        -103.222,
+        1,
+        0
+      ],
+      [
         55.556,
         -119.755,
         1,
@@ -18599,12 +18659,6 @@
       [
         46.894,
         -120.925,
-        1,
-        0
-      ],
-      [
-        47.47,
-        -103.222,
         1,
         0
       ],
@@ -18633,6 +18687,12 @@
         0
       ],
       [
+        49.57,
+        -118.665,
+        1,
+        0
+      ],
+      [
         46.517,
         -84.397,
         1,
@@ -18652,7 +18712,7 @@
       ],
       [
         46.328,
-        -111.616,
+        -111.617,
         1,
         0
       ],
@@ -18669,6 +18729,12 @@
         0
       ],
       [
+        51.06,
+        -115.172,
+        1,
+        0
+      ],
+      [
         54.418,
         -117.758,
         1,
@@ -18681,8 +18747,8 @@
         0
       ],
       [
-        51.061,
-        -115.171,
+        51.485,
+        -119.225,
         1,
         0
       ],
@@ -18735,6 +18801,12 @@
         0
       ],
       [
+        49.158,
+        -123.006,
+        0,
+        0
+      ],
+      [
         52.67,
         -115.116,
         0,
@@ -18767,6 +18839,12 @@
       [
         48.165,
         -102.785,
+        0,
+        0
+      ],
+      [
+        47.01,
+        -122.412,
         0,
         0
       ]
