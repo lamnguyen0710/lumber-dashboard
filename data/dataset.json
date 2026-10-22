@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-21",
+    "lastUpdated": "2026-10-22",
     "dataThrough": "2025Q2",
     "isPlaceholder": true,
     "live": {
@@ -2376,19 +2376,54 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-10-21T21:08:41.550Z",
+      "fetchedAt": "2026-10-22T02:58:07.877Z",
       "items": [
+        {
+          "title": "Barge Forest Products Announces $8.3 Million Sawmill Expansion in Mississippi",
+          "url": "https://getfea.com/mill-capacity-changes/barge-forest-products-announces-8-3-million-sawmill-expansion-in-mississippi",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-21T21:41:16.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Pending Home Sales Decline in September",
+          "url": "https://getfea.com/end-use/us-pending-home-sales-decline-in-september",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-21T21:38:16.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Single-Family Rent Growth Accelerates for Sixth Consecutive Month",
+          "url": "https://getfea.com/end-use/us-single-family-rent-growth-accelerates-for-sixth-consecutive-month",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-21T21:36:11.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Mortgage Applications Fall for Sixth Consecutive Week",
+          "url": "https://getfea.com/end-use/us-mortgage-applications-fall-for-sixth-consecutive-week-2",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-21T21:30:02.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Existing-Home Prices Rise in September",
+          "url": "https://getfea.com/end-use/us-existing-home-prices-rise-in-september",
+          "source": "Forest Economic Advisors",
+          "date": "2026-10-21T21:19:57.000Z",
+          "focus": true
+        },
+        {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUlZ0bjlyMWpOOXZFdHYyZ3JVaUUySWdMdl9tYmFLTU9RMF9wbzBYRlU1bWd0X1pPRTJXWFFQVW1wQTRpektrNFlPTXJieTJoSHFxaXpPTlNsWExtWHJqOXc0Wmw1aUdKMi1Lc1JLMUZnRi1DZncyamN2TFo1NHcwcHozUy0weTFrSl81QkF3M09KY0ZpWjV4ZEF2R2ZwUExTRDNlNWppU1BDR3c?oc=5",
+          "source": "WFMZ.com",
+          "date": "2026-10-21T20:21:01.000Z"
+        },
         {
           "title": "Madison\"s Lumber Prices Index falls to $499 mfbm, down 1% from September",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSGJyc1lod21jTWNYVzRKWGdIc3BrTkRyUjdReXV3VWVKVVdZeEZaOTRIWFNIM1lzbmtwQklhbl95NGt1UTlhXzBTcTNXSFhJV2FTM0lPVzJnNzJKWkFYS0ZtM3lWVlNUenB0d2h5UjFJRTcyUUF3OHZaM0JoMGRmRlZxZ0dDX0xJcjlNNDdETFVINUdzajRIRE92SjA3eV9BRnhDeUYtQ2RSd0FQ?oc=5",
           "source": "Lesprom Network",
           "date": "2026-10-21T18:23:51.000Z"
-        },
-        {
-          "title": "BC-Lumber Futures",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd1BEWG9Oa0g4ODVETll5WTRZNVdyMV9Nal9lY0QyVG95QXhlSFYyblNCU04xQlFDem1KcldlQnR5MzFpcnFqMEVkV0lsNDFvLXk0M2pIMGlNbTNxcEdPSVh0LXdUT1ROWWFKMlBpUUJYQlRnbm9sU2ZKZW9iNjRQUW9pX25Zc2V3b1RvMVV0SzlDUllmWUF5VURXNDlKXzJsaG5wcTJhWTM0Zw?oc=5",
-          "source": "The Register-Herald",
-          "date": "2026-10-21T17:52:26.000Z"
         },
         {
           "title": "West Fraser Timber (WFG) Projected to Release Earnings on Wednesday",
@@ -2432,13 +2467,6 @@
           "focus": true
         },
         {
-          "title": "Sunshine Coast Airport to Become Australia’s First Mass Timber Terminal",
-          "url": "https://getfea.com/engineered-wood-products-mass-timber/sunshine-coast-airport-to-become-australias-first-mass-timber-terminal",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-20T22:06:34.000Z",
-          "focus": true
-        },
-        {
           "title": "Imports of softwood lumber to China lose 15.7% in September",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcWxPU1JiTV91SmlwMGVWeW1BMUk1QkdyNmM1bklXQ1VwZ2FPSGpLU0U0cktoXzE5eWo2SUtvbG1oSjRtcVdlYWdIUkdzOU1vUEdfM0NxVnlVMGF6WWZ3RUlNcnFiZTcxeko0ZGlEdEpOTEw1ZVJkQ3JWODJ3SUFyNXJkTzBjRThFeEZuV1QzRWktbW9oa1J3UHU0WlZmV28?oc=5",
           "source": "Lesprom Network",
@@ -2452,7 +2480,7 @@
         },
         {
           "title": "U.S. softwood lumber tariffs reduced by 10 per cent",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdVhWcWZQVV9EOFJ2SnZyNUVFVW9YUWpQV0VvTmZhMkJlMU1XekhqNzFaVTdXMEs1UmFhSXhDQllrWGpUOXoyWm12enYtV0ctSVNnTVR4MGthV3I5SlRlaTdiVHd0RlkydzVHdFRNSGlJX1l1OVJ0R3hTWUdaVDNETmFyR2Nkc19jLXNUbUxaeXJPbUNjdExRZjUwUm13WEVvRVRCdW5mQQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd09hUVBYSU52R1pCSXItT1NQeW1ZWE9BVXhLbi1iYkM1Q2FFX1pYRXI2Rl92X19OUWlrbENRYkMyN2FadXFjWFF6VVh1bXFPYWsyZGF0N056Tlc4ZWdyRHA0NmNUXzRaODJrY2FmT2gzY3VVM0pHU19lOWpkSUVlYnA3UnA0SE8xT3dXTnM4bzBjbC14bHo3dmNELW82NkdkWmgwSmstQTZyLVE?oc=5",
           "source": "CTV News",
           "date": "2026-10-20T17:48:48.000Z"
         },
@@ -2469,32 +2497,16 @@
           "date": "2026-10-20T10:52:28.000Z"
         },
         {
-          "title": "US Builder Confidence for Newly Built Single-Family Homes Falls to 14-Year Low in October",
-          "url": "https://getfea.com/end-use/us-builder-confidence-for-newly-built-single-family-homes-falls-to-14-year-low-in-october",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-19T23:19:01.000Z",
-          "focus": true
+          "title": "Canfor Corporation (TSX:CFP): Revenue Per Employee Highlights Business Efficiency and Long-Term Potential",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONTlMaVZpcXpUNVRENWRCSW4xLURnNGpaSkduWXgwTUtXeDlmZmlHNk1iN1BTcVdITDVhLTYyektpb2k3UVo1M2FXSWVkX3JOOElVWVN3cjl0dDV3dENON29pMDQxYl9WdFFPNGxiLU5VdUUzajhLLXNTMzRsRGJMTVhpZnhNV1JjM09rcG13MFcxY1FnRFNrOU1NMTV3R3RKWDNQZTQ0NE1PVGRXbFpnX3dLdW5FSlNpcjVCNFFWRl91SjlYTWt6bi1YT25hWGNRRVVR?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-10-20T09:49:00.000Z"
         },
         {
-          "title": "US New-Home Purchase Mortgage Applications Decline in September",
-          "url": "https://getfea.com/end-use/us-new-home-purchase-mortgage-applications-decline-in-september",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-19T23:14:33.000Z",
-          "focus": true
-        },
-        {
-          "title": "Tolko and Ntityix Resources Announce Forestry Partnership",
-          "url": "https://getfea.com/timber/tolko-and-ntityix-resources-announce-forestry-partnership",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-19T23:11:18.000Z",
-          "focus": true
-        },
-        {
-          "title": "Canada Provides Update on 2026 Wildfire Season",
-          "url": "https://getfea.com/timber/canada-provides-update-on-2026-wildfire-season",
-          "source": "Forest Economic Advisors",
-          "date": "2026-10-19T23:05:09.000Z",
-          "focus": true
+          "title": "Interfor Corporation (TSX:IFP) Gains 2.57% as Buying Interest Lifts the Outlook",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOODNMMGdaYjluU3daSWhEdE9YRWlzTUQ1VXotckVUbXRfdXBTQmRLSmZzZ0UybkZRSHk5YUdZUFVCWkpmTmVXR0hEaFhtdFBDT1p6WTZEMV9paUNTMTBqTk5SQ2xPLTFVMDdIOExCMXVZNDhwRUExV3lTcGZ4TlB3SDRZdHp3eEo0NzNEdjFDbmcwRWpva2pXTmROWW55Sm5rTnlqa01nY1k1azZXOXg0?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-10-20T08:36:00.000Z"
         },
         {
           "title": "U.S. Lowers Canadian Softwood Lumber Duties",
@@ -2519,12 +2531,6 @@
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tZmEzOUpialF2c1NWT05YZzhOSExNOEZ6d0o2SUg2Qm5tOTlMM2hSQmJLVTdrbFppQklRQzZaSzY0YXBzMnMxNGJkeFlSdHEtckh2Qmt0S20tWFZvMTd3WVlCd1JoalF4bTNv?oc=5",
           "source": "Wood Central",
           "date": "2026-10-18T12:53:22.000Z"
-        },
-        {
-          "title": "How Investors Are Reacting To Weyerhaeuser Stock After TimberHP Insulation Partnership",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPc2c3OTgzbnYyeENHbjZyeUNQZlhFT3cwZEtReGFjSGxpQlZaYXdSZkRJV2o2Q2UwS2NEV00wWEo2Ym5pX0IxbWQyQ3k5STN3X0k5VjVQRVpqanVTRk1iaVNDd0tYV2l6S1JkOXgtQmdwNE5hMk53RkdMV2NSaXVkMHRnblBCLVU3S3FtUFAzM2FUWlpYa2ZMVlFEc1JBT3BsR09SUkZWclJhUjhtTk13Z3I2QTBqYWxCZ1J6TkNvX2VBLUVBVnJuLUNR0gHPAUFVX3lxTE1vWHlBM19aYjdsQXJzSkYxQllYcTYwa1lrS2VVek9oNWZxMHRsT2ZyT2x5UmhyOF90Uy1WRUQzX1RrNWlwX2Y2ek1IWnJDY2xwWjJqbGp4Z3VLSWtTdExfVjlQdEw4THU3YW9wNWdSUFl4TUdxOEJ6REdLcG5rSFZrQzk0aGI5X216Q1N4WG5zTWR5U0JSdDRXRm1sSUlvOHlQVVZ2bU0xOGVVMWNEWERSQU1iemFGaUE1QXBPQk9WbllTT2hIa3Z6SG5VRkFLNA?oc=5",
-          "source": "Simply Wall Street",
-          "date": "2026-10-18T11:12:51.000Z"
         },
         {
           "title": "RBC cuts target for Louisiana-Pacific stock to USD 84.00",
@@ -2555,12 +2561,6 @@
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRGpBSTRkOEdQdDB1c0NjUG5LSldYWllfWkhnQWk5eEVmV0Q5SzJ6LS1Ucks5ZV9YbU5WY3NvdC1LT0EyZUFNbnZHcl9TaHF1NjV5aG05WkQ5VERSaW9TUFlPSDNuWkNlV0lVNWpaSHdYWWJwX2QyN2VWYmpyUnJCag?oc=5",
           "source": "HBS Dealer",
           "date": "2026-10-16T15:22:32.000Z"
-        },
-        {
-          "title": "West Nipissing looks to heal the 'scar' of former Weyerhaeuser mill site",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTFVIRGpKb1dKRjFMSWJzSHdrMnhHbHZ6bXhla25GOWZOZ2t5VFpraTBWYTk1NW9MWmRRSGZucDNrNFZiSDM1Vkp5YjhGZkd5bVhRMHdIdFRDcERxWEh1U1ozM1Fsd3hLNHJtU0xNOTJMUmhlQzVId0JVYVpOSldySWZ3YlpzV0VTTTUyd2lyVVVXTWFTZkdnck1iR0lpQzhteTB3alhIMDVodC10NkZfX0IwQ2J6cHZ3LVdkTkVuSXZ0dlk0UkhBRjR0aUk?oc=5",
-          "source": "The Trillium",
-          "date": "2026-10-16T13:25:39.000Z"
         },
         {
           "title": "Reduced softwood lumber duties hardly a relief for B.C. as dispute drags on",
@@ -11098,7 +11098,7 @@
     ]
   },
   "mills": {
-    "asOf": "2026-10-21",
+    "asOf": "2026-10-22",
     "count": 368,
     "live": {
       "BC": 115,
