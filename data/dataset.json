@@ -674,7 +674,7 @@
         },
         {
           "period": "2026-10",
-          "framing_composite": 508
+          "framing_composite": 505
         }
       ]
     },
@@ -2556,13 +2556,25 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-10-28T11:58:48.898Z",
+      "fetchedAt": "2026-10-28T18:07:12.856Z",
       "items": [
         {
-          "title": "Canfor to invest $96 million at El Dorado hub",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd2pkTDlDRndHR3Q0dmNtWVRXQTFobGlfbmlwY19UWTd5QXJXREdRZjlPS1RPdGRmbm0xdm5DQ0VLV21yT3pBUTlBTE1fT0hKcHY1clRTS29ieTFueFo1SF9HblhsRDQ3NHU5ODh5dGZOYWcwMm5VS3M0NlJKRk8zeDNoelU?oc=5",
-          "source": "Talk Business & Politics",
-          "date": "2026-10-28T11:52:19.000Z"
+          "title": "Canfor investing $96 million to upgrade Arkansas operations",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTWFESlRNZ29YYmVQbmhoMTVDYmU1VUp0NGNnQmt1SEg1SllpTHMtWTgzLUI0dlpPVzdpRjhpeENQQ0JnTlBXTEpHM3gwR01JYnVqRndFa0RUaW5majBXcnV2R0J4X09mMDA5bnpPLXA1S3VYVFZuaWxSdlNtRVFFcnM1WQ?oc=5",
+          "source": "HBS Dealer",
+          "date": "2026-10-28T17:30:17.000Z"
+        },
+        {
+          "title": "Ufp Industries faces earnings test as lumber market weakens By Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSnRBX08zNGhKeHJDajVvMURPUU90aVVadlVKVHZIczdJclNMbzd2MWMtRVRCU3JpWmFIRTRVVHpGMWhqQmJ3MDJiRTNvY0loTXU5N2tRbHNsU3NqOVppR3hYd0lvRVVkZWx3QnFIbERMc094ZmVROFZBMUlnQmxnMjhjNUNFOE8xNzFDN0NnaTVkeGgzQU83TlZvWUV6QVd0SlU2T25NcmdncUJSVFZJNExIUHl2VkRwMzdYMA?oc=5",
+          "source": "Investing.com South Africa",
+          "date": "2026-10-28T15:32:44.000Z"
+        },
+        {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOXI1eEhlQVgwUl9lZG0xUlhNOGcydVc4ZVBKZHJjWjN2ektCVmdaMXkyczJQMEFYbUk1d2txNGtlc2hzTDRFTXJ0dG1HRDkzVU1zUDZ1OVNrT25MRzhBaE41cXV1LTB1NVpraWtOTGpfZFNfOTVubElZSGlnTGprLVBjQVFlNklNN1lBZFJhTW0?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-10-28T14:30:13.000Z"
         },
         {
           "title": "Canfor to double Iron Mountain sawmill output in Arkansas with $96 million upgrade",
@@ -2571,10 +2583,22 @@
           "date": "2026-10-28T10:37:55.000Z"
         },
         {
+          "title": "Reclaimed Lumber Market Size to Reach USD 91.8 Billion by 2035, Expanding at a 4.6% CAGR",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcXFlUnJYVUNjV3o5MzhSRzlVT3V2Y2kwRV95Z0hQY1pVYjZKd1BiSHZlZU5JR2x2aFlTWFM5REM0Y0x5R2F2cUVKRGZ1elhIMXZrUlQ5dWRyeHBuM2JVLWswaW5iVmxLaTN3Q1FNQXFHb3luRk1OVUNJNTI1bVF0S09YdnRySFl5YTZtbmN1c1MyOVlzS0ZHLU5TMkNwcFU?oc=5",
+          "source": "openPR.com",
+          "date": "2026-10-28T05:34:30.000Z"
+        },
+        {
           "title": "HILDEBRAND: If Interfor won\u2019t reopen Ear Falls, it\u2019s time for public ownership",
           "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOREctTUxMMHM1cWNITV9Jc3BxUGI0a20ybk81SVhVV3YxWDJHYzU3d1N5Vi1xRnF2c1ZYY3lUanBpa3FoYmRhMEh3ZDI0Rkhub1pHZWFfQzFnTUNRY2JnQVF3VDZoSi1GaTM0a2gyQlA3RTFLaGg4V2gxbDZWXzlYZlA3WVBTdWlCSVhNZEFRQVFmZDB1SVhZdW9UWWptZUprU0c3OXdrd0dpZHBHZ1RObjY1NzdQWjNhQ05QQ185RFNyVFR1U1k1S2ZMUTNFQWI5YkZfN3VQQ001YzF6eHViMGNGNzZ4b1U4cGJ3ZUxtUFNQRG5pTEJlUkppMkdIdw?oc=5",
           "source": "Kenora Miner & News",
           "date": "2026-10-28T03:16:00.000Z"
+        },
+        {
+          "title": "Canfor announces $96 million investment at El Dorado mill",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbU1SNnlEOF9fOW1hVjd4NEp5S3ZBTUlLUTFfMVl5ZVFRRE5oTS14dk1XY1lndk5JLWVXalE5OHNJaElWZi1yV2puVmFXM0RMd2Y4SGJKMkpXSTluUWl4MWJNTjNleFNKM3A3VjRXV2kwTm1zeW4xS0RqSVl1emtJWmMwejJMSGhrSHM0QVo4eXRvNlBHZEpETnNWRWF4cV9LUUdCWEE1dlN1aFl2UUpsWUk0dw?oc=5",
+          "source": "Magnolia Reporter",
+          "date": "2026-10-28T02:04:00.000Z"
         },
         {
           "title": "Weyerhaeuser Targeted In New Suit Over Wash. Mill Implosion",
@@ -2618,22 +2642,16 @@
           "focus": true
         },
         {
-          "title": "Weyerhaeuser Company expected to post earnings of 4 cents a share - Earnings Preview",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMTRoZnBJWFZ6NHl4TWlPb0JTMURYYWxjcGxwb3BJNW56NmJqbzFOa2tJZVRSNUlheGo4aFFETVZONGxTb0FQd3NoMnZuQlUtdXBrN21DTWJWRmlHQWZJTVRMOEdoUk11bFYyc2JxY0pPNGpwVXZkTHdQaVZEZ0k5Nnc0Z2hwNVdSSEo3RkxyYXVkNEstRjY2RTBxazZrQi1VZVc5alNSNnFKVDk4SVltX04wTDlScExBTzBaUzlWbTJiUm1Lc0JMNllFRGt3ZW5sbnRuUU5Eem1CUUYwMEVweXdfekdCU1E?oc=5",
-          "source": "TradingView",
-          "date": "2026-10-27T20:44:06.000Z"
-        },
-        {
           "title": "Is Lower Earnings Forecast Altering The Investment Case For Weyerhaeuser Stock (WY)?",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeDlXYWFMVFU4WHZObmpLZ05mSE5ScWFtU3E4X2NiMFI4UWxQSnF4NGZjMFM5cTNnUFVkTE1jbnZHVFZTM2lKdXowLWVyYU9kQVBLaGhQd1Z1alQ2eGVrejRxdjZPTUtHUHh5QVhsMDhfN1NTUVk1U0poMHU5TkxoTkZZRk5FXzB2T3RnNVlMdE5YX25lRlB1YXdsR3FoLWFkcXN5TmJ1V0NqQlRPQVpPbU5iZXB0eGh0al9DWWUxU0w1em5hMTMyZ1F2RlJyd9IBzgFBVV95cUxOeDlXYWFMVFU4WHZObmpLZ05mSE5ScWFtU3E4X2NiMFI4UWxQSnF4NGZjMFM5cTNnUFVkTE1jbnZHVFZTM2lKdXowLWVyYU9kQVBLaGhQd1Z1alQ2eGVrejRxdjZPTUtHUHh5QVhsMDhfN1NTUVk1U0poMHU5TkxoTkZZRk5FXzB2T3RnNVlMdE5YX25lRlB1YXdsR3FoLWFkcXN5TmJ1V0NqQlRPQVpPbU5iZXB0eGh0al9DWWUxU0w1em5hMTMyZ1F2RlJydw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcFhDXzZNRFhJQzNpdWVka1l3TVdBY0twNHlQcFd2dHluOVd1c2U4clJwRGUtaFhJazdFRy1keXRXc3JwNjYzS2VISi1GVV9QZjZvajVHdnMzbWFkbVFpM2ZDaExteElNS1A5Q2laVWlmOUI4RlpiODF6Z29PLXN0eEF2ZllldXJFaFkzNzNTci1ab0ZuSXdIdXFZekpjMl8wQkVlcHFUTERXLWVnVGhJb1VMaWFzU1pWUFVlOUh2NGsxYmFUVHdwdtIBzgFBVV95cUxOeDlXYWFMVFU4WHZObmpLZ05mSE5ScWFtU3E4X2NiMFI4UWxQSnF4NGZjMFM5cTNnUFVkTE1jbnZHVFZTM2lKdXowLWVyYU9kQVBLaGhQd1Z1alQ2eGVrejRxdjZPTUtHUHh5QVhsMDhfN1NTUVk1U0poMHU5TkxoTkZZRk5FXzB2T3RnNVlMdE5YX25lRlB1YXdsR3FoLWFkcXN5TmJ1V0NqQlRPQVpPbU5iZXB0eGh0al9DWWUxU0w1em5hMTMyZ1F2RlJydw?oc=5",
           "source": "Simply Wall Street",
-          "date": "2026-10-27T20:16:48.000Z"
+          "date": "2026-10-27T20:16:46.000Z"
         },
         {
-          "title": "BC-Lumber Futures",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaGVyMlRzRUN2T2U5clZDY0tZOHFLZlJEWDlLU0FJNFZqcDd4QXdUeGFubTI2MkFFNWJSeEFQWWpHY3RyOWlTM1JrV1FBTEN2by1OWUQtdmg0d01UVFZnWWNiM2RnY1J3c2lCckxvc0NqVjJZODVpVXhCNXdiRmo1cXVmTGVjRnJyREJNTXR1SFF1eXhBSzNWTlVEY2NLN3VrSHVnU1RneG1ReG8?oc=5",
-          "source": "WFMZ.com",
-          "date": "2026-10-27T16:41:23.000Z"
+          "title": "Canfor Announces $96 Million Investment to Strengthen Arkansas Regional Hub",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTVFQVFI1SmlNZW4yVXNUMzFqd0hWaVJqbWNuYVBxdkxIdUhMUXQtMU83bDZ2WGJvUzVTeTY1aThJR1R4TFF2RzJpVVdkMzB5RVJPWlRvUHN0ZENLNVNnazZXam41YjhHVjJVMGh5R1lveDFWcm5hYmh2ZEJ6WVR1Y2pQTDZZZlFXWTkwVVVGdzdSWGU2d3NCUm5TemtFdnllQlRYWHM0WjYwU20wNWR1X2NjekpRMHVLNld6X1RSbFAxMnRnSzgtUk9aeXlBbmdJR05RZFJBSGVYZndBUnBR?oc=5",
+          "source": "GlobeNewswire",
+          "date": "2026-10-27T17:07:00.000Z"
         },
         {
           "title": "Canfor\u2019s Lumber and Pulp Exposure: Housing Signals and Mill Economics Matter (TSX:CFP)",
@@ -2643,9 +2661,15 @@
         },
         {
           "title": "West Fraser Timber faces earnings test as lumber markets stabilize By Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORGQ3OUlZZFVkeVBsaFQySThVYW5EOXVyWmV0czZXaU9ha19xUzBDTlVmVC1mS2VrUERyLXc2TUdNZjlpUGVXMXhEMWJZQWRpYUNTNmJDekduUU5nb2RDRlVJZWNVMlFKX3h4UFF2WVNpMmpFWi1iOV9IdW52ckI4Rlc2dE1pNVgtcExKS2otNzktbm5NNmtuUEVPdVpDOXJ3VFdadWlrbV8tZ0FMUTE5eXI5a1ktRC15aTIwa19XbThsRDdvQVE?oc=5",
-          "source": "Investing.com Australia",
-          "date": "2026-10-27T15:32:52.000Z"
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcGlkSmRmODFGZEM1dUpMNTBReGFfQnlkWHA5M1VBNWVZZEk2dnAwWllLMVVQVDZPRUFMUTM0VS1sMmo5QXZxRWVYN0Y2N0QwbmlvZkVaR1Z3Rl9qek5JYnJLTUZ0ZDVvMnlFczVuMlVDX3BBUHpsbjBfTWs0VlpnOGR2TTd3WHZkUF8xN3RYVlE0cS1HR2V4ek5CVS14M2V1Zm92ZjNBYW5nbUtqYXNwbG5MdktPTWFtZXEtZHVkellXNkFvNHc?oc=5",
+          "source": "Investing.com Canada",
+          "date": "2026-10-27T15:27:44.000Z"
+        },
+        {
+          "title": "WY Q2 2026 Earnings: Bottom-Line Beat of 47% Fails to Lift the Stock - Revenue Beat Analysis",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc3didmdFcGo2RTBTdkxHOFljZWRwMk1aMjVpTjhJMlNCREtXUGdXaUF6SFlEbDZkSUQ3SVJjZU1wVUR6S3Jxb3RXZ09TRUN0UnpkREgwQzU4ZTBhMlhfbnhzemN3ak1nc3Y5TmJiX2pPQ1hTbkhmY2FPQ25haGVXVElZMzlvcWFUY0F4X3ZtQVdwd1FhNGphazg5ODRXb3A1YXVoM0ZzbHR1QVE?oc=5",
+          "source": "https://www.dars.gov.et/",
+          "date": "2026-10-27T14:48:12.000Z"
         },
         {
           "title": "Louisiana-Pacific (LPX) Set to Post Quarterly Earnings on Tuesday",
@@ -2658,6 +2682,12 @@
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT1lhOFBpc2RpUFRsdy02ZVBGSVV4Q1UtSndmVHFNLXJ0eDFFdDBnOW1Kdk5EdEowTVd6OENZdVlfcFZtUUFlajlkUk9QZEp4LVN0YkQtRTFINHhtd0RIQmt3d0tKRUZHYzhHc3ZzNFY3R0NiVmttT3plNlZ2SnFJdXlZczVma3I2UEUwWC1hLXlzQmlaendMRU9WMThydG9MNWc?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-10-27T13:00:07.000Z"
+        },
+        {
+          "title": "RBC cuts target for Weyerhaeuser stock from USD 30 to USD 25",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOREdUX1FMVjJkWHBJQmZnQ3RmSTZVNTlna1dTNFI3SElVMF92bzN4cHN2dGprVXFnZEZhaExMcmJlR2ZLNl9aOG1DR1RrLU9OQ1loYkVtWWV1NzJ3S0FkTWFqUzE1U0IzQWRabWlhWjRac2I0UGUxRjBWd0I3SC1LemZfVVBZRTl6d3FfOVg3UFl5QUVFcVJycnUwdmNlTEtDbXRRU01mdWFfa1FtOVVCYXlWYUNpVlZwR1VkTENfbzE?oc=5",
+          "source": "ad-hoc-news.de",
+          "date": "2026-10-27T12:54:21.000Z"
         },
         {
           "title": "US Pending Home Sales Fall to Lowest Level Since 2021",
@@ -2707,18 +2737,6 @@
           "date": "2026-10-26T21:00:02.000Z"
         },
         {
-          "title": "Southern Timber Market Update",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMzZWRk95VU5wTlRibXhUMXB5d0FhQ0lEeXRua3RpUy1KZ3Y5dE1YYkFFQk91MHJOY3dtYllET3Q0MFNpUnJmZ2NEdHppQWJLN3Z5WkYxdFdGbm1sMWNEYVBiYWFQV2FpMmZac1QxbGpxLXQtMDZzM0V4LUp0ZmpnS21n?oc=5",
-          "source": "Oklahoma Farm Report",
-          "date": "2026-10-26T16:26:40.000Z"
-        },
-        {
-          "title": "Weyerhaeuser YCE Lobby Sponsorship",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR0x3a21tRW5zbWl0MklkSl93c0c2SmZYWVhnNk9RV0dvQlZwSU13TGNYUmVnMXhNOFR2WndaYm13MEg4TkY2bUtROE5rWnJMNE1QYk5CdGFFVmZyREJsZ3BKSTQ0RkZmOS00TVNmQ1ZrSGFnV3RHQ185LTdHQmd3YjRfNmFBVWQtT3c?oc=5",
-          "source": "The Town of Edson",
-          "date": "2026-10-26T16:07:16.000Z"
-        },
-        {
           "title": "Weyerhaeuser to Report Q3 Earnings: Here's What Investors Must Know",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzVtQkc3M1VXeDdkNXdMZ3QyTV9kZHF6b3JibEFEZ0V3UFg0NzZab0JSWVV1N0Z3UkFCZGk5d2RiUFZWNnpacFpnWUotOVhvYkFPdUdMS2NtZ1ZKOTRCMmF0TFllLVNab21RNTlrd0tGV1V0OV9RbURWT3hmcGhWdjE3b2hHbUh6Qk5XOEVGeFo5cG9Ndi1ZWjh2dGx1ZHAwRHVlZEVubTVfUXhJY1U3Q1BfeTNMWklOYmlJOWl1TQ?oc=5",
           "source": "TradingView",
@@ -2729,24 +2747,6 @@
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMjNGSzl6ckVnUGhna0g1azhyNXp2cnFxS3V1VTlOZFZPUDNZekRTcksza045ZTA1R0d1MUNnNXlvbGRRbmxtUFhWYmFDTGd0clFFc1c4RjNtaVMtcmZObUg5RElxVmFNN0lUNzYxWjF6dzg4STRXNFltWWo4Z3dXWXFhLVBUdmF5QWNfbWU2OWZoeTNQMUFrbS1hY3AxckRmNU1KZThSbFJhTGJXUmdhbm5JdzhKRGlqaGFCME1vZXpOakdHd1hqdGtvRVFEQnJ6dEE?oc=5",
           "source": "kalkine.ca",
           "date": "2026-10-26T08:01:00.000Z"
-        },
-        {
-          "title": "CME lumber futures end week at $518.50, down 2.6%",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSGY3YmpDTUJvdlRiR05HdUFiYTFPT3ZvSzFBUm9qanZEMFJJbE5pZ1BEX1lCYVZ4U3VWYzNMM2w1bW5mYmV3RHlodE1iM1ZobjN4amNKdWh5VGJNaDl6VEJzU1NFQzNvS1dBZ0cyNXU4T3hNcWFEc2RvNVR5cktYR3JzdVVTT1FUeHZiTDQzdw?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-10-26T01:47:13.000Z"
-        },
-        {
-          "title": "Lawsuit: Nippon ignored warnings before chemical tank implosion killed 11 workers",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYTlwZFk4YnlsY2dtV1pYRHN4VWtqazhNZVpqa196LVBHaWVIMGtlcHM0Q3pCdzRWSVJmaGJ1Mlcwa1dKY1UyelY5OWRZdFI3YkFRemRDVng3Z3VTc1B1UUViT09iLTZMbExzTURPX3B0ZV90V3dSMERnOXhSWFYxN1d3Zk45blpla3NEcXJvbjhwcEcyN0FJcmx0WXh0eHhrcXNBenltRTNhVWduTkl0SnIyOFJJdmZHWk01NS1DLTNMS2V5MlhIZjJpaXZySU1zRlFneWlUUHFoUUppb0oxMVk0ZXNKVFNUMEYtM3g1SW5RZXM?oc=5",
-          "source": "OregonLive.com",
-          "date": "2026-10-24T22:15:00.000Z"
-        },
-        {
-          "title": "Crews battle commercial structure fire at Georgetown County lumber facility",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbGRXVl9xZEREQjhJTUd4WDEwdmNabjROeEZhc2xCOUZRUEhhQWszdWRBRUgwOFRPM2Y0Y3VwdFFuaEF2RkhyM2JpUkdFb29yUnoyMklnTG9QcW1yNHgwRFhEN0g1YS1RWjFaOGNnUDNSdGlYb3F3MnUydlE0QXRkYjNvY1ZKTmxEWWljNnRDRGs4a19IamxxdWxyazA0US14Ym1reU9NcDdTSURITUJV0gHDAUFVX3lxTE44V2NqdmNibi1zOTRoT3lidWIxRkJ0LUVsZ280QkF0MVk4a1BtSDRZQzh5Z05Qb0xPcHoza3NvMmR5MEk2dlVQNGZjV2FLcGJsVldEQ1hYUC1ucWUwYWpYd2VESU5JMURHNzM4bHFXNy1pOUJDYVUtbEllV2RSenltQWpYQmUyUEpuTDdjTEVfdFpEOElWZGNxN1lLTmJGLUZvYzZmamg5NEpiXzdOcllxcThDVUJIbFZOdVAtRWNTU1hlTQ?oc=5",
-          "source": "Live 5 News",
-          "date": "2026-10-24T19:18:00.000Z"
         }
       ]
     },
@@ -7080,19 +7080,19 @@
             "period": "2026-10",
             "mean": 842395,
             "lo": 750468,
-            "hi": 945583
+            "hi": 945582
           },
           {
             "period": "2026-11",
-            "mean": 756208,
+            "mean": 756206,
             "lo": 667953,
-            "hi": 856125
+            "hi": 856121
           },
           {
             "period": "2026-12",
-            "mean": 651857,
-            "lo": 571195,
-            "hi": 743909
+            "mean": 651856,
+            "lo": 571197,
+            "hi": 743906
           }
         ]
       }
@@ -16098,11 +16098,11 @@
     ]
   },
   "fires": {
-    "asOf": "2026-10-28T11:58:59.523Z",
+    "asOf": "2026-10-28T18:07:14.379Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
-    "total": 201,
-    "count": 201,
+    "total": 271,
+    "count": 271,
     "capped": false,
     "fields": [
       "lat",
@@ -16280,6 +16280,12 @@
         0
       ],
       [
+        45.396,
+        -63.695,
+        11,
+        0
+      ],
+      [
         46.004,
         -123.737,
         11,
@@ -16424,6 +16430,12 @@
         0
       ],
       [
+        45.751,
+        -66.258,
+        7,
+        0
+      ],
+      [
         46.424,
         -120.275,
         7,
@@ -16436,9 +16448,27 @@
         0
       ],
       [
+        45.744,
+        -66.27,
+        7,
+        0
+      ],
+      [
+        45.748,
+        -66.272,
+        7,
+        0
+      ],
+      [
         43.227,
         -124.349,
         7,
+        0
+      ],
+      [
+        45.248,
+        -63.715,
+        6,
         0
       ],
       [
@@ -16478,6 +16508,12 @@
         0
       ],
       [
+        45.746,
+        -66.24,
+        6,
+        0
+      ],
+      [
         51.82,
         -101.474,
         5,
@@ -16508,6 +16544,12 @@
         0
       ],
       [
+        41.643,
+        -87.137,
+        5,
+        0
+      ],
+      [
         48.943,
         -123.966,
         5,
@@ -16520,6 +16562,12 @@
         0
       ],
       [
+        44.603,
+        -73.593,
+        5,
+        0
+      ],
+      [
         45.918,
         -123.454,
         4,
@@ -16528,6 +16576,12 @@
       [
         42.802,
         -80.105,
+        4,
+        0
+      ],
+      [
+        44.781,
+        -113.381,
         4,
         0
       ],
@@ -16598,6 +16652,18 @@
         0
       ],
       [
+        43.23,
+        -77.373,
+        3,
+        0
+      ],
+      [
+        44.424,
+        -123.355,
+        3,
+        0
+      ],
+      [
         51.749,
         -103.01,
         3,
@@ -16618,6 +16684,12 @@
       [
         48.418,
         -119.214,
+        3,
+        0
+      ],
+      [
+        41.641,
+        -87.411,
         3,
         0
       ],
@@ -16646,8 +16718,32 @@
         0
       ],
       [
+        45.744,
+        -119.395,
+        3,
+        0
+      ],
+      [
+        41.465,
+        -87.111,
+        3,
+        0
+      ],
+      [
+        41.466,
+        -87.118,
+        3,
+        0
+      ],
+      [
         42.975,
         -95.678,
+        3,
+        0
+      ],
+      [
+        48.747,
+        -124.228,
         3,
         0
       ],
@@ -16660,6 +16756,18 @@
       [
         48.863,
         -118.316,
+        3,
+        0
+      ],
+      [
+        41.633,
+        -87.139,
+        3,
+        0
+      ],
+      [
+        41.638,
+        -87.146,
         3,
         0
       ],
@@ -16690,6 +16798,12 @@
       [
         42.806,
         -80.1,
+        2,
+        0
+      ],
+      [
+        41.225,
+        -83.209,
         2,
         0
       ],
@@ -16736,6 +16850,12 @@
         0
       ],
       [
+        41.637,
+        -87.13,
+        2,
+        0
+      ],
+      [
         51.559,
         -119.934,
         2,
@@ -16750,6 +16870,18 @@
       [
         51.277,
         -101.949,
+        2,
+        0
+      ],
+      [
+        48.156,
+        -103.351,
+        2,
+        0
+      ],
+      [
+        48.997,
+        -124.055,
         2,
         0
       ],
@@ -16772,14 +16904,20 @@
         0
       ],
       [
-        41.639,
-        -87.412,
+        45.748,
+        -119.391,
         2,
         0
       ],
       [
         41.674,
         -87.465,
+        2,
+        0
+      ],
+      [
+        44.428,
+        -123.359,
         2,
         0
       ],
@@ -16808,6 +16946,12 @@
         0
       ],
       [
+        41.481,
+        -90.821,
+        2,
+        0
+      ],
+      [
         42.816,
         -80.098,
         2,
@@ -16820,14 +16964,20 @@
         0
       ],
       [
-        41.638,
-        -87.138,
+        41.627,
+        -87.368,
         2,
         0
       ],
       [
         42.282,
         -83.113,
+        2,
+        0
+      ],
+      [
+        48.701,
+        -124.236,
         2,
         0
       ],
@@ -16850,8 +17000,26 @@
         0
       ],
       [
+        48.971,
+        -124.065,
+        2,
+        0
+      ],
+      [
         41.119,
         -85.353,
+        2,
+        0
+      ],
+      [
+        44.781,
+        -113.372,
+        2,
+        0
+      ],
+      [
+        45.602,
+        -62.275,
         2,
         0
       ],
@@ -16904,6 +17072,12 @@
         0
       ],
       [
+        46.044,
+        -73.144,
+        2,
+        0
+      ],
+      [
         41.627,
         -87.147,
         2,
@@ -16918,6 +17092,30 @@
       [
         41.88,
         -112.197,
+        1,
+        0
+      ],
+      [
+        44.47,
+        -116.095,
+        1,
+        0
+      ],
+      [
+        41.431,
+        -82.265,
+        1,
+        0
+      ],
+      [
+        48.637,
+        -103.31,
+        1,
+        0
+      ],
+      [
+        48.152,
+        -103.35,
         1,
         0
       ],
@@ -16946,14 +17144,44 @@
         0
       ],
       [
+        47.355,
+        -101.838,
+        1,
+        0
+      ],
+      [
         51.249,
         -102.897,
         1,
         0
       ],
       [
+        47.473,
+        -103.209,
+        1,
+        0
+      ],
+      [
+        48.086,
+        -103.597,
+        1,
+        0
+      ],
+      [
         46.949,
         -119.878,
+        1,
+        0
+      ],
+      [
+        41.624,
+        -87.146,
+        1,
+        0
+      ],
+      [
+        48.993,
+        -124.051,
         1,
         0
       ],
@@ -16970,6 +17198,30 @@
         0
       ],
       [
+        41.481,
+        -90.827,
+        1,
+        0
+      ],
+      [
+        42.222,
+        -89.708,
+        1,
+        0
+      ],
+      [
+        56.842,
+        -125.116,
+        1,
+        0
+      ],
+      [
+        48.705,
+        -124.234,
+        1,
+        0
+      ],
+      [
         41.351,
         -122.301,
         1,
@@ -16978,6 +17230,12 @@
       [
         48.207,
         -124.147,
+        1,
+        0
+      ],
+      [
+        44.118,
+        -119.624,
         1,
         0
       ],
@@ -17030,8 +17288,14 @@
         0
       ],
       [
-        41.431,
-        -82.266,
+        43.788,
+        -122.246,
+        1,
+        0
+      ],
+      [
+        48.063,
+        -102.816,
         1,
         0
       ],
@@ -17060,8 +17324,14 @@
         0
       ],
       [
-        46.042,
-        -73.139,
+        56.852,
+        -125.133,
+        1,
+        0
+      ],
+      [
+        43.12,
+        -79.172,
         1,
         0
       ],
@@ -17078,8 +17348,8 @@
         0
       ],
       [
-        43.121,
-        -79.175,
+        48.097,
+        -102.913,
         1,
         0
       ],
@@ -17096,6 +17366,12 @@
         0
       ],
       [
+        48.633,
+        -103.312,
+        1,
+        0
+      ],
+      [
         42.818,
         -81.325,
         1,
@@ -17108,14 +17384,26 @@
         0
       ],
       [
+        48.702,
+        -124.179,
+        1,
+        0
+      ],
+      [
+        48.706,
+        -124.183,
+        1,
+        0
+      ],
+      [
         51.426,
         -100.341,
         1,
         0
       ],
       [
-        41.637,
-        -87.131,
+        58.083,
+        -134.651,
         1,
         0
       ],
@@ -17138,6 +17426,24 @@
         0
       ],
       [
+        41.623,
+        -87.367,
+        1,
+        0
+      ],
+      [
+        44.525,
+        -88.012,
+        1,
+        0
+      ],
+      [
+        47.671,
+        -102.649,
+        1,
+        0
+      ],
+      [
         50.306,
         -126.728,
         1,
@@ -17146,6 +17452,30 @@
       [
         51.423,
         -100.342,
+        1,
+        0
+      ],
+      [
+        41.55,
+        -74.391,
+        1,
+        0
+      ],
+      [
+        43.402,
+        -87.95,
+        1,
+        0
+      ],
+      [
+        48.807,
+        -103.325,
+        1,
+        0
+      ],
+      [
+        48.745,
+        -124.191,
         1,
         0
       ],
@@ -17204,6 +17534,30 @@
         0
       ],
       [
+        42.085,
+        -97.362,
+        1,
+        0
+      ],
+      [
+        48.002,
+        -102.794,
+        1,
+        0
+      ],
+      [
+        48.154,
+        -103.363,
+        1,
+        0
+      ],
+      [
+        48.47,
+        -122.559,
+        1,
+        0
+      ],
+      [
         45.305,
         -74.994,
         1,
@@ -17216,8 +17570,26 @@
         0
       ],
       [
+        41.727,
+        -89.404,
+        1,
+        0
+      ],
+      [
         42.285,
         -83.111,
+        1,
+        0
+      ],
+      [
+        47.764,
+        -103.547,
+        1,
+        0
+      ],
+      [
+        48.697,
+        -124.188,
         1,
         0
       ],
@@ -17246,6 +17618,12 @@
         0
       ],
       [
+        42.498,
+        -73.818,
+        1,
+        0
+      ],
+      [
         41.632,
         -83.506,
         1,
@@ -17264,8 +17642,32 @@
         0
       ],
       [
+        49.067,
+        -100.816,
+        1,
+        0
+      ],
+      [
+        48.721,
+        -124.254,
+        1,
+        0
+      ],
+      [
+        42.822,
+        -86.002,
+        1,
+        0
+      ],
+      [
         41.431,
         -82.263,
+        1,
+        0
+      ],
+      [
+        41.485,
+        -90.824,
         1,
         0
       ],
@@ -17294,14 +17696,32 @@
         0
       ],
       [
+        48.113,
+        -102.867,
+        0,
+        0
+      ],
+      [
         41.732,
         -83.52,
         0,
         0
       ],
       [
+        44.994,
+        -108.624,
+        0,
+        0
+      ],
+      [
         41.954,
         -88.144,
+        0,
+        0
+      ],
+      [
+        42.977,
+        -89.048,
         0,
         0
       ],
