@@ -675,7 +675,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-10",
-          "framing_composite": 505
+          "framing_composite": 508
         }
       ]
     },
@@ -2557,8 +2557,20 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-10-28T03:39:49.276Z",
+      "fetchedAt": "2026-10-28T11:58:48.898Z",
       "items": [
+        {
+          "title": "Canfor to invest $96 million at El Dorado hub",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd2pkTDlDRndHR3Q0dmNtWVRXQTFobGlfbmlwY19UWTd5QXJXREdRZjlPS1RPdGRmbm0xdm5DQ0VLV21yT3pBUTlBTE1fT0hKcHY1clRTS29ieTFueFo1SF9HblhsRDQ3NHU5ODh5dGZOYWcwMm5VS3M0NlJKRk8zeDNoelU?oc=5",
+          "source": "Talk Business & Politics",
+          "date": "2026-10-28T11:52:19.000Z"
+        },
+        {
+          "title": "Canfor to double Iron Mountain sawmill output in Arkansas with $96 million upgrade",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQTBqUnJsNGFEdW1tV3RJMTh0ZkE2bFNZVWI3Wjd0OE5zZ0JRR3AwMUtnVC1rWU9ZZXFJeEgxcGZCaVExWW5DOUxoYlVjNnU4QzZGSnJ5TWo3ejhQNmUzZFN1WGRORS1QOWZFbXFNNE1uSEotWk9qMmhwckpucVN1MjNsWVIyTUlqWTJlTkdoa21fcWN0U2llZDFuRFhaTzJoNldjRm5SVWFjbkpUVktCa0JiVngxSU1UUG50Y0N3?oc=5",
+          "source": "Lesprom Network",
+          "date": "2026-10-28T10:37:55.000Z"
+        },
         {
           "title": "HILDEBRAND: If Interfor won\u2019t reopen Ear Falls, it\u2019s time for public ownership",
           "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOREctTUxMMHM1cWNITV9Jc3BxUGI0a20ybk81SVhVV3YxWDJHYzU3d1N5Vi1xRnF2c1ZYY3lUanBpa3FoYmRhMEh3ZDI0Rkhub1pHZWFfQzFnTUNRY2JnQVF3VDZoSi1GaTM0a2gyQlA3RTFLaGg4V2gxbDZWXzlYZlA3WVBTdWlCSVhNZEFRQVFmZDB1SVhZdW9UWWptZUprU0c3OXdrd0dpZHBHZ1RObjY1NzdQWjNhQ05QQ185RFNyVFR1U1k1S2ZMUTNFQWI5YkZfN3VQQ001YzF6eHViMGNGNzZ4b1U4cGJ3ZUxtUFNQRG5pTEJlUkppMkdIdw?oc=5",
@@ -2566,22 +2578,10 @@ window.LUMBER_DATA = {
           "date": "2026-10-28T03:16:00.000Z"
         },
         {
-          "title": "Canfor announces $96 million investment at El Dorado mill",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbU1SNnlEOF9fOW1hVjd4NEp5S3ZBTUlLUTFfMVl5ZVFRRE5oTS14dk1XY1lndk5JLWVXalE5OHNJaElWZi1yV2puVmFXM0RMd2Y4SGJKMkpXSTluUWl4MWJNTjNleFNKM3A3VjRXV2kwTm1zeW4xS0RqSVl1emtJWmMwejJMSGhrSHM0QVo4eXRvNlBHZEpETnNWRWF4cV9LUUdCWEE1dlN1aFl2UUpsWUk0dw?oc=5",
-          "source": "Magnolia Reporter",
-          "date": "2026-10-28T02:04:00.000Z"
-        },
-        {
           "title": "Weyerhaeuser Targeted In New Suit Over Wash. Mill Implosion",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTTdqSHZ1dl9xbDRnbzVWTlpMVklOTHJlUk9tRmtCMHlycVRtbm5zWG5zcXU0SUd6LTBWcFNsTG1vNHI4LTIxZHhqVHhOOW1mRURZQVZOR3BXSmhvTTM2d2NTVVQzSE82LTNwN2FwQ3k0SVUtcllVenoyUU5uLXFyR3BfWWRUVWZPRDZsRG9XbFAwR2hZVlFGUS1ZbTZKMmxWel9yNXZZNjNMZ2ViUW1kSjF5RmJIZ25ZMld6c3ZUajhFRTTSAXJBVV95cUxONTR0TUhrTmMyYTRISVlTaTNJaDJZZnZJLV94LW1BQWxIa2owTDg4Nzhxb3dFNVVTQk1CcEJuZ1lOZjVsbUIzakRiY2hIUUJDLUhTdGdHRnRGMnpJZnF5ZkJpaEwtQ3ZaemxBQmo5SzFMbGc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbWNFcUtmTWwzV1pFY1p4eEs0XzBHdFlNTm5ENThpZW42M2dJQmExaGt1bURvLXBDbDViMWlmTVBXY0p0QUNMNi1LUXc1a1JMeEdycWxON3lLa3JHNDhtOWZSYlpHNmlmeVVxdWx4UVhqVVNpVFliSVcyT2s3dGh2NlhfWnUyeHJVajVoSnFGd0xYSWJmbllEMXpKeVpXajFMR0tkNVhzaTMyR0owZ3owZ1YwdjBtSlVtOVBN0gFyQVVfeXFMTjU0dE1Ia05jMmE0SElZU2kzSWgyWWZ2SS1feC1tQUFsSGtqMEw4ODc4cW93RTVVU0JNQnBCbmdZTmY1bG1CM2pEYmNoSFFCQy1IU3RnR0Z0RjJ6SWZxeWZCaWhMLUN2WnpsQUJqOUsxTGxn?oc=5",
           "source": "Law360",
           "date": "2026-10-28T01:47:18.000Z"
-        },
-        {
-          "title": "El Dorado's Iron Mountain mill expansion to wrap in Q4 2026 under $96M plan",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMTdzcDBaZGVISTFvY1lSMkRVWGNISElXSzRrMUZjVGY4NWxTd3hjTy1sai1welR1MDNVV2wzRFBaZ2NnUmF4T0VXTGZpdC1mMVNjanFKVHBsY3BYUmFqVU5rQXQ5dTh5X1h4Z3I2ejlkcGpjcm1uYVNGYXpNLW0yZVB4djg4eG1QMXZKT3I0YnViWjdqMEt5eTJmQzNlSC02ZUJJYjVKOU4yUTBfakp3cXFPT19hTkhWaVV1alVZQ1JFaEUwelU0emMyZnZIMWRNdEhFeXo3eDdKbHVjd1k1SHBfWFY5di1oT1J0Vg?oc=5",
-          "source": "KATV",
-          "date": "2026-10-27T21:34:09.000Z"
         },
         {
           "title": "US New Single-Family Home Sales Fall in September",
@@ -2619,16 +2619,16 @@ window.LUMBER_DATA = {
           "focus": true
         },
         {
-          "title": "Is Lower Earnings Forecast Altering The Investment Case For Weyerhaeuser Stock (WY)?",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcFhDXzZNRFhJQzNpdWVka1l3TVdBY0twNHlQcFd2dHluOVd1c2U4clJwRGUtaFhJazdFRy1keXRXc3JwNjYzS2VISi1GVV9QZjZvajVHdnMzbWFkbVFpM2ZDaExteElNS1A5Q2laVWlmOUI4RlpiODF6Z29PLXN0eEF2ZllldXJFaFkzNzNTci1ab0ZuSXdIdXFZekpjMl8wQkVlcHFUTERXLWVnVGhJb1VMaWFzU1pWUFVlOUh2NGsxYmFUVHdwdtIBzgFBVV95cUxOeDlXYWFMVFU4WHZObmpLZ05mSE5ScWFtU3E4X2NiMFI4UWxQSnF4NGZjMFM5cTNnUFVkTE1jbnZHVFZTM2lKdXowLWVyYU9kQVBLaGhQd1Z1alQ2eGVrejRxdjZPTUtHUHh5QVhsMDhfN1NTUVk1U0poMHU5TkxoTkZZRk5FXzB2T3RnNVlMdE5YX25lRlB1YXdsR3FoLWFkcXN5TmJ1V0NqQlRPQVpPbU5iZXB0eGh0al9DWWUxU0w1em5hMTMyZ1F2RlJydw?oc=5",
-          "source": "Simply Wall Street",
-          "date": "2026-10-27T20:16:46.000Z"
+          "title": "Weyerhaeuser Company expected to post earnings of 4 cents a share - Earnings Preview",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMTRoZnBJWFZ6NHl4TWlPb0JTMURYYWxjcGxwb3BJNW56NmJqbzFOa2tJZVRSNUlheGo4aFFETVZONGxTb0FQd3NoMnZuQlUtdXBrN21DTWJWRmlHQWZJTVRMOEdoUk11bFYyc2JxY0pPNGpwVXZkTHdQaVZEZ0k5Nnc0Z2hwNVdSSEo3RkxyYXVkNEstRjY2RTBxazZrQi1VZVc5alNSNnFKVDk4SVltX04wTDlScExBTzBaUzlWbTJiUm1Lc0JMNllFRGt3ZW5sbnRuUU5Eem1CUUYwMEVweXdfekdCU1E?oc=5",
+          "source": "TradingView",
+          "date": "2026-10-27T20:44:06.000Z"
         },
         {
-          "title": "Canfor Announces $96 Million Investment to Strengthen Arkansas Regional Hub",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTVFQVFI1SmlNZW4yVXNUMzFqd0hWaVJqbWNuYVBxdkxIdUhMUXQtMU83bDZ2WGJvUzVTeTY1aThJR1R4TFF2RzJpVVdkMzB5RVJPWlRvUHN0ZENLNVNnazZXam41YjhHVjJVMGh5R1lveDFWcm5hYmh2ZEJ6WVR1Y2pQTDZZZlFXWTkwVVVGdzdSWGU2d3NCUm5TemtFdnllQlRYWHM0WjYwU20wNWR1X2NjekpRMHVLNld6X1RSbFAxMnRnSzgtUk9aeXlBbmdJR05RZFJBSGVYZndBUnBR?oc=5",
-          "source": "GlobeNewswire",
-          "date": "2026-10-27T17:07:00.000Z"
+          "title": "Is Lower Earnings Forecast Altering The Investment Case For Weyerhaeuser Stock (WY)?",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeDlXYWFMVFU4WHZObmpLZ05mSE5ScWFtU3E4X2NiMFI4UWxQSnF4NGZjMFM5cTNnUFVkTE1jbnZHVFZTM2lKdXowLWVyYU9kQVBLaGhQd1Z1alQ2eGVrejRxdjZPTUtHUHh5QVhsMDhfN1NTUVk1U0poMHU5TkxoTkZZRk5FXzB2T3RnNVlMdE5YX25lRlB1YXdsR3FoLWFkcXN5TmJ1V0NqQlRPQVpPbU5iZXB0eGh0al9DWWUxU0w1em5hMTMyZ1F2RlJyd9IBzgFBVV95cUxOeDlXYWFMVFU4WHZObmpLZ05mSE5ScWFtU3E4X2NiMFI4UWxQSnF4NGZjMFM5cTNnUFVkTE1jbnZHVFZTM2lKdXowLWVyYU9kQVBLaGhQd1Z1alQ2eGVrejRxdjZPTUtHUHh5QVhsMDhfN1NTUVk1U0poMHU5TkxoTkZZRk5FXzB2T3RnNVlMdE5YX25lRlB1YXdsR3FoLWFkcXN5TmJ1V0NqQlRPQVpPbU5iZXB0eGh0al9DWWUxU0w1em5hMTMyZ1F2RlJydw?oc=5",
+          "source": "Simply Wall Street",
+          "date": "2026-10-27T20:16:48.000Z"
         },
         {
           "title": "BC-Lumber Futures",
@@ -2649,12 +2649,6 @@ window.LUMBER_DATA = {
           "date": "2026-10-27T15:32:52.000Z"
         },
         {
-          "title": "WY Q2 2026 Earnings: Bottom-Line Beat of 47% Fails to Lift the Stock - Post-Earnings Drift",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc3didmdFcGo2RTBTdkxHOFljZWRwMk1aMjVpTjhJMlNCREtXUGdXaUF6SFlEbDZkSUQ3SVJjZU1wVUR6S3Jxb3RXZ09TRUN0UnpkREgwQzU4ZTBhMlhfbnhzemN3ak1nc3Y5TmJiX2pPQ1hTbkhmY2FPQ25haGVXVElZMzlvcWFUY0F4X3ZtQVdwd1FhNGphazg5ODRXb3A1YXVoM0ZzbHR1QVE?oc=5",
-          "source": "https://www.dars.gov.et/",
-          "date": "2026-10-27T14:40:04.000Z"
-        },
-        {
           "title": "Louisiana-Pacific (LPX) Set to Post Quarterly Earnings on Tuesday",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPODBSVG14UEFTTUxvMnNJMzJVUUZ2ZHR3aEJyaVBnNmg5dUVRVmRxSVhaNEhWTkVmblpQQXphTV9pUzN1RnFmUHh1WVFvaTQ0ajVYUk1JSV9jTmJkZnpfTnRLUjdBNVVjNmVxT2J6SkdWZmpwTjFwUXZHc1o2a21ndERlcTlDY08xZTVaSjhyVFpHU2dVLUd0LV8yaDlvb2UxRTEzRWp6LWdTSDFDNTRkTFh2aXhYemNGc0hmN1RCSFVZV0JL?oc=5",
           "source": "MarketBeat",
@@ -2665,12 +2659,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT1lhOFBpc2RpUFRsdy02ZVBGSVV4Q1UtSndmVHFNLXJ0eDFFdDBnOW1Kdk5EdEowTVd6OENZdVlfcFZtUUFlajlkUk9QZEp4LVN0YkQtRTFINHhtd0RIQmt3d0tKRUZHYzhHc3ZzNFY3R0NiVmttT3plNlZ2SnFJdXlZczVma3I2UEUwWC1hLXlzQmlaendMRU9WMThydG9MNWc?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-10-27T13:00:07.000Z"
-        },
-        {
-          "title": "RBC cuts target for Weyerhaeuser stock from USD 30 to USD 25",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOREdUX1FMVjJkWHBJQmZnQ3RmSTZVNTlna1dTNFI3SElVMF92bzN4cHN2dGprVXFnZEZhaExMcmJlR2ZLNl9aOG1DR1RrLU9OQ1loYkVtWWV1NzJ3S0FkTWFqUzE1U0IzQWRabWlhWjRac2I0UGUxRjBWd0I3SC1LemZfVVBZRTl6d3FfOVg3UFl5QUVFcVJycnUwdmNlTEtDbXRRU01mdWFfa1FtOVVCYXlWYUNpVlZwR1VkTENfbzE?oc=5",
-          "source": "ad-hoc-news.de",
-          "date": "2026-10-27T12:54:21.000Z"
         },
         {
           "title": "US Pending Home Sales Fall to Lowest Level Since 2021",
@@ -2726,6 +2714,12 @@ window.LUMBER_DATA = {
           "date": "2026-10-26T16:26:40.000Z"
         },
         {
+          "title": "Weyerhaeuser YCE Lobby Sponsorship",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR0x3a21tRW5zbWl0MklkSl93c0c2SmZYWVhnNk9RV0dvQlZwSU13TGNYUmVnMXhNOFR2WndaYm13MEg4TkY2bUtROE5rWnJMNE1QYk5CdGFFVmZyREJsZ3BKSTQ0RkZmOS00TVNmQ1ZrSGFnV3RHQ185LTdHQmd3YjRfNmFBVWQtT3c?oc=5",
+          "source": "The Town of Edson",
+          "date": "2026-10-26T16:07:16.000Z"
+        },
+        {
           "title": "Weyerhaeuser to Report Q3 Earnings: Here's What Investors Must Know",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzVtQkc3M1VXeDdkNXdMZ3QyTV9kZHF6b3JibEFEZ0V3UFg0NzZab0JSWVV1N0Z3UkFCZGk5d2RiUFZWNnpacFpnWUotOVhvYkFPdUdMS2NtZ1ZKOTRCMmF0TFllLVNab21RNTlrd0tGV1V0OV9RbURWT3hmcGhWdjE3b2hHbUh6Qk5XOEVGeFo5cG9Ndi1ZWjh2dGx1ZHAwRHVlZEVubTVfUXhJY1U3Q1BfeTNMWklOYmlJOWl1TQ?oc=5",
           "source": "TradingView",
@@ -2744,10 +2738,16 @@ window.LUMBER_DATA = {
           "date": "2026-10-26T01:47:13.000Z"
         },
         {
-          "title": "RBC cuts Weyerhaeuser price target to USD 25 from USD 30 for Weyerhaeuser stock",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbHdLTHltMVh4eVZZLUVFc0pYcWVEbnpTZkt4N2JmT1V1WkVKcnRreFZzQlNvNEoxckFJcjl4eVpmZEFaeldDdS1TZGdWNXAtLWx5eFhQTGFhOWVaaVRYV0NIRzAybjZSLS1BTnZnQWRLUVpkNEd0d094THlqbnFqd2hrN1VWQ2tGRnlucXpFclVBaVVYRFdPYnQ1NXJnb3pOX05Ib3M0WmFIYkd5YjJsTlNIX092dTA2LTVycHl3eWRzUkw4UTg4V0tNMlJzd1B4eUhjNk1TdGJBZw?oc=5",
-          "source": "ad-hoc-news.de",
-          "date": "2026-10-25T12:34:25.000Z"
+          "title": "Lawsuit: Nippon ignored warnings before chemical tank implosion killed 11 workers",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYTlwZFk4YnlsY2dtV1pYRHN4VWtqazhNZVpqa196LVBHaWVIMGtlcHM0Q3pCdzRWSVJmaGJ1Mlcwa1dKY1UyelY5OWRZdFI3YkFRemRDVng3Z3VTc1B1UUViT09iLTZMbExzTURPX3B0ZV90V3dSMERnOXhSWFYxN1d3Zk45blpla3NEcXJvbjhwcEcyN0FJcmx0WXh0eHhrcXNBenltRTNhVWduTkl0SnIyOFJJdmZHWk01NS1DLTNMS2V5MlhIZjJpaXZySU1zRlFneWlUUHFoUUppb0oxMVk0ZXNKVFNUMEYtM3g1SW5RZXM?oc=5",
+          "source": "OregonLive.com",
+          "date": "2026-10-24T22:15:00.000Z"
+        },
+        {
+          "title": "Crews battle commercial structure fire at Georgetown County lumber facility",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbGRXVl9xZEREQjhJTUd4WDEwdmNabjROeEZhc2xCOUZRUEhhQWszdWRBRUgwOFRPM2Y0Y3VwdFFuaEF2RkhyM2JpUkdFb29yUnoyMklnTG9QcW1yNHgwRFhEN0g1YS1RWjFaOGNnUDNSdGlYb3F3MnUydlE0QXRkYjNvY1ZKTmxEWWljNnRDRGs4a19IamxxdWxyazA0US14Ym1reU9NcDdTSURITUJV0gHDAUFVX3lxTE44V2NqdmNibi1zOTRoT3lidWIxRkJ0LUVsZ280QkF0MVk4a1BtSDRZQzh5Z05Qb0xPcHoza3NvMmR5MEk2dlVQNGZjV2FLcGJsVldEQ1hYUC1ucWUwYWpYd2VESU5JMURHNzM4bHFXNy1pOUJDYVUtbEllV2RSenltQWpYQmUyUEpuTDdjTEVfdFpEOElWZGNxN1lLTmJGLUZvYzZmamg5NEpiXzdOcllxcThDVUJIbFZOdVAtRWNTU1hlTQ?oc=5",
+          "source": "Live 5 News",
+          "date": "2026-10-24T19:18:00.000Z"
         }
       ]
     },
@@ -16099,7 +16099,7 @@ window.LUMBER_DATA = {
     ]
   },
   "fires": {
-    "asOf": "2026-10-28T03:39:56.700Z",
+    "asOf": "2026-10-28T11:58:59.523Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
     "total": 201,
