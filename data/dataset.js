@@ -2557,8 +2557,14 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-10-31T11:35:16.706Z",
+      "fetchedAt": "2026-10-31T16:41:47.167Z",
       "items": [
+        {
+          "title": "Is Louisiana-Pacific (LPX) Cheap After EPS Cuts Ahead Of Earnings?",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeDRwMlg3YzhFVGRWUG45cFUxOTBSbnFpRUc0RHk3SDBWTlpFbHVsd2ZiOE0xUk9XWWhHaDl2aXJGVnZOd2h5VnNvc2hFeUh6aUlha1BVNTJnbHdqMjQxQ2UxQTdLcWkyQ0haZEE5WDNzRXpTZWoyUjZZNkVXWnVXRkh1WURLRFVSRDB5ZzVlOGVFUmZxZjZ5cXRVNkYwVUhhMEIxY29oMzhDak9wUFc3RXAzbHA4RUtXWkQ3TEppTXFtYURVb1NqWXBpdmxVbTBOeVoxetIB2gFBVV95cUxQamFNUUp5Sm50dEZuMExIdkhHN28tWDlIck5vajNDNXBiV3FGSG1NTXlnV0RrZWVGa0ZhTC1EOWMtZVpYUnlqUFV2RFJ0YXNLMXUzRTR0d0psUF8tdFZnYzJWOVlBejdiMFV3X3NweEJ6My1kN28zNzBIMEExVlRGYUJLSmM5d29JWU8zRnpGdFNWb0cxSTl0YWs5LUk1T2Q5OThwaUxwTFBsR1hKQTZOM1ZnNE9CWUUzazBLUFJPcVJWWHpfZTBneXdnRlY2QmRYYjJEWENvbnh6dw?oc=5",
+          "source": "Simply Wall St",
+          "date": "2026-10-31T16:37:58.000Z"
+        },
         {
           "title": "Weyerhaeuser (WY) Stock Rebounds As Q3 Results Reveal Profit Strain",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUDFrSTlSNVJhMnpIZkwtYThFdVBWcEJBZXFqbTNuU0cxWFhHNEV6YkhiR1RDZ2J4TmpDektjNGp4NUhlNS12YUF2ZGZiRWZFZERwVThqZkdtb2pQenh5THg2QWpMRDVvS1J6M2lYUVBiUU5tS0IwcUM1eWd5TDl5QXE0aVNQeGVXdldKd2hvNzhKWHVJX215TXdFTTdUc0k?oc=5",
@@ -2572,16 +2578,16 @@ window.LUMBER_DATA = {
           "date": "2026-10-31T07:14:03.000Z"
         },
         {
-          "title": "What West Fraser Timber (WFG) Said on Its Q3 Earnings Call",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOT2x1Rm5DMUNFZEpzRy1tUzRzeEhSQmJlcGI3OWo1RDF4LUFfVEFibTBBdW0tWkVrbHVFWUIwV2ttcHR0Rk5lc2RLSjhwRmxiN3lLU3hYRGJxZ3VtNUJkTmdUUWZfSlhqbEpXSUgyTXdzRVE1c3VNT3g2UlhuaGk1WUF5OXFmM0FRMzQ1XzVIVXZjOTFtU1dCRFI3cE9PdGItZGpVWUkxWm1EcGVtUk52dWZJTllacW84RkNWOEdB?oc=5",
-          "source": "MarketBeat",
-          "date": "2026-10-31T04:30:00.000Z"
-        },
-        {
           "title": "What Weyerhaeuser (WY)'s Earnings Beat Means For Shareholders",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY25JdEFrMHhDRTVrT3hUVVFlX3NGeFV5ZC1uSTB0clVaM0hPYm9ZZy1FZjZqdGpIR2lheGlycFpmdXNsbGtmeVBoZVFPTUpzOS1GX2lrSnUtTFFtTEY3TS1RNTR0TTNOa3o4dlFOTGZBY1o0c1JKMS1qQm5JWmFWT0lHUnA4bC1VeUNXdg?oc=5",
           "source": "Yahoo Finance Singapore",
           "date": "2026-10-31T04:24:00.000Z"
+        },
+        {
+          "title": "What West Fraser Timber (WFG) Said on Its Q3 Earnings Call",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUnZhY1F2SUJ1amJ5R0djUWhsRUgtVFRYWks0TUlQaC1PUHBCTEJCNG5CT1RlQ2k1czhNemJGanpWemlyMjFhUUxOSlVpUHJzb21helhFZGNKRHVJMG0zX0hvNWlWYlBEQkRNeHVVTzVTTXRnWFc5amMzRVBsREowQUtXMnJ4bmlld3hVaG1WRHdGT1ZBcEd1TjZFYVVkMElaQVJKZ19Sek1peEhPUUhpUDc1WmJza3ZD?oc=5",
+          "source": "TradingView",
+          "date": "2026-10-31T04:13:50.000Z"
         },
         {
           "title": "Weyerhaeuser (WY) Tops Q3 Estimates, Is The Stock Still Cheap?",
@@ -2600,12 +2606,6 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNGZ2YjMwZEoxWDhpcDlnZlNTUXNCNF9yUVFydVFqUkY4cVV6S19TMk5OOHRUU1AzSVhhYzhMXzJxWlpsR2lZREp2YVg0SEo5ekUyOEtaZVBXclpzNllBQ190YjNqUWg5dXZCMDRvUVFzbnZlOU12eHFBTExtdzI1di0tM2dGWDFxR3BwYXQ5a1ptSUZuaUcxQ1c1bl9KbEh3Yl9CVFBhdEpYNXV5OTQ4Z0JpUkpGTjljUGhGSVNPZnMyZ1E0dTVDT01n0gHKAUFVX3lxTE00ZnZiMzBkSjFYOGlwOWdmU1NRc0I0X3JRUXJ1UWpSRjhxVXpLX1MyTk44dFRTUDNJWGFjOExfMnFaWmxHaVlESnZhWDRISjl6RTI4S1plUFdyWnM2WUFDX3RiM2pRaDl1dkIwNG9RUXNudmU5TXZ4cUFMTG13MjV2LS0zZ0ZYMXFHcHBhdDlrWm1JRm5pRzFDVzVuX0psSHdiX0JUUGF0Slg1dXk5NDhnQmlSSkZOOWNQaEZJU09mczJnUTR1NUNPTWc?oc=5",
           "source": "Simply Wall St",
           "date": "2026-10-31T00:58:25.000Z"
-        },
-        {
-          "title": "West Fraser Timber (TSX:WFG) Stock Can Q3 Results Ease Margin Pressure?",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUnJvV29yZVlOLVlLU245cTRINVFkSG1kbnBJWUhwQmNhcFhnYkxQNnRKb2NPS1Z2QkJiSmhNelpsSGpaTW1PdkFpNWluU1JZaEZjM2FHM3N4MnZGWktaMnQ5dFVvaXpsdVozTk5yMDBGMk1PUU8wTkh5TldEcnRhX25mNEVSLXg1R3NDU1BYMkw3R1FlU0p3SzM4TzVETWUxd0xIQXZkdFlfYW8waVNLSGZ0RmhMVTJDam1IV2FoaVh6MU14UjhuLWsxcDhnUDVmbjNFRUwtS23SAd4BQVVfeXFMT0xKc0JCbWZRWnJlcVVpS2p4SlZaX1AzVloydVVaRWJWcGZybnRGZDE5eFYyZFJxd3gyazlCY01vclZaSE1sMFB6U3hTSjdPaUJhUG96dU5TMjVOb05kbDNuNEFlX3RNUkw5ZUR0RXhVRjZ2dUUxYVZSMUl4VUdpckpTUmJVbWUyeU9qOEVYUnVWeFhaRDRCc0tyU3FKTWtHbXl5XzJlUkstODFtQ3ZDdVFIa0Rybk5mQjRPcm82OGJGbk1Iemx6bkg3d0V1ZTBwTEZjOHVtT3pJRFkwcVZR?oc=5",
-          "source": "Simply Wall St",
-          "date": "2026-10-30T22:50:01.000Z"
         },
         {
           "title": "Weyerhaeuser Reports Third Quarter Results",
@@ -2704,9 +2704,9 @@ window.LUMBER_DATA = {
         },
         {
           "title": "Does Earnings Estimate Cut Change The Bull Case For LP Louisiana Pacific Stock?",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZ0VFeEtrTWFPX2YwRGJmSzVzeTJYUzhRRkJQQl9zeE9KOV9BUlV3QjNVN3dCakVNZEM2a2tmN1NfS1dGZmwtUFVoYnhPc0NGS0xONk51X3o1Z2NOTXFXUTVkRFJGR3FiR2RJYUV5aW9EYUVEVENVN01XY1plc0hUeFU5TmpFVHlzZ0V6YV9YM1NQS3FrT2lodDlHLThFdERFOVFhVVBibHRIcy1IN0RIcGlaLTg2QU92Rl84WlZLbGtUSVZKUkZTRGdxVzBubnhjdTJ2VkltRnJVd9IB2gFBVV95cUxPZ0VFeEtrTWFPX2YwRGJmSzVzeTJYUzhRRkJQQl9zeE9KOV9BUlV3QjNVN3dCakVNZEM2a2tmN1NfS1dGZmwtUFVoYnhPc0NGS0xONk51X3o1Z2NOTXFXUTVkRFJGR3FiR2RJYUV5aW9EYUVEVENVN01XY1plc0hUeFU5TmpFVHlzZ0V6YV9YM1NQS3FrT2lodDlHLThFdERFOVFhVVBibHRIcy1IN0RIcGlaLTg2QU92Rl84WlZLbGtUSVZKUkZTRGdxVzBubnhjdTJ2VkltRnJVdw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONlpZWUUwTVBTQlg2eVVJZTVMbjlwRWQ1TTJySUFNUUZjZDZrME4yUW9jRU1zS2g4bXBDanZkSDJzYnpqc3NaVDhLcFRoazRjbThWQ0tHdlFQTERCeHNWT2RIQkY3aHNYRkltZnRXdFctMzZaSlBrQ2VoSXE0eVdacVloZkV5VFR0VVZnSkdNZkswMFNEVGhESFg1a0lwZTFabVQ0c1lXNG1sRGFLbW1pMkc3MFUwNVp6WTBlZWszakJTY0FMMWowMUNRUzZEN0VwY1ZKMNIB2gFBVV95cUxPZ0VFeEtrTWFPX2YwRGJmSzVzeTJYUzhRRkJQQl9zeE9KOV9BUlV3QjNVN3dCakVNZEM2a2tmN1NfS1dGZmwtUFVoYnhPc0NGS0xONk51X3o1Z2NOTXFXUTVkRFJGR3FiR2RJYUV5aW9EYUVEVENVN01XY1plc0hUeFU5TmpFVHlzZ0V6YV9YM1NQS3FrT2lodDlHLThFdERFOVFhVVBibHRIcy1IN0RIcGlaLTg2QU92Rl84WlZLbGtUSVZKUkZTRGdxVzBubnhjdTJ2VkltRnJVdw?oc=5",
           "source": "Simply Wall St",
-          "date": "2026-10-30T15:02:10.000Z"
+          "date": "2026-10-30T15:02:08.000Z"
         },
         {
           "title": "Weyerhaeuser Company 2026 Q3 - Results - Earnings Call Presentation (NYSE:WY) 2026-10-30",
@@ -7081,19 +7081,19 @@ window.LUMBER_DATA = {
             "period": "2026-10",
             "mean": 842395,
             "lo": 750468,
-            "hi": 945582
+            "hi": 945583
           },
           {
             "period": "2026-11",
-            "mean": 756206,
+            "mean": 756208,
             "lo": 667953,
-            "hi": 856121
+            "hi": 856125
           },
           {
             "period": "2026-12",
-            "mean": 651856,
-            "lo": 571197,
-            "hi": 743906
+            "mean": 651857,
+            "lo": 571195,
+            "hi": 743909
           }
         ]
       }
@@ -16107,11 +16107,11 @@ window.LUMBER_DATA = {
     ]
   },
   "fires": {
-    "asOf": "2026-10-31T11:35:21.012Z",
+    "asOf": "2026-10-31T16:41:48.973Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
-    "total": 885,
-    "count": 885,
+    "total": 887,
+    "count": 887,
     "capped": false,
     "fields": [
       "lat",
@@ -16302,13 +16302,13 @@ window.LUMBER_DATA = {
       ],
       [
         49.081,
-        -115.902,
+        -115.909,
         42,
         0
       ],
       [
         49.081,
-        -115.909,
+        -115.902,
         42,
         0
       ],
@@ -17141,14 +17141,20 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        45.835,
-        -121.651,
+        56.654,
+        -121.084,
         9,
         0
       ],
       [
-        56.654,
-        -121.084,
+        58.589,
+        -122.636,
+        9,
+        0
+      ],
+      [
+        45.835,
+        -121.651,
         9,
         0
       ],
@@ -17269,6 +17275,12 @@ window.LUMBER_DATA = {
       [
         41.459,
         -81.677,
+        8,
+        0
+      ],
+      [
+        58.59,
+        -122.635,
         8,
         0
       ],
@@ -17520,7 +17532,7 @@ window.LUMBER_DATA = {
       ],
       [
         56.179,
-        -118.287,
+        -118.288,
         7,
         0
       ],
@@ -17573,6 +17585,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        50.11,
+        -118.443,
+        6,
+        0
+      ],
+      [
         49.036,
         -115.568,
         6,
@@ -17581,12 +17599,6 @@ window.LUMBER_DATA = {
       [
         50.474,
         -115.708,
-        6,
-        0
-      ],
-      [
-        50.11,
-        -118.443,
         6,
         0
       ],
@@ -17850,7 +17862,7 @@ window.LUMBER_DATA = {
       ],
       [
         56.605,
-        -120.403,
+        -120.404,
         5,
         0
       ],
@@ -17939,26 +17951,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        58.59,
-        -122.632,
-        5,
-        0
-      ],
-      [
-        58.59,
-        -122.639,
-        5,
-        0
-      ],
-      [
         51.717,
         -119.487,
         5,
         0
       ],
       [
-        55.906,
-        -124.272,
+        55.905,
+        -124.273,
         5,
         0
       ],
@@ -17971,6 +17971,12 @@ window.LUMBER_DATA = {
       [
         46.714,
         -97.765,
+        5,
+        0
+      ],
+      [
+        58.893,
+        -122.643,
         5,
         0
       ],
@@ -18035,8 +18041,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        56.658,
-        -121.082,
+        56.657,
+        -121.083,
         4,
         0
       ],
@@ -18072,7 +18078,7 @@ window.LUMBER_DATA = {
       ],
       [
         55.906,
-        -124.279,
+        -124.28,
         4,
         0
       ],
@@ -18156,7 +18162,7 @@ window.LUMBER_DATA = {
       ],
       [
         48.236,
-        -121.913,
+        -121.914,
         4,
         0
       ],
@@ -18198,7 +18204,7 @@ window.LUMBER_DATA = {
       ],
       [
         58.897,
-        -122.645,
+        -122.646,
         4,
         0
       ],
@@ -18217,6 +18223,12 @@ window.LUMBER_DATA = {
       [
         49.025,
         -115.538,
+        4,
+        0
+      ],
+      [
+        45.836,
+        -121.648,
         4,
         0
       ],
@@ -18287,6 +18299,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        58.897,
+        -122.644,
+        4,
+        0
+      ],
+      [
         46.991,
         -114.059,
         4,
@@ -18353,6 +18371,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        50.091,
+        -118.56,
+        4,
+        0
+      ],
+      [
         41.366,
         -84.92,
         4,
@@ -18367,12 +18391,6 @@ window.LUMBER_DATA = {
       [
         47.245,
         -116.488,
-        4,
-        0
-      ],
-      [
-        50.091,
-        -118.559,
         4,
         0
       ],
@@ -18461,12 +18479,6 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        58.893,
-        -122.645,
-        3,
-        0
-      ],
-      [
         42.799,
         -80.1,
         3,
@@ -18475,6 +18487,18 @@ window.LUMBER_DATA = {
       [
         51.349,
         -117.055,
+        3,
+        0
+      ],
+      [
+        58.893,
+        -122.645,
+        3,
+        0
+      ],
+      [
+        58.408,
+        -116.956,
         3,
         0
       ],
@@ -18497,26 +18521,20 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        45.838,
-        -73.251,
-        3,
-        0
-      ],
-      [
         49.329,
         -99.812,
         3,
         0
       ],
       [
-        41.473,
-        -81.666,
+        54.125,
+        -128.716,
         3,
         0
       ],
       [
-        54.125,
-        -128.716,
+        41.473,
+        -81.666,
         3,
         0
       ],
@@ -18563,8 +18581,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        45.833,
-        -121.653,
+        56.607,
+        -120.405,
         3,
         0
       ],
@@ -18845,12 +18863,6 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        41.455,
-        -81.674,
-        3,
-        0
-      ],
-      [
         57.802,
         -117.673,
         3,
@@ -18899,12 +18911,6 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        57.005,
-        -111.481,
-        3,
-        0
-      ],
-      [
         49.642,
         -118.897,
         3,
@@ -18917,8 +18923,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        55.85,
-        -113.575,
+        55.849,
+        -113.576,
+        3,
+        0
+      ],
+      [
+        45.231,
+        -123.171,
         3,
         0
       ],
@@ -19031,12 +19043,6 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        56.604,
-        -120.403,
-        3,
-        0
-      ],
-      [
         49.811,
         -118.799,
         3,
@@ -19103,6 +19109,18 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        48.233,
+        -121.911,
+        2,
+        0
+      ],
+      [
+        48.235,
+        -121.916,
+        2,
+        0
+      ],
+      [
         47.172,
         -116.265,
         2,
@@ -19147,12 +19165,6 @@ window.LUMBER_DATA = {
       [
         49.951,
         -119.927,
-        2,
-        0
-      ],
-      [
-        45.232,
-        -123.167,
         2,
         0
       ],
@@ -19253,14 +19265,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        55.849,
-        -113.577,
-        2,
-        0
-      ],
-      [
-        58.893,
-        -122.645,
+        50.158,
+        -115.986,
         2,
         0
       ],
@@ -19349,14 +19355,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        57.006,
-        -111.475,
+        48.508,
+        -118.322,
         2,
         0
       ],
       [
-        48.508,
-        -118.322,
+        57.006,
+        -111.475,
         2,
         0
       ],
@@ -19439,14 +19445,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        49.144,
-        -118.758,
+        47.235,
+        -115.997,
         2,
         0
       ],
       [
-        47.235,
-        -115.997,
+        49.144,
+        -118.758,
         2,
         0
       ],
@@ -19493,6 +19499,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        45.838,
+        -73.253,
+        2,
+        0
+      ],
+      [
         51.536,
         -119.126,
         2,
@@ -19500,7 +19512,7 @@ window.LUMBER_DATA = {
       ],
       [
         52.47,
-        -101.201,
+        -101.203,
         2,
         0
       ],
@@ -19547,6 +19559,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        50.09,
+        -118.573,
+        2,
+        0
+      ],
+      [
         45.718,
         -81.707,
         2,
@@ -19567,12 +19585,6 @@ window.LUMBER_DATA = {
       [
         48.87,
         -124.443,
-        2,
-        0
-      ],
-      [
-        50.09,
-        -118.573,
         2,
         0
       ],
@@ -19643,14 +19655,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        51.537,
-        -119.123,
+        43.784,
+        -122.324,
         2,
         0
       ],
       [
-        43.784,
-        -122.324,
+        51.537,
+        -119.123,
         2,
         0
       ],
@@ -19661,20 +19673,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        49.663,
-        -118.986,
-        2,
-        0
-      ],
-      [
         48.462,
         -117.658,
         2,
         0
       ],
       [
-        48.232,
-        -121.911,
+        49.663,
+        -118.986,
         2,
         0
       ],
@@ -19709,6 +19715,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        54.617,
+        -118.384,
+        2,
+        0
+      ],
+      [
         56.143,
         -120.668,
         2,
@@ -19721,12 +19733,6 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        54.617,
-        -118.384,
-        2,
-        0
-      ],
-      [
         49.59,
         -118.927,
         2,
@@ -19735,12 +19741,6 @@ window.LUMBER_DATA = {
       [
         55.412,
         -119.836,
-        2,
-        0
-      ],
-      [
-        43.263,
-        -79.816,
         2,
         0
       ],
@@ -19769,6 +19769,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        45.73,
+        -121.987,
+        2,
+        0
+      ],
+      [
         52.906,
         -114.223,
         2,
@@ -19783,12 +19789,6 @@ window.LUMBER_DATA = {
       [
         43.703,
         -88.385,
-        2,
-        0
-      ],
-      [
-        45.73,
-        -121.987,
         2,
         0
       ],
@@ -19811,6 +19811,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        57.042,
+        -111.619,
+        2,
+        0
+      ],
+      [
         43.07,
         -80.858,
         2,
@@ -19819,6 +19825,12 @@ window.LUMBER_DATA = {
       [
         50.849,
         -118.011,
+        2,
+        0
+      ],
+      [
+        45.704,
+        -123.039,
         2,
         0
       ],
@@ -19841,14 +19853,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        45.705,
-        -123.039,
-        2,
-        0
-      ],
-      [
-        43.787,
-        -122.324,
+        43.786,
+        -122.325,
         2,
         0
       ],
@@ -19919,12 +19925,6 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        43.969,
-        -70.495,
-        2,
-        0
-      ],
-      [
         51.369,
         -117.063,
         2,
@@ -19933,6 +19933,12 @@ window.LUMBER_DATA = {
       [
         46.99,
         -114.055,
+        2,
+        0
+      ],
+      [
+        50.406,
+        -118.832,
         2,
         0
       ],
@@ -19955,12 +19961,6 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        50.406,
-        -118.832,
-        2,
-        0
-      ],
-      [
         48.07,
         -123.292,
         2,
@@ -19979,6 +19979,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        45.832,
+        -121.656,
+        1,
+        0
+      ],
+      [
         44.305,
         -70.218,
         1,
@@ -19987,18 +19993,6 @@ window.LUMBER_DATA = {
       [
         49.057,
         -96.825,
-        1,
-        0
-      ],
-      [
-        42.929,
-        -79.204,
-        1,
-        0
-      ],
-      [
-        45.832,
-        -121.656,
         1,
         0
       ],
@@ -20027,12 +20021,6 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        49.505,
-        -98.765,
-        1,
-        0
-      ],
-      [
         41.67,
         -87.487,
         1,
@@ -20057,12 +20045,6 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        48.238,
-        -121.918,
-        1,
-        0
-      ],
-      [
         49.872,
         -118.314,
         1,
@@ -20071,6 +20053,12 @@ window.LUMBER_DATA = {
       [
         54.876,
         -128.795,
+        1,
+        0
+      ],
+      [
+        45.836,
+        -121.657,
         1,
         0
       ],
@@ -20087,8 +20075,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        45.836,
-        -121.656,
+        48.657,
+        -114.96,
         1,
         0
       ],
@@ -20107,12 +20095,6 @@ window.LUMBER_DATA = {
       [
         51.788,
         -119.704,
-        1,
-        0
-      ],
-      [
-        48.658,
-        -114.959,
         1,
         0
       ],
@@ -20141,6 +20123,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        57.008,
+        -111.473,
+        1,
+        0
+      ],
+      [
         45.82,
         -73.265,
         1,
@@ -20159,14 +20147,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        41.663,
-        -87.481,
+        55.967,
+        -120.691,
         1,
         0
       ],
       [
-        55.968,
-        -120.689,
+        41.663,
+        -87.481,
         1,
         0
       ],
@@ -20183,14 +20171,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        45.305,
-        -74.993,
+        54.264,
+        -130.297,
         1,
         0
       ],
       [
-        54.264,
-        -130.297,
+        45.305,
+        -74.993,
         1,
         0
       ],
@@ -20207,6 +20195,18 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        53.56,
+        -113.354,
+        1,
+        0
+      ],
+      [
+        50.09,
+        -118.577,
+        1,
+        0
+      ],
+      [
         41.649,
         -88.06,
         1,
@@ -20219,20 +20219,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        53.56,
-        -113.354,
-        1,
-        0
-      ],
-      [
         48.93,
         -124.507,
-        1,
-        0
-      ],
-      [
-        50.09,
-        -118.577,
         1,
         0
       ],
@@ -20297,6 +20285,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        54.117,
+        -128.726,
+        1,
+        0
+      ],
+      [
         49.331,
         -118.643,
         1,
@@ -20315,6 +20309,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        56.147,
+        -120.667,
+        1,
+        0
+      ],
+      [
         46.01,
         -115.392,
         1,
@@ -20328,7 +20328,7 @@ window.LUMBER_DATA = {
       ],
       [
         45.125,
-        -123.427,
+        -123.428,
         1,
         0
       ],
@@ -20382,7 +20382,7 @@ window.LUMBER_DATA = {
       ],
       [
         53.561,
-        -113.358,
+        -113.359,
         1,
         0
       ],
@@ -20393,8 +20393,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        49.129,
+        49.128,
         -119.283,
+        1,
+        0
+      ],
+      [
+        49.953,
+        -119.921,
         1,
         0
       ],
@@ -20411,8 +20417,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        49.954,
-        -119.92,
+        45.126,
+        -123.426,
         1,
         0
       ],
@@ -20478,7 +20484,13 @@ window.LUMBER_DATA = {
       ],
       [
         54.026,
-        -128.684,
+        -128.686,
+        1,
+        0
+      ],
+      [
+        49.098,
+        -116.838,
         1,
         0
       ],
@@ -20507,12 +20519,6 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        49.098,
-        -116.837,
-        1,
-        0
-      ],
-      [
         50.143,
         -118.353,
         1,
@@ -20521,6 +20527,12 @@ window.LUMBER_DATA = {
       [
         47.245,
         -116.48,
+        1,
+        0
+      ],
+      [
+        46.736,
+        -115.875,
         1,
         0
       ],
@@ -20543,14 +20555,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        46.736,
-        -115.874,
-        1,
-        0
-      ],
-      [
         47.176,
-        -114.656,
+        -114.657,
         1,
         0
       ],
@@ -20621,6 +20627,18 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        47.188,
+        -116.256,
+        1,
+        0
+      ],
+      [
+        49.5,
+        -98.763,
+        1,
+        0
+      ],
+      [
         48.222,
         -103.804,
         1,
@@ -20641,12 +20659,6 @@ window.LUMBER_DATA = {
       [
         43.968,
         -70.495,
-        1,
-        0
-      ],
-      [
-        47.188,
-        -116.256,
         1,
         0
       ],
@@ -20693,7 +20705,7 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        46.977,
+        46.976,
         -122.292,
         1,
         0
@@ -20724,7 +20736,7 @@ window.LUMBER_DATA = {
       ],
       [
         47.175,
-        -116.26,
+        -116.261,
         1,
         0
       ],
@@ -20747,26 +20759,32 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        47.46,
-        -103.173,
-        1,
-        0
-      ],
-      [
         47.002,
         -121.203,
         1,
         0
       ],
       [
+        47.46,
+        -103.173,
+        1,
+        0
+      ],
+      [
         53.808,
-        -113.092,
+        -113.093,
         1,
         0
       ],
       [
         47.605,
         -116.532,
+        1,
+        0
+      ],
+      [
+        48.977,
+        -117.424,
         1,
         0
       ],
@@ -20789,8 +20807,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        48.978,
-        -117.423,
+        46.093,
+        -116.456,
         1,
         0
       ],
@@ -20807,8 +20825,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        46.093,
-        -116.456,
+        45.573,
+        -123.441,
         1,
         0
       ],
@@ -20821,12 +20839,6 @@ window.LUMBER_DATA = {
       [
         49.22,
         -121.461,
-        1,
-        0
-      ],
-      [
-        45.573,
-        -123.441,
         1,
         0
       ],
@@ -20855,6 +20867,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        43.812,
+        -122.288,
+        1,
+        0
+      ],
+      [
         48.808,
         -103.328,
         1,
@@ -20867,18 +20885,6 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        45.643,
-        -73.524,
-        1,
-        0
-      ],
-      [
-        43.812,
-        -122.288,
-        1,
-        0
-      ],
-      [
         41.208,
         -80.816,
         1,
@@ -20886,7 +20892,7 @@ window.LUMBER_DATA = {
       ],
       [
         45.437,
-        -123.459,
+        -123.46,
         1,
         0
       ],
@@ -20921,14 +20927,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        50.123,
-        -118.392,
+        55.849,
+        -113.574,
         1,
         0
       ],
       [
-        42.647,
-        -77.88,
+        50.123,
+        -118.392,
         1,
         0
       ],
@@ -20945,20 +20951,26 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        49.965,
-        -115.896,
-        1,
-        0
-      ],
-      [
         43.7,
         -116.288,
         1,
         0
       ],
       [
+        49.964,
+        -115.896,
+        1,
+        0
+      ],
+      [
         43.103,
         -80.899,
+        1,
+        0
+      ],
+      [
+        54.267,
+        -130.296,
         1,
         0
       ],
@@ -20999,14 +21011,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        43.123,
-        -79.173,
+        48.465,
+        -117.662,
         1,
         0
       ],
       [
-        48.466,
-        -117.661,
+        43.123,
+        -79.173,
         1,
         0
       ],
@@ -21059,6 +21071,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        43.971,
+        -70.494,
+        1,
+        0
+      ],
+      [
         41.657,
         -87.445,
         1,
@@ -21072,7 +21090,7 @@ window.LUMBER_DATA = {
       ],
       [
         50.527,
-        -115.544,
+        -115.545,
         1,
         0
       ],
@@ -21095,32 +21113,26 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        45.123,
-        -123.426,
+        47.722,
+        -120.414,
         1,
         0
       ],
       [
-        47.722,
+        47.725,
         -120.413,
         1,
         0
       ],
       [
-        47.726,
-        -120.412,
+        51.07,
+        -115.136,
         1,
         0
       ],
       [
         56.963,
-        -111.472,
-        1,
-        0
-      ],
-      [
-        51.07,
-        -115.135,
+        -111.473,
         1,
         0
       ],
@@ -21167,20 +21179,26 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        54.266,
-        -130.294,
-        1,
-        0
-      ],
-      [
         43.493,
         -79.628,
         1,
         0
       ],
       [
+        55.968,
+        -120.684,
+        1,
+        0
+      ],
+      [
         50.472,
         -119.091,
+        1,
+        0
+      ],
+      [
+        53.547,
+        -113.397,
         1,
         0
       ],
@@ -21193,12 +21211,6 @@ window.LUMBER_DATA = {
       [
         45.366,
         -123.57,
-        1,
-        0
-      ],
-      [
-        53.547,
-        -113.396,
         1,
         0
       ],
@@ -21299,14 +21311,20 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        47.818,
-        -103.331,
+        47.819,
+        -103.333,
         1,
         0
       ],
       [
         47.85,
         -104.56,
+        1,
+        0
+      ],
+      [
+        48.006,
+        -102.793,
         1,
         0
       ],
@@ -21329,20 +21347,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        48.006,
-        -102.791,
-        1,
-        0
-      ],
-      [
         41.625,
         -87.364,
-        0,
-        0
-      ],
-      [
-        55.966,
-        -120.682,
         0,
         0
       ],
@@ -21365,14 +21371,20 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        49.577,
-        -117.038,
+        49.576,
+        -117.039,
         0,
         0
       ],
       [
         41.952,
         -88.142,
+        0,
+        0
+      ],
+      [
+        45.413,
+        -122.407,
         0,
         0
       ],
@@ -21385,12 +21397,6 @@ window.LUMBER_DATA = {
       [
         48.364,
         -116.446,
-        0,
-        0
-      ],
-      [
-        45.413,
-        -122.406,
         0,
         0
       ],
@@ -21415,6 +21421,12 @@ window.LUMBER_DATA = {
       [
         48.771,
         -117.891,
+        0,
+        0
+      ],
+      [
+        55.585,
+        -114.617,
         0,
         0
       ],
