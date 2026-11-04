@@ -678,7 +678,7 @@
         },
         {
           "period": "2026-11",
-          "framing_composite": 519
+          "framing_composite": 526
         }
       ]
     },
@@ -2560,8 +2560,32 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-11-04T04:30:41.444Z",
+      "fetchedAt": "2026-11-04T13:40:53.817Z",
       "items": [
+        {
+          "title": "Canfor reports $88.2M Q3 loss compared with $172.4M loss a year ago, sales edged up",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TOGVrWnlUaVJ4X3A5d2NLR2pZS0RyZERPdHhVeTdsWlJTSGhJYkFxSl82WjB0U0RMdzUteWY2YmtMelAwSkVrMkM3dGhCRXpRX1J3YTBpT2JvbGpuR2hZQzhGVGdVbmtta1VfbUlYQ01PRll6bmRxV3VPRGI?oc=5",
+          "source": "Yahoo! Finance Canada",
+          "date": "2026-11-04T12:57:24.000Z"
+        },
+        {
+          "title": "Is Louisiana-Pacific (LPX) Stock Too Stretched To Look Reasonable?",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNM1FnRlZOdjlmYkNpUVBJNkk0ZVVWLTBjWW90dlBMR1NKWWoyZC1tV0xWVkc3blY4bGdQNkR0ZXZ2MndVeTRqU2FRNlpqa09XNjZLZHVoRjAwQkhlUUJ5WGo0dTV4SXRONzg1alltdlNWN29PaXRneENtOVdRUzFjWHl6NE9ERm11ZzNkV19JbW5HRTlHOWNKMVo2YUhxbVpncHA0MG1MemZFc1FvTU5kSVlFUzkxNUtWQy1TQnh5OEJtSjRralBHbm53RWpPMEoyWEd6V21iaFRFQdIB2gFBVV95cUxNM1FnRlZOdjlmYkNpUVBJNkk0ZVVWLTBjWW90dlBMR1NKWWoyZC1tV0xWVkc3blY4bGdQNkR0ZXZ2MndVeTRqU2FRNlpqa09XNjZLZHVoRjAwQkhlUUJ5WGo0dTV4SXRONzg1alltdlNWN29PaXRneENtOVdRUzFjWHl6NE9ERm11ZzNkV19JbW5HRTlHOWNKMVo2YUhxbVpncHA0MG1MemZFc1FvTU5kSVlFUzkxNUtWQy1TQnh5OEJtSjRralBHbm53RWpPMEoyWEd6V21iaFRFQQ?oc=5",
+          "source": "Simply Wall St",
+          "date": "2026-11-04T08:37:32.000Z"
+        },
+        {
+          "title": "What Louisiana Pacific Earnings Beat Means For Shareholders",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTdOOFpfRS11YThwZUhqVHVMS3B3dkN1ZmVyN3RmTFozSXpZa19vQzdIOTFldmtzc3N3Y1YxV1ZLS2d1SUlVc1VHSkp3X3g0YmVuWnV1QUVIM1BXLWxlNU8xTXFiVHJjdXgyQ0hSODE5VW0zOERUZGxUUTJhVlpReTdSNDB1ajlKdTBkbk45VEtUNG1pT0FKa0FmZEp6Z0FET1YyNg?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-11-04T08:10:58.000Z"
+        },
+        {
+          "title": "What Louisiana-Pacific (LPX) Said on Its Q3 Earnings Call",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOHJSb3JYRy13TFhnaWFLSHRKR2F0QjdkOXo5LTNCVFlsVFBRM3U1a3BQNGpIdmtZLW9GeEg0LVNpQWZBSWEzeUpXQ3ZYc0h2R21jYmd0X2RIeVhlUng3cVZacVpDVjhIRVFPeEYwR253Q3NMaVhPVmxENWM5ajZLSVl3bjVBQlZBZUw4ZGpmSGFZVFRzUGl0Qkln?oc=5",
+          "source": "Yahoo Finance",
+          "date": "2026-11-04T07:14:22.000Z"
+        },
         {
           "title": "Louisiana-Pacific Corp (LPX) (Q3 2026) Earnings Call Highlights: Record Siding Sales Offset OSB ...",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZTRybXJ4VllRN2FVX3ZpdHZsTDQ5T1pqbDhLQk5zRVpWaHU0UElaWXhfSVFIaThiMnhxQjhTY2ZYVDc5WmJUTzc1UWphNWRkcEpJbmIybW1jRVFVd1p6enJ4QUt6WVNJeURQTUpGZFNNQzZnUE0zenczemx3ZlFycU83YXRRZkd0NHZVZGtUSlBEeDQyczRZWTN3?oc=5",
@@ -2640,6 +2664,18 @@
           "date": "2026-11-03T20:32:00.000Z"
         },
         {
+          "title": "Louisiana-Pacific Corporation 2026 Q3 - Results - Earnings Call Presentation (NYSE:LPX) 2026-11-03",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbV90MDdyOFVLbUttZzg3dkk4T3NOMmR0cFhyMGpxalQzdG56UnBVYnR2ZkJCa253UERIa0QyNk81aTdJQXBIdlF3bklrbFFqMUtQWU5JUDJ1TzZZdkJkbEMybklRczJSX1Zqb3ExVklsRGlZRVNrb1FWUDBqdXZmWW5WWG1pcm9PRTRzVVpieUg1QlBQczFmbnlnWThieXpGd3JYSFRQZEVIUzNRZHdJUUJQZWdSeG1WOWdXVWxZNUpCcXFnMEFMSnBRSTZaZTU2VllRVQ?oc=5",
+          "source": "Seeking Alpha",
+          "date": "2026-11-03T19:01:25.000Z"
+        },
+        {
+          "title": "Earnings call transcript: Louisiana-Pacific tops Q3 2026 estimates as siding shines By Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQanBlN0J6VUtMOFZVT3c3X3pTMU04bDg4WlB3WTU3TnhSbDk3MXFFUnZTbHlBejQ4bG5tbkdwRHJBOWhkWlFHRGdEZXFvWktOQlVMb1B0cmxta1diLXcySGNvYzl6NTlNVEUzLWxKYS1IbUtFWkZGWEpLdWhmaDdrUWZsSnFfU29HRk9kejNFOEIya1BLMFVING5nNm03TUUtZVNpSzBhTEtMN3l1bWJCZ3FSMzV3cnl0dURiZHh0OE9zUXNoVUFYRTBncHNCTDZrTERDcElWOUEtQQ?oc=5",
+          "source": "Investing.com India",
+          "date": "2026-11-03T17:39:50.000Z"
+        },
+        {
           "title": "Louisiana-Pacific Q3 2026 Earnings Call Transcript",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWk53VWZXTFNKckExQUNNZmxMVGpiOEtFLTRHSjc2T3lYSjRxeEtndk4yYnA4alI0MjhYM2k4UEM0UDhOVVVMVWw0ZWxMMUhwLXRmeTVzLUhJTTFwTmtPZFlSVXlPS0Vkel9sOFFvMkxTTHZnbFJPWHowNlFYZFdEUFh6QVBIaFMxLWVkb0hNZXRkdWUxTEk1RXJCYw?oc=5",
           "source": "Benzinga",
@@ -2676,46 +2712,10 @@
           "date": "2026-11-03T14:46:52.000Z"
         },
         {
-          "title": "Louisiana-Pacific (LPX) Reports Q3 Earnings: What Key Metrics Have to Say",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTzBmX2xFVDgzNnB2ZFBfbWEzUnpGVzBlam81V0d1NFVGUWs1RnhFN1FpTVJfMldyTWY2WkdMVzN0ZWhzTzQ4SnYtLU9kTkRTTEdseWRUYnFiaW9ObnFSTUh2YjVZdG50M1BqNUpJYmxVUU96Q2N5WHJYYXhScHYxazVsbWpYZEp2aUFiQ2pPSmgyN29kc0VlNjJoNjljdw?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-11-03T13:30:05.000Z"
-        },
-        {
-          "title": "Louisiana-Pacific Corporation Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWE9Ecm15N01fLVZhLV9jRjdzRXd3al8yWm9UdVIwYUxrbE1XcVJ3TE5tdGp6bllaOXVJa1ZlSEtVcWpJYVJEN2h0SFRwVWs1SW5UcFhiNHVRTnU0eXVrSnV3bWtpUTZiLS1oR2hBaHZCWkJ5ZjZOcVgwUENJN3BlS1lsQzJSNGgtc19UaTFwemV3TEdjMVJLVDU0UVlHUWFRb1ZkTlBKSjNPTl9wUU53cGFVSkhhNHUwaWNjUzZGTkJHYkZRSUhEMmRrSllPTHZrSmZyU1pHS3JUdjZTaUNHVm1uMHRHWE9v?oc=5",
-          "source": "marketscreener.com",
-          "date": "2026-11-03T13:20:57.000Z"
-        },
-        {
-          "title": "Louisiana-Pacific stock surges 5% on third quarter earnings beat By Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdEZpaERsRUpPSm16UVhyZGVzeVRYYU9IUko2cElJUjJtblNTQ0VZSlhTYkoxWmZ0RVZFMHhpbG81cW5MczhHRW93WGNmTFdBNldvRWlWTTRVRW55VHp5UlRHMHJJbnlBQk5IRXBueVFHM3Nhb3dINlhlUnlCUzJlYzZQUHFYcE44VDJWWDBzTHI3RVpReUgxSzZIN0NyZS1kbjlEcmlOZk96RVRtZ0hQWWdqNVBPQWdyck53Ukpxa2s?oc=5",
-          "source": "Investing.com Canada",
-          "date": "2026-11-03T12:00:23.000Z"
-        },
-        {
-          "title": "Canfor (TSX:CFP): Can Mill Consolidation and a Leaner Footprint Lift Output Per Employee Through the Lumber Cycle?",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOX2pQcEpBRHRFTFNEUlBtdkUtSzVUOWpMWWc2YmVqN01fOS1aVmdfX1hGZWUyS0JDbUJNUVVKVjFicG8xdGJ1WTg4ck53Ym1HdDBhc2NvOTF6cUh1dVg3WXJjQXdSMGphbkUzRzdVRU9iQ0Y1X2hIbjViUjVWbWV1MVJ1NHdyYVg5ZHNDcFl3anBYVkdGdFhjcWJtbWZrV3FCWGoxc285OV9DZDl2N2EwMzJkRWEzVi13bzFoZjF5UEMtbU9VUTB6YXBfamk1aFlRZXZUel9NQUVDc294M0E?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-11-03T11:44:00.000Z"
-        },
-        {
-          "title": "LOUISIANA-PACIFIC ($LPX) Releases Q3 2026 Earnings",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXJ3VDdoSGxvUjljRUJwOVlyQ3hHZTlYaTR3RkRwdDdHaW1oaXpGUDVSMVh5TVlXaDV2REY3aEdmRjkyVDNGUFhMTGR1MklxSm9KcjlSZ1Jvc0ZQdG16YWpvd1BRdGUtT09faHRWOENPamlNZU5TNmlsYy1Kb2luT2x3VWR0bzVjSmpzZW5ZTUVzajA?oc=5",
-          "source": "Quiver Quantitative",
-          "date": "2026-11-03T11:35:00.000Z"
-        },
-        {
-          "title": "Earnings Flash (LPX) Louisiana-Pacific Corporation Posts Q3 Adjusted EPS $0.39 per Share, vs. FactSet Est of $0.20",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORERGNm8zbWc5Z0pOdlpmSnNnWGZEUWh2VmptU1U2N1Q1VkJfZF9ZaWhRQ3hyMm1HMGN6QnVWMElKZjQxTDQ5aW9Vb0N6TlNPRFFHZTd2U0RBSC1XbHRtaXZPajdmZVEweWxuTThWcDNBbTNocmFTanB2VmtOeEM5SzczSE14RnJpRkd2aDJQQ095NlF0NlhRN3pkS0pLS0RmdTNQaUYyZkxZRzlmSlY2SGk2SHJvNmZFbGpVMjE3N0xNbWFjNU41RU1aZ3JHZU4teks4NUpkNE1xTFA3aGJrOGtR?oc=5",
-          "source": "marketscreener.com",
-          "date": "2026-11-03T11:33:05.000Z"
-        },
-        {
-          "title": "Louisiana-Pacific (LPX) Beats Q3 Earnings and Revenue Estimates",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLTF5WWxxVWlIcW1ua3VrckUxZnNhZk1abDhURFVwSnZSYjQxYy1DQU1YSUhZckZ4NW9Zc01LUF9QTVBuYTBHOHI2Z2FKbjYzRmo1WGktN1FsS09pWUVRbHpRMXdoVkxUUm5EUlg3YWlGM09pMnlqOGppSGp2Q1JiT25tYTdXWmFOQUJZclpmT3VqS0ZPbkRhVDBhQQ?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-11-03T11:25:03.000Z"
+          "title": "Louisiana-Pacific earnings beat by $0.17, revenue topped estimates",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONXo4MjhCcEEtT2lxR0VPeVBfdkdyV3A0VXl5bTRPN1VSZGJjRUl6eUpmcjRvZUk2NmhQZ0VkS1NMVHlfX2pxN1pYVmlRU2xhWU1hV2hIMzBwbGhaRnB2Tk03dG0ydzd5ZkN0ZWs1Yl9zQ2F5bEFtWkFzNmV1Q1ZZVi1IeFZVTnl4ZHRQWDNNVXRZVnlUdjZ4V2QtV1M3X3lHZXAxSHl6bXZGck1RZHc?oc=5",
+          "source": "Investing.com Nigeria",
+          "date": "2026-11-03T13:51:49.000Z"
         },
         {
           "title": "US Construction Spending Declines in September",
@@ -7092,21 +7092,21 @@
         "series": [
           {
             "period": "2026-11",
-            "mean": 732587,
-            "lo": 652788,
-            "hi": 822140
+            "mean": 732590,
+            "lo": 652791,
+            "hi": 822144
           },
           {
             "period": "2026-12",
-            "mean": 631734,
-            "lo": 558196,
-            "hi": 714960
+            "mean": 631737,
+            "lo": 558201,
+            "hi": 714961
           },
           {
             "period": "2027-01",
-            "mean": 741709,
-            "lo": 650218,
-            "hi": 846073
+            "mean": 741713,
+            "lo": 650226,
+            "hi": 846072
           }
         ]
       }
