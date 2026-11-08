@@ -8,7 +8,7 @@ window.LUMBER_DATA = {
       "production": false,
       "price": true,
       "housing": true,
-      "exports": true,
+      "exports": false,
       "companies": true,
       "regionExports": true
     },
@@ -2388,8 +2388,8 @@ window.LUMBER_DATA = {
       ]
     },
     "canadaExports": {
-      "unit": "US$ millions",
-      "freq": "annual",
+      "unit": "MMbf",
+      "freq": "quarterly",
       "destinations": [
         "US",
         "China",
@@ -2399,139 +2399,342 @@ window.LUMBER_DATA = {
       ],
       "series": [
         {
-          "period": "2018",
-          "US": 5745,
-          "China": 829,
-          "Japan": 728,
-          "Europe": 99,
-          "Other": 492
-        },
-        {
-          "period": "2019",
-          "US": 4453,
-          "China": 612,
-          "Japan": 518,
-          "Europe": 95,
-          "Other": 324
-        },
-        {
-          "period": "2020",
-          "US": 6278,
-          "China": 449,
-          "Japan": 393,
-          "Europe": 84,
-          "Other": 285
-        },
-        {
-          "period": "2021",
-          "US": 11121,
-          "China": 382,
-          "Japan": 885,
-          "Europe": 131,
-          "Other": 588
-        },
-        {
-          "period": "2022",
-          "US": 9059,
-          "China": 233,
-          "Japan": 631,
+          "period": "2015Q1",
+          "US": 2525,
+          "China": 255,
+          "Japan": 191,
           "Europe": 97,
-          "Other": 480
+          "Other": 160
         },
         {
-          "period": "2023",
-          "US": 5395,
-          "China": 206,
-          "Japan": 309,
-          "Europe": 89,
-          "Other": 282
+          "period": "2015Q2",
+          "US": 2815,
+          "China": 296,
+          "Japan": 225,
+          "Europe": 114,
+          "Other": 186
         },
         {
-          "period": "2024",
-          "US": 5491,
-          "China": 195,
-          "Japan": 316,
-          "Europe": 113,
-          "Other": 284
+          "period": "2015Q3",
+          "US": 2854,
+          "China": 303,
+          "Japan": 223,
+          "Europe": 118,
+          "Other": 186
         },
         {
-          "period": "2025",
-          "US": 4809,
-          "China": 209,
-          "Japan": 316,
-          "Europe": 104,
-          "Other": 322
+          "period": "2015Q4",
+          "US": 2545,
+          "China": 273,
+          "Japan": 197,
+          "Europe": 108,
+          "Other": 171
+        },
+        {
+          "period": "2016Q1",
+          "US": 2500,
+          "China": 275,
+          "Japan": 197,
+          "Europe": 112,
+          "Other": 169
+        },
+        {
+          "period": "2016Q2",
+          "US": 2853,
+          "China": 331,
+          "Japan": 227,
+          "Europe": 134,
+          "Other": 198
+        },
+        {
+          "period": "2016Q3",
+          "US": 2828,
+          "China": 330,
+          "Japan": 228,
+          "Europe": 134,
+          "Other": 195
+        },
+        {
+          "period": "2016Q4",
+          "US": 2590,
+          "China": 294,
+          "Japan": 208,
+          "Europe": 125,
+          "Other": 176
+        },
+        {
+          "period": "2017Q1",
+          "US": 2560,
+          "China": 303,
+          "Japan": 206,
+          "Europe": 126,
+          "Other": 180
+        },
+        {
+          "period": "2017Q2",
+          "US": 2821,
+          "China": 347,
+          "Japan": 236,
+          "Europe": 149,
+          "Other": 208
+        },
+        {
+          "period": "2017Q3",
+          "US": 2769,
+          "China": 343,
+          "Japan": 233,
+          "Europe": 149,
+          "Other": 207
+        },
+        {
+          "period": "2017Q4",
+          "US": 2465,
+          "China": 312,
+          "Japan": 206,
+          "Europe": 135,
+          "Other": 179
+        },
+        {
+          "period": "2018Q1",
+          "US": 2476,
+          "China": 304,
+          "Japan": 202,
+          "Europe": 138,
+          "Other": 182
+        },
+        {
+          "period": "2018Q2",
+          "US": 2824,
+          "China": 354,
+          "Japan": 243,
+          "Europe": 164,
+          "Other": 214
+        },
+        {
+          "period": "2018Q3",
+          "US": 2695,
+          "China": 364,
+          "Japan": 234,
+          "Europe": 164,
+          "Other": 214
+        },
+        {
+          "period": "2018Q4",
+          "US": 2402,
+          "China": 321,
+          "Japan": 212,
+          "Europe": 150,
+          "Other": 189
+        },
+        {
+          "period": "2019Q1",
+          "US": 2386,
+          "China": 328,
+          "Japan": 208,
+          "Europe": 148,
+          "Other": 191
+        },
+        {
+          "period": "2019Q2",
+          "US": 2669,
+          "China": 381,
+          "Japan": 238,
+          "Europe": 174,
+          "Other": 221
+        },
+        {
+          "period": "2019Q3",
+          "US": 2653,
+          "China": 366,
+          "Japan": 233,
+          "Europe": 177,
+          "Other": 216
+        },
+        {
+          "period": "2019Q4",
+          "US": 2446,
+          "China": 337,
+          "Japan": 216,
+          "Europe": 159,
+          "Other": 197
+        },
+        {
+          "period": "2020Q1",
+          "US": 2491,
+          "China": 358,
+          "Japan": 225,
+          "Europe": 174,
+          "Other": 208
+        },
+        {
+          "period": "2020Q2",
+          "US": 2901,
+          "China": 428,
+          "Japan": 267,
+          "Europe": 206,
+          "Other": 247
+        },
+        {
+          "period": "2020Q3",
+          "US": 2982,
+          "China": 444,
+          "Japan": 265,
+          "Europe": 212,
+          "Other": 250
+        },
+        {
+          "period": "2020Q4",
+          "US": 2515,
+          "China": 375,
+          "Japan": 232,
+          "Europe": 188,
+          "Other": 213
+        },
+        {
+          "period": "2021Q1",
+          "US": 2389,
+          "China": 368,
+          "Japan": 223,
+          "Europe": 181,
+          "Other": 210
+        },
+        {
+          "period": "2021Q2",
+          "US": 2511,
+          "China": 399,
+          "Japan": 238,
+          "Europe": 196,
+          "Other": 221
+        },
+        {
+          "period": "2021Q3",
+          "US": 2447,
+          "China": 386,
+          "Japan": 224,
+          "Europe": 187,
+          "Other": 219
+        },
+        {
+          "period": "2021Q4",
+          "US": 2068,
+          "China": 331,
+          "Japan": 197,
+          "Europe": 167,
+          "Other": 187
+        },
+        {
+          "period": "2022Q1",
+          "US": 1973,
+          "China": 328,
+          "Japan": 193,
+          "Europe": 163,
+          "Other": 181
+        },
+        {
+          "period": "2022Q2",
+          "US": 2242,
+          "China": 368,
+          "Japan": 212,
+          "Europe": 185,
+          "Other": 204
+        },
+        {
+          "period": "2022Q3",
+          "US": 2091,
+          "China": 357,
+          "Japan": 209,
+          "Europe": 180,
+          "Other": 200
+        },
+        {
+          "period": "2022Q4",
+          "US": 1980,
+          "China": 334,
+          "Japan": 191,
+          "Europe": 167,
+          "Other": 188
+        },
+        {
+          "period": "2023Q1",
+          "US": 1965,
+          "China": 345,
+          "Japan": 193,
+          "Europe": 178,
+          "Other": 194
+        },
+        {
+          "period": "2023Q2",
+          "US": 2314,
+          "China": 395,
+          "Japan": 223,
+          "Europe": 208,
+          "Other": 222
+        },
+        {
+          "period": "2023Q3",
+          "US": 2283,
+          "China": 408,
+          "Japan": 232,
+          "Europe": 213,
+          "Other": 231
+        },
+        {
+          "period": "2023Q4",
+          "US": 2080,
+          "China": 383,
+          "Japan": 210,
+          "Europe": 198,
+          "Other": 203
+        },
+        {
+          "period": "2024Q1",
+          "US": 2159,
+          "China": 398,
+          "Japan": 216,
+          "Europe": 211,
+          "Other": 218
+        },
+        {
+          "period": "2024Q2",
+          "US": 2449,
+          "China": 441,
+          "Japan": 248,
+          "Europe": 241,
+          "Other": 242
+        },
+        {
+          "period": "2024Q3",
+          "US": 2464,
+          "China": 465,
+          "Japan": 249,
+          "Europe": 244,
+          "Other": 250
+        },
+        {
+          "period": "2024Q4",
+          "US": 2149,
+          "China": 403,
+          "Japan": 219,
+          "Europe": 213,
+          "Other": 224
+        },
+        {
+          "period": "2025Q1",
+          "US": 2135,
+          "China": 417,
+          "Japan": 224,
+          "Europe": 219,
+          "Other": 227
+        },
+        {
+          "period": "2025Q2",
+          "US": 2484,
+          "China": 483,
+          "Japan": 261,
+          "Europe": 268,
+          "Other": 258
         }
-      ],
-      "volume": {
-        "unit": "MMbf",
-        "series": [
-          {
-            "period": "2018",
-            "US": 13459,
-            "China": 2181,
-            "Japan": 925,
-            "Europe": 49,
-            "Other": 716
-          },
-          {
-            "period": "2019",
-            "US": 12855,
-            "China": 1941,
-            "Japan": 770,
-            "Europe": 50,
-            "Other": 528
-          },
-          {
-            "period": "2020",
-            "US": 13041,
-            "China": 1313,
-            "Japan": 587,
-            "Europe": 44,
-            "Other": 460
-          },
-          {
-            "period": "2021",
-            "US": 13650,
-            "China": 783,
-            "Japan": 644,
-            "Europe": 57,
-            "Other": 590
-          },
-          {
-            "period": "2022",
-            "US": 12744,
-            "China": 533,
-            "Japan": 467,
-            "Europe": 35,
-            "Other": 444
-          },
-          {
-            "period": "2023",
-            "US": 11883,
-            "China": 643,
-            "Japan": 388,
-            "Europe": 41,
-            "Other": 406
-          },
-          {
-            "period": "2024",
-            "US": 11890,
-            "China": 554,
-            "Japan": 419,
-            "Europe": 71,
-            "Other": 394
-          },
-          {
-            "period": "2025",
-            "US": 10420,
-            "China": 521,
-            "Japan": 380,
-            "Europe": 61,
-            "Other": 425
-          }
-        ]
-      }
+      ]
     },
     "tradeActions": [
       {
@@ -2561,38 +2764,8 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-11-08T12:38:26.563Z",
+      "fetchedAt": "2026-11-08T21:36:45.443Z",
       "items": [
-        {
-          "title": "Weyerhaeuser (WY) Beat Expectations And Expanded Clean Energy Plans, Is It Still Undervalued?",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOWM1WXZaR1FWdkk4ajBsZy1JbnVBWEh5NWk1MEFZLWpjYklxUk1ZOXkxbEtJY2R5WmgyWmR0SF9fT2pPQ21KejhwOEVqX1ZfNnNwVWNobGduVjhZOHRvcUwwUF9oMXVvNzF2b3NOQ3FiWkNEY0xHRnJGWFJEVkh3THh5b2ZhVHotSEhjSG9qN1dmejRnMEVTNDhtSzN1OEJmbGpzTFRvRDJHYUtfYzlyQlFXdkNfSE9uVE43TF9FSFQwaEZjN2VEYdIBzgFBVV95cUxPemRLTXhmYTEyaUk5V1ppSk94QklSWGE3UTNYSnRpNlNoSHVaQzJmVEtQeU1yRnpKUnllaGRXdncwbHJieUFkU2NKdjVXR3BLQjFyOEVHZmhPRTdfa01jSWxGS0Iwd0FlWTJCdjQ1Q1J2S2s4cnFfVzZuT2JVUzFSc0dISXVCSXByZklKYUt1dkMwX0VramlmSjhSSko0aml5LVJZSW5NZjR0YVM1WHJXSXV2aC1KU2Y1end6NU5OX1F5TXBoQmRjZ0VJclNPQQ?oc=5",
-          "source": "Simply Wall St",
-          "date": "2026-11-08T06:36:02.000Z"
-        },
-        {
-          "title": "Interfor Earnings Call Signals Strength Amid Market Headwinds",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVjVfTnUyakswTTVydnFETzM2dWdUNGJOWWNIVXVhMk16cnNqajdacEVHY0NrRFhMTEk5ZTZKWGJNdExTbWlnaUV4bUtFemRjUV8wS1F4UnAzNjdFUU5OYjlYQXoyVHo1dURtUUpYeVdmc19RR3VJTWE0bzBxbUtsTWZMaFBhdDBDUldUTWpQbWlmSDhtVTQzdnBxN0RnVVR3TkVGYU04MDNUTEEzT3ZoX2R0cw?oc=5",
-          "source": "TipRanks",
-          "date": "2026-11-08T00:28:52.000Z"
-        },
-        {
-          "title": "Canfor Corporation 2026 Q3 - Results - Earnings Call Presentation (TSX:CFP:CA) 2026-11-07",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdHUzWWdtZ3cwMS1QOUFVY1JMWUxSZG5ic0MyWU9VS1Nkdjk0VWs0Tzdwa0xGQXE4eEYwcGJET3p0NGN4ZWt4WFdnNnkyTzRzejRtbm4yVXVDVnhxWG1xd2ZIVVJEYVdmbGlXR2JfMzFXWnFSWWJFN1Iya2NZWnh5eXR1MWdld190dDFIWnYyV0VVU3I1aTMyakMzb2JKSV9WMklkRg?oc=5",
-          "source": "Seeking Alpha",
-          "date": "2026-11-07T23:12:57.000Z"
-        },
-        {
-          "title": "North America softwood lumber import price benchmark falls 2.7% while tropical lumber rises 4.0%",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWGpBT3B0MkxIUXozajlrMTB4MDM5TU5kalhvT2ZfS1VZdHd1S3h5akFzU3poY294VFVoSlYxSl9GR2I1Vjg1S2packlJNm9lYWNXcDdRQk9uVjk5TEVIR0lwdEpQNFpkQ0l2QWNFbnZCcnNBNEJaamQ4THFmWlZCU25nQ3ZJdU5lZVFLNGxRN0hmQUNqVlhwY19NZHBDLWlVcWJuVm1NaFllMjgtYVRiVHJZeENLUGUwZDRJRnBReHlKRzE5SzlHNlhYbXZURTg?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-07T15:55:40.000Z"
-        },
-        {
-          "title": "Interfor Corp (IFSPF) Q3 2026 Earnings Call Highlights: Strong $77 Million EBITDA, Cost ...",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUUk5d0FHSk5qQUJTRjhmRmFWaWxKaFhhMGM5VURNeGNveE1aX1NoQzM2R2xLUkhoQmJJdTNPejhKclpVOF9fOXVpZ1lNYWVFVTRTbFJnaWFGM0FRMGFLZjgxSDE1T3VfOS16OFd5Wm9jX2RKMkpuUzkwTGV3OFRoVldaU1MxTXpTRXhPVEpzb29jUDZ3ZkpR?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-11-06T23:16:24.000Z"
-        },
         {
           "title": "US Multifamily Developer Confidence Declines in Q3",
           "url": "https://getfea.com/end-use/us-multifamily-developer-confidence-declines-in-q3",
@@ -2636,24 +2809,6 @@ window.LUMBER_DATA = {
           "focus": true
         },
         {
-          "title": "Interfor posts $45 million loss in Q3",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZG9nQ0ZPc01EeUdDZGV1NkZVeEFlT092aWcwV0E4TDAta3pPSXpkUVR2QkdsaGFMWUFHdWZsTllHaDFqUkEtVEd2Z2dBSzE3TXF6aUN6bndvYjJNN0JISXNqalVBa0NhSHROR0lmR2c0N011SkJTMkZVSUludjl1VmRRYjBZMnB2SE92SzBWbTA?oc=5",
-          "source": "My Kootenay Now",
-          "date": "2026-11-06T17:20:39.000Z"
-        },
-        {
-          "title": "BC-Lumber Futures",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcm9mV3lfVEFJeGVpekFXdi05R0RYT0d3QWRvRVp2V3NmX05LRDA1eHMtVVB2eGF6b0xjTllPVkN6NGVXYTRwWlNrb3lMYVE2Ni1OU1lXVTlUVDZYYXVxNjR6T20zWjVCUG1LdnFUbjFzd1hiRkI3NVFreDdIX3hjbFlYaGJqb0FSNlBrS1lNWVBYMDJhb0pBWE1WUDE1ei11YzM2UEdPZjI2ZHM?oc=5",
-          "source": "WFMZ.com",
-          "date": "2026-11-06T15:54:16.000Z"
-        },
-        {
-          "title": "Western Forest Products swings to adjusted EBITDA profit on lumber prices",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSWpLYkFMY2FVQnpjR1ZGQ19vZWdQNFc0MTg0RGp3VmE0MDdaLVRZeEc5N2EzRHJ5SUN1MFV2NUN5ZDRsYlZhTlZ1YVlFb3pIWTlzUHVPYzE0QzVRQlZqa3NyM0xLYjdlZmJjQ25JUW9PQ0ZsQ2V3R091UnJwMXVFX1RmT1E0d3Z5N253NTNJM0dva3VMVHlzNHlWdGVHQmxHcmp1QlZSbGtIZXYwRGktVzQ0WQ?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-06T15:06:26.000Z"
-        },
-        {
           "title": "Western Forest Products Sells Stillwater Forest Operation to Tla\u2019amin Nation",
           "url": "https://getfea.com/timber/western-forest-products-sells-stillwater-forest-operation-to-tlaamin-nation",
           "source": "Forest Economic Advisors",
@@ -2680,78 +2835,6 @@ window.LUMBER_DATA = {
           "source": "Forest Economic Advisors",
           "date": "2026-11-05T23:35:59.000Z",
           "focus": true
-        },
-        {
-          "title": "Interfor swings to adjusted EBITDA profit as lumber prices rise 2%",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc01xWXV5dDZiejF2UG94eHBxcm5ieEJIYzljamV0cmg3TTZHOW5JWDZIVUV2TkJXTHFJNHdkNmJqQXhxM1NtT2w1WGdMTTJ6T0FGVlU0LTZOZmJlTmQ1eENDaWlocWx4aDNUa0xiX09URVBSeVl0czdWbDFycE4wSnRxZXV5NF9iS1Z6ZjRJZm9LTmRzRlA4dHViOE1VUDlRRGE3YkpaSEU?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-05T22:53:16.000Z"
-        },
-        {
-          "title": "Canada's Interfor Q3 adjusted EBITDA beats estimates as lumber prices rise",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVHNTU3N2QU1tZTFMb3ZXRHlQMEFFZnhKM1ZIUEZQM3pQUmZLSllrNHlWNVBGanZOUDVWcmI1QWVKOFNTQmxiZTVwRXd4YUJoSDFfQ21Walo0MF96dVBrUWxJV2NPSXJaa2laTHJKOHBRN3o4Q1NDODBuQnlKTUJQMHl6ZWFwQWpxZWk3aDd3N3FuTmRPU2QyVC1XN1piWmJFMk5ONmRDYkxNTEZqQk1SYngtMnFGYkxuYURpRkVWSnVWNFFXaUhWTkJYdE1Kem93Z3ZlSGJ4RVlmOXFq?oc=5",
-          "source": "TradingView",
-          "date": "2026-11-05T22:11:15.000Z"
-        },
-        {
-          "title": "Canfor Earnings: Sluggish US Housing Market Holds Back Lumber Growth",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcGtJVmFzekwySm1vZUVRZVBERjBhTTU2RUVXZHBFaGtid0tBS1dKTkZuV2pwVV9KelB1MG0yNmNnd1Z4Y3dXYXEzX2RUTGZaNFIzNU5nelRFRkpCeW5WMkc2d3ZmZE1aZ2hfSjJhazZheEF6Y181ZS1LSGZGNHZ3MUJ2cFZpLW5kN1lsWk12eURUTndPaC1BYnBzdVJEazl3SEVDSFlidmpVZDBaclB4UQ?oc=5",
-          "source": "Morningstar",
-          "date": "2026-11-05T18:50:50.000Z"
-        },
-        {
-          "title": "West Fraser (TSX:WFG): Curtailments Signal What\u2019s Next?",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVlRBV3NBQjBNcXE3MnBETk9hc3FPd3l2UDlYczY3OG1tRW9IS0NaQW1IWGVlOFVMcnpMUmFFQ0xUVEo5aWVtYWxJc2FqZkNiVng1UmswdzZ5Y25vODYyeVl2cTJ1NGZHQ0c0MFV2WGh4bnVsbVBiYkpuWWxXUWcwX19vNFBUOTgxT0VfVFRvZjkyTTBSY0RZX1hfQ3FVLVJBOHd3?oc=5",
-          "source": "Kalkine Media",
-          "date": "2026-11-05T18:01:00.000Z"
-        },
-        {
-          "title": "Restructured Canfor reports net loss, but maintains cautious confidence for future",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdThhQmlDeGJjRUI4REpyVFJCMFMwbXNHVjdyOW9EbVR0OHlCUTdad3ZGenJaSVJVOTZRNlU0eFFnbTVrNlBDMzFFemYzQ2l2NjQtQXJuVWRpQjVBb0tsR1poSnNEbktBQlU5c0tnRWZCeUpER2V5dEgxOUZfY2FhaVdGSkZHeW96eEY0LWdERldDcmlVTjJsNFNremx3VlZUT3JLN2J0dXpfWHlXMTdabA?oc=5",
-          "source": "Vancouver Sun",
-          "date": "2026-11-05T13:08:22.000Z"
-        },
-        {
-          "title": "Small caps to watch: Earnings from Cineplex, Canopy Growth, NFI, Interfor, Premium Brands, Kits Eyecare, Chartwell and more",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdHJZTWh1dmduV0NUYW5WNk9Dc0hoTldwNHVVMEJnQmVwTEVtbUFsU2E4NkhnM2YyWFpOSFkzRENyZS0tNXV3MHpJYkFnMlljbjFrZS1nVm80OEZJd1dqdWpnV203bTY0WWZ6RThLY0R6cHBZa1B0T3RsNVhuSnhYSU5qdHBXWGFSU3VrWnF3SmpqaGpqVFZFSVpFMjItVEZ2NU5BbEw3SDQxdlpEM1Z6QmpBcmZYd0RzZVJ0OUl4MnJpM0FZMmlnY0oxaHBqeUNMeXZoa3YtLS1Cd3VSaDdr?oc=5",
-          "source": "The Globe and Mail",
-          "date": "2026-11-05T12:26:18.000Z"
-        },
-        {
-          "title": "Rayonier Q3 adjusted EBITDA rises 27% on PotlatchDeltic assets, sees lower lumber prices ahead",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUFNUb3dJRUY1bUFQQzlsSzdxM3ktbmFNMTN0WTB2ZC1oMXJTTzNOM2lueVhkQno2UjdaSjJTRlhlOVl4SkpEOWM4RkRkcDBCUFdkOVVLcjZCOXBZZVhHR3dlZzdKYk5qRVctR0xFWWpjd0JSd21WcGhNM2Z1TkVReUMyUnBCN3J2Q3RYNnRQWXFOVUFzbTRZMHh0SE1kX1lQNzZWMmpnTzhXNHB6X3BmM1RjMkJ6aW93eEtENFpSSTdXYzBWSUduVjhkRGU?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-04T22:26:54.000Z"
-        },
-        {
-          "title": "U.S. softwood lumber imports drop 6.6% in third quarter",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdHloT24yVTBKNUk4T2xvX25BXy1RN09fUFJPTEN2UUxkRGxsY3M2YWdpMHMweW9PRF9MLWowSTNRR0hTN3V6QnFjOHg4Z2lJQ2J1LUJ0RVNfbFVZSTZoTzhIc2hnQXFZYms2Zjk3aDJJU0VldE1nTjJkaGFNcFBOUGRFTUsxZmJpbjlNa3puNWZiS0hSTExNZw?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-04T17:38:54.000Z"
-        },
-        {
-          "title": "Canfor reports results for the third quarter of 2026",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTUpSR04tcUhNR1JTYXRtTzd4dEhzYVJyai13eXppcmFseHI0XzNMQ3V2QWZ0dFRBOHFIdmlmSVRHUGVuUjdmRkNwLTg0Znk1NUw3U0lObDJuUzVKQVc1SjlqQmxYN0wxT19fbXc2UDFjUW5oa2VBaExwQjZ2U21rWUw4dXl4RUotbC0teUkyVDdWd3NhdlJWSmJvak5MbExhMGJV?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-11-04T12:00:00.000Z"
-        },
-        {
-          "title": "Engineered wood products maker shutters Alabama plant, cutting 123 jobs",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQVdOTlZmR2NxbU9feGh6QmdfZW1neVpDZktVdU1JR1UxSUc3anBiYi1pN3BPTmNKNUVNazRmcWlrMlUxaTRCZkxGMGhIUTc1ZktIbkpoeTBGcFBBZ1U1UDQwa0pSMFRteXZPdWdjNGRXSDQ0SmI1XzBIMUpBckltTTBoN1piRG5neUUtenZLUXQ4eHg2SlM5a1h4VmlYRzBV?oc=5",
-          "source": "The Business Journals",
-          "date": "2026-11-03T20:32:00.000Z"
-        },
-        {
-          "title": "Weak Housing Keeps Pressure on Lumber and Weyerhaeuser (WY)",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaERQbmtMZ1NNTkdYeXkyckpEXzNjMzBvczQ5dThEeEc3TE9IMUdreFNfWGIwTkxlbm40RkxKR2FQV0EwV3dZczkxY0F1QWc3M0RMOHRSakVwUVRHb3pYYTRkZ19TTzN2eGRMSS1kczctQzZaSnhCVWM0UnJwYkRnOWNrVWRMNjQ0b2xkM09iS1czdlFNc1p5ay0ydnA?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-11-03T14:49:08.000Z"
-        },
-        {
-          "title": "Small caps to watch: Earnings from Maple Leaf Foods, Canfor, ATS, Sprott and more",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZk9Td05YQXpWYkFGaWhicGZvUGFreW1pQm5kMWVBM3otalhGVXJqUWpXLXpHYkJCcUFtX1FHajRpS1RqeWd3Wmt2UkszNWZmQlZsa3k4S1NFYXhyZTNaTnNITWI0VHpPWENvXzFUTXlHaHdSVzVWckZONW5YbGpOWEhTOFhNakhBMmJTZ0JWbHE5WU1YTmd3ZnJHS0tSNDZvWTNaSGFEYnRPemFNclhIcmI1dGhkLUVBX0RNTy1mNV8wWjlJUjVLOUZqWnRFTnB1bTlUbW9MWmJ6VDJ6ZGt3?oc=5",
-          "source": "The Globe and Mail",
-          "date": "2026-11-03T14:05:20.000Z"
         }
       ]
     },
@@ -7097,21 +7180,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-11",
-            "mean": 732590,
-            "lo": 652791,
-            "hi": 822144
+            "mean": 732587,
+            "lo": 652788,
+            "hi": 822140
           },
           {
             "period": "2026-12",
-            "mean": 631737,
-            "lo": 558201,
-            "hi": 714961
+            "mean": 631734,
+            "lo": 558196,
+            "hi": 714960
           },
           {
             "period": "2027-01",
-            "mean": 741713,
-            "lo": 650226,
-            "hi": 846072
+            "mean": 741709,
+            "lo": 650218,
+            "hi": 846073
           }
         ]
       }
@@ -16129,11 +16212,11 @@ window.LUMBER_DATA = {
     ]
   },
   "fires": {
-    "asOf": "2026-11-08T12:38:27.512Z",
+    "asOf": "2026-11-08T21:36:53.136Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
-    "total": 356,
-    "count": 356,
+    "total": 412,
+    "count": 412,
     "capped": false,
     "fields": [
       "lat",
@@ -16142,6 +16225,12 @@ window.LUMBER_DATA = {
       "high"
     ],
     "points": [
+      [
+        54.822,
+        -117.5,
+        155,
+        0
+      ],
       [
         49.83,
         -113.554,
@@ -16161,9 +16250,51 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        54.404,
+        -113.83,
+        36,
+        0
+      ],
+      [
+        54.821,
+        -117.492,
+        35,
+        0
+      ],
+      [
         46.992,
         -115.874,
         34,
+        0
+      ],
+      [
+        54.826,
+        -117.491,
+        33,
+        0
+      ],
+      [
+        54.829,
+        -117.482,
+        33,
+        0
+      ],
+      [
+        50.55,
+        -116.223,
+        31,
+        0
+      ],
+      [
+        42.677,
+        -116.592,
+        30,
+        0
+      ],
+      [
+        42.673,
+        -116.59,
+        30,
         0
       ],
       [
@@ -16175,6 +16306,12 @@ window.LUMBER_DATA = {
       [
         57.753,
         -116.747,
+        28,
+        0
+      ],
+      [
+        44.4,
+        -111.612,
         28,
         0
       ],
@@ -16191,9 +16328,21 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        54.825,
+        -117.482,
+        23,
+        0
+      ],
+      [
         45.738,
         -121.664,
         22,
+        0
+      ],
+      [
+        54.826,
+        -117.411,
+        21,
         0
       ],
       [
@@ -16209,8 +16358,26 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        41.026,
+        -87.591,
+        20,
+        0
+      ],
+      [
         44.328,
         -106.916,
+        19,
+        0
+      ],
+      [
+        49.229,
+        -120.84,
+        19,
+        0
+      ],
+      [
+        49.23,
+        -120.835,
         19,
         0
       ],
@@ -16269,6 +16436,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        48.389,
+        -99.545,
+        13,
+        0
+      ],
+      [
         49.832,
         -113.54,
         13,
@@ -16277,6 +16450,12 @@ window.LUMBER_DATA = {
       [
         57.592,
         -117.18,
+        12,
+        0
+      ],
+      [
+        41.025,
+        -87.595,
         12,
         0
       ],
@@ -16297,6 +16476,24 @@ window.LUMBER_DATA = {
         -113.554,
         12,
         1
+      ],
+      [
+        48.285,
+        -120.265,
+        12,
+        0
+      ],
+      [
+        48.286,
+        -120.26,
+        12,
+        0
+      ],
+      [
+        48.978,
+        -123.851,
+        11,
+        0
       ],
       [
         58.536,
@@ -16347,6 +16544,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        49.507,
+        -101.094,
+        10,
+        0
+      ],
+      [
         45.372,
         -91.998,
         10,
@@ -16359,8 +16562,26 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        48.275,
+        -120.277,
+        9,
+        0
+      ],
+      [
+        48.272,
+        -120.276,
+        9,
+        0
+      ],
+      [
         51.833,
         -101.977,
+        9,
+        0
+      ],
+      [
+        51.708,
+        -113.418,
         9,
         0
       ],
@@ -16383,8 +16604,38 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        54.824,
+        -117.412,
+        8,
+        0
+      ],
+      [
+        49.458,
+        -120.884,
+        8,
+        0
+      ],
+      [
+        49.471,
+        -120.858,
+        8,
+        0
+      ],
+      [
+        48.532,
+        -98.986,
+        8,
+        0
+      ],
+      [
         52.914,
         -105.514,
+        8,
+        0
+      ],
+      [
+        42.511,
+        -89.453,
         8,
         0
       ],
@@ -16449,6 +16700,12 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        46.264,
+        -98.172,
+        6,
+        0
+      ],
+      [
         42.588,
         -91.573,
         6,
@@ -16461,8 +16718,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        42.677,
-        -116.595,
+        41.364,
+        -84.922,
         6,
         0
       ],
@@ -16473,8 +16730,20 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        44.403,
+        -111.618,
+        6,
+        0
+      ],
+      [
         50.518,
         -104.631,
+        6,
+        0
+      ],
+      [
+        42.872,
+        -113.03,
         6,
         0
       ],
@@ -16503,6 +16772,18 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        46.321,
+        -97.604,
+        6,
+        0
+      ],
+      [
+        45.984,
+        -97.79,
+        5,
+        0
+      ],
+      [
         44.117,
         -122.868,
         5,
@@ -16517,6 +16798,12 @@ window.LUMBER_DATA = {
       [
         45.952,
         -118.146,
+        5,
+        0
+      ],
+      [
+        46.223,
+        -98.47,
         5,
         0
       ],
@@ -16539,6 +16826,18 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        54.663,
+        -113.964,
+        5,
+        0
+      ],
+      [
+        54.661,
+        -113.965,
+        5,
+        0
+      ],
+      [
         46.79,
         -117.171,
         5,
@@ -16553,6 +16852,12 @@ window.LUMBER_DATA = {
       [
         41.634,
         -87.143,
+        5,
+        0
+      ],
+      [
+        48.484,
+        -118.289,
         5,
         0
       ],
@@ -16577,6 +16882,18 @@ window.LUMBER_DATA = {
       [
         50.759,
         -100.637,
+        5,
+        0
+      ],
+      [
+        53.068,
+        -108.765,
+        5,
+        0
+      ],
+      [
+        53.655,
+        -114.761,
         5,
         0
       ],
@@ -16623,8 +16940,26 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        54.115,
+        -124.535,
+        4,
+        0
+      ],
+      [
+        52.943,
+        -108.436,
+        4,
+        0
+      ],
+      [
         51.046,
         -101.72,
+        4,
+        0
+      ],
+      [
+        53.448,
+        -114.8,
         4,
         0
       ],
@@ -16653,6 +16988,18 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        53.065,
+        -108.764,
+        4,
+        0
+      ],
+      [
+        41.673,
+        -97.985,
+        4,
+        0
+      ],
+      [
         49.3,
         -98.888,
         4,
@@ -16661,6 +17008,30 @@ window.LUMBER_DATA = {
       [
         51.044,
         -101.718,
+        4,
+        0
+      ],
+      [
+        54.109,
+        -113.543,
+        4,
+        0
+      ],
+      [
+        54.107,
+        -113.545,
+        4,
+        0
+      ],
+      [
+        46.465,
+        -97.537,
+        4,
+        0
+      ],
+      [
+        41.684,
+        -87.422,
         4,
         0
       ],
@@ -16696,13 +17067,25 @@ window.LUMBER_DATA = {
       ],
       [
         49.28,
-        -119.271,
+        -119.272,
         4,
         0
       ],
       [
         53.448,
         -120.48,
+        4,
+        0
+      ],
+      [
+        46.074,
+        -98.341,
+        4,
+        0
+      ],
+      [
+        41.684,
+        -87.427,
         4,
         0
       ],
@@ -16727,6 +17110,18 @@ window.LUMBER_DATA = {
       [
         52.415,
         -112.809,
+        3,
+        0
+      ],
+      [
+        42.452,
+        -89.35,
+        3,
+        0
+      ],
+      [
+        42.455,
+        -89.355,
         3,
         0
       ],
@@ -16769,6 +17164,24 @@ window.LUMBER_DATA = {
       [
         44.085,
         -118.698,
+        3,
+        0
+      ],
+      [
+        44.324,
+        -90.056,
+        3,
+        0
+      ],
+      [
+        46.258,
+        -98.181,
+        3,
+        0
+      ],
+      [
+        41.18,
+        -87.856,
         3,
         0
       ],
@@ -16827,14 +17240,26 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        51.703,
-        -118.568,
+        42.639,
+        -88.397,
         3,
         0
       ],
       [
-        41.179,
-        -87.857,
+        52.303,
+        -114.817,
+        3,
+        0
+      ],
+      [
+        41.635,
+        -87.133,
+        3,
+        0
+      ],
+      [
+        51.703,
+        -118.568,
         3,
         0
       ],
@@ -16859,6 +17284,12 @@ window.LUMBER_DATA = {
       [
         41.225,
         -83.209,
+        3,
+        0
+      ],
+      [
+        54.65,
+        -114.036,
         3,
         0
       ],
@@ -16893,8 +17324,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        42.45,
-        -89.35,
+        54.275,
+        -115.146,
         2,
         0
       ],
@@ -16919,12 +17350,6 @@ window.LUMBER_DATA = {
       [
         41.48,
         -90.832,
-        2,
-        0
-      ],
-      [
-        41.682,
-        -87.424,
         2,
         0
       ],
@@ -16960,7 +17385,7 @@ window.LUMBER_DATA = {
       ],
       [
         45.951,
-        -121.433,
+        -121.434,
         2,
         0
       ],
@@ -17033,12 +17458,6 @@ window.LUMBER_DATA = {
       [
         49.207,
         -99.53,
-        2,
-        0
-      ],
-      [
-        41.684,
-        -87.426,
         2,
         0
       ],
@@ -17157,26 +17576,26 @@ window.LUMBER_DATA = {
         0
       ],
       [
+        46.012,
+        -123.773,
+        2,
+        0
+      ],
+      [
         46.015,
-        -123.764,
+        -123.765,
+        2,
+        0
+      ],
+      [
+        46.016,
+        -123.771,
         2,
         0
       ],
       [
         54.386,
         -128.858,
-        2,
-        0
-      ],
-      [
-        46.012,
-        -123.772,
-        2,
-        0
-      ],
-      [
-        46.016,
-        -123.77,
         2,
         0
       ],
@@ -17195,6 +17614,12 @@ window.LUMBER_DATA = {
       [
         46.221,
         -81.767,
+        2,
+        0
+      ],
+      [
+        48.351,
+        -118.375,
         2,
         0
       ],
@@ -17308,7 +17733,7 @@ window.LUMBER_DATA = {
       ],
       [
         49.273,
-        -119.26,
+        -119.261,
         2,
         0
       ],
@@ -17393,6 +17818,12 @@ window.LUMBER_DATA = {
       [
         56.143,
         -120.666,
+        1,
+        0
+      ],
+      [
+        42.509,
+        -89.462,
         1,
         0
       ],
@@ -17499,14 +17930,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        44.765,
-        -93.039,
+        41.675,
+        -87.438,
         1,
         0
       ],
       [
-        41.675,
-        -87.438,
+        44.765,
+        -93.041,
         1,
         0
       ],
@@ -17601,14 +18032,14 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        48.635,
-        -103.311,
+        49.136,
+        -120.473,
         1,
         0
       ],
       [
-        49.136,
-        -120.472,
+        48.635,
+        -103.311,
         1,
         0
       ],
@@ -17651,12 +18082,6 @@ window.LUMBER_DATA = {
       [
         43.196,
         -97.22,
-        1,
-        0
-      ],
-      [
-        41.633,
-        -87.134,
         1,
         0
       ],
@@ -17896,7 +18321,7 @@ window.LUMBER_DATA = {
       ],
       [
         53.077,
-        -115.584,
+        -115.586,
         1,
         0
       ],
@@ -17956,7 +18381,7 @@ window.LUMBER_DATA = {
       ],
       [
         53.942,
-        -117.212,
+        -117.213,
         1,
         0
       ],
@@ -18064,7 +18489,7 @@ window.LUMBER_DATA = {
       ],
       [
         53.76,
-        -116.8,
+        -116.802,
         1,
         0
       ],
@@ -18093,8 +18518,8 @@ window.LUMBER_DATA = {
         0
       ],
       [
-        46.022,
-        -123.683,
+        46.021,
+        -123.684,
         1,
         0
       ],
@@ -18136,7 +18561,7 @@ window.LUMBER_DATA = {
       ],
       [
         45.125,
-        -91.493,
+        -91.495,
         1,
         0
       ],
@@ -18263,12 +18688,6 @@ window.LUMBER_DATA = {
       [
         42.878,
         -81.228,
-        0,
-        0
-      ],
-      [
-        45.385,
-        -93.567,
         0,
         0
       ],
