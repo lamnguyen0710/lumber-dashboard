@@ -679,7 +679,7 @@ window.LUMBER_DATA = {
         },
         {
           "period": "2026-11",
-          "framing_composite": 500
+          "framing_composite": 504
         }
       ]
     },
@@ -2561,19 +2561,13 @@ window.LUMBER_DATA = {
       }
     ],
     "news": {
-      "fetchedAt": "2026-11-09T04:14:01.447Z",
+      "fetchedAt": "2026-11-09T14:57:44.358Z",
       "items": [
         {
           "title": "Interfor Q3 Earnings Call Highlights",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYW1DWkl6ZFA1YXU0dXVnX0t4bHNweXF4N1JCNXpKLWZqdkNIWHZMMkt2dzd4QU5IUWZZbkI5SzdKQ2xvTTZnbjJET3RVUVQxVUJpYjgydlhITUVlTnc3ekR1cUVINTJoSTVQMlMzWG5jYnAxZHk3VFpBMDk3clhQXy1ia1BVQlItX0EyTTluempEalc0RUJBMVh5SnBCMWJmQXE0?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-11-09T03:14:00.000Z"
-        },
-        {
-          "title": "Lumber futures fall to two-year low",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON2tGQWVnRmx2ZmtneVJDOVRUbGxib2wyNms0V1hmQTVQbnc0WkVZWURJR1ViMUNqNUQ4Z3VhZUZzREo5QllDcXRvQTlSVzkzT0c1c1dkejV3NmFMRFJOS2xMRmRkU3d6YnVEUjR3elFqRHZGUVZZLVp1bmJLNHZrZg?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-08T18:47:40.000Z"
         },
         {
           "title": "Washington Cut the Duty but Canada\u2019s Lumber Mills Still Face a Bill",
@@ -2718,12 +2712,6 @@ window.LUMBER_DATA = {
           "date": "2026-11-05T18:50:50.000Z"
         },
         {
-          "title": "West Fraser (TSX:WFG): Curtailments Signal What\u2019s Next?",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVlRBV3NBQjBNcXE3MnBETk9hc3FPd3l2UDlYczY3OG1tRW9IS0NaQW1IWGVlOFVMcnpMUmFFQ0xUVEo5aWVtYWxJc2FqZkNiVng1UmswdzZ5Y25vODYyeVl2cTJ1NGZHQ0c0MFV2WGh4bnVsbVBiYkpuWWxXUWcwX19vNFBUOTgxT0VfVFRvZjkyTTBSY0RZX1hfQ3FVLVJBOHd3?oc=5",
-          "source": "Kalkine Media",
-          "date": "2026-11-05T18:01:00.000Z"
-        },
-        {
           "title": "Canfor (TSX:CFP): Is the Lumber Giant Quietly Turning a Corner?",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSG5EdjlZd0M2UE9GNWRUNlFpUy1uUS13X203RE9JWFV2dmxlS2NpenVuWnJPcHpGRFVBU0xscEc4M1M5R3VNeHk2aks2cWEzQTYtR2JfRWJUbGRtUXhoV2llYWtQRTlxUGlUVGVXN3RFRU53S0RUa2p5V1BkLUQ3by1iRlNzc0Jqclp1TUNlNkNtcFBXVVFsdFFQS0hRbGp5N3ZDalMtZE5PVndvZFBr?oc=5",
           "source": "Kalkine Media",
@@ -2752,6 +2740,18 @@ window.LUMBER_DATA = {
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa3VHQ19WUWhIYzl5RnVaWXRDOWJ5aF9xOUFyeE1mdi16NEJlbTZ4VGNpcUhaZnV0RXZ2Y3c4c0tQZGc2NXJVRHM1UkE5UUV2R3g4d2laQlotUk5QZjdOU3hCY2lRM1NjWF8zRk5wSjFyZFYzYTVXSzY1LWN1THo1WVpwd3d0eVlOMXZ6UTBtUnc3QU15?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-11-04T23:13:06.000Z"
+        },
+        {
+          "title": "Canfor Pulp Products: Lower Q3 results, mill-closure charges and a $45.9M expected Q4 duty expense",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNRG9UT2Z6Rl9tVVV2cU01Qk9RUDdqMzZvbWk3MFpVdV9OSmFteTQ4cmxUejlQTjBpR0JnUVhCU1ZhbjlTbXJraXZielJtRXRfbU9ZeVlZLUxCYm9IOGR6eHFqNW5DNEZXcU5VZWxneGlyOXRSbXRUMGFILVFyUWhSYlRBbGF6eXdoU2hMbWxfRFVfUXppam5pb1o4dWRtMHRqYWJwV0pZTGJ4bUxuRUFYNGNlSHd4b05VcmhiUExqQnRRMFRGWkFvS1I3WC1lbGhONXN2dlNmZmRteW14UHBrR0NDLXFkMnFvSkZQSmJWd0UxYjJQR3k2VUxBRzhtWndBbUc1TEZzTW5tdw?oc=5",
+          "source": "TradingView",
+          "date": "2026-11-04T19:48:29.000Z"
+        },
+        {
+          "title": "Canfor reports $88.2M Q3 loss compared with $172.4M loss a year ago, sales edged up",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMSEkzQmhvN3FBdlNTdjNQOWtPZ3N1V2dvcHBKekNGa1ROVFRaX0IwT0lNZlZUSWhoc2tHekZ4NVpWcnB4RXBNekZ4d19sdWtMaFlxSTFObk9hdmdLMUxRallGYW5qc1NrUEVV?oc=5",
+          "source": "CityNews Vancouver",
+          "date": "2026-11-04T15:13:08.000Z"
         }
       ]
     },
@@ -7097,21 +7097,21 @@ window.LUMBER_DATA = {
         "series": [
           {
             "period": "2026-11",
-            "mean": 732587,
-            "lo": 652788,
-            "hi": 822140
+            "mean": 732590,
+            "lo": 652791,
+            "hi": 822144
           },
           {
             "period": "2026-12",
-            "mean": 631734,
-            "lo": 558196,
-            "hi": 714960
+            "mean": 631737,
+            "lo": 558201,
+            "hi": 714961
           },
           {
             "period": "2027-01",
-            "mean": 741709,
-            "lo": 650218,
-            "hi": 846073
+            "mean": 741713,
+            "lo": 650226,
+            "hi": 846072
           }
         ]
       }
