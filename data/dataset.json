@@ -7,7 +7,7 @@
       "production": false,
       "price": true,
       "housing": true,
-      "exports": true,
+      "exports": false,
       "companies": true,
       "regionExports": true
     },
@@ -2387,8 +2387,8 @@
       ]
     },
     "canadaExports": {
-      "unit": "US$ millions",
-      "freq": "annual",
+      "unit": "MMbf",
+      "freq": "quarterly",
       "destinations": [
         "US",
         "China",
@@ -2398,139 +2398,342 @@
       ],
       "series": [
         {
-          "period": "2018",
-          "US": 5745,
-          "China": 829,
-          "Japan": 728,
-          "Europe": 99,
-          "Other": 492
-        },
-        {
-          "period": "2019",
-          "US": 4453,
-          "China": 612,
-          "Japan": 518,
-          "Europe": 95,
-          "Other": 324
-        },
-        {
-          "period": "2020",
-          "US": 6278,
-          "China": 449,
-          "Japan": 393,
-          "Europe": 84,
-          "Other": 285
-        },
-        {
-          "period": "2021",
-          "US": 11121,
-          "China": 382,
-          "Japan": 885,
-          "Europe": 131,
-          "Other": 588
-        },
-        {
-          "period": "2022",
-          "US": 9059,
-          "China": 233,
-          "Japan": 631,
+          "period": "2015Q1",
+          "US": 2525,
+          "China": 255,
+          "Japan": 191,
           "Europe": 97,
-          "Other": 480
+          "Other": 160
         },
         {
-          "period": "2023",
-          "US": 5395,
-          "China": 206,
-          "Japan": 309,
-          "Europe": 89,
-          "Other": 282
+          "period": "2015Q2",
+          "US": 2815,
+          "China": 296,
+          "Japan": 225,
+          "Europe": 114,
+          "Other": 186
         },
         {
-          "period": "2024",
-          "US": 5491,
-          "China": 195,
-          "Japan": 316,
-          "Europe": 113,
-          "Other": 284
+          "period": "2015Q3",
+          "US": 2854,
+          "China": 303,
+          "Japan": 223,
+          "Europe": 118,
+          "Other": 186
         },
         {
-          "period": "2025",
-          "US": 4809,
-          "China": 209,
-          "Japan": 316,
-          "Europe": 104,
-          "Other": 322
+          "period": "2015Q4",
+          "US": 2545,
+          "China": 273,
+          "Japan": 197,
+          "Europe": 108,
+          "Other": 171
+        },
+        {
+          "period": "2016Q1",
+          "US": 2500,
+          "China": 275,
+          "Japan": 197,
+          "Europe": 112,
+          "Other": 169
+        },
+        {
+          "period": "2016Q2",
+          "US": 2853,
+          "China": 331,
+          "Japan": 227,
+          "Europe": 134,
+          "Other": 198
+        },
+        {
+          "period": "2016Q3",
+          "US": 2828,
+          "China": 330,
+          "Japan": 228,
+          "Europe": 134,
+          "Other": 195
+        },
+        {
+          "period": "2016Q4",
+          "US": 2590,
+          "China": 294,
+          "Japan": 208,
+          "Europe": 125,
+          "Other": 176
+        },
+        {
+          "period": "2017Q1",
+          "US": 2560,
+          "China": 303,
+          "Japan": 206,
+          "Europe": 126,
+          "Other": 180
+        },
+        {
+          "period": "2017Q2",
+          "US": 2821,
+          "China": 347,
+          "Japan": 236,
+          "Europe": 149,
+          "Other": 208
+        },
+        {
+          "period": "2017Q3",
+          "US": 2769,
+          "China": 343,
+          "Japan": 233,
+          "Europe": 149,
+          "Other": 207
+        },
+        {
+          "period": "2017Q4",
+          "US": 2465,
+          "China": 312,
+          "Japan": 206,
+          "Europe": 135,
+          "Other": 179
+        },
+        {
+          "period": "2018Q1",
+          "US": 2476,
+          "China": 304,
+          "Japan": 202,
+          "Europe": 138,
+          "Other": 182
+        },
+        {
+          "period": "2018Q2",
+          "US": 2824,
+          "China": 354,
+          "Japan": 243,
+          "Europe": 164,
+          "Other": 214
+        },
+        {
+          "period": "2018Q3",
+          "US": 2695,
+          "China": 364,
+          "Japan": 234,
+          "Europe": 164,
+          "Other": 214
+        },
+        {
+          "period": "2018Q4",
+          "US": 2402,
+          "China": 321,
+          "Japan": 212,
+          "Europe": 150,
+          "Other": 189
+        },
+        {
+          "period": "2019Q1",
+          "US": 2386,
+          "China": 328,
+          "Japan": 208,
+          "Europe": 148,
+          "Other": 191
+        },
+        {
+          "period": "2019Q2",
+          "US": 2669,
+          "China": 381,
+          "Japan": 238,
+          "Europe": 174,
+          "Other": 221
+        },
+        {
+          "period": "2019Q3",
+          "US": 2653,
+          "China": 366,
+          "Japan": 233,
+          "Europe": 177,
+          "Other": 216
+        },
+        {
+          "period": "2019Q4",
+          "US": 2446,
+          "China": 337,
+          "Japan": 216,
+          "Europe": 159,
+          "Other": 197
+        },
+        {
+          "period": "2020Q1",
+          "US": 2491,
+          "China": 358,
+          "Japan": 225,
+          "Europe": 174,
+          "Other": 208
+        },
+        {
+          "period": "2020Q2",
+          "US": 2901,
+          "China": 428,
+          "Japan": 267,
+          "Europe": 206,
+          "Other": 247
+        },
+        {
+          "period": "2020Q3",
+          "US": 2982,
+          "China": 444,
+          "Japan": 265,
+          "Europe": 212,
+          "Other": 250
+        },
+        {
+          "period": "2020Q4",
+          "US": 2515,
+          "China": 375,
+          "Japan": 232,
+          "Europe": 188,
+          "Other": 213
+        },
+        {
+          "period": "2021Q1",
+          "US": 2389,
+          "China": 368,
+          "Japan": 223,
+          "Europe": 181,
+          "Other": 210
+        },
+        {
+          "period": "2021Q2",
+          "US": 2511,
+          "China": 399,
+          "Japan": 238,
+          "Europe": 196,
+          "Other": 221
+        },
+        {
+          "period": "2021Q3",
+          "US": 2447,
+          "China": 386,
+          "Japan": 224,
+          "Europe": 187,
+          "Other": 219
+        },
+        {
+          "period": "2021Q4",
+          "US": 2068,
+          "China": 331,
+          "Japan": 197,
+          "Europe": 167,
+          "Other": 187
+        },
+        {
+          "period": "2022Q1",
+          "US": 1973,
+          "China": 328,
+          "Japan": 193,
+          "Europe": 163,
+          "Other": 181
+        },
+        {
+          "period": "2022Q2",
+          "US": 2242,
+          "China": 368,
+          "Japan": 212,
+          "Europe": 185,
+          "Other": 204
+        },
+        {
+          "period": "2022Q3",
+          "US": 2091,
+          "China": 357,
+          "Japan": 209,
+          "Europe": 180,
+          "Other": 200
+        },
+        {
+          "period": "2022Q4",
+          "US": 1980,
+          "China": 334,
+          "Japan": 191,
+          "Europe": 167,
+          "Other": 188
+        },
+        {
+          "period": "2023Q1",
+          "US": 1965,
+          "China": 345,
+          "Japan": 193,
+          "Europe": 178,
+          "Other": 194
+        },
+        {
+          "period": "2023Q2",
+          "US": 2314,
+          "China": 395,
+          "Japan": 223,
+          "Europe": 208,
+          "Other": 222
+        },
+        {
+          "period": "2023Q3",
+          "US": 2283,
+          "China": 408,
+          "Japan": 232,
+          "Europe": 213,
+          "Other": 231
+        },
+        {
+          "period": "2023Q4",
+          "US": 2080,
+          "China": 383,
+          "Japan": 210,
+          "Europe": 198,
+          "Other": 203
+        },
+        {
+          "period": "2024Q1",
+          "US": 2159,
+          "China": 398,
+          "Japan": 216,
+          "Europe": 211,
+          "Other": 218
+        },
+        {
+          "period": "2024Q2",
+          "US": 2449,
+          "China": 441,
+          "Japan": 248,
+          "Europe": 241,
+          "Other": 242
+        },
+        {
+          "period": "2024Q3",
+          "US": 2464,
+          "China": 465,
+          "Japan": 249,
+          "Europe": 244,
+          "Other": 250
+        },
+        {
+          "period": "2024Q4",
+          "US": 2149,
+          "China": 403,
+          "Japan": 219,
+          "Europe": 213,
+          "Other": 224
+        },
+        {
+          "period": "2025Q1",
+          "US": 2135,
+          "China": 417,
+          "Japan": 224,
+          "Europe": 219,
+          "Other": 227
+        },
+        {
+          "period": "2025Q2",
+          "US": 2484,
+          "China": 483,
+          "Japan": 261,
+          "Europe": 268,
+          "Other": 258
         }
-      ],
-      "volume": {
-        "unit": "MMbf",
-        "series": [
-          {
-            "period": "2018",
-            "US": 13459,
-            "China": 2181,
-            "Japan": 925,
-            "Europe": 49,
-            "Other": 716
-          },
-          {
-            "period": "2019",
-            "US": 12855,
-            "China": 1941,
-            "Japan": 770,
-            "Europe": 50,
-            "Other": 528
-          },
-          {
-            "period": "2020",
-            "US": 13041,
-            "China": 1313,
-            "Japan": 587,
-            "Europe": 44,
-            "Other": 460
-          },
-          {
-            "period": "2021",
-            "US": 13650,
-            "China": 783,
-            "Japan": 644,
-            "Europe": 57,
-            "Other": 590
-          },
-          {
-            "period": "2022",
-            "US": 12744,
-            "China": 533,
-            "Japan": 467,
-            "Europe": 35,
-            "Other": 444
-          },
-          {
-            "period": "2023",
-            "US": 11883,
-            "China": 643,
-            "Japan": 388,
-            "Europe": 41,
-            "Other": 406
-          },
-          {
-            "period": "2024",
-            "US": 11890,
-            "China": 554,
-            "Japan": 419,
-            "Europe": 71,
-            "Other": 394
-          },
-          {
-            "period": "2025",
-            "US": 10420,
-            "China": 521,
-            "Japan": 380,
-            "Europe": 61,
-            "Other": 425
-          }
-        ]
-      }
+      ]
     },
     "tradeActions": [
       {
@@ -2560,13 +2763,13 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-11-15T04:27:26.278Z",
+      "fetchedAt": "2026-11-15T13:21:47.366Z",
       "items": [
         {
-          "title": "Louisiana-Pacific (LPX) Beat On Earnings, Is The Stock Still Cheap?",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWUp3VHBwZktCOWFNTjJMT0xfLXl2a1k3Wkd0LUdwTDU0RGRSTDkwdUt4LVNFSnRuU0Q3RXg5ck9wNWpOQjNsTG9pZnlrR2x5TnpiS215Z3lJQVpNNXF3MmYyWExNY0lTa2ZHY1VUMy1wRGlUemJwUXRPb1F4cGZmUlNmUXdzRFRVOEo4akZGZFNZdzF2MWdUUGxDOV8tY3NBa29EeWFiLUpQT01pYUpIa2ZIbE5sX0NMYnNzbGlxSlZWVE1uVmVjbmdDXzZJRWJMbGJINNIB2gFBVV95cUxOYUlaZ0Jxc3FGUk00R04zT0cwY1A2YzdfWVpVMW9tVlZacFg3MktSeHA0LW5lTHhldEZ1UXJMcXR4dDh4TVowb2VQRnNwcVB1WWh5UldDSktjdkpZaFZQZ0FwYkFSb0w1bG8xTHV6NDFBZ3dCV0VWOFpuREFFV2tackpuNXphclQ0SWFQa2szbWJmZXczTExNR2h3LS1FTWJVVllxR1E2bUdrazdodG1lTlhkOS1LVGluUll4aU1nNDR1S3o1eHhRY0E0eDhYMC15Um5wMTAtSmx2Zw?oc=5",
-          "source": "Simply Wall St",
-          "date": "2026-11-14T18:18:46.000Z"
+          "title": "Oriented Strand Lumber Market in Asia: Size, Trends and Forecast to 2035",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU0dIX3ZiWWxQdUVVSGRWRU5JeHNzNXJwYWZRNUsyYk5JbGsxd3ljR2RTTWx6MTVRelhEcmljUXVfQ2JxU1pXWUZHZ3ZyeFYycUF1aUZHUUhyUWxmUTc5T0F3RTVYc3R5S2h1TVN6dFNkbV9jaTlBYk0tcHpHUEI0eVJoWU5fRTI2Nk82ak11cW1lOWtadHVYZGZsVnpMNElmRkI5NGlheDFIOXlR?oc=5",
+          "source": "IndexBox",
+          "date": "2026-11-15T10:16:38.000Z"
         },
         {
           "title": "Summerville Limits Housing at Interfor Mill Site Rezoning",
@@ -2575,22 +2778,16 @@
           "date": "2026-11-14T17:53:12.000Z"
         },
         {
-          "title": "Madison's Lumber Prices Index slips to $444 mfbm, down 10% from October",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYUZZVUN1RzZ4UkExQTdqSEhLdGVmMkZsYVVNTmdpa015alk0c1V0c1kwUWM1bGQzMllMRU1pMEk4bFpuWkpLZ0s3Yms3ZEI1SzViVlh0eFFCNzJsOGNWMVlYbU9iLU1WZC1CNFMzWlhBUW9ZTERrWjliLTZIaFBBek9NTWNVUk5yOGJrZTlSMlJVSzQ4OXkyUk5TcTZVWWVRZ0Q2NEZhSVFKWEE?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-14T02:29:05.000Z"
-        },
-        {
-          "title": "Are Third Quarter Earnings Altering The Investment Case For LP Louisiana Pacific Stock",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZTNsaWU1RnZKTEtPNXk4RzlNSlZkNDlkUGdVSzZ4R3dIcWNGRDI0VmlFNFdWQjF4Y0l2bmpTYjRLa09Wd3FkVzJBcUFhdERfUjh4bmlYc21oN0p6eTVKdXB4a2drZ0FEN2RoWEx0dGtHWDF0bHVOT1hoTWwzejl2TnhwXzdRUVgtOEh0cjIwUHhCaGRxU25QQnFfNzFuS0o3U1FvSUJNaW54amhyQk5IeVdLU1lMQ1k1b0ZlaURkMkI5cDFwT0ZUYXkyT25aNXJBZjBqZHFR0gHbAUFVX3lxTE1rYU5JanVZdkxJRFFtNkVfNFZtS1JWcm1JWjU2RTV1Z0c0SWJleHY5RUFvTXhHOVB0UEtVdTdnSHVFWUdzc2c5YkhBMDkxTFp2N2hkaExNZVduUGpZY0Y0QURZbnpUYkMzeUhkUUJvS1U5VGdTcVFNQk1LYXJLZW9qVlp2WjVaS0tzcVMyN3BtTHkxNTFfS1dEZnRsUm9KNHY4TkJHcmpRNklLeThGX3E5ZjhYMGlocGJBS2UybGxJcEp5NmxfY2JOSkhUSTZBTEdwcmRwNEEtd1djaw?oc=5",
-          "source": "Simply Wall St",
-          "date": "2026-11-13T17:19:11.000Z"
-        },
-        {
           "title": "West Nipissing looks to heal the 'scar' of former Weyerhaeuser mill site",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQc0NiWk4wY2dCQWg0SGZYTDZzN1FtZDctbTVCQmsydjhTSHpLNkFsVDRtV1RuYnY3cGRybThqUWZBYlBGZ0xJbElESE5YNWxNbGNFLURtS0hPQXdkSmNHS0p0N3hJS3g5bHg3cTdXZl90T3JQaGQzZmFpbWpqQ1JFbmJDTGFvV1dHVndIcGZLTUx6cFRWLU1JTU9sMDFNaUFFUzVCVS1CallIRjUwTVFFclRSRHJUQkZuempuWmwwSi1UWmx4OWprUUpHNFJQYW8xM19yWnVQMXdYeTA?oc=5",
-          "source": "Northern Ontario Business",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTnppX3JjTmJQaUx2MG03Vi1XclZrSVFuNFZtM0MyckZIajBKUHAxY2pWYl9PNG4xMmNlUjh6Sm1ha21wb21TeVRSOWxQSlJFRlhTbmZvaFQ5OGhVeVZGbjhlSkRGdzQxdzBwNWY5TkcxTFRkWHpMWktpRnJsQVpHeWp4Yk5nSUdzaGxZXzdxXzlBOEFPNWh5OExhcHBDVmZlU01NSHBTY1JHaGtmVGI2SlYyVG4zWS1VREE?oc=5",
+          "source": "BayToday.ca",
           "date": "2026-11-13T16:00:00.000Z"
+        },
+        {
+          "title": "News Releases | ABC: October Construction Materials Prices Unchanged, Energy and Lumber Prices Fall",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWVlwOVp1MnEtWFNmT3YxWjBRRzA1ZEVlbllmVEhyY245X3dLVmVzWldBWmN4MG9ieUw2amZJMk1veFVRWlRkNUd4SmhCZWRzX20xRHVuREhtNDNGOElvTS1FMGdJRmtPeGxjS3pDenRtcjFkQXhZSnFJYU1fREJJOXM5YU1wNUNOWXQ2ZlBMUnJpV09pLTBUMmVlSi1LRzkyVkJJclpFbnhSWGExQjZLSG1oYzNNUHJfNmZHbDVKT0VBa3Yw?oc=5",
+          "source": "ABC National",
+          "date": "2026-11-13T14:47:12.000Z"
         },
         {
           "title": "US Existing-Home Sales Slide in October",
@@ -2626,6 +2823,12 @@
           "source": "Forest Economic Advisors",
           "date": "2026-11-13T02:18:31.000Z",
           "focus": true
+        },
+        {
+          "title": "Softwood Lumber Market in India: Size, Trends and Forecast to 2035",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOemtIV0FfR2trbnJybXNicUdTNjg0eGxlc09tR1VqWkVIWGRucVR5bXZYY1RqcXgzbzhpeVZwVy1XNjFiVkF6MVFNNXlKekc3dm52TlNzVzJpY2ZnSGRReXMyeE1nTGhtLXNtejI4czY2MUJyMWNoR3Y5VzRLNU5DNmQ1YzhLVS1fcXBkbnRwcnNZNk55SUgzdFhmUHVNS1QwYThsTw?oc=5",
+          "source": "IndexBox",
+          "date": "2026-11-12T17:54:27.000Z"
         },
         {
           "title": "Sexton Lumber Suspends Operations at Bloomfield, NL, Sawmill Following Fire",
@@ -2700,9 +2903,9 @@
         },
         {
           "title": "Canfor Earnings: Sluggish US Housing Market Holds Back Lumber Growth",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcGtJVmFzekwySm1vZUVRZVBERjBhTTU2RUVXZHBFaGtid0tBS1dKTkZuV2pwVV9KelB1MG0yNmNnd1Z4Y3dXYXEzX2RUTGZaNFIzNU5nelRFRkpCeW5WMkc2d3ZmZE1aZ2hfSjJhazZheEF6Y181ZS1LSGZGNHZ3MUJ2cFZpLW5kN1lsWk12eURUTndPaC1BYnBzdVJEazl3SEVDSFlidmpVZDBaclB4UQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN284NzRHYktVTDFrQ09FQ0tPcEliRVJJN0pFWTFGSjhQMktpVF9vQjQwNTNlSFB6YkpGaTlkOW9GT1htRHE0Q195OVpRN1JVUkFnMXprdm9Md24yNWxOWkg0dWZKRUZBcmdLdUQ0UGw2UURDVnlBdE1MOHQ1NjZrUkFXb2FfMjdRTWVQaFFMenNCaVBJb3A3anltWWFjS0FncGdNQVdVRHhiU1NvWk1kV2VCQkhPcGlzVUlJ?oc=5",
           "source": "Morningstar",
-          "date": "2026-11-05T08:00:00.000Z"
+          "date": "2026-11-05T17:00:55.000Z"
         },
         {
           "title": "Restructured Canfor reports net loss, but maintains cautious confidence for future",
@@ -2729,6 +2932,18 @@
           "date": "2026-10-30T07:00:00.000Z"
         },
         {
+          "title": "Weyerhaeuser earnings today: Cost inflation tests timber giant",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVVN2Y2NYS2NYVEFLRDZGdEZMdU5OcXBsMTRqOHV4Y3l4UGVSUkNtVmVxSXI4VWlNbU9FRHpjZGhScjJ3dUN6ZWdZa1JMVVotMVdZTVV1VnQ4UUJEclZTd3FJdzVncFZ4Yk5DT1JuODhOT2tGMFI5U3BwZ1BZQndiaGd5aXFpTHVBaEV2QWlQUlJsRFlXX00wZlpoaE1kMC1tOG1fb1FwaDEwaDJyZC1NcmxrdVY?oc=5",
+          "source": "Investing.com",
+          "date": "2026-10-29T14:31:35.000Z"
+        },
+        {
+          "title": "Health clinic gathers data for Weyerhaeuser mill toxic fume claims",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNXzk0QXZiV0RrWU9DSEQ4SVJLRkk1NExhU0tjVVlOa3NuVU1pMWgyOUNRUHR6Q3lELXZ0dzkwT0NjVWRjV2xRd1pTWE1PRXFSYWJkdmZaUDVaLXNKMS1fNlpMYUpoRUN6aUlESFFXNmJIUmxKSzNDWmk0QXlkNDNLYWMtZTFwWldPOHRDYlVTNEVRYklMQTEtQWhMUGlkOHlwcTljQ0JDS1ZvM3huWGdpOEN6ZDFZZEtoRjd3YmtpS29fNDN5MTl3MUhGTXJZV2Etc2c?oc=5",
+          "source": "Northwest Ontario News",
+          "date": "2026-10-09T07:00:00.000Z"
+        },
+        {
           "title": "Weyerhaeuser to Release Third Quarter Results on October 29",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjF5WFFYcVYxNnlJY0JPSnNpRGlja3VoNDFMamVqZzZOZnN5WXBPVi1Mb2wwWFRCZThmTkV1Q2E0UjRnQ1cxS20xWVBGNTMxVk4tRFJCVHJjSkRtUUgzNTU2QzdKTGlGLXJKVGV4TzBXZERHeE9IcWc5VGhKWThkN2RDaG5zYW1qQUdWdjlmSEVhWEs2V1V4WUk4X0oxbWJReXhVWXpBZw?oc=5",
           "source": "Weyerhaeuser Investor Relations",
@@ -2739,18 +2954,6 @@
           "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWFVKMmVlY1RtcTZJX1JZMmFsbHZNOHdzZDVWTkRDalBjc3p0SjUwaHNSRDYtcmhlaFRFN0ktZHozOGpjM3l0NjZ3dzZjREw3WjFYZFM5RHhLa3VhU3dDSXpSeWY1a19NWmZuU1BzRXFlQ04yNnNoRzc3RXBBQUh1TEl4VTJMTlZDU2hEWXA0bHFkQjlReWJLNWlwdmVsNVZNc201amFjOVhsQUpGVjJkTjR6YTRsc1F1UVNNZ0NXZ0RTNkVNX1F6SXhXTy1odWFHdkZRUVk4dHlfVnk4cVBjXzJIQWhxeEROQWZ2RkxDYXV0RUQ0OEZfU2lMRQ?oc=5",
           "source": "kalkine.ca",
           "date": "2026-08-18T07:00:00.000Z"
-        },
-        {
-          "title": "Supporting B.C.\u2019s softwood lumber industry",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaDlaU3J1X3g5TGdVN0pkTG01U3A1cV83N0o3WkJ6eC1mMW5MQTM2NnNGUWcxaVFUS0UzM19yZjJhZjR4VFZ0YW5HdzZyMHpXVEg2Nm00RXhLeUdYYlFvVEswT252TkhqV0wyQjRGcngzMDV3MTJkOU94VDJRWDg0MWRsckY2YURvV0F5MVk2VXY4cVU?oc=5",
-          "source": "Government of British Columbia",
-          "date": "2026-08-11T07:00:00.000Z"
-        },
-        {
-          "title": "Home-Building Is Sputtering, but Lumber Prices Haven\u2019t Been So High in Years",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNblQ0Y2hkY3ZGR1lyWEZsT2VxNXBDNW9PZEQzR3lKblYzMlM5UHRjZHFEOE40c2pOS1MyMmRBN01STkYxX2xuZms2Z0J2NU9LRDJQNUc3REU5c0RYUkZ2cmdoV1J0aThuQVdLdkpsb2JyTEtHZlh3ak9hd00tSUl5VUtibUIzaHdFZHdmV09KTWxDVjloeUMxX1ZsX2RGV3BXQlZ0Ujdld2lQSFpfWVVDcG9IWHp6WGY5am5USEI5S2kzenExeUdfbHJFNA?oc=5",
-          "source": "WSJ",
-          "date": "2026-08-05T07:00:00.000Z"
         }
       ]
     },
@@ -16136,11 +16339,11 @@
     ]
   },
   "fires": {
-    "asOf": "2026-11-15T04:27:28.026Z",
+    "asOf": "2026-11-15T13:21:49.641Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
-    "total": 217,
-    "count": 217,
+    "total": 304,
+    "count": 304,
     "capped": false,
     "fields": [
       "lat",
@@ -16426,6 +16629,12 @@
         0
       ],
       [
+        56.461,
+        -117.906,
+        10,
+        0
+      ],
+      [
         49.448,
         -97.03,
         10,
@@ -16450,6 +16659,18 @@
         0
       ],
       [
+        50.253,
+        -107.973,
+        10,
+        0
+      ],
+      [
+        50.253,
+        -107.975,
+        10,
+        0
+      ],
+      [
         54.973,
         -123.52,
         10,
@@ -16470,6 +16691,12 @@
       [
         44.517,
         -88.433,
+        9,
+        0
+      ],
+      [
+        46.489,
+        -81.04,
         9,
         0
       ],
@@ -16648,6 +16875,18 @@
         0
       ],
       [
+        54.823,
+        -117.502,
+        5,
+        0
+      ],
+      [
+        48.182,
+        -117.158,
+        5,
+        0
+      ],
+      [
         48.68,
         -85.9,
         5,
@@ -16732,6 +16971,12 @@
         0
       ],
       [
+        50.255,
+        -107.977,
+        4,
+        0
+      ],
+      [
         45.889,
         -96.788,
         4,
@@ -16768,6 +17013,12 @@
         0
       ],
       [
+        48.592,
+        -116.426,
+        4,
+        0
+      ],
+      [
         41.454,
         -81.677,
         4,
@@ -16776,6 +17027,12 @@
       [
         47.778,
         -120.312,
+        4,
+        0
+      ],
+      [
+        48.183,
+        -117.154,
         4,
         0
       ],
@@ -16834,6 +17091,12 @@
         0
       ],
       [
+        41.644,
+        -87.14,
+        3,
+        0
+      ],
+      [
         49.442,
         -97.036,
         3,
@@ -16858,8 +17121,20 @@
         0
       ],
       [
+        41.636,
+        -87.132,
+        3,
+        0
+      ],
+      [
         49.507,
         -97.092,
+        3,
+        0
+      ],
+      [
+        41.643,
+        -87.148,
         3,
         0
       ],
@@ -16882,8 +17157,26 @@
         0
       ],
       [
+        41.641,
+        -87.409,
+        3,
+        0
+      ],
+      [
+        48.118,
+        -116.106,
+        3,
+        0
+      ],
+      [
         42.865,
         -95.212,
+        3,
+        0
+      ],
+      [
+        48.436,
+        -116.606,
         3,
         0
       ],
@@ -16936,6 +17229,12 @@
         0
       ],
       [
+        47.531,
+        -116.551,
+        3,
+        0
+      ],
+      [
         49.417,
         -116.001,
         3,
@@ -16968,6 +17267,18 @@
       [
         41.392,
         -90.663,
+        3,
+        0
+      ],
+      [
+        41.119,
+        -85.349,
+        3,
+        0
+      ],
+      [
+        41.12,
+        -85.356,
         3,
         0
       ],
@@ -17032,6 +17343,12 @@
         0
       ],
       [
+        41.682,
+        -87.42,
+        2,
+        0
+      ],
+      [
         41.214,
         -96.323,
         2,
@@ -17044,8 +17361,20 @@
         0
       ],
       [
+        41.621,
+        -87.354,
+        2,
+        0
+      ],
+      [
         46.188,
         -97.797,
+        2,
+        0
+      ],
+      [
+        41.63,
+        -87.367,
         2,
         0
       ],
@@ -17092,6 +17421,12 @@
         0
       ],
       [
+        52.314,
+        -101.127,
+        2,
+        0
+      ],
+      [
         44.992,
         -123.372,
         2,
@@ -17110,6 +17445,12 @@
         0
       ],
       [
+        52.831,
+        -102.876,
+        2,
+        0
+      ],
+      [
         41.469,
         -83.367,
         2,
@@ -17118,6 +17459,12 @@
       [
         53.871,
         -94.643,
+        2,
+        0
+      ],
+      [
+        47.363,
+        -122.178,
         2,
         0
       ],
@@ -17158,6 +17505,12 @@
         0
       ],
       [
+        41.682,
+        -87.426,
+        2,
+        0
+      ],
+      [
         44.838,
         -123.998,
         2,
@@ -17182,8 +17535,14 @@
         0
       ],
       [
-        41.118,
-        -85.352,
+        47.534,
+        -116.543,
+        2,
+        0
+      ],
+      [
+        53.646,
+        -116.698,
         2,
         0
       ],
@@ -17194,8 +17553,20 @@
         0
       ],
       [
+        47.006,
+        -114.088,
+        2,
+        0
+      ],
+      [
         41.569,
         -84.058,
+        1,
+        0
+      ],
+      [
+        50.518,
+        -104.632,
         1,
         0
       ],
@@ -17220,6 +17591,30 @@
       [
         49.86,
         -125.39,
+        1,
+        0
+      ],
+      [
+        46.732,
+        -92.075,
+        1,
+        0
+      ],
+      [
+        47.636,
+        -103.117,
+        1,
+        0
+      ],
+      [
+        41.665,
+        -87.427,
+        1,
+        0
+      ],
+      [
+        41.665,
+        -87.433,
         1,
         0
       ],
@@ -17254,14 +17649,50 @@
         0
       ],
       [
+        47.533,
+        -116.557,
+        1,
+        0
+      ],
+      [
+        41.627,
+        -87.348,
+        1,
+        0
+      ],
+      [
+        41.628,
+        -87.344,
+        1,
+        0
+      ],
+      [
+        43.565,
+        -105.653,
+        1,
+        0
+      ],
+      [
+        43.565,
+        -105.656,
+        1,
+        0
+      ],
+      [
+        45.684,
+        -117.826,
+        1,
+        0
+      ],
+      [
         45.984,
         -120.997,
         1,
         0
       ],
       [
-        50.517,
-        -104.627,
+        45.068,
+        -106.853,
         1,
         0
       ],
@@ -17296,6 +17727,18 @@
         0
       ],
       [
+        48.094,
+        -103.601,
+        1,
+        0
+      ],
+      [
+        50.522,
+        -104.639,
+        1,
+        0
+      ],
+      [
         53.659,
         -125.551,
         1,
@@ -17308,8 +17751,8 @@
         0
       ],
       [
-        50.522,
-        -104.639,
+        47.637,
+        -116.613,
         1,
         0
       ],
@@ -17326,14 +17769,56 @@
         0
       ],
       [
+        54.68,
+        -116.41,
+        1,
+        0
+      ],
+      [
         44.817,
         -124,
         1,
         0
       ],
       [
-        45.068,
-        -106.852,
+        50.515,
+        -99.362,
+        1,
+        0
+      ],
+      [
+        43.493,
+        -79.627,
+        1,
+        0
+      ],
+      [
+        47.589,
+        -117.125,
+        1,
+        0
+      ],
+      [
+        48.886,
+        -122.737,
+        1,
+        0
+      ],
+      [
+        49.325,
+        -115.801,
+        1,
+        0
+      ],
+      [
+        49.329,
+        -115.799,
+        1,
+        0
+      ],
+      [
+        44.116,
+        -103.282,
         1,
         0
       ],
@@ -17350,8 +17835,128 @@
         0
       ],
       [
+        47.358,
+        -101.837,
+        1,
+        0
+      ],
+      [
+        50.774,
+        -101.856,
+        1,
+        0
+      ],
+      [
+        41.629,
+        -87.381,
+        1,
+        0
+      ],
+      [
+        43.706,
+        -88.388,
+        1,
+        0
+      ],
+      [
+        41.319,
+        -93.401,
+        1,
+        0
+      ],
+      [
+        48.719,
+        -103.667,
+        1,
+        0
+      ],
+      [
+        47.568,
+        -122.342,
+        1,
+        0
+      ],
+      [
+        48.719,
+        -103.664,
+        1,
+        0
+      ],
+      [
+        48.432,
+        -116.608,
+        1,
+        0
+      ],
+      [
+        53.758,
+        -116.8,
+        1,
+        0
+      ],
+      [
+        55.973,
+        -119.638,
+        1,
+        0
+      ],
+      [
         48.808,
         -103.326,
+        1,
+        0
+      ],
+      [
+        41.32,
+        -110.862,
+        1,
+        0
+      ],
+      [
+        47.473,
+        -103.215,
+        1,
+        0
+      ],
+      [
+        47.474,
+        -103.214,
+        1,
+        0
+      ],
+      [
+        46.84,
+        -116.73,
+        1,
+        0
+      ],
+      [
+        55.566,
+        -119.653,
+        1,
+        0
+      ],
+      [
+        54.682,
+        -116.419,
+        1,
+        0
+      ],
+      [
+        47.634,
+        -103.122,
+        1,
+        0
+      ],
+      [
+        48.651,
+        -116.356,
+        1,
+        0
+      ],
+      [
+        43.071,
+        -80.857,
         1,
         0
       ],
@@ -17362,8 +17967,20 @@
         0
       ],
       [
+        46.977,
+        -122.292,
+        1,
+        0
+      ],
+      [
         49.335,
         -115.776,
+        1,
+        0
+      ],
+      [
+        42.798,
+        -80.097,
         1,
         0
       ],
@@ -17380,8 +17997,56 @@
         0
       ],
       [
+        43.231,
+        -95.702,
+        1,
+        0
+      ],
+      [
+        48.189,
+        -103.796,
+        1,
+        0
+      ],
+      [
+        48.188,
+        -103.794,
+        1,
+        0
+      ],
+      [
         41.463,
         -90.688,
+        1,
+        0
+      ],
+      [
+        42.819,
+        -86,
+        1,
+        0
+      ],
+      [
+        47.298,
+        -103.036,
+        1,
+        0
+      ],
+      [
+        42.496,
+        -73.818,
+        1,
+        0
+      ],
+      [
+        47.003,
+        -114.094,
+        1,
+        0
+      ],
+      [
+        48.637,
+        -103.308,
         1,
         0
       ],
@@ -17394,6 +18059,12 @@
       [
         44.824,
         -124.016,
+        1,
+        0
+      ],
+      [
+        41.879,
+        -112.197,
         1,
         0
       ],
@@ -17416,6 +18087,36 @@
         0
       ],
       [
+        47.062,
+        -123.123,
+        1,
+        0
+      ],
+      [
+        49.174,
+        -91.726,
+        1,
+        0
+      ],
+      [
+        49.178,
+        -91.725,
+        1,
+        0
+      ],
+      [
+        54.017,
+        -117.731,
+        1,
+        0
+      ],
+      [
+        41.095,
+        -96.168,
+        1,
+        0
+      ],
+      [
         41.773,
         -89.611,
         1,
@@ -17428,14 +18129,38 @@
         0
       ],
       [
+        48.677,
+        -103.868,
+        1,
+        0
+      ],
+      [
         53.258,
         -121.971,
         1,
         0
       ],
       [
+        48.219,
+        -104.357,
+        0,
+        0
+      ],
+      [
+        48.832,
+        -117.84,
+        0,
+        0
+      ],
+      [
         47.014,
         -116.391,
+        0,
+        0
+      ],
+      [
+        47.458,
+        -103.171,
         0,
         0
       ],
