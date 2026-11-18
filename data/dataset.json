@@ -678,7 +678,7 @@
         },
         {
           "period": "2026-11",
-          "framing_composite": 528
+          "framing_composite": 537
         }
       ]
     },
@@ -2572,8 +2572,79 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-11-18T14:58:36.258Z",
+      "fetchedAt": "2026-11-18T23:48:59.359Z",
       "items": [
+        {
+          "title": "Canfor (TSX:CFP), Why Is The Latest Update Drawing Attention?",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QbHhLUVI5QktWNUZNcnhQWm55TUdVZTQ2U0VEUHVLTXJTZE9nSHZlWHcwa3pFRFBnZHJvRVE2ZXRlZnlPV3lLcDJHWm1BNHdzeDBnYXNsWjVrNlc3LS1Xd1FQRkdidzZTMG1pRVhHdnpMaGtUZEg2WmhKZFFqUmM?oc=5",
+          "source": "Yahoo Finance Singapore",
+          "date": "2026-11-18T23:22:13.000Z"
+        },
+        {
+          "title": "US Housing Starts Rise in October; Permits Drop",
+          "url": "https://getfea.com/end-use/us-housing-starts-rise-in-october-permits-drop",
+          "source": "Forest Economic Advisors",
+          "date": "2026-11-18T21:59:32.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Pending Home Sales Decline in October",
+          "url": "https://getfea.com/end-use/us-pending-home-sales-decline-in-october",
+          "source": "Forest Economic Advisors",
+          "date": "2026-11-18T21:29:31.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Mortgage Applications Fall in the Week Ending November 13",
+          "url": "https://getfea.com/end-use/us-mortgage-applications-fall-in-the-week-ending-november-13",
+          "source": "Forest Economic Advisors",
+          "date": "2026-11-18T21:25:05.000Z",
+          "focus": true
+        },
+        {
+          "title": "US Issues Antidumping and Countervailing Duty Orders on Certain Hardwood Plywood Imports",
+          "url": "https://getfea.com/trade-dispute/us-issues-antidumping-and-countervailing-duty-orders-on-certain-hardwood-plywood-imports",
+          "source": "Forest Economic Advisors",
+          "date": "2026-11-18T21:06:54.000Z",
+          "focus": true
+        },
+        {
+          "title": "BrasPine Lays Off Employees at Two Brazilian Facilities",
+          "url": "https://getfea.com/international-markets/braspine-lays-off-employees-at-two-brazilian-facilities",
+          "source": "Forest Economic Advisors",
+          "date": "2026-11-18T20:52:41.000Z",
+          "focus": true
+        },
+        {
+          "title": "BC-Lumber Futures",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOamtDWS1DLTczZ2hEUWlFMmNMQV9JWDE0SUxDSWg5YmxBUVJXcDhRWGVsWkY3Ukt0clktNHFqcDNOX2JOZHBMR3Mwd1U2dEpqSjkzWUlnMVA0UVFlaDNVMjRsaFkwVGpfRmluRHEzQXdTRzZsS2twWmZod2lCRnNFcnYydjlyRl9hQmVkcDhZT2xtMHlTSDJNOHM3YTlmTGU4MXZ1NFBGQ2xXcDg?oc=5",
+          "source": "WFMZ.com",
+          "date": "2026-11-18T19:30:14.000Z"
+        },
+        {
+          "title": "Canada Runs Out of NAFTA Challenges as US Lumber Dumping Case Stands",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVLWQ1UEVKTlFab0hvNS0tR2NBWW8wZXByVXlodlFHYVo0VUZSbm9pendNY0sxOVpiUFhQLUNYUHU3aUVXUFdueXQ2eFVEWWRSbS1JYmhGMVV6OVRYY3pGVUlJQWtnang4Znc?oc=5",
+          "source": "Wood Central",
+          "date": "2026-11-18T19:01:35.000Z"
+        },
+        {
+          "title": "Weyerhaeuser Announces Leadership and Organizational Changes",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMnExRFVnb0M1VXUwR0dFSkd0ajhydFVlaEY3eXQxRXJ3ZXVReDI0LWV2YTNYY3JIVGR4Zml1cmpDUmYzd1NjUXAySW9Dbk5TQW9aRXhqREFrSHdETUc4TjlmdDR0Ymxsc25SVmx5MHZZVTJZR04zT3FZSko2VU5CTEZRbGhfR0w2VWx5N2FYM2pnX0VFVVVLaEtmZU1Zczh0Y3Z4RUdRMnFRSFhfRjd3LVpOT3RVSmtpcDNOVm1DamhtUkxTVDU4YlhLMnowR1FldC10M3J5NlBYa3pxMTIyOU4zT25ka1RuMjQ1U3V3?oc=5",
+          "source": "LBM Journal",
+          "date": "2026-11-18T18:37:12.000Z"
+        },
+        {
+          "title": "Why Interfor Corporation (TSX:IFP) Is Trending Today: Q3 loss narrowing and lumber-cycle expectations Puts This Mid Cap Value Stock in Focus",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQeHNkZjZ1R1hJR2hoSVNWekQ5M216ZGNvMjhuUWZ4eWt2VUEyNmtjMlpLSlhLYU45MjJNRlNiQmMxdWZ6akNMVlRESDh5cEtUMjJGTUJmUVdOX1hZVkRIQjJzcXEyT2JndmtVYVk3dFR4b0lJSW5IRXc0ZVRfMm1IeXByeVJrQUZzX2paTnpEcm5rUTdqVXJtTV9WcnQzbVhTdnJqQlNsazBaRVBPSVhZWVlTYXczNnVGdjVjamtlUVlTOE9WX2pDcVZpRk5kYUF4ZHJpTkZXa3lIVTN3a1ZqV25Wc0xTUmNCWVNOODJUU3hGekpjcXp0TDV3c0tIZnJFaWc?oc=5",
+          "source": "kalkine.ca",
+          "date": "2026-11-18T15:56:00.000Z"
+        },
+        {
+          "title": "West Fraser Plans Its First Sawmill Outside North America in Scotland",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xT08xblNNNm9Lb25FczdEYWJTWWNsdkFHS2pYV2VwNmI4aTd2WEE1bkN3N2RnS2RpQUxpWWJxWnNLU2QtMU1yUDRXVVZEQU12OFhUWi1lbmFxUnlWMm5jbWFrUlhFbHc?oc=5",
+          "source": "Wood Central",
+          "date": "2026-11-18T15:41:32.000Z"
+        },
         {
           "title": "Domtar to Indefinitely Curtail Outardes Sawmill",
           "url": "https://getfea.com/mill-capacity-changes/domtar-to-indefinitely-curtail-outardes-sawmill",
@@ -2610,51 +2681,10 @@
           "focus": true
         },
         {
-          "title": "Canadian Existing-Home Sales Edge Higher in October",
-          "url": "https://getfea.com/end-use/canadian-existing-home-sales-edge-higher-in-october-2",
-          "source": "Forest Economic Advisors",
-          "date": "2026-11-17T23:37:11.000Z",
-          "focus": true
-        },
-        {
           "title": "Interfor posts third quarter loss of $46 million",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORzRKUTNiME5DQm9TcTFjZTJzZnUydTBTNFRSYnhac0NKdkR3M3BWTHJqR19vVXRSWjU1VXZkWXFZOFh2UXJPNW9neGIxOTE1SWNGbDZpZ0J2bHh6VGtJUGs0Sml1MFBaNTd4c2RyZDZGSlhxR0Zzcy1SQUhRQ2pQSzEzdWxuY3hQNGNUXzJmS09GSnRramtWeXVicWFTTG8?oc=5",
           "source": "Woodworking Network",
           "date": "2026-11-17T19:14:56.000Z"
-        },
-        {
-          "title": "BC-Lumber Futures",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUWVWNlZTSWVFWFJHNHpjNEEyNHEyZjRBdTJ1MlZvd1VOVFVxaW9INGd5Q3FGRm9DWk8zakdGTzg0WENoTHJfTUNMWEpGV29KRXlrbWh1OUNDYVE2QmFpdkpLN2VNV0lTcW56ODBkNUdXYmJoTHIycXE5LVpxdlhNU1piZHdFX3NBNktLSjJiN0xQTG9pZUtoVmlQM3FZOGJwZW1kamJJbjl0VEk?oc=5",
-          "source": "WFMZ.com",
-          "date": "2026-11-17T19:06:08.000Z"
-        },
-        {
-          "title": "Scierie St-Michel Permanently Closes QC Sawmill",
-          "url": "https://getfea.com/mill-capacity-changes/scierie-st-michel-permanently-closes-qc-sawmill",
-          "source": "Forest Economic Advisors",
-          "date": "2026-11-17T03:01:50.000Z",
-          "focus": true
-        },
-        {
-          "title": "US Building Material Prices Rise 5.8% Year-Over-Year in October",
-          "url": "https://getfea.com/end-use/us-building-material-prices-rise-5-8-year-over-year-in-october",
-          "source": "Forest Economic Advisors",
-          "date": "2026-11-17T02:50:18.000Z",
-          "focus": true
-        },
-        {
-          "title": "NAFTA Panel Upholds US Antidumping Redetermination in 2017 Canadian Softwood Lumber Investigation",
-          "url": "https://getfea.com/trade-dispute/nafta-panel-upholds-us-antidumping-redetermination-in-2017-canadian-softwood-lumber-investigation",
-          "source": "Forest Economic Advisors",
-          "date": "2026-11-17T02:43:36.000Z",
-          "focus": true
-        },
-        {
-          "title": "Mercer International\u2019s Chapter 11 Filing Details Restructuring Plan",
-          "url": "https://getfea.com/international-markets/mercer-internationals-chapter-11-filing-details-restructuring-plan",
-          "source": "Forest Economic Advisors",
-          "date": "2026-11-17T02:17:52.000Z",
-          "focus": true
         },
         {
           "title": "West Fraser plans Scottish sawmill to build on its European beachhead",
@@ -2706,15 +2736,21 @@
         },
         {
           "title": "Canfor Earnings: Sluggish US Housing Market Holds Back Lumber Growth",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN284NzRHYktVTDFrQ09FQ0tPcEliRVJJN0pFWTFGSjhQMktpVF9vQjQwNTNlSFB6YkpGaTlkOW9GT1htRHE0Q195OVpRN1JVUkFnMXprdm9Md24yNWxOWkg0dWZKRUZBcmdLdUQ0UGw2UURDVnlBdE1MOHQ1NjZrUkFXb2FfMjdRTWVQaFFMenNCaVBJb3A3anltWWFjS0FncGdNQVdVRHhiU1NvWk1kV2VCQkhPcGlzVUlJ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcGtJVmFzekwySm1vZUVRZVBERjBhTTU2RUVXZHBFaGtid0tBS1dKTkZuV2pwVV9KelB1MG0yNmNnd1Z4Y3dXYXEzX2RUTGZaNFIzNU5nelRFRkpCeW5WMkc2d3ZmZE1aZ2hfSjJhazZheEF6Y181ZS1LSGZGNHZ3MUJ2cFZpLW5kN1lsWk12eURUTndPaC1BYnBzdVJEazl3SEVDSFlidmpVZDBaclB4UQ?oc=5",
           "source": "Morningstar",
-          "date": "2026-11-05T17:00:55.000Z"
+          "date": "2026-11-05T08:00:00.000Z"
         },
         {
           "title": "Restructured Canfor reports net loss, but maintains cautious confidence for future",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdThhQmlDeGJjRUI4REpyVFJCMFMwbXNHVjdyOW9EbVR0OHlCUTdad3ZGenJaSVJVOTZRNlU0eFFnbTVrNlBDMzFFemYzQ2l2NjQtQXJuVWRpQjVBb0tsR1poSnNEbktBQlU5c0tnRWZCeUpER2V5dEgxOUZfY2FhaVdGSkZHeW96eEY0LWdERldDcmlVTjJsNFNremx3VlZUT3JLN2J0dXpfWHlXMTdabA?oc=5",
           "source": "Vancouver Sun",
           "date": "2026-11-05T08:00:00.000Z"
+        },
+        {
+          "title": "A closer look at bats: West Fraser's research balances conservation and employee safety",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUXlidkhTXzl5TWE1UWM0T19PcU9wVzVZaWo1QjcyeEpHQ1ZuUWh1bENkYThqSTBfMEwwNTBfb0o2bXVfc19zMGpQRXJWUTQ2UFkyZFY2ZklYa2hKbUJmNmlFamhYZDh1WnIwQ2s1OWI0QXc0SGg1d0lrUENGWWFvSHl2bDgxMm5pa2t3S0VDUmJORWtCdm9YN1JPUVpSRkNISWtWSVpHUjFWNlpFTGprdjJHbE1Nd0xhZGNGbTNUOGwtSVFZSEQxVjNvYzY2SHhIZEJGZjgtdkJURE5aa2F1RQ?oc=5",
+          "source": "West Fraser Timber Co.",
+          "date": "2026-10-30T12:00:00.000Z"
         },
         {
           "title": "West Fraser Earnings: Lowering Fair Value Estimate as US Housing Woes Lead to Plant Curtailments",
@@ -2727,42 +2763,6 @@
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcXo2MVBoMEFNZkZYY01FN2VHanFtallMVnN4WHNsbU5xUTFUM1UzRVQzSjZxRnVBNDNCTUV1c0hKVW56OWw2a2RTcml4cHpOTFFZQnV5Z1h0eTlXM2dkYWdLbE80NDRNRVlCU2RQZ3BIVXhZeUMwWjZ2SjNNSXFlZ0NUZE44QUJjOC00dDRxRjVWOVFjU0pzemswcm9NOGhua0E?oc=5",
           "source": "Yahoo Finance",
           "date": "2026-10-30T07:00:00.000Z"
-        },
-        {
-          "title": "Health clinic gathers data for Weyerhaeuser mill toxic fume claims",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNXzk0QXZiV0RrWU9DSEQ4SVJLRkk1NExhU0tjVVlOa3NuVU1pMWgyOUNRUHR6Q3lELXZ0dzkwT0NjVWRjV2xRd1pTWE1PRXFSYWJkdmZaUDVaLXNKMS1fNlpMYUpoRUN6aUlESFFXNmJIUmxKSzNDWmk0QXlkNDNLYWMtZTFwWldPOHRDYlVTNEVRYklMQTEtQWhMUGlkOHlwcTljQ0JDS1ZvM3huWGdpOEN6ZDFZZEtoRjd3YmtpS29fNDN5MTl3MUhGTXJZV2Etc2c?oc=5",
-          "source": "Northwest Ontario News",
-          "date": "2026-10-09T07:00:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser to Release Third Quarter Results on October 29",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjF5WFFYcVYxNnlJY0JPSnNpRGlja3VoNDFMamVqZzZOZnN5WXBPVi1Mb2wwWFRCZThmTkV1Q2E0UjRnQ1cxS20xWVBGNTMxVk4tRFJCVHJjSkRtUUgzNTU2QzdKTGlGLXJKVGV4TzBXZERHeE9IcWc5VGhKWThkN2RDaG5zYW1qQUdWdjlmSEVhWEs2V1V4WUk4X0oxbWJReXhVWXpBZw?oc=5",
-          "source": "Weyerhaeuser Investor Relations",
-          "date": "2026-09-24T07:00:00.000Z"
-        },
-        {
-          "title": "GreenFirst Forest Products Stock Falls 4.21%: Why TSX:GFP Is Back in Focus as Lumber Prices, Tariffs and Mill Recovery Drive the Outlook",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWFVKMmVlY1RtcTZJX1JZMmFsbHZNOHdzZDVWTkRDalBjc3p0SjUwaHNSRDYtcmhlaFRFN0ktZHozOGpjM3l0NjZ3dzZjREw3WjFYZFM5RHhLa3VhU3dDSXpSeWY1a19NWmZuU1BzRXFlQ04yNnNoRzc3RXBBQUh1TEl4VTJMTlZDU2hEWXA0bHFkQjlReWJLNWlwdmVsNVZNc201amFjOVhsQUpGVjJkTjR6YTRsc1F1UVNNZ0NXZ0RTNkVNX1F6SXhXTy1odWFHdkZRUVk4dHlfVnk4cVBjXzJIQWhxeEROQWZ2RkxDYXV0RUQ0OEZfU2lMRQ?oc=5",
-          "source": "kalkine.ca",
-          "date": "2026-08-18T07:00:00.000Z"
-        },
-        {
-          "title": "Supporting B.C.\u2019s softwood lumber industry",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaDlaU3J1X3g5TGdVN0pkTG01U3A1cV83N0o3WkJ6eC1mMW5MQTM2NnNGUWcxaVFUS0UzM19yZjJhZjR4VFZ0YW5HdzZyMHpXVEg2Nm00RXhLeUdYYlFvVEswT252TkhqV0wyQjRGcngzMDV3MTJkOU94VDJRWDg0MWRsckY2YURvV0F5MVk2VXY4cVU?oc=5",
-          "source": "Government of British Columbia",
-          "date": "2026-08-11T07:00:00.000Z"
-        },
-        {
-          "title": "Home-Building Is Sputtering, but Lumber Prices Haven\u2019t Been So High in Years",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNblQ0Y2hkY3ZGR1lyWEZsT2VxNXBDNW9PZEQzR3lKblYzMlM5UHRjZHFEOE40c2pOS1MyMmRBN01STkYxX2xuZms2Z0J2NU9LRDJQNUc3REU5c0RYUkZ2cmdoV1J0aThuQVdLdkpsb2JyTEtHZlh3ak9hd00tSUl5VUtibUIzaHdFZHdmV09KTWxDVjloeUMxX1ZsX2RGV3BXQlZ0Ujdld2lQSFpfWVVDcG9IWHp6WGY5am5USEI5S2kzenExeUdfbHJFNA?oc=5",
-          "source": "WSJ",
-          "date": "2026-08-05T07:00:00.000Z"
-        },
-        {
-          "title": "West Fraser Earnings: Disappointing Quarter Despite a Strong Lumber Market",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNkp4NnZJdVJmSFhOci1NbkhkNFBheVd1SFl4emMwakhGVkhVbGxycThpYnBFMWc4aTlYU1NwOEtNOWRYektsTVpReTdCUXYtNjdlcElLeEJIY0xadjgwU21KZHdiR1hpR3I2Sy11eGRuc1hvSS1DdERJX29PbHRIb0pXM0NrRFFZVVZ4WWNBT3U3SHNzbG9VNWNjRFhVUGI0QktUZ1F1ZHljUVFwVE85LXlzbkdiQQ?oc=5",
-          "source": "Morningstar",
-          "date": "2026-07-31T07:00:00.000Z"
         }
       ]
     },
