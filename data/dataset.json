@@ -678,7 +678,7 @@
         },
         {
           "period": "2026-11",
-          "framing_composite": 537
+          "framing_composite": 540
         }
       ]
     },
@@ -2572,38 +2572,8 @@
       }
     ],
     "news": {
-      "fetchedAt": "2026-11-23T05:20:20.080Z",
+      "fetchedAt": "2026-11-23T17:11:02.386Z",
       "items": [
-        {
-          "title": "Canada Can\u2019t Shake Trump\u2019s Lumber Tariff, Even If It Lands a US Deal",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OVVU0U2RmMV84TUZJTmZxN3ctNnVvV1FXXzd0b1dUWE85Z083QWJnWUFtNjk1WkNOSDkyeVNFeDRSalo2cFYtS2JkeTVvWHRWcUdmY09Ua01OX1pJcFdkdWp5QQ?oc=5",
-          "source": "Wood Central",
-          "date": "2026-11-22T19:02:43.000Z"
-        },
-        {
-          "title": "Lumber futures rise 3.3% for week",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE56VWR1YUdoZ2huOXUydkJfT1ZMOU9RODIwZDZvUkd0Si1OZE9QSi13Z1hxcUtHVjNYSjg0QUU4RDF5MkhpNnhCdG1aZlJmMVNGc0VfVl9mb2hZdHJKWVhFQ3hYNkFVY3hYSWx0MHcyaHlLTVBTRzd2MjhCbm8?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-22T17:23:46.000Z"
-        },
-        {
-          "title": "Madison's Lumber Prices Index slips 1%, down 4% from October",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMTQ5QXRpX3hQZUxFQ1FBTFlEY2dLN3lVMUdhM19nNk9ORmQ5RFdLOEdZa2V6R2NNV1c4NGc5SjVCNUpWQzBaTDdlRzVkVk5uQmNzWW5qS09LRHJsaXlCa1R0Zld4MGdaSEtHMV82d3VUZDI1ZUMtYjR6dHNhOWJJTUJJbUxtZ09YNW12ZFo2RHVxa2VZMHZIRlVCMkM?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-22T17:14:44.000Z"
-        },
-        {
-          "title": "Madison\u2019s Lumber Prices Index Nov 20, 2026: US$440 mfbm",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSnUwLWhWUGlZXzdvX2FPU3hlRkpfVUQ3WkxDSnJ1QW9Ha0dJUG11VUVXMmZyTHZPa29JRVI4RWxTVUZKa3U5ZlAycnJtVVdEZnVTRW9Oa3NhQzR5V0s2NS10aXVNT2pjTzRkQ3VCUlBlb2gwZWhiaTBIS1BKd1JkZTdTeGhYVGZLMlZvUG9JdGZ4UVdSMHJrd1ZlQjVuZw?oc=5",
-          "source": "Red Book Lumber Data",
-          "date": "2026-11-21T05:57:17.000Z"
-        },
-        {
-          "title": "US trade war spurs Canada to further diversify its lumber market",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyd1JCWDdNNm1hSkRtLVc0ckRYclBYa3BObDBkRC1reDVaYXlwLVRCd0QxdURkTEVTb0tBOWVjRzRoWFROVzdrWURXVU9hQTk2OVFzOVZ2NlZsWlplTGpGbdIBXEFVX3lxTE5DVTNrZ01DVlJkdmJ4THotRVdGUzVDNXFVZ2FIUkFqZU5WMzhld18xSm01SkF0eDJHc1ozb3ZzNTVtSjR6VG5mbkgtcEFaMFFpck92d0hTcGR6RkZG?oc=5",
-          "source": "Modern Ghana",
-          "date": "2026-11-20T23:30:00.000Z"
-        },
         {
           "title": "US Custom Home Building Continues to Slow in Q3",
           "url": "https://getfea.com/end-use/us-custom-home-building-continues-to-slow-in-q3",
@@ -2640,24 +2610,6 @@
           "focus": true
         },
         {
-          "title": "Canfor (CFP) Q3 2026 Earnings Report - Results, Call & Slides",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SYlh4NFc1eTB5ellobFJGSmhyZ2FNbTJHdVBqOE14clNVNUhpMUdvb3RxYVpEMTV2cGRRRXdFSWdlSTF5NTNOaFdyVk9fRlZOU0p4azRzV1JBM3FFMEltODE2Ulp1WEJTYWxaUVZtMHo?oc=5",
-          "source": "TipRanks",
-          "date": "2026-11-20T20:28:37.000Z"
-        },
-        {
-          "title": "Imports of softwood lumber to China decrease 11.1% in October",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRF93Qi00cVlublNXX05qTkpYN0FnSmlDdW8xZDg0MEo0bVE1YW1HZXBlQTktRlRudmRFeFQwUjZySkJ2TjFVMzFCUk5VY3hmdExnTXUxWjNJVXJEazhYeWNUOHRxRkpac0xleWk3U1ZBUmxray1WMUwxNzFDS2Rnc0U5R3VCaFVUWlVSdVlZZXVfQlFlZmlFZ2RSa3pVZ1VDN0E?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-20T16:34:18.000Z"
-        },
-        {
-          "title": "PPI: Softwood Lumber Falls, Plastics Rise",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04Q2dRZnVQQXhra3RvZHpqbzhsYWRtY2pwQlYwaVJiRmZCSU5IV3RDdjVRWjBxMDFpWGp1Yzl5M3hLWk8wUGtJUzN1OG5NWmJpREttampVMGdWa3VGM3pSbGRublg0T0owaGg2dTRrdzJpOHZHQV95TUxKX2FncWs?oc=5",
-          "source": "Door and Window Market Magazine",
-          "date": "2026-11-20T06:49:19.000Z"
-        },
-        {
           "title": "US Amends Final Countervailing Duty Determinations in Seventh Review of Canadian Softwood Lumber",
           "url": "https://getfea.com/trade-dispute/us-amends-final-countervailing-duty-determinations-in-seventh-review-of-canadian-softwood-lumber",
           "source": "Forest Economic Advisors",
@@ -2691,78 +2643,6 @@
           "source": "Forest Economic Advisors",
           "date": "2026-11-19T22:44:03.000Z",
           "focus": true
-        },
-        {
-          "title": "Canadian softwood lumber producer prices rise 1.7% in October",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUVlGOGhMVmJ4N1ZQYUE1UXN4TEhFX3Z3c1VuenRUS3JLZGxHb3NCaGVLdHFFYk1QdFpxUFQ5UHVmY2JXSTFKVzBaRnNTOUFjV0U1UlZueHd5TVhBQlJRUWRLYUJIUzJVZXlBRFMwUFdFLWs1MzdXTmR5OFhQekZsXzYtOW5QNmdfUk13QVpMSmhuODFrS2xUY1FhUlE1YXlJbmc?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-19T16:01:07.000Z"
-        },
-        {
-          "title": "Canfor (TSX:CFP), Why Is The Latest Update Drawing Attention?",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWDU1T3Itd2kwNzBtcFZWR1V5T3VPODV1V21KZGhxemNTTExINDk3dmFIaU9NSzNxVzVnNVRkNWR6YnBGRnhFYWM0dGxNd24zQVQyVnk1X3dnUmdDbUR3SE5TR0FHNGNrRnFRSDFZcWttcDBvREhqMjBnZ3daREh6VEJoX29ZWGd6ODJCbF9HbHJJUUJt?oc=5",
-          "source": "Yahoo Finance",
-          "date": "2026-11-18T23:22:13.000Z"
-        },
-        {
-          "title": "Interfor posts third quarter loss of $46 million",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORzRKUTNiME5DQm9TcTFjZTJzZnUydTBTNFRSYnhac0NKdkR3M3BWTHJqR19vVXRSWjU1VXZkWXFZOFh2UXJPNW9neGIxOTE1SWNGbDZpZ0J2bHh6VGtJUGs0Sml1MFBaNTd4c2RyZDZGSlhxR0Zzcy1SQUhRQ2pQSzEzdWxuY3hQNGNUXzJmS09GSnRramtWeXVicWFTTG8?oc=5",
-          "source": "Woodworking Network",
-          "date": "2026-11-17T19:14:56.000Z"
-        },
-        {
-          "title": "CME Lumber Futures (LBR1!) Recover From Two-Year Lows",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVEVfV1RxeVVYRGZqTHhIS1l5SGx4YXZ3aWhuTHpfOHg5SUY1am5lS2F6ZzJZM0F0bTRhaEg2RENxMGVLRVVadi1oSUVqRGJob0cwYjhIR0wwT05xSkVzcGVvOU9TNEtfN2lHV3VMclZPSkZLal9QSkZpTE95WEhNbGRKSzIzUXloQkFfcmNaWWtWelpQ?oc=5",
-          "source": "Kalkine",
-          "date": "2026-11-17T08:25:00.000Z"
-        },
-        {
-          "title": "Lumber Clings to Two-Year Lows: West Fraser (TSX:WFG) and Weyerhaeuser (NYSE:WY) Wait for Housing and Tariff Signals",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNb00tekZVZENfV1ZJcVlkYXdOTFlNQlFnOV9NTWpPODdJNHdhQ3hYOTNydHprTjVLRmhyNTBEWGtRZ1FoWmZTclVKeDBDN01ORmo1T2xLU1BaMGc0R3lOSVRkMmRFa1BqQjNWVXpBdmRxLXNNYmhMNlB2TTdjZ1dEbjd1c29QdU1NejQ4V2J5b3RYZlBhNXkzLTlZQ2Z2cFVnTFpXNlRYaXZ6U2V3bTI1N3VCRHpqN18wMnlBeDhvSjBOMElXZG9Fd1dQYlowc2R0RmZRNXVhbi1Nc1RXQjFXaExNdw?oc=5",
-          "source": "Kalkine",
-          "date": "2026-11-17T05:20:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser Announces Leadership and Organizational Changes",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZzhzeGJ2WHFZRExIdVpuSkF4eFR6elF0SWZDckVKemM4dkF4b0ZySGNwa0pYVmdGOTBzTDJVVlB3dnRsYWJ6VzVTQmpBcTI5ZS0tTjFwek1zNXBjT1MzWHVFeDFKYXU1MHVwY0FjU3gyeGtITHZLXzlNRzY5ZUhJeVFzZ3oyVjBNZVdFUkFSdGtDM3V0REhBanRIRG9nUXdQUUZRakRYejk?oc=5",
-          "source": "Yahoo Finance UK",
-          "date": "2026-11-16T21:20:00.000Z"
-        },
-        {
-          "title": "European softwood lumber import prices edge up 0.9%, hardwood down 3.7%",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWkF4cEdUUG1ob2JOUEZOVlBlTXN2bllXb3VKX2tHMzBMWWw4RGFiOTYzLTV1eDBrOW1ucnd6ZUp5dGE4d1dzUDY2SVpMS1o5YnQwc19oSVlEYVotSFgtQXZwc3FWb21MbVMxVFMwMmhld1RfNk54ajlZSkJ4T2djUm9hUUkwdm1tWms4RHFzSEt4bzlXemtWdVpSR2dyZUNXVDhjZjZ4LTNvQnFD?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-16T19:35:57.000Z"
-        },
-        {
-          "title": "Lumber futures bounce 4% after two-year low",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6U1dwOF9NanZWbEdSUktqOFdnZnlZOHI4MHkwRE9takZRcUFBajV0c3pPZVVmZDZUbFZDVFNzNnQ4V0dFV0p3NFptVzd3STBkLW9FYjUtcXNnUDBxZFVmcVBVSlVXalNtLURZanZUQXZuZnFYWWVNag?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-15T16:22:38.000Z"
-        },
-        {
-          "title": "Louisiana-Pacific (LPX) Beat On Earnings, Is The Stock Still Cheap?",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWUp3VHBwZktCOWFNTjJMT0xfLXl2a1k3Wkd0LUdwTDU0RGRSTDkwdUt4LVNFSnRuU0Q3RXg5ck9wNWpOQjNsTG9pZnlrR2x5TnpiS215Z3lJQVpNNXF3MmYyWExNY0lTa2ZHY1VUMy1wRGlUemJwUXRPb1F4cGZmUlNmUXdzRFRVOEo4akZGZFNZdzF2MWdUUGxDOV8tY3NBa29EeWFiLUpQT01pYUpIa2ZIbE5sX0NMYnNzbGlxSlZWVE1uVmVjbmdDXzZJRWJMbGJINNIB2gFBVV95cUxOYUlaZ0Jxc3FGUk00R04zT0cwY1A2YzdfWVpVMW9tVlZacFg3MktSeHA0LW5lTHhldEZ1UXJMcXR4dDh4TVowb2VQRnNwcVB1WWh5UldDSktjdkpZaFZQZ0FwYkFSb0w1bG8xTHV6NDFBZ3dCV0VWOFpuREFFV2tackpuNXphclQ0SWFQa2szbWJmZXczTExNR2h3LS1FTWJVVllxR1E2bUdrazdodG1lTlhkOS1LVGluUll4aU1nNDR1S3o1eHhRY0E0eDhYMC15Um5wMTAtSmx2Zw?oc=5",
-          "source": "Simply Wall St",
-          "date": "2026-11-14T18:18:46.000Z"
-        },
-        {
-          "title": "Ataman Studio Architects Announces New Analysis of Lumber Prices and Residential Construction Costs",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWFR5c19QdEtTMWNwSk5CZ2NtZDdnZk5TeS1UQS1Qa2pGb285SW1MRmEwcXY1eXlJdUdtY2FTM2I1VWdmQWRkazRJRnF3NGx4RlFEaFNIYlpsQmp3U1VGTnNDdTBaMzBlRVpyZDhELUNXOTVvajV6bkhQWnlDbEdKRmlzV0FrMlBtWUZ4ZDMxS004c2tsLTBwQ3A2dGs3aFlRRHpLb0FhdXQxS1d5UzNSdTk0OFJRSXZSZXctbXhnSldPdzBsQnAzUEEySjk1MjhwMEdhMTNLVFFEelpsQjhrVg?oc=5",
-          "source": "Barchart.com",
-          "date": "2026-11-14T03:00:01.000Z"
-        },
-        {
-          "title": "Madison's Lumber Prices Index slips to $444 mfbm, down 10% from October",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYUZZVUN1RzZ4UkExQTdqSEhLdGVmMkZsYVVNTmdpa015alk0c1V0c1kwUWM1bGQzMllMRU1pMEk4bFpuWkpLZ0s3Yms3ZEI1SzViVlh0eFFCNzJsOGNWMVlYbU9iLU1WZC1CNFMzWlhBUW9ZTERrWjliLTZIaFBBek9NTWNVUk5yOGJrZTlSMlJVSzQ4OXkyUk5TcTZVWWVRZ0Q2NEZhSVFKWEE?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-14T02:29:05.000Z"
-        },
-        {
-          "title": "U.S. softwood lumber producer prices fall 3.1% in October",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUFpzVzRzRXU3dUp6RHo1VDllTTUyZEh4RTR1NVNrUFdzV3ZLNmhSb0JpekFOdk0xb1pvYUIwX01wTjRBdkJYZThSUnhXUEcycllhOUNXRG8xNkowSVBCYW5YTzVmd2ZvbjhaejBjdGJweERfMG9CcGxiN0dFeHJ4TGxFN2swQ3hRcWxzTVVmWlplOWp4WHNCY0I5UQ?oc=5",
-          "source": "Lesprom Network",
-          "date": "2026-11-13T16:32:36.000Z"
         }
       ]
     },
@@ -7125,21 +7005,21 @@
         "series": [
           {
             "period": "2026-11",
-            "mean": 737445,
-            "lo": 657320,
-            "hi": 827337
+            "mean": 737443,
+            "lo": 657318,
+            "hi": 827335
           },
           {
             "period": "2026-12",
-            "mean": 635873,
-            "lo": 562025,
-            "hi": 719423
+            "mean": 635870,
+            "lo": 562020,
+            "hi": 719424
           },
           {
             "period": "2027-01",
-            "mean": 737048,
-            "lo": 646330,
-            "hi": 840500
+            "mean": 737046,
+            "lo": 646323,
+            "hi": 840504
           }
         ]
       }
@@ -16157,11 +16037,11 @@
     ]
   },
   "fires": {
-    "asOf": "2026-11-23T05:20:22.837Z",
+    "asOf": "2026-11-23T17:11:03.338Z",
     "source": "NASA FIRMS \u2014 VIIRS 375m (NOAA-20 + S-NPP), last 48h",
     "dayRange": 2,
-    "total": 103,
-    "count": 103,
+    "total": 139,
+    "count": 139,
     "capped": false,
     "fields": [
       "lat",
@@ -16195,6 +16075,12 @@
         0
       ],
       [
+        55.657,
+        -116.38,
+        14,
+        0
+      ],
+      [
         50.727,
         -116.331,
         12,
@@ -16219,9 +16105,21 @@
         0
       ],
       [
+        55.658,
+        -116.387,
+        10,
+        0
+      ],
+      [
         41.463,
         -81.672,
         10,
+        0
+      ],
+      [
+        43.602,
+        -80.778,
+        9,
         0
       ],
       [
@@ -16243,6 +16141,12 @@
         0
       ],
       [
+        55.662,
+        -116.373,
+        8,
+        0
+      ],
+      [
         45.373,
         -123.412,
         7,
@@ -16257,6 +16161,18 @@
       [
         49.144,
         -116.351,
+        7,
+        0
+      ],
+      [
+        55.666,
+        -116.371,
+        7,
+        0
+      ],
+      [
+        55.666,
+        -116.378,
         7,
         0
       ],
@@ -16299,6 +16215,12 @@
       [
         46.819,
         -116.013,
+        6,
+        0
+      ],
+      [
+        55.654,
+        -116.395,
         6,
         0
       ],
@@ -16363,8 +16285,20 @@
         0
       ],
       [
+        50.671,
+        -110.038,
+        4,
+        0
+      ],
+      [
         48.02,
         -98.643,
+        4,
+        0
+      ],
+      [
+        41.683,
+        -87.427,
         4,
         0
       ],
@@ -16417,9 +16351,27 @@
         0
       ],
       [
+        41.368,
+        -84.921,
+        4,
+        0
+      ],
+      [
+        41.369,
+        -84.925,
+        4,
+        0
+      ],
+      [
         41.181,
         -87.858,
         4,
+        0
+      ],
+      [
+        41.643,
+        -87.409,
+        3,
         0
       ],
       [
@@ -16513,12 +16465,6 @@
         0
       ],
       [
-        41.365,
-        -84.923,
-        2,
-        0
-      ],
-      [
         41.478,
         -90.831,
         2,
@@ -16585,6 +16531,24 @@
         0
       ],
       [
+        41.671,
+        -87.459,
+        2,
+        0
+      ],
+      [
+        41.682,
+        -87.418,
+        2,
+        0
+      ],
+      [
+        41.666,
+        -87.427,
+        2,
+        0
+      ],
+      [
         42.817,
         -80.098,
         2,
@@ -16612,6 +16576,30 @@
         45.839,
         -73.257,
         2,
+        0
+      ],
+      [
+        54.017,
+        -128.691,
+        1,
+        0
+      ],
+      [
+        43.292,
+        -79.989,
+        1,
+        0
+      ],
+      [
+        41.614,
+        -87.33,
+        1,
+        0
+      ],
+      [
+        41.617,
+        -87.329,
+        1,
         0
       ],
       [
@@ -16651,6 +16639,12 @@
         0
       ],
       [
+        42.896,
+        -123.154,
+        1,
+        0
+      ],
+      [
         54.019,
         -128.68,
         1,
@@ -16659,6 +16653,12 @@
       [
         54.663,
         -128.683,
+        1,
+        0
+      ],
+      [
+        47.615,
+        -116.611,
         1,
         0
       ],
@@ -16675,14 +16675,38 @@
         0
       ],
       [
+        42.817,
+        -81.328,
+        1,
+        0
+      ],
+      [
         41.75,
         -81.286,
         1,
         0
       ],
       [
-        43.293,
-        -79.991,
+        41.664,
+        -87.48,
+        1,
+        0
+      ],
+      [
+        44.641,
+        -123.67,
+        1,
+        0
+      ],
+      [
+        41.415,
+        -88.185,
+        1,
+        0
+      ],
+      [
+        42.286,
+        -83.115,
         1,
         0
       ],
@@ -16693,8 +16717,26 @@
         0
       ],
       [
+        41.617,
+        -87.325,
+        1,
+        0
+      ],
+      [
+        47.852,
+        -116.905,
+        1,
+        0
+      ],
+      [
         43.703,
         -88.389,
+        1,
+        0
+      ],
+      [
+        41.623,
+        -87.347,
         1,
         0
       ],
@@ -16705,8 +16747,20 @@
         0
       ],
       [
+        41.46,
+        -83.366,
+        1,
+        0
+      ],
+      [
         46.492,
         -81.033,
+        1,
+        0
+      ],
+      [
+        42.725,
+        -83.263,
         1,
         0
       ],
@@ -16731,6 +16785,12 @@
       [
         42.946,
         -82.414,
+        1,
+        0
+      ],
+      [
+        47.543,
+        -117.043,
         1,
         0
       ],
@@ -16771,6 +16831,24 @@
         0
       ],
       [
+        42.954,
+        -76.573,
+        1,
+        0
+      ],
+      [
+        43.705,
+        -88.387,
+        1,
+        0
+      ],
+      [
+        41.635,
+        -83.506,
+        1,
+        0
+      ],
+      [
         42.943,
         -82.418,
         1,
@@ -16785,6 +16863,24 @@
       [
         44.526,
         -88.015,
+        0,
+        0
+      ],
+      [
+        42.258,
+        -83.428,
+        0,
+        0
+      ],
+      [
+        53.947,
+        -128.735,
+        0,
+        0
+      ],
+      [
+        41.734,
+        -83.52,
         0,
         0
       ]
